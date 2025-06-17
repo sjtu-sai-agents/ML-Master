@@ -19,7 +19,7 @@ ML-Master outperforms prior baselines on the **MLE-Bench**:
 |----------------------------|-----------------------|
 | 🥇 Average Medal Rate       | **29.3%**             |
 | 🧠 Medium Task Medal Rate   | **20.2%**, more than doubling the previous SOTA            | 
-| 🕒 Runtime Efficiency        | **< 12 hours**, 50% budget |
+| 🕒 Runtime Efficiency        | **12 hours**, 50% budget |
 
 ![ML-Master](./assets/ML-Master_score.png)
 
