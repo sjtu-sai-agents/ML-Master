@@ -1,4 +1,4 @@
-# ML-Master: Towards AI-for-AI via Intergration of Exploration and Reasoning
+# ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning
 
 > **Status**: 🔬 Manuscript | ⌛ Code Coming Soon
 
