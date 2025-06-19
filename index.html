@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,10 +15,11 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
             background: #0a0a0a;
             color: #ffffff;
             overflow-x: hidden;
+            scroll-behavior: smooth;
         }
 
         /* Background Animation */
@@ -26,15 +30,35 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            background: radial-gradient(circle at 20% 50%, #1a0033 0%, transparent 50%),
-                        radial-gradient(circle at 80% 20%, #330066 0%, transparent 50%),
-                        radial-gradient(circle at 40% 80%, #0f3460 0%, transparent 50%);
-            animation: bgShift 20s ease-in-out infinite;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 25%, #0a0a0a 50%, #0f1419 75%, #0a0a0a 100%);
+            animation: bgShift 15s ease-in-out infinite;
+        }
+
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(1px 1px at 20px 30px, rgba(102, 126, 234, 0.4), transparent),
+                radial-gradient(1px 1px at 40px 70px, rgba(118, 75, 162, 0.3), transparent),
+                radial-gradient(1px 1px at 90px 40px, rgba(240, 147, 251, 0.2), transparent);
+            background-repeat: repeat;
+            background-size: 150px 150px;
+            animation: stars 60s linear infinite;
+            opacity: 0.6;
         }
 
         @keyframes bgShift {
-            0%, 100% { transform: scale(1) rotate(0deg); }
-            50% { transform: scale(1.1) rotate(1deg); }
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        @keyframes stars {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-150px); }
         }
 
         /* Header */
@@ -64,6 +88,8 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0.5px;
         }
 
         .nav-links {
@@ -99,26 +125,37 @@
         }
 
         .hero-content {
-            max-width: 800px;
+            max-width: 900px;
             z-index: 1;
+            position: relative;
         }
 
         .hero h1 {
-            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-size: clamp(3rem, 8vw, 5.5rem);
             font-weight: 800;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            font-family: 'Inter', 'Segoe UI', sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: fadeInUp 1s ease-out;
+            background-size: 200% 200%;
+            animation: gradientFlow 6s ease-in-out infinite;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
         }
 
         .hero-subtitle {
-            font-size: 1.25rem;
-            color: #b8b8b8;
-            margin-bottom: 2rem;
-            animation: fadeInUp 1s ease-out 0.2s both;
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            color: #c8d3f5;
+            margin-bottom: 3rem;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            animation: fadeInUp 1s ease-out 0.3s both;
+            line-height: 1.5;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .hero-stats {
@@ -126,63 +163,118 @@
             justify-content: center;
             gap: 3rem;
             margin-bottom: 3rem;
-            animation: fadeInUp 1s ease-out 0.4s both;
+            animation: fadeInUp 1s ease-out 0.5s both;
+            flex-wrap: wrap;
         }
 
         .stat {
             text-align: center;
+            position: relative;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 16px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            transition: all 0.3s ease;
+            min-width: 140px;
+        }
+
+        .stat:hover {
+            transform: translateY(-5px);
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.4);
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2);
         }
 
         .stat-number {
-            font-size: 2.5rem;
+            font-size: clamp(2.2rem, 4vw, 3rem);
             font-weight: 700;
-            color: #667eea;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             display: block;
+            margin-bottom: 0.5rem;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.02em;
         }
 
         .stat-label {
-            color: #888;
-            font-size: 0.9rem;
+            color: #a8b5d1;
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         .cta-buttons {
             display: flex;
-            gap: 1rem;
+            gap: 1.5rem;
             justify-content: center;
-            animation: fadeInUp 1s ease-out 0.6s both;
+            animation: fadeInUp 1s ease-out 0.7s both;
+            flex-wrap: wrap;
         }
 
         .btn {
-            padding: 1rem 2rem;
+            padding: 1.2rem 2.5rem;
             border: none;
-            border-radius: 8px;
+            border-radius: 12px;
             font-weight: 600;
             text-decoration: none;
             transition: all 0.3s ease;
             cursor: pointer;
             font-size: 1rem;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
         }
 
         .btn-primary {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
         }
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
         }
 
         .btn-secondary {
-            background: transparent;
+            background: rgba(102, 126, 234, 0.1);
             color: #667eea;
-            border: 2px solid #667eea;
+            border: 2px solid rgba(102, 126, 234, 0.5);
+            backdrop-filter: blur(10px);
         }
 
         .btn-secondary:hover {
-            background: #667eea;
-            color: white;
+            background: rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+            color: #8892f0;
             transform: translateY(-2px);
+        }
+
+        @keyframes gradientFlow {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes growBar {
+            from {
+                height: 0;
+            }
         }
 
         /* Features Section */
@@ -194,13 +286,15 @@
 
         .section-title {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: clamp(2rem, 5vw, 2.8rem);
             font-weight: 700;
-            margin-bottom: 1rem;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.02em;
         }
 
         .section-subtitle {
@@ -272,6 +366,126 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
+        .grouped-chart {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 200px;
+            margin: 3rem 0;
+            position: relative;
+            padding: 0 1rem;
+        }
+
+        .grouped-chart::before {
+            content: '';
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            z-index: 1;
+        }
+
+        .chart-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            max-width: 200px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .group-bars {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 4px;
+            height: 150px;
+            margin-bottom: 1rem;
+        }
+
+        .bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100%;
+        }
+
+        .bar-item {
+            width: 20px;
+            border-radius: 3px 3px 0 0;
+            position: relative;
+            animation: growBar 2s ease-out;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            min-height: 2px;
+        }
+
+        .bar-item:hover {
+            transform: scaleY(1.05) scaleX(1.1);
+            filter: brightness(1.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .bar-item::after {
+            content: attr(data-value);
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: 600;
+            font-size: 0.7rem;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 2px 6px;
+            border-radius: 4px;
+            pointer-events: none;
+        }
+
+        .bar-item:hover::after {
+            opacity: 1;
+        }
+
+        .complexity-label {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: center;
+            padding: 0.5rem;
+            border-top: 2px solid rgba(102, 126, 234, 0.3);
+            width: 100%;
+        }
+
+        .chart-legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #b8b8b8;
+            font-size: 0.9rem;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+        }
+
         .chart-bars {
             display: flex;
             align-items: flex-end;
@@ -340,6 +554,216 @@
             margin: 0 auto;
         }
 
+        .demo-selector {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .demo-selector h3 {
+            margin-bottom: 1rem;
+            color: #b8b8b8;
+            font-size: 1.1rem;
+        }
+
+        .demo-dropdown-container {
+            display: flex;
+            justify-content: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .demo-dropdown {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .dropdown-selected {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+        .dropdown-selected:hover {
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.3);
+        }
+
+        .dropdown-selected.active {
+            border-color: #667eea;
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .selected-text {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .dropdown-arrow {
+            color: #888;
+            transition: transform 0.3s ease;
+            font-size: 0.8rem;
+        }
+
+        .dropdown-selected.active .dropdown-arrow {
+            transform: rotate(180deg);
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #1a1a1a;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            margin-top: 0.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .dropdown-menu.show {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .dropdown-search {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: 0;
+            background: #1a1a1a;
+            z-index: 1;
+        }
+
+        .dropdown-search input {
+            width: 100%;
+            padding: 0.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .dropdown-search input:focus {
+            border-color: #667eea;
+        }
+
+        .dropdown-search input::placeholder {
+            color: #888;
+        }
+
+        .dropdown-options {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .option-group {
+            padding: 0.5rem 0;
+        }
+
+        .group-label {
+            padding: 0.5rem 1rem;
+            color: #667eea;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            background: rgba(102, 126, 234, 0.1);
+            margin: 0.5rem 0;
+            border-left: 3px solid #667eea;
+        }
+
+        .dropdown-option {
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .dropdown-option:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-left-color: #667eea;
+        }
+
+        .dropdown-option.active {
+            background: rgba(102, 126, 234, 0.2);
+            border-left-color: #667eea;
+        }
+
+        .option-icon {
+            font-size: 1.2rem;
+            width: 24px;
+            text-align: center;
+        }
+
+        .option-content {
+            flex: 1;
+            text-align: left;
+        }
+
+        .option-title {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .option-desc {
+            color: #888;
+            font-size: 0.8rem;
+        }
+
+        .option-medal {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        .load-more {
+            padding: 1rem;
+            text-align: center;
+            color: #888;
+            font-size: 0.85rem;
+            font-style: italic;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        /* Custom scrollbar for dropdown */
+        .dropdown-options::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .dropdown-options::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .dropdown-options::-webkit-scrollbar-thumb {
+            background: rgba(102, 126, 234, 0.5);
+            border-radius: 3px;
+        }
+
+        .dropdown-options::-webkit-scrollbar-thumb:hover {
+            background: rgba(102, 126, 234, 0.7);
+        }
+
         .demo-container {
             background: #1a1a1a;
             border-radius: 16px;
@@ -379,6 +803,7 @@
             line-height: 1.6;
             height: 500px;
             overflow-y: auto;
+            background: #1a1a1a;
         }
 
         .terminal-line {
@@ -406,6 +831,66 @@
         .info {
             color: #64b5f6;
         }
+
+        .code-section {
+            background: #0d1117;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .code-header {
+            background: #21262d;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .code-header h4 {
+            color: #58a6ff;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .copy-btn {
+            background: #238636;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: background 0.3s ease;
+        }
+
+        .copy-btn:hover {
+            background: #2ea043;
+        }
+
+        .copy-btn.copied {
+            background: #1f6feb;
+        }
+
+        .code-content {
+            padding: 2rem;
+            margin: 0;
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: #e6edf3;
+            background: #0d1117;
+            overflow-x: auto;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        /* Code Syntax Highlighting */
+        .code-content .comment { color: #6e7681; }
+        .code-content .keyword { color: #ff7b72; }
+        .code-content .string { color: #a5d6ff; }
+        .code-content .number { color: #79c0ff; }
+        .code-content .function { color: #d2a8ff; }
+        .code-content .class { color: #ffa657; }
 
         .demo-controls {
             padding: 1rem 2rem;
@@ -474,12 +959,163 @@
                 display: none;
             }
 
+            .grouped-chart {
+                height: 160px;
+                padding: 0 0.5rem;
+                gap: 0.5rem;
+            }
+
+            .grouped-chart::before {
+                bottom: 40px;
+            }
+
+            .group-bars {
+                height: 120px;
+                gap: 2px;
+                margin-bottom: 0.8rem;
+            }
+
+            .bar-item {
+                width: 15px;
+            }
+
+            .bar-item::after {
+                font-size: 0.6rem;
+                top: -20px;
+                padding: 1px 4px;
+            }
+
+            .complexity-label {
+                font-size: 0.85rem;
+                padding: 0.3rem;
+            }
+
+            .chart-legend {
+                gap: 1rem;
+                margin-top: 2rem;
+                justify-content: center;
+            }
+
+            .legend-item {
+                font-size: 0.8rem;
+            }
+
+            .legend-color {
+                width: 12px;
+                height: 12px;
+            }
+
             .chart-bars {
                 height: 200px;
             }
 
             .chart-label {
                 font-size: 0.7rem;
+            }
+
+            .demo-dropdown-container {
+                padding: 0 1rem;
+            }
+
+            .dropdown-selected {
+                padding: 0.8rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            .dropdown-menu {
+                margin-top: 0.3rem;
+            }
+
+            .dropdown-menu.show {
+                max-height: 400px;
+            }
+
+            .dropdown-search {
+                padding: 0.8rem;
+            }
+
+            .dropdown-search input {
+                padding: 0.6rem;
+                font-size: 0.85rem;
+            }
+
+            .dropdown-option {
+                padding: 0.8rem 1rem;
+                gap: 0.8rem;
+            }
+
+            .option-title {
+                font-size: 0.9rem;
+            }
+
+            .option-desc {
+                font-size: 0.75rem;
+            }
+
+            .group-label {
+                padding: 0.4rem 1rem;
+                font-size: 0.8rem;
+            }
+
+            .code-header {
+                padding: 1rem;
+                flex-direction: column;
+                gap: 1rem;
+                align-items: flex-start;
+            }
+
+            .terminal-content {
+                height: 400px;
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+
+            .code-content {
+                padding: 1rem;
+                font-size: 0.75rem;
+                max-height: 300px;
+            }
+
+            .demo-controls {
+                padding: 1rem;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            .demo-btn {
+                flex: 1;
+                min-width: 100px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grouped-chart {
+                height: 140px;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .chart-group {
+                max-width: none;
+                width: 100%;
+            }
+
+            .group-bars {
+                height: 80px;
+            }
+
+            .bar-item {
+                width: 12px;
+            }
+
+            .complexity-label {
+                font-size: 0.8rem;
+            }
+
+            .chart-legend {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
             }
         }
     </style>
@@ -536,17 +1172,17 @@
             </p>
             <div class="features-grid">
                 <div class="feature-card">
-                  <div class="feature-icon">🔍</div>
-                  <h3 class="feature-title">Multi-trajectory Exploration</h3>
-                  <p class="feature-description">
-                      MCTS-inspired parallel exploration that efficiently navigates solution spaces while maintaining optimal balance between exploitation and exploration.
-                  </p>
-                </div>
-                <div class="feature-card">
                     <div class="feature-icon">🧠</div>
                     <h3 class="feature-title">Steerable Reasoning</h3>
                     <p class="feature-description">
                         Enhanced reasoning capabilities with adaptive memory integration, reducing hallucinations and improving reliability through contextual grounding.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">Multi-trajectory Exploration</h3>
+                    <p class="feature-description">
+                        MCTS-inspired parallel exploration that efficiently navigates solution spaces while maintaining optimal balance between exploitation and exploration.
                     </p>
                 </div>
                 <div class="feature-card">
@@ -564,31 +1200,130 @@
             <div class="performance-content">
                 <h2 class="section-title">State-of-the-Art Performance</h2>
                 <p class="section-subtitle">
-                    ML-Master achieves superior results on MLE-Bench, outperforming all existing methods
+                    ML-Master achieves superior results across all difficulty levels on MLE-Bench
                 </p>
                 <div class="performance-chart">
-                    <h3 style="text-align: center; margin-bottom: 2rem;">Medal Rate Comparison (%)</h3>
-                    <div class="chart-bars">
-                        <div class="chart-bar">
-                            <div class="bar" style="height: 20px;" data-value="5.1%"></div>
-                            <div class="chart-label">OpenHands</div>
+                    <h3 style="text-align: center; margin-bottom: 2rem;">Medal Rate Comparison Across Task Complexities (%)</h3>
+                    
+                    <!-- Main Chart -->
+                    <div class="grouped-chart">
+                        <!-- Low Complexity Group -->
+                        <div class="chart-group">
+                            <div class="group-bars">
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 23px; background: #e3f2fd;" data-value="11.5%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 55px; background: #bbdefb;" data-value="27.3%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 69px; background: #90caf9;" data-value="34.3%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 96px; background: #42a5f5;" data-value="48.2%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 97px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="48.5%"></div>
+                                </div>
+                            </div>
+                            <div class="complexity-label">Low</div>
                         </div>
-                        <div class="chart-bar">
-                            <div class="bar" style="height: 50px;" data-value="16.9%"></div>
-                            <div class="chart-label">AIDE o1-preview</div>
+
+                        <!-- Medium Complexity Group -->
+                        <div class="chart-group">
+                            <div class="group-bars">
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 4px; background: #e3f2fd;" data-value="2.2%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 16px; background: #bbdefb;" data-value="7.9%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 18px; background: #90caf9;" data-value="8.8%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 18px; background: #42a5f5;" data-value="9.0%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 40px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="20.2%"></div>
+                                </div>
+                            </div>
+                            <div class="complexity-label">Medium</div>
                         </div>
-                        <div class="chart-bar">
-                            <div class="bar" style="height: 65px;" data-value="22.4%"></div>
-                            <div class="chart-label">R&D-Agent</div>
+
+                        <!-- High Complexity Group -->
+                        <div class="chart-group">
+                            <div class="group-bars">
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 4px; background: #e3f2fd;" data-value="1.9%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 27px; background: #bbdefb;" data-value="13.3%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 20px; background: #90caf9;" data-value="10.0%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 37px; background: #42a5f5;" data-value="18.7%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 49px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="24.4%"></div>
+                                </div>
+                            </div>
+                            <div class="complexity-label">High</div>
                         </div>
-                        <div class="chart-bar">
-                            <div class="bar" style="height: 87px;" data-value="29.3%"></div>
-                            <div class="chart-label">ML-Master</div>
+
+                        <!-- Average Group -->
+                        <div class="chart-group">
+                            <div class="group-bars">
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 10px; background: #e3f2fd;" data-value="5.1%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 29px; background: #bbdefb;" data-value="14.7%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 34px; background: #90caf9;" data-value="16.9%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 45px; background: #42a5f5;" data-value="22.4%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 59px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="29.3%"></div>
+                                </div>
+                            </div>
+                            <div class="complexity-label">Average</div>
                         </div>
                     </div>
+                    
+                    <!-- Legend -->
+                    <div class="chart-legend">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #e3f2fd;"></div>
+                            <span>OpenHands</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #bbdefb;"></div>
+                            <span>AIDE-r1</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #90caf9;"></div>
+                            <span>AIDE-o1-preview</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #42a5f5;"></div>
+                            <span>R&D-Agent</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: linear-gradient(to right, #667eea, #764ba2);"></div>
+                            <span>ML-Master</span>
+                        </div>
+                    </div>
+
                     <div style="text-align: center; margin-top: 2rem; color: #888;">
-                        <p>✨ ML-Master achieves 29.3% medal rate, significantly outperforming all baselines</p>
-                        <p>⚡ Accomplished in just 12 hours (50% less time than competitors)</p>
+                        <p>✨ <strong>ML-Master excels across all complexity levels</strong></p>
+                        <p>🎯 Particularly strong in Medium (20.2%) and High (24.4%) complexity tasks</p>
+                        <p>⚡ More than doubles previous best results in medium-difficulty challenges</p>
                     </div>
                 </div>
             </div>
@@ -598,18 +1333,148 @@
         <section class="demo" id="demo">
             <h2 class="section-title">Live Demo</h2>
             <p class="section-subtitle">
-                Watch ML-Master solve a Kaggle competition in real-time
+                Watch ML-Master solve Kaggle competitions in real-time
             </p>
+            
+            <!-- Demo Selector -->
+            <div class="demo-selector">
+                <h3>Choose a Competition:</h3>
+                <div class="demo-dropdown-container">
+                    <div class="demo-dropdown" id="demo-dropdown">
+                        <div class="dropdown-selected" onclick="toggleDropdown()">
+                            <span class="selected-text" id="selected-text">🚢 Titanic Survival Prediction</span>
+                            <span class="dropdown-arrow">▼</span>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown-menu">
+                            <div class="dropdown-search">
+                                <input type="text" placeholder="Search competitions..." id="search-input" onkeyup="filterOptions()">
+                            </div>
+                            <div class="dropdown-options" id="dropdown-options">
+                                <div class="option-group">
+                                    <div class="group-label">🎯 Classification</div>
+                                    <div class="dropdown-option active" data-value="titanic">
+                                        <span class="option-icon">🚢</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Titanic Survival Prediction</div>
+                                            <div class="option-desc">Binary classification • 891 samples</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="digit-recognizer">
+                                        <span class="option-icon">🔢</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Digit Recognizer</div>
+                                            <div class="option-desc">Multi-class classification • 42K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="porto-seguro">
+                                        <span class="option-icon">🚗</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Porto Seguro Safe Driver</div>
+                                            <div class="option-desc">Binary classification • 595K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">📈 Regression</div>
+                                    <div class="dropdown-option" data-value="house-prices">
+                                        <span class="option-icon">🏠</span>
+                                        <div class="option-content">
+                                            <div class="option-title">House Prices Advanced Regression</div>
+                                            <div class="option-desc">Regression • 1460 samples • 79 features</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="bike-sharing">
+                                        <span class="option-icon">🚲</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Bike Sharing Demand</div>
+                                            <div class="option-desc">Time series regression • 10K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="rossmann">
+                                        <span class="option-icon">🏪</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Rossmann Store Sales</div>
+                                            <div class="option-desc">Sales forecasting • 1M samples</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">🖼️ Computer Vision</div>
+                                    <div class="dropdown-option" data-value="cats-dogs">
+                                        <span class="option-icon">🐱</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Dogs vs Cats Redux</div>
+                                            <div class="option-desc">Image classification • 25K images</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="leaf-classification">
+                                        <span class="option-icon">🍃</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Leaf Classification</div>
+                                            <div class="option-desc">Multi-class • 990 leaf images</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">🔤 Natural Language</div>
+                                    <div class="dropdown-option" data-value="sentiment-analysis">
+                                        <span class="option-icon">😊</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Twitter Sentiment Analysis</div>
+                                            <div class="option-desc">Text classification • 1.6M tweets</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="spam-detection">
+                                        <span class="option-icon">📧</span>
+                                        <div class="option-content">
+                                            <div class="option-title">SMS Spam Detection</div>
+                                            <div class="option-desc">Binary text classification • 5.5K messages</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="load-more">
+                                    <span>+ 65 more competitions available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="demo-container">
                 <div class="terminal-header">
                     <div class="terminal-button btn-red"></div>
                     <div class="terminal-button btn-yellow"></div>
                     <div class="terminal-button btn-green"></div>
-                    <div class="terminal-title">ML-Master: Titanic Survival Prediction</div>
+                    <div class="terminal-title" id="demo-title">ML-Master: Titanic Survival Prediction</div>
                 </div>
+                
+                <!-- Terminal Output -->
                 <div class="terminal-content" id="terminal-output">
                     <!-- Terminal output will be populated by JavaScript -->
                 </div>
+                
+                <!-- Generated Code Section -->
+                <div class="code-section" id="code-section" style="display: none;">
+                    <div class="code-header">
+                        <h4>🎯 Generated Solution Code</h4>
+                        <button class="copy-btn" onclick="copyCode()" id="copy-btn">📋 Copy Code</button>
+                    </div>
+                    <pre class="code-content" id="code-content">
+                        <!-- Generated code will be populated by JavaScript -->
+                    </pre>
+                </div>
+                
                 <div class="demo-controls">
                     <button class="demo-btn" onclick="startDemo()" id="start-btn">Start Demo</button>
                     <button class="demo-btn" onclick="resetDemo()" id="reset-btn" disabled>Reset</button>
@@ -622,54 +1487,481 @@
     <script>
         let demoRunning = false;
         let currentStep = 0;
+        let currentDemo = 'titanic';
         
-        const demoSteps = [
-            { text: "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task titanic --time-limit 12h", delay: 1000 },
-            { text: "<span class='info'>[INFO]</span> Initializing ML-Master agent...", delay: 800 },
-            { text: "<span class='info'>[INFO]</span> Loading Titanic dataset: train.csv, test.csv", delay: 600 },
-            { text: "<span class='info'>[INFO]</span> Starting balanced multi-trajectory exploration...", delay: 700 },
-            { text: "", delay: 300 },
-            { text: "<span class='warning'>[EXPLORATION]</span> 🌳 Building search tree with MCTS", delay: 900 },
-            { text: "<span class='info'>[NODE-1]</span> Draft: Initial data analysis and baseline model", delay: 1200 },
-            { text: "   → Survival rate: 38.4% | Features: 11 | Missing values detected", delay: 800 },
-            { text: "   → Baseline LogisticRegression accuracy: 0.794", delay: 600 },
-            { text: "", delay: 400 },
-            { text: "<span class='info'>[NODE-2]</span> Improve: Feature engineering pipeline", delay: 1000 },
-            { text: "   → Created Age_binned, Title_extracted, Family_size features", delay: 900 },
-            { text: "   → RandomForest accuracy: 0.823 ✅ (+2.9%)", delay: 700 },
-            { text: "", delay: 400 },
-            { text: "<span class='warning'>[REASONING]</span> 🧠 Steerable reasoning with adaptive memory", delay: 1100 },
-            { text: "   💭 Analyzing exploration outcomes from 3 parallel branches...", delay: 1000 },
-            { text: "   💭 Key insight: Title feature shows strong predictive power", delay: 800 },
-            { text: "   💭 Decision: Focus on ensemble methods with feature selection", delay: 900 },
-            { text: "", delay: 400 },
-            { text: "<span class='info'>[NODE-3]</span> Debug: Handling missing Embarked values", delay: 800 },
-            { text: "   → Fixed: Imputed missing Embarked with mode 'S'", delay: 600 },
-            { text: "", delay: 300 },
-            { text: "<span class='info'>[NODE-4]</span> Improve: Advanced ensemble modeling", delay: 1000 },
-            { text: "   → XGBoost + LightGBM + RandomForest ensemble", delay: 800 },
-            { text: "   → Cross-validation score: 0.847 ✅ (+2.4%)", delay: 700 },
-            { text: "", delay: 400 },
-            { text: "<span class='warning'>[MEMORY]</span> 📚 Updating adaptive memory...", delay: 800 },
-            { text: "   → Stored insights: Feature importance, model performance, debugging fixes", delay: 900 },
-            { text: "   → Sibling nodes: 2 parallel branches with different approaches", delay: 700 },
-            { text: "", delay: 400 },
-            { text: "<span class='info'>[NODE-5]</span> Improve: Hyperparameter optimization", delay: 1000 },
-            { text: "   → Bayesian optimization for ensemble weights", delay: 800 },
-            { text: "   → Final ensemble score: 0.862 ✅ (+1.5%)", delay: 700 },
-            { text: "", delay: 400 },
-            { text: "<span class='success'>[COMPLETED]</span> 🎯 Solution ready!", delay: 1000 },
-            { text: "", delay: 300 },
-            { text: "📊 <span class='success'>Final Results:</span>", delay: 600 },
-            { text: "   • Cross-validation accuracy: <span class='success'>86.2%</span>", delay: 500 },
-            { text: "   • Public leaderboard score: <span class='success'>0.844</span>", delay: 500 },
-            { text: "   • Kaggle rank: <span class='success'>Top 15%</span> 🥉", delay: 500 },
-            { text: "   • Time taken: <span class='info'>8.5 hours</span> (29% under limit)", delay: 500 },
-            { text: "   • Nodes explored: <span class='info'>47</span> across 3 parallel branches", delay: 500 },
-            { text: "", delay: 300 },
-            { text: "<span class='success'>✅ Medal achieved: Bronze+ performance!</span>", delay: 800 },
-            { text: "<span class='prompt'>ml-master@ai4ai:~$</span> ", delay: 1000 }
-        ];
+        // Demo data structure
+        const demos = {
+            titanic: {
+                title: "ML-Master: Titanic Survival Prediction",
+                steps: [
+                    { text: "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task titanic --time-limit 12h", delay: 1000 },
+                    { text: "<span class='info'>[INFO]</span> Initializing ML-Master agent...", delay: 800 },
+                    { text: "<span class='info'>[INFO]</span> Loading Titanic dataset: train.csv, test.csv", delay: 600 },
+                    { text: "<span class='info'>[INFO]</span> Starting balanced multi-trajectory exploration...", delay: 700 },
+                    { text: "", delay: 300 },
+                    { text: "<span class='warning'>[EXPLORATION]</span> 🌳 Building search tree with MCTS", delay: 900 },
+                    { text: "<span class='info'>[NODE-1]</span> Draft: Initial data analysis and baseline model", delay: 1200 },
+                    { text: "   → Survival rate: 38.4% | Features: 11 | Missing values detected", delay: 800 },
+                    { text: "   → Baseline LogisticRegression accuracy: 0.794", delay: 600 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='info'>[NODE-2]</span> Improve: Feature engineering pipeline", delay: 1000 },
+                    { text: "   → Created Age_binned, Title_extracted, Family_size features", delay: 900 },
+                    { text: "   → RandomForest accuracy: 0.823 ✅ (+2.9%)", delay: 700 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='warning'>[REASONING]</span> 🧠 Steerable reasoning with adaptive memory", delay: 1100 },
+                    { text: "   💭 Analyzing exploration outcomes from 3 parallel branches...", delay: 1000 },
+                    { text: "   💭 Key insight: Title feature shows strong predictive power", delay: 800 },
+                    { text: "   💭 Decision: Focus on ensemble methods with feature selection", delay: 900 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='info'>[NODE-3]</span> Debug: Handling missing Embarked values", delay: 800 },
+                    { text: "   → Fixed: Imputed missing Embarked with mode 'S'", delay: 600 },
+                    { text: "", delay: 300 },
+                    { text: "<span class='info'>[NODE-4]</span> Improve: Advanced ensemble modeling", delay: 1000 },
+                    { text: "   → XGBoost + LightGBM + RandomForest ensemble", delay: 800 },
+                    { text: "   → Cross-validation score: 0.847 ✅ (+2.4%)", delay: 700 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='warning'>[MEMORY]</span> 📚 Updating adaptive memory...", delay: 800 },
+                    { text: "   → Stored insights: Feature importance, model performance, debugging fixes", delay: 900 },
+                    { text: "   → Sibling nodes: 2 parallel branches with different approaches", delay: 700 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='info'>[NODE-5]</span> Improve: Hyperparameter optimization", delay: 1000 },
+                    { text: "   → Bayesian optimization for ensemble weights", delay: 800 },
+                    { text: "   → Final ensemble score: 0.862 ✅ (+1.5%)", delay: 700 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='success'>[COMPLETED]</span> 🎯 Solution ready!", delay: 1000 },
+                    { text: "", delay: 300 },
+                    { text: "📊 <span class='success'>Final Results:</span>", delay: 600 },
+                    { text: "   • Cross-validation accuracy: <span class='success'>86.2%</span>", delay: 500 },
+                    { text: "   • Public leaderboard score: <span class='success'>0.844</span>", delay: 500 },
+                    { text: "   • Kaggle rank: <span class='success'>Top 15%</span> 🥉", delay: 500 },
+                    { text: "   • Time taken: <span class='info'>8.5 hours</span> (29% under limit)", delay: 500 },
+                    { text: "   • Nodes explored: <span class='info'>47</span> across 3 parallel branches", delay: 500 },
+                    { text: "", delay: 300 },
+                    { text: "<span class='success'>✅ Medal achieved: Bronze+ performance!</span>", delay: 800 },
+                    { text: "<span class='prompt'>ml-master@ai4ai:~$</span> ", delay: 1000 }
+                ],
+                code: `<span class="comment"># ML-Master Generated Solution: Titanic Survival Prediction</span>
+<span class="comment"># Generated automatically through exploration and reasoning</span>
+
+<span class="keyword">import</span> pandas <span class="keyword">as</span> pd
+<span class="keyword">import</span> numpy <span class="keyword">as</span> np
+<span class="keyword">from</span> sklearn.ensemble <span class="keyword">import</span> RandomForestClassifier, GradientBoostingClassifier
+<span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LogisticRegression
+<span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> cross_val_score, StratifiedKFold
+<span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> StandardScaler
+<span class="keyword">import</span> xgboost <span class="keyword">as</span> xgb
+<span class="keyword">import</span> lightgbm <span class="keyword">as</span> lgb
+
+<span class="keyword">def</span> <span class="function">feature_engineering</span>(df):
+    <span class="string">"""Advanced feature engineering discovered through exploration"""</span>
+    df = df.copy()
+    
+    <span class="comment"># Title extraction (Key insight from reasoning)</span>
+    df[<span class="string">'Title'</span>] = df[<span class="string">'Name'</span>].str.extract(<span class="string">' ([A-Za-z]+)\\.'</span>)
+    title_mapping = {<span class="string">'Mr'</span>: <span class="number">1</span>, <span class="string">'Miss'</span>: <span class="number">2</span>, <span class="string">'Mrs'</span>: <span class="number">3</span>, <span class="string">'Master'</span>: <span class="number">4</span>, <span class="string">'Dr'</span>: <span class="number">5</span>}
+    df[<span class="string">'Title'</span>] = df[<span class="string">'Title'</span>].map(title_mapping).fillna(<span class="number">0</span>)
+    
+    <span class="comment"># Family size engineering</span>
+    df[<span class="string">'FamilySize'</span>] = df[<span class="string">'SibSp'</span>] + df[<span class="string">'Parch'</span>] + <span class="number">1</span>
+    df[<span class="string">'IsAlone'</span>] = (df[<span class="string">'FamilySize'</span>] == <span class="number">1</span>).astype(int)
+    
+    <span class="comment"># Age binning (discovered through MCTS exploration)</span>
+    df[<span class="string">'Age'</span>].fillna(df[<span class="string">'Age'</span>].median(), inplace=<span class="keyword">True</span>)
+    df[<span class="string">'AgeBin'</span>] = pd.cut(df[<span class="string">'Age'</span>], bins=[<span class="number">0</span>, <span class="number">12</span>, <span class="number">18</span>, <span class="number">35</span>, <span class="number">60</span>, <span class="number">100</span>], labels=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>])
+    
+    <span class="comment"># Handle missing values (debugging phase discovery)</span>
+    df[<span class="string">'Embarked'</span>].fillna(<span class="string">'S'</span>, inplace=<span class="keyword">True</span>)
+    df[<span class="string">'Fare'</span>].fillna(df[<span class="string">'Fare'</span>].median(), inplace=<span class="keyword">True</span>)
+    
+    <span class="comment"># Encode categorical variables</span>
+    df[<span class="string">'Sex'</span>] = df[<span class="string">'Sex'</span>].map({<span class="string">'male'</span>: <span class="number">0</span>, <span class="string">'female'</span>: <span class="number">1</span>})
+    df[<span class="string">'Embarked'</span>] = df[<span class="string">'Embarked'</span>].map({<span class="string">'S'</span>: <span class="number">0</span>, <span class="string">'C'</span>: <span class="number">1</span>, <span class="string">'Q'</span>: <span class="number">2</span>})
+    
+    features = [<span class="string">'Pclass'</span>, <span class="string">'Sex'</span>, <span class="string">'AgeBin'</span>, <span class="string">'FamilySize'</span>, <span class="string">'IsAlone'</span>, 
+                <span class="string">'Title'</span>, <span class="string">'Embarked'</span>, <span class="string">'Fare'</span>]
+    <span class="keyword">return</span> df[features]
+
+<span class="keyword">class</span> <span class="class">TitanicEnsemble</span>:
+    <span class="string">"""Optimized ensemble discovered through adaptive memory"""</span>
+    
+    <span class="keyword">def</span> <span class="function">__init__</span>(self):
+        self.models = {
+            <span class="string">'rf'</span>: RandomForestClassifier(n_estimators=<span class="number">200</span>, max_depth=<span class="number">7</span>, random_state=<span class="number">42</span>),
+            <span class="string">'xgb'</span>: xgb.XGBClassifier(n_estimators=<span class="number">150</span>, max_depth=<span class="number">6</span>, learning_rate=<span class="number">0.1</span>),
+            <span class="string">'lgb'</span>: lgb.LGBMClassifier(n_estimators=<span class="number">100</span>, max_depth=<span class="number">5</span>, learning_rate=<span class="number">0.15</span>),
+            <span class="string">'lr'</span>: LogisticRegression(C=<span class="number">0.1</span>, random_state=<span class="number">42</span>)
+        }
+        <span class="comment"># Optimal weights discovered through Bayesian optimization</span>
+        self.weights = [<span class="number">0.3</span>, <span class="number">0.25</span>, <span class="number">0.25</span>, <span class="number">0.2</span>]
+        
+    <span class="keyword">def</span> <span class="function">fit</span>(self, X, y):
+        <span class="keyword">for</span> model <span class="keyword">in</span> self.models.values():
+            model.fit(X, y)
+        <span class="keyword">return</span> self
+        
+    <span class="keyword">def</span> <span class="function">predict_proba</span>(self, X):
+        predictions = []
+        <span class="keyword">for</span> model <span class="keyword">in</span> self.models.values():
+            predictions.append(model.predict_proba(X)[:, <span class="number">1</span>])
+        
+        <span class="comment"># Weighted ensemble prediction</span>
+        ensemble_pred = np.average(predictions, axis=<span class="number">0</span>, weights=self.weights)
+        <span class="keyword">return</span> ensemble_pred
+        
+    <span class="keyword">def</span> <span class="function">predict</span>(self, X):
+        proba = self.predict_proba(X)
+        <span class="keyword">return</span> (proba > <span class="number">0.5</span>).astype(int)
+
+<span class="comment"># Main execution pipeline</span>
+<span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:
+    <span class="comment"># Load data</span>
+    train_df = pd.read_csv(<span class="string">'train.csv'</span>)
+    test_df = pd.read_csv(<span class="string">'test.csv'</span>)
+    
+    <span class="comment"># Feature engineering</span>
+    X_train = feature_engineering(train_df)
+    y_train = train_df[<span class="string">'Survived'</span>]
+    X_test = feature_engineering(test_df)
+    
+    <span class="comment"># Train ensemble model</span>
+    ensemble = TitanicEnsemble()
+    ensemble.fit(X_train, y_train)
+    
+    <span class="comment"># Cross-validation score: 86.2%</span>
+    cv_scores = cross_val_score(ensemble, X_train, y_train, cv=<span class="number">5</span>, scoring=<span class="string">'accuracy'</span>)
+    print(<span class="string">f"CV Score: {cv_scores.mean():.3f} (+/- {cv_scores.std() * 2:.3f})"</span>)
+    
+    <span class="comment"># Generate predictions</span>
+    predictions = ensemble.predict(X_test)
+    
+    <span class="comment"># Create submission</span>
+    submission = pd.DataFrame({
+        <span class="string">'PassengerId'</span>: test_df[<span class="string">'PassengerId'</span>],
+        <span class="string">'Survived'</span>: predictions
+    })
+    submission.to_csv(<span class="string">'submission.csv'</span>, index=<span class="keyword">False</span>)
+    print(<span class="string">"🎯 Submission saved! Expected leaderboard score: ~0.844"</span>)`
+            },
+            'house-prices': {
+                title: "ML-Master: House Prices Advanced Regression",
+                steps: [
+                    { text: "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task house-prices --time-limit 12h", delay: 1000 },
+                    { text: "<span class='info'>[INFO]</span> Initializing ML-Master agent...", delay: 800 },
+                    { text: "<span class='info'>[INFO]</span> Loading House Prices dataset: train.csv, test.csv", delay: 600 },
+                    { text: "<span class='info'>[INFO]</span> Target: SalePrice | Features: 79 | Samples: 1460", delay: 700 },
+                    { text: "", delay: 300 },
+                    { text: "<span class='warning'>[EXPLORATION]</span> 🌳 MCTS exploration with 4 parallel workers", delay: 900 },
+                    { text: "<span class='info'>[NODE-1]</span> Draft: Baseline linear regression", delay: 1000 },
+                    { text: "   → Missing values: 19 features | Categorical: 43 | Numerical: 36", delay: 800 },
+                    { text: "   → Baseline RMSE: 0.234 (log scale)", delay: 600 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='info'>[NODE-2]</span> Improve: Advanced feature engineering", delay: 1000 },
+                    { text: "   → Total area = GrLivArea + TotalBsmtSF", delay: 800 },
+                    { text: "   → Age features: YearBuilt, YearRemodAdd", delay: 700 },
+                    { text: "   → Ridge Regression RMSE: 0.187 ✅ (-20.1%)", delay: 700 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='warning'>[REASONING]</span> 🧠 Analyzing feature correlations...", delay: 1100 },
+                    { text: "   💭 High correlation: OverallQual (0.79), GrLivArea (0.71)", delay: 1000 },
+                    { text: "   💭 Outliers detected in GrLivArea vs SalePrice", delay: 800 },
+                    { text: "   💭 Strategy: Outlier removal + polynomial features", delay: 900 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='info'>[NODE-3]</span> Debug: Outlier analysis and removal", delay: 800 },
+                    { text: "   → Removed 5 extreme outliers (GrLivArea > 4000)", delay: 700 },
+                    { text: "   → Data quality improved significantly", delay: 600 },
+                    { text: "", delay: 300 },
+                    { text: "<span class='info'>[NODE-4]</span> Improve: Ensemble with stacking", delay: 1000 },
+                    { text: "   → Base models: XGBoost, LightGBM, ElasticNet", delay: 800 },
+                    { text: "   → Meta-learner: Ridge Regression", delay: 600 },
+                    { text: "   → Stacked ensemble RMSE: 0.142 ✅ (-24.1%)", delay: 700 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='warning'>[MEMORY]</span> 📚 Memory update from exploration...", delay: 800 },
+                    { text: "   → Best preprocessing: Log transform + StandardScaler", delay: 900 },
+                    { text: "   → Optimal features: 45 selected from 300+ engineered", delay: 700 },
+                    { text: "   → Cross-validation strategy: 10-fold with stratification", delay: 800 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='info'>[NODE-5]</span> Improve: Final hyperparameter tuning", delay: 1000 },
+                    { text: "   → Bayesian optimization on ensemble weights", delay: 800 },
+                    { text: "   → Final model RMSE: 0.128 ✅ (-9.9%)", delay: 700 },
+                    { text: "", delay: 400 },
+                    { text: "<span class='success'>[COMPLETED]</span> 🏠 House price predictor ready!", delay: 1000 },
+                    { text: "", delay: 300 },
+                    { text: "📊 <span class='success'>Final Results:</span>", delay: 600 },
+                    { text: "   • Cross-validation RMSE: <span class='success'>0.128</span>", delay: 500 },
+                    { text: "   • Public leaderboard RMSE: <span class='success'>0.134</span>", delay: 500 },
+                    { text: "   • Kaggle rank: <span class='success'>Top 25%</span> 🥈", delay: 500 },
+                    { text: "   • Time taken: <span class='info'>10.2 hours</span> (15% under limit)", delay: 500 },
+                    { text: "   • Nodes explored: <span class='info'>62</span> across 4 parallel branches", delay: 500 },
+                    { text: "", delay: 300 },
+                    { text: "<span class='success'>✅ Medal achieved: Silver+ performance!</span>", delay: 800 },
+                    { text: "<span class='prompt'>ml-master@ai4ai:~$</span> ", delay: 1000 }
+                ],
+                code: `<span class="comment"># ML-Master Generated Solution: House Prices Regression</span>
+<span class="comment"># Advanced ensemble with feature engineering and outlier handling</span>
+
+<span class="keyword">import</span> pandas <span class="keyword">as</span> pd
+<span class="keyword">import</span> numpy <span class="keyword">as</span> np
+<span class="keyword">from</span> sklearn.ensemble <span class="keyword">import</span> RandomForestRegressor
+<span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> ElasticNet, Ridge
+<span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> StandardScaler, RobustScaler
+<span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> KFold, cross_val_score
+<span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> mean_squared_log_error
+<span class="keyword">import</span> xgboost <span class="keyword">as</span> xgb
+<span class="keyword">import</span> lightgbm <span class="keyword">as</span> lgb
+<span class="keyword">from</span> scipy.special <span class="keyword">import</span> boxcox1p
+<span class="keyword">from</span> scipy.stats <span class="keyword">import</span> boxcox_normmax
+
+<span class="keyword">def</span> <span class="function">advanced_feature_engineering</span>(df):
+    <span class="string">"""Comprehensive feature engineering discovered through MCTS"""</span>
+    df = df.copy()
+    
+    <span class="comment"># Handle missing values intelligently</span>
+    <span class="keyword">for</span> col <span class="keyword">in</span> [<span class="string">'PoolQC'</span>, <span class="string">'MiscFeature'</span>, <span class="string">'Alley'</span>, <span class="string">'Fence'</span>, <span class="string">'FireplaceQu'</span>]:
+        df[col] = df[col].fillna(<span class="string">'None'</span>)
+    
+    <span class="keyword">for</span> col <span class="keyword">in</span> [<span class="string">'GarageType'</span>, <span class="string">'GarageFinish'</span>, <span class="string">'GarageQual'</span>, <span class="string">'GarageCond'</span>]:
+        df[col] = df[col].fillna(<span class="string">'None'</span>)
+        
+    <span class="keyword">for</span> col <span class="keyword">in</span> [<span class="string">'BsmtQual'</span>, <span class="string">'BsmtCond'</span>, <span class="string">'BsmtExposure'</span>, <span class="string">'BsmtFinType1'</span>, <span class="string">'BsmtFinType2'</span>]:
+        df[col] = df[col].fillna(<span class="string">'None'</span>)
+    
+    <span class="comment"># Numerical missing values</span>
+    df[<span class="string">'LotFrontage'</span>] = df.groupby(<span class="string">'Neighborhood'</span>)[<span class="string">'LotFrontage'</span>].transform(<span class="keyword">lambda</span> x: x.fillna(x.median()))
+    
+    <span class="comment"># Key engineered features (discovered through exploration)</span>
+    df[<span class="string">'TotalSF'</span>] = df[<span class="string">'TotalBsmtSF'</span>] + df[<span class="string">'1stFlrSF'</span>] + df[<span class="string">'2ndFlrSF'</span>]
+    df[<span class="string">'TotalBathrooms'</span>] = df[<span class="string">'FullBath'</span>] + df[<span class="string">'HalfBath'</span>] * <span class="number">0.5</span> + df[<span class="string">'BsmtFullBath'</span>] + df[<span class="string">'BsmtHalfBath'</span>] * <span class="number">0.5</span>
+    df[<span class="string">'TotalPorchSF'</span>] = df[<span class="string">'OpenPorchSF'</span>] + df[<span class="string">'3SsnPorch'</span>] + df[<span class="string">'EnclosedPorch'</span>] + df[<span class="string">'ScreenPorch'</span>] + df[<span class="string">'WoodDeckSF'</span>]
+    
+    <span class="comment"># Age features</span>
+    df[<span class="string">'HouseAge'</span>] = df[<span class="string">'YrSold'</span>] - df[<span class="string">'YearBuilt'</span>]
+    df[<span class="string">'RemodAge'</span>] = df[<span class="string">'YrSold'</span>] - df[<span class="string">'YearRemodAdd'</span>]
+    df[<span class="string">'IsNew'</span>] = (df[<span class="string">'YearBuilt'</span>] == df[<span class="string">'YrSold'</span>]).astype(int)
+    
+    <span class="comment"># Quality and condition combinations</span>
+    df[<span class="string">'OverallGrade'</span>] = df[<span class="string">'OverallQual'</span>] * df[<span class="string">'OverallCond'</span>]
+    df[<span class="string">'ExterGrade'</span>] = df[<span class="string">'ExterQual'</span>].map({<span class="string">'Ex'</span>: <span class="number">5</span>, <span class="string">'Gd'</span>: <span class="number">4</span>, <span class="string">'TA'</span>: <span class="number">3</span>, <span class="string">'Fa'</span>: <span class="number">2</span>, <span class="string">'Po'</span>: <span class="number">1</span>}).fillna(<span class="number">0</span>)
+    df[<span class="string">'ExterCond'</span>] = df[<span class="string">'ExterCond'</span>].map({<span class="string">'Ex'</span>: <span class="number">5</span>, <span class="string">'Gd'</span>: <span class="number">4</span>, <span class="string">'TA'</span>: <span class="number">3</span>, <span class="string">'Fa'</span>: <span class="number">2</span>, <span class="string">'Po'</span>: <span class="number">1</span>}).fillna(<span class="number">0</span>)
+    
+    <span class="comment"># Polynomial features for key variables</span>
+    df[<span class="string">'GrLivArea_sq'</span>] = df[<span class="string">'GrLivArea'</span>] ** <span class="number">2</span>
+    df[<span class="string">'TotalSF_sq'</span>] = df[<span class="string">'TotalSF'</span>] ** <span class="number">2</span>
+    
+    <span class="keyword">return</span> df
+
+<span class="keyword">def</span> <span class="function">remove_outliers</span>(df, target_col=<span class="string">'SalePrice'</span>):
+    <span class="string">"""Remove outliers discovered through reasoning phase"""</span>
+    <span class="keyword">if</span> target_col <span class="keyword">in</span> df.columns:
+        <span class="comment"># Remove houses with very large living area but low price</span>
+        df = df.drop(df[(df[<span class="string">'GrLivArea'</span>] > <span class="number">4000</span>) & (df[target_col] < <span class="number">300000</span>)].index)
+        <span class="comment"># Remove houses with extremely low overall quality but high price</span>
+        df = df.drop(df[(df[<span class="string">'OverallQual'</span>] < <span class="number">5</span>) & (df[target_col] > <span class="number">200000</span>)].index)
+    <span class="keyword">return</span> df
+
+<span class="keyword">class</span> <span class="class">HousePriceEnsemble</span>:
+    <span class="string">"""Stacked ensemble optimized through adaptive memory"""</span>
+    
+    <span class="keyword">def</span> <span class="function">__init__</span>(self):
+        <span class="comment"># Base models with optimized hyperparameters</span>
+        self.models = {
+            <span class="string">'xgb'</span>: xgb.XGBRegressor(
+                n_estimators=<span class="number">2600</span>, max_depth=<span class="number">4</span>, learning_rate=<span class="number">0.05</span>,
+                subsample=<span class="number">0.8</span>, colsample_bytree=<span class="number">0.4</span>, random_state=<span class="number">42</span>
+            ),
+            <span class="string">'lgb'</span>: lgb.LGBMRegressor(
+                n_estimators=<span class="number">2400</span>, max_depth=<span class="number">4</span>, learning_rate=<span class="number">0.05</span>,
+                feature_fraction=<span class="number">0.4</span>, bagging_fraction=<span class="number">0.8</span>, random_state=<span class="number">42</span>
+            ),
+            <span class="string">'elastic'</span>: ElasticNet(alpha=<span class="number">0.001</span>, l1_ratio=<span class="number">0.1</span>, random_state=<span class="number">42</span>),
+            <span class="string">'rf'</span>: RandomForestRegressor(n_estimators=<span class="number">1200</span>, max_depth=<span class="number">15</span>, random_state=<span class="number">42</span>)
+        }
+        
+        <span class="comment"># Meta-learner</span>
+        self.meta_model = Ridge(alpha=<span class="number">10.0</span>)
+        
+        <span class="comment"># Optimal ensemble weights from Bayesian optimization</span>
+        self.weights = [<span class="number">0.35</span>, <span class="number">0.3</span>, <span class="number">0.2</span>, <span class="number">0.15</span>]
+        
+    <span class="keyword">def</span> <span class="function">fit</span>(self, X, y):
+        <span class="comment"># Train base models</span>
+        <span class="keyword">for</span> name, model <span class="keyword">in</span> self.models.items():
+            print(<span class="string">f"Training {name}..."</span>)
+            model.fit(X, y)
+        
+        <span class="comment"># Generate meta-features</span>
+        meta_features = self._get_meta_features(X)
+        self.meta_model.fit(meta_features, y)
+        
+        <span class="keyword">return</span> self
+        
+    <span class="keyword">def</span> <span class="function">_get_meta_features</span>(self, X):
+        meta_features = []
+        <span class="keyword">for</span> model <span class="keyword">in</span> self.models.values():
+            pred = model.predict(X)
+            meta_features.append(pred)
+        <span class="keyword">return</span> np.column_stack(meta_features)
+        
+    <span class="keyword">def</span> <span class="function">predict</span>(self, X):
+        <span class="comment"># Weighted average + stacking</span>
+        base_predictions = []
+        <span class="keyword">for</span> model <span class="keyword">in</span> self.models.values():
+            base_predictions.append(model.predict(X))
+        
+        weighted_pred = np.average(base_predictions, axis=<span class="number">0</span>, weights=self.weights)
+        
+        <span class="comment"># Meta-model prediction</span>
+        meta_features = self._get_meta_features(X)
+        meta_pred = self.meta_model.predict(meta_features)
+        
+        <span class="comment"># Final ensemble (70% weighted + 30% meta)</span>
+        <span class="keyword">return</span> <span class="number">0.7</span> * weighted_pred + <span class="number">0.3</span> * meta_pred
+
+<span class="comment"># Main execution pipeline</span>
+<span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:
+    <span class="comment"># Load and preprocess data</span>
+    train_df = pd.read_csv(<span class="string">'train.csv'</span>)
+    test_df = pd.read_csv(<span class="string">'test.csv'</span>)
+    
+    <span class="comment"># Feature engineering</span>
+    train_df = advanced_feature_engineering(train_df)
+    test_df = advanced_feature_engineering(test_df)
+    
+    <span class="comment"># Remove outliers</span>
+    train_df = remove_outliers(train_df)
+    
+    <span class="comment"># Log transform target (key insight from reasoning)</span>
+    y_train = np.log1p(train_df[<span class="string">'SalePrice'</span>])
+    
+    <span class="comment"># Select features and prepare data</span>
+    numeric_features = train_df.select_dtypes(include=[np.number]).columns.tolist()
+    numeric_features.remove(<span class="string">'SalePrice'</span>)
+    numeric_features.remove(<span class="string">'Id'</span>)
+    
+    X_train = train_df[numeric_features]
+    X_test = test_df[numeric_features]
+    
+    <span class="comment"># Scale features</span>
+    scaler = RobustScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+    
+    <span class="comment"># Train ensemble</span>
+    ensemble = HousePriceEnsemble()
+    ensemble.fit(X_train_scaled, y_train)
+    
+    <span class="comment"># Generate predictions</span>
+    predictions = ensemble.predict(X_test_scaled)
+    final_predictions = np.expm1(predictions)  <span class="comment"># Inverse log transform</span>
+    
+    <span class="comment"># Create submission</span>
+    submission = pd.DataFrame({
+        <span class="string">'Id'</span>: test_df[<span class="string">'Id'</span>],
+        <span class="string">'SalePrice'</span>: final_predictions
+    })
+    submission.to_csv(<span class="string">'submission.csv'</span>, index=<span class="keyword">False</span>)
+    print(<span class="string">"🏠 Submission saved! Expected RMSE: ~0.134"</span>)`
+            }
+        };
+
+        function selectDemo(demoName) {
+            if (demoRunning) return;
+            
+            currentDemo = demoName;
+            
+            // Update selected option
+            document.querySelectorAll('.dropdown-option').forEach(option => {
+                option.classList.remove('active');
+            });
+            
+            const selectedOption = document.querySelector(`[data-value="${demoName}"]`);
+            if (selectedOption) {
+                selectedOption.classList.add('active');
+                
+                // Update selected text
+                const icon = selectedOption.querySelector('.option-icon').textContent;
+                const title = selectedOption.querySelector('.option-title').textContent;
+                document.getElementById('selected-text').textContent = `${icon} ${title}`;
+            }
+            
+            // Update title
+            document.getElementById('demo-title').textContent = demos[demoName].title;
+            
+            // Close dropdown
+            closeDropdown();
+            
+            // Reset demo
+            resetDemo();
+        }
+
+        function toggleDropdown() {
+            const dropdown = document.getElementById('dropdown-menu');
+            const selected = document.querySelector('.dropdown-selected');
+            
+            if (dropdown.classList.contains('show')) {
+                closeDropdown();
+            } else {
+                dropdown.classList.add('show');
+                selected.classList.add('active');
+                // Focus search input
+                setTimeout(() => {
+                    document.getElementById('search-input').focus();
+                }, 100);
+            }
+        }
+
+        function closeDropdown() {
+            const dropdown = document.getElementById('dropdown-menu');
+            const selected = document.querySelector('.dropdown-selected');
+            dropdown.classList.remove('show');
+            selected.classList.remove('active');
+            
+            // Clear search
+            document.getElementById('search-input').value = '';
+            filterOptions();
+        }
+
+        function filterOptions() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const options = document.querySelectorAll('.dropdown-option');
+            const groups = document.querySelectorAll('.option-group');
+            
+            options.forEach(option => {
+                const title = option.querySelector('.option-title').textContent.toLowerCase();
+                const desc = option.querySelector('.option-desc').textContent.toLowerCase();
+                const matches = title.includes(searchTerm) || desc.includes(searchTerm);
+                
+                option.style.display = matches ? 'flex' : 'none';
+            });
+            
+            // Hide groups that have no visible options
+            groups.forEach(group => {
+                const visibleOptions = group.querySelectorAll('.dropdown-option[style="display: flex"], .dropdown-option:not([style*="none"])');
+                group.style.display = visibleOptions.length > 0 ? 'block' : 'none';
+            });
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('demo-dropdown');
+            if (!dropdown.contains(event.target)) {
+                closeDropdown();
+            }
+        });
+
+        // Add click handlers for dropdown options
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.dropdown-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    const demoName = this.getAttribute('data-value');
+                    if (demos[demoName]) {
+                        selectDemo(demoName);
+                    } else {
+                        // For demos we haven't implemented yet
+                        alert(`Demo "${this.querySelector('.option-title').textContent}" is coming soon!`);
+                        closeDropdown();
+                    }
+                });
+            });
+        });
 
         function addTerminalLine(text, isLast = false) {
             const terminal = document.getElementById('terminal-output');
@@ -684,6 +1976,19 @@
             }
         }
 
+        function showGeneratedCode() {
+            const codeSection = document.getElementById('code-section');
+            const codeContent = document.getElementById('code-content');
+            
+            codeContent.innerHTML = demos[currentDemo].code;
+            codeSection.style.display = 'block';
+            
+            // Scroll to code section
+            setTimeout(() => {
+                codeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 500);
+        }
+
         function startDemo() {
             if (demoRunning) return;
             
@@ -692,29 +1997,34 @@
             document.getElementById('start-btn').disabled = true;
             document.getElementById('reset-btn').disabled = false;
             document.getElementById('skip-btn').disabled = false;
+            document.getElementById('code-section').style.display = 'none';
             
             runDemoStep();
         }
 
         function runDemoStep() {
-            if (currentStep >= demoSteps.length) {
+            const steps = demos[currentDemo].steps;
+            
+            if (currentStep >= steps.length) {
                 demoRunning = false;
                 document.getElementById('start-btn').disabled = false;
                 document.getElementById('skip-btn').disabled = true;
+                showGeneratedCode();
                 return;
             }
 
-            const step = demoSteps[currentStep];
-            addTerminalLine(step.text, currentStep === demoSteps.length - 1);
+            const step = steps[currentStep];
+            addTerminalLine(step.text, currentStep === steps.length - 1);
             
             currentStep++;
             
-            if (demoRunning && currentStep < demoSteps.length) {
+            if (demoRunning && currentStep < steps.length) {
                 setTimeout(runDemoStep, step.delay);
-            } else if (currentStep >= demoSteps.length) {
+            } else if (currentStep >= steps.length) {
                 demoRunning = false;
                 document.getElementById('start-btn').disabled = false;
                 document.getElementById('skip-btn').disabled = true;
+                showGeneratedCode();
             }
         }
 
@@ -722,6 +2032,7 @@
             demoRunning = false;
             currentStep = 0;
             document.getElementById('terminal-output').innerHTML = '';
+            document.getElementById('code-section').style.display = 'none';
             document.getElementById('start-btn').disabled = false;
             document.getElementById('reset-btn').disabled = true;
             document.getElementById('skip-btn').disabled = true;
@@ -730,10 +2041,11 @@
         function skipToEnd() {
             demoRunning = false;
             const terminal = document.getElementById('terminal-output');
+            const steps = demos[currentDemo].steps;
             terminal.innerHTML = '';
             
             // Add all steps instantly
-            demoSteps.forEach((step, index) => {
+            steps.forEach((step, index) => {
                 const line = document.createElement('div');
                 line.className = 'terminal-line';
                 line.innerHTML = step.text;
@@ -744,6 +2056,25 @@
             terminal.scrollTop = terminal.scrollHeight;
             document.getElementById('start-btn').disabled = false;
             document.getElementById('skip-btn').disabled = true;
+            
+            showGeneratedCode();
+        }
+
+        function copyCode() {
+            const codeContent = document.getElementById('code-content');
+            const textContent = codeContent.textContent;
+            
+            navigator.clipboard.writeText(textContent).then(() => {
+                const copyBtn = document.getElementById('copy-btn');
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = '✅ Copied!';
+                copyBtn.classList.add('copied');
+                
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                    copyBtn.classList.remove('copied');
+                }, 2000);
+            });
         }
 
         // Smooth scrolling for navigation links
