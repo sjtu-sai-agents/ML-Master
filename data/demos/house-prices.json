@@ -1,0 +1,186 @@
+{
+  "title": "ML-Master: Titanic Survival Prediction",
+  "steps": [
+    {
+      "text": "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task titanic --time-limit 12h",
+      "delay": 1000
+    },
+    {
+      "text": "<span class='info'>[INFO]</span> Initializing ML-Master agent...",
+      "delay": 800
+    },
+    {
+      "text": "<span class='info'>[INFO]</span> Loading Titanic dataset: train.csv, test.csv",
+      "delay": 600
+    },
+    {
+      "text": "<span class='info'>[INFO]</span> Starting balanced multi-trajectory exploration...",
+      "delay": 700
+    },
+    {
+      "text": "",
+      "delay": 300
+    },
+    {
+      "text": "<span class='warning'>[EXPLORATION]</span> 🌳 Building search tree with MCTS",
+      "delay": 900
+    },
+    {
+      "text": "<span class='info'>[NODE-1]</span> Draft: Initial data analysis and baseline model",
+      "delay": 1200
+    },
+    {
+      "text": "   → Survival rate: 38.4% | Features: 11 | Missing values detected",
+      "delay": 800
+    },
+    {
+      "text": "   → Baseline LogisticRegression accuracy: 0.794",
+      "delay": 600
+    },
+    {
+      "text": "",
+      "delay": 400
+    },
+    {
+      "text": "<span class='info'>[NODE-2]</span> Improve: Feature engineering pipeline",
+      "delay": 1000
+    },
+    {
+      "text": "   → Created Age_binned, Title_extracted, Family_size features",
+      "delay": 900
+    },
+    {
+      "text": "   → RandomForest accuracy: 0.823 ✅ (+2.9%)",
+      "delay": 700
+    },
+    {
+      "text": "",
+      "delay": 400
+    },
+    {
+      "text": "<span class='warning'>[REASONING]</span> 🧠 Steerable reasoning with adaptive memory",
+      "delay": 1100
+    },
+    {
+      "text": "   💭 Analyzing exploration outcomes from 3 parallel branches...",
+      "delay": 1000
+    },
+    {
+      "text": "   💭 Key insight: Title feature shows strong predictive power",
+      "delay": 800
+    },
+    {
+      "text": "   💭 Decision: Focus on ensemble methods with feature selection",
+      "delay": 900
+    },
+    {
+      "text": "",
+      "delay": 400
+    },
+    {
+      "text": "<span class='info'>[NODE-3]</span> Debug: Handling missing Embarked values",
+      "delay": 800
+    },
+    {
+      "text": "   → Fixed: Imputed missing Embarked with mode 'S'",
+      "delay": 600
+    },
+    {
+      "text": "",
+      "delay": 300
+    },
+    {
+      "text": "<span class='info'>[NODE-4]</span> Improve: Advanced ensemble modeling",
+      "delay": 1000
+    },
+    {
+      "text": "   → XGBoost + LightGBM + RandomForest ensemble",
+      "delay": 800
+    },
+    {
+      "text": "   → Cross-validation score: 0.847 ✅ (+2.4%)",
+      "delay": 700
+    },
+    {
+      "text": "",
+      "delay": 400
+    },
+    {
+      "text": "<span class='warning'>[MEMORY]</span> 📚 Updating adaptive memory...",
+      "delay": 800
+    },
+    {
+      "text": "   → Stored insights: Feature importance, model performance, debugging fixes",
+      "delay": 900
+    },
+    {
+      "text": "   → Sibling nodes: 2 parallel branches with different approaches",
+      "delay": 700
+    },
+    {
+      "text": "",
+      "delay": 400
+    },
+    {
+      "text": "<span class='info'>[NODE-5]</span> Improve: Hyperparameter optimization",
+      "delay": 1000
+    },
+    {
+      "text": "   → Bayesian optimization for ensemble weights",
+      "delay": 800
+    },
+    {
+      "text": "   → Final ensemble score: 0.862 ✅ (+1.5%)",
+      "delay": 700
+    },
+    {
+      "text": "",
+      "delay": 400
+    },
+    {
+      "text": "<span class='success'>[COMPLETED]</span> 🎯 Solution ready!",
+      "delay": 1000
+    },
+    {
+      "text": "",
+      "delay": 300
+    },
+    {
+      "text": "📊 <span class='success'>Final Results:</span>",
+      "delay": 600
+    },
+    {
+      "text": "   • Cross-validation accuracy: <span class='success'>86.2%</span>",
+      "delay": 500
+    },
+    {
+      "text": "   • Public leaderboard score: <span class='success'>0.844</span>",
+      "delay": 500
+    },
+    {
+      "text": "   • Kaggle rank: <span class='success'>Top 15%</span> 🥉",
+      "delay": 500
+    },
+    {
+      "text": "   • Time taken: <span class='info'>8.5 hours</span> (29% under limit)",
+      "delay": 500
+    },
+    {
+      "text": "   • Nodes explored: <span class='info'>47</span> across 3 parallel branches",
+      "delay": 500
+    },
+    {
+      "text": "",
+      "delay": 300
+    },
+    {
+      "text": "<span class='success'>✅ Medal achieved: Bronze+ performance!</span>",
+      "delay": 800
+    },
+    {
+      "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
+      "delay": 1000
+    }
+  ],
+  "code": "<span class=\"comment\"># ML-Master Generated Solution: Titanic Survival Prediction</span>\n<span class=\"comment\"># Generated automatically through exploration and reasoning</span>\n\n<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">import</span> numpy <span class=\"keyword\">as</span> np\n<span class=\"keyword\">from</span> sklearn.ensemble <span class=\"keyword\">import</span> RandomForestClassifier, GradientBoostingClassifier\n<span class=\"keyword\">from</span> sklearn.linear_model <span class=\"keyword\">import</span> LogisticRegression\n<span class=\"keyword\">from</span> sklearn.model_selection <span class=\"keyword\">import</span> cross_val_score, StratifiedKFold\n<span class=\"keyword\">from</span> sklearn.preprocessing <span class=\"keyword\">import</span> StandardScaler\n<span class=\"keyword\">import</span> xgboost <span class=\"keyword\">as</span> xgb\n<span class=\"keyword\">import</span> lightgbm <span class=\"keyword\">as</span> lgb\n\n<span class=\"keyword\">def</span> <span class=\"function\">feature_engineering</span>(df):\n    <span class=\"string\">\"\"\"Advanced feature engineering discovered through exploration\"\"\"</span>\n    df = df.copy()\n    \n    <span class=\"comment\"># Title extraction (Key insight from reasoning)</span>\n    df[<span class=\"string\">'Title'</span>] = df[<span class=\"string\">'Name'</span>].str.extract(<span class=\"string\">' ([A-Za-z]+)\\\\.'</span>)\n    title_mapping = {<span class=\"string\">'Mr'</span>: <span class=\"number\">1</span>, <span class=\"string\">'Miss'</span>: <span class=\"number\">2</span>, <span class=\"string\">'Mrs'</span>: <span class=\"number\">3</span>, <span class=\"string\">'Master'</span>: <span class=\"number\">4</span>, <span class=\"string\">'Dr'</span>: <span class=\"number\">5</span>}\n    df[<span class=\"string\">'Title'</span>] = df[<span class=\"string\">'Title'</span>].map(title_mapping).fillna(<span class=\"number\">0</span>)\n    \n    <span class=\"comment\"># Family size engineering</span>\n    df[<span class=\"string\">'FamilySize'</span>] = df[<span class=\"string\">'SibSp'</span>] + df[<span class=\"string\">'Parch'</span>] + <span class=\"number\">1</span>\n    df[<span class=\"string\">'IsAlone'</span>] = (df[<span class=\"string\">'FamilySize'</span>] == <span class=\"number\">1</span>).astype(int)\n    \n    <span class=\"comment\"># Age binning (discovered through MCTS exploration)</span>\n    df[<span class=\"string\">'Age'</span>].fillna(df[<span class=\"string\">'Age'</span>].median(), inplace=<span class=\"keyword\">True</span>)\n    df[<span class=\"string\">'AgeBin'</span>] = pd.cut(df[<span class=\"string\">'Age'</span>], bins=[<span class=\"number\">0</span>, <span class=\"number\">12</span>, <span class=\"number\">18</span>, <span class=\"number\">35</span>, <span class=\"number\">60</span>, <span class=\"number\">100</span>], labels=[<span class=\"number\">1</span>,<span class=\"number\">2</span>,<span class=\"number\">3</span>,<span class=\"number\">4</span>,<span class=\"number\">5</span>])\n    \n    <span class=\"comment\"># Handle missing values (debugging phase discovery)</span>\n    df[<span class=\"string\">'Embarked'</span>].fillna(<span class=\"string\">'S'</span>, inplace=<span class=\"keyword\">True</span>)\n    df[<span class=\"string\">'Fare'</span>].fillna(df[<span class=\"string\">'Fare'</span>].median(), inplace=<span class=\"keyword\">True</span>)\n    \n    <span class=\"comment\"># Encode categorical variables</span>\n    df[<span class=\"string\">'Sex'</span>] = df[<span class=\"string\">'Sex'</span>].map({<span class=\"string\">'male'</span>: <span class=\"number\">0</span>, <span class=\"string\">'female'</span>: <span class=\"number\">1</span>})\n    df[<span class=\"string\">'Embarked'</span>] = df[<span class=\"string\">'Embarked'</span>].map({<span class=\"string\">'S'</span>: <span class=\"number\">0</span>, <span class=\"string\">'C'</span>: <span class=\"number\">1</span>, <span class=\"string\">'Q'</span>: <span class=\"number\">2</span>})\n    \n    features = [<span class=\"string\">'Pclass'</span>, <span class=\"string\">'Sex'</span>, <span class=\"string\">'AgeBin'</span>, <span class=\"string\">'FamilySize'</span>, <span class=\"string\">'IsAlone'</span>, \n                <span class=\"string\">'Title'</span>, <span class=\"string\">'Embarked'</span>, <span class=\"string\">'Fare'</span>]\n    <span class=\"keyword\">return</span> df[features]\n\n<span class=\"keyword\">class</span> <span class=\"class\">TitanicEnsemble</span>:\n    <span class=\"string\">\"\"\"Optimized ensemble discovered through adaptive memory\"\"\"</span>\n    \n    <span class=\"keyword\">def</span> <span class=\"function\">__init__</span>(self):\n        self.models = {\n            <span class=\"string\">'rf'</span>: RandomForestClassifier(n_estimators=<span class=\"number\">200</span>, max_depth=<span class=\"number\">7</span>, random_state=<span class=\"number\">42</span>),\n            <span class=\"string\">'xgb'</span>: xgb.XGBClassifier(n_estimators=<span class=\"number\">150</span>, max_depth=<span class=\"number\">6</span>, learning_rate=<span class=\"number\">0.1</span>),\n            <span class=\"string\">'lgb'</span>: lgb.LGBMClassifier(n_estimators=<span class=\"number\">100</span>, max_depth=<span class=\"number\">5</span>, learning_rate=<span class=\"number\">0.15</span>),\n            <span class=\"string\">'lr'</span>: LogisticRegression(C=<span class=\"number\">0.1</span>, random_state=<span class=\"number\">42</span>)\n        }\n        <span class=\"comment\"># Optimal weights discovered through Bayesian optimization</span>\n        self.weights = [<span class=\"number\">0.3</span>, <span class=\"number\">0.25</span>, <span class=\"number\">0.25</span>, <span class=\"number\">0.2</span>]\n        \n    <span class=\"keyword\">def</span> <span class=\"function\">fit</span>(self, X, y):\n        <span class=\"keyword\">for</span> model <span class=\"keyword\">in</span> self.models.values():\n            model.fit(X, y)\n        <span class=\"keyword\">return</span> self\n        \n    <span class=\"keyword\">def</span> <span class=\"function\">predict_proba</span>(self, X):\n        predictions = []\n        <span class=\"keyword\">for</span> model <span class=\"keyword\">in</span> self.models.values():\n            predictions.append(model.predict_proba(X)[:, <span class=\"number\">1</span>])\n        \n        <span class=\"comment\"># Weighted ensemble prediction</span>\n        ensemble_pred = np.average(predictions, axis=<span class=\"number\">0</span>, weights=self.weights)\n        <span class=\"keyword\">return</span> ensemble_pred\n        \n    <span class=\"keyword\">def</span> <span class=\"function\">predict</span>(self, X):\n        proba = self.predict_proba(X)\n        <span class=\"keyword\">return</span> (proba > <span class=\"number\">0.5</span>).astype(int)\n\n<span class=\"comment\"># Main execution pipeline</span>\n<span class=\"keyword\">if</span> __name__ == <span class=\"string\">\"__main__\"</span>:\n    <span class=\"comment\"># Load data</span>\n    train_df = pd.read_csv(<span class=\"string\">'train.csv'</span>)\n    test_df = pd.read_csv(<span class=\"string\">'test.csv'</span>)\n    \n    <span class=\"comment\"># Feature engineering</span>\n    X_train = feature_engineering(train_df)\n    y_train = train_df[<span class=\"string\">'Survived'</span>]\n    X_test = feature_engineering(test_df)\n    \n    <span class=\"comment\"># Train ensemble model</span>\n    ensemble = TitanicEnsemble()\n    ensemble.fit(X_train, y_train)\n    \n    <span class=\"comment\"># Cross-validation score: 86.2%</span>\n    cv_scores = cross_val_score(ensemble, X_train, y_train, cv=<span class=\"number\">5</span>, scoring=<span class=\"string\">'accuracy'</span>)\n    print(<span class=\"string\">f\"CV Score: {cv_scores.mean():.3f} (+/- {cv_scores.std() * 2:.3f})\"</span>)\n    \n    <span class=\"comment\"># Generate predictions</span>\n    predictions = ensemble.predict(X_test)\n    \n    <span class=\"comment\"># Create submission</span>\n    submission = pd.DataFrame({\n        <span class=\"string\">'PassengerId'</span>: test_df[<span class=\"string\">'PassengerId'</span>],\n        <span class=\"string\">'Survived'</span>: predictions\n    })\n    submission.to_csv(<span class=\"string\">'submission.csv'</span>, index=<span class=\"keyword\">False</span>)\n    print(<span class=\"string\">\"🎯 Submission saved! Expected leaderboard score: ~0.844\"</span>)"
+}
