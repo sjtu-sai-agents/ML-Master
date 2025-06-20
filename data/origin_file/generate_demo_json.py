@@ -76,7 +76,7 @@ for task_name in json_data:
             if len(lines) > 2000:
                 trimmed_lines = (
                     lines[:1000]
-                    + ['\n... (omitted middle part for brevity) ...\n']
+                    + ['[2025-05-27 09:53:59,762] INFO: ... (omitted middle part for brevity) ...\n']
                     + lines[-1000:]
                 )
                 print(f"任务{task_name}日志过长，触发省略")
@@ -90,7 +90,7 @@ for task_name in json_data:
                     steps.append({"text":line,"delay":200})
                 else:
                     line = line.strip()  # 去除每行前后的空白符
-                    if "已分配" in line or "已设置" in line or "调用失败" in line or "完整报错" or "Traceback (most recent call last)" in line:
+                    if "已分配" in line or "已设置" in line or "调用失败" in line or "完整报错" in line or "Traceback (most recent call last)" in line or "ConnectionError" in line:
                         continue
                     match = pattern.match(line)
                     if match:
@@ -98,11 +98,11 @@ for task_name in json_data:
                         line = f"{level}: {message}"
                         line = f"<span class='{level.lower()}'>[{level}]</span>: {message}"
                     else:
-                        if "已分配" in line or "已设置" in line or "调用失败" in line or "完整报错" or "Traceback (most recent call last)" in line:
+                        if "已分配" in line or "已设置" in line or "调用失败" in line or "完整报错" in line or "Traceback (most recent call last)" in line or "ConnectionError" in line:
                             continue
                         else:
                             print(line)
-                            raise ValueError(f"去除时间戳失败，原始报错{traceback.format_exc()}")
+                            print(f"去除时间戳失败，原始报错{traceback.format_exc()}")
 
                     log_str = log_str+line
                     steps.append({"text":line,"delay":200})

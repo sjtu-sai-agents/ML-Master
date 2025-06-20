@@ -10,6 +10,3558 @@
             "delay": 200
         },
         {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7bd92ab376d448c3b57f74bec5e05331 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 7bd92ab376d448c3b57f74bec5e05331 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7bd92ab376d448c3b57f74bec5e05331 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 7bd92ab376d448c3b57f74bec5e05331 expected_child_count is 2.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7bd92ab376d448c3b57f74bec5e05331 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 7bd92ab376d448c3b57f74bec5e05331 expected_child_count is 3.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 9cb87f6a5a4d49af802546d8ca5a3b37",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 9cb87f6a5a4d49af802546d8ca5a3b37 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 4977ec350d8947d6be42955a71f13057",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 4977ec350d8947d6be42955a71f13057 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node d50deeee66914f99aacde0ab6824f86a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node d50deeee66914f99aacde0ab6824f86a is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 9cb87f6a5a4d49af802546d8ca5a3b37",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 9cb87f6a5a4d49af802546d8ca5a3b37 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 9cb87f6a5a4d49af802546d8ca5a3b37 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 9cb87f6a5a4d49af802546d8ca5a3b37 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 7bd92ab376d448c3b57f74bec5e05331, the generated node is 9cb87f6a5a4d49af802546d8ca5a3b37, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 9cb87f6a5a4d49af802546d8ca5a3b37",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is 9cb87f6a5a4d49af802546d8ca5a3b37",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=2,edges=[(0, 1)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 4/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 9cb87f6a5a4d49af802546d8ca5a3b37",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 9cb87f6a5a4d49af802546d8ca5a3b37",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 9cb87f6a5a4d49af802546d8ca5a3b37.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 9cb87f6a5a4d49af802546d8ca5a3b37 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 9cb87f6a5a4d49af802546d8ca5a3b37 to create new node 5ab2060450de4fd685d2b325c368b746",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node d50deeee66914f99aacde0ab6824f86a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node d50deeee66914f99aacde0ab6824f86a is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node d50deeee66914f99aacde0ab6824f86a is 4.6365.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node d50deeee66914f99aacde0ab6824f86a is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 7bd92ab376d448c3b57f74bec5e05331, the generated node is d50deeee66914f99aacde0ab6824f86a, the metric is 4.6365",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node d50deeee66914f99aacde0ab6824f86a is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.6365.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main d50deeee66914f99aacde0ab6824f86a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is d50deeee66914f99aacde0ab6824f86a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=3,edges=[(0, 1), (0, 2)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 5/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: d50deeee66914f99aacde0ab6824f86a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: d50deeee66914f99aacde0ab6824f86a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node d50deeee66914f99aacde0ab6824f86a.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current d50deeee66914f99aacde0ab6824f86a expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node d50deeee66914f99aacde0ab6824f86a to create new node ccd28cd8ae9c4f9fa6f327cec53f1128",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 4977ec350d8947d6be42955a71f13057",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 4977ec350d8947d6be42955a71f13057 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 4977ec350d8947d6be42955a71f13057 is 4.446877536591477.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 4977ec350d8947d6be42955a71f13057 is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 7bd92ab376d448c3b57f74bec5e05331, the generated node is 4977ec350d8947d6be42955a71f13057, the metric is 4.446877536591477",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 4977ec350d8947d6be42955a71f13057 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.446877536591477.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 4977ec350d8947d6be42955a71f13057",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 3, current node.id is 4977ec350d8947d6be42955a71f13057",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=4,edges=[(0, 3), (0, 1), (0, 2)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 6/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 4977ec350d8947d6be42955a71f13057",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4977ec350d8947d6be42955a71f13057",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 4977ec350d8947d6be42955a71f13057.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 4977ec350d8947d6be42955a71f13057 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 4977ec350d8947d6be42955a71f13057 to create new node eecb1bd05b1642d2ac3165a13ad0163c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 5ab2060450de4fd685d2b325c368b746",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 5ab2060450de4fd685d2b325c368b746 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 5ab2060450de4fd685d2b325c368b746 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 5ab2060450de4fd685d2b325c368b746 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 9cb87f6a5a4d49af802546d8ca5a3b37, the generated node is 5ab2060450de4fd685d2b325c368b746, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.446877536591477.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 5ab2060450de4fd685d2b325c368b746",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 4, current node.id is 5ab2060450de4fd685d2b325c368b746",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 3), (0, 1), (0, 2), (1, 4)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 5ab2060450de4fd685d2b325c368b746",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 5ab2060450de4fd685d2b325c368b746",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 5ab2060450de4fd685d2b325c368b746.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 5ab2060450de4fd685d2b325c368b746 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='error'>[ERROR]</span>: LLM调用重试次数已达上限，抛出异常。",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Current node generation failed, rolling back to unlock the draft node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 5ab2060450de4fd685d2b325c368b746 start backpropagating with reward 0.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 9cb87f6a5a4d49af802546d8ca5a3b37 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node eecb1bd05b1642d2ac3165a13ad0163c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node eecb1bd05b1642d2ac3165a13ad0163c is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node eecb1bd05b1642d2ac3165a13ad0163c is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node eecb1bd05b1642d2ac3165a13ad0163c is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 4977ec350d8947d6be42955a71f13057, the generated node is eecb1bd05b1642d2ac3165a13ad0163c, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.446877536591477.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main eecb1bd05b1642d2ac3165a13ad0163c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is eecb1bd05b1642d2ac3165a13ad0163c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 3), (0, 1), (0, 2), (1, 4), (3, 5)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: eecb1bd05b1642d2ac3165a13ad0163c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: eecb1bd05b1642d2ac3165a13ad0163c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node eecb1bd05b1642d2ac3165a13ad0163c.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current eecb1bd05b1642d2ac3165a13ad0163c expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node eecb1bd05b1642d2ac3165a13ad0163c to create new node 86713cee52d74bcfbc2ee32a280f4179",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node ccd28cd8ae9c4f9fa6f327cec53f1128",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node ccd28cd8ae9c4f9fa6f327cec53f1128 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node ccd28cd8ae9c4f9fa6f327cec53f1128 is 4.3094.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node d50deeee66914f99aacde0ab6824f86a, Node ccd28cd8ae9c4f9fa6f327cec53f1128 metric improvement (0.3270999999999997) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node d50deeee66914f99aacde0ab6824f86a, the generated node is ccd28cd8ae9c4f9fa6f327cec53f1128, the metric is 4.3094",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node ccd28cd8ae9c4f9fa6f327cec53f1128 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.3094.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main ccd28cd8ae9c4f9fa6f327cec53f1128",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is ccd28cd8ae9c4f9fa6f327cec53f1128",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=7,edges=[(0, 3), (0, 1), (0, 2), (1, 4), (2, 6), (3, 5)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 9/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='error'>[ERROR]</span>: Exception during step_task execution: Connection error.",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions",
+            "delay": 200
+        },
+        {
+            "text": "yield",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpx/_transports/default.py\", line 250, in handle_request",
+            "delay": 200
+        },
+        {
+            "text": "resp = self._pool.handle_request(req)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py\", line 256, in handle_request",
+            "delay": 200
+        },
+        {
+            "text": "raise exc from None",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py\", line 236, in handle_request",
+            "delay": 200
+        },
+        {
+            "text": "response = connection.handle_request(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpcore/_sync/connection.py\", line 103, in handle_request",
+            "delay": 200
+        },
+        {
+            "text": "return self._connection.handle_request(request)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpcore/_sync/http11.py\", line 136, in handle_request",
+            "delay": 200
+        },
+        {
+            "text": "raise exc",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpcore/_sync/http11.py\", line 106, in handle_request",
+            "delay": 200
+        },
+        {
+            "text": ") = self._receive_response_headers(**kwargs)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpcore/_sync/http11.py\", line 177, in _receive_response_headers",
+            "delay": 200
+        },
+        {
+            "text": "event = self._receive_event(timeout=timeout)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpcore/_sync/http11.py\", line 231, in _receive_event",
+            "delay": 200
+        },
+        {
+            "text": "raise RemoteProtocolError(msg)",
+            "delay": 200
+        },
+        {
+            "text": "httpcore.RemoteProtocolError: Server disconnected without sending a response.",
+            "delay": 200
+        },
+        {
+            "text": "",
+            "delay": 200
+        },
+        {
+            "text": "The above exception was the direct cause of the following exception:",
+            "delay": 200
+        },
+        {
+            "text": "",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_base_client.py\", line 955, in _request",
+            "delay": 200
+        },
+        {
+            "text": "response = self._client.send(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpx/_client.py\", line 914, in send",
+            "delay": 200
+        },
+        {
+            "text": "response = self._send_handling_auth(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpx/_client.py\", line 942, in _send_handling_auth",
+            "delay": 200
+        },
+        {
+            "text": "response = self._send_handling_redirects(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpx/_client.py\", line 979, in _send_handling_redirects",
+            "delay": 200
+        },
+        {
+            "text": "response = self._send_single_request(request)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpx/_client.py\", line 1014, in _send_single_request",
+            "delay": 200
+        },
+        {
+            "text": "response = transport.handle_request(request)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpx/_transports/default.py\", line 249, in handle_request",
+            "delay": 200
+        },
+        {
+            "text": "with map_httpcore_exceptions():",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/contextlib.py\", line 158, in __exit__",
+            "delay": 200
+        },
+        {
+            "text": "self.gen.throw(value)",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions",
+            "delay": 200
+        },
+        {
+            "text": "raise mapped_exc(message) from exc",
+            "delay": 200
+        },
+        {
+            "text": "httpx.RemoteProtocolError: Server disconnected without sending a response.",
+            "delay": 200
+        },
+        {
+            "text": "",
+            "delay": 200
+        },
+        {
+            "text": "The above exception was the direct cause of the following exception:",
+            "delay": 200
+        },
+        {
+            "text": "",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 215, in run",
+            "delay": 200
+        },
+        {
+            "text": "cur_node = fut.result()",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/_base.py\", line 449, in result",
+            "delay": 200
+        },
+        {
+            "text": "return self.__get_result()",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result",
+            "delay": 200
+        },
+        {
+            "text": "raise self._exception",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/thread.py\", line 59, in run",
+            "delay": 200
+        },
+        {
+            "text": "result = self.fn(*self.args, **self.kwargs)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 198, in step_task",
+            "delay": 200
+        },
+        {
+            "text": "return agent.step(exec_callback=exec_callback, node=node)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 747, in step",
+            "delay": 200
+        },
+        {
+            "text": "_root, result_node = self._step_search(node, exec_callback=exec_callback)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 725, in _step_search",
+            "delay": 200
+        },
+        {
+            "text": "raise e",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 692, in _step_search",
+            "delay": 200
+        },
+        {
+            "text": "result_node = self._debug(parent_node)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 265, in _debug",
+            "delay": 200
+        },
+        {
+            "text": "plan, code = self.plan_and_code_query(prompt_complete)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 274, in plan_and_code_query",
+            "delay": 200
+        },
+        {
+            "text": "completion_text = r1_query(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/backend/call.py\", line 29, in r1_query",
+            "delay": 200
+        },
+        {
+            "text": "response = llm.stream_complete(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/utils/llm_caller.py\", line 290, in stream_complete",
+            "delay": 200
+        },
+        {
+            "text": "raise e",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/utils/llm_caller.py\", line 277, in stream_complete",
+            "delay": 200
+        },
+        {
+            "text": "response = self.client.completions.create(**params)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_utils/_utils.py\", line 279, in wrapper",
+            "delay": 200
+        },
+        {
+            "text": "return func(*args, **kwargs)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/resources/completions.py\", line 539, in create",
+            "delay": 200
+        },
+        {
+            "text": "return self._post(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_base_client.py\", line 1242, in post",
+            "delay": 200
+        },
+        {
+            "text": "return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_base_client.py\", line 919, in request",
+            "delay": 200
+        },
+        {
+            "text": "return self._request(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_base_client.py\", line 979, in _request",
+            "delay": 200
+        },
+        {
+            "text": "return self._retry_request(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_base_client.py\", line 1057, in _retry_request",
+            "delay": 200
+        },
+        {
+            "text": "return self._request(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_base_client.py\", line 979, in _request",
+            "delay": 200
+        },
+        {
+            "text": "return self._retry_request(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_base_client.py\", line 1057, in _retry_request",
+            "delay": 200
+        },
+        {
+            "text": "return self._request(",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/openai/_base_client.py\", line 989, in _request",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: ccd28cd8ae9c4f9fa6f327cec53f1128",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: ccd28cd8ae9c4f9fa6f327cec53f1128",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node ccd28cd8ae9c4f9fa6f327cec53f1128.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current ccd28cd8ae9c4f9fa6f327cec53f1128 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=7,edges=[(0, 3), (0, 1), (0, 2), (1, 4), (2, 6), (3, 5)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 9/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7bd92ab376d448c3b57f74bec5e05331 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 7bd92ab376d448c3b57f74bec5e05331 expected_child_count is 4.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node ccd28cd8ae9c4f9fa6f327cec53f1128 to create new node 93780e5257bf486d98465799a7121c89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node d58aff41a28c4fbdbfc12e19110dd19c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node d58aff41a28c4fbdbfc12e19110dd19c is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node d58aff41a28c4fbdbfc12e19110dd19c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node d58aff41a28c4fbdbfc12e19110dd19c is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node d58aff41a28c4fbdbfc12e19110dd19c is 5.031047037800913.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node d58aff41a28c4fbdbfc12e19110dd19c is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 7bd92ab376d448c3b57f74bec5e05331, the generated node is d58aff41a28c4fbdbfc12e19110dd19c, the metric is 5.031047037800913",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node d58aff41a28c4fbdbfc12e19110dd19c is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node ccd28cd8ae9c4f9fa6f327cec53f1128 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.3094.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main d58aff41a28c4fbdbfc12e19110dd19c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 93780e5257bf486d98465799a7121c89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 93780e5257bf486d98465799a7121c89 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 93780e5257bf486d98465799a7121c89 is 4.2863.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node ccd28cd8ae9c4f9fa6f327cec53f1128, Node 93780e5257bf486d98465799a7121c89 metric improvement (0.023100000000000342) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node ccd28cd8ae9c4f9fa6f327cec53f1128, the generated node is 93780e5257bf486d98465799a7121c89, the metric is 4.2863",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 93780e5257bf486d98465799a7121c89 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.2863.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 93780e5257bf486d98465799a7121c89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 7, current node.id is 93780e5257bf486d98465799a7121c89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 7), (0, 3), (0, 1), (0, 2), (1, 4), (2, 6), (3, 5), (6, 8)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 93780e5257bf486d98465799a7121c89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 93780e5257bf486d98465799a7121c89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 93780e5257bf486d98465799a7121c89.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 93780e5257bf486d98465799a7121c89 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 93780e5257bf486d98465799a7121c89 to create new node 2a66ca473653432f851e8514d4f4c192",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 86713cee52d74bcfbc2ee32a280f4179",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 86713cee52d74bcfbc2ee32a280f4179 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 86713cee52d74bcfbc2ee32a280f4179 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 86713cee52d74bcfbc2ee32a280f4179 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node eecb1bd05b1642d2ac3165a13ad0163c, the generated node is 86713cee52d74bcfbc2ee32a280f4179, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.2863.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 86713cee52d74bcfbc2ee32a280f4179",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is 86713cee52d74bcfbc2ee32a280f4179",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=10,edges=[(0, 7), (0, 3), (0, 1), (0, 2), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 12/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 10, current node.id is d58aff41a28c4fbdbfc12e19110dd19c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 86713cee52d74bcfbc2ee32a280f4179",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 86713cee52d74bcfbc2ee32a280f4179",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 86713cee52d74bcfbc2ee32a280f4179.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 86713cee52d74bcfbc2ee32a280f4179 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=10,edges=[(0, 7), (0, 3), (0, 1), (0, 2), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 12/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: d58aff41a28c4fbdbfc12e19110dd19c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: d58aff41a28c4fbdbfc12e19110dd19c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node d58aff41a28c4fbdbfc12e19110dd19c.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current d58aff41a28c4fbdbfc12e19110dd19c expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 86713cee52d74bcfbc2ee32a280f4179 to create new node 584ccccb1f3846edbf64b746af140cc9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node d58aff41a28c4fbdbfc12e19110dd19c to create new node f3b2116e53764a7488c3907b437cda79",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 2a66ca473653432f851e8514d4f4c192",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 2a66ca473653432f851e8514d4f4c192 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 2a66ca473653432f851e8514d4f4c192 is 4.2889.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node 93780e5257bf486d98465799a7121c89, Node 2a66ca473653432f851e8514d4f4c192 metric improvement (-0.0026000000000001577) below threshold (0.0001), try one more time(1/3)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 93780e5257bf486d98465799a7121c89, the generated node is 2a66ca473653432f851e8514d4f4c192, the metric is 4.2889",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 2a66ca473653432f851e8514d4f4c192 is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 93780e5257bf486d98465799a7121c89 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 4.2863.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 2a66ca473653432f851e8514d4f4c192",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 10, current node.id is 2a66ca473653432f851e8514d4f4c192",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=11,edges=[(0, 7), (0, 3), (0, 1), (0, 2), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (8, 10)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 13/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 2a66ca473653432f851e8514d4f4c192",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 2a66ca473653432f851e8514d4f4c192",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 2a66ca473653432f851e8514d4f4c192.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 2a66ca473653432f851e8514d4f4c192 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 2a66ca473653432f851e8514d4f4c192 to create new node f332eb1072bc41abaf7934efe799f903",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node f3b2116e53764a7488c3907b437cda79",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node f3b2116e53764a7488c3907b437cda79 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node f3b2116e53764a7488c3907b437cda79 is 3.923470350842119.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node d58aff41a28c4fbdbfc12e19110dd19c, Node f3b2116e53764a7488c3907b437cda79 metric improvement (1.1075766869587937) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node d58aff41a28c4fbdbfc12e19110dd19c, the generated node is f3b2116e53764a7488c3907b437cda79, the metric is 3.923470350842119",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node f3b2116e53764a7488c3907b437cda79 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.923470350842119.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main f3b2116e53764a7488c3907b437cda79",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 584ccccb1f3846edbf64b746af140cc9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 584ccccb1f3846edbf64b746af140cc9 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 584ccccb1f3846edbf64b746af140cc9 is 3.8385.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 86713cee52d74bcfbc2ee32a280f4179.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node 4977ec350d8947d6be42955a71f13057, Node 584ccccb1f3846edbf64b746af140cc9 metric improvement (0.608377536591477) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 584ccccb1f3846edbf64b746af140cc9 start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 4977ec350d8947d6be42955a71f13057 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 86713cee52d74bcfbc2ee32a280f4179, the generated node is 584ccccb1f3846edbf64b746af140cc9, the metric is 3.8385",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 584ccccb1f3846edbf64b746af140cc9 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.8385.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 11, current node.id is 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=13,edges=[(0, 7), (0, 3), (0, 1), (0, 2), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 15/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 13, current node.id is f3b2116e53764a7488c3907b437cda79",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7bd92ab376d448c3b57f74bec5e05331 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 7bd92ab376d448c3b57f74bec5e05331 expected_child_count is 5.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=13,edges=[(0, 7), (0, 3), (0, 1), (0, 2), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 15/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: f3b2116e53764a7488c3907b437cda79",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: f3b2116e53764a7488c3907b437cda79",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node f3b2116e53764a7488c3907b437cda79.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current f3b2116e53764a7488c3907b437cda79 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node f3b2116e53764a7488c3907b437cda79 to create new node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node e53da49cba3f4b0fa85f61d2a457680f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node e53da49cba3f4b0fa85f61d2a457680f is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b is 3.9224462866105463.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node f3b2116e53764a7488c3907b437cda79, Node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b metric improvement (0.0010240642315726411) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node f3b2116e53764a7488c3907b437cda79, the generated node is dc7c2fa903d44cdfb0f3f3c8e4ecdc9b, the metric is 3.9224462866105463",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 584ccccb1f3846edbf64b746af140cc9 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.8385.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main dc7c2fa903d44cdfb0f3f3c8e4ecdc9b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node e53da49cba3f4b0fa85f61d2a457680f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node e53da49cba3f4b0fa85f61d2a457680f is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node e53da49cba3f4b0fa85f61d2a457680f is 4.0572.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node e53da49cba3f4b0fa85f61d2a457680f is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 7bd92ab376d448c3b57f74bec5e05331, the generated node is e53da49cba3f4b0fa85f61d2a457680f, the metric is 4.0572",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node e53da49cba3f4b0fa85f61d2a457680f is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 584ccccb1f3846edbf64b746af140cc9 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.8385.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main e53da49cba3f4b0fa85f61d2a457680f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 13, current node.id is e53da49cba3f4b0fa85f61d2a457680f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=15,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (11, 13)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 17/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: e53da49cba3f4b0fa85f61d2a457680f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: e53da49cba3f4b0fa85f61d2a457680f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node e53da49cba3f4b0fa85f61d2a457680f.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current e53da49cba3f4b0fa85f61d2a457680f expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node f332eb1072bc41abaf7934efe799f903",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node f332eb1072bc41abaf7934efe799f903 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node f332eb1072bc41abaf7934efe799f903 is 3.4112.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node 93780e5257bf486d98465799a7121c89, Node f332eb1072bc41abaf7934efe799f903 metric improvement (0.8750999999999998) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 2a66ca473653432f851e8514d4f4c192, the generated node is f332eb1072bc41abaf7934efe799f903, the metric is 3.4112",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node f332eb1072bc41abaf7934efe799f903 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.4112.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main f332eb1072bc41abaf7934efe799f903",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 15, current node.id is f332eb1072bc41abaf7934efe799f903",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=16,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 18/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 16, current node.id is dc7c2fa903d44cdfb0f3f3c8e4ecdc9b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: f332eb1072bc41abaf7934efe799f903",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: f332eb1072bc41abaf7934efe799f903",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node f332eb1072bc41abaf7934efe799f903.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current f332eb1072bc41abaf7934efe799f903 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=16,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 18/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: dc7c2fa903d44cdfb0f3f3c8e4ecdc9b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: dc7c2fa903d44cdfb0f3f3c8e4ecdc9b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current dc7c2fa903d44cdfb0f3f3c8e4ecdc9b expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node e53da49cba3f4b0fa85f61d2a457680f to create new node 279aa257ced6476bb33a3c2212dc470b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b to create new node f988ec4760694a03be8a26084be2ef7d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node f332eb1072bc41abaf7934efe799f903 to create new node 21f1953aecc14eeeb27afbf32d05e469",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 279aa257ced6476bb33a3c2212dc470b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 21f1953aecc14eeeb27afbf32d05e469",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 279aa257ced6476bb33a3c2212dc470b is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 279aa257ced6476bb33a3c2212dc470b is 4.0104.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node e53da49cba3f4b0fa85f61d2a457680f, Node 279aa257ced6476bb33a3c2212dc470b metric improvement (0.046800000000000175) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node e53da49cba3f4b0fa85f61d2a457680f, the generated node is 279aa257ced6476bb33a3c2212dc470b, the metric is 4.0104",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 279aa257ced6476bb33a3c2212dc470b is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node f332eb1072bc41abaf7934efe799f903 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.4112.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 279aa257ced6476bb33a3c2212dc470b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 16, current node.id is 279aa257ced6476bb33a3c2212dc470b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=17,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (14, 16)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 19/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 279aa257ced6476bb33a3c2212dc470b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 279aa257ced6476bb33a3c2212dc470b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 279aa257ced6476bb33a3c2212dc470b.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 279aa257ced6476bb33a3c2212dc470b expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 21f1953aecc14eeeb27afbf32d05e469 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 21f1953aecc14eeeb27afbf32d05e469 is 10.9521.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node f332eb1072bc41abaf7934efe799f903, Node 21f1953aecc14eeeb27afbf32d05e469 metric improvement (-7.5409) below threshold (0.0001), try one more time(1/3)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node f332eb1072bc41abaf7934efe799f903, the generated node is 21f1953aecc14eeeb27afbf32d05e469, the metric is 10.9521",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 21f1953aecc14eeeb27afbf32d05e469 is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node f332eb1072bc41abaf7934efe799f903 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.4112.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 21f1953aecc14eeeb27afbf32d05e469",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 17, current node.id is 21f1953aecc14eeeb27afbf32d05e469",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=18,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (14, 16), (15, 17)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 20/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 21f1953aecc14eeeb27afbf32d05e469",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 21f1953aecc14eeeb27afbf32d05e469",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 21f1953aecc14eeeb27afbf32d05e469.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 21f1953aecc14eeeb27afbf32d05e469 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 279aa257ced6476bb33a3c2212dc470b to create new node fac718d83f6747efb891a8dec0c3cf0e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 21f1953aecc14eeeb27afbf32d05e469 to create new node 5baefc262657467c80350e551d537a00",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node f988ec4760694a03be8a26084be2ef7d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node f988ec4760694a03be8a26084be2ef7d is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node f988ec4760694a03be8a26084be2ef7d is 3.411037235820737.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b, Node f988ec4760694a03be8a26084be2ef7d metric improvement (0.5114090507898092) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node dc7c2fa903d44cdfb0f3f3c8e4ecdc9b, the generated node is f988ec4760694a03be8a26084be2ef7d, the metric is 3.411037235820737",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node f988ec4760694a03be8a26084be2ef7d is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.411037235820737.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main f988ec4760694a03be8a26084be2ef7d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 18, current node.id is f988ec4760694a03be8a26084be2ef7d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=19,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 21/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: f988ec4760694a03be8a26084be2ef7d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: f988ec4760694a03be8a26084be2ef7d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node f988ec4760694a03be8a26084be2ef7d.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current f988ec4760694a03be8a26084be2ef7d expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node f988ec4760694a03be8a26084be2ef7d to create new node 1491bdb677274f09914258fb20cda8d4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 5baefc262657467c80350e551d537a00",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 5baefc262657467c80350e551d537a00 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 5baefc262657467c80350e551d537a00 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 5baefc262657467c80350e551d537a00 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 21f1953aecc14eeeb27afbf32d05e469, the generated node is 5baefc262657467c80350e551d537a00, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.411037235820737.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 5baefc262657467c80350e551d537a00",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 19, current node.id is 5baefc262657467c80350e551d537a00",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=20,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17), (17, 19)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 22/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 5baefc262657467c80350e551d537a00",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 5baefc262657467c80350e551d537a00",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 5baefc262657467c80350e551d537a00.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 5baefc262657467c80350e551d537a00 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node fac718d83f6747efb891a8dec0c3cf0e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node fac718d83f6747efb891a8dec0c3cf0e is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node fac718d83f6747efb891a8dec0c3cf0e is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node fac718d83f6747efb891a8dec0c3cf0e is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 279aa257ced6476bb33a3c2212dc470b, the generated node is fac718d83f6747efb891a8dec0c3cf0e, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.411037235820737.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main fac718d83f6747efb891a8dec0c3cf0e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 20, current node.id is fac718d83f6747efb891a8dec0c3cf0e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=21,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 23/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: fac718d83f6747efb891a8dec0c3cf0e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: fac718d83f6747efb891a8dec0c3cf0e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node fac718d83f6747efb891a8dec0c3cf0e.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current fac718d83f6747efb891a8dec0c3cf0e expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 5baefc262657467c80350e551d537a00 to create new node 766d853f606f4c768d33ee832dbe8f25",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node fac718d83f6747efb891a8dec0c3cf0e to create new node 2ec6332024f44188a4087e6af61261fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 1491bdb677274f09914258fb20cda8d4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 1491bdb677274f09914258fb20cda8d4 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 1491bdb677274f09914258fb20cda8d4 is 3.41203133051518.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node f988ec4760694a03be8a26084be2ef7d, Node 1491bdb677274f09914258fb20cda8d4 metric improvement (-0.000994094694442893) below threshold (0.0001), try one more time(1/3)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node f988ec4760694a03be8a26084be2ef7d, the generated node is 1491bdb677274f09914258fb20cda8d4, the metric is 3.41203133051518",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 1491bdb677274f09914258fb20cda8d4 is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node f988ec4760694a03be8a26084be2ef7d is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.411037235820737.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 1491bdb677274f09914258fb20cda8d4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 21, current node.id is 1491bdb677274f09914258fb20cda8d4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=22,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 24/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 1491bdb677274f09914258fb20cda8d4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 1491bdb677274f09914258fb20cda8d4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 1491bdb677274f09914258fb20cda8d4.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 1491bdb677274f09914258fb20cda8d4 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 1491bdb677274f09914258fb20cda8d4 to create new node 0ea4de2858364a4cb5df9c529405738e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 2ec6332024f44188a4087e6af61261fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 2ec6332024f44188a4087e6af61261fd is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 2ec6332024f44188a4087e6af61261fd is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 2ec6332024f44188a4087e6af61261fd is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node fac718d83f6747efb891a8dec0c3cf0e, the generated node is 2ec6332024f44188a4087e6af61261fd, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.411037235820737.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 2ec6332024f44188a4087e6af61261fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 22, current node.id is 2ec6332024f44188a4087e6af61261fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=23,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (20, 22)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 25/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 2ec6332024f44188a4087e6af61261fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 2ec6332024f44188a4087e6af61261fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 2ec6332024f44188a4087e6af61261fd.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 2ec6332024f44188a4087e6af61261fd expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 2ec6332024f44188a4087e6af61261fd to create new node 8ece82b5c8c545fa885518c3a1953444",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 0ea4de2858364a4cb5df9c529405738e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 0ea4de2858364a4cb5df9c529405738e is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 0ea4de2858364a4cb5df9c529405738e is 3.350083645848586.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node f988ec4760694a03be8a26084be2ef7d, Node 0ea4de2858364a4cb5df9c529405738e metric improvement (0.06095358997215117) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 1491bdb677274f09914258fb20cda8d4, the generated node is 0ea4de2858364a4cb5df9c529405738e, the metric is 3.350083645848586",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 0ea4de2858364a4cb5df9c529405738e is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.350083645848586.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 0ea4de2858364a4cb5df9c529405738e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 766d853f606f4c768d33ee832dbe8f25",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 766d853f606f4c768d33ee832dbe8f25 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 766d853f606f4c768d33ee832dbe8f25 is 3.3484.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 5baefc262657467c80350e551d537a00.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node f332eb1072bc41abaf7934efe799f903, Node 766d853f606f4c768d33ee832dbe8f25 metric improvement (0.06280000000000019) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 766d853f606f4c768d33ee832dbe8f25 start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node d50deeee66914f99aacde0ab6824f86a is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 5baefc262657467c80350e551d537a00, the generated node is 766d853f606f4c768d33ee832dbe8f25, the metric is 3.3484",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 766d853f606f4c768d33ee832dbe8f25 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.3484.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 23, current node.id is 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=25,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 27/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 25, current node.id is 0ea4de2858364a4cb5df9c529405738e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: For node 7bd92ab376d448c3b57f74bec5e05331, there are 2/5 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 4977ec350d8947d6be42955a71f13057 uct = 1.0/1 + 1.414*(math.log(2) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node d50deeee66914f99aacde0ab6824f86a uct = 1.0/1 + 1.414*(math.log(2) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 9cb87f6a5a4d49af802546d8ca5a3b37 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=25,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 27/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='error'>[ERROR]</span>: Exception during step_task execution: max() iterable argument is empty",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 215, in run",
+            "delay": 200
+        },
+        {
+            "text": "cur_node = fut.result()",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/_base.py\", line 449, in result",
+            "delay": 200
+        },
+        {
+            "text": "return self.__get_result()",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result",
+            "delay": 200
+        },
+        {
+            "text": "raise self._exception",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/thread.py\", line 59, in run",
+            "delay": 200
+        },
+        {
+            "text": "result = self.fn(*self.args, **self.kwargs)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 198, in step_task",
+            "delay": 200
+        },
+        {
+            "text": "return agent.step(exec_callback=exec_callback, node=node)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 745, in step",
+            "delay": 200
+        },
+        {
+            "text": "node = self.select(self.virtual_root)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 529, in select",
+            "delay": 200
+        },
+        {
+            "text": "node = self.uct_select(node)",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 594, in uct_select",
+            "delay": 200
+        },
+        {
+            "text": "return max(node.children, key=lambda child: child.uct_value(exploration_constant = self.get_C()))",
+            "delay": 200
+        },
+        {
+            "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "delay": 200
+        },
+        {
+            "text": "ValueError: max() iterable argument is empty",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 0ea4de2858364a4cb5df9c529405738e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 0ea4de2858364a4cb5df9c529405738e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 0ea4de2858364a4cb5df9c529405738e.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 0ea4de2858364a4cb5df9c529405738e expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=25,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 27/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: For node 7bd92ab376d448c3b57f74bec5e05331, there are 3/5 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 4977ec350d8947d6be42955a71f13057 uct = 1.0/1 + 1.414*(math.log(2) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node d50deeee66914f99aacde0ab6824f86a uct = 1.0/1 + 1.414*(math.log(2) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 4977ec350d8947d6be42955a71f13057 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node eecb1bd05b1642d2ac3165a13ad0163c uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 86713cee52d74bcfbc2ee32a280f4179 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 584ccccb1f3846edbf64b746af140cc9 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 584ccccb1f3846edbf64b746af140cc9 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 584ccccb1f3846edbf64b746af140cc9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 584ccccb1f3846edbf64b746af140cc9.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 584ccccb1f3846edbf64b746af140cc9 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 584ccccb1f3846edbf64b746af140cc9 to create new node 79e99f3e59b54c13983cd8b5616104a8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 0ea4de2858364a4cb5df9c529405738e to create new node 4e9f2df1da6f4d39bf81931a23ef4ba1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 8ece82b5c8c545fa885518c3a1953444",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 8ece82b5c8c545fa885518c3a1953444 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 8ece82b5c8c545fa885518c3a1953444 is 3.9452.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 2ec6332024f44188a4087e6af61261fd.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node 279aa257ced6476bb33a3c2212dc470b, Node 8ece82b5c8c545fa885518c3a1953444 metric improvement (0.06519999999999992) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 8ece82b5c8c545fa885518c3a1953444 start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node e53da49cba3f4b0fa85f61d2a457680f is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 2ec6332024f44188a4087e6af61261fd, the generated node is 8ece82b5c8c545fa885518c3a1953444, the metric is 3.9452",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 8ece82b5c8c545fa885518c3a1953444 is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 766d853f606f4c768d33ee832dbe8f25 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.3484.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 25, current node.id is 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=26,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23), (22, 25)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 28/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 7bd92ab376d448c3b57f74bec5e05331",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: For node 7bd92ab376d448c3b57f74bec5e05331, there are 3/5 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node d50deeee66914f99aacde0ab6824f86a uct = 1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node e53da49cba3f4b0fa85f61d2a457680f uct = 1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node d50deeee66914f99aacde0ab6824f86a is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node ccd28cd8ae9c4f9fa6f327cec53f1128 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 93780e5257bf486d98465799a7121c89 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 2a66ca473653432f851e8514d4f4c192 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node f332eb1072bc41abaf7934efe799f903 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 21f1953aecc14eeeb27afbf32d05e469 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 5baefc262657467c80350e551d537a00 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 766d853f606f4c768d33ee832dbe8f25 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 766d853f606f4c768d33ee832dbe8f25 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 766d853f606f4c768d33ee832dbe8f25",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 766d853f606f4c768d33ee832dbe8f25.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 766d853f606f4c768d33ee832dbe8f25 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 766d853f606f4c768d33ee832dbe8f25 to create new node 8c583c382f0d403e9814a3fee8a648f8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 79e99f3e59b54c13983cd8b5616104a8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 79e99f3e59b54c13983cd8b5616104a8 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 79e99f3e59b54c13983cd8b5616104a8 is 3.7061.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node 584ccccb1f3846edbf64b746af140cc9, Node 79e99f3e59b54c13983cd8b5616104a8 metric improvement (0.13239999999999963) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 584ccccb1f3846edbf64b746af140cc9, the generated node is 79e99f3e59b54c13983cd8b5616104a8, the metric is 3.7061",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 79e99f3e59b54c13983cd8b5616104a8 is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 766d853f606f4c768d33ee832dbe8f25 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.3484.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 79e99f3e59b54c13983cd8b5616104a8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 26, current node.id is 79e99f3e59b54c13983cd8b5616104a8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=27,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (12, 26), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23), (22, 25)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 29/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 79e99f3e59b54c13983cd8b5616104a8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 79e99f3e59b54c13983cd8b5616104a8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 79e99f3e59b54c13983cd8b5616104a8.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 79e99f3e59b54c13983cd8b5616104a8 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 79e99f3e59b54c13983cd8b5616104a8 to create new node 0053fa8ffadd49efb99bd38b1b134ed3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 4e9f2df1da6f4d39bf81931a23ef4ba1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 4e9f2df1da6f4d39bf81931a23ef4ba1 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 4e9f2df1da6f4d39bf81931a23ef4ba1 is 3.350486315227965.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node 0ea4de2858364a4cb5df9c529405738e, Node 4e9f2df1da6f4d39bf81931a23ef4ba1 metric improvement (-0.0004026693793792724) below threshold (0.0001), try one more time(1/3)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 0ea4de2858364a4cb5df9c529405738e, the generated node is 4e9f2df1da6f4d39bf81931a23ef4ba1, the metric is 3.350486315227965",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 4e9f2df1da6f4d39bf81931a23ef4ba1 is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 766d853f606f4c768d33ee832dbe8f25 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.3484.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 4e9f2df1da6f4d39bf81931a23ef4ba1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 27, current node.id is 4e9f2df1da6f4d39bf81931a23ef4ba1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=28,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (12, 26), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23), (22, 25), (23, 27)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 30/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 4e9f2df1da6f4d39bf81931a23ef4ba1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4e9f2df1da6f4d39bf81931a23ef4ba1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 4e9f2df1da6f4d39bf81931a23ef4ba1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 4e9f2df1da6f4d39bf81931a23ef4ba1 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 4e9f2df1da6f4d39bf81931a23ef4ba1 to create new node bf421f0e20ec4ef4b14841deb42b42ac",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 8c583c382f0d403e9814a3fee8a648f8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 8c583c382f0d403e9814a3fee8a648f8 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 8c583c382f0d403e9814a3fee8a648f8 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 8c583c382f0d403e9814a3fee8a648f8 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 766d853f606f4c768d33ee832dbe8f25, the generated node is 8c583c382f0d403e9814a3fee8a648f8, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.3484.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 8c583c382f0d403e9814a3fee8a648f8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 28, current node.id is 8c583c382f0d403e9814a3fee8a648f8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=29,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (12, 26), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23), (22, 25), (23, 27), (24, 28)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 31/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 8c583c382f0d403e9814a3fee8a648f8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 8c583c382f0d403e9814a3fee8a648f8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 8c583c382f0d403e9814a3fee8a648f8.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 8c583c382f0d403e9814a3fee8a648f8 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 8c583c382f0d403e9814a3fee8a648f8 to create new node c6eb7060a40f42d994a2d5d9a4c955d3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node bf421f0e20ec4ef4b14841deb42b42ac",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node bf421f0e20ec4ef4b14841deb42b42ac is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node bf421f0e20ec4ef4b14841deb42b42ac is 3.4980301812329633.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node 0ea4de2858364a4cb5df9c529405738e, Node bf421f0e20ec4ef4b14841deb42b42ac metric improvement (-0.1479465353843774) below threshold (0.0001), try one more time(2/3)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 4e9f2df1da6f4d39bf81931a23ef4ba1, the generated node is bf421f0e20ec4ef4b14841deb42b42ac, the metric is 3.4980301812329633",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node bf421f0e20ec4ef4b14841deb42b42ac is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 766d853f606f4c768d33ee832dbe8f25 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.3484.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main bf421f0e20ec4ef4b14841deb42b42ac",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 29, current node.id is bf421f0e20ec4ef4b14841deb42b42ac",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=30,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (12, 26), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23), (22, 25), (23, 27), (24, 28), (27, 29)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 32/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: bf421f0e20ec4ef4b14841deb42b42ac",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: bf421f0e20ec4ef4b14841deb42b42ac",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node bf421f0e20ec4ef4b14841deb42b42ac.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current bf421f0e20ec4ef4b14841deb42b42ac expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node bf421f0e20ec4ef4b14841deb42b42ac to create new node 2f091eb6ce29401abfcefcaedeb21e76",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 0053fa8ffadd49efb99bd38b1b134ed3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 0053fa8ffadd49efb99bd38b1b134ed3 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 0053fa8ffadd49efb99bd38b1b134ed3 is 3.2914.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node 79e99f3e59b54c13983cd8b5616104a8, Node 0053fa8ffadd49efb99bd38b1b134ed3 metric improvement (0.4147000000000003) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 79e99f3e59b54c13983cd8b5616104a8, the generated node is 0053fa8ffadd49efb99bd38b1b134ed3, the metric is 3.2914",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 0053fa8ffadd49efb99bd38b1b134ed3 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 3.2914.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 0053fa8ffadd49efb99bd38b1b134ed3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 30, current node.id is 0053fa8ffadd49efb99bd38b1b134ed3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=31,edges=[(0, 3), (0, 1), (0, 2), (0, 14), (0, 7), (1, 4), (2, 6), (3, 5), (5, 9), (6, 8), (7, 11), (8, 10), (9, 12), (10, 15), (11, 13), (12, 26), (13, 18), (14, 16), (15, 17), (16, 20), (17, 19), (18, 21), (19, 24), (20, 22), (21, 23), (22, 25), (23, 27), (24, 28), (26, 30), (27, 29)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 33/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 0053fa8ffadd49efb99bd38b1b134ed3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 0053fa8ffadd49efb99bd38b1b134ed3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 0053fa8ffadd49efb99bd38b1b134ed3.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 0053fa8ffadd49efb99bd38b1b134ed3 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 0053fa8ffadd49efb99bd38b1b134ed3 to create new node 0f68875751c54399be9a9d4d1b950d38",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
             "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
             "delay": 200
         }
