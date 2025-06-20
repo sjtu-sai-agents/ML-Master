@@ -130,8 +130,8 @@
             z-index: 1;
             position: relative;
         }
-/* 
-        .hero h1 {
+
+        /* .hero h1 {
             font-size: clamp(3rem, 8vw, 5.5rem);
             font-weight: 800;
             margin-bottom: 1.5rem;
@@ -145,8 +145,7 @@
             letter-spacing: -0.03em;
             line-height: 1.1;
         } */
-
-        .hero h1 {
+    .hero h1 {
             font-size: clamp(3.5rem, 10vw, 7rem);
             font-weight: 900;
             margin-bottom: 1.5rem;
@@ -368,7 +367,6 @@
                 transform: translate(-55%, -45%) scale(0.9) rotate(240deg);
             }
         }
-
 
         .hero-subtitle {
             font-size: clamp(1.1rem, 3vw, 1.4rem);
@@ -852,7 +850,7 @@
             border-radius: 12px;
             margin-top: 0.5rem;
             max-height: 0;
-            overflow: hidden;
+            overflow: hidden; /* 移除 overflow-y: auto */
             transition: all 0.3s ease;
             z-index: 1000;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -860,7 +858,7 @@
 
         .dropdown-menu.show {
             max-height: 500px;
-            overflow-y: auto;
+            overflow: hidden; /* 保持 hidden，让内部元素处理滚动 */
         }
 
         .dropdown-search {
@@ -893,9 +891,10 @@
         }
 
         .dropdown-options {
-            max-height: 400px;
-            overflow-y: auto;
+            max-height: 600px;
+            overflow-y: auto; /* 只在这里保留滚动 */
         }
+
 
         .option-group {
             padding: 0.5rem 0;
@@ -1105,7 +1104,7 @@
             color: #e6edf3;
             background: #0d1117;
             overflow-x: auto;
-            max-height: 400px;
+            max-height: 1000px;
             overflow-y: auto;
         }
 
@@ -1255,14 +1254,6 @@
                 max-height: 400px;
             }
 
-            .dropdown-search {
-                padding: 0.8rem;
-            }
-
-            .dropdown-search input {
-                padding: 0.6rem;
-                font-size: 0.85rem;
-            }
 
             .dropdown-option {
                 padding: 0.8rem 1rem;
@@ -1298,7 +1289,7 @@
             .code-content {
                 padding: 1rem;
                 font-size: 0.75rem;
-                max-height: 300px;
+                max-height: 500px;
             }
 
             .demo-controls {
@@ -1343,6 +1334,70 @@
                 gap: 0.5rem;
             }
         }
+            .dropdown-loading {
+            padding: 2rem;
+            text-align: center;
+            color: #888;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+            .loading-spinner {
+            width: 24px;
+            height: 24px;
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 0.9rem;
+            color: #b8b8b8;
+        }
+
+        .loading-progress {
+            width: 200px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+
+        .loading-progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 2px;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .dropdown-selected.loading {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+
+        .dropdown-selected.loading .dropdown-arrow {
+            display: none;
+        }
+
+        .dropdown-selected.loading::after {
+            content: '';
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 0.5rem;
+        }
     </style>
 </head>
 <body>
@@ -1356,6 +1411,7 @@
                 <li><a href="#performance">Performance</a></li>
                 <li><a href="#demo">Demo</a></li>
                 <li><a href="https://github.com/sjtu-sai-agents/ML-Master/blob/main/assets/ML-Master_github.pdf">Paper</a></li>
+                <li><a href="https://github.com/sjtu-sai-agents/ML-Master/">Code</a></li>
             </ul>
         </nav>
     </header>
@@ -1385,6 +1441,7 @@
                 <div class="cta-buttons">
                     <a href="#demo" class="btn btn-primary">Try Demo</a>
                     <a href="https://github.com/sjtu-sai-agents/ML-Master/blob/main/assets/ML-Master_github.pdf" class="btn btn-secondary">Read Paper</a>
+                    <a href="https://github.com/sjtu-sai-agents/ML-Master" class="btn btn-secondary">Code</a>
                 </div>
             </div>
         </section>
@@ -1571,9 +1628,6 @@
                             <span class="dropdown-arrow">▼</span>
                         </div>
                         <div class="dropdown-menu" id="dropdown-menu">
-                            <div class="dropdown-search">
-                                <input type="text" placeholder="Search competitions..." id="search-input" onkeyup="filterOptions()">
-                            </div>
                             <div class="dropdown-options" id="dropdown-options">
                                 <div class="option-group">
                                     <div class="group-label">🎯 Classification</div>
@@ -1710,385 +1764,273 @@
     </main>
 
     <script>
+
+        
+        // Demo data structure
         let demoRunning = false;
         let currentStep = 0;
         let currentDemo = 'titanic';
+        let demoData = {};
+        let demoConfig = {};
+        let isLoading = true;
+        let loadingProgress = 0;
         
-        // Demo data structure
-        const demos = {
-            titanic: {
-                title: "ML-Master: Titanic Survival Prediction",
-                steps: [
-                    { text: "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task titanic --time-limit 12h", delay: 1000 },
-                    { text: "<span class='info'>[INFO]</span> Initializing ML-Master agent...", delay: 800 },
-                    { text: "<span class='info'>[INFO]</span> Loading Titanic dataset: train.csv, test.csv", delay: 600 },
-                    { text: "<span class='info'>[INFO]</span> Starting balanced multi-trajectory exploration...", delay: 700 },
-                    { text: "", delay: 300 },
-                    { text: "<span class='warning'>[EXPLORATION]</span> 🌳 Building search tree with MCTS", delay: 900 },
-                    { text: "<span class='info'>[NODE-1]</span> Draft: Initial data analysis and baseline model", delay: 1200 },
-                    { text: "   → Survival rate: 38.4% | Features: 11 | Missing values detected", delay: 800 },
-                    { text: "   → Baseline LogisticRegression accuracy: 0.794", delay: 600 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='info'>[NODE-2]</span> Improve: Feature engineering pipeline", delay: 1000 },
-                    { text: "   → Created Age_binned, Title_extracted, Family_size features", delay: 900 },
-                    { text: "   → RandomForest accuracy: 0.823 ✅ (+2.9%)", delay: 700 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='warning'>[REASONING]</span> 🧠 Steerable reasoning with adaptive memory", delay: 1100 },
-                    { text: "   💭 Analyzing exploration outcomes from 3 parallel branches...", delay: 1000 },
-                    { text: "   💭 Key insight: Title feature shows strong predictive power", delay: 800 },
-                    { text: "   💭 Decision: Focus on ensemble methods with feature selection", delay: 900 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='info'>[NODE-3]</span> Debug: Handling missing Embarked values", delay: 800 },
-                    { text: "   → Fixed: Imputed missing Embarked with mode 'S'", delay: 600 },
-                    { text: "", delay: 300 },
-                    { text: "<span class='info'>[NODE-4]</span> Improve: Advanced ensemble modeling", delay: 1000 },
-                    { text: "   → XGBoost + LightGBM + RandomForest ensemble", delay: 800 },
-                    { text: "   → Cross-validation score: 0.847 ✅ (+2.4%)", delay: 700 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='warning'>[MEMORY]</span> 📚 Updating adaptive memory...", delay: 800 },
-                    { text: "   → Stored insights: Feature importance, model performance, debugging fixes", delay: 900 },
-                    { text: "   → Sibling nodes: 2 parallel branches with different approaches", delay: 700 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='info'>[NODE-5]</span> Improve: Hyperparameter optimization", delay: 1000 },
-                    { text: "   → Bayesian optimization for ensemble weights", delay: 800 },
-                    { text: "   → Final ensemble score: 0.862 ✅ (+1.5%)", delay: 700 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='success'>[COMPLETED]</span> 🎯 Solution ready!", delay: 1000 },
-                    { text: "", delay: 300 },
-                    { text: "📊 <span class='success'>Final Results:</span>", delay: 600 },
-                    { text: "   • Cross-validation accuracy: <span class='success'>86.2%</span>", delay: 500 },
-                    { text: "   • Public leaderboard score: <span class='success'>0.844</span>", delay: 500 },
-                    { text: "   • Kaggle rank: <span class='success'>Top 15%</span> 🥉", delay: 500 },
-                    { text: "   • Time taken: <span class='info'>8.5 hours</span> (29% under limit)", delay: 500 },
-                    { text: "   • Nodes explored: <span class='info'>47</span> across 3 parallel branches", delay: 500 },
-                    { text: "", delay: 300 },
-                    { text: "<span class='success'>✅ Medal achieved: Bronze+ performance!</span>", delay: 800 },
-                    { text: "<span class='prompt'>ml-master@ai4ai:~$</span> ", delay: 1000 }
-                ],
-                code: `<span class="comment"># ML-Master Generated Solution: Titanic Survival Prediction</span>
-<span class="comment"># Generated automatically through exploration and reasoning</span>
-
-<span class="keyword">import</span> pandas <span class="keyword">as</span> pd
-<span class="keyword">import</span> numpy <span class="keyword">as</span> np
-<span class="keyword">from</span> sklearn.ensemble <span class="keyword">import</span> RandomForestClassifier, GradientBoostingClassifier
-<span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LogisticRegression
-<span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> cross_val_score, StratifiedKFold
-<span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> StandardScaler
-<span class="keyword">import</span> xgboost <span class="keyword">as</span> xgb
-<span class="keyword">import</span> lightgbm <span class="keyword">as</span> lgb
-
-<span class="keyword">def</span> <span class="function">feature_engineering</span>(df):
-    <span class="string">"""Advanced feature engineering discovered through exploration"""</span>
-    df = df.copy()
-    
-    <span class="comment"># Title extraction (Key insight from reasoning)</span>
-    df[<span class="string">'Title'</span>] = df[<span class="string">'Name'</span>].str.extract(<span class="string">' ([A-Za-z]+)\\.'</span>)
-    title_mapping = {<span class="string">'Mr'</span>: <span class="number">1</span>, <span class="string">'Miss'</span>: <span class="number">2</span>, <span class="string">'Mrs'</span>: <span class="number">3</span>, <span class="string">'Master'</span>: <span class="number">4</span>, <span class="string">'Dr'</span>: <span class="number">5</span>}
-    df[<span class="string">'Title'</span>] = df[<span class="string">'Title'</span>].map(title_mapping).fillna(<span class="number">0</span>)
-    
-    <span class="comment"># Family size engineering</span>
-    df[<span class="string">'FamilySize'</span>] = df[<span class="string">'SibSp'</span>] + df[<span class="string">'Parch'</span>] + <span class="number">1</span>
-    df[<span class="string">'IsAlone'</span>] = (df[<span class="string">'FamilySize'</span>] == <span class="number">1</span>).astype(int)
-    
-    <span class="comment"># Age binning (discovered through MCTS exploration)</span>
-    df[<span class="string">'Age'</span>].fillna(df[<span class="string">'Age'</span>].median(), inplace=<span class="keyword">True</span>)
-    df[<span class="string">'AgeBin'</span>] = pd.cut(df[<span class="string">'Age'</span>], bins=[<span class="number">0</span>, <span class="number">12</span>, <span class="number">18</span>, <span class="number">35</span>, <span class="number">60</span>, <span class="number">100</span>], labels=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>])
-    
-    <span class="comment"># Handle missing values (debugging phase discovery)</span>
-    df[<span class="string">'Embarked'</span>].fillna(<span class="string">'S'</span>, inplace=<span class="keyword">True</span>)
-    df[<span class="string">'Fare'</span>].fillna(df[<span class="string">'Fare'</span>].median(), inplace=<span class="keyword">True</span>)
-    
-    <span class="comment"># Encode categorical variables</span>
-    df[<span class="string">'Sex'</span>] = df[<span class="string">'Sex'</span>].map({<span class="string">'male'</span>: <span class="number">0</span>, <span class="string">'female'</span>: <span class="number">1</span>})
-    df[<span class="string">'Embarked'</span>] = df[<span class="string">'Embarked'</span>].map({<span class="string">'S'</span>: <span class="number">0</span>, <span class="string">'C'</span>: <span class="number">1</span>, <span class="string">'Q'</span>: <span class="number">2</span>})
-    
-    features = [<span class="string">'Pclass'</span>, <span class="string">'Sex'</span>, <span class="string">'AgeBin'</span>, <span class="string">'FamilySize'</span>, <span class="string">'IsAlone'</span>, 
-                <span class="string">'Title'</span>, <span class="string">'Embarked'</span>, <span class="string">'Fare'</span>]
-    <span class="keyword">return</span> df[features]
-
-<span class="keyword">class</span> <span class="class">TitanicEnsemble</span>:
-    <span class="string">"""Optimized ensemble discovered through adaptive memory"""</span>
-    
-    <span class="keyword">def</span> <span class="function">__init__</span>(self):
-        self.models = {
-            <span class="string">'rf'</span>: RandomForestClassifier(n_estimators=<span class="number">200</span>, max_depth=<span class="number">7</span>, random_state=<span class="number">42</span>),
-            <span class="string">'xgb'</span>: xgb.XGBClassifier(n_estimators=<span class="number">150</span>, max_depth=<span class="number">6</span>, learning_rate=<span class="number">0.1</span>),
-            <span class="string">'lgb'</span>: lgb.LGBMClassifier(n_estimators=<span class="number">100</span>, max_depth=<span class="number">5</span>, learning_rate=<span class="number">0.15</span>),
-            <span class="string">'lr'</span>: LogisticRegression(C=<span class="number">0.1</span>, random_state=<span class="number">42</span>)
-        }
-        <span class="comment"># Optimal weights discovered through Bayesian optimization</span>
-        self.weights = [<span class="number">0.3</span>, <span class="number">0.25</span>, <span class="number">0.25</span>, <span class="number">0.2</span>]
-        
-    <span class="keyword">def</span> <span class="function">fit</span>(self, X, y):
-        <span class="keyword">for</span> model <span class="keyword">in</span> self.models.values():
-            model.fit(X, y)
-        <span class="keyword">return</span> self
-        
-    <span class="keyword">def</span> <span class="function">predict_proba</span>(self, X):
-        predictions = []
-        <span class="keyword">for</span> model <span class="keyword">in</span> self.models.values():
-            predictions.append(model.predict_proba(X)[:, <span class="number">1</span>])
-        
-        <span class="comment"># Weighted ensemble prediction</span>
-        ensemble_pred = np.average(predictions, axis=<span class="number">0</span>, weights=self.weights)
-        <span class="keyword">return</span> ensemble_pred
-        
-    <span class="keyword">def</span> <span class="function">predict</span>(self, X):
-        proba = self.predict_proba(X)
-        <span class="keyword">return</span> (proba > <span class="number">0.5</span>).astype(int)
-
-<span class="comment"># Main execution pipeline</span>
-<span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:
-    <span class="comment"># Load data</span>
-    train_df = pd.read_csv(<span class="string">'train.csv'</span>)
-    test_df = pd.read_csv(<span class="string">'test.csv'</span>)
-    
-    <span class="comment"># Feature engineering</span>
-    X_train = feature_engineering(train_df)
-    y_train = train_df[<span class="string">'Survived'</span>]
-    X_test = feature_engineering(test_df)
-    
-    <span class="comment"># Train ensemble model</span>
-    ensemble = TitanicEnsemble()
-    ensemble.fit(X_train, y_train)
-    
-    <span class="comment"># Cross-validation score: 86.2%</span>
-    cv_scores = cross_val_score(ensemble, X_train, y_train, cv=<span class="number">5</span>, scoring=<span class="string">'accuracy'</span>)
-    print(<span class="string">f"CV Score: {cv_scores.mean():.3f} (+/- {cv_scores.std() * 2:.3f})"</span>)
-    
-    <span class="comment"># Generate predictions</span>
-    predictions = ensemble.predict(X_test)
-    
-    <span class="comment"># Create submission</span>
-    submission = pd.DataFrame({
-        <span class="string">'PassengerId'</span>: test_df[<span class="string">'PassengerId'</span>],
-        <span class="string">'Survived'</span>: predictions
-    })
-    submission.to_csv(<span class="string">'submission.csv'</span>, index=<span class="keyword">False</span>)
-    print(<span class="string">"🎯 Submission saved! Expected leaderboard score: ~0.844"</span>)`
-            },
-            'house-prices': {
-                title: "ML-Master: House Prices Advanced Regression",
-                steps: [
-                    { text: "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task house-prices --time-limit 12h", delay: 1000 },
-                    { text: "<span class='info'>[INFO]</span> Initializing ML-Master agent...", delay: 800 },
-                    { text: "<span class='info'>[INFO]</span> Loading House Prices dataset: train.csv, test.csv", delay: 600 },
-                    { text: "<span class='info'>[INFO]</span> Target: SalePrice | Features: 79 | Samples: 1460", delay: 700 },
-                    { text: "", delay: 300 },
-                    { text: "<span class='warning'>[EXPLORATION]</span> 🌳 MCTS exploration with 4 parallel workers", delay: 900 },
-                    { text: "<span class='info'>[NODE-1]</span> Draft: Baseline linear regression", delay: 1000 },
-                    { text: "   → Missing values: 19 features | Categorical: 43 | Numerical: 36", delay: 800 },
-                    { text: "   → Baseline RMSE: 0.234 (log scale)", delay: 600 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='info'>[NODE-2]</span> Improve: Advanced feature engineering", delay: 1000 },
-                    { text: "   → Total area = GrLivArea + TotalBsmtSF", delay: 800 },
-                    { text: "   → Age features: YearBuilt, YearRemodAdd", delay: 700 },
-                    { text: "   → Ridge Regression RMSE: 0.187 ✅ (-20.1%)", delay: 700 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='warning'>[REASONING]</span> 🧠 Analyzing feature correlations...", delay: 1100 },
-                    { text: "   💭 High correlation: OverallQual (0.79), GrLivArea (0.71)", delay: 1000 },
-                    { text: "   💭 Outliers detected in GrLivArea vs SalePrice", delay: 800 },
-                    { text: "   💭 Strategy: Outlier removal + polynomial features", delay: 900 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='info'>[NODE-3]</span> Debug: Outlier analysis and removal", delay: 800 },
-                    { text: "   → Removed 5 extreme outliers (GrLivArea > 4000)", delay: 700 },
-                    { text: "   → Data quality improved significantly", delay: 600 },
-                    { text: "", delay: 300 },
-                    { text: "<span class='info'>[NODE-4]</span> Improve: Ensemble with stacking", delay: 1000 },
-                    { text: "   → Base models: XGBoost, LightGBM, ElasticNet", delay: 800 },
-                    { text: "   → Meta-learner: Ridge Regression", delay: 600 },
-                    { text: "   → Stacked ensemble RMSE: 0.142 ✅ (-24.1%)", delay: 700 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='warning'>[MEMORY]</span> 📚 Memory update from exploration...", delay: 800 },
-                    { text: "   → Best preprocessing: Log transform + StandardScaler", delay: 900 },
-                    { text: "   → Optimal features: 45 selected from 300+ engineered", delay: 700 },
-                    { text: "   → Cross-validation strategy: 10-fold with stratification", delay: 800 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='info'>[NODE-5]</span> Improve: Final hyperparameter tuning", delay: 1000 },
-                    { text: "   → Bayesian optimization on ensemble weights", delay: 800 },
-                    { text: "   → Final model RMSE: 0.128 ✅ (-9.9%)", delay: 700 },
-                    { text: "", delay: 400 },
-                    { text: "<span class='success'>[COMPLETED]</span> 🏠 House price predictor ready!", delay: 1000 },
-                    { text: "", delay: 300 },
-                    { text: "📊 <span class='success'>Final Results:</span>", delay: 600 },
-                    { text: "   • Cross-validation RMSE: <span class='success'>0.128</span>", delay: 500 },
-                    { text: "   • Public leaderboard RMSE: <span class='success'>0.134</span>", delay: 500 },
-                    { text: "   • Kaggle rank: <span class='success'>Top 25%</span> 🥈", delay: 500 },
-                    { text: "   • Time taken: <span class='info'>10.2 hours</span> (15% under limit)", delay: 500 },
-                    { text: "   • Nodes explored: <span class='info'>62</span> across 4 parallel branches", delay: 500 },
-                    { text: "", delay: 300 },
-                    { text: "<span class='success'>✅ Medal achieved: Silver+ performance!</span>", delay: 800 },
-                    { text: "<span class='prompt'>ml-master@ai4ai:~$</span> ", delay: 1000 }
-                ],
-                code: `<span class="comment"># ML-Master Generated Solution: House Prices Regression</span>
-<span class="comment"># Advanced ensemble with feature engineering and outlier handling</span>
-
-<span class="keyword">import</span> pandas <span class="keyword">as</span> pd
-<span class="keyword">import</span> numpy <span class="keyword">as</span> np
-<span class="keyword">from</span> sklearn.ensemble <span class="keyword">import</span> RandomForestRegressor
-<span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> ElasticNet, Ridge
-<span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> StandardScaler, RobustScaler
-<span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> KFold, cross_val_score
-<span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> mean_squared_log_error
-<span class="keyword">import</span> xgboost <span class="keyword">as</span> xgb
-<span class="keyword">import</span> lightgbm <span class="keyword">as</span> lgb
-<span class="keyword">from</span> scipy.special <span class="keyword">import</span> boxcox1p
-<span class="keyword">from</span> scipy.stats <span class="keyword">import</span> boxcox_normmax
-
-<span class="keyword">def</span> <span class="function">advanced_feature_engineering</span>(df):
-    <span class="string">"""Comprehensive feature engineering discovered through MCTS"""</span>
-    df = df.copy()
-    
-    <span class="comment"># Handle missing values intelligently</span>
-    <span class="keyword">for</span> col <span class="keyword">in</span> [<span class="string">'PoolQC'</span>, <span class="string">'MiscFeature'</span>, <span class="string">'Alley'</span>, <span class="string">'Fence'</span>, <span class="string">'FireplaceQu'</span>]:
-        df[col] = df[col].fillna(<span class="string">'None'</span>)
-    
-    <span class="keyword">for</span> col <span class="keyword">in</span> [<span class="string">'GarageType'</span>, <span class="string">'GarageFinish'</span>, <span class="string">'GarageQual'</span>, <span class="string">'GarageCond'</span>]:
-        df[col] = df[col].fillna(<span class="string">'None'</span>)
-        
-    <span class="keyword">for</span> col <span class="keyword">in</span> [<span class="string">'BsmtQual'</span>, <span class="string">'BsmtCond'</span>, <span class="string">'BsmtExposure'</span>, <span class="string">'BsmtFinType1'</span>, <span class="string">'BsmtFinType2'</span>]:
-        df[col] = df[col].fillna(<span class="string">'None'</span>)
-    
-    <span class="comment"># Numerical missing values</span>
-    df[<span class="string">'LotFrontage'</span>] = df.groupby(<span class="string">'Neighborhood'</span>)[<span class="string">'LotFrontage'</span>].transform(<span class="keyword">lambda</span> x: x.fillna(x.median()))
-    
-    <span class="comment"># Key engineered features (discovered through exploration)</span>
-    df[<span class="string">'TotalSF'</span>] = df[<span class="string">'TotalBsmtSF'</span>] + df[<span class="string">'1stFlrSF'</span>] + df[<span class="string">'2ndFlrSF'</span>]
-    df[<span class="string">'TotalBathrooms'</span>] = df[<span class="string">'FullBath'</span>] + df[<span class="string">'HalfBath'</span>] * <span class="number">0.5</span> + df[<span class="string">'BsmtFullBath'</span>] + df[<span class="string">'BsmtHalfBath'</span>] * <span class="number">0.5</span>
-    df[<span class="string">'TotalPorchSF'</span>] = df[<span class="string">'OpenPorchSF'</span>] + df[<span class="string">'3SsnPorch'</span>] + df[<span class="string">'EnclosedPorch'</span>] + df[<span class="string">'ScreenPorch'</span>] + df[<span class="string">'WoodDeckSF'</span>]
-    
-    <span class="comment"># Age features</span>
-    df[<span class="string">'HouseAge'</span>] = df[<span class="string">'YrSold'</span>] - df[<span class="string">'YearBuilt'</span>]
-    df[<span class="string">'RemodAge'</span>] = df[<span class="string">'YrSold'</span>] - df[<span class="string">'YearRemodAdd'</span>]
-    df[<span class="string">'IsNew'</span>] = (df[<span class="string">'YearBuilt'</span>] == df[<span class="string">'YrSold'</span>]).astype(int)
-    
-    <span class="comment"># Quality and condition combinations</span>
-    df[<span class="string">'OverallGrade'</span>] = df[<span class="string">'OverallQual'</span>] * df[<span class="string">'OverallCond'</span>]
-    df[<span class="string">'ExterGrade'</span>] = df[<span class="string">'ExterQual'</span>].map({<span class="string">'Ex'</span>: <span class="number">5</span>, <span class="string">'Gd'</span>: <span class="number">4</span>, <span class="string">'TA'</span>: <span class="number">3</span>, <span class="string">'Fa'</span>: <span class="number">2</span>, <span class="string">'Po'</span>: <span class="number">1</span>}).fillna(<span class="number">0</span>)
-    df[<span class="string">'ExterCond'</span>] = df[<span class="string">'ExterCond'</span>].map({<span class="string">'Ex'</span>: <span class="number">5</span>, <span class="string">'Gd'</span>: <span class="number">4</span>, <span class="string">'TA'</span>: <span class="number">3</span>, <span class="string">'Fa'</span>: <span class="number">2</span>, <span class="string">'Po'</span>: <span class="number">1</span>}).fillna(<span class="number">0</span>)
-    
-    <span class="comment"># Polynomial features for key variables</span>
-    df[<span class="string">'GrLivArea_sq'</span>] = df[<span class="string">'GrLivArea'</span>] ** <span class="number">2</span>
-    df[<span class="string">'TotalSF_sq'</span>] = df[<span class="string">'TotalSF'</span>] ** <span class="number">2</span>
-    
-    <span class="keyword">return</span> df
-
-<span class="keyword">def</span> <span class="function">remove_outliers</span>(df, target_col=<span class="string">'SalePrice'</span>):
-    <span class="string">"""Remove outliers discovered through reasoning phase"""</span>
-    <span class="keyword">if</span> target_col <span class="keyword">in</span> df.columns:
-        <span class="comment"># Remove houses with very large living area but low price</span>
-        df = df.drop(df[(df[<span class="string">'GrLivArea'</span>] > <span class="number">4000</span>) & (df[target_col] < <span class="number">300000</span>)].index)
-        <span class="comment"># Remove houses with extremely low overall quality but high price</span>
-        df = df.drop(df[(df[<span class="string">'OverallQual'</span>] < <span class="number">5</span>) & (df[target_col] > <span class="number">200000</span>)].index)
-    <span class="keyword">return</span> df
-
-<span class="keyword">class</span> <span class="class">HousePriceEnsemble</span>:
-    <span class="string">"""Stacked ensemble optimized through adaptive memory"""</span>
-    
-    <span class="keyword">def</span> <span class="function">__init__</span>(self):
-        <span class="comment"># Base models with optimized hyperparameters</span>
-        self.models = {
-            <span class="string">'xgb'</span>: xgb.XGBRegressor(
-                n_estimators=<span class="number">2600</span>, max_depth=<span class="number">4</span>, learning_rate=<span class="number">0.05</span>,
-                subsample=<span class="number">0.8</span>, colsample_bytree=<span class="number">0.4</span>, random_state=<span class="number">42</span>
-            ),
-            <span class="string">'lgb'</span>: lgb.LGBMRegressor(
-                n_estimators=<span class="number">2400</span>, max_depth=<span class="number">4</span>, learning_rate=<span class="number">0.05</span>,
-                feature_fraction=<span class="number">0.4</span>, bagging_fraction=<span class="number">0.8</span>, random_state=<span class="number">42</span>
-            ),
-            <span class="string">'elastic'</span>: ElasticNet(alpha=<span class="number">0.001</span>, l1_ratio=<span class="number">0.1</span>, random_state=<span class="number">42</span>),
-            <span class="string">'rf'</span>: RandomForestRegressor(n_estimators=<span class="number">1200</span>, max_depth=<span class="number">15</span>, random_state=<span class="number">42</span>)
-        }
-        
-        <span class="comment"># Meta-learner</span>
-        self.meta_model = Ridge(alpha=<span class="number">10.0</span>)
-        
-        <span class="comment"># Optimal ensemble weights from Bayesian optimization</span>
-        self.weights = [<span class="number">0.35</span>, <span class="number">0.3</span>, <span class="number">0.2</span>, <span class="number">0.15</span>]
-        
-    <span class="keyword">def</span> <span class="function">fit</span>(self, X, y):
-        <span class="comment"># Train base models</span>
-        <span class="keyword">for</span> name, model <span class="keyword">in</span> self.models.items():
-            print(<span class="string">f"Training {name}..."</span>)
-            model.fit(X, y)
-        
-        <span class="comment"># Generate meta-features</span>
-        meta_features = self._get_meta_features(X)
-        self.meta_model.fit(meta_features, y)
-        
-        <span class="keyword">return</span> self
-        
-    <span class="keyword">def</span> <span class="function">_get_meta_features</span>(self, X):
-        meta_features = []
-        <span class="keyword">for</span> model <span class="keyword">in</span> self.models.values():
-            pred = model.predict(X)
-            meta_features.append(pred)
-        <span class="keyword">return</span> np.column_stack(meta_features)
-        
-    <span class="keyword">def</span> <span class="function">predict</span>(self, X):
-        <span class="comment"># Weighted average + stacking</span>
-        base_predictions = []
-        <span class="keyword">for</span> model <span class="keyword">in</span> self.models.values():
-            base_predictions.append(model.predict(X))
-        
-        weighted_pred = np.average(base_predictions, axis=<span class="number">0</span>, weights=self.weights)
-        
-        <span class="comment"># Meta-model prediction</span>
-        meta_features = self._get_meta_features(X)
-        meta_pred = self.meta_model.predict(meta_features)
-        
-        <span class="comment"># Final ensemble (70% weighted + 30% meta)</span>
-        <span class="keyword">return</span> <span class="number">0.7</span> * weighted_pred + <span class="number">0.3</span> * meta_pred
-
-<span class="comment"># Main execution pipeline</span>
-<span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:
-    <span class="comment"># Load and preprocess data</span>
-    train_df = pd.read_csv(<span class="string">'train.csv'</span>)
-    test_df = pd.read_csv(<span class="string">'test.csv'</span>)
-    
-    <span class="comment"># Feature engineering</span>
-    train_df = advanced_feature_engineering(train_df)
-    test_df = advanced_feature_engineering(test_df)
-    
-    <span class="comment"># Remove outliers</span>
-    train_df = remove_outliers(train_df)
-    
-    <span class="comment"># Log transform target (key insight from reasoning)</span>
-    y_train = np.log1p(train_df[<span class="string">'SalePrice'</span>])
-    
-    <span class="comment"># Select features and prepare data</span>
-    numeric_features = train_df.select_dtypes(include=[np.number]).columns.tolist()
-    numeric_features.remove(<span class="string">'SalePrice'</span>)
-    numeric_features.remove(<span class="string">'Id'</span>)
-    
-    X_train = train_df[numeric_features]
-    X_test = test_df[numeric_features]
-    
-    <span class="comment"># Scale features</span>
-    scaler = RobustScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_test_scaled = scaler.transform(X_test)
-    
-    <span class="comment"># Train ensemble</span>
-    ensemble = HousePriceEnsemble()
-    ensemble.fit(X_train_scaled, y_train)
-    
-    <span class="comment"># Generate predictions</span>
-    predictions = ensemble.predict(X_test_scaled)
-    final_predictions = np.expm1(predictions)  <span class="comment"># Inverse log transform</span>
-    
-    <span class="comment"># Create submission</span>
-    submission = pd.DataFrame({
-        <span class="string">'Id'</span>: test_df[<span class="string">'Id'</span>],
-        <span class="string">'SalePrice'</span>: final_predictions
-    })
-    submission.to_csv(<span class="string">'submission.csv'</span>, index=<span class="keyword">False</span>)
-    print(<span class="string">"🏠 Submission saved! Expected RMSE: ~0.134"</span>)`
+        // Load demo data from external files
+        // Load demo data from external files
+                // Load demo data from external files
+        async function loadDemoData() {
+            try {
+                // Show initial loading state
+                showLoadingState();
+                
+                // Load demo configuration
+                updateLoadingProgress(10, 'Loading configuration...');
+                const configResponse = await fetch('./data/demo-config.json');
+                demoConfig = await configResponse.json();
+                
+                updateLoadingProgress(30, 'Configuration loaded');
+                
+                // Initialize dropdown with loading placeholder
+                initializeLoadingDropdown();
+                
+                // Load demo data for available demos
+                const totalDemos = demoConfig.demos.length;
+                let loadedCount = 0;
+                
+                const demoPromises = demoConfig.demos.map(async (demo, index) => {
+                    try {
+                        const response = await fetch(`./data/demos/${demo.file}`);
+                        if (response.ok) {
+                            const data = await response.json();
+                            demoData[demo.id] = data;
+                        }
+                        loadedCount++;
+                        const progress = 30 + (loadedCount / totalDemos) * 60;
+                        updateLoadingProgress(progress, `Loading demos... (${loadedCount}/${totalDemos})`);
+                    } catch (error) {
+                        console.warn(`Failed to load demo data for ${demo.id}:`, error);
+                        loadedCount++;
+                        const progress = 30 + (loadedCount / totalDemos) * 60;
+                        updateLoadingProgress(progress, `Loading demos... (${loadedCount}/${totalDemos})`);
+                    }
+                });
+                
+                await Promise.all(demoPromises);
+                
+                // Finalize loading
+                updateLoadingProgress(95, 'Finalizing...');
+                await new Promise(resolve => setTimeout(resolve, 300)); // Small delay for smooth UX
+                
+                // Initialize dropdown with loaded data
+                initializeDropdown();
+                
+                updateLoadingProgress(100, 'Ready!');
+                await new Promise(resolve => setTimeout(resolve, 500));
+                
+                hideLoadingState();
+                
+            } catch (error) {
+                console.error('Failed to load demo configuration:', error);
+                showLoadingError();
+                // Fallback to hardcoded data if external files fail
+                initializeFallbackData();
             }
-        };
+        }
+
+        function showLoadingState() {
+            isLoading = true;
+            const dropdownSelected = document.querySelector('.dropdown-selected');
+            dropdownSelected.classList.add('loading');
+            
+            // Update selected text to show loading
+            document.getElementById('selected-text').textContent = 'Loading competitions...';
+        }
+
+        function hideLoadingState() {
+            isLoading = false;
+            const dropdownSelected = document.querySelector('.dropdown-selected');
+            dropdownSelected.classList.remove('loading');
+        }
+
+        function updateLoadingProgress(progress, message) {
+            loadingProgress = progress;
+            
+            // Update progress bar if dropdown is open
+            const progressBar = document.querySelector('.loading-progress-bar');
+            const loadingText = document.querySelector('.loading-text');
+            
+            if (progressBar) {
+                progressBar.style.width = `${progress}%`;
+            }
+            if (loadingText) {
+                loadingText.textContent = message;
+            }
+        }
+
+        function showLoadingError() {
+            const dropdownOptions = document.getElementById('dropdown-options');
+            dropdownOptions.innerHTML = `
+                <div class="dropdown-loading">
+                    <div style="color: #ff5f57; font-size: 1.2rem;">⚠️</div>
+                    <div class="loading-text" style="color: #ff5f57;">Failed to load competitions</div>
+                    <div class="loading-text" style="font-size: 0.8rem;">Please check your connection and try again</div>
+                    <button onclick="location.reload()" style="
+                        margin-top: 1rem;
+                        padding: 0.5rem 1rem;
+                        background: #667eea;
+                        color: white;
+                        border: none;
+                        border-radius: 6px;
+                        cursor: pointer;
+                    ">Retry</button>
+                </div>
+            `;
+            hideLoadingState();
+        }
+
+        function initializeLoadingDropdown() {
+            const dropdownOptions = document.getElementById('dropdown-options');
+            
+            // Show loading state in dropdown
+            dropdownOptions.innerHTML = `
+                <div class="dropdown-search">
+                    <input type="text" placeholder="Loading..." id="search-input" disabled>
+                </div>
+                <div class="dropdown-loading">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">Loading competitions...</div>
+                    <div class="loading-progress">
+                        <div class="loading-progress-bar"></div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // NEW: Initialize dropdown with data from config file
+                // Initialize dropdown with data from config file
+        function initializeDropdown() {
+            if (!demoConfig.demos || !demoConfig.categories) {
+                console.warn('Demo config not loaded properly');
+                showLoadingError();
+                return;
+            }
+
+            const dropdownOptions = document.getElementById('dropdown-options');
+            
+            // Create dropdown with search
+            const searchDiv = document.createElement('div');
+            searchDiv.className = 'dropdown-search';
+            searchDiv.innerHTML = '<input type="text" placeholder="Search competitions..." id="search-input" onkeyup="filterOptions()">';
+
+            // Group demos by category
+            const groupedDemos = {};
+            demoConfig.demos.forEach(demo => {
+                if (!groupedDemos[demo.category]) {
+                    groupedDemos[demo.category] = [];
+                }
+                groupedDemos[demo.category].push(demo);
+            });
+
+            // Sort categories by order
+            const sortedCategories = Object.keys(groupedDemos).sort((a, b) => {
+                const orderA = demoConfig.categories[a]?.order || 999;
+                const orderB = demoConfig.categories[b]?.order || 999;
+                return orderA - orderB;
+            });
+
+            // Create options container
+            const optionsContainer = document.createElement('div');
+            optionsContainer.className = 'dropdown-options';
+            optionsContainer.id = 'dropdown-options-inner';
+
+            sortedCategories.forEach(categoryKey => {
+                const category = demoConfig.categories[categoryKey];
+                const demos = groupedDemos[categoryKey];
+                
+                if (!category || demos.length === 0) return;
+
+                // Create option group
+                const optionGroup = document.createElement('div');
+                optionGroup.className = 'option-group';
+
+                // Group label
+                const groupLabel = document.createElement('div');
+                groupLabel.className = 'group-label';
+                groupLabel.textContent = category.name;
+                optionGroup.appendChild(groupLabel);
+
+                // Add demos to group
+                demos.forEach(demo => {
+                    const option = document.createElement('div');
+                    option.className = 'dropdown-option';
+                    option.setAttribute('data-value', demo.id);
+                    
+                    // Set first demo as active if none selected
+                    if (currentDemo === demo.id) {
+                        option.classList.add('active');
+                    }
+                    
+                    option.innerHTML = `
+                        <span class="option-icon">${demo.icon}</span>
+                        <div class="option-content">
+                            <div class="option-title">${demo.title}</div>
+                            <div class="option-desc">${demo.description}</div>
+                        </div>
+                        <span class="option-medal">${demo.medal}</span>
+                    `;
+                    
+                    // Add click handler
+                    option.addEventListener('click', function() {
+                        selectDemo(demo.id);
+                    });
+                    
+                    optionGroup.appendChild(option);
+                });
+
+                optionsContainer.appendChild(optionGroup);
+            });
+
+            // Add "load more" if there are additional demos
+            const totalDemos = demoConfig.demos.length;
+            const loadedDemos = Object.keys(demoData).length;
+            if (totalDemos > loadedDemos) {
+                const loadMore = document.createElement('div');
+                loadMore.className = 'load-more';
+                loadMore.innerHTML = `<span>+ ${totalDemos - loadedDemos} more competitions available</span>`;
+                optionsContainer.appendChild(loadMore);
+            }
+
+            // Replace the dropdown options
+            dropdownOptions.innerHTML = '';
+            dropdownOptions.appendChild(searchDiv);
+            dropdownOptions.appendChild(optionsContainer);
+
+            // Update the options container ID for filtering
+            optionsContainer.id = 'dropdown-options';
+
+            // Set initial demo and update UI
+            if (demoConfig.demos.length > 0) {
+                const firstDemo = demoConfig.demos[0];
+                currentDemo = firstDemo.id;
+                
+                // Update selected text
+                document.getElementById('selected-text').textContent = `${firstDemo.icon} ${firstDemo.title}`;
+                document.getElementById('demo-title').textContent = `ML-Master: ${firstDemo.title}`;
+            }
+        }
 
         function selectDemo(demoName) {
-            if (demoRunning) return;
+            if (demoRunning || !demoData[demoName]) {
+                // If demo data is not loaded, show message
+                if (!demoData[demoName]) {
+                    const demo = demoConfig.demos.find(d => d.id === demoName);
+                    if (demo) {
+                        alert(`Demo "${demo.title}" is coming soon!`);
+                    }
+                    closeDropdown();
+                }
+                return;
+            }
             
             currentDemo = demoName;
             
@@ -2105,10 +2047,10 @@
                 const icon = selectedOption.querySelector('.option-icon').textContent;
                 const title = selectedOption.querySelector('.option-title').textContent;
                 document.getElementById('selected-text').textContent = `${icon} ${title}`;
+                
+                // Update demo title
+                document.getElementById('demo-title').textContent = `ML-Master: ${title}`;
             }
-            
-            // Update title
-            document.getElementById('demo-title').textContent = demos[demoName].title;
             
             // Close dropdown
             closeDropdown();
@@ -2117,18 +2059,33 @@
             resetDemo();
         }
 
+        function initializeFallbackData() {
+            // Use fallback data when external files are not available
+            console.warn('Using fallback mode - external config failed to load');
+            demoData = { ...fallbackDemos };
+            console.log('Using fallback demo data');
+        }
+
         function toggleDropdown() {
             const dropdown = document.getElementById('dropdown-menu');
             const selected = document.querySelector('.dropdown-selected');
+            
+            // Prevent opening if still loading
+            if (isLoading) {
+                return;
+            }
             
             if (dropdown.classList.contains('show')) {
                 closeDropdown();
             } else {
                 dropdown.classList.add('show');
                 selected.classList.add('active');
-                // Focus search input
+                // Focus search input only if not disabled
                 setTimeout(() => {
-                    document.getElementById('search-input').focus();
+                    const searchInput = document.getElementById('search-input');
+                    if (searchInput && !searchInput.disabled) {
+                        searchInput.focus();
+                    }
                 }, 100);
             }
         }
@@ -2177,7 +2134,7 @@
             document.querySelectorAll('.dropdown-option').forEach(option => {
                 option.addEventListener('click', function() {
                     const demoName = this.getAttribute('data-value');
-                    if (demos[demoName]) {
+                    if (demoData[demoName]) {
                         selectDemo(demoName);
                     } else {
                         // For demos we haven't implemented yet
@@ -2228,29 +2185,69 @@
         }
 
         function runDemoStep() {
-            const steps = demos[currentDemo].steps;
-            
-            if (currentStep >= steps.length) {
-                demoRunning = false;
-                document.getElementById('start-btn').disabled = false;
-                document.getElementById('skip-btn').disabled = true;
-                showGeneratedCode();
-                return;
-            }
+        const steps = demoData[currentDemo].steps;
+        
+        if (currentStep >= steps.length) {
+            demoRunning = false;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            showGeneratedCode();
+            return;
+        }
 
-            const step = steps[currentStep];
-            addTerminalLine(step.text, currentStep === steps.length - 1);
+        const step = steps[currentStep];
+        addTerminalLine(step.text, currentStep === steps.length - 1);
+        
+        currentStep++;
+        
+        if (demoRunning && currentStep < steps.length) {
+            setTimeout(runDemoStep, step.delay);
+        } else if (currentStep >= steps.length) {
+            demoRunning = false;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            showGeneratedCode();
+        }
+    }
+
+        function showGeneratedCode() {
+            const codeSection = document.getElementById('code-section');
+            const codeContent = document.getElementById('code-content');
             
-            currentStep++;
+            codeContent.innerHTML = demoData[currentDemo].code;
+            codeSection.style.display = 'block';
             
-            if (demoRunning && currentStep < steps.length) {
-                setTimeout(runDemoStep, step.delay);
-            } else if (currentStep >= steps.length) {
-                demoRunning = false;
-                document.getElementById('start-btn').disabled = false;
-                document.getElementById('skip-btn').disabled = true;
-                showGeneratedCode();
-            }
+            // Scroll to code section
+            setTimeout(() => {
+                codeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 500);
+        }
+
+        function skipToEnd() {
+            demoRunning = false;
+            const terminal = document.getElementById('terminal-output');
+            const steps = demoData[currentDemo].steps;
+            
+            // 清空终端内容，避免重复添加
+            terminal.innerHTML = '';
+            
+            // 添加所有步骤，但不重复当前已有的步骤
+            steps.forEach((step, index) => {
+                const line = document.createElement('div');
+                line.className = 'terminal-line';
+                line.innerHTML = step.text;
+                line.style.opacity = '1';
+                terminal.appendChild(line);
+            });
+            
+            // 设置当前步骤为最后一步，避免后续重复添加
+            currentStep = steps.length;
+            
+            terminal.scrollTop = terminal.scrollHeight;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            
+            showGeneratedCode();
         }
 
         function resetDemo() {
@@ -2263,27 +2260,6 @@
             document.getElementById('skip-btn').disabled = true;
         }
 
-        function skipToEnd() {
-            demoRunning = false;
-            const terminal = document.getElementById('terminal-output');
-            const steps = demos[currentDemo].steps;
-            terminal.innerHTML = '';
-            
-            // Add all steps instantly
-            steps.forEach((step, index) => {
-                const line = document.createElement('div');
-                line.className = 'terminal-line';
-                line.innerHTML = step.text;
-                line.style.opacity = '1';
-                terminal.appendChild(line);
-            });
-            
-            terminal.scrollTop = terminal.scrollHeight;
-            document.getElementById('start-btn').disabled = false;
-            document.getElementById('skip-btn').disabled = true;
-            
-            showGeneratedCode();
-        }
 
         function copyCode() {
             const codeContent = document.getElementById('code-content');
@@ -2332,10 +2308,13 @@
 
         // Observe elements for animation
         document.addEventListener('DOMContentLoaded', () => {
+            loadDemoData();
             document.querySelectorAll('.feature-card, .performance-chart').forEach(el => {
                 observer.observe(el);
             });
         });
+
+        
     </script>
 </body>
 </html>
