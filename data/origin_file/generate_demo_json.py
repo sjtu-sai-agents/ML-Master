@@ -90,6 +90,8 @@ for task_name in json_data:
                     steps.append({"text":line,"delay":200})
                 else:
                     line = line.strip()  # 去除每行前后的空白符
+                    if "已分配" in line or "已设置" in line or "调用失败" in line or "完整报错" or "Traceback (most recent call last)" in line:
+                        continue
                     match = pattern.match(line)
                     if match:
                         level, message = match.groups()
