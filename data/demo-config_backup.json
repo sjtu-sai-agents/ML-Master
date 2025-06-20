@@ -1,0 +1,116 @@
+{
+  "demos": [
+    {
+      "id": "titanic",
+      "icon": "🚢",
+      "title": "Titanic Survival Prediction",
+      "description": "Binary classification • 891 samples",
+      "medal": "🥉",
+      "category": "classification",
+      "file": "titanic.json"
+    },
+    {
+      "id": "house-prices",
+      "icon": "🏠",
+      "title": "House Prices Advanced Regression",
+      "description": "Regression • 1460 samples • 79 features",
+      "medal": "🥈",
+      "category": "regression", 
+      "file": "house-prices.json"
+    },
+    {
+      "id": "digit-recognizer",
+      "icon": "🔢",
+      "title": "Digit Recognizer",
+      "description": "Multi-class classification • 42K samples",
+      "medal": "🥈",
+      "category": "classification",
+      "file": "digit-recognizer.json"
+    },
+    {
+      "id": "porto-seguro",
+      "icon": "🚗",
+      "title": "Porto Seguro Safe Driver",
+      "description": "Binary classification • 595K samples",
+      "medal": "🥇",
+      "category": "classification",
+      "file": "porto-seguro.json"
+    },
+    {
+      "id": "bike-sharing",
+      "icon": "🚲", 
+      "title": "Bike Sharing Demand",
+      "description": "Time series regression • 10K samples",
+      "medal": "🥉",
+      "category": "regression",
+      "file": "bike-sharing.json"
+    },
+    {
+      "id": "rossmann",
+      "icon": "🏪",
+      "title": "Rossmann Store Sales", 
+      "description": "Sales forecasting • 1M samples",
+      "medal": "🥇",
+      "category": "regression",
+      "file": "rossmann.json"
+    },
+    {
+      "id": "cats-dogs",
+      "icon": "🐱",
+      "title": "Dogs vs Cats Redux",
+      "description": "Image classification • 25K images", 
+      "medal": "🥈",
+      "category": "computer-vision",
+      "file": "cats-dogs.json"
+    },
+    {
+      "id": "leaf-classification",
+      "icon": "🍃",
+      "title": "Leaf Classification",
+      "description": "Multi-class • 990 leaf images",
+      "medal": "🥉", 
+      "category": "computer-vision",
+      "file": "leaf-classification.json"
+    },
+    {
+      "id": "sentiment-analysis",
+      "icon": "😊",
+      "title": "Twitter Sentiment Analysis",
+      "description": "Text classification • 1.6M tweets",
+      "medal": "🥈",
+      "category": "nlp",
+      "file": "sentiment-analysis.json"
+    },
+    {
+      "id": "spam-detection",
+      "icon": "📧", 
+      "title": "SMS Spam Detection",
+      "description": "Binary text classification • 5.5K messages",
+      "medal": "🥇",
+      "category": "nlp",
+      "file": "spam-detection.json"
+    }
+  ],
+  "categories": {
+    "classification": {
+      "name": "🎯 Classification",
+      "order": 1
+    },
+    "regression": {
+      "name": "📈 Regression", 
+      "order": 2
+    },
+    "computer-vision": {
+      "name": "🖼️ Computer Vision",
+      "order": 3
+    },
+    "nlp": {
+      "name": "🔤 Natural Language",
+      "order": 4
+    },
+    "others": {
+      "name": "🧩 Others",
+      "order": 5
+    }
+  }
+}

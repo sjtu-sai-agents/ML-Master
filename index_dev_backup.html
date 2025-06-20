@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* Background Animation */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 25%, #0a0a0a 50%, #0f1419 75%, #0a0a0a 100%);
+            animation: bgShift 15s ease-in-out infinite;
+        }
+
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(1px 1px at 20px 30px, rgba(102, 126, 234, 0.4), transparent),
+                radial-gradient(1px 1px at 40px 70px, rgba(118, 75, 162, 0.3), transparent),
+                radial-gradient(1px 1px at 90px 40px, rgba(240, 147, 251, 0.2), transparent);
+            background-repeat: repeat;
+            background-size: 150px 150px;
+            animation: stars 60s linear infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes bgShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        @keyframes stars {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-150px); }
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1rem 2rem;
+            background: rgba(10, 10, 10, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #667eea;
+        }
+
+        /* Main Content */
+        .main {
+            margin-top: 80px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 8vw, 5.5rem);
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% 200%;
+            animation: gradientFlow 6s ease-in-out infinite;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            color: #c8d3f5;
+            margin-bottom: 3rem;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            animation: fadeInUp 1s ease-out 0.3s both;
+            line-height: 1.5;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-bottom: 3rem;
+            animation: fadeInUp 1s ease-out 0.5s both;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+            position: relative;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 16px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            transition: all 0.3s ease;
+            min-width: 140px;
+        }
+
+        .stat:hover {
+            transform: translateY(-5px);
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.4);
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2);
+        }
+
+        .stat-number {
+            font-size: clamp(2.2rem, 4vw, 3rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+            margin-bottom: 0.5rem;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.02em;
+        }
+
+        .stat-label {
+            color: #a8b5d1;
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            animation: fadeInUp 1s ease-out 0.7s both;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 1.2rem 2.5rem;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 1rem;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+        }
+
+        .btn-secondary {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            border: 2px solid rgba(102, 126, 234, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+            color: #8892f0;
+            transform: translateY(-2px);
+        }
+
+        @keyframes gradientFlow {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes growBar {
+            from {
+                height: 0;
+            }
+        }
+
+        /* Features Section */
+        .features {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: clamp(2rem, 5vw, 2.8rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 4rem;
+            font-size: 1.1rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .feature-description {
+            color: #b8b8b8;
+            line-height: 1.6;
+        }
+
+        /* Performance Section */
+        .performance {
+            padding: 6rem 2rem;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .performance-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .performance-chart {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .grouped-chart {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 200px;
+            margin: 3rem 0;
+            position: relative;
+            padding: 0 1rem;
+        }
+
+/*         .chart-group::before {
+            content: '';
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            z-index: 1;
+        } */
+
+        .chart-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            max-width: 200px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .group-bars {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 4px;
+            height: 150px;
+            margin-bottom: 1rem;
+        }
+
+        .bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100%;
+        }
+
+        .bar-item {
+            width: 20px;
+            border-radius: 3px 3px 0 0;
+            position: relative;
+            animation: growBar 2s ease-out;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            min-height: 2px;
+        }
+
+        .bar-item:hover {
+            transform: scaleY(1.05) scaleX(1.1);
+            filter: brightness(1.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .bar-item::after {
+            content: attr(data-value);
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: 600;
+            font-size: 0.7rem;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 2px 6px;
+            border-radius: 4px;
+            pointer-events: none;
+        }
+
+        .bar-item:hover::after {
+            opacity: 1;
+        }
+
+        .complexity-label {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: center;
+            padding: 0.5rem;
+            border-top: 2px solid rgba(102, 126, 234, 0.3);
+            width: 100%;
+        }
+
+        .chart-legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #b8b8b8;
+            font-size: 0.9rem;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+        }
+
+        .chart-bars {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            height: 300px;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .chart-bars::before {
+            content: '';
+            position: absolute;
+            bottom: 60px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            z-index: 1;
+        }
+
+        .chart-bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .bar {
+            width: 40px;
+            background: linear-gradient(to top, #667eea, #764ba2);
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            animation: growBar 2s ease-out;
+            margin-bottom: 0;
+        }
+
+        .bar::after {
+            content: attr(data-value);
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .chart-label {
+            font-size: 0.8rem;
+            color: #888;
+            text-align: center;
+            margin-top: 1rem;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Demo Section */
+        .demo {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .demo-selector {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .demo-selector h3 {
+            margin-bottom: 1rem;
+            color: #b8b8b8;
+            font-size: 1.1rem;
+        }
+
+        .demo-dropdown-container {
+            display: flex;
+            justify-content: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .demo-dropdown {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .dropdown-selected {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+        .dropdown-selected:hover {
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.3);
+        }
+
+        .dropdown-selected.active {
+            border-color: #667eea;
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .selected-text {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .dropdown-arrow {
+            color: #888;
+            transition: transform 0.3s ease;
+            font-size: 0.8rem;
+        }
+
+        .dropdown-selected.active .dropdown-arrow {
+            transform: rotate(180deg);
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #1a1a1a;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            margin-top: 0.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .dropdown-menu.show {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .dropdown-search {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: 0;
+            background: #1a1a1a;
+            z-index: 1;
+        }
+
+        .dropdown-search input {
+            width: 100%;
+            padding: 0.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .dropdown-search input:focus {
+            border-color: #667eea;
+        }
+
+        .dropdown-search input::placeholder {
+            color: #888;
+        }
+
+        .dropdown-options {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .option-group {
+            padding: 0.5rem 0;
+        }
+
+        .group-label {
+            padding: 0.5rem 1rem;
+            color: #667eea;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            background: rgba(102, 126, 234, 0.1);
+            margin: 0.5rem 0;
+            border-left: 3px solid #667eea;
+        }
+
+        .dropdown-option {
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .dropdown-option:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-left-color: #667eea;
+        }
+
+        .dropdown-option.active {
+            background: rgba(102, 126, 234, 0.2);
+            border-left-color: #667eea;
+        }
+
+        .option-icon {
+            font-size: 1.2rem;
+            width: 24px;
+            text-align: center;
+        }
+
+        .option-content {
+            flex: 1;
+            text-align: left;
+        }
+
+        .option-title {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .option-desc {
+            color: #888;
+            font-size: 0.8rem;
+        }
+
+        .option-medal {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        .load-more {
+            padding: 1rem;
+            text-align: center;
+            color: #888;
+            font-size: 0.85rem;
+            font-style: italic;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        /* Custom scrollbar for dropdown */
+        .dropdown-options::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .dropdown-options::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .dropdown-options::-webkit-scrollbar-thumb {
+            background: rgba(102, 126, 234, 0.5);
+            border-radius: 3px;
+        }
+
+        .dropdown-options::-webkit-scrollbar-thumb:hover {
+            background: rgba(102, 126, 234, 0.7);
+        }
+
+        .demo-container {
+            background: #1a1a1a;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 3rem;
+        }
+
+        .terminal-header {
+            background: #2d2d2d;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .terminal-button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .btn-red { background: #ff5f57; }
+        .btn-yellow { background: #ffbd2e; }
+        .btn-green { background: #28ca42; }
+
+        .terminal-title {
+            margin-left: 1rem;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .terminal-content {
+            padding: 2rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            height: 500px;
+            overflow-y: auto;
+            background: #1a1a1a;
+        }
+
+        .terminal-line {
+            margin-bottom: 0.5rem;
+            opacity: 0;
+            animation: typeWriter 0.5s ease-out forwards;
+        }
+
+        .prompt {
+            color: #667eea;
+        }
+
+        .success {
+            color: #28ca42;
+        }
+
+        .warning {
+            color: #ffbd2e;
+        }
+
+        .error {
+            color: #ff5f57;
+        }
+
+        .info {
+            color: #64b5f6;
+        }
+
+        .code-section {
+            background: #0d1117;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .code-header {
+            background: #21262d;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .code-header h4 {
+            color: #58a6ff;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .copy-btn {
+            background: #238636;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: background 0.3s ease;
+        }
+
+        .copy-btn:hover {
+            background: #2ea043;
+        }
+
+        .copy-btn.copied {
+            background: #1f6feb;
+        }
+
+        .code-content {
+            padding: 2rem;
+            margin: 0;
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: #e6edf3;
+            background: #0d1117;
+            overflow-x: auto;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        /* Code Syntax Highlighting */
+        .code-content .comment { color: #6e7681; }
+        .code-content .keyword { color: #ff7b72; }
+        .code-content .string { color: #a5d6ff; }
+        .code-content .number { color: #79c0ff; }
+        .code-content .function { color: #d2a8ff; }
+        .code-content .class { color: #ffa657; }
+
+        .demo-controls {
+            padding: 1rem 2rem;
+            background: #2d2d2d;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .demo-btn {
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+
+        .demo-btn:hover {
+            background: #5a67d8;
+        }
+
+        .demo-btn:disabled {
+            background: #555;
+            cursor: not-allowed;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes growBar {
+            from {
+                height: 0;
+            }
+        }
+
+        @keyframes typeWriter {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-stats {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .grouped-chart {
+                height: 160px;
+                padding: 0 0.5rem;
+                gap: 0.5rem;
+            }
+
+            .grouped-chart::before {
+                bottom: 40px;
+            }
+
+            .group-bars {
+                height: 120px;
+                gap: 2px;
+                margin-bottom: 0.8rem;
+            }
+
+            .bar-item {
+                width: 15px;
+            }
+
+            .bar-item::after {
+                font-size: 0.6rem;
+                top: -20px;
+                padding: 1px 4px;
+            }
+
+            .complexity-label {
+                font-size: 0.85rem;
+                padding: 0.3rem;
+            }
+
+            .chart-legend {
+                gap: 1rem;
+                margin-top: 2rem;
+                justify-content: center;
+            }
+
+            .legend-item {
+                font-size: 0.8rem;
+            }
+
+            .legend-color {
+                width: 12px;
+                height: 12px;
+            }
+
+            .chart-bars {
+                height: 200px;
+            }
+
+            .chart-label {
+                font-size: 0.7rem;
+            }
+
+            .demo-dropdown-container {
+                padding: 0 1rem;
+            }
+
+            .dropdown-selected {
+                padding: 0.8rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            .dropdown-menu {
+                margin-top: 0.3rem;
+            }
+
+            .dropdown-menu.show {
+                max-height: 400px;
+            }
+
+            .dropdown-search {
+                padding: 0.8rem;
+            }
+
+            .dropdown-search input {
+                padding: 0.6rem;
+                font-size: 0.85rem;
+            }
+
+            .dropdown-option {
+                padding: 0.8rem 1rem;
+                gap: 0.8rem;
+            }
+
+            .option-title {
+                font-size: 0.9rem;
+            }
+
+            .option-desc {
+                font-size: 0.75rem;
+            }
+
+            .group-label {
+                padding: 0.4rem 1rem;
+                font-size: 0.8rem;
+            }
+
+            .code-header {
+                padding: 1rem;
+                flex-direction: column;
+                gap: 1rem;
+                align-items: flex-start;
+            }
+
+            .terminal-content {
+                height: 400px;
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+
+            .code-content {
+                padding: 1rem;
+                font-size: 0.75rem;
+                max-height: 300px;
+            }
+
+            .demo-controls {
+                padding: 1rem;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            .demo-btn {
+                flex: 1;
+                min-width: 100px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grouped-chart {
+                height: auto;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .chart-group {
+                max-width: none;
+                width: 100%;
+            }
+
+            .group-bars {
+                height: 80px;
+            }
+
+            .bar-item {
+                width: 12px;
+            }
+
+            .complexity-label {
+                font-size: 0.8rem;
+            }
+
+            .chart-legend {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">ML-Master</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#performance">Performance</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="https://github.com/sjtu-sai-agents/ML-Master/blob/main/assets/ML-Master_github.pdf">Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>ML-Master</h1>
+                <p class="hero-subtitle">
+                    Towards AI-for-AI via Integration of Exploration and Reasoning
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">29.3%</span>
+                        <span class="stat-label">Medal Rate</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2x</span>
+                        <span class="stat-label">Faster</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">93.3%</span>
+                        <span class="stat-label">Valid Submissions</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#demo" class="btn btn-primary">Try Demo</a>
+                    <a href="https://github.com/sjtu-sai-agents/ML-Master/blob/main/assets/ML-Master_github.pdf" class="btn btn-secondary">Read Paper</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <h2 class="section-title">Revolutionary AI4AI Agent</h2>
+            <p class="section-subtitle">
+                ML-Master seamlessly integrates exploration and reasoning through adaptive memory mechanisms
+            </p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">Multi-trajectory Exploration</h3>
+                    <p class="feature-description">
+                        MCTS-inspired parallel exploration that efficiently navigates solution spaces while maintaining optimal balance between exploitation and exploration.
+                    </p>
+                </div>
+                <div class="feature-card">
+                  <div class="feature-icon">🧠</div>
+                  <h3 class="feature-title">Steerable Reasoning</h3>
+                  <p class="feature-description">
+                      Enhanced reasoning capabilities with adaptive memory integration, reducing hallucinations and improving reliability through contextual grounding.
+                  </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Adaptive Memory</h3>
+                    <p class="feature-description">
+                        Selectively captures and summarizes insights from exploration trajectories, enabling continuous learning without overwhelming the reasoning process.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Performance Section -->
+        <section class="performance" id="performance">
+            <div class="performance-content">
+                <h2 class="section-title">State-of-the-Art Performance</h2>
+                <p class="section-subtitle">
+                    ML-Master achieves superior results across all difficulty levels on MLE-Bench
+                </p>
+                <div class="performance-chart">
+                    <h3 style="text-align: center; margin-bottom: 2rem;">Medal Rate Comparison Across Task Complexities (%)</h3>
+                    
+                    <!-- Main Chart -->
+                    <div class="grouped-chart">
+                        <!-- Low Complexity Group -->
+                        <div class="chart-group">
+                            <div class="group-bars">
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 23px; background: #e3f2fd;" data-value="11.5%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 55px; background: #bbdefb;" data-value="27.3%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 69px; background: #90caf9;" data-value="34.3%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 96px; background: #42a5f5;" data-value="48.2%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 97px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="48.5%"></div>
+                                </div>
+                            </div>
+                            <div class="complexity-label">Low</div>
+                        </div>
+
+                        <!-- Medium Complexity Group -->
+                        <div class="chart-group">
+                            <div class="group-bars">
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 4px; background: #e3f2fd;" data-value="2.2%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 16px; background: #bbdefb;" data-value="7.9%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 18px; background: #90caf9;" data-value="8.8%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 18px; background: #42a5f5;" data-value="9.0%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 40px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="20.2%"></div>
+                                </div>
+                            </div>
+                            <div class="complexity-label">Medium</div>
+                        </div>
+
+                        <!-- High Complexity Group -->
+                        <div class="chart-group">
+                            <div class="group-bars">
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 4px; background: #e3f2fd;" data-value="1.9%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 27px; background: #bbdefb;" data-value="13.3%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 20px; background: #90caf9;" data-value="10.0%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 37px; background: #42a5f5;" data-value="18.7%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 49px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="24.4%"></div>
+                                </div>
+                            </div>
+                            <div class="complexity-label">High</div>
+                        </div>
+
+                        <!-- Average Group -->
+                        <div class="chart-group">
+                            <div class="group-bars">
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 10px; background: #e3f2fd;" data-value="5.1%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 29px; background: #bbdefb;" data-value="14.7%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 34px; background: #90caf9;" data-value="16.9%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 45px; background: #42a5f5;" data-value="22.4%"></div>
+                                </div>
+                                <div class="bar-group">
+                                    <div class="bar-item" style="height: 59px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="29.3%"></div>
+                                </div>
+                            </div>
+                            <div class="complexity-label">Average</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Legend -->
+                    <div class="chart-legend">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #e3f2fd;"></div>
+                            <span>OpenHands</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #bbdefb;"></div>
+                            <span>AIDE-r1</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #90caf9;"></div>
+                            <span>AIDE-o1-preview</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #42a5f5;"></div>
+                            <span>R&D-Agent</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: linear-gradient(to right, #667eea, #764ba2);"></div>
+                            <span>ML-Master</span>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 2rem; color: #888;">
+                        <p>✨ <strong>ML-Master excels across all complexity levels</strong></p>
+                        <p>🎯 Particularly strong in Medium (20.2%) and High (24.4%) complexity tasks</p>
+                        <p>⚡ More than doubles previous best results in medium-difficulty challenges</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demo Section -->
+        <section class="demo" id="demo">
+            <h2 class="section-title">Live Demo</h2>
+            <p class="section-subtitle">
+                Watch ML-Master solve Kaggle competitions in real-time
+            </p>
+            
+            <!-- Demo Selector -->
+            <div class="demo-selector">
+                <h3>Choose a Competition:</h3>
+                <div class="demo-dropdown-container">
+                    <div class="demo-dropdown" id="demo-dropdown">
+                        <div class="dropdown-selected" onclick="toggleDropdown()">
+                            <span class="selected-text" id="selected-text">🚢 Titanic Survival Prediction</span>
+                            <span class="dropdown-arrow">▼</span>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown-menu">
+                            <div class="dropdown-search">
+                                <input type="text" placeholder="Search competitions..." id="search-input" onkeyup="filterOptions()">
+                            </div>
+                            <div class="dropdown-options" id="dropdown-options">
+                                <div class="option-group">
+                                    <div class="group-label">🎯 Classification</div>
+                                    <div class="dropdown-option active" data-value="titanic">
+                                        <span class="option-icon">🚢</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Titanic Survival Prediction</div>
+                                            <div class="option-desc">Binary classification • 891 samples</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="digit-recognizer">
+                                        <span class="option-icon">🔢</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Digit Recognizer</div>
+                                            <div class="option-desc">Multi-class classification • 42K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="porto-seguro">
+                                        <span class="option-icon">🚗</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Porto Seguro Safe Driver</div>
+                                            <div class="option-desc">Binary classification • 595K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">📈 Regression</div>
+                                    <div class="dropdown-option" data-value="house-prices">
+                                        <span class="option-icon">🏠</span>
+                                        <div class="option-content">
+                                            <div class="option-title">House Prices Advanced Regression</div>
+                                            <div class="option-desc">Regression • 1460 samples • 79 features</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="bike-sharing">
+                                        <span class="option-icon">🚲</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Bike Sharing Demand</div>
+                                            <div class="option-desc">Time series regression • 10K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="rossmann">
+                                        <span class="option-icon">🏪</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Rossmann Store Sales</div>
+                                            <div class="option-desc">Sales forecasting • 1M samples</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">🖼️ Computer Vision</div>
+                                    <div class="dropdown-option" data-value="cats-dogs">
+                                        <span class="option-icon">🐱</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Dogs vs Cats Redux</div>
+                                            <div class="option-desc">Image classification • 25K images</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="leaf-classification">
+                                        <span class="option-icon">🍃</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Leaf Classification</div>
+                                            <div class="option-desc">Multi-class • 990 leaf images</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">🔤 Natural Language</div>
+                                    <div class="dropdown-option" data-value="sentiment-analysis">
+                                        <span class="option-icon">😊</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Twitter Sentiment Analysis</div>
+                                            <div class="option-desc">Text classification • 1.6M tweets</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="spam-detection">
+                                        <span class="option-icon">📧</span>
+                                        <div class="option-content">
+                                            <div class="option-title">SMS Spam Detection</div>
+                                            <div class="option-desc">Binary text classification • 5.5K messages</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="load-more">
+                                    <span>+ 65 more competitions available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-container">
+                <div class="terminal-header">
+                    <div class="terminal-button btn-red"></div>
+                    <div class="terminal-button btn-yellow"></div>
+                    <div class="terminal-button btn-green"></div>
+                    <div class="terminal-title" id="demo-title">ML-Master: Titanic Survival Prediction</div>
+                </div>
+                
+                <!-- Terminal Output -->
+                <div class="terminal-content" id="terminal-output">
+                    <!-- Terminal output will be populated by JavaScript -->
+                </div>
+                
+                <!-- Generated Code Section -->
+                <div class="code-section" id="code-section" style="display: none;">
+                    <div class="code-header">
+                        <h4>🎯 Generated Solution Code</h4>
+                        <button class="copy-btn" onclick="copyCode()" id="copy-btn">📋 Copy Code</button>
+                    </div>
+                    <pre class="code-content" id="code-content">
+                        <!-- Generated code will be populated by JavaScript -->
+                    </pre>
+                </div>
+                
+                <div class="demo-controls">
+                    <button class="demo-btn" onclick="startDemo()" id="start-btn">Start Demo</button>
+                    <button class="demo-btn" onclick="resetDemo()" id="reset-btn" disabled>Reset</button>
+                    <button class="demo-btn" onclick="skipToEnd()" id="skip-btn" disabled>Skip to Results</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+        
+        // Demo data structure
+        let demoRunning = false;
+        let currentStep = 0;
+        let currentDemo = 'titanic';
+        let demoData = {};
+        let demoConfig = {};
+        
+        // Load demo data from external files
+        async function loadDemoData() {
+            try {
+                // Load demo configuration
+                const configResponse = await fetch('./data/demo-config.json');
+                demoConfig = await configResponse.json();
+                
+                // Load demo data for available demos
+                const demoPromises = demoConfig.demos.map(async (demo) => {
+                    try {
+                        const response = await fetch(`./data/demos/${demo.file}`);
+                        if (response.ok) {
+                            const data = await response.json();
+                            demoData[demo.id] = data;
+                        }
+                    } catch (error) {
+                        console.warn(`Failed to load demo data for ${demo.id}:`, error);
+                    }
+                });
+                
+                await Promise.all(demoPromises);
+                
+                // Initialize dropdown with loaded data
+                initializeDropdown();
+                
+            } catch (error) {
+                console.error('Failed to load demo configuration:', error);
+                // Fallback to hardcoded data if external files fail
+                initializeFallbackData();
+            }
+        }
+
+    function selectDemo(demoName) {
+        if (demoRunning || !demoData[demoName]) return;
+        
+        currentDemo = demoName;
+        
+        // Update selected option
+        document.querySelectorAll('.dropdown-option').forEach(option => {
+            option.classList.remove('active');
+        });
+        
+        const selectedOption = document.querySelector(`[data-value="${demoName}"]`);
+        if (selectedOption) {
+            selectedOption.classList.add('active');
+            
+            // Update selected text
+            const icon = selectedOption.querySelector('.option-icon').textContent;
+            const title = selectedOption.querySelector('.option-title').textContent;
+            document.getElementById('selected-text').textContent = `${icon} ${title}`;
+        }
+        
+        // Update title
+        document.getElementById('demo-title').textContent = demoData[demoName].title;
+        
+        // Close dropdown
+        closeDropdown();
+        
+        // Reset demo
+        resetDemo();
+    }
+
+        function initializeDropdown() {
+            // If external data is loaded, we can update dropdown options
+            // For now, keep existing hardcoded options
+            console.log('Demo data loaded:', Object.keys(demoData));
+        }
+
+        function initializeFallbackData() {
+            // Use fallback data when external files are not available
+            demoData = { ...fallbackDemos };
+            console.log('Using fallback demo data');
+        }
+
+        function toggleDropdown() {
+            const dropdown = document.getElementById('dropdown-menu');
+            const selected = document.querySelector('.dropdown-selected');
+            
+            if (dropdown.classList.contains('show')) {
+                closeDropdown();
+            } else {
+                dropdown.classList.add('show');
+                selected.classList.add('active');
+                // Focus search input
+                setTimeout(() => {
+                    document.getElementById('search-input').focus();
+                }, 100);
+            }
+        }
+
+        function closeDropdown() {
+            const dropdown = document.getElementById('dropdown-menu');
+            const selected = document.querySelector('.dropdown-selected');
+            dropdown.classList.remove('show');
+            selected.classList.remove('active');
+            
+            // Clear search
+            document.getElementById('search-input').value = '';
+            filterOptions();
+        }
+
+        function filterOptions() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const options = document.querySelectorAll('.dropdown-option');
+            const groups = document.querySelectorAll('.option-group');
+            
+            options.forEach(option => {
+                const title = option.querySelector('.option-title').textContent.toLowerCase();
+                const desc = option.querySelector('.option-desc').textContent.toLowerCase();
+                const matches = title.includes(searchTerm) || desc.includes(searchTerm);
+                
+                option.style.display = matches ? 'flex' : 'none';
+            });
+            
+            // Hide groups that have no visible options
+            groups.forEach(group => {
+                const visibleOptions = group.querySelectorAll('.dropdown-option[style="display: flex"], .dropdown-option:not([style*="none"])');
+                group.style.display = visibleOptions.length > 0 ? 'block' : 'none';
+            });
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('demo-dropdown');
+            if (!dropdown.contains(event.target)) {
+                closeDropdown();
+            }
+        });
+
+        // Add click handlers for dropdown options
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.dropdown-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    const demoName = this.getAttribute('data-value');
+                    if (demoData[demoName]) {
+                        selectDemo(demoName);
+                    } else {
+                        // For demos we haven't implemented yet
+                        alert(`Demo "${this.querySelector('.option-title').textContent}" is coming soon!`);
+                        closeDropdown();
+                    }
+                });
+            });
+        });
+
+        function addTerminalLine(text, isLast = false) {
+            const terminal = document.getElementById('terminal-output');
+            const line = document.createElement('div');
+            line.className = 'terminal-line';
+            line.innerHTML = text;
+            line.style.animationDelay = '0s';
+            terminal.appendChild(line);
+            
+            if (!isLast) {
+                terminal.scrollTop = terminal.scrollHeight;
+            }
+        }
+
+        function showGeneratedCode() {
+            const codeSection = document.getElementById('code-section');
+            const codeContent = document.getElementById('code-content');
+            
+            codeContent.innerHTML = demos[currentDemo].code;
+            codeSection.style.display = 'block';
+            
+            // Scroll to code section
+            setTimeout(() => {
+                codeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 500);
+        }
+
+        function startDemo() {
+            if (demoRunning) return;
+            
+            demoRunning = true;
+            currentStep = 0;
+            document.getElementById('start-btn').disabled = true;
+            document.getElementById('reset-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = false;
+            document.getElementById('code-section').style.display = 'none';
+            
+            runDemoStep();
+        }
+
+        function runDemoStep() {
+        const steps = demoData[currentDemo].steps;
+        
+        if (currentStep >= steps.length) {
+            demoRunning = false;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            showGeneratedCode();
+            return;
+        }
+
+        const step = steps[currentStep];
+        addTerminalLine(step.text, currentStep === steps.length - 1);
+        
+        currentStep++;
+        
+        if (demoRunning && currentStep < steps.length) {
+            setTimeout(runDemoStep, step.delay);
+        } else if (currentStep >= steps.length) {
+            demoRunning = false;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            showGeneratedCode();
+        }
+    }
+
+        function showGeneratedCode() {
+            const codeSection = document.getElementById('code-section');
+            const codeContent = document.getElementById('code-content');
+            
+            codeContent.innerHTML = demoData[currentDemo].code;
+            codeSection.style.display = 'block';
+            
+            // Scroll to code section
+            setTimeout(() => {
+                codeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 500);
+        }
+
+        function skipToEnd() {
+            demoRunning = false;
+            const terminal = document.getElementById('terminal-output');
+            const steps = demoData[currentDemo].steps;
+            terminal.innerHTML = '';
+            
+            // Add all steps instantly
+            steps.forEach((step, index) => {
+                const line = document.createElement('div');
+                line.className = 'terminal-line';
+                line.innerHTML = step.text;
+                line.style.opacity = '1';
+                terminal.appendChild(line);
+            });
+            
+            terminal.scrollTop = terminal.scrollHeight;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            
+            showGeneratedCode();
+        }
+
+        function resetDemo() {
+            demoRunning = false;
+            currentStep = 0;
+            document.getElementById('terminal-output').innerHTML = '';
+            document.getElementById('code-section').style.display = 'none';
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('reset-btn').disabled = true;
+            document.getElementById('skip-btn').disabled = true;
+        }
+
+
+        function copyCode() {
+            const codeContent = document.getElementById('code-content');
+            const textContent = codeContent.textContent;
+            
+            navigator.clipboard.writeText(textContent).then(() => {
+                const copyBtn = document.getElementById('copy-btn');
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = '✅ Copied!';
+                copyBtn.classList.add('copied');
+                
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                    copyBtn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 1s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.addEventListener('DOMContentLoaded', () => {
+            loadDemoData();
+            document.querySelectorAll('.feature-card, .performance-chart').forEach(el => {
+                observer.observe(el);
+            });
+        });
+
+        
+    </script>
+</body>
+</html>

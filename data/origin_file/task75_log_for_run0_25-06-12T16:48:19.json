@@ -1,0 +1,752 @@
+{
+    "3d-object-detection-for-autonomous-vehicles": {
+        "competition_id": "3d-object-detection-for-autonomous-vehicles",
+        "run_id": "3d-object-detection-for-autonomous-vehicles_mcts_comp_dpr1_v7_parallel_2[cpu-72-107]",
+        "score": 0.0,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/3d-object-detection-for-autonomous-vehicles_mcts_comp_dpr1_v7_parallel_2[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.00000.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.216\n- Medalist: 0.139/0.053/0.046\n- Median: 0.042 among 546 teams\n\n"
+    },
+    "AI4Code": {
+        "competition_id": "AI4Code",
+        "run_id": "AI4Code_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]",
+        "score": 0.72299,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/AI4Code_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.72299.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.9232\n- Medalist: 0.9006/0.8598/0.8536\n- Median: 0.8257 among 1025 teams\n\n"
+    },
+    "aerial-cactus-identification": {
+        "competition_id": "aerial-cactus-identification",
+        "run_id": "aerial-cactus-identification_mcts_comp_v7_parallel_2[cpu-36-71]",
+        "score": 0.99999,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/aerial-cactus-identification_mcts_comp_v7_parallel_2[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.99999.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 1.0\n- Medalist: 1.0/1.0/1.0\n- Median: 0.9991 among 1221 teams\n\n"
+    },
+    "alaska2-image-steganalysis": {
+        "competition_id": "alaska2-image-steganalysis",
+        "run_id": "alaska2-image-steganalysis_mcts_comp_dpr1_v7_parallel_2[cpu-72-107]",
+        "score": 0.57619,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/alaska2-image-steganalysis_mcts_comp_dpr1_v7_parallel_2[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.57619.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.936\n- Medalist: 0.928/0.922/0.915\n- Median: 0.904 among 1095 teams\n\n"
+    },
+    "aptos2019-blindness-detection": {
+        "competition_id": "aptos2019-blindness-detection",
+        "run_id": "aptos2019-blindness-detection_mcts_comp_dpr1_v7_parallel_7[cpu-36-71]_2025-06-11T17:49:49",
+        "score": 0.90819,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-2/aptos2019-blindness-detection_mcts_comp_dpr1_v7_parallel_7[cpu-36-71]_2025-06-11T17:49:49/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.90819.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.936129\n- Medalist: 0.930508/0.925762/0.92204\n- Median: 0.888912 among 2929 teams\n\n"
+    },
+    "billion-word-imputation": {
+        "competition_id": "billion-word-imputation",
+        "run_id": "billion-word-imputation_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]",
+        "score": null,
+        "medal": null,
+        "submission_exists": true,
+        "submission_valid": false,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/billion-word-imputation_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/exp_data/demo1bench/billion-word-imputation/prepared/grade.py\", line 89, in <module>\n    score = grade(subm, gt)\n            ^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/exp_data/demo1bench/billion-word-imputation/prepared/grade.py\", line 35, in grade\n    y_pred, y_true = prepare_for_metric(submission, answers)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/exp_data/demo1bench/billion-word-imputation/prepared/grade.py\", line 21, in prepare_for_metric\n    raise InvalidSubmissionError(\nInvalidSubmissionError: Submission and answers have different lengths: 302645 vs 302644\n"
+    },
+    "bms-molecular-translation": {
+        "competition_id": "bms-molecular-translation",
+        "run_id": "bms-molecular-translation_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0530T0417",
+        "score": 125.30033,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/bms-molecular-translation_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0530T0417/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 125.30033.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.51\n- Medalist: 0.62/1.37/2.03\n- Median: 5.58 among 875 teams\n\n"
+    },
+    "cassava-leaf-disease-classification": {
+        "competition_id": "cassava-leaf-disease-classification",
+        "run_id": "cassava-leaf-disease-classification_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]",
+        "score": 0.89163,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/cassava-leaf-disease-classification_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.89163.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.9132\n- Medalist: 0.9013/0.9005/0.8999\n- Median: 0.8909 among 3901 teams\n\n"
+    },
+    "cdiscount-image-classification-challenge": {
+        "competition_id": "cdiscount-image-classification-challenge",
+        "run_id": "cdiscount-image-classification-challenge_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]_0605T0318",
+        "score": 0.57101,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/cdiscount-image-classification-challenge_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]_0605T0318/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.57101.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.79567\n- Medalist: 0.77604/0.73526/0.70894\n- Median: 0.44055 among 627 teams\n\n"
+    },
+    "chaii-hindi-and-tamil-question-answering": {
+        "competition_id": "chaii-hindi-and-tamil-question-answering",
+        "run_id": "chaii-hindi-and-tamil-question-answering_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0530T0348",
+        "score": 0.62283,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/chaii-hindi-and-tamil-question-answering_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0530T0348/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.62283.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.7879\n- Medalist: 0.76305/0.73984/0.73725\n- Median: 0.72756 among 943 teams\n\n"
+    },
+    "champs-scalar-coupling": {
+        "competition_id": "champs-scalar-coupling",
+        "run_id": "champs-scalar-coupling_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]_0603T0419",
+        "score": 1.7062,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/champs-scalar-coupling_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]_0603T0419/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 1.70620.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: -3.23968\n- Medalist: \u001b[33m-2.87509\u001b[0m/-2.27644/\u001b[36m-2.09322\u001b[0m\n- Median: -0.9529 among 2739 teams\n\n"
+    },
+    "denoising-dirty-documents": {
+        "competition_id": "denoising-dirty-documents",
+        "run_id": "denoising-dirty-documents_mcts_comp_dpr1_v7_parallel_4[cpu-72-107]_0606T2139",
+        "score": 0.01652,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/denoising-dirty-documents_mcts_comp_dpr1_v7_parallel_4[cpu-72-107]_0606T2139/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.01652.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.00416\n- Medalist: 0.01794/0.02609/0.05087\n- Median: 0.0735 among 162 teams\n\n"
+    },
+    "detecting-insults-in-social-commentary": {
+        "competition_id": "detecting-insults-in-social-commentary",
+        "run_id": "detecting-insults-in-social-commentary_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-72-107]_0607T0741",
+        "score": 0.8685,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run-1/detecting-insults-in-social-commentary_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-72-107]_0607T0741/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.86850.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.84248\n- Medalist: 0.82987/0.8193/0.78428\n- Median: 0.77787 among 50 teams\n\n"
+    },
+    "dog-breed-identification": {
+        "competition_id": "dog-breed-identification",
+        "run_id": "dog-breed-identification_mcts_comp_v7_6_2_[cpu-0-35]",
+        "score": 0.44289,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/dog-breed-identification_mcts_comp_v7_6_2_[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.44289.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.0\n- Medalist: 0.0005/0.00389/0.01277\n- Median: 0.47205 among 1281 teams\n\n"
+    },
+    "dogs-vs-cats-redux-kernels-edition": {
+        "competition_id": "dogs-vs-cats-redux-kernels-edition",
+        "run_id": "dogs-vs-cats-redux-kernels-edition_mcts_comp_v7_parallel_2[cpu-0-35]",
+        "score": 0.00554,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/dogs-vs-cats-redux-kernels-edition_mcts_comp_v7_parallel_2[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.00554.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.03302\n- Medalist: 0.03882/0.04842/0.05702\n- Median: 0.12216 among 1315 teams\n\n"
+    },
+    "facebook-recruiting-iii-keyword-extraction": {
+        "competition_id": "facebook-recruiting-iii-keyword-extraction",
+        "run_id": "facebook-recruiting-iii-keyword-extraction_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]",
+        "score": 0.37536,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/facebook-recruiting-iii-keyword-extraction_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.37536.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.8135\n- Medalist: 0.79479/0.76177/0.71269\n- Median: 0.60685 among 371 teams\n\n"
+    },
+    "freesound-audio-tagging-2019": {
+        "competition_id": "freesound-audio-tagging-2019",
+        "run_id": "freesound-audio-tagging-2019_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]",
+        "score": 0.67818,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/freesound-audio-tagging-2019_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.67818.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.7598\n- Medalist: 0.74399/0.7181/0.69192\n- Median: 0.54651 among 418 teams\n\n"
+    },
+    "google-quest-challenge": {
+        "competition_id": "google-quest-challenge",
+        "run_id": "google-quest-challenge_mcts_comp_v7_6_[cpu-36-71]",
+        "score": 0.41889,
+        "medal": "silver medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/google-quest-challenge_mcts_comp_v7_6_[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.41889.\n- Evaluated Result: \u001b[1;37msilver medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.431\n- Medalist: 0.42278/0.40426/0.38905\n- Median: 0.3572 among 1572 teams\n\n"
+    },
+    "google-research-identify-contrails-reduce-global-warming": {
+        "competition_id": "google-research-identify-contrails-reduce-global-warming",
+        "run_id": "google-research-identify-contrails-reduce-global-warming_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0531T0524",
+        "score": 0.42954,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel/google-research-identify-contrails-reduce-global-warming_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0531T0524/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.42954.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.72432\n- Medalist: 0.71059/0.6936/0.67885\n- Median: 0.63816 among 954 teams\n\n"
+    },
+    "h-and-m-personalized-fashion-recommendations": {
+        "competition_id": "h-and-m-personalized-fashion-recommendations",
+        "run_id": "h-and-m-personalized-fashion-recommendations_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]",
+        "score": 0.01952,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/h-and-m-personalized-fashion-recommendations_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.01952.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.03792\n- Medalist: 0.03354/0.02915/0.02647\n- Median: 0.02177 among 2954 teams\n\n"
+    },
+    "herbarium-2020-fgvc7": {
+        "competition_id": "herbarium-2020-fgvc7",
+        "run_id": "herbarium-2020-fgvc7_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-36-71]_2025-06-09T11:21:31",
+        "score": 0.23544,
+        "medal": "bronze medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run-1/herbarium-2020-fgvc7_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-36-71]_2025-06-09T11:21:31/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.23544.\n- Evaluated Result: \u001b[1;36mbronze medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.84484\n- Medalist: 0.63151/0.26426/0.05334\n- Median: 0.05334 among 154 teams\n\n"
+    },
+    "herbarium-2021-fgvc8": {
+        "competition_id": "herbarium-2021-fgvc8",
+        "run_id": "herbarium-2021-fgvc8_mcts_comp_dpr1_v7_parallel_3[cpu-36-71]",
+        "score": 0.25008,
+        "medal": "bronze medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/herbarium-2021-fgvc8_mcts_comp_dpr1_v7_parallel_3[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.25008.\n- Evaluated Result: \u001b[1;36mbronze medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.75697\n- Medalist: 0.52956/0.39778/0.12844\n- Median: 0.04099 among 80 teams\n\n"
+    },
+    "herbarium-2022-fgvc9": {
+        "competition_id": "herbarium-2022-fgvc9",
+        "run_id": "herbarium-2022-fgvc9_mcts_comp_dpr1_v7_parallel_7[cpu-72-107]_2025-06-11T18:00:16",
+        "score": 0.56111,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run-1/herbarium-2022-fgvc9_mcts_comp_dpr1_v7_parallel_7[cpu-72-107]_2025-06-11T18:00:16/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.56111.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.87662\n- Medalist: 0.84602/0.75284/0.59144\n- Median: 0.22549 among 137 teams\n\n"
+    },
+    "histopathologic-cancer-detection": {
+        "competition_id": "histopathologic-cancer-detection",
+        "run_id": "histopathologic-cancer-detection_mcts_comp_v7_parallel_2[cpu-36-71]",
+        "score": 0.99754,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/histopathologic-cancer-detection_mcts_comp_v7_parallel_2[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.99754.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 1.0\n- Medalist: 0.9835/0.9799/0.9765\n- Median: 0.9477 among 1149 teams\n\n"
+    },
+    "hms-harmful-brain-activity-classification": {
+        "competition_id": "hms-harmful-brain-activity-classification",
+        "run_id": "hms-harmful-brain-activity-classification_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0528T1933",
+        "score": 1.0349,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/hms-harmful-brain-activity-classification_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0528T1933/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 1.03490.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.272332\n- Medalist: 0.290807/0.33048/0.35036\n- Median: 0.473828 among 2767 teams\n\n"
+    },
+    "hotel-id-2021-fgvc8": {
+        "competition_id": "hotel-id-2021-fgvc8",
+        "run_id": "hotel-id-2021-fgvc8_mcts_comp_dpr1_v7_parallel_7[cpu-0-35]_2025-06-11T04:18:10",
+        "score": 0.4006,
+        "medal": "silver medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-2/hotel-id-2021-fgvc8_mcts_comp_dpr1_v7_parallel_7[cpu-0-35]_2025-06-11T04:18:10/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.40060.\n- Evaluated Result: \u001b[1;37msilver medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.8622\n- Medalist: 0.7069/0.3843/0.0139\n- Median: 0.0006 among 93 teams\n\n"
+    },
+    "hubmap-kidney-segmentation": {
+        "competition_id": "hubmap-kidney-segmentation",
+        "run_id": "hubmap-kidney-segmentation_mcts_comp_dpr1_v7_parallel_3[cpu-36-71]",
+        "score": 0.01413,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/hubmap-kidney-segmentation_mcts_comp_dpr1_v7_parallel_3[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.01413.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.9515\n- Medalist: 0.9484/0.946/0.9445\n- Median: 0.0 among 1200 teams\n\n"
+    },
+    "icecube-neutrinos-in-deep-ice": {
+        "competition_id": "icecube-neutrinos-in-deep-ice",
+        "run_id": "icecube-neutrinos-in-deep-ice_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]",
+        "score": 1.55862,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/icecube-neutrinos-in-deep-ice_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 1.55862.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.960027\n- Medalist: 0.977306/1.007885/1.018595\n- Median: 1.019959 among 813 teams\n\n"
+    },
+    "imet-2020-fgvc7": {
+        "competition_id": "imet-2020-fgvc7",
+        "run_id": "imet-2020-fgvc7_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]",
+        "score": 0.57077,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/imet-2020-fgvc7_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.57077.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.738\n- Medalist: 0.688/0.649/0.649\n- Median: 0.627 among 96 teams\n\n"
+    },
+    "inaturalist-2019-fgvc6": {
+        "competition_id": "inaturalist-2019-fgvc6",
+        "run_id": "inaturalist-2019-fgvc6_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]",
+        "score": 0.19613,
+        "medal": "silver medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/inaturalist-2019-fgvc6_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.19613.\n- Evaluated Result: \u001b[1;37msilver medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.10342\n- Medalist: 0.15955/0.26533/0.39033\n- Median: 0.43478 among 215 teams\n\n"
+    },
+    "iwildcam-2019-fgvc6": {
+        "competition_id": "iwildcam-2019-fgvc6",
+        "run_id": "iwildcam-2019-fgvc6_mcts_comp_dpr1_v7_parallel_validcheck_1[cpu-72-107]_0601T1808",
+        "score": 0.41738,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run/iwildcam-2019-fgvc6_mcts_comp_dpr1_v7_parallel_validcheck_1[cpu-72-107]_0601T1808/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.41738.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.399\n- Medalist: 0.212/0.129/0.114\n- Median: 0.108 among 337 teams\n\n"
+    },
+    "iwildcam-2020-fgvc7": {
+        "competition_id": "iwildcam-2020-fgvc7",
+        "run_id": "iwildcam-2020-fgvc7_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-0-35]_2025-06-09T11:21:31",
+        "score": 0.81508,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run-1/iwildcam-2020-fgvc7_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-0-35]_2025-06-09T11:21:31/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.81508.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.906\n- Medalist: 0.778/0.685/0.593\n- Median: 0.521 among 122 teams\n\n"
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+        "competition_id": "jigsaw-toxic-comment-classification-challenge",
+        "run_id": "jigsaw-toxic-comment-classification-challenge_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-0-35]_2025-06-07T20:32:08",
+        "score": 0.98148,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run-1/jigsaw-toxic-comment-classification-challenge_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-0-35]_2025-06-07T20:32:08/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.98148.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.98856\n- Medalist: 0.9874/0.98713/0.98697\n- Median: 0.98079 among 4539 teams\n\n"
+    },
+    "jigsaw-unintended-bias-in-toxicity-classification": {
+        "competition_id": "jigsaw-unintended-bias-in-toxicity-classification",
+        "run_id": "jigsaw-unintended-bias-in-toxicity-classification_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]",
+        "score": 0.82847,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/jigsaw-unintended-bias-in-toxicity-classification_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.82847.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.94734\n- Medalist: 0.94608/0.94478/0.94356\n- Median: 0.93417 among 2634 teams\n\n"
+    },
+    "kuzushiji-recognition": {
+        "competition_id": "kuzushiji-recognition",
+        "run_id": "kuzushiji-recognition_mcts_comp_v7_6_[cpu-72-107]",
+        "score": 0.60101,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/kuzushiji-recognition_mcts_comp_v7_6_[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.60101.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.95\n- Medalist: 0.903/0.8/0.656\n- Median: 0.598 among 294 teams\n\n"
+    },
+    "leaf-classification": {
+        "competition_id": "leaf-classification",
+        "run_id": "leaf-classification_mcts_comp_v7_parallel_2[cpu-0-35]",
+        "score": 0.01661,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/leaf-classification_mcts_comp_v7_parallel_2[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.01661.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.0\n- Medalist: 0.0/0.00567/0.009\n- Median: 0.1094 among 1596 teams\n\n"
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+        "competition_id": "learning-agency-lab-automated-essay-scoring-2",
+        "run_id": "learning-agency-lab-automated-essay-scoring-2_mcts_comp_dpr1_v7_parallel_2[cpu-72-107]_0602T1620",
+        "score": 0.82104,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/learning-agency-lab-automated-essay-scoring-2_mcts_comp_dpr1_v7_parallel_2[cpu-72-107]_0602T1620/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.82104.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.84128\n- Medalist: 0.83583/0.83525/0.83523\n- Median: 0.82825 among 2708 teams\n\n"
+    },
+    "lmsys-chatbot-arena": {
+        "competition_id": "lmsys-chatbot-arena",
+        "run_id": "lmsys-chatbot-arena_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0530T0348",
+        "score": 1.13402,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/lmsys-chatbot-arena_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0530T0348/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 1.13402.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.96898\n- Medalist: 0.98392/0.99084/0.99524\n- Median: 1.05212 among 1688 teams\n\n"
+    },
+    "mlsp-2013-birds": {
+        "competition_id": "mlsp-2013-birds",
+        "run_id": "mlsp-2013-birds_mcts_comp_v7_6_3_[cpu-36-71]",
+        "score": 0.75987,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/mlsp-2013-birds_mcts_comp_v7_6_3_[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.75987.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.95611\n- Medalist: 0.93013/0.89944/0.87161\n- Median: 0.86572 among 81 teams\n\n"
+    },
+    "multi-modal-gesture-recognition": {
+        "competition_id": "multi-modal-gesture-recognition",
+        "run_id": "multi-modal-gesture-recognition_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]_0606T1703",
+        "score": 0.90841,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/multi-modal-gesture-recognition_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]_0606T1703/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.90841.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.13304\n- Medalist: 0.1641/0.17763/0.26608\n- Median: 0.322 among 19 teams\n\n"
+    },
+    "new-york-city-taxi-fare-prediction": {
+        "competition_id": "new-york-city-taxi-fare-prediction",
+        "run_id": "new-york-city-taxi-fare-prediction_mcts_comp_dpr1_v7_parallel_2[cpu-0-35]_0604T1829",
+        "score": 9.89729,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/new-york-city-taxi-fare-prediction_mcts_comp_dpr1_v7_parallel_2[cpu-0-35]_0604T1829/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 9.89729.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 1.38506\n- Medalist: 2.83377/2.87886/2.90634\n- Median: 3.59741 among 1485 teams\n\n"
+    },
+    "nfl-player-contact-detection": {
+        "competition_id": "nfl-player-contact-detection",
+        "run_id": "nfl-player-contact-detection_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]",
+        "score": 0.00231,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/nfl-player-contact-detection_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.00231.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.79817\n- Medalist: 0.78167/0.72203/0.69596\n- Median: 0.69139 among 940 teams\n\n"
+    },
+    "nomad2018-predict-transparent-conductors": {
+        "competition_id": "nomad2018-predict-transparent-conductors",
+        "run_id": "nomad2018-predict-transparent-conductors_mcts_comp_dpr1_v7_parallel_7[cpu-0-35]_2025-06-11T17:51:02",
+        "score": 0.059,
+        "medal": "silver medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-2/nomad2018-predict-transparent-conductors_mcts_comp_dpr1_v7_parallel_7[cpu-0-35]_2025-06-11T17:51:02/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.05900.\n- Evaluated Result: \u001b[1;37msilver medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.051\n- Medalist: 0.05589/0.06229/0.06584\n- Median: 0.06988 among 879 teams\n\n"
+    },
+    "osic-pulmonary-fibrosis-progression": {
+        "competition_id": "osic-pulmonary-fibrosis-progression",
+        "run_id": "osic-pulmonary-fibrosis-progression_mcts_comp_dpr1_v7_parallel_3[cpu-72-107]",
+        "score": null,
+        "medal": null,
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/osic-pulmonary-fibrosis-progression_mcts_comp_dpr1_v7_parallel_3[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = \u001b[96mnan\u001b[0m.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: -6.8305\n- Medalist: \u001b[33m-6.8412\u001b[0m/-6.847/\u001b[36m-6.8526\u001b[0m\n- Median: -6.8993 among 2097 teams\n\n"
+    },
+    "petfinder-pawpularity-score": {
+        "competition_id": "petfinder-pawpularity-score",
+        "run_id": "petfinder-pawpularity-score_mcts_comp_dpr1_v7_parallel_3[cpu-36-71]_0605T1510",
+        "score": 17.87216,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/petfinder-pawpularity-score_mcts_comp_dpr1_v7_parallel_3[cpu-36-71]_0605T1510/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 17.87216.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 16.82256\n- Medalist: 16.95041/17.00967/17.03721\n- Median: 17.70388 among 3538 teams\n\n"
+    },
+    "plant-pathology-2020-fgvc7": {
+        "competition_id": "plant-pathology-2020-fgvc7",
+        "run_id": "plant-pathology-2020-fgvc7_mcts_comp_v7_parallel_2[cpu-0-35]",
+        "score": 0.98956,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/plant-pathology-2020-fgvc7_mcts_comp_v7_parallel_2[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.98956.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.98445\n- Medalist: 0.97836/0.97502/0.97389\n- Median: 0.94846 among 1318 teams\n\n"
+    },
+    "plant-pathology-2021-fgvc8": {
+        "competition_id": "plant-pathology-2021-fgvc8",
+        "run_id": "plant-pathology-2021-fgvc8_mcts_comp_v7_parallel_2[cpu-72-107]",
+        "score": 0.91272,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/plant-pathology-2021-fgvc8_mcts_comp_v7_parallel_2[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.91272.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.88336\n- Medalist: 0.8612/0.85305/0.83506\n- Median: 0.7541 among 626 teams\n\n"
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+        "competition_id": "predict-volcanic-eruptions-ingv-oe",
+        "run_id": "predict-volcanic-eruptions-ingv-oe_mcts_comp_v7_parallel_2[cpu-72-107]",
+        "score": 2858966.0,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/predict-volcanic-eruptions-ingv-oe_mcts_comp_v7_parallel_2[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 2858966.00000.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 3438191.0\n- Medalist: 3971366.0/4808057.0/4999330.0\n- Median: 6300677.0 among 621 teams\n\n"
+    },
+    "random-acts-of-pizza": {
+        "competition_id": "random-acts-of-pizza",
+        "run_id": "random-acts-of-pizza_mcts_comp_dpr1_v7_parallel_4[cpu-0-35]_0607T0633",
+        "score": 0.52861,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/random-acts-of-pizza_mcts_comp_dpr1_v7_parallel_4[cpu-0-35]_0607T0633/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.52861.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 1.0\n- Medalist: 0.97908/0.76482/0.69063\n- Median: 0.59957 among 462 teams\n\n"
+    },
+    "ranzcr-clip-catheter-line-classification": {
+        "competition_id": "ranzcr-clip-catheter-line-classification",
+        "run_id": "ranzcr-clip-catheter-line-classification_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]",
+        "score": 0.86379,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/ranzcr-clip-catheter-line-classification_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.86379.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.97671\n- Medalist: 0.97357/0.972/0.97132\n- Median: 0.9675 among 1547 teams\n\n"
+    },
+    "rsna-2022-cervical-spine-fracture-detection": {
+        "competition_id": "rsna-2022-cervical-spine-fracture-detection",
+        "run_id": "rsna-2022-cervical-spine-fracture-detection_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]_0530T1617",
+        "score": 0.67299,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run/rsna-2022-cervical-spine-fracture-detection_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]_0530T1617/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.67299.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.2047\n- Medalist: 0.2767/0.49/0.5214\n- Median: 0.5223 among 884 teams\n\n"
+    },
+    "rsna-breast-cancer-detection": {
+        "competition_id": "rsna-breast-cancer-detection",
+        "run_id": "rsna-breast-cancer-detection_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0530T1617",
+        "score": null,
+        "medal": null,
+        "submission_exists": false,
+        "submission_valid": false,
+        "submission_path": null,
+        "total_output": null
+    },
+    "rsna-miccai-brain-tumor-radiogenomic-classification": {
+        "competition_id": "rsna-miccai-brain-tumor-radiogenomic-classification",
+        "run_id": "rsna-miccai-brain-tumor-radiogenomic-classification_mcts_comp_dpr1_v7_parallel_3[cpu-72-107]_0603T0419",
+        "score": 0.61176,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/rsna-miccai-brain-tumor-radiogenomic-classification_mcts_comp_dpr1_v7_parallel_3[cpu-72-107]_0603T0419/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.61176.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.62174\n- Medalist: 0.60096/0.58647/0.57961\n- Median: 0.52553 among 1556 teams\n\n"
+    },
+    "seti-breakthrough-listen": {
+        "competition_id": "seti-breakthrough-listen",
+        "run_id": "seti-breakthrough-listen_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]",
+        "score": 0.76746,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/seti-breakthrough-listen_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.76746.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.96782\n- Medalist: 0.79806/0.78095/0.77438\n- Median: 0.75889 among 769 teams\n\n"
+    },
+    "siim-covid19-detection": {
+        "competition_id": "siim-covid19-detection",
+        "run_id": "siim-covid19-detection_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0530T1617",
+        "score": 0.36954,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run/siim-covid19-detection_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0530T1617/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.36954.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.635\n- Medalist: 0.623/0.611/0.603\n- Median: 0.586 among 1305 teams\n\n"
+    },
+    "siim-isic-melanoma-classification": {
+        "competition_id": "siim-isic-melanoma-classification",
+        "run_id": "siim-isic-melanoma-classification_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-0-35]_2025-06-08T08:32:08",
+        "score": 0.89296,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run-1/siim-isic-melanoma-classification_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-0-35]_2025-06-08T08:32:08/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.89296.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.949\n- Medalist: 0.9455/0.9431/0.9414\n- Median: 0.9128 among 3308 teams\n\n"
+    },
+    "smartphone-decimeter-2022": {
+        "competition_id": "smartphone-decimeter-2022",
+        "run_id": "smartphone-decimeter-2022_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0528T1933",
+        "score": 15642.40004,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/smartphone-decimeter-2022_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0528T1933/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 15642.40004.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 1.229\n- Medalist: 1.768/2.119/3.076\n- Median: 3.33 among 574 teams\n\n"
+    },
+    "spooky-author-identification": {
+        "competition_id": "spooky-author-identification",
+        "run_id": "spooky-author-identification_mcts_comp_dpr1_v7_parallel_7[cpu-0-35]_2025-06-10T16:45:15",
+        "score": 0.26013,
+        "medal": "silver medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-2/spooky-author-identification_mcts_comp_dpr1_v7_parallel_7[cpu-0-35]_2025-06-10T16:45:15/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.26013.\n- Evaluated Result: \u001b[1;37msilver medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.02467\n- Medalist: 0.16506/0.26541/0.28945\n- Median: 0.41942 among 1242 teams\n\n"
+    },
+    "stanford-covid-vaccine": {
+        "competition_id": "stanford-covid-vaccine",
+        "run_id": "stanford-covid-vaccine_mcts_comp_v7_parallel_2[cpu-36-71]",
+        "score": 0.23945,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/stanford-covid-vaccine_mcts_comp_v7_parallel_2[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.23945.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.34198\n- Medalist: 0.34728/0.35088/0.35243\n- Median: 0.3632 among 1636 teams\n\n"
+    },
+    "statoil-iceberg-classifier-challenge": {
+        "competition_id": "statoil-iceberg-classifier-challenge",
+        "run_id": "statoil-iceberg-classifier-challenge_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]_0529T1548",
+        "score": 0.27082,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/statoil-iceberg-classifier-challenge_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]_0529T1548/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 0.27082.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.08227\n- Medalist: 0.11374/0.13103/0.1367\n- Median: 0.20371 among 3330 teams\n\n"
+    },
+    "tabular-playground-series-dec-2021": {
+        "competition_id": "tabular-playground-series-dec-2021",
+        "run_id": "tabular-playground-series-dec-2021_mcts_comp_v7_parallel_2[cpu-36-71]",
+        "score": 0.96202,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/tabular-playground-series-dec-2021_mcts_comp_v7_parallel_2[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.96202.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.95672\n- Medalist: 0.9566/0.95658/0.95658\n- Median: 0.95342 among 1189 teams\n\n"
+    },
+    "tabular-playground-series-may-2022": {
+        "competition_id": "tabular-playground-series-may-2022",
+        "run_id": "tabular-playground-series-may-2022_mcts_comp_v7_5_[cpu-36-71]",
+        "score": 0.99463,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/tabular-playground-series-may-2022_mcts_comp_v7_5_[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.99463.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.99833\n- Medalist: 0.99823/0.99822/0.99819\n- Median: 0.9726 among 1152 teams\n\n"
+    },
+    "tensorflow-speech-recognition-challenge": {
+        "competition_id": "tensorflow-speech-recognition-challenge",
+        "run_id": "tensorflow-speech-recognition-challenge_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]",
+        "score": 0.34837,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/tensorflow-speech-recognition-challenge_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.34837.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.9106\n- Medalist: 0.90485/0.89839/0.89169\n- Median: 0.77716 among 1314 teams\n\n"
+    },
+    "tensorflow2-question-answering": {
+        "competition_id": "tensorflow2-question-answering",
+        "run_id": "tensorflow2-question-answering_mcts_comp_dpr1_v7_parallel_3[cpu-72-107]_0605T0438",
+        "score": null,
+        "medal": null,
+        "submission_exists": false,
+        "submission_valid": false,
+        "submission_path": null,
+        "total_output": null
+    },
+    "text-normalization-challenge-english-language": {
+        "competition_id": "text-normalization-challenge-english-language",
+        "run_id": "text-normalization-challenge-english-language_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]_0602T1619",
+        "score": 0.99141,
+        "medal": "silver medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/text-normalization-challenge-english-language_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]_0602T1619/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.99141.\n- Evaluated Result: \u001b[1;37msilver medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.99822\n- Medalist: 0.99724/0.99135/0.99038\n- Median: 0.99037 among 261 teams\n\n"
+    },
+    "text-normalization-challenge-russian-language": {
+        "competition_id": "text-normalization-challenge-russian-language",
+        "run_id": "text-normalization-challenge-russian-language_mcts_comp_v7_parallel_2[cpu-36-71]",
+        "score": 0.97342,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/text-normalization-challenge-russian-language_mcts_comp_v7_parallel_2[cpu-36-71]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.97342.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.99464\n- Medalist: 0.99012/0.98197/0.97592\n- Median: 0.97591 among 163 teams\n\n"
+    },
+    "tgs-salt-identification-challenge": {
+        "competition_id": "tgs-salt-identification-challenge",
+        "run_id": "tgs-salt-identification-challenge_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]_0529T0703",
+        "score": 0.1301,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/tgs-salt-identification-challenge_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]_0529T0703/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.13010.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.89646\n- Medalist: 0.89097/0.8845/0.87717\n- Median: 0.81665 among 3219 teams\n\n"
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+        "competition_id": "the-icml-2013-whale-challenge-right-whale-redux",
+        "run_id": "the-icml-2013-whale-challenge-right-whale-redux_mcts_comp_v7_5_[cpu-72-107]",
+        "score": 0.99082,
+        "medal": "gold medal",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/workspaces/the-icml-2013-whale-challenge-right-whale-redux_mcts_comp_v7_5_[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.99082.\n- Evaluated Result: \u001b[1;33mgold medal\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.99379\n- Medalist: 0.98961/0.94961/0.90515\n- Median: 0.86521 among 129 teams\n\n"
+    },
+    "tweet-sentiment-extraction": {
+        "competition_id": "tweet-sentiment-extraction",
+        "run_id": "tweet-sentiment-extraction_mcts_comp_dpr1_v7_parallel_3[cpu-36-71]_0606T0454",
+        "score": 0.70943,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/tweet-sentiment-extraction_mcts_comp_dpr1_v7_parallel_3[cpu-36-71]_0606T0454/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.70943.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.73615\n- Medalist: 0.72689/0.7192/0.71765\n- Median: 0.71378 among 2225 teams\n\n"
+    },
+    "us-patent-phrase-to-phrase-matching": {
+        "competition_id": "us-patent-phrase-to-phrase-matching",
+        "run_id": "us-patent-phrase-to-phrase-matching_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]_0604T1829",
+        "score": 0.85901,
+        "medal": "above median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel-1/us-patent-phrase-to-phrase-matching_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]_0604T1829/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.85901.\n- Evaluated Result: \u001b[1;92mabove median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.8782\n- Medalist: 0.87/0.8641/0.8629\n- Median: 0.851 among 1889 teams\n\n"
+    },
+    "uw-madison-gi-tract-image-segmentation": {
+        "competition_id": "uw-madison-gi-tract-image-segmentation",
+        "run_id": "uw-madison-gi-tract-image-segmentation_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-0-35]_0607T0741",
+        "score": 0.0,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/valid_check_run-1/uw-madison-gi-tract-image-segmentation_mcts_comp_dpr1_v7_parallel_validcheck_3[cpu-0-35]_0607T0741/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.00000.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.88593\n- Medalist: 0.87917/0.87344/0.86968\n- Median: 0.85499 among 1548 teams\n\n"
+    },
+    "ventilator-pressure-prediction": {
+        "competition_id": "ventilator-pressure-prediction",
+        "run_id": "ventilator-pressure-prediction_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]",
+        "score": 8.54072,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/ventilator-pressure-prediction_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2198 metric = 8.54072.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.0575\n- Medalist: 0.1119/0.1295/0.133\n- Median: 0.1638 among 2605 teams\n\n"
+    },
+    "vesuvius-challenge-ink-detection": {
+        "competition_id": "vesuvius-challenge-ink-detection",
+        "run_id": "vesuvius-challenge-ink-detection_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0530T0417",
+        "score": 0.06095,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/vesuvius-challenge-ink-detection_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]_0530T0417/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.06095.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.831399\n- Medalist: 0.779927/0.734238/0.685825\n- Median: 0.418442 among 1250 teams\n\n"
+    },
+    "vinbigdata-chest-xray-abnormalities-detection": {
+        "competition_id": "vinbigdata-chest-xray-abnormalities-detection",
+        "run_id": "vinbigdata-chest-xray-abnormalities-detection_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]_0530T0417",
+        "score": null,
+        "medal": null,
+        "submission_exists": true,
+        "submission_valid": false,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/vinbigdata-chest-xray-abnormalities-detection_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]_0530T0417/best_submission/submission.csv",
+        "total_output": "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/exp_data/demo1bench/vinbigdata-chest-xray-abnormalities-detection/prepared/grade.py\", line 270, in <module>\n    score = grade(subm, gt)\n            ^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/exp_data/demo1bench/vinbigdata-chest-xray-abnormalities-detection/prepared/grade.py\", line 34, in grade\n    inputs = prepare_for_metric(submission, answers)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/exp_data/demo1bench/vinbigdata-chest-xray-abnormalities-detection/prepared/grade.py\", line 23, in prepare_for_metric\n    raise InvalidSubmissionError(f\"Submission must have a `{col}` column\")\nInvalidSubmissionError: Submission must have a `PredictionString` column\n"
+    },
+    "whale-categorization-playground": {
+        "competition_id": "whale-categorization-playground",
+        "run_id": "whale-categorization-playground_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0531T0524",
+        "score": 0.16294,
+        "medal": "below median",
+        "submission_exists": true,
+        "submission_valid": true,
+        "submission_path": "/home/ma-user/modelarts/work/yujiezheng_temp/ai-developer_backup/workspaces/mcts-comp-parallel/whale-categorization-playground_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]_0531T0524/best_submission/submission.csv",
+        "total_output": "* ============================================================ *\n\n- Score: \u2197 metric = 0.16294.\n- Evaluated Result: \u001b[1;91mbelow median\u001b[0m\n\n* ============================================================ *\nBaseline:\n- Top score: 0.78563\n- Medalist: 0.56236/0.44852/0.40497\n- Median: 0.32788 among 529 teams\n\n"
+    }
+}
