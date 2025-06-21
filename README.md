@@ -1,4 +1,6 @@
-# ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning
+# ML-Master: Towards AI-for-AI via Intergration of Exploration and Reasoning
+
+[![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master/)
 
 > **Status**: 🔬 Manuscript | ⌛ Code Coming Soon
 
@@ -13,7 +15,7 @@
 
 ## 📊 Performance Highlights
 
-ML-Master outperforms prior baselines on the **MLE-Bench**:
+ML-Master outperforms prior baselines on the **[MLE-Bench](https://github.com/openai/mle-bench)**:
 
 | Metric                      | Result                |
 |----------------------------|-----------------------|
