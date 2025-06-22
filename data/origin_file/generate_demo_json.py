@@ -51,6 +51,7 @@ json_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/ML-Master/data/origin_fil
 demo_data_save_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/ML-Master/data/demos"
 demo_config_save_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/ML-Master/data/demo-config.json"
 raw_log_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/data/mcts_log_new/final"
+trajectory_data_save_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/ML-Master/data/demos_with_trajectory"
 
 with open(json_path,'r') as f:
     json_data = json.load(f)
@@ -59,8 +60,10 @@ pattern = re.compile(r'\[.*?\] (\w+): (.*)')
 for task_name in json_data:
     log_path = os.path.join(raw_log_path,json_data[task_name]["run_id"],"aide.log")
     code_path = os.path.join(raw_log_path,json_data[task_name]["run_id"],"best_solution.py")
+    demo_trajectory_path = os.path.join(raw_log_path,json_data[task_name]["run_id"],"tree_plot.html")
     log_str = ""
     code_str = ""
+    trajectory_str = ""
     steps = [
             {
       "text": f"<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task {task_name} --time-limit 12h",
@@ -119,6 +122,21 @@ for task_name in json_data:
         print(f"处理代码{code_path}失败，原始保错:{traceback.format_exc()}")
         continue
 
+    try:
+        with open(demo_trajectory_path, 'r', encoding='utf-8') as f:
+            for idx,line in enumerate(f):
+                if "let treeStructData = " in line:
+                    trajectory_str = line
+                    trajectory_str = trajectory_str.replace("let treeStructData = ","")
+                    trajectory_dict = json.loads(trajectory_str)
+                    break
+                else:
+                    continue
+    except:
+        print(f"处理代码{demo_trajectory_path}失败，原始保错:{traceback.format_exc()}")
+        continue
+
+
     steps.append(
             {
       "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
@@ -147,40 +165,51 @@ for task_name in json_data:
     demo_data = {
         "title":task_name,
         "steps":steps,
-        "code":highlight_code
+        "code":highlight_code,
     }
-    with open(os.path.join(demo_data_save_path,f"{task_name}.json"),"w",encoding='utf-8') as f:
-        json.dump(demo_data, f, ensure_ascii=False, indent=4)
-    with open(demo_config_save_path,"r",encoding='utf-8') as f:
-        config_data = json.load(f)
-    
-    task_already_in_demo = False
-    for idx,task_dict in enumerate(config_data["demos"]):
-        if task_dict["id"] == task_name:
-            task_already_in_demo = True
-            config_data["demos"][idx]["id"] = task_name
-            config_data["demos"][idx]["icon"] = ""
-            config_data["demos"][idx]["title"] = task_name
-            config_data["demos"][idx]["medal"] = medal
-            config_data["demos"][idx]["description"] = ""
-            config_data["demos"][idx]["category"] = "others"
-            config_data["demos"][idx]["file"] = f"{task_name}.json"
-            break
+    demo_data_with_trajectory = {
+        "title":task_name,
+        "steps":steps,
+        "code":highlight_code,
+        "detail": trajectory_dict
+    }
+    # with open(os.path.join(demo_data_save_path,f"{task_name}.json"),"w",encoding='utf-8') as f:
+    #     json.dump(demo_data, f, ensure_ascii=False, indent=4)
 
-    if task_already_in_demo == False:
-        config_data["demos"].append(
-            {
-                "id": f"{task_name}",
-                "icon": "",
-                "title": f"{task_name}",
-                "description": "",
-                "medal": medal,
-                "category": "others",
-                "file": f"{task_name}.json"
-            }
-        )
-    with open(demo_config_save_path,"w",encoding='utf-8') as f:
-        json.dump(config_data, f, ensure_ascii=False, indent=4)
+    with open(os.path.join(trajectory_data_save_path,f"{task_name}.json"),"w",encoding='utf-8') as f:
+        json.dump(demo_data_with_trajectory, f, ensure_ascii=False, indent=4)
+
+    # with open(demo_config_save_path,"r",encoding='utf-8') as f:
+    #     config_data = json.load(f)
+    
+    # task_already_in_demo = False
+    # for idx,task_dict in enumerate(config_data["demos"]):
+    #     if task_dict["id"] == task_name:
+    #         task_already_in_demo = True
+    #         config_data["demos"][idx]["id"] = task_name
+    #         config_data["demos"][idx]["icon"] = config_data["demos"][idx]["icon"]
+    #         config_data["demos"][idx]["title"] = task_name
+    #         config_data["demos"][idx]["medal"] = medal
+    #         config_data["demos"][idx]["description"] = config_data["demos"][idx]["description"]
+    #         config_data["demos"][idx]["category"] = config_data["demos"][idx]["category"]
+    #         config_data["demos"][idx]["file"] = f"{task_name}.json"
+    #         break
+
+    # if task_already_in_demo == False:
+    #     raise ValueError(f"{task_name} not found in config")
+    #     config_data["demos"].append(
+    #         {
+    #             "id": f"{task_name}",
+    #             "icon": "",
+    #             "title": f"{task_name}",
+    #             "description": "",
+    #             "medal": medal,
+    #             "category": "others",
+    #             "file": f"{task_name}.json"
+    #         }
+    #     )
+    # with open(demo_config_save_path,"w",encoding='utf-8') as f:
+    #     json.dump(config_data, f, ensure_ascii=False, indent=4)
 
     
 

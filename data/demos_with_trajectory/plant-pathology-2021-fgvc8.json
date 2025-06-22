@@ -1,0 +1,1521 @@
+{
+    "title": "plant-pathology-2021-fgvc8",
+    "steps": [
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task plant-pathology-2021-fgvc8 --time-limit 12h",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting run \"plant-pathology-2021-fgvc8\"",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 944406bc8081416daf601a3b282854fd is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 944406bc8081416daf601a3b282854fd is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 944406bc8081416daf601a3b282854fd is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 944406bc8081416daf601a3b282854fd expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 944406bc8081416daf601a3b282854fd expected_child_count is 2.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 944406bc8081416daf601a3b282854fd expected_child_count is 3.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 79348bd5f9ec4bcea9e7ad25e08a242f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 79348bd5f9ec4bcea9e7ad25e08a242f is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node c3231139a76e48f98d445f061cf05da9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node c3231139a76e48f98d445f061cf05da9 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='critical'>[CRITICAL]</span>: REPL child process failed to start execution",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 79348bd5f9ec4bcea9e7ad25e08a242f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 79348bd5f9ec4bcea9e7ad25e08a242f is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 79348bd5f9ec4bcea9e7ad25e08a242f is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 944406bc8081416daf601a3b282854fd, the generated node is 79348bd5f9ec4bcea9e7ad25e08a242f, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 79348bd5f9ec4bcea9e7ad25e08a242f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is 79348bd5f9ec4bcea9e7ad25e08a242f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=2,edges=[(0, 1)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 4/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 79348bd5f9ec4bcea9e7ad25e08a242f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 79348bd5f9ec4bcea9e7ad25e08a242f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node79348bd5f9ec4bcea9e7ad25e08a242f.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 79348bd5f9ec4bcea9e7ad25e08a242f expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c3231139a76e48f98d445f061cf05da9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c3231139a76e48f98d445f061cf05da9 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c3231139a76e48f98d445f061cf05da9 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 944406bc8081416daf601a3b282854fd, the generated node is c3231139a76e48f98d445f061cf05da9, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c3231139a76e48f98d445f061cf05da9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is c3231139a76e48f98d445f061cf05da9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=3,edges=[(0, 2), (0, 1)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 5/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: c3231139a76e48f98d445f061cf05da9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: c3231139a76e48f98d445f061cf05da9",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodec3231139a76e48f98d445f061cf05da9.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current c3231139a76e48f98d445f061cf05da9 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 79348bd5f9ec4bcea9e7ad25e08a242f to create new node 84f4c8d8bb57430f95f45788558a36b8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 7fe04a96118e4c2d9869590e9cfcc083",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 7fe04a96118e4c2d9869590e9cfcc083 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 84f4c8d8bb57430f95f45788558a36b8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 84f4c8d8bb57430f95f45788558a36b8 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 84f4c8d8bb57430f95f45788558a36b8 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 79348bd5f9ec4bcea9e7ad25e08a242f, the generated node is 84f4c8d8bb57430f95f45788558a36b8, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 84f4c8d8bb57430f95f45788558a36b8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node c3231139a76e48f98d445f061cf05da9 to create new node 8ffc6a13886140eeaefdd8c97f488b20",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 8ffc6a13886140eeaefdd8c97f488b20",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 8ffc6a13886140eeaefdd8c97f488b20 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 8ffc6a13886140eeaefdd8c97f488b20 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node c3231139a76e48f98d445f061cf05da9, the generated node is 8ffc6a13886140eeaefdd8c97f488b20, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 8ffc6a13886140eeaefdd8c97f488b20",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 7fe04a96118e4c2d9869590e9cfcc083",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 7fe04a96118e4c2d9869590e9cfcc083 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 7fe04a96118e4c2d9869590e9cfcc083 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 944406bc8081416daf601a3b282854fd, the generated node is 7fe04a96118e4c2d9869590e9cfcc083, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 7fe04a96118e4c2d9869590e9cfcc083",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 3, current node.id is 7fe04a96118e4c2d9869590e9cfcc083",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 3), (2, 4)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 84f4c8d8bb57430f95f45788558a36b8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 7fe04a96118e4c2d9869590e9cfcc083",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 7fe04a96118e4c2d9869590e9cfcc083",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node7fe04a96118e4c2d9869590e9cfcc083.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 7fe04a96118e4c2d9869590e9cfcc083 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 3), (2, 4)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 8ffc6a13886140eeaefdd8c97f488b20",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 84f4c8d8bb57430f95f45788558a36b8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 84f4c8d8bb57430f95f45788558a36b8",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node84f4c8d8bb57430f95f45788558a36b8.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 84f4c8d8bb57430f95f45788558a36b8 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 3), (2, 4)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 8ffc6a13886140eeaefdd8c97f488b20",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 8ffc6a13886140eeaefdd8c97f488b20",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node8ffc6a13886140eeaefdd8c97f488b20.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 8ffc6a13886140eeaefdd8c97f488b20 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 84f4c8d8bb57430f95f45788558a36b8 to create new node 0551f182330e4d77be36289973430a18",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 7fe04a96118e4c2d9869590e9cfcc083 to create new node 866c2e54b163492b891d6c547015c123",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 8ffc6a13886140eeaefdd8c97f488b20 to create new node fc39c13e3bb443bfb6c53cc8c4adc12f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node fc39c13e3bb443bfb6c53cc8c4adc12f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node fc39c13e3bb443bfb6c53cc8c4adc12f is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node fc39c13e3bb443bfb6c53cc8c4adc12f is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 8ffc6a13886140eeaefdd8c97f488b20, the generated node is fc39c13e3bb443bfb6c53cc8c4adc12f, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main fc39c13e3bb443bfb6c53cc8c4adc12f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 0551f182330e4d77be36289973430a18",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 0551f182330e4d77be36289973430a18 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 0551f182330e4d77be36289973430a18 is 0.909.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 84f4c8d8bb57430f95f45788558a36b8.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 0551f182330e4d77be36289973430a18 is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 0551f182330e4d77be36289973430a18 start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 79348bd5f9ec4bcea9e7ad25e08a242f is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 84f4c8d8bb57430f95f45788558a36b8, the generated node is 0551f182330e4d77be36289973430a18, the metric is 0.909",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 0551f182330e4d77be36289973430a18 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.909.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 866c2e54b163492b891d6c547015c123",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 866c2e54b163492b891d6c547015c123 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 866c2e54b163492b891d6c547015c123 is 0.8718.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 7fe04a96118e4c2d9869590e9cfcc083.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 866c2e54b163492b891d6c547015c123 is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 866c2e54b163492b891d6c547015c123 start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 7fe04a96118e4c2d9869590e9cfcc083 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 7fe04a96118e4c2d9869590e9cfcc083, the generated node is 866c2e54b163492b891d6c547015c123, the metric is 0.8718",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 866c2e54b163492b891d6c547015c123 is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 0551f182330e4d77be36289973430a18 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.909.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 5), (0, 2), (0, 1), (1, 3), (2, 4), (3, 7), (4, 6), (5, 8)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 944406bc8081416daf601a3b282854fd is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 944406bc8081416daf601a3b282854fd expected_child_count is 4.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 5), (0, 2), (0, 1), (1, 3), (2, 4), (3, 7), (4, 6), (5, 8)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is fc39c13e3bb443bfb6c53cc8c4adc12f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 944406bc8081416daf601a3b282854fd is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 944406bc8081416daf601a3b282854fd expected_child_count is 5.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 5), (0, 2), (0, 1), (1, 3), (2, 4), (3, 7), (4, 6), (5, 8)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: fc39c13e3bb443bfb6c53cc8c4adc12f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: fc39c13e3bb443bfb6c53cc8c4adc12f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodefc39c13e3bb443bfb6c53cc8c4adc12f.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current fc39c13e3bb443bfb6c53cc8c4adc12f expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node c5fddb003f324c11a40c7967cf55707a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node c5fddb003f324c11a40c7967cf55707a is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c5fddb003f324c11a40c7967cf55707a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c5fddb003f324c11a40c7967cf55707a is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c5fddb003f324c11a40c7967cf55707a is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 944406bc8081416daf601a3b282854fd, the generated node is c5fddb003f324c11a40c7967cf55707a, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.909.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c5fddb003f324c11a40c7967cf55707a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 9cc7c55fee9f44589b67702b68c3aeba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 9cc7c55fee9f44589b67702b68c3aeba is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node fc39c13e3bb443bfb6c53cc8c4adc12f to create new node 856d8d7b842d4bbcb06b4db2b12d75cc",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 856d8d7b842d4bbcb06b4db2b12d75cc",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 856d8d7b842d4bbcb06b4db2b12d75cc is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 856d8d7b842d4bbcb06b4db2b12d75cc is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 856d8d7b842d4bbcb06b4db2b12d75cc start backpropagating with reward -1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node c3231139a76e48f98d445f061cf05da9 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node fc39c13e3bb443bfb6c53cc8c4adc12f, the generated node is 856d8d7b842d4bbcb06b4db2b12d75cc, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.909.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 9cc7c55fee9f44589b67702b68c3aeba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 9cc7c55fee9f44589b67702b68c3aeba is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 9cc7c55fee9f44589b67702b68c3aeba is 0.2968.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 9cc7c55fee9f44589b67702b68c3aeba is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 944406bc8081416daf601a3b282854fd, the generated node is 9cc7c55fee9f44589b67702b68c3aeba, the metric is 0.2968",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 9cc7c55fee9f44589b67702b68c3aeba is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 0551f182330e4d77be36289973430a18 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.909.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 9cc7c55fee9f44589b67702b68c3aeba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is 9cc7c55fee9f44589b67702b68c3aeba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=12,edges=[(0, 2), (0, 11), (0, 1), (0, 9), (0, 5), (1, 3), (2, 4), (3, 7), (4, 6), (5, 8), (6, 10)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 14/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 12, current node.id is c5fddb003f324c11a40c7967cf55707a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 9cc7c55fee9f44589b67702b68c3aeba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 9cc7c55fee9f44589b67702b68c3aeba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 9cc7c55fee9f44589b67702b68c3aeba.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 9cc7c55fee9f44589b67702b68c3aeba expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=12,edges=[(0, 2), (0, 11), (0, 1), (0, 9), (0, 5), (1, 3), (2, 4), (3, 7), (4, 6), (5, 8), (6, 10)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 14/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 12, current node.id is 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: c5fddb003f324c11a40c7967cf55707a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: c5fddb003f324c11a40c7967cf55707a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodec5fddb003f324c11a40c7967cf55707a.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current c5fddb003f324c11a40c7967cf55707a expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=12,edges=[(0, 2), (0, 11), (0, 1), (0, 9), (0, 5), (1, 3), (2, 4), (3, 7), (4, 6), (5, 8), (6, 10)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 14/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 944406bc8081416daf601a3b282854fd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: For node 944406bc8081416daf601a3b282854fd, there are 2/5 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node c3231139a76e48f98d445f061cf05da9 uct = -1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 79348bd5f9ec4bcea9e7ad25e08a242f uct = 1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7fe04a96118e4c2d9869590e9cfcc083 uct = 1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 79348bd5f9ec4bcea9e7ad25e08a242f is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 84f4c8d8bb57430f95f45788558a36b8 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 0551f182330e4d77be36289973430a18 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 0551f182330e4d77be36289973430a18 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 0551f182330e4d77be36289973430a18",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 0551f182330e4d77be36289973430a18.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 0551f182330e4d77be36289973430a18 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using local deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 0551f182330e4d77be36289973430a18 to create new node dbc66871e4794b32ae611d4bbf5f0090",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node c5fddb003f324c11a40c7967cf55707a to create new node 8eb3d63639ad443a987d5bc44e411eae",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 9cc7c55fee9f44589b67702b68c3aeba to create new node 7ab143bfa9f04e83bdb370d24ba3ab23",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 8eb3d63639ad443a987d5bc44e411eae",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 8eb3d63639ad443a987d5bc44e411eae is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 8eb3d63639ad443a987d5bc44e411eae is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node c5fddb003f324c11a40c7967cf55707a, the generated node is 8eb3d63639ad443a987d5bc44e411eae, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.909.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 8eb3d63639ad443a987d5bc44e411eae",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node dbc66871e4794b32ae611d4bbf5f0090",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node dbc66871e4794b32ae611d4bbf5f0090 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node dbc66871e4794b32ae611d4bbf5f0090 is 0.9133.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node 0551f182330e4d77be36289973430a18, Node dbc66871e4794b32ae611d4bbf5f0090 metric improvement (0.0042999999999999705) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 0551f182330e4d77be36289973430a18, the generated node is dbc66871e4794b32ae611d4bbf5f0090, the metric is 0.9133",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node dbc66871e4794b32ae611d4bbf5f0090 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.9133.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main dbc66871e4794b32ae611d4bbf5f0090",
+            "delay": 200
+        },
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
+            "delay": 200
+        }
+    ],
+    "code": "<span class=\"keyword\">import</span> os\n<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">import</span> numpy <span class=\"keyword\">as</span> np\n<span class=\"keyword\">from</span> sklearn.model_selection <span class=\"keyword\">import</span> train_test_split\n<span class=\"keyword\">from</span> sklearn.metrics <span class=\"keyword\">import</span> f1_score\n<span class=\"keyword\">import</span> torch\n<span class=\"keyword\">from</span> torch <span class=\"keyword\">import</span> nn\n<span class=\"keyword\">import</span> torch.optim <span class=\"keyword\">as</span> optim\n<span class=\"keyword\">from</span> torch.utils.data <span class=\"keyword\">import</span> Dataset, DataLoader\n<span class=\"keyword\">from</span> torchvision <span class=\"keyword\">import</span> transforms\n<span class=\"keyword\">import</span> timm\n<span class=\"keyword\">from</span> PIL <span class=\"keyword\">import</span> Image\n\n<span class=\"comment\"># Install dependencies if needed</span>\nos.system(<span class=\"string\">&quot;</span><span class=\"string\">pip install timm pandas numpy torch torchvision Pillow</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Ensure submission directory exists</span>\nos.makedirs(<span class=\"string\">&quot;</span><span class=\"string\">./submission</span><span class=\"string\">&quot;</span>, exist_ok=<span class=\"keyword\">True</span>)\n\n<span class=\"comment\"># Configuration</span>\nBATCH_SIZE = <span class=\"number\">32</span>\nIMG_SIZE = <span class=\"number\">384</span>\nEPOCHS = <span class=\"number\">2</span>\nLR = <span class=\"number\">3e-5</span>\nNUM_WORKERS = <span class=\"number\">4</span>\ntorch.manual_seed(<span class=\"number\">42</span>)\n\n<span class=\"comment\"># Data loading and preprocessing</span>\ntrain_df = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">input/train.csv</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Multi-label encoding</span>\nclasses = sorted(set(<span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join(train_df.labels).split()))\nclass_map = {c: i <span class=\"keyword\">for</span> i, c in enumerate(classes)}\ntrain_df[<span class=\"string\">&quot;</span><span class=\"string\">encoded</span><span class=\"string\">&quot;</span>] = train_df.labels.apply(<span class=\"keyword\">lambda</span> x: [class_map[c] <span class=\"keyword\">for</span> c in x.split()])\ny_full = np.zeros((len(train_df), len(classes)))\n<span class=\"keyword\">for</span> i, row in enumerate(train_df.encoded):\n    y_full[i, row] = <span class=\"number\">1</span>\n\n\n<span class=\"comment\"># Dataset class with label support</span>\n<span class=\"keyword\">class</span> <span class=\"class\">LeafDataset</span>(Dataset):\n    <span class=\"keyword\">def</span> <span class=\"function\">__init__</span>(self, img_paths, labels=<span class=\"keyword\">None</span>, transform=<span class=\"keyword\">None</span>):\n        self.img_paths = img_paths\n        self.labels = labels\n        self.transform = transform\n\n    <span class=\"keyword\">def</span> <span class=\"function\">__len__</span>(self):\n        <span class=\"keyword\">return</span> len(self.img_paths)\n\n    <span class=\"keyword\">def</span> <span class=\"function\">__getitem__</span>(self, idx):\n        img_path = self.img_paths[idx]\n        image = Image.open(img_path).convert(<span class=\"string\">&quot;</span><span class=\"string\">RGB</span><span class=\"string\">&quot;</span>)\n        <span class=\"keyword\">if</span> self.transform:\n            image = self.transform(image)\n        <span class=\"keyword\">if</span> self.labels is not <span class=\"keyword\">None</span>:\n            <span class=\"keyword\">return</span> image, torch.FloatTensor(self.labels[idx])\n        <span class=\"keyword\">return</span> image\n\n\n<span class=\"comment\"># Train/val split</span>\ntrain_idx, val_idx = train_test_split(\n    range(len(train_df)), test_size=<span class=\"number\">0.2</span>, stratify=train_df.labels\n)\n\n<span class=\"comment\"># Data transforms</span>\ntrain_transform = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.RandomHorizontalFlip(),\n        transforms.RandomVerticalFlip(),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[<span class=\"number\">0.485</span>, <span class=\"number\">0.456</span>, <span class=\"number\">0.406</span>], std=[<span class=\"number\">0.229</span>, <span class=\"number\">0.224</span>, <span class=\"number\">0.225</span>]),\n    ]\n)\n\ntest_transform = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[<span class=\"number\">0.485</span>, <span class=\"number\">0.456</span>, <span class=\"number\">0.406</span>], std=[<span class=\"number\">0.229</span>, <span class=\"number\">0.224</span>, <span class=\"number\">0.225</span>]),\n    ]\n)\n\n<span class=\"comment\"># Create datasets with proper labels</span>\ntrain_ds = LeafDataset(\n    [<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">input/train_images/</span><span class=\"string\">{</span>f<span class=\"string\">}</span><span class=\"string\">&quot;</span> <span class=\"keyword\">for</span> f in train_df.image.iloc[train_idx]],\n    y_full[train_idx],\n    train_transform,\n)\nval_ds = LeafDataset(\n    [<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">input/train_images/</span><span class=\"string\">{</span>f<span class=\"string\">}</span><span class=\"string\">&quot;</span> <span class=\"keyword\">for</span> f in train_df.image.iloc[val_idx]],\n    y_full[val_idx],\n    test_transform,\n)\n\n<span class=\"comment\"># Data loaders</span>\ntrain_loader = DataLoader(\n    train_ds, batch_size=BATCH_SIZE, shuffle=<span class=\"keyword\">True</span>, num_workers=NUM_WORKERS\n)\nval_loader = DataLoader(val_ds, batch_size=BATCH_SIZE * <span class=\"number\">2</span>, num_workers=NUM_WORKERS)\n\n<span class=\"comment\"># Model setup</span>\ndevice = torch.device(<span class=\"string\">&quot;</span><span class=\"string\">cuda</span><span class=\"string\">&quot;</span> <span class=\"keyword\">if</span> torch.cuda.is_available() <span class=\"keyword\">else</span> <span class=\"string\">&quot;</span><span class=\"string\">cpu</span><span class=\"string\">&quot;</span>)\nmodel = timm.create_model(\n    <span class=\"string\">&quot;</span><span class=\"string\">vit_base_patch16_384</span><span class=\"string\">&quot;</span>, pretrained=<span class=\"keyword\">True</span>, num_classes=len(classes)\n).to(device)\noptimizer = optim.AdamW(model.parameters(), lr=LR)\ncriterion = nn.BCEWithLogitsLoss()\n\n<span class=\"comment\"># Training loop</span>\nbest_f1 = <span class=\"number\">0</span>\nbest_thresh = <span class=\"number\">0.5</span>\n<span class=\"keyword\">for</span> epoch in range(EPOCHS):\n    model.train()\n    <span class=\"keyword\">for</span> images, labels in train_loader:\n        images, labels = images.to(device), labels.to(device)\n        optimizer.zero_grad()\n        outputs = model(images)\n        loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n    <span class=\"comment\"># Validation</span>\n    model.eval()\n    val_preds = []\n    <span class=\"keyword\">with</span> torch.no_grad():\n        <span class=\"keyword\">for</span> images, labels in val_loader:\n            outputs = model(images.to(device)).sigmoid().cpu()\n            val_preds.append(outputs.numpy())\n\n    val_preds = np.concatenate(val_preds)\n    val_true = y_full[val_idx]\n\n    <span class=\"comment\"># Threshold tuning</span>\n    <span class=\"keyword\">for</span> thresh in np.linspace(<span class=\"number\">0.3</span>, <span class=\"number\">0.7</span>, <span class=\"number\">21</span>):\n        preds = (val_preds &gt; thresh).astype(int)\n        score = f1_score(val_true, preds, average=<span class=\"string\">&quot;</span><span class=\"string\">macro</span><span class=\"string\">&quot;</span>)\n        <span class=\"keyword\">if</span> score &gt; best_f1:\n            best_f1 = score\n            best_thresh = thresh\n\n    print(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Epoch </span><span class=\"string\">{</span>epoch+<span class=\"number\">1</span><span class=\"string\">}</span><span class=\"string\">: Val F1 </span><span class=\"string\">{</span>best_f1<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\"> @ </span><span class=\"string\">{</span>best_thresh<span class=\"string\">:</span><span class=\"string\">.3f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Test prediction</span>\ntest_images = [<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">input/test_images/</span><span class=\"string\">{</span>f<span class=\"string\">}</span><span class=\"string\">&quot;</span> <span class=\"keyword\">for</span> f in os.listdir(<span class=\"string\">&quot;</span><span class=\"string\">input/test_images</span><span class=\"string\">&quot;</span>)]\ntest_ds = LeafDataset(test_images, transform=test_transform)\ntest_loader = DataLoader(test_ds, batch_size=BATCH_SIZE * <span class=\"number\">2</span>, num_workers=NUM_WORKERS)\n\nmodel.eval()\ntest_preds = []\n<span class=\"keyword\">with</span> torch.no_grad():\n    <span class=\"keyword\">for</span> images in test_loader:\n        outputs = model(images.to(device)).sigmoid().cpu()\n        test_preds.append(outputs.numpy())\n\ntest_preds = np.concatenate(test_preds)\nfinal_preds = (test_preds &gt; best_thresh).astype(int)\n\n<span class=\"comment\"># Generate submission</span>\nsubmission = []\n<span class=\"keyword\">for</span> i, path in enumerate(test_images):\n    labels = []\n    <span class=\"keyword\">for</span> j, val in enumerate(final_preds[i]):\n        <span class=\"keyword\">if</span> val:\n            labels.append(classes[j])\n    submission.append(\n        {<span class=\"string\">&quot;</span><span class=\"string\">image</span><span class=\"string\">&quot;</span>: os.path.basename(path), <span class=\"string\">&quot;</span><span class=\"string\">labels</span><span class=\"string\">&quot;</span>: <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join(labels) or <span class=\"string\">&quot;</span><span class=\"string\">healthy</span><span class=\"string\">&quot;</span>}\n    )\n\npd.DataFrame(submission).to_csv(<span class=\"string\">&quot;</span><span class=\"string\">./submission/submission.csv</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>)\nprint(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Final Validation F1: </span><span class=\"string\">{</span>best_f1<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\nprint(<span class=\"string\">&quot;</span><span class=\"string\">Submission file created successfully</span><span class=\"string\">&quot;</span>)\n",
+    "detail": {
+        "node_id": [
+            "944406bc8081416daf601a3b282854fd",
+            "79348bd5f9ec4bcea9e7ad25e08a242f",
+            "c3231139a76e48f98d445f061cf05da9",
+            "84f4c8d8bb57430f95f45788558a36b8",
+            "8ffc6a13886140eeaefdd8c97f488b20",
+            "7fe04a96118e4c2d9869590e9cfcc083",
+            "fc39c13e3bb443bfb6c53cc8c4adc12f",
+            "0551f182330e4d77be36289973430a18",
+            "866c2e54b163492b891d6c547015c123",
+            "c5fddb003f324c11a40c7967cf55707a",
+            "856d8d7b842d4bbcb06b4db2b12d75cc",
+            "9cc7c55fee9f44589b67702b68c3aeba"
+        ],
+        "global_step": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "edges": [
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                11
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                6,
+                10
+            ]
+        ],
+        "layout": [
+            [
+                0.5,
+                0.0
+            ],
+            [
+                0.0,
+                0.25
+            ],
+            [
+                0.25,
+                0.25
+            ],
+            [
+                0.0,
+                0.5
+            ],
+            [
+                0.25,
+                0.5
+            ],
+            [
+                0.5,
+                0.25
+            ],
+            [
+                0.25,
+                0.75
+            ],
+            [
+                0.0,
+                0.75
+            ],
+            [
+                0.5,
+                0.5
+            ],
+            [
+                0.75,
+                0.25
+            ],
+            [
+                0.25,
+                1.0
+            ],
+            [
+                1.0,
+                0.25
+            ]
+        ],
+        "plan": [
+            "virtual plan",
+            "To address the multi-label classification of apple leaf diseases, we'll\nimplement a Vision Transformer (ViT) approach with class-weighted loss and\nadaptive thresholding. The solution leverages modern transformer architectures\nfor better feature capture, uses focal loss to handle class imbalance, and\noptimizes prediction thresholds on validation data to maximize F1 scores. Data\naugmentation includes color normalization and random erasing to handle varying\nfield conditions.",
+            "To tackle the multi-label classification of apple leaf diseases, we'll use an\nEfficientNet-B5 backbone with a channel attention module (SE block) for feature\nrefinement. We'll implement a weighted loss combining focal loss and label\nsmoothing to handle class imbalance and label noise. Images will be augmented\nwith grid distortion and random erasing to simulate field conditions. Validation\nuses stratified 5-fold splits with macro F1 scoring.",
+            "The previous code failed to generate the submission file due to incorrect test\ndata handling and missing dependencies. Key fixes needed: 1) Install required\npackages like timm, 2) Create submission directory, 3) Process actual test\nimages instead of sample submission entries, 4) Adjust threshold logic. The\nrevised code will use proper test image paths and ensure all dependencies are\ninstalled.",
+            "The previous code may fail to create the submission directory, leading to file\nsave errors. Additionally, the label encoding has issues - the validation F1 of\n0.0 indicates incorrect multi-label handling. We need to: 1. Ensure directory\ncreation for submission file 2. Fix multi-label stratification in k-fold 3.\nProperly calculate class weights based on label frequency 4. Adjust prediction\nthresholding for multi-label outputs",
+            "To address the multi-label classification challenge, we'll use a pre-trained\nEfficientNet-B4 model with transfer learning. Data augmentation techniques like\nflipping, rotation, and color jittering will help improve generalization. The\nmodel will be trained with weighted BCE loss to handle class imbalance, and\npredictions will be thresholded at 0.5. Validation F1-score will be monitored to\nselect the best model for final submission.",
+            "The previous code generated predictions for all files in the test directory\nrather than using the sample submission's image list, risking invalid/missing\nentries. To fix: 1. Load test image names from sample_submission.csv instead of\ndirectory listing 2. Ensure prediction order matches sample submission 3.\nValidate submission format before saving",
+            "The error arises from incorrect label handling in the training loop. The dataset\nwasn't returning labels, leading to batch size mismatch. We fix this by:  1.\nModifying the Dataset class to return both images and labels 2. Properly\naligning image batches with their corresponding labels 3. Adjusting the training\nloop to use batched labels",
+            "To fix the bug, we need to properly handle test data without labels in the\nDataset class and ensure filenames are correctly captured during inference. The\nPlantDataset's __getitem__ method should return filenames when labels are\nabsent, and the test loader should process these filenames to create the\nsubmission file.",
+            "To address the multi-label classification challenge, we'll use a ConvNeXt-Large\nmodel with Asymmetric Loss (ASL) to handle class imbalance and label noise.\nWe'll employ strong augmentations using Albumentations including mixup and\ncutmix to improve generalization. A custom weighted multi-label stratified split\nensures balanced class distribution in validation. The model will be optimized\nusing AdamW with cosine learning rate scheduling, and predictions will be\nthreshold-optimized per-class on validation to maximize F1-score.",
+            "The previous code incorrectly used the sample submission file to determine which\ntest images to predict, resulting in missing predictions for the full test set.\nTo fix this, we need to process all images in the test_images directory.\nAdditionally, the code should remove assertions tied to the sample submission\nand ensure proper image filtering.",
+            "To address the multi-label classification challenge, we'll utilize a ConvNeXt-\nBase model with Asymmetric Loss (ASL) to handle class imbalance and improve\nconvergence. Data augmentation includes flips, rotation, and color jittering,\nwhile mixup enhances generalization. The model is trained with AdamW optimizer\nand validated using macro F1-score. Predictions are thresholded at 0.5 for\nsubmission, ensuring robust multi-label detection on test images."
+        ],
+        "code": [
+            "virtual code",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nimport torch\nfrom torch import nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nimport timm\nfrom PIL import Image\n\n# Configuration\nBATCH_SIZE = 32\nIMG_SIZE = 384\nEPOCHS = 15\nLR = 3e-5\nTHRESHOLD_TUNING_EPOCHS = 3\nNUM_WORKERS = 4\ntorch.manual_seed(42)\n\n# Data loading\ntrain_df = pd.read_csv(\"input/train.csv\")\ntest_df = pd.read_csv(\"input/sample_submission.csv\")\n\n# Multi-label encoding\nclasses = sorted(set(\" \".join(train_df.labels).split()))\nclass_map = {c: i for i, c in enumerate(classes)}\ntrain_df[\"encoded\"] = train_df.labels.apply(lambda x: [class_map[c] for c in x.split()])\ny_full = np.zeros((len(train_df), len(classes)))\nfor i, row in enumerate(train_df.encoded):\n    y_full[i, row] = 1\n\n\n# Dataset class\nclass LeafDataset(Dataset):\n    def __init__(self, df, img_dir, transform=None, is_test=False):\n        self.df = df\n        self.img_dir = img_dir\n        self.transform = transform\n        self.is_test = is_test\n\n    def __len__(self):\n        return len(self.df)\n\n    def __getitem__(self, idx):\n        img_path = f\"{self.img_dir}/{self.df.image.iloc[idx]}\"\n        image = Image.open(img_path).convert(\"RGB\")\n\n        if self.transform:\n            image = self.transform(image)\n\n        if self.is_test:\n            return image\n        else:\n            labels = torch.FloatTensor(y_full[idx])\n            return image, labels\n\n\n# Augmentations\ntrain_transform = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.RandomHorizontalFlip(),\n        transforms.RandomVerticalFlip(),\n        transforms.RandomRotation(30),\n        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n        transforms.RandomErasing(p=0.3, scale=(0.02, 0.1)),\n    ]\n)\n\ntest_transform = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\n\n# Model\nclass ViTMultiLabel(nn.Module):\n    def __init__(self, n_classes):\n        super().__init__()\n        self.vit = timm.create_model(\"vit_base_patch16_384\", pretrained=True)\n        self.head = nn.Linear(self.vit.head.in_features, n_classes)\n\n    def forward(self, x):\n        x = self.vit.forward_features(x)\n        return self.head(x)\n\n\n# Loss with class weighting\npos_weights = torch.tensor((len(train_df) - y_full.sum(0)) / y_full.sum(0))\ncriterion = nn.BCEWithLogitsLoss(pos_weight=pos_weights)\n\n# Train/val split\ntrain_idx, val_idx = train_test_split(\n    range(len(train_df)), test_size=0.2, stratify=train_df.labels\n)\ntrain_ds = LeafDataset(train_df.iloc[train_idx], \"input/train_images\", train_transform)\nval_ds = LeafDataset(train_df.iloc[val_idx], \"input/train_images\", test_transform)\ntest_ds = LeafDataset(test_df, \"input/test_images\", test_transform, is_test=True)\n\ntrain_loader = DataLoader(\n    train_ds, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS\n)\nval_loader = DataLoader(val_ds, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS)\ntest_loader = DataLoader(test_ds, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS)\n\n# Training setup\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = ViTMultiLabel(len(classes)).to(device)\noptimizer = optim.AdamW(model.parameters(), lr=LR)\nbest_f1 = 0\n\n# Training loop\nfor epoch in range(EPOCHS):\n    model.train()\n    for images, labels in train_loader:\n        images, labels = images.to(device), labels.to(device)\n        optimizer.zero_grad()\n        outputs = model(images)\n        loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n    # Validation\n    model.eval()\n    val_preds = []\n    val_true = []\n    with torch.no_grad():\n        for images, labels in val_loader:\n            outputs = model(images.to(device)).sigmoid().cpu()\n            val_preds.append(outputs.numpy())\n            val_true.append(labels.numpy())\n\n    val_preds = np.concatenate(val_preds)\n    val_true = np.concatenate(val_true)\n\n    # Threshold tuning\n    best_thresh = 0.5\n    best_score = 0\n    for _ in range(THRESHOLD_TUNING_EPOCHS):\n        for thresh in np.linspace(0.3, 0.7, 21):\n            preds = (val_preds > thresh).astype(int)\n            score = f1_score(val_true, preds, average=\"macro\")\n            if score > best_score:\n                best_score = score\n                best_thresh = thresh\n\n    print(f\"Epoch {epoch+1}: Val F1 {best_score:.4f} @ threshold {best_thresh:.3f}\")\n\n    if best_score > best_f1:\n        best_f1 = best_score\n        torch.save(model.state_dict(), \"./working/best_model.pth\")\n\n# Final prediction\nmodel.load_state_dict(torch.load(\"./working/best_model.pth\"))\nmodel.eval()\ntest_preds = []\nwith torch.no_grad():\n    for images in test_loader:\n        outputs = model(images.to(device)).sigmoid().cpu()\n        test_preds.append(outputs.numpy())\n\ntest_preds = np.concatenate(test_preds)\nfinal_preds = (test_preds > best_thresh).astype(int)\n\n# Create submission\nsubmission = []\nfor i, row in test_df.iterrows():\n    labels = []\n    for j, val in enumerate(final_preds[i]):\n        if val:\n            labels.append(classes[j])\n    submission.append({\"image\": row.image, \"labels\": \" \".join(labels)})\n\nsub_df = pd.DataFrame(submission)\nsub_df.to_csv(\"./submission/submission.csv\", index=False)\nprint(f\"Validation F1: {best_score:.4f}\")\nprint(\"Submission saved to submission.csv\")\n",
+            "import torch\nimport pandas as pd\nimport numpy as np\nfrom torch import nn\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nfrom sklearn.model_selection import StratifiedKFold\nfrom sklearn.metrics import f1_score\nfrom timm.models.efficientnet import efficientnet_b5\nfrom torch.cuda.amp import autocast, GradScaler\nimport os\nfrom PIL import Image\n\n\nclass LeafDataset(Dataset):\n    def __init__(self, df, img_dir, transform=None, mode=\"train\"):\n        self.df = df\n        self.img_dir = img_dir\n        self.transform = transform\n        self.labels = sorted(list(set(\" \".join(df.labels).split())))\n        self.label_map = {l: i for i, l in enumerate(self.labels)}\n        self.mode = mode\n\n    def __len__(self):\n        return len(self.df)\n\n    def __getitem__(self, idx):\n        img_path = os.path.join(self.img_dir, self.df.iloc[idx].image)\n        image = Image.open(img_path).convert(\"RGB\")\n\n        if self.transform:\n            image = self.transform(image)\n\n        if self.mode == \"test\":\n            return image\n\n        labels = self.df.iloc[idx].labels.split()\n        target = torch.zeros(len(self.labels))\n        for l in labels:\n            target[self.label_map[l]] = 1\n        return image, target\n\n\nclass SEBlock(nn.Module):\n    def __init__(self, channel, reduction=16):\n        super().__init__()\n        self.avg_pool = nn.AdaptiveAvgPool2d(1)\n        self.fc = nn.Sequential(\n            nn.Linear(channel, channel // reduction),\n            nn.ReLU(inplace=True),\n            nn.Linear(channel // reduction, channel),\n            nn.Sigmoid(),\n        )\n\n    def forward(self, x):\n        b, c, _, _ = x.size()\n        y = self.avg_pool(x).view(b, c)\n        y = self.fc(y).view(b, c, 1, 1)\n        return x * y\n\n\nclass EfficientNetSE(nn.Module):\n    def __init__(self, num_classes):\n        super().__init__()\n        self.base = efficientnet_b5(pretrained=True)\n        in_features = self.base.classifier.in_features\n        self.base.classifier = nn.Identity()\n        self.se = SEBlock(in_features)\n        self.fc = nn.Linear(in_features, num_classes)\n\n    def forward(self, x):\n        features = self.base(x)\n        features = self.se(features.unsqueeze(-1).unsqueeze(-1))\n        return self.fc(features.squeeze())\n\n\ndef train_fn(model, loader, optimizer, criterion, device, scaler):\n    model.train()\n    total_loss = 0\n    for images, targets in loader:\n        images, targets = images.to(device), targets.to(device)\n        optimizer.zero_grad()\n        with autocast():\n            outputs = model(images)\n            loss = criterion(outputs, targets)\n        scaler.scale(loss).backward()\n        scaler.step(optimizer)\n        scaler.update()\n        total_loss += loss.item()\n    return total_loss / len(loader)\n\n\ndef valid_fn(model, loader, criterion, device):\n    model.eval()\n    total_loss = 0\n    preds, trues = [], []\n    with torch.no_grad():\n        for images, targets in loader:\n            images, targets = images.to(device), targets.to(device)\n            outputs = model(images)\n            loss = criterion(outputs, targets)\n            total_loss += loss.item()\n            preds.append(torch.sigmoid(outputs).cpu())\n            trues.append(targets.cpu())\n    preds = torch.cat(preds)\n    trues = torch.cat(trues)\n    f1 = f1_score(trues.numpy(), (preds > 0.5).numpy(), average=\"macro\")\n    return total_loss / len(loader), f1\n\n\ndef main():\n    device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\n    batch_size = 32\n    num_workers = 4\n    lr = 1e-4\n    epochs = 5\n    n_folds = 2\n\n    train_df = pd.read_csv(\"./input/train.csv\")\n    test_dir = \"./input/test_images/\"\n    train_dir = \"./input/train_images/\"\n\n    labels = sorted(list(set(\" \".join(train_df.labels).split())))\n    num_classes = len(labels)\n\n    # Data transforms\n    train_transform = transforms.Compose(\n        [\n            transforms.Resize((512, 512)),\n            transforms.RandomHorizontalFlip(),\n            transforms.RandomVerticalFlip(),\n            transforms.RandomAffine(15, translate=(0.1, 0.1)),\n            transforms.ColorJitter(brightness=0.1, contrast=0.1),\n            transforms.RandomErasing(p=0.2),\n            transforms.ToTensor(),\n            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n\n    test_transform = transforms.Compose(\n        [\n            transforms.Resize((512, 512)),\n            transforms.ToTensor(),\n            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n\n    # Stratified k-fold\n    skf = StratifiedKFold(n_splits=n_folds)\n    train_df[\"stratify\"] = train_df.labels.apply(\n        lambda x: x if len(x.split()) == 1 else \"multi\"\n    )\n\n    best_f1 = 0\n    for fold, (train_idx, valid_idx) in enumerate(\n        skf.split(train_df, train_df.stratify)\n    ):\n        print(f\"Fold {fold+1}\")\n        model = EfficientNetSE(num_classes).to(device)\n\n        # Weighted loss\n        pos_weights = torch.ones(num_classes) * 2.0  # Adjust based on class balance\n        criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weights.to(device))\n\n        optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)\n        scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, epochs)\n        scaler = GradScaler()\n\n        train_set = LeafDataset(train_df.iloc[train_idx], train_dir, train_transform)\n        valid_set = LeafDataset(train_df.iloc[valid_idx], train_dir, test_transform)\n\n        train_loader = DataLoader(\n            train_set,\n            batch_size,\n            shuffle=True,\n            num_workers=num_workers,\n            pin_memory=True,\n        )\n        valid_loader = DataLoader(\n            valid_set,\n            batch_size,\n            shuffle=False,\n            num_workers=num_workers,\n            pin_memory=True,\n        )\n\n        for epoch in range(epochs):\n            train_loss = train_fn(\n                model, train_loader, optimizer, criterion, device, scaler\n            )\n            valid_loss, valid_f1 = valid_fn(model, valid_loader, criterion, device)\n            scheduler.step()\n            print(\n                f\"Epoch {epoch+1}: Train Loss {train_loss:.4f} | Valid Loss {valid_loss:.4f} | F1 {valid_f1:.4f}\"\n            )\n            if valid_f1 > best_f1:\n                best_f1 = valid_f1\n                torch.save(model.state_dict(), \"./working/best_model.pth\")\n\n    # Inference\n    model.load_state_dict(torch.load(\"./working/best_model.pth\"))\n    model.eval()\n    test_images = os.listdir(test_dir)\n    test_df = pd.DataFrame({\"image\": test_images})\n    test_set = LeafDataset(test_df, test_dir, test_transform, mode=\"test\")\n    test_loader = DataLoader(\n        test_set, batch_size, shuffle=False, num_workers=num_workers\n    )\n\n    preds = []\n    with torch.no_grad():\n        for images in test_loader:\n            images = images.to(device)\n            outputs = torch.sigmoid(model(images))\n            batch_preds = [\n                \" \".join([labels[i] for i, p in enumerate(prob) if p > 0.5])\n                for prob in outputs.cpu().numpy()\n            ]\n            preds.extend(batch_preds)\n\n    submission = pd.DataFrame({\"image\": test_images, \"labels\": preds})\n    submission.to_csv(\"./submission/submission.csv\", index=False)\n    print(f\"Validation F1: {best_f1:.4f}\")\n\n\nif __name__ == \"__main__\":\n    main()\n",
+            "import os\nimport pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nimport torch\nfrom torch import nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nimport timm\nfrom PIL import Image\n\n# Install missing dependencies\nos.system(\"pip install timm pandas numpy torch torchvision Pillow\")\n\n# Ensure submission directory exists\nos.makedirs(\"./submission\", exist_ok=True)\n\n# Configuration\nBATCH_SIZE = 32\nIMG_SIZE = 384\nEPOCHS = 2  # Reduced for demonstration\nLR = 3e-5\nTHRESHOLD_TUNING_EPOCHS = 2\nNUM_WORKERS = 4\ntorch.manual_seed(42)\n\n# Data loading\ntrain_df = pd.read_csv(\"input/train.csv\")\n\n# Multi-label encoding\nclasses = sorted(set(\" \".join(train_df.labels).split()))\nclass_map = {c: i for i, c in enumerate(classes)}\ntrain_df[\"encoded\"] = train_df.labels.apply(lambda x: [class_map[c] for c in x.split()])\ny_full = np.zeros((len(train_df), len(classes)))\nfor i, row in enumerate(train_df.encoded):\n    y_full[i, row] = 1\n\n\n# Dataset class\nclass LeafDataset(Dataset):\n    def __init__(self, img_paths, transform=None, is_test=False):\n        self.img_paths = img_paths\n        self.transform = transform\n        self.is_test = is_test\n\n    def __len__(self):\n        return len(self.img_paths)\n\n    def __getitem__(self, idx):\n        img_path = self.img_paths[idx]\n        image = Image.open(img_path).convert(\"RGB\")\n        if self.transform:\n            image = self.transform(image)\n        return image\n\n\n# Get actual test images\ntest_images = [f\"input/test_images/{f}\" for f in os.listdir(\"input/test_images\")]\n\n# Augmentations\ntrain_transform = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.RandomHorizontalFlip(),\n        transforms.RandomVerticalFlip(),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\ntest_transform = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\n# Model\nmodel = timm.create_model(\n    \"vit_base_patch16_384\", pretrained=True, num_classes=len(classes)\n)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = model.to(device)\n\n# Training setup\ncriterion = nn.BCEWithLogitsLoss()\noptimizer = optim.AdamW(model.parameters(), lr=LR)\nbest_f1 = 0\n\n# Train/val split\ntrain_idx, val_idx = train_test_split(\n    range(len(train_df)), test_size=0.2, stratify=train_df.labels\n)\ntrain_ds = LeafDataset(\n    [f\"input/train_images/{f}\" for f in train_df.image.iloc[train_idx]], train_transform\n)\nval_ds = LeafDataset(\n    [f\"input/train_images/{f}\" for f in train_df.image.iloc[val_idx]], test_transform\n)\n\ntrain_loader = DataLoader(\n    train_ds, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS\n)\nval_loader = DataLoader(val_ds, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS)\n\n# Training loop\nfor epoch in range(EPOCHS):\n    model.train()\n    for images in train_loader:\n        images = images.to(device)\n        labels = torch.FloatTensor(y_full[train_idx]).to(device)\n        optimizer.zero_grad()\n        outputs = model(images)\n        loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n    # Validation\n    model.eval()\n    val_preds = []\n    with torch.no_grad():\n        for images in val_loader:\n            outputs = model(images.to(device)).sigmoid().cpu()\n            val_preds.append(outputs.numpy())\n\n    val_preds = np.concatenate(val_preds)\n    val_true = y_full[val_idx]\n\n    # Threshold tuning\n    best_thresh = 0.5\n    best_score = 0\n    for thresh in np.linspace(0.3, 0.7, 21):\n        preds = (val_preds > thresh).astype(int)\n        score = f1_score(val_true, preds, average=\"macro\")\n        if score > best_score:\n            best_score = score\n            best_thresh = thresh\n\n    print(f\"Epoch {epoch+1}: Val F1 {best_score:.4f} @ {best_thresh:.3f}\")\n\n# Final prediction on test\ntest_ds = LeafDataset(test_images, test_transform, is_test=True)\ntest_loader = DataLoader(test_ds, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS)\n\nmodel.eval()\ntest_preds = []\nwith torch.no_grad():\n    for images in test_loader:\n        outputs = model(images.to(device)).sigmoid().cpu()\n        test_preds.append(outputs.numpy())\n\ntest_preds = np.concatenate(test_preds)\nfinal_preds = (test_preds > best_thresh).astype(int)\n\n# Create submission\nsubmission = []\nfor i, path in enumerate(test_images):\n    labels = []\n    for j, val in enumerate(final_preds[i]):\n        if val:\n            labels.append(classes[j])\n    img_name = os.path.basename(path)\n    submission.append({\"image\": img_name, \"labels\": \" \".join(labels) or \"healthy\"})\n\npd.DataFrame(submission).to_csv(\"./submission/submission.csv\", index=False)\nprint(f\"Final Validation F1: {best_score:.4f}\")\nprint(\"Submission file created successfully\")\n",
+            "import os\nimport torch\nimport pandas as pd\nimport numpy as np\nfrom torch import nn\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nfrom timm.models.efficientnet import efficientnet_b5\nfrom torch.cuda.amp import autocast, GradScaler\nfrom PIL import Image\nfrom collections import Counter\n\n# Create submission directory if not exists\nos.makedirs(\"./submission\", exist_ok=True)\n\n\nclass LeafDataset(Dataset):\n    def __init__(self, df, img_dir, transform=None, mode=\"train\"):\n        self.df = df\n        self.img_dir = img_dir\n        self.transform = transform\n        self.labels = sorted(list(set(\" \".join(df.labels).split())))\n        self.label_map = {l: i for i, l in enumerate(self.labels)}\n        self.mode = mode\n\n    def __len__(self):\n        return len(self.df)\n\n    def __getitem__(self, idx):\n        img_path = os.path.join(self.img_dir, self.df.iloc[idx][\"image\"])\n        image = Image.open(img_path).convert(\"RGB\")\n\n        if self.transform:\n            image = self.transform(image)\n\n        if self.mode == \"test\":\n            return image\n\n        label_str = self.df.iloc[idx][\"labels\"]\n        target = torch.zeros(len(self.labels))\n        for l in label_str.split():\n            target[self.label_map[l]] = 1\n        return image, target\n\n\nclass EfficientNetMultiLabel(nn.Module):\n    def __init__(self, num_classes):\n        super().__init__()\n        self.base = efficientnet_b5(pretrained=True)\n        in_features = self.base.classifier.in_features\n        self.base.classifier = nn.Sequential(\n            nn.Linear(in_features, 512),\n            nn.ReLU(),\n            nn.Dropout(0.2),\n            nn.Linear(512, num_classes),\n        )\n\n    def forward(self, x):\n        return self.base(x)\n\n\ndef calculate_class_weights(df):\n    all_labels = [label for labels in df[\"labels\"] for label in labels.split()]\n    class_counts = Counter(all_labels)\n    total = sum(class_counts.values())\n    return torch.tensor(\n        [total / (count * len(class_counts)) for _, count in class_counts.most_common()]\n    )\n\n\ndef train_epoch(model, loader, optimizer, criterion, device, scaler):\n    model.train()\n    running_loss = 0.0\n    for images, targets in loader:\n        images, targets = images.to(device), targets.to(device)\n        optimizer.zero_grad()\n\n        with autocast():\n            outputs = model(images)\n            loss = criterion(outputs, targets)\n\n        scaler.scale(loss).backward()\n        scaler.step(optimizer)\n        scaler.update()\n        running_loss += loss.item()\n    return running_loss / len(loader)\n\n\ndef validate(model, loader, criterion, device, threshold=0.2):\n    model.eval()\n    running_loss = 0.0\n    all_preds = []\n    all_targets = []\n\n    with torch.no_grad():\n        for images, targets in loader:\n            images, targets = images.to(device), targets.to(device)\n            outputs = model(images)\n            loss = criterion(outputs, targets)\n            running_loss += loss.item()\n\n            probs = torch.sigmoid(outputs)\n            preds = (probs > threshold).int()\n            all_preds.append(preds.cpu())\n            all_targets.append(targets.cpu())\n\n    all_preds = torch.cat(all_preds).numpy()\n    all_targets = torch.cat(all_targets).numpy()\n    f1 = f1_score(all_targets, all_preds, average=\"macro\")\n    return running_loss / len(loader), f1\n\n\ndef main():\n    device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\n    batch_size = 64\n    num_workers = 4\n    lr = 1e-4\n    epochs = 10\n    threshold = 0.2\n\n    train_df = pd.read_csv(\"./input/train.csv\")\n    test_dir = \"./input/test_images/\"\n    train_dir = \"./input/train_images/\"\n\n    # Split data with stratification on multi-label\n    train_idx, val_idx = train_test_split(\n        train_df.index, test_size=0.2, stratify=train_df[\"labels\"], random_state=42\n    )\n\n    # Data transforms\n    train_transform = transforms.Compose(\n        [\n            transforms.Resize((512, 512)),\n            transforms.RandomHorizontalFlip(),\n            transforms.RandomVerticalFlip(),\n            transforms.RandomRotation(20),\n            transforms.ColorJitter(brightness=0.2, contrast=0.2),\n            transforms.ToTensor(),\n            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n\n    val_transform = transforms.Compose(\n        [\n            transforms.Resize((512, 512)),\n            transforms.ToTensor(),\n            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n\n    # Create datasets\n    train_set = LeafDataset(train_df.iloc[train_idx], train_dir, train_transform)\n    val_set = LeafDataset(train_df.iloc[val_idx], train_dir, val_transform)\n\n    # Create model\n    num_classes = len(train_set.labels)\n    model = EfficientNetMultiLabel(num_classes).to(device)\n\n    # Weighted loss\n    class_weights = calculate_class_weights(train_df.iloc[train_idx])\n    criterion = nn.BCEWithLogitsLoss(pos_weight=class_weights.to(device))\n\n    optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)\n    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, \"max\", patience=2)\n    scaler = GradScaler()\n\n    # Data loaders\n    train_loader = DataLoader(\n        train_set, batch_size, shuffle=True, num_workers=num_workers, pin_memory=True\n    )\n    val_loader = DataLoader(\n        val_set, batch_size, shuffle=False, num_workers=num_workers, pin_memory=True\n    )\n\n    best_f1 = 0\n    for epoch in range(epochs):\n        train_loss = train_epoch(\n            model, train_loader, optimizer, criterion, device, scaler\n        )\n        val_loss, val_f1 = validate(model, val_loader, criterion, device, threshold)\n        scheduler.step(val_f1)\n\n        print(f\"Epoch {epoch+1}/{epochs}\")\n        print(\n            f\"Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f} | Val F1: {val_f1:.4f}\"\n        )\n\n        if val_f1 > best_f1:\n            best_f1 = val_f1\n            torch.save(model.state_dict(), \"./working/best_model.pth\")\n\n    # Test prediction\n    model.load_state_dict(torch.load(\"./working/best_model.pth\"))\n    model.eval()\n\n    test_images = os.listdir(test_dir)\n    test_df = pd.DataFrame({\"image\": test_images})\n    test_set = LeafDataset(test_df, test_dir, val_transform, mode=\"test\")\n    test_loader = DataLoader(\n        test_set, batch_size, shuffle=False, num_workers=num_workers\n    )\n\n    pred_labels = []\n    with torch.no_grad():\n        for images in test_loader:\n            images = images.to(device)\n            outputs = torch.sigmoid(model(images))\n            batch_preds = [\n                \" \".join(\n                    [train_set.labels[i] for i, p in enumerate(prob) if p > threshold]\n                )\n                for prob in outputs.cpu().numpy()\n            ]\n            pred_labels.extend(batch_preds)\n\n    # Create submission\n    submission = pd.DataFrame({\"image\": test_images, \"labels\": pred_labels})\n    submission.to_csv(\"./submission/submission.csv\", index=False)\n    print(f\"Best Validation F1: {best_f1:.4f}\")\n\n\nif __name__ == \"__main__\":\n    main()\n",
+            "import pandas as pd\nimport numpy as np\nimport os\nfrom PIL import Image\nimport torch\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms, models\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nimport torch.nn as nn\nimport torch.optim as optim\nfrom tqdm import tqdm\n\n# Data preparation\ntrain_df = pd.read_csv(\"./input/train.csv\")\nall_labels = sorted(list(set().union(*train_df[\"labels\"].str.split().tolist())))\nlabel_to_idx = {label: i for i, label in enumerate(all_labels)}\n\n# Multi-hot encoding\ntrain_labels = np.zeros((len(train_df), len(all_labels)), dtype=np.float32)\nfor i, labels in enumerate(train_df[\"labels\"].str.split()):\n    for lbl in labels:\n        train_labels[i, label_to_idx[lbl]] = 1.0\n\n# Split data\nX_train, X_val, y_train, y_val = train_test_split(\n    train_df[\"image\"],\n    train_labels,\n    test_size=0.2,\n    random_state=42,\n    stratify=train_labels.argmax(1),\n)\n\n\n# Dataset class\nclass PlantDataset(Dataset):\n    def __init__(self, filenames, labels, root, transform=None):\n        self.filenames = filenames\n        self.labels = labels\n        self.root = root\n        self.transform = transform\n\n    def __len__(self):\n        return len(self.filenames)\n\n    def __getitem__(self, idx):\n        img = Image.open(os.path.join(self.root, self.filenames.iloc[idx])).convert(\n            \"RGB\"\n        )\n        return self.transform(img) if self.transform else img, torch.tensor(\n            self.labels[idx]\n        )\n\n\n# Augmentations\ntrain_transforms = transforms.Compose(\n    [\n        transforms.RandomResizedCrop(380),\n        transforms.RandomHorizontalFlip(),\n        transforms.RandomVerticalFlip(),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\nval_transforms = transforms.Compose(\n    [\n        transforms.Resize(456),\n        transforms.CenterCrop(380),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\n# Dataloaders\ntrain_ds = PlantDataset(X_train, y_train, \"./input/train_images\", train_transforms)\nval_ds = PlantDataset(X_val, y_val, \"./input/train_images\", val_transforms)\ntrain_loader = DataLoader(\n    train_ds, batch_size=32, shuffle=True, num_workers=4, pin_memory=True\n)\nval_loader = DataLoader(val_ds, batch_size=64, num_workers=4, pin_memory=True)\n\n# Model setup\nmodel = models.efficientnet_b4(pretrained=True)\nmodel.classifier[1] = nn.Linear(model.classifier[1].in_features, len(all_labels))\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = model.to(device)\n\n# Optimizer and loss\npos_weights = torch.tensor(len(train_df) / (train_labels.sum(0) * 2) + 1e-6).to(device)\ncriterion = nn.BCEWithLogitsLoss(pos_weight=pos_weights)\noptimizer = optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-4)\nscheduler = optim.lr_scheduler.OneCycleLR(\n    optimizer, max_lr=1e-4, epochs=5, steps_per_epoch=len(train_loader)\n)\n\n# Training loop\nbest_f1 = 0\nfor epoch in range(5):\n    model.train()\n    for x, y in tqdm(train_loader, desc=f\"Train Epoch {epoch+1}\"):\n        x, y = x.to(device), y.to(device)\n        optimizer.zero_grad()\n        loss = criterion(model(x), y)\n        loss.backward()\n        optimizer.step()\n        scheduler.step()\n\n    model.eval()\n    preds, targets = [], []\n    with torch.no_grad():\n        for x, y in tqdm(val_loader, desc=\"Validating\"):\n            outputs = torch.sigmoid(model(x.to(device))).cpu()\n            preds.append(outputs > 0.5)\n            targets.append(y)\n\n    val_f1 = f1_score(\n        torch.cat(targets).numpy(), torch.cat(preds).numpy(), average=\"macro\"\n    )\n    print(f\"Epoch {epoch+1} Val F1: {val_f1:.4f}\")\n    if val_f1 > best_f1:\n        best_f1 = val_f1\n        torch.save(model.state_dict(), \"./working/best_model.pth\")\n\n# Generate predictions\nmodel.load_state_dict(torch.load(\"./working/best_model.pth\"))\nmodel.eval()\n\ntest_files = os.listdir(\"./input/test_images\")\ntest_ds = PlantDataset(\n    pd.Series(test_files), None, \"./input/test_images\", val_transforms\n)\ntest_loader = DataLoader(test_ds, batch_size=64, num_workers=4)\n\nidx_to_label = {v: k for k, v in label_to_idx.items()}\npred_dict = {}\nwith torch.no_grad():\n    for x, fnames in tqdm(test_loader, desc=\"Testing\"):\n        outputs = torch.sigmoid(model(x.to(device))).cpu()\n        for fn, pred in zip(fnames, outputs > 0.5):\n            labels = [idx_to_label[i] for i in np.where(pred.numpy())[0]]\n            pred_dict[fn] = \" \".join(labels) if labels else \"healthy\"\n\n# Create submission\npd.DataFrame(\n    {\"image\": list(pred_dict.keys()), \"labels\": list(pred_dict.values())}\n).to_csv(\"./submission/submission.csv\", index=False)\n\nprint(f\"Final Validation F1: {best_f1:.4f}\")\n",
+            "import os\nimport torch\nimport pandas as pd\nimport numpy as np\nfrom torch import nn\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nfrom timm.models.efficientnet import efficientnet_b5\nfrom torch.cuda.amp import autocast, GradScaler\nfrom PIL import Image\nfrom collections import Counter\n\nos.makedirs(\"./submission\", exist_ok=True)\n\n\nclass LeafDataset(Dataset):\n    def __init__(self, df, img_dir, transform=None, mode=\"train\"):\n        self.df = df\n        self.img_dir = img_dir\n        self.transform = transform\n        self.labels = (\n            sorted(list(set(\" \".join(df.labels).split()))) if mode == \"train\" else []\n        )\n        self.label_map = (\n            {l: i for i, l in enumerate(self.labels)} if mode == \"train\" else {}\n        )\n        self.mode = mode\n\n    def __len__(self):\n        return len(self.df)\n\n    def __getitem__(self, idx):\n        img_name = self.df.iloc[idx][\"image\"]\n        img_path = os.path.join(self.img_dir, img_name)\n        image = Image.open(img_path).convert(\"RGB\")\n\n        if self.transform:\n            image = self.transform(image)\n\n        if self.mode == \"test\":\n            return image\n\n        label_str = self.df.iloc[idx][\"labels\"]\n        target = torch.zeros(len(self.labels))\n        for l in label_str.split():\n            target[self.label_map[l]] = 1\n        return image, target\n\n\nclass EfficientNetMultiLabel(nn.Module):\n    def __init__(self, num_classes):\n        super().__init__()\n        self.base = efficientnet_b5(pretrained=True)\n        in_features = self.base.classifier.in_features\n        self.base.classifier = nn.Sequential(\n            nn.Linear(in_features, 512),\n            nn.ReLU(),\n            nn.Dropout(0.2),\n            nn.Linear(512, num_classes),\n        )\n\n    def forward(self, x):\n        return self.base(x)\n\n\ndef calculate_class_weights(df):\n    all_labels = [label for labels in df[\"labels\"] for label in labels.split()]\n    class_counts = Counter(all_labels)\n    total = sum(class_counts.values())\n    return torch.tensor(\n        [total / (count * len(class_counts)) for _, count in class_counts.most_common()]\n    )\n\n\ndef train_epoch(model, loader, optimizer, criterion, device, scaler):\n    model.train()\n    running_loss = 0.0\n    for images, targets in loader:\n        images, targets = images.to(device), targets.to(device)\n        optimizer.zero_grad()\n\n        with autocast():\n            outputs = model(images)\n            loss = criterion(outputs, targets)\n\n        scaler.scale(loss).backward()\n        scaler.step(optimizer)\n        scaler.update()\n        running_loss += loss.item()\n    return running_loss / len(loader)\n\n\ndef validate(model, loader, criterion, device, threshold=0.2):\n    model.eval()\n    running_loss = 0.0\n    all_preds = []\n    all_targets = []\n\n    with torch.no_grad():\n        for images, targets in loader:\n            images, targets = images.to(device), targets.to(device)\n            outputs = model(images)\n            loss = criterion(outputs, targets)\n            running_loss += loss.item()\n\n            probs = torch.sigmoid(outputs)\n            preds = (probs > threshold).int()\n            all_preds.append(preds.cpu())\n            all_targets.append(targets.cpu())\n\n    all_preds = torch.cat(all_preds).numpy()\n    all_targets = torch.cat(all_targets).numpy()\n    f1 = f1_score(all_targets, all_preds, average=\"macro\")\n    return running_loss / len(loader), f1\n\n\ndef main():\n    device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\n    batch_size = 64\n    num_workers = 4\n    lr = 1e-4\n    epochs = 10\n    threshold = 0.2\n\n    train_df = pd.read_csv(\"./input/train.csv\")\n    sample_sub = pd.read_csv(\"./input/sample_submission.csv\")\n    test_dir = \"./input/test_images/\"\n    train_dir = \"./input/train_images/\"\n\n    # Use sample submission to get test image list\n    test_images = sample_sub[\"image\"].tolist()\n    test_df = pd.DataFrame({\"image\": test_images})\n\n    # Split data with stratification\n    train_idx, val_idx = train_test_split(\n        train_df.index, test_size=0.2, stratify=train_df[\"labels\"], random_state=42\n    )\n\n    # Data transforms\n    train_transform = transforms.Compose(\n        [\n            transforms.Resize((512, 512)),\n            transforms.RandomHorizontalFlip(),\n            transforms.RandomVerticalFlip(),\n            transforms.RandomRotation(20),\n            transforms.ColorJitter(brightness=0.2, contrast=0.2),\n            transforms.ToTensor(),\n            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n\n    val_transform = transforms.Compose(\n        [\n            transforms.Resize((512, 512)),\n            transforms.ToTensor(),\n            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n\n    # Create datasets\n    train_set = LeafDataset(train_df.iloc[train_idx], train_dir, train_transform)\n    val_set = LeafDataset(train_df.iloc[val_idx], train_dir, val_transform)\n\n    # Create model\n    num_classes = len(train_set.labels)\n    model = EfficientNetMultiLabel(num_classes).to(device)\n\n    # Weighted loss\n    class_weights = calculate_class_weights(train_df.iloc[train_idx])\n    criterion = nn.BCEWithLogitsLoss(pos_weight=class_weights.to(device))\n\n    optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)\n    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, \"max\", patience=2)\n    scaler = GradScaler()\n\n    # Data loaders\n    train_loader = DataLoader(\n        train_set, batch_size, shuffle=True, num_workers=num_workers, pin_memory=True\n    )\n    val_loader = DataLoader(\n        val_set, batch_size, shuffle=False, num_workers=num_workers, pin_memory=True\n    )\n\n    # Training loop\n    best_f1 = 0\n    for epoch in range(epochs):\n        train_loss = train_epoch(\n            model, train_loader, optimizer, criterion, device, scaler\n        )\n        val_loss, val_f1 = validate(model, val_loader, criterion, device, threshold)\n        scheduler.step(val_f1)\n\n        print(f\"Epoch {epoch+1}/{epochs}\")\n        print(\n            f\"Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f} | Val F1: {val_f1:.4f}\"\n        )\n\n        if val_f1 > best_f1:\n            best_f1 = val_f1\n            torch.save(model.state_dict(), \"./working/best_model.pth\")\n\n    # Load best model for testing\n    model.load_state_dict(torch.load(\"./working/best_model.pth\"))\n    model.eval()\n\n    # Create test dataset using sample submission order\n    test_set = LeafDataset(test_df, test_dir, val_transform, mode=\"test\")\n    test_loader = DataLoader(\n        test_set, batch_size, shuffle=False, num_workers=num_workers\n    )\n\n    # Generate predictions\n    pred_labels = []\n    with torch.no_grad():\n        for images in test_loader:\n            images = images.to(device)\n            outputs = torch.sigmoid(model(images))\n            batch_preds = [\n                \" \".join(\n                    [train_set.labels[i] for i, p in enumerate(prob) if p > threshold]\n                )\n                for prob in outputs.cpu().numpy()\n            ]\n            pred_labels.extend(batch_preds)\n\n    # Create submission with original sample submission structure\n    submission = pd.DataFrame({\"image\": test_images, \"labels\": pred_labels})\n\n    # Validate format matches sample\n    assert submission.columns.tolist() == [\"image\", \"labels\"], \"Invalid column names\"\n    assert len(submission) == len(sample_sub), \"Row count mismatch\"\n    assert submission[\"image\"].equals(sample_sub[\"image\"]), \"Image order mismatch\"\n\n    submission.to_csv(\"./submission/submission.csv\", index=False)\n    print(f\"Best Validation F1: {best_f1:.4f}\")\n\n\nif __name__ == \"__main__\":\n    main()\n",
+            "import os\nimport pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nimport torch\nfrom torch import nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nimport timm\nfrom PIL import Image\n\n# Install dependencies if needed\nos.system(\"pip install timm pandas numpy torch torchvision Pillow\")\n\n# Ensure submission directory exists\nos.makedirs(\"./submission\", exist_ok=True)\n\n# Configuration\nBATCH_SIZE = 32\nIMG_SIZE = 384\nEPOCHS = 2\nLR = 3e-5\nNUM_WORKERS = 4\ntorch.manual_seed(42)\n\n# Data loading and preprocessing\ntrain_df = pd.read_csv(\"input/train.csv\")\n\n# Multi-label encoding\nclasses = sorted(set(\" \".join(train_df.labels).split()))\nclass_map = {c: i for i, c in enumerate(classes)}\ntrain_df[\"encoded\"] = train_df.labels.apply(lambda x: [class_map[c] for c in x.split()])\ny_full = np.zeros((len(train_df), len(classes)))\nfor i, row in enumerate(train_df.encoded):\n    y_full[i, row] = 1\n\n\n# Dataset class with label support\nclass LeafDataset(Dataset):\n    def __init__(self, img_paths, labels=None, transform=None):\n        self.img_paths = img_paths\n        self.labels = labels\n        self.transform = transform\n\n    def __len__(self):\n        return len(self.img_paths)\n\n    def __getitem__(self, idx):\n        img_path = self.img_paths[idx]\n        image = Image.open(img_path).convert(\"RGB\")\n        if self.transform:\n            image = self.transform(image)\n        if self.labels is not None:\n            return image, torch.FloatTensor(self.labels[idx])\n        return image\n\n\n# Train/val split\ntrain_idx, val_idx = train_test_split(\n    range(len(train_df)), test_size=0.2, stratify=train_df.labels\n)\n\n# Data transforms\ntrain_transform = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.RandomHorizontalFlip(),\n        transforms.RandomVerticalFlip(),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\ntest_transform = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\n# Create datasets with proper labels\ntrain_ds = LeafDataset(\n    [f\"input/train_images/{f}\" for f in train_df.image.iloc[train_idx]],\n    y_full[train_idx],\n    train_transform,\n)\nval_ds = LeafDataset(\n    [f\"input/train_images/{f}\" for f in train_df.image.iloc[val_idx]],\n    y_full[val_idx],\n    test_transform,\n)\n\n# Data loaders\ntrain_loader = DataLoader(\n    train_ds, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS\n)\nval_loader = DataLoader(val_ds, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS)\n\n# Model setup\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = timm.create_model(\n    \"vit_base_patch16_384\", pretrained=True, num_classes=len(classes)\n).to(device)\noptimizer = optim.AdamW(model.parameters(), lr=LR)\ncriterion = nn.BCEWithLogitsLoss()\n\n# Training loop\nbest_f1 = 0\nbest_thresh = 0.5\nfor epoch in range(EPOCHS):\n    model.train()\n    for images, labels in train_loader:\n        images, labels = images.to(device), labels.to(device)\n        optimizer.zero_grad()\n        outputs = model(images)\n        loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n    # Validation\n    model.eval()\n    val_preds = []\n    with torch.no_grad():\n        for images, labels in val_loader:\n            outputs = model(images.to(device)).sigmoid().cpu()\n            val_preds.append(outputs.numpy())\n\n    val_preds = np.concatenate(val_preds)\n    val_true = y_full[val_idx]\n\n    # Threshold tuning\n    for thresh in np.linspace(0.3, 0.7, 21):\n        preds = (val_preds > thresh).astype(int)\n        score = f1_score(val_true, preds, average=\"macro\")\n        if score > best_f1:\n            best_f1 = score\n            best_thresh = thresh\n\n    print(f\"Epoch {epoch+1}: Val F1 {best_f1:.4f} @ {best_thresh:.3f}\")\n\n# Test prediction\ntest_images = [f\"input/test_images/{f}\" for f in os.listdir(\"input/test_images\")]\ntest_ds = LeafDataset(test_images, transform=test_transform)\ntest_loader = DataLoader(test_ds, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS)\n\nmodel.eval()\ntest_preds = []\nwith torch.no_grad():\n    for images in test_loader:\n        outputs = model(images.to(device)).sigmoid().cpu()\n        test_preds.append(outputs.numpy())\n\ntest_preds = np.concatenate(test_preds)\nfinal_preds = (test_preds > best_thresh).astype(int)\n\n# Generate submission\nsubmission = []\nfor i, path in enumerate(test_images):\n    labels = []\n    for j, val in enumerate(final_preds[i]):\n        if val:\n            labels.append(classes[j])\n    submission.append(\n        {\"image\": os.path.basename(path), \"labels\": \" \".join(labels) or \"healthy\"}\n    )\n\npd.DataFrame(submission).to_csv(\"./submission/submission.csv\", index=False)\nprint(f\"Final Validation F1: {best_f1:.4f}\")\nprint(\"Submission file created successfully\")\n",
+            "import pandas as pd\nimport numpy as np\nimport os\nfrom PIL import Image\nimport torch\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms, models\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nimport torch.nn as nn\nimport torch.optim as optim\nfrom tqdm import tqdm\n\n# Data preparation\ntrain_df = pd.read_csv(\"./input/train.csv\")\nall_labels = sorted(list(set().union(*train_df[\"labels\"].str.split().tolist())))\nlabel_to_idx = {label: i for i, label in enumerate(all_labels)}\n\n# Multi-hot encoding\ntrain_labels = np.zeros((len(train_df), len(all_labels)), dtype=np.float32)\nfor i, labels in enumerate(train_df[\"labels\"].str.split()):\n    for lbl in labels:\n        train_labels[i, label_to_idx[lbl]] = 1.0\n\n# Split data\nX_train, X_val, y_train, y_val = train_test_split(\n    train_df[\"image\"],\n    train_labels,\n    test_size=0.2,\n    random_state=42,\n    stratify=train_labels.argmax(1),\n)\n\n\n# Dataset class with filename handling\nclass PlantDataset(Dataset):\n    def __init__(self, filenames, labels, root, transform=None):\n        self.filenames = filenames\n        self.labels = labels\n        self.root = root\n        self.transform = transform\n\n    def __len__(self):\n        return len(self.filenames)\n\n    def __getitem__(self, idx):\n        img_path = os.path.join(self.root, self.filenames.iloc[idx])\n        img = Image.open(img_path).convert(\"RGB\")\n        if self.transform:\n            img = self.transform(img)\n        if self.labels is not None:\n            return img, torch.tensor(self.labels[idx])\n        else:\n            return img, self.filenames.iloc[idx]  # Return filename instead of label\n\n\n# Augmentations\ntrain_transforms = transforms.Compose(\n    [\n        transforms.RandomResizedCrop(380),\n        transforms.RandomHorizontalFlip(),\n        transforms.RandomVerticalFlip(),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\nval_transforms = transforms.Compose(\n    [\n        transforms.Resize(456),\n        transforms.CenterCrop(380),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\n# Dataloaders\ntrain_ds = PlantDataset(X_train, y_train, \"./input/train_images\", train_transforms)\nval_ds = PlantDataset(X_val, y_val, \"./input/train_images\", val_transforms)\ntrain_loader = DataLoader(\n    train_ds, batch_size=32, shuffle=True, num_workers=4, pin_memory=True\n)\nval_loader = DataLoader(val_ds, batch_size=64, num_workers=4, pin_memory=True)\n\n# Model setup\nmodel = models.efficientnet_b4(pretrained=True)\nmodel.classifier[1] = nn.Linear(model.classifier[1].in_features, len(all_labels))\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = model.to(device)\n\n# Optimizer and loss\npos_weights = torch.tensor(len(train_df) / (train_labels.sum(0) * 2) + 1e-6).to(device)\ncriterion = nn.BCEWithLogitsLoss(pos_weight=pos_weights)\noptimizer = optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-4)\nscheduler = optim.lr_scheduler.OneCycleLR(\n    optimizer, max_lr=1e-4, epochs=5, steps_per_epoch=len(train_loader)\n)\n\n# Training loop\nbest_f1 = 0\nfor epoch in range(5):\n    model.train()\n    for x, y in tqdm(train_loader, desc=f\"Train Epoch {epoch+1}\"):\n        x, y = x.to(device), y.to(device)\n        optimizer.zero_grad()\n        loss = criterion(model(x), y)\n        loss.backward()\n        optimizer.step()\n        scheduler.step()\n\n    model.eval()\n    preds, targets = [], []\n    with torch.no_grad():\n        for x, y in tqdm(val_loader, desc=\"Validating\"):\n            outputs = torch.sigmoid(model(x.to(device))).cpu()\n            preds.append(outputs > 0.5)\n            targets.append(y)\n\n    val_f1 = f1_score(\n        torch.cat(targets).numpy(), torch.cat(preds).numpy(), average=\"macro\"\n    )\n    print(f\"Epoch {epoch+1} Val F1: {val_f1:.4f}\")\n    if val_f1 > best_f1:\n        best_f1 = val_f1\n        torch.save(model.state_dict(), \"./working/best_model.pth\")\n\n# Generate predictions\nmodel.load_state_dict(torch.load(\"./working/best_model.pth\"))\nmodel.eval()\n\ntest_files = os.listdir(\"./input/test_images\")\ntest_ds = PlantDataset(\n    pd.Series(test_files), None, \"./input/test_images\", val_transforms\n)\ntest_loader = DataLoader(test_ds, batch_size=64, num_workers=4)\n\nidx_to_label = {v: k for k, v in label_to_idx.items()}\npred_dict = {}\nwith torch.no_grad():\n    for x, fnames in tqdm(test_loader, desc=\"Testing\"):\n        outputs = torch.sigmoid(model(x.to(device))).cpu()\n        preds = outputs > 0.5\n        for fn, pred in zip(fnames, preds):\n            labels = [idx_to_label[i] for i in np.where(pred.numpy())[0]]\n            pred_dict[fn] = \" \".join(labels) if labels else \"healthy\"\n\n# Create submission\npd.DataFrame(\n    {\"image\": list(pred_dict.keys()), \"labels\": list(pred_dict.values())}\n).to_csv(\"./submission/submission.csv\", index=False)\n\nprint(f\"Final Validation F1: {best_f1:.4f}\")\n",
+            "import os\nimport pandas as pd\nimport torch\nfrom torch import nn, optim\nfrom torch.utils.data import DataLoader, Dataset\nfrom torchvision import transforms\nfrom PIL import Image\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nfrom sklearn.preprocessing import MultiLabelBinarizer\nimport timm\nfrom albumentations import (\n    Compose,\n    HorizontalFlip,\n    VerticalFlip,\n    Rotate,\n    RandomBrightnessContrast,\n    HueSaturationValue,\n    Cutout,\n    CoarseDropout,\n    ShiftScaleRotate,\n    RandomResizedCrop,\n)\nfrom albumentations.pytorch import ToTensorV2\nimport time\n\n# Configuration\nBATCH_SIZE = 32\nIMG_SIZE = 384\nEPOCHS = 15\nLR = 1e-4\nNUM_WORKERS = 4\nTHRESHOLD = 0.5\n\n# Data preparation\ntrain_df = pd.read_csv(\"./input/train.csv\")\nmlb = MultiLabelBinarizer()\nlabels = [label.split() for label in train_df[\"labels\"]]\ny = mlb.fit_transform(labels)\nclass_names = mlb.classes_\nnum_classes = len(class_names)\n\n# Stratified split for multi-label data\ntrain_idx, val_idx = train_test_split(\n    range(len(train_df)), test_size=0.2, shuffle=True, stratify=y, random_state=42\n)\n\n# Albumentations transforms\ntrain_aug = Compose(\n    [\n        RandomResizedCrop(IMG_SIZE, IMG_SIZE, scale=(0.8, 1.0)),\n        HorizontalFlip(p=0.5),\n        VerticalFlip(p=0.3),\n        ShiftScaleRotate(p=0.5),\n        HueSaturationValue(\n            hue_shift_limit=20, sat_shift_limit=20, val_shift_limit=20, p=0.5\n        ),\n        RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.5),\n        CoarseDropout(max_holes=8, max_height=32, max_width=32, p=0.5),\n        Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n        ToTensorV2(),\n    ]\n)\n\nval_aug = Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n        ToTensorV2(),\n    ]\n)\n\n\nclass PlantDataset(Dataset):\n    def __init__(self, df, indices, transform):\n        self.df = df.iloc[indices].reset_index(drop=True)\n        self.transform = transform\n        self.labels = y[indices]\n\n    def __len__(self):\n        return len(self.df)\n\n    def __getitem__(self, idx):\n        img_path = os.path.join(\"./input/train_images\", self.df.iloc[idx][\"image\"])\n        image = Image.open(img_path).convert(\"RGB\")\n        image = np.array(image)\n        augmented = self.transform(image=image)\n        return augmented[\"image\"], torch.tensor(self.labels[idx], dtype=torch.float)\n\n\n# Create datasets and loaders\ntrain_dataset = PlantDataset(train_df, train_idx, train_aug)\nval_dataset = PlantDataset(train_df, val_idx, val_aug)\ntrain_loader = DataLoader(\n    train_dataset,\n    batch_size=BATCH_SIZE,\n    shuffle=True,\n    num_workers=NUM_WORKERS,\n    pin_memory=True,\n)\nval_loader = DataLoader(\n    val_dataset, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS, pin_memory=True\n)\n\n\n# Asymmetric Loss function\nclass AsymmetricLoss(nn.Module):\n    def __init__(self, gamma_neg=4, gamma_pos=1, clip=0.05, eps=1e-8):\n        super().__init__()\n        self.gamma_neg = gamma_neg\n        self.gamma_pos = gamma_pos\n        self.clip = clip\n        self.eps = eps\n\n    def forward(self, x, y):\n        xs_pos = x\n        xs_neg = 1 - x\n        los_pos = y * torch.log(torch.clamp(xs_pos, self.eps, 1 - self.clip))\n        los_neg = (1 - y) * torch.log(torch.clamp(xs_neg, self.eps, 1 - self.clip))\n        loss = los_pos + los_neg\n        return -loss.mean()\n\n\n# Model setup\nmodel = timm.create_model(\n    \"convnext_xlarge_in22k\", pretrained=True, num_classes=num_classes\n)\nmodel = model.cuda()\noptimizer = optim.AdamW(model.parameters(), lr=LR)\nscheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, EPOCHS)\nloss_fn = AsymmetricLoss()\n\n# Training loop\nbest_f1 = 0\nfor epoch in range(EPOCHS):\n    model.train()\n    for images, labels in train_loader:\n        images, labels = images.cuda(), labels.cuda()\n        optimizer.zero_grad()\n        outputs = model(images)\n        loss = loss_fn(outputs.sigmoid(), labels)\n        loss.backward()\n        optimizer.step()\n\n    # Validation\n    model.eval()\n    val_preds = []\n    val_targets = []\n    with torch.no_grad():\n        for images, labels in val_loader:\n            images = images.cuda()\n            outputs = model(images).sigmoid().cpu()\n            val_preds.append(outputs)\n            val_targets.append(labels)\n\n    val_preds = torch.cat(val_preds)\n    val_targets = torch.cat(val_targets)\n    val_preds_bin = (val_preds > THRESHOLD).float()\n    f1 = f1_score(val_targets, val_preds_bin, average=\"macro\")\n    print(f\"Epoch {epoch+1}, Val F1: {f1:.4f}\")\n\n    if f1 > best_f1:\n        best_f1 = f1\n        torch.save(model.state_dict(), \"./working/best_model.pth\")\n\n    scheduler.step()\n\nprint(f\"Best Validation F1: {best_f1:.4f}\")\n\n# Generate submission\ntest_dir = \"./input/test_images\"\nmodel.load_state_dict(torch.load(\"./working/best_model.pth\"))\nmodel.eval()\n\ntest_transforms = transforms.Compose(\n    [\n        transforms.Resize((IMG_SIZE, IMG_SIZE)),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\nsubmission = []\nfor img_name in os.listdir(test_dir):\n    img_path = os.path.join(test_dir, img_name)\n    image = Image.open(img_path).convert(\"RGB\")\n    image = test_transforms(image).unsqueeze(0).cuda()\n    with torch.no_grad():\n        pred = model(image).sigmoid().cpu().numpy()[0]\n    labels = (pred > THRESHOLD).astype(int)\n    labels = \" \".join([class_names[i] for i, v in enumerate(labels) if v])\n    submission.append([img_name, labels])\n\nsub_df = pd.DataFrame(submission, columns=[\"image\", \"labels\"])\nsub_df.to_csv(\"./submission/submission.csv\", index=False)\n",
+            "import os\nimport torch\nimport pandas as pd\nimport numpy as np\nfrom torch import nn\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nfrom timm.models.efficientnet import efficientnet_b5\nfrom torch.cuda.amp import autocast, GradScaler\nfrom PIL import Image\nfrom collections import Counter\n\nos.makedirs(\"./submission\", exist_ok=True)\n\n\nclass LeafDataset(Dataset):\n    def __init__(self, df, img_dir, transform=None, mode=\"train\"):\n        self.df = df\n        self.img_dir = img_dir\n        self.transform = transform\n        self.labels = (\n            sorted(list(set(\" \".join(df.labels).split()))) if mode == \"train\" else []\n        )\n        self.label_map = (\n            {l: i for i, l in enumerate(self.labels)} if mode == \"train\" else {}\n        )\n        self.mode = mode\n\n    def __len__(self):\n        return len(self.df)\n\n    def __getitem__(self, idx):\n        img_name = self.df.iloc[idx][\"image\"]\n        img_path = os.path.join(self.img_dir, img_name)\n        image = Image.open(img_path).convert(\"RGB\")\n        if self.transform:\n            image = self.transform(image)\n        if self.mode == \"test\":\n            return image\n        label_str = self.df.iloc[idx][\"labels\"]\n        target = torch.zeros(len(self.labels))\n        for l in label_str.split():\n            target[self.label_map[l]] = 1\n        return image, target\n\n\nclass EfficientNetMultiLabel(nn.Module):\n    def __init__(self, num_classes):\n        super().__init__()\n        self.base = efficientnet_b5(pretrained=True)\n        in_features = self.base.classifier.in_features\n        self.base.classifier = nn.Sequential(\n            nn.Linear(in_features, 512),\n            nn.ReLU(),\n            nn.Dropout(0.2),\n            nn.Linear(512, num_classes),\n        )\n\n    def forward(self, x):\n        return self.base(x)\n\n\ndef calculate_class_weights(df):\n    all_labels = [label for labels in df[\"labels\"] for label in labels.split()]\n    class_counts = Counter(all_labels)\n    total = sum(class_counts.values())\n    return torch.tensor(\n        [total / (count * len(class_counts)) for _, count in class_counts.most_common()]\n    )\n\n\ndef train_epoch(model, loader, optimizer, criterion, device, scaler):\n    model.train()\n    running_loss = 0.0\n    for images, targets in loader:\n        images, targets = images.to(device), targets.to(device)\n        optimizer.zero_grad()\n        with autocast():\n            outputs = model(images)\n            loss = criterion(outputs, targets)\n        scaler.scale(loss).backward()\n        scaler.step(optimizer)\n        scaler.update()\n        running_loss += loss.item()\n    return running_loss / len(loader)\n\n\ndef validate(model, loader, criterion, device, threshold=0.2):\n    model.eval()\n    running_loss = 0.0\n    all_preds = []\n    all_targets = []\n    with torch.no_grad():\n        for images, targets in loader:\n            images, targets = images.to(device), targets.to(device)\n            outputs = model(images)\n            loss = criterion(outputs, targets)\n            running_loss += loss.item()\n            probs = torch.sigmoid(outputs)\n            preds = (probs > threshold).int()\n            all_preds.append(preds.cpu())\n            all_targets.append(targets.cpu())\n    all_preds = torch.cat(all_preds).numpy()\n    all_targets = torch.cat(all_targets).numpy()\n    f1 = f1_score(all_targets, all_preds, average=\"macro\")\n    return running_loss / len(loader), f1\n\n\ndef main():\n    device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\n    batch_size = 64\n    num_workers = 4\n    lr = 1e-4\n    epochs = 10\n    threshold = 0.2\n\n    train_df = pd.read_csv(\"./input/train.csv\")\n    train_dir = \"./input/train_images/\"\n    test_dir = \"./input/test_images/\"\n\n    # Get all test images from directory\n    test_images = [f for f in os.listdir(test_dir) if f.endswith(\".jpg\")]\n    test_df = pd.DataFrame({\"image\": test_images})\n\n    train_idx, val_idx = train_test_split(\n        train_df.index, test_size=0.2, stratify=train_df[\"labels\"], random_state=42\n    )\n\n    train_transform = transforms.Compose(\n        [\n            transforms.Resize((512, 512)),\n            transforms.RandomHorizontalFlip(),\n            transforms.RandomVerticalFlip(),\n            transforms.RandomRotation(20),\n            transforms.ColorJitter(brightness=0.2, contrast=0.2),\n            transforms.ToTensor(),\n            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n\n    val_transform = transforms.Compose(\n        [\n            transforms.Resize((512, 512)),\n            transforms.ToTensor(),\n            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n        ]\n    )\n\n    train_set = LeafDataset(train_df.iloc[train_idx], train_dir, train_transform)\n    val_set = LeafDataset(train_df.iloc[val_idx], train_dir, val_transform)\n\n    num_classes = len(train_set.labels)\n    model = EfficientNetMultiLabel(num_classes).to(device)\n    class_weights = calculate_class_weights(train_df.iloc[train_idx])\n    criterion = nn.BCEWithLogitsLoss(pos_weight=class_weights.to(device))\n    optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)\n    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, \"max\", patience=2)\n    scaler = GradScaler()\n\n    train_loader = DataLoader(\n        train_set, batch_size, shuffle=True, num_workers=num_workers, pin_memory=True\n    )\n    val_loader = DataLoader(\n        val_set, batch_size, shuffle=False, num_workers=num_workers, pin_memory=True\n    )\n\n    best_f1 = 0\n    for epoch in range(epochs):\n        train_loss = train_epoch(\n            model, train_loader, optimizer, criterion, device, scaler\n        )\n        val_loss, val_f1 = validate(model, val_loader, criterion, device, threshold)\n        scheduler.step(val_f1)\n        print(f\"Epoch {epoch+1}/{epochs}\")\n        print(\n            f\"Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f} | Val F1: {val_f1:.4f}\"\n        )\n        if val_f1 > best_f1:\n            best_f1 = val_f1\n            torch.save(model.state_dict(), \"./working/best_model.pth\")\n\n    model.load_state_dict(torch.load(\"./working/best_model.pth\"))\n    model.eval()\n\n    test_set = LeafDataset(test_df, test_dir, val_transform, mode=\"test\")\n    test_loader = DataLoader(\n        test_set, batch_size, shuffle=False, num_workers=num_workers\n    )\n\n    pred_labels = []\n    with torch.no_grad():\n        for images in test_loader:\n            images = images.to(device)\n            outputs = torch.sigmoid(model(images))\n            batch_preds = [\n                \" \".join(\n                    [train_set.labels[i] for i, p in enumerate(prob) if p > threshold]\n                )\n                for prob in outputs.cpu().numpy()\n            ]\n            pred_labels.extend(batch_preds)\n\n    submission = pd.DataFrame({\"image\": test_images, \"labels\": pred_labels})\n    submission.to_csv(\"./submission/submission.csv\", index=False)\n    print(f\"Best Validation F1: {best_f1:.4f}\")\n\n\nif __name__ == \"__main__\":\n    main()\n",
+            "import pandas as pd\nimport torch\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nfrom PIL import Image\nimport os\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import MultiLabelBinarizer\nimport timm\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.cuda.amp import autocast, GradScaler\nfrom sklearn.metrics import f1_score\nimport numpy as np\n\n# Data preparation\ndf = pd.read_csv(\"input/train.csv\")\nlabels = df[\"labels\"].str.split().tolist()\nmlb = MultiLabelBinarizer()\ny = mlb.fit_transform(labels)\nclass_names = mlb.classes_\n\n# Split dataset\ntrain_df, val_df = train_test_split(\n    df, test_size=0.2, random_state=42, stratify=df[\"labels\"]\n)\n\n\n# Dataset class\nclass PlantDataset(Dataset):\n    def __init__(self, df, img_dir, transform=None):\n        self.df = df\n        self.img_dir = img_dir\n        self.transform = transform\n        self.labels = df[\"labels\"].str.split().tolist()\n\n    def __len__(self):\n        return len(self.df)\n\n    def __getitem__(self, idx):\n        img_path = os.path.join(self.img_dir, self.df.iloc[idx][\"image\"])\n        image = Image.open(img_path).convert(\"RGB\")\n        label = mlb.transform([self.labels[idx]]).astype(float).squeeze()\n        if self.transform:\n            image = self.transform(image)\n        return image, torch.tensor(label)\n\n\n# Augmentations\ntrain_transform = transforms.Compose(\n    [\n        transforms.RandomHorizontalFlip(),\n        transforms.RandomVerticalFlip(),\n        transforms.RandomRotation(30),\n        transforms.ColorJitter(0.2, 0.2, 0.2, 0.1),\n        transforms.Resize((384, 384)),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\nval_transform = transforms.Compose(\n    [\n        transforms.Resize((384, 384)),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\n# Dataloaders\ntrain_dataset = PlantDataset(train_df, \"input/train_images\", train_transform)\nval_dataset = PlantDataset(val_df, \"input/train_images\", val_transform)\ntrain_loader = DataLoader(\n    train_dataset, batch_size=32, shuffle=True, num_workers=4, pin_memory=True\n)\nval_loader = DataLoader(\n    val_dataset, batch_size=64, shuffle=False, num_workers=4, pin_memory=True\n)\n\n# Model setup\nmodel = timm.create_model(\n    \"convnext_base\", pretrained=True, num_classes=len(class_names)\n).cuda()\n\n\nclass AsymmetricLoss(nn.Module):\n    def __init__(self, gamma_neg=4, gamma_pos=1, clip=0.05, eps=1e-8):\n        super().__init__()\n        self.gamma_neg = gamma_neg\n        self.gamma_pos = gamma_pos\n        self.clip = clip\n        self.eps = eps\n\n    def forward(self, x, y):\n        x_sigmoid = torch.sigmoid(x)\n        xs_pos = x_sigmoid\n        xs_neg = 1 - x_sigmoid\n\n        if self.clip:\n            xs_neg.add_(self.clip).clamp_(max=1)\n\n        los_pos = y * torch.log(xs_pos.clamp(min=self.eps))\n        los_neg = (1 - y) * torch.log(xs_neg.clamp(min=self.eps))\n        loss = los_pos + los_neg\n\n        pt = (1 - x_sigmoid) * y + x_sigmoid * (1 - y)\n        pt = pt + self.eps\n        focal_weight = (1 - pt).pow(self.gamma_neg * (1 - y) + self.gamma_pos * y)\n        loss *= focal_weight\n\n        return -loss.mean()\n\n\noptimizer = optim.AdamW(model.parameters(), lr=1e-4, weight_decay=0.01)\nscaler = GradScaler()\nbest_f1 = 0\n\n# Training loop\nfor epoch in range(10):\n    model.train()\n    for images, labels in train_loader:\n        images, labels = images.cuda(), labels.cuda()\n        optimizer.zero_grad()\n        with autocast():\n            outputs = model(images)\n            loss = AsymmetricLoss()(outputs, labels)\n        scaler.scale(loss).backward()\n        scaler.step(optimizer)\n        scaler.update()\n\n    # Validation\n    model.eval()\n    all_preds, all_labels = [], []\n    with torch.no_grad():\n        for images, labels in val_loader:\n            outputs = model(images.cuda())\n            preds = torch.sigmoid(outputs).cpu() > 0.5\n            all_preds.append(preds)\n            all_labels.append(labels)\n    val_f1 = f1_score(\n        torch.cat(all_labels).numpy(), torch.cat(all_preds).numpy(), average=\"macro\"\n    )\n    print(f\"Epoch {epoch+1}, Val F1: {val_f1:.4f}\")\n\n    if val_f1 > best_f1:\n        best_f1 = val_f1\n        torch.save(model.state_dict(), \"best_convnext.pth\")\n\n# Test prediction\nmodel.load_state_dict(torch.load(\"best_convnext.pth\"))\ntest_dir = \"input/test_images\"\ntest_images = [f for f in os.listdir(test_dir) if f.endswith(\".jpg\")]\n\n\nclass TestDataset(Dataset):\n    def __init__(self, img_dir, transform):\n        self.img_dir = img_dir\n        self.transform = transform\n        self.images = os.listdir(img_dir)\n\n    def __len__(self):\n        return len(self.images)\n\n    def __getitem__(self, idx):\n        img = Image.open(os.path.join(self.img_dir, self.images[idx])).convert(\"RGB\")\n        return self.transform(img)\n\n\ntest_loader = DataLoader(\n    TestDataset(test_dir, val_transform), batch_size=64, shuffle=False, num_workers=4\n)\n\nmodel.eval()\npreds = []\nwith torch.no_grad():\n    for images in test_loader:\n        outputs = model(images.cuda())\n        preds.append(torch.sigmoid(outputs).cpu() > 0.5)\n\npred_labels = mlb.inverse_transform(torch.cat(preds).numpy())\nsubmission = pd.DataFrame(\n    {\"image\": test_images, \"labels\": [\" \".join(labels) for labels in pred_labels]}\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n\nprint(f\"Best Validation F1: {best_f1:.4f}\")\n"
+        ],
+        "term_out": [
+            "<OMITTED>",
+            "<OMITTED>",
+            "Execution time: 20 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Execution time: 12 seconds seconds (time limit is 9 hours).",
+            "\rTrain Epoch 1:   0%|          | 0/373 [00:00<?, ?it/s]\rTrain Epoch 1:   0%|          | 1/373 [00:06<42:49,  6.91s/it]\rTrain Epoch 1:   1%|          | 3/373 [00:07<11:38,  1.89s/it]\rTrain Epoch 1:   1%|1         | 4/373 [00:07<08:00,  1.30s/it]\rTrain Epoch 1:   1%|1         | 5/373 [00:07<05:44,  1.07it/s]\rTrain Epoch 1:   2%|1         | 6/373 [00:07<04:16,  1.43it/s]\rTrain Epoch 1:   2%|1         | 7/373 [00:07<03:17,  1.85it/s]\rTrain Epoch 1:   2%|2         | 8/373 [00:08<02:37,  2.31it/s]\rTrain Epoch 1:   2%|2         | 9/373 [00:08<02:11,  2.77it/s]\rTrain Epoch 1:   3%|2         | 10/373 [00:09<04:23,  1.38it/s]\rTrain Epoch 1:   3%|2         | 11/373 [00:10<03:24,  1.77it/s]\rTrain Epoch 1:   3%|3         | 12/373 [00:10<02:47,  2.16it/s]\rTrain Epoch 1:   3%|3         | 13/373 [00:10<02:36,  2.30it/s]\rTrain Epoch 1:   4%|3         | 14/373 [00:13<06:16,  1.05s/it]\rTrain Epoch 1:   4%|4         | 15/373 [00:13<04:46,  1.25it/s]\rTrain Epoch 1:   4%|4         | 16/373 [00:13<03:40,  1.62it/s]\rTrain Epoch 1:   5%|4         | 17/373 [00:13<02:54,  2.04it/s]\rTrain Epoch 1:   5%|4         | 18/373 [00:16<06:34,  1.11s/it]\rTrain Epoch 1:   5%|5         | 19/373 [00:16<04:56,  1.19it/s]\rTrain Epoch 1:   5%|5         | 20/373 [00:16<03:47,  1.55it/s]\rTrain Epoch 1:   6%|5         | 21/373 [00:16<02:59,  1.96it/s]\rTrain Epoch 1:   6%|5         | 22/373 [00:19<06:45,  1.16s/it]\rTrain Epoch 1:   6%|6         | 23/373 [00:19<05:03,  1.15it/s]\rTrain Epoch 1:   6%|6         | 24/373 [00:19<03:52,  1.50it/s]\rTrain Epoch 1:   7%|6         | 25/373 [00:20<03:02,  1.91it/s]\rTrain Epoch 1:   7%|6         | 26/373 [00:22<06:28,  1.12s/it]\rTrain Epoch 1:   7%|7         | 27/373 [00:22<04:53,  1.18it/s]\rTrain Epoch 1:   8%|7         | 28/373 [00:23<03:45,  1.53it/s]\rTrain Epoch 1:   8%|7         | 29/373 [00:23<02:57,  1.94it/s]\rTrain Epoch 1:   8%|8         | 30/373 [00:25<06:16,  1.10s/it]\rTrain Epoch 1:   8%|8         | 31/373 [00:25<04:44,  1.20it/s]\rTrain Epoch 1:   9%|8         | 32/373 [00:26<03:38,  1.56it/s]\rTrain Epoch 1:   9%|8         | 33/373 [00:26<02:52,  1.97it/s]\rTrain Epoch 1:   9%|9         | 34/373 [00:28<05:53,  1.04s/it]\rTrain Epoch 1:   9%|9         | 35/373 [00:28<04:27,  1.26it/s]\rTrain Epoch 1:  10%|9         | 36/373 [00:29<03:26,  1.63it/s]\rTrain Epoch 1:  10%|9         | 37/373 [00:29<02:43,  2.05it/s]\rTrain Epoch 1:  10%|#         | 38/373 [00:31<06:09,  1.10s/it]\rTrain Epoch 1:  10%|#         | 39/373 [00:31<04:39,  1.20it/s]\rTrain Epoch 1:  11%|\n ... [127720 characters truncated] ... \n7 [01:12<00:05,  1.35s/it]\rValidating:  96%|#########5| 45/47 [01:19<00:03,  1.90s/it]\rValidating: 100%|##########| 47/47 [01:19<00:00,  1.35s/it]\rValidating: 100%|##########| 47/47 [01:19<00:00,  1.69s/it]\nEpoch 5 Val F1: 0.8699\n\rTesting:   0%|          | 0/59 [00:00<?, ?it/s]\rTesting:   0%|          | 0/59 [00:00<?, ?it/s]\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 140, in <module>\n    for x, fnames in tqdm(test_loader, desc=\"Testing\"):\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/tqdm/std.py\", line 1181, in __iter__\n    for obj in iterable:\n               ^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 708, in __next__\n    data = self._next_data()\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 1480, in _next_data\n    return self._process_data(data)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 1505, in _process_data\n    data.reraise()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/_utils.py\", line 733, in reraise\n    raise exception\nTypeError: Caught TypeError in DataLoader worker process 0.\nOriginal Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/_utils/worker.py\", line 349, in _worker_loop\n    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py\", line 52, in fetch\n    data = [self.dataset[idx] for idx in possibly_batched_index]\n            ~~~~~~~~~~~~^^^^^\n  File \"runfile_1.py\", line 53, in __getitem__\n    self.labels[idx]\n    ~~~~~~~~~~~^^^^^\nTypeError: 'NoneType' object is not subscriptable\n\nExecution time: 26 minutes seconds (time limit is 9 hours).",
+            "Execution time: 6 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "\rTrain Epoch 1:   0%|          | 0/373 [00:00<?, ?it/s]\rTrain Epoch 1:   0%|          | 1/373 [00:08<49:50,  8.04s/it]\rTrain Epoch 1:   1%|          | 3/373 [00:08<13:27,  2.18s/it]\rTrain Epoch 1:   1%|1         | 4/373 [00:08<09:15,  1.50s/it]\rTrain Epoch 1:   1%|1         | 5/373 [00:08<07:01,  1.15s/it]\rTrain Epoch 1:   2%|1         | 6/373 [00:09<05:35,  1.09it/s]\rTrain Epoch 1:   2%|1         | 7/373 [00:09<04:11,  1.45it/s]\rTrain Epoch 1:   2%|2         | 8/373 [00:09<03:31,  1.72it/s]\rTrain Epoch 1:   2%|2         | 9/373 [00:10<03:13,  1.88it/s]\rTrain Epoch 1:   3%|2         | 10/373 [00:10<02:47,  2.16it/s]\rTrain Epoch 1:   3%|2         | 11/373 [00:10<02:18,  2.62it/s]\rTrain Epoch 1:   3%|3         | 12/373 [00:11<01:57,  3.07it/s]\rTrain Epoch 1:   3%|3         | 13/373 [00:11<01:57,  3.08it/s]\rTrain Epoch 1:   4%|3         | 14/373 [00:12<04:08,  1.44it/s]\rTrain Epoch 1:   4%|4         | 15/373 [00:13<03:14,  1.84it/s]\rTrain Epoch 1:   4%|4         | 16/373 [00:13<02:36,  2.28it/s]\rTrain Epoch 1:   5%|4         | 17/373 [00:13<02:09,  2.74it/s]\rTrain Epoch 1:   5%|4         | 18/373 [00:15<04:52,  1.21it/s]\rTrain Epoch 1:   5%|5         | 19/373 [00:15<04:10,  1.42it/s]\rTrain Epoch 1:   5%|5         | 20/373 [00:15<03:15,  1.81it/s]\rTrain Epoch 1:   6%|5         | 21/373 [00:16<02:36,  2.24it/s]\rTrain Epoch 1:   6%|5         | 22/373 [00:18<05:02,  1.16it/s]\rTrain Epoch 1:   6%|6         | 23/373 [00:18<04:07,  1.41it/s]\rTrain Epoch 1:   6%|6         | 24/373 [00:18<03:13,  1.81it/s]\rTrain Epoch 1:   7%|6         | 25/373 [00:18<02:35,  2.24it/s]\rTrain Epoch 1:   7%|6         | 26/373 [00:20<05:03,  1.14it/s]\rTrain Epoch 1:   7%|7         | 27/373 [00:21<04:15,  1.36it/s]\rTrain Epoch 1:   8%|7         | 28/373 [00:21<03:20,  1.72it/s]\rTrain Epoch 1:   8%|7         | 29/373 [00:21<02:42,  2.11it/s]\rTrain Epoch 1:   8%|8         | 30/373 [00:23<04:55,  1.16it/s]\rTrain Epoch 1:   8%|8         | 31/373 [00:23<04:09,  1.37it/s]\rTrain Epoch 1:   9%|8         | 32/373 [00:24<03:33,  1.60it/s]\rTrain Epoch 1:   9%|8         | 33/373 [00:24<03:11,  1.78it/s]\rTrain Epoch 1:   9%|9         | 34/373 [00:25<04:11,  1.35it/s]\rTrain Epoch 1:   9%|9         | 35/373 [00:25<03:28,  1.62it/s]\rTrain Epoch 1:  10%|9         | 36/373 [00:26<03:08,  1.79it/s]\rTrain Epoch 1:  10%|9         | 37/373 [00:26<02:43,  2.05it/s]\rTrain Epoch 1:  10%|#         | 38/373 [00:28<04:29,  1.24it/s]\rTrain Epoch 1:  10%|#         | 39/373 [00:28<03:48,  1.46it/s]\rTrain Epoch 1:  11%|\n ... [130196 characters truncated] ... \n<01:58,  2.82s/it]\rTesting:  31%|###       | 18/59 [00:35<01:22,  2.01s/it]\rTesting:  32%|###2      | 19/59 [00:35<00:57,  1.44s/it]\rTesting:  34%|###3      | 20/59 [00:35<00:40,  1.04s/it]\rTesting:  36%|###5      | 21/59 [00:41<01:39,  2.62s/it]\rTesting:  37%|###7      | 22/59 [00:42<01:09,  1.87s/it]\rTesting:  39%|###8      | 23/59 [00:42<00:48,  1.34s/it]\rTesting:  41%|####      | 24/59 [00:42<00:34,  1.03it/s]\rTesting:  42%|####2     | 25/59 [00:48<01:30,  2.67s/it]\rTesting:  44%|####4     | 26/59 [00:49<01:02,  1.91s/it]\rTesting:  46%|####5     | 27/59 [00:49<00:43,  1.37s/it]\rTesting:  47%|####7     | 28/59 [00:49<00:30,  1.01it/s]\rTesting:  49%|####9     | 29/59 [00:55<01:19,  2.65s/it]\rTesting:  51%|#####     | 30/59 [00:55<00:54,  1.89s/it]\rTesting:  53%|#####2    | 31/59 [00:56<00:38,  1.36s/it]\rTesting:  54%|#####4    | 32/59 [00:56<00:26,  1.02it/s]\rTesting:  56%|#####5    | 33/59 [01:02<01:08,  2.65s/it]\rTesting:  58%|#####7    | 34/59 [01:02<00:47,  1.89s/it]\rTesting:  59%|#####9    | 35/59 [01:02<00:32,  1.36s/it]\rTesting:  61%|######1   | 36/59 [01:03<00:22,  1.02it/s]\rTesting:  63%|######2   | 37/59 [01:09<00:56,  2.55s/it]\rTesting:  64%|######4   | 38/59 [01:09<00:38,  1.82s/it]\rTesting:  66%|######6   | 39/59 [01:09<00:26,  1.31s/it]\rTesting:  68%|######7   | 40/59 [01:09<00:18,  1.05it/s]\rTesting:  69%|######9   | 41/59 [01:16<00:47,  2.63s/it]\rTesting:  71%|#######1  | 42/59 [01:16<00:31,  1.88s/it]\rTesting:  73%|#######2  | 43/59 [01:16<00:21,  1.35s/it]\rTesting:  75%|#######4  | 44/59 [01:16<00:14,  1.02it/s]\rTesting:  76%|#######6  | 45/59 [01:22<00:35,  2.55s/it]\rTesting:  78%|#######7  | 46/59 [01:22<00:23,  1.82s/it]\rTesting:  80%|#######9  | 47/59 [01:22<00:15,  1.31s/it]\rTesting:  81%|########1 | 48/59 [01:23<00:10,  1.05it/s]\rTesting:  83%|########3 | 49/59 [01:29<00:24,  2.47s/it]\rTesting:  85%|########4 | 50/59 [01:29<00:16,  1.84s/it]\rTesting:  86%|########6 | 51/59 [01:29<00:10,  1.32s/it]\rTesting:  88%|########8 | 52/59 [01:29<00:06,  1.04it/s]\rTesting:  90%|########9 | 53/59 [01:35<00:15,  2.56s/it]\rTesting:  92%|#########1| 54/59 [01:36<00:09,  1.96s/it]\rTesting:  93%|#########3| 55/59 [01:36<00:05,  1.41s/it]\rTesting:  95%|#########4| 56/59 [01:36<00:03,  1.02s/it]\rTesting:  97%|#########6| 57/59 [01:42<00:04,  2.42s/it]\rTesting:  98%|#########8| 58/59 [01:43<00:01,  1.92s/it]\rTesting: 100%|##########| 59/59 [01:43<00:00,  1.75s/it]\nFinal Validation F1: 0.8718\nExecution time: 28 minutes seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 15, in <module>\n    from albumentations import (\nImportError: cannot import name 'Cutout' from 'albumentations' (/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/albumentations/__init__.py). Did you mean: 'cutout'?\nExecution time: 25 seconds seconds (time limit is 9 hours).",
+            "Execution time: 8 seconds seconds (time limit is 9 hours).",
+            "Epoch 1, Val F1: 0.2968\nEpoch 2, Val F1: 0.2968\nEpoch 3, Val F1: 0.2968\nEpoch 4, Val F1: 0.2968\nEpoch 5, Val F1: 0.2968\nEpoch 6, Val F1: 0.2968\nEpoch 7, Val F1: 0.2968\nEpoch 8, Val F1: 0.2968\nEpoch 9, Val F1: 0.2968\nEpoch 10, Val F1: 0.2968\nBest Validation F1: 0.2968\nExecution time: 7 hours seconds (time limit is 9 hours)."
+        ],
+        "analysis": [
+            null,
+            "The code execution failed, as indicated by the output log showing 'REPL child process failed to start execution'. This suggests there was a problem with starting the execution environment or some other critical error. Consequently, the submission.csv file was not successfully produced, and no validation metric was reported.",
+            "The code successfully trains an EfficientNet model with SE blocks to classify apple leaf diseases. It uses a stratified k-fold cross-validation approach with 2 folds and reports a best validation F1 score of 0.0, indicating potential issues with model performance or thresholding. The predictions are saved to a 'submission.csv' file in the './submission/' directory, confirming that the submission file was produced as required.",
+            "The execution failed due to a mismatch in the target size and input size during the loss calculation. This indicates a bug in the code where the batch size does not match the expected dimensions for the labels. As a result, the submission.csv file was not created successfully.",
+            "The code successfully trains a multi-label classification model using EfficientNet B5 to classify apple leaf diseases. The model achieves a validation F1 score of 0.819, indicating good performance on the validation set. A submission file is generated in the correct format, ready for evaluation.",
+            "The code execution failed due to a TypeError in the DataLoader worker process, indicating a bug in the data fetching logic. Specifically, the error arises from attempting to subscript a NoneType object, which suggests an issue with handling the labels in the test dataset. Consequently, the submission.csv file was not successfully produced.",
+            "The code successfully trains an EfficientNet model for multi-label classification of apple leaf diseases. It achieves a validation F1 score of 0.8246, indicating good performance on the validation set. The predictions are saved in the required 'submission.csv' format in the './submission/' directory, ready for submission.",
+            "The code successfully trains a model to classify apple leaf diseases and produces a submission file with predictions on the test data. The validation F1 score achieved is 0.9090, indicating good performance on the validation set. The model uses a Vision Transformer and optimizes the threshold for binary classification, resulting in a well-tuned model for multi-label disease classification.",
+            "The code successfully trained a model to classify apple leaf diseases using a dataset of images. It achieved a validation F1-score of 0.8718, indicating good performance in correctly identifying disease categories. The predictions were saved in a 'submission.csv' file in the './submission/' directory, allowing for evaluation of the model's performance on the test set.",
+            "The code execution failed due to an ImportError. Specifically, the 'Cutout' function was not imported correctly from the 'albumentations' library, causing the script to terminate prematurely. Consequently, no validation metric was reported, although the script does attempt to save a 'submission.csv' file in the specified directory.",
+            "The code successfully trains a multi-label classification model using EfficientNet on a dataset of apple leaf images. It performs data augmentation, calculates class weights, and uses a validation set to monitor performance. The model achieves a best validation F1 score of 0.0, indicating that it may not be effectively learning the task. The predictions are saved in the required submission.csv file in the ./submission/ directory.",
+            "The code successfully trains a ConvNeXt model on the Plant Pathology dataset and evaluates it using the Mean F1-Score, achieving a best validation F1 score of 0.2968 after 10 epochs. The submission file is correctly saved as 'submission.csv' in the './submission/' directory. The model seems to struggle with achieving a high F1 score, indicating potential room for improvement in model performance or training strategy."
+        ],
+        "exp_name": "plant-pathology-2021-fgvc8_mcts_comp_v7_parallel_2[cpu-72-107]",
+        "metrics": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.909,
+            0.8718,
+            null,
+            null,
+            0.2968
+        ],
+        "ucts": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "is_bug": [
+            "None",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "False",
+            "False",
+            "True",
+            "True",
+            "False"
+        ],
+        "rewards": [
+            1.0,
+            1.0,
+            -1.0,
+            1.0,
+            -1.0,
+            1.0,
+            -1.0,
+            1.0,
+            1.0,
+            0.0,
+            -1.0,
+            0.0
+        ],
+        "visits": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+        ],
+        "is_debug_success": [
+            "False",
+            "True",
+            "False",
+            "True",
+            "False",
+            "True",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False"
+        ],
+        "local_best_node_steps": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            8,
+            0,
+            0,
+            11
+        ],
+        "local_best_metrics": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.909,
+            0.8718,
+            null,
+            null,
+            0.2968
+        ],
+        "stages": [
+            "root",
+            "draft",
+            "draft",
+            "debug",
+            "debug",
+            "draft",
+            "debug",
+            "debug",
+            "debug",
+            "draft",
+            "debug",
+            "draft"
+        ],
+        "continue_improve": [
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+        ]
+    }
+}

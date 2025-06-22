@@ -1,0 +1,525 @@
+{
+    "title": "tensorflow2-question-answering",
+    "steps": [
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task tensorflow2-question-answering --time-limit 12h",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting run \"tensorflow2-question-answering\"",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: e387d7bbbc774943b5e9d90d99068319",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: e387d7bbbc774943b5e9d90d99068319",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node e387d7bbbc774943b5e9d90d99068319 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: e387d7bbbc774943b5e9d90d99068319",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node e387d7bbbc774943b5e9d90d99068319 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: e387d7bbbc774943b5e9d90d99068319",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node e387d7bbbc774943b5e9d90d99068319 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: e387d7bbbc774943b5e9d90d99068319",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: e387d7bbbc774943b5e9d90d99068319",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current e387d7bbbc774943b5e9d90d99068319 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current e387d7bbbc774943b5e9d90d99068319 expected_child_count is 2.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current e387d7bbbc774943b5e9d90d99068319 expected_child_count is 3.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node e878bede32054db7923d0fbf85fc8be4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node e878bede32054db7923d0fbf85fc8be4 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node b5448bd1109246088e184e9205f74e48",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node b5448bd1109246088e184e9205f74e48 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Plan + code extraction failed, retrying...",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 7b9a385395dd44589124994c10336347",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 7b9a385395dd44589124994c10336347 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 7b9a385395dd44589124994c10336347",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 7b9a385395dd44589124994c10336347 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 7b9a385395dd44589124994c10336347 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 7b9a385395dd44589124994c10336347 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node e387d7bbbc774943b5e9d90d99068319, the generated node is 7b9a385395dd44589124994c10336347, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 7b9a385395dd44589124994c10336347",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is 7b9a385395dd44589124994c10336347",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=2,edges=[(0, 1)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 4/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 7b9a385395dd44589124994c10336347",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 7b9a385395dd44589124994c10336347",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 7b9a385395dd44589124994c10336347.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 7b9a385395dd44589124994c10336347 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 7b9a385395dd44589124994c10336347 to create new node 430f554e23ce434f9aa096ae9d56ce12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 430f554e23ce434f9aa096ae9d56ce12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 430f554e23ce434f9aa096ae9d56ce12 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 430f554e23ce434f9aa096ae9d56ce12 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 430f554e23ce434f9aa096ae9d56ce12 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 7b9a385395dd44589124994c10336347, the generated node is 430f554e23ce434f9aa096ae9d56ce12, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 430f554e23ce434f9aa096ae9d56ce12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node b5448bd1109246088e184e9205f74e48",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node b5448bd1109246088e184e9205f74e48 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node b5448bd1109246088e184e9205f74e48 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node b5448bd1109246088e184e9205f74e48 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node e387d7bbbc774943b5e9d90d99068319, the generated node is b5448bd1109246088e184e9205f74e48, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main b5448bd1109246088e184e9205f74e48",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is b5448bd1109246088e184e9205f74e48",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=4,edges=[(0, 1), (0, 3), (1, 2)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 6/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: b5448bd1109246088e184e9205f74e48",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: b5448bd1109246088e184e9205f74e48",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node b5448bd1109246088e184e9205f74e48.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current b5448bd1109246088e184e9205f74e48 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Child failed to terminate, killing it..",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node b5448bd1109246088e184e9205f74e48 to create new node c949985ff49944b785d1d7f0d4943b8d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c949985ff49944b785d1d7f0d4943b8d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node c949985ff49944b785d1d7f0d4943b8d is marked as buggy because response['metric'] is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c949985ff49944b785d1d7f0d4943b8d is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c949985ff49944b785d1d7f0d4943b8d is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node b5448bd1109246088e184e9205f74e48, the generated node is c949985ff49944b785d1d7f0d4943b8d, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c949985ff49944b785d1d7f0d4943b8d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
+            "delay": 200
+        }
+    ],
+    "code": "virtual code\n",
+    "detail": {
+        "node_id": [
+            "e387d7bbbc774943b5e9d90d99068319",
+            "7b9a385395dd44589124994c10336347",
+            "430f554e23ce434f9aa096ae9d56ce12",
+            "b5448bd1109246088e184e9205f74e48"
+        ],
+        "global_step": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "layout": [
+            [
+                0.5,
+                0.0
+            ],
+            [
+                0.0,
+                0.5
+            ],
+            [
+                0.0,
+                1.0
+            ],
+            [
+                1.0,
+                0.5
+            ]
+        ],
+        "plan": [
+            "virtual plan",
+            "To address the Natural Questions challenge, we'll employ a Longformer model for\nits ability to process long documents. The model will predict long and short\nanswer spans with aligned token indices, handle YES/NO classifications, and\noptimize using combined loss. We'll validate using a 20% split from training\ndata and compute micro F1.",
+            "The error occurs because the slow tokenizer doesn't support\nreturn_offset_mapping. We'll replace LongformerTokenizer with\nLongformerTokenizerFast which supports this feature. Also, we'll fix the dataset\nsplitting and ensure proper submission generation.",
+            "To address the Natural Questions task, we'll use a two-stage approach leveraging\na pre-trained BERT model. First, we process each long answer candidate by\nencoding the question-candidate pair to predict answer spans. The candidate with\nthe highest confidence score is selected as the long answer. For the short\nanswer, we predict the span within the selected candidate or detect yes/no\nresponses using text matching. This approach efficiently utilizes transformer\ncapabilities while respecting computational constraints."
+        ],
+        "code": [
+            "virtual code",
+            "import json\nimport torch\nfrom torch.utils.data import Dataset, DataLoader\nfrom transformers import LongformerTokenizer, LongformerForQuestionAnswering, AdamW\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nimport pandas as pd\nfrom tqdm import tqdm\n\n# Configuration\nMODEL_NAME = \"allenai/longformer-base-4096\"\nBATCH_SIZE = 2\nMAX_LENGTH = 4096\nEPOCHS = 1\ntokenizer = LongformerTokenizer.from_pretrained(MODEL_NAME)\n\n\nclass QADataset(Dataset):\n    def __init__(self, file_path, test_mode=False):\n        self.data = []\n        with open(file_path, \"r\") as f:\n            for line in tqdm(f, desc=\"Loading data\"):\n                item = json.loads(line)\n                if len(item[\"document_text\"].split()) == 0:\n                    continue\n                self.data.append(item)\n        self.test_mode = test_mode\n\n    def __len__(self):\n        return len(self.data)\n\n    def __getitem__(self, idx):\n        item = self.data[idx]\n        question = item[\"question_text\"]\n        doc_tokens = item[\"document_text\"].split()\n\n        # Tokenize with original token alignment\n        encoding = tokenizer(\n            question,\n            doc_tokens,\n            max_length=MAX_LENGTH,\n            truncation=\"only_second\",\n            padding=\"max_length\",\n            return_offsets_mapping=True,\n            is_split_into_words=True,\n        )\n\n        # Create token to original word mapping\n        word_ids = encoding.word_ids(1)\n        token_to_original_map = []\n        for word_id in word_ids:\n            token_to_original_map.append(word_id if word_id is not None else -1)\n\n        inputs = {\n            \"input_ids\": torch.tensor(encoding[\"input_ids\"], dtype=torch.long),\n            \"attention_mask\": torch.tensor(\n                encoding[\"attention_mask\"], dtype=torch.long\n            ),\n            \"token_to_original_map\": torch.tensor(\n                token_to_original_map, dtype=torch.long\n            ),\n        }\n\n        if not self.test_mode:\n            # Process long answer\n            long_start = item[\"annotations\"][0][\"long_answer\"][\"start_token\"]\n            long_end = item[\"annotations\"][0][\"long_answer\"][\"end_token\"]\n\n            # Map to token positions\n            long_start_token = None\n            long_end_token = None\n            for i, orig_pos in enumerate(token_to_original_map):\n                if orig_pos == long_start:\n                    long_start_token = i\n                if orig_pos == long_end - 1:\n                    long_end_token = i\n            inputs[\"long_start\"] = torch.tensor(\n                long_start_token if long_start_token else 0, dtype=torch.long\n            )\n            inputs[\"long_end\"] = torch.tensor(\n                long_end_token if long_end_token else 0, dtype=torch.long\n            )\n\n            # Process short answer\n            if item[\"annotations\"][0][\"yes_no_answer\"] != \"NONE\":\n                inputs[\"short_type\"] = torch.tensor(\n                    1 if item[\"annotations\"][0][\"yes_no_answer\"] == \"YES\" else 2,\n                    dtype=torch.long,\n                )\n                inputs[\"short_start\"] = torch.tensor(0, dtype=torch.long)\n                inputs[\"short_end\"] = torch.tensor(0, dtype=torch.long)\n            else:\n                inputs[\"short_type\"] = torch.tensor(0, dtype=torch.long)\n                if len(item[\"annotations\"][0][\"short_answers\"]) > 0:\n                    short = item[\"annotations\"][0][\"short_answers\"][0]\n                    short_start = short[\"start_token\"]\n                    short_end = short[\"end_token\"]\n                    short_start_token = None\n                    short_end_token = None\n                    for i, orig_pos in enumerate(token_to_original_map):\n                        if orig_pos == short_start:\n                            short_start_token = i\n                        if orig_pos == short_end - 1:\n                            short_end_token = i\n                    inputs[\"short_start\"] = torch.tensor(\n                        short_start_token if short_start_token else 0, dtype=torch.long\n                    )\n                    inputs[\"short_end\"] = torch.tensor(\n                        short_end_token if short_end_token else 0, dtype=torch.long\n                    )\n                else:\n                    inputs[\"short_start\"] = torch.tensor(0, dtype=torch.long)\n                    inputs[\"short_end\"] = torch.tensor(0, dtype=torch.long)\n\n        return inputs\n\n\n# Load and split data\nfull_dataset = QADataset(\"input/simplified-nq-train.jsonl\")\ntrain_data, val_data = train_test_split(full_dataset, test_size=0.2, random_state=42)\ntrain_loader = DataLoader(\n    train_data, batch_size=BATCH_SIZE, shuffle=True, num_workers=4\n)\nval_loader = DataLoader(val_data, batch_size=BATCH_SIZE, num_workers=4)\n\n\n# Model with multi-task heads\nclass QAModel(torch.nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.longformer = LongformerForQuestionAnswering.from_pretrained(MODEL_NAME)\n        self.short_classifier = torch.nn.Linear(self.longformer.config.hidden_size, 3)\n\n    def forward(self, input_ids, attention_mask):\n        outputs = self.longformer(\n            input_ids=input_ids,\n            attention_mask=attention_mask,\n            output_hidden_states=True,\n        )\n        long_logits = outputs.start_logits, outputs.end_logits\n        short_logits = self.short_classifier(outputs.hidden_states[-1][:, 0, :])\n        return long_logits, short_logits\n\n\nmodel = QAModel().cuda()\noptimizer = AdamW(model.parameters(), lr=1e-5)\n\n# Training loop\nfor epoch in range(EPOCHS):\n    model.train()\n    for batch in tqdm(train_loader, desc=f\"Training Epoch {epoch}\"):\n        input_ids = batch[\"input_ids\"].cuda()\n        attention_mask = batch[\"attention_mask\"].cuda()\n\n        long_logits, short_logits = model(input_ids, attention_mask)\n\n        # Long answer loss\n        long_start_loss = torch.nn.CrossEntropyLoss()(\n            long_logits[0], batch[\"long_start\"].cuda()\n        )\n        long_end_loss = torch.nn.CrossEntropyLoss()(\n            long_logits[1], batch[\"long_end\"].cuda()\n        )\n        long_loss = (long_start_loss + long_end_loss) / 2\n\n        # Short answer loss\n        short_cls_loss = torch.nn.CrossEntropyLoss()(\n            short_logits, batch[\"short_type\"].cuda()\n        )\n        short_start_loss = torch.nn.CrossEntropyLoss()(\n            long_logits[0], batch[\"short_start\"].cuda()\n        )\n        short_end_loss = torch.nn.CrossEntropyLoss()(\n            long_logits[1], batch[\"short_end\"].cuda()\n        )\n        short_loss = (short_start_loss + short_end_loss) / 2 + short_cls_loss\n\n        total_loss = long_loss + short_loss\n        total_loss.backward()\n        optimizer.step()\n        optimizer.zero_grad()\n\n# Validation\nmodel.eval()\ntp, fp, fn = 0, 0, 0\nwith torch.no_grad():\n    for batch in tqdm(val_loader, desc=\"Validating\"):\n        input_ids = batch[\"input_ids\"].cuda()\n        attention_mask = batch[\"attention_mask\"].cuda()\n        token_maps = batch[\"token_to_original_map\"].numpy()\n\n        long_logits, short_logits = model(input_ids, attention_mask)\n\n        # Process predictions\n        long_starts = torch.argmax(long_logits[0], dim=1).cpu().numpy()\n        long_ends = torch.argmax(long_logits[1], dim=1).cpu().numpy()\n        short_types = torch.argmax(short_logits, dim=1).cpu().numpy()\n\n        for i in range(len(input_ids)):\n            # Get original token spans\n            long_pred = (token_maps[i][long_starts[i]], token_maps[i][long_ends[i]])\n            true_long = (batch[\"long_start\"][i].item(), batch[\"long_end\"][i].item())\n\n            # Calculate TP/FP/FN\n            if (long_pred == true_long) and (true_long != (0, 0)):\n                tp += 1\n            elif (long_pred != (0, 0)) and (true_long == (0, 0)):\n                fp += 1\n            elif (long_pred == (0, 0)) and (true_long != (0, 0)):\n                fn += 1\n\n# Calculate F1\nprecision = tp / (tp + fp + 1e-9)\nrecall = tp / (tp + fn + 1e-9)\nf1 = 2 * (precision * recall) / (precision + recall + 1e-9)\nprint(f\"Validation Micro F1: {f1:.4f}\")\n\n# Generate submission\ntest_dataset = QADataset(\"input/simplified-nq-test.jsonl\", test_mode=True)\ntest_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, num_workers=4)\n\npredictions = []\nmodel.eval()\nwith torch.no_grad():\n    for batch in tqdm(test_loader, desc=\"Predicting\"):\n        input_ids = batch[\"input_ids\"].cuda()\n        attention_mask = batch[\"attention_mask\"].cuda()\n        token_maps = batch[\"token_to_original_map\"].numpy()\n\n        long_logits, short_logits = model(input_ids, attention_mask)\n        long_starts = torch.argmax(long_logits[0], dim=1).cpu().numpy()\n        long_ends = torch.argmax(long_logits[1], dim=1).cpu().numpy()\n        short_types = torch.argmax(short_logits, dim=1).cpu().numpy()\n\n        for i in range(len(input_ids)):\n            example_id = test_dataset.data[batch[\"idx\"][i].item()][\"example_id\"]\n            # Long answer\n            long_pred_start = token_maps[i][long_starts[i]]\n            long_pred_end = token_maps[i][long_ends[i]]\n            long_pred = (\n                f\"{long_pred_start}:{long_pred_end}\"\n                if long_pred_start < long_pred_end\n                else \"\"\n            )\n            predictions.append(\n                {\"example_id\": f\"{example_id}_long\", \"PredictionString\": long_pred}\n            )\n\n            # Short answer\n            if short_types[i] == 0:\n                short_pred = \"\"\n            elif short_types[i] == 1:\n                short_pred = \"YES\"\n            elif short_types[i] == 2:\n                short_pred = \"NO\"\n            predictions.append(\n                {\"example_id\": f\"{example_id}_short\", \"PredictionString\": short_pred}\n            )\n\n# Save submission\nsub_df = pd.DataFrame(predictions)\nsub_df.to_csv(\"submission/submission.csv\", index=False)\nprint(\"Submission saved\")\n",
+            "import json\nimport torch\nfrom torch.utils.data import Dataset, DataLoader\nfrom transformers import LongformerTokenizerFast, LongformerForQuestionAnswering, AdamW\nimport numpy as np\nimport pandas as pd\nfrom tqdm import tqdm\n\n# Configuration\nMODEL_NAME = \"allenai/longformer-base-4096\"\nBATCH_SIZE = 2\nMAX_LENGTH = 4096\nEPOCHS = 1\ntokenizer = LongformerTokenizerFast.from_pretrained(MODEL_NAME)\n\n\nclass QADataset(Dataset):\n    def __init__(self, file_path, test_mode=False):\n        self.data = []\n        with open(file_path, \"r\") as f:\n            for line in tqdm(f, desc=\"Loading data\"):\n                item = json.loads(line)\n                if len(item[\"document_text\"].split()) == 0:\n                    continue\n                self.data.append(item)\n        self.test_mode = test_mode\n\n    def __len__(self):\n        return len(self.data)\n\n    def __getitem__(self, idx):\n        item = self.data[idx]\n        question = item[\"question_text\"]\n        context = item[\"document_text\"]\n\n        encoding = tokenizer(\n            question,\n            context,\n            max_length=MAX_LENGTH,\n            truncation=\"only_second\",\n            padding=\"max_length\",\n            return_offsets_mapping=True,\n            return_overflowing_tokens=True,\n            stride=128,\n        )\n\n        offset_mapping = encoding.pop(\"offset_mapping\")[0]\n        inputs = {\n            \"input_ids\": torch.tensor(encoding[\"input_ids\"], dtype=torch.long),\n            \"attention_mask\": torch.tensor(\n                encoding[\"attention_mask\"], dtype=torch.long\n            ),\n            \"offset_mapping\": offset_mapping,\n            \"example_id\": item[\"example_id\"],\n        }\n\n        if not self.test_mode:\n            # Process long answer\n            long_answer = item[\"annotations\"][0][\"long_answer\"]\n            start_char = long_answer[\"start_byte\"]\n            end_char = long_answer[\"end_byte\"]\n\n            # Find token positions from character offsets\n            start_token = end_token = 0\n            for token_idx, (char_start, char_end) in enumerate(offset_mapping):\n                if char_start <= start_char < char_end:\n                    start_token = token_idx\n                if char_start < end_char <= char_end:\n                    end_token = token_idx\n                    break\n\n            inputs[\"start_positions\"] = torch.tensor(start_token, dtype=torch.long)\n            inputs[\"end_positions\"] = torch.tensor(end_token, dtype=torch.long)\n\n        return inputs\n\n\n# Initialize datasets\nfull_dataset = QADataset(\"input/simplified-nq-train.jsonl\")\ntrain_size = int(0.8 * len(full_dataset))\nval_size = len(full_dataset) - train_size\ntrain_dataset, val_dataset = torch.utils.data.random_split(\n    full_dataset, [train_size, val_size]\n)\n\ntrain_loader = DataLoader(\n    train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4\n)\nval_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, num_workers=4)\n\n# Model\nmodel = LongformerForQuestionAnswering.from_pretrained(MODEL_NAME).cuda()\noptimizer = AdamW(model.parameters(), lr=1e-5)\n\n# Training\nfor epoch in range(EPOCHS):\n    model.train()\n    for batch in tqdm(train_loader, desc=f\"Epoch {epoch}\"):\n        inputs = {\n            \"input_ids\": batch[\"input_ids\"].cuda(),\n            \"attention_mask\": batch[\"attention_mask\"].cuda(),\n            \"start_positions\": batch[\"start_positions\"].cuda(),\n            \"end_positions\": batch[\"end_positions\"].cuda(),\n        }\n\n        outputs = model(**inputs)\n        loss = outputs.loss\n        loss.backward()\n        optimizer.step()\n        optimizer.zero_grad()\n\n# Validation\nmodel.eval()\ntp = fp = fn = 0\nwith torch.no_grad():\n    for batch in tqdm(val_loader, desc=\"Validating\"):\n        inputs = {\n            \"input_ids\": batch[\"input_ids\"].cuda(),\n            \"attention_mask\": batch[\"attention_mask\"].cuda(),\n        }\n        outputs = model(**inputs)\n\n        starts = torch.argmax(outputs.start_logits, dim=1).cpu().numpy()\n        ends = torch.argmax(outputs.end_logits, dim=1).cpu().numpy()\n\n        for i in range(len(batch[\"input_ids\"])):\n            pred_start = starts[i]\n            pred_end = ends[i]\n            true_start = batch[\"start_positions\"][i].item()\n            true_end = batch[\"end_positions\"][i].item()\n\n            if (pred_start, pred_end) == (true_start, true_end):\n                tp += 1\n            elif pred_start == 0 and pred_end == 0:\n                fn += 1\n            else:\n                fp += 1\n\nprecision = tp / (tp + fp + 1e-9)\nrecall = tp / (tp + fn + 1e-9)\nf1 = 2 * (precision * recall) / (precision + recall + 1e-9)\nprint(f\"Validation F1: {f1:.4f}\")\n\n# Generate Submission\ntest_dataset = QADataset(\"input/simplified-nq-test.jsonl\", test_mode=True)\ntest_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, num_workers=4)\n\npredictions = []\nmodel.eval()\nwith torch.no_grad():\n    for batch in tqdm(test_loader, desc=\"Predicting\"):\n        inputs = {\n            \"input_ids\": batch[\"input_ids\"].cuda(),\n            \"attention_mask\": batch[\"attention_mask\"].cuda(),\n        }\n        outputs = model(**inputs)\n\n        starts = torch.argmax(outputs.start_logits, dim=1).cpu().numpy()\n        ends = torch.argmax(outputs.end_logits, dim=1).cpu().numpy()\n\n        for i in range(len(batch[\"input_ids\"])):\n            example_id = batch[\"example_id\"][i]\n            offset_mapping = batch[\"offset_mapping\"][i].numpy()\n\n            # Convert token positions to character offsets\n            start_char = offset_mapping[starts[i]][0]\n            end_char = offset_mapping[ends[i]][1]\n\n            # Convert to original token indices\n            doc_text = test_dataset.dataset.data[batch[\"example_id\"][i]][\n                \"document_text\"\n            ]\n            tokens = doc_text.split()\n            start_token = len(doc_text[:start_char].split())\n            end_token = len(doc_text[:end_char].split())\n\n            predictions.append(f\"{example_id}_long,{start_token}:{end_token}\")\n            predictions.append(\n                f\"{example_id}_short,\"\n            )  # Simplified short answer handling\n\n# Save submission\nwith open(\"submission/submission.csv\", \"w\") as f:\n    f.write(\"example_id,PredictionString\\n\")\n    f.write(\"\\n\".join(predictions))\nprint(\"Submission saved\")\n",
+            "import json\nimport torch\nfrom transformers import AutoTokenizer, AutoModelForQuestionAnswering\nfrom tqdm import tqdm\nimport pandas as pd\nimport os\n\n# Configuration\nMODEL_NAME = \"bert-large-uncased-whole-word-masking-finetuned-squad\"\nDEVICE = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nBATCH_SIZE = 8\n\n# Initialize model and tokenizer\ntokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)\nmodel = AutoModelForQuestionAnswering.from_pretrained(MODEL_NAME).to(DEVICE)\nmodel.eval()\n\n\ndef process_file(file_path):\n    data = []\n    with open(file_path, \"r\") as f:\n        for line in f:\n            data.append(json.loads(line))\n    return data\n\n\ntest_data = process_file(\"./input/simplified-nq-test.jsonl\")\nsubmission = pd.DataFrame(columns=[\"example_id\", \"PredictionString\"])\n\n\ndef find_token_indices(candidate_text, answer_text):\n    tokens = candidate_text.split()\n    current = 0\n    char_offsets = []\n    for token in tokens:\n        start = current\n        end = current + len(token)\n        char_offsets.append((start, end))\n        current = end + 1  # Account for space\n\n    answer_start = candidate_text.find(answer_text)\n    if answer_start == -1:\n        return None, None\n    answer_end = answer_start + len(answer_text)\n\n    start_token = None\n    end_token = None\n    for i, (s, e) in enumerate(char_offsets):\n        if s <= answer_start < e:\n            start_token = i\n        if s < answer_end <= e:\n            end_token = i\n    return start_token, end_token\n\n\nfor example in tqdm(test_data):\n    example_id = str(example[\"example_id\"])\n    question = example[\"question_text\"]\n    doc_text = example[\"document_text\"].split()\n\n    best_long = None\n    best_short = None\n    max_score = float(\"-inf\")\n\n    # Process candidates in batches\n    candidates = example[\"long_answer_candidates\"]\n    for i in range(0, len(candidates), BATCH_SIZE):\n        batch = candidates[i : i + BATCH_SIZE]\n        inputs = []\n        candidate_meta = []\n\n        for cand in batch:\n            start = cand[\"start_token\"]\n            end = cand[\"end_token\"]\n            context = \" \".join(doc_text[start:end])\n            inputs.append(\n                tokenizer(\n                    question,\n                    context,\n                    truncation=True,\n                    max_length=512,\n                    return_tensors=\"pt\",\n                    padding=\"max_length\",\n                )\n            )\n            candidate_meta.append((start, end, context))\n\n        # Batch inference\n        input_ids = torch.cat([x[\"input_ids\"] for x in inputs]).to(DEVICE)\n        attention_mask = torch.cat([x[\"attention_mask\"] for x in inputs]).to(DEVICE)\n\n        with torch.no_grad():\n            outputs = model(input_ids, attention_mask=attention_mask)\n\n        # Process each candidate in batch\n        for idx, (start, end, context) in enumerate(candidate_meta):\n            start_logits = outputs.start_logits[idx]\n            end_logits = outputs.end_logits[idx]\n\n            # Find best span\n            start_score, start_idx = torch.max(start_logits, 0)\n            end_score, end_idx = torch.max(end_logits, 0)\n            total_score = (start_score + end_score).item()\n\n            if total_score > max_score:\n                answer_start = start_idx.item()\n                answer_end = end_idx.item()\n                offsets = inputs[idx].token_to_chars(0, answer_start)\n                if offsets:\n                    pred_text = context[offsets.start : offsets.end]\n\n                    # Check for yes/no\n                    if pred_text.lower() in [\"yes\", \"no\"]:\n                        best_short = pred_text.upper()\n                        best_long = f\"{start}:{end}\"\n                        max_score = total_score\n                    else:\n                        # Find exact token indices\n                        start_token, end_token = find_token_indices(context, pred_text)\n                        if start_token is not None and end_token is not None:\n                            doc_start = start + start_token\n                            doc_end = start + end_token + 1\n                            best_short = f\"{doc_start}:{doc_end}\"\n                            best_long = f\"{start}:{end}\"\n                            max_score = total_score\n\n    # Add to submission\n    submission = pd.concat(\n        [\n            submission,\n            pd.DataFrame(\n                [\n                    {\n                        \"example_id\": f\"{example_id}_long\",\n                        \"PredictionString\": best_long or \"\",\n                    }\n                ]\n            ),\n            pd.DataFrame(\n                [\n                    {\n                        \"example_id\": f\"{example_id}_short\",\n                        \"PredictionString\": best_short or \"\",\n                    }\n                ]\n            ),\n        ],\n        ignore_index=True,\n    )\n\n# Ensure submission directory exists\nos.makedirs(\"./submission\", exist_ok=True)\nsubmission.to_csv(\"./submission/submission.csv\", index=False)\nprint(\"Submission file saved successfully.\")\nprint(\"Sample submission:\")\nprint(submission.head())\n"
+        ],
+        "term_out": [
+            "<OMITTED>",
+            "\rvocab.json: 0.00B [00:00, ?B/s]\rvocab.json: 20.0kB [00:00, 38.2kB/s]\rvocab.json: 181kB [00:00, 331kB/s]  \rvocab.json: 242kB [00:00, 348kB/s]\rvocab.json: 497kB [00:01, 675kB/s]\rvocab.json: 704kB [00:01, 914kB/s]\rvocab.json: 819kB [00:01, 755kB/s]\rvocab.json: 899kB [00:01, 645kB/s]\n\rmerges.txt: 0.00B [00:00, ?B/s]\rmerges.txt: 456kB [00:00, 5.90MB/s]\n\rtokenizer.json: 0.00B [00:00, ?B/s]\rtokenizer.json: 8.59kB [00:00, 21.4kB/s]\rtokenizer.json: 213kB [00:00, 427kB/s]  \rtokenizer.json: 641kB [00:00, 907kB/s]\rtokenizer.json: 1.35MB [00:01, 1.94MB/s]\rtokenizer.json: 1.36MB [00:01, 1.31MB/s]\n\rconfig.json:   0%|          | 0.00/316 [00:00<?, ?B/s]\rconfig.json: 694B [00:00, 3.66MB/s]                   \n\rLoading data: 0it [00:00, ?it/s]\rLoading data: 206it [00:00, 2056.67it/s]\rLoading data: 414it [00:00, 2046.53it/s]\rLoading data: 621it [00:00, 2052.66it/s]\rLoading data: 827it [00:00, 1950.95it/s]\rLoading data: 1023it [00:00, 1876.77it/s]\rLoading data: 1212it [00:00, 1845.94it/s]\rLoading data: 1398it [00:00, 1848.32it/s]\rLoading data: 1584it [00:00, 1846.75it/s]\rLoading data: 1769it [00:00, 1830.54it/s]\rLoading data: 1953it [00:01, 1829.65it/s]\rLoading data: 2151it [00:01, 1869.85it/s]\rLoading data: 2346it [00:01, 1890.25it/s]\rLoading data: 2554it [00:01, 1946.35it/s]\rLoading data: 2753it [00:01, 1954.75it/s]\rLoading data: 2949it [00:01, 1920.61it/s]\rLoading data: 3145it [00:01, 1932.02it/s]\rLoading data: 3345it [00:01, 1951.68it/s]\rLoading data: 3548it [00:01, 1954.84it/s]\rLoading data: 3756it [00:01, 1985.27it/s]\rLoading data: 3957it [00:02, 1989.52it/s]\rLoading data: 4158it [00:02, 1991.71it/s]\rLoading data: 4358it [00:02, 1924.83it/s]\rLoading data: 4551it [00:02, 1924.14it/s]\rLoading data: 4744it [00:02, 1847.50it/s]\rLoading data: 4944it [00:02, 1882.87it/s]\rLoading data: 5133it [00:02, 1826.00it/s]\rLoading data: 5331it [00:02, 1868.32it/s]\rLoading data: 5520it [00:02, 1872.67it/s]\rLoading data: 5715it [00:02, 1893.04it/s]\rLoading data: 5905it [00:03, 1826.14it/s]\rLoading data: 6125it [00:03, 1933.00it/s]\rLoading data: 6323it [00:03, 1945.53it/s]\rLoading data: 6519it [00:03, 1905.50it/s]\rLoading data: 6718it [00:03, 1925.90it/s]\rLoading data: 6912it [00:03, 1929.27it/s]\rLoading data: 7106it [00:03, 1845.64it/s]\rLoading data: 7310it [00:03, 1898.93it/s]\rLoading data: 7514it [00:03, 1939.84it/s]\rLoading data: 7709it [00:04, 1914.95it/s]\rLoading data: 7902it [00:04, 1909.29it/s]\rLoading data: 8094it [00:04, 1865.03it/s]\rLoading data: 8296it [00:04, 1909.65it/s]\rLoad\n ... [58983 characters truncated] ... \nde_env/lib/python3.12/site-packages/sklearn/utils/_param_validation.py\", line 216, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/sklearn/model_selection/_split.py\", line 2876, in train_test_split\n    return list(\n           ^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/sklearn/model_selection/_split.py\", line 2878, in <genexpr>\n    (_safe_indexing(a, train), _safe_indexing(a, test)) for a in arrays\n     ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/sklearn/utils/_indexing.py\", line 272, in _safe_indexing\n    return _list_indexing(X, indices, indices_dtype)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/sklearn/utils/_indexing.py\", line 63, in _list_indexing\n    return [X[idx] for idx in key]\n            ~^^^^^\n  File \"runfile_2.py\", line 40, in __getitem__\n    encoding = tokenizer(\n               ^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py\", line 2877, in __call__\n    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py\", line 2987, in _call_one\n    return self.encode_plus(\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py\", line 3063, in encode_plus\n    return self._encode_plus(\n           ^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/tokenization_utils.py\", line 793, in _encode_plus\n    raise NotImplementedError(\nNotImplementedError: return_offset_mapping is not available when using Python tokenizers. To use this feature, change your tokenizer to one deriving from transformers.PreTrainedTokenizerFast. More information on available tokenizers at https://github.com/huggingface/transformers/pull/2674\nExecution time: 2 minutes seconds (time limit is 9 hours).",
+            "\rLoading data: 0it [00:00, ?it/s]\rLoading data: 183it [00:00, 1825.01it/s]\rLoading data: 393it [00:00, 1984.46it/s]\rLoading data: 592it [00:00, 1926.70it/s]\rLoading data: 785it [00:00, 1859.39it/s]\rLoading data: 972it [00:00, 1831.05it/s]\rLoading data: 1156it [00:00, 1769.06it/s]\rLoading data: 1336it [00:00, 1776.68it/s]\rLoading data: 1514it [00:00, 1776.06it/s]\rLoading data: 1692it [00:00, 1730.65it/s]\rLoading data: 1888it [00:01, 1795.00it/s]\rLoading data: 2074it [00:01, 1814.27it/s]\rLoading data: 2256it [00:01, 1807.37it/s]\rLoading data: 2464it [00:01, 1888.57it/s]\rLoading data: 2664it [00:01, 1919.57it/s]\rLoading data: 2857it [00:01, 1899.64it/s]\rLoading data: 3048it [00:01, 1811.19it/s]\rLoading data: 3256it [00:01, 1880.69it/s]\rLoading data: 3449it [00:01, 1894.83it/s]\rLoading data: 3652it [00:01, 1933.31it/s]\rLoading data: 3846it [00:02, 1917.41it/s]\rLoading data: 4039it [00:02, 1911.28it/s]\rLoading data: 4237it [00:02, 1921.71it/s]\rLoading data: 4430it [00:02, 1863.03it/s]\rLoading data: 4617it [00:02, 1843.30it/s]\rLoading data: 4802it [00:02, 1826.12it/s]\rLoading data: 4985it [00:02, 1789.37it/s]\rLoading data: 5172it [00:02, 1803.31it/s]\rLoading data: 5374it [00:02, 1863.51it/s]\rLoading data: 5561it [00:03, 1861.91it/s]\rLoading data: 5748it [00:03, 1841.06it/s]\rLoading data: 5933it [00:03, 1802.31it/s]\rLoading data: 6144it [00:03, 1886.59it/s]\rLoading data: 6344it [00:03, 1918.67it/s]\rLoading data: 6537it [00:03, 1894.71it/s]\rLoading data: 6727it [00:03, 1887.12it/s]\rLoading data: 6916it [00:03, 1874.02it/s]\rLoading data: 7104it [00:03, 1812.46it/s]\rLoading data: 7297it [00:03, 1845.14it/s]\rLoading data: 7503it [00:04, 1902.96it/s]\rLoading data: 7694it [00:04, 1875.83it/s]\rLoading data: 7887it [00:04, 1888.90it/s]\rLoading data: 8077it [00:04, 1843.48it/s]\rLoading data: 8275it [00:04, 1879.50it/s]\rLoading data: 8464it [00:04, 1830.98it/s]\rLoading data: 8666it [00:04, 1881.79it/s]\rLoading data: 8855it [00:04, 1840.27it/s]\rLoading data: 9065it [00:04, 1914.52it/s]\rLoading data: 9258it [00:04, 1887.30it/s]\rLoading data: 9453it [00:05, 1901.34it/s]\rLoading data: 9644it [00:05, 1876.82it/s]\rLoading data: 9840it [00:05, 1899.86it/s]\rLoading data: 10031it [00:05, 1898.10it/s]\rLoading data: 10221it [00:05, 1882.60it/s]\rLoading data: 10428it [00:05, 1935.85it/s]\rLoading data: 10624it [00:05, 1940.84it/s]\rLoading data: 10819it [00:05, 1896.85it/s]\rLoading data: 11010it [00:05, 1899.43it/s]\rLoading data: 11201it [00:05, 1901.30it/s]\rLoading data: 11392it [00:06\n ... [62365 characters truncated] ... \node exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_2.py\", line 100, in <module>\n    for batch in tqdm(train_loader, desc=f\"Epoch {epoch}\"):\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/tqdm/std.py\", line 1181, in __iter__\n    for obj in iterable:\n               ^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 708, in __next__\n    data = self._next_data()\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 1480, in _next_data\n    return self._process_data(data)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 1505, in _process_data\n    data.reraise()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/_utils.py\", line 733, in reraise\n    raise exception\nKeyError: Caught KeyError in DataLoader worker process 0.\nOriginal Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/_utils/worker.py\", line 349, in _worker_loop\n    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py\", line 50, in fetch\n    data = self.dataset.__getitems__(possibly_batched_index)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataset.py\", line 420, in __getitems__\n    return [self.dataset[self.indices[idx]] for idx in indices]\n            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"runfile_2.py\", line 62, in __getitem__\n    start_char = long_answer[\"start_byte\"]\n                 ~~~~~~~~~~~^^^^^^^^^^^^^^\nKeyError: 'start_byte'\n\nExecution time: 3 minutes seconds (time limit is 9 hours).",
+            "\rtokenizer_config.json:   0%|          | 0.00/48.0 [00:00<?, ?B/s]\rtokenizer_config.json: 100%|##########| 48.0/48.0 [00:00<00:00, 242kB/s]\n\rvocab.txt: 0.00B [00:00, ?B/s]\rvocab.txt: 12.7kB [00:00, 93.0kB/s]\rvocab.txt: 38.5kB [00:00, 156kB/s] \rvocab.txt: 79.1kB [00:00, 92.6kB/s]\rvocab.txt: 186kB [00:01, 151kB/s]  \rvocab.txt: 232kB [00:01, 175kB/s]\n\rtokenizer.json: 0.00B [00:00, ?B/s]\rtokenizer.json: 23.7kB [00:00, 91.3kB/s]\rtokenizer.json: 281kB [00:00, 472kB/s]  \rtokenizer.json: 466kB [00:00, 707kB/s]\nSome weights of the model checkpoint at bert-large-uncased-whole-word-masking-finetuned-squad were not used when initializing BertForQuestionAnswering: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight']\n- This IS expected if you are initializing BertForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).\n- This IS NOT expected if you are initializing BertForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).\n\r  0%|          | 0/30738 [00:00<?, ?it/s]\r  0%|          | 1/30738 [00:00<6:37:10,  1.29it/s]\r  0%|          | 2/30738 [00:00<3:13:42,  2.64it/s]\r  0%|          | 3/30738 [00:01<3:14:38,  2.63it/s]\r  0%|          | 4/30738 [00:01<2:20:54,  3.64it/s]\r  0%|          | 5/30738 [00:01<2:55:49,  2.91it/s]\r  0%|          | 6/30738 [00:04<9:26:05,  1.11s/it]\r  0%|          | 7/30738 [00:05<8:48:10,  1.03s/it]\r  0%|          | 8/30738 [00:06<8:44:57,  1.02s/it]\r  0%|          | 9/30738 [00:06<7:23:08,  1.16it/s]\r  0%|          | 10/30738 [00:07<6:17:25,  1.36it/s]\r  0%|          | 11/30738 [00:08<6:51:24,  1.24it/s]\r  0%|          | 12/30738 [00:08<5:34:41,  1.53it/s]\r  0%|          | 13/30738 [00:10<10:08:52,  1.19s/it]\r  0%|          | 14/30738 [00:12<9:51:02,  1.15s/it] \r  0%|          | 15/30738 [00:12<7:20:21,  1.16it/s]\r  0%|          | 16/30738 [00:12<5:32:59,  1.54it/s]\r  0%|          | 17/30738 [00:13<6:40:29,  1.28it/s]\r  0%|          | 18/30738 [00:15<10:40:09,  1.25s/it]\r  0%|          | 19/30738 [00:18<13:18:32,  1.56s/it]\r  0%|          | 20/30738 [00:18<11:27:14,  1.34s/it]\r  0%|          | 21/30738 [00:21<14:01:25,  1.64s/it]\r  0%|          | 22/30738 [00:21<10:42:04,  1.25s/it]\r  0%|          | 23/30738 [00:23<13:17:00,  1.56s/it]\r  0%|          | 24/30738 [00:24<12:03:23\n ... [1560283 characters truncated] ... \n######1| 28093/30738 [8:58:37<32:34,  1.35it/s]\r 91%|#########1| 28094/30738 [8:58:38<31:08,  1.42it/s]\r 91%|#########1| 28095/30738 [8:58:39<27:28,  1.60it/s]\r 91%|#########1| 28096/30738 [8:58:40<36:24,  1.21it/s]\r 91%|#########1| 28097/30738 [8:58:41<36:17,  1.21it/s]\r 91%|#########1| 28099/30738 [8:58:41<26:50,  1.64it/s]\r 91%|#########1| 28100/30738 [8:58:42<26:27,  1.66it/s]\r 91%|#########1| 28101/30738 [8:58:44<37:23,  1.18it/s]\r 91%|#########1| 28102/30738 [8:58:44<37:52,  1.16it/s]\r 91%|#########1| 28103/30738 [8:58:45<39:10,  1.12it/s]\r 91%|#########1| 28104/30738 [8:58:46<34:58,  1.26it/s]\r 91%|#########1| 28105/30738 [8:58:47<35:23,  1.24it/s]\r 91%|#########1| 28106/30738 [8:58:48<46:20,  1.06s/it]\r 91%|#########1| 28107/30738 [8:58:49<35:30,  1.23it/s]\r 91%|#########1| 28108/30738 [8:58:49<26:17,  1.67it/s]\r 91%|#########1| 28109/30738 [8:58:50<35:36,  1.23it/s]\r 91%|#########1| 28110/30738 [8:58:51<30:40,  1.43it/s]\r 91%|#########1| 28111/30738 [8:58:52<39:27,  1.11it/s]\r 91%|#########1| 28112/30738 [8:58:52<31:02,  1.41it/s]\r 91%|#########1| 28113/30738 [8:58:53<31:32,  1.39it/s]\r 91%|#########1| 28114/30738 [8:58:53<29:55,  1.46it/s]\r 91%|#########1| 28115/30738 [8:58:54<32:21,  1.35it/s]\r 91%|#########1| 28116/30738 [8:58:55<27:13,  1.60it/s]\r 91%|#########1| 28118/30738 [8:58:56<22:41,  1.92it/s]\r 91%|#########1| 28119/30738 [8:58:56<27:05,  1.61it/s]\r 91%|#########1| 28120/30738 [8:58:57<27:17,  1.60it/s]\r 91%|#########1| 28121/30738 [8:58:58<28:10,  1.55it/s]\r 91%|#########1| 28122/30738 [8:58:58<25:38,  1.70it/s]\r 91%|#########1| 28123/30738 [8:58:59<25:08,  1.73it/s]\r 91%|#########1| 28124/30738 [8:58:59<23:52,  1.82it/s]\r 91%|#########1| 28125/30738 [8:59:00<22:38,  1.92it/s]\r 92%|#########1| 28126/30738 [8:59:03<54:36,  1.25s/it]\r 92%|#########1| 28127/30738 [8:59:03<42:01,  1.04it/s]\r 92%|#########1| 28128/30738 [8:59:04<48:59,  1.13s/it]\r 92%|#########1| 28129/30738 [8:59:05<43:32,  1.00s/it]\r 92%|#########1| 28129/30738 [8:59:07<50:00,  1.15s/it]\ncode exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 103, in <module>\n    start_score, start_idx = torch.max(start_logits, 0)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyboardInterrupt\nTimeoutError: Execution exceeded the time limit of 9 hours"
+        ],
+        "analysis": [
+            null,
+            "The execution of the training script failed due to a NotImplementedError. The error occurred because the tokenizer used does not support the 'return_offset_mapping' feature with Python tokenizers. Therefore, the code did not produce a valid submission file.",
+            "The code execution failed due to a KeyError related to the 'start_byte' key in the dataset. This suggests that there was an issue with accessing the expected data structure during training. As a result, the submission.csv file was not successfully produced.",
+            "The code execution failed due to a timeout error, as it exceeded the maximum allowed runtime of 9 hours. Consequently, the submission.csv file was not successfully produced, and no metric value could be reported. The script attempted to process a large dataset using a BERT model for question answering, but the process was interrupted before completion."
+        ],
+        "exp_name": "tensorflow2-question-answering_mcts_comp_dpr1_v7_parallel_3[cpu-72-107]_0605T0438",
+        "metrics": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "ucts": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "is_bug": [
+            "None",
+            "True",
+            "True",
+            "True"
+        ],
+        "rewards": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "visits": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "is_debug_success": [
+            "False",
+            "False",
+            "False",
+            "False"
+        ],
+        "local_best_node_steps": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "local_best_metrics": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "stages": [
+            "root",
+            "draft",
+            "debug",
+            "draft"
+        ],
+        "continue_improve": [
+            false,
+            false,
+            false,
+            false
+        ]
+    }
+}
