@@ -989,7 +989,7 @@
         }
 
         .demo-container {
-            background: #1a1a1a;
+            /* background: #1a1a1a; */
             border-radius: 16px;
             overflow: hidden;
             border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1057,7 +1057,7 @@
         }
 
         .code-section {
-            background: #0d1117;
+            /* background: #0d1117; */
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
 
@@ -1118,7 +1118,7 @@
 
         .demo-controls {
             padding: 1rem 2rem;
-            background: #2d2d2d;
+            background: #21262d;
             display: flex;
             gap: 1rem;
         }
@@ -1399,6 +1399,54 @@
             margin-left: 0.5rem;
         }
     </style>
+    <!-- Node demo -->
+    <style>
+        .controls {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .canvas-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+            /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+            background: rgba(255, 255, 255, 0.05);
+            /* border-radius: 16px; */
+            /* padding: 2rem;
+            margin: 3rem 0; */
+            /* border: 1px solid rgba(255, 255, 255, 0.1); */
+        }
+        #treeCanvas {
+            display: block;
+        }
+        .info-box {
+            position: absolute;
+            background-color: #0a0a0a;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            /* max-width: 400px; */
+            display: none;
+            z-index: 10;
+        }
+        .close-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            cursor: pointer;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .infobox-container {
+            background: #1a1a1a;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
 </head>
 <body>
     <div class="bg-animation"></div>
@@ -1624,7 +1672,7 @@
                 <div class="demo-dropdown-container">
                     <div class="demo-dropdown" id="demo-dropdown">
                         <div class="dropdown-selected" onclick="toggleDropdown()">
-                            <span class="selected-text" id="selected-text">🚢 Titanic Survival Prediction</span>
+                            <span class="selected-text" id="selected-text">⬇️ Select a Competition</span>
                             <span class="dropdown-arrow">▼</span>
                         </div>
                         <div class="dropdown-menu" id="dropdown-menu">
@@ -1744,22 +1792,35 @@
                 </div>
                 
                 <!-- Generated Code Section -->
-                <div class="code-section" id="code-section" style="display: none;">
-                    <div class="code-header">
-                        <h4>🎯 Generated Solution Code</h4>
-                        <button class="copy-btn" onclick="copyCode()" id="copy-btn">📋 Copy Code</button>
+                <div class="code-section" id="code-section">
+                    <div class="demo-controls">
+                        <button class="demo-btn" onclick="startDemo()" id="start-btn" disabled>Start Demo</button>
+                        <button class="demo-btn" onclick="resetDemo()" id="reset-btn" disabled>Reset</button>
+                        <button class="demo-btn" onclick="skipToEnd()" id="skip-btn" disabled>Skip to Results</button>
                     </div>
-                    <pre class="code-content" id="code-content">
-                        <!-- Generated code will be populated by JavaScript -->
-                    </pre>
-                </div>
-                
-                <div class="demo-controls">
-                    <button class="demo-btn" onclick="startDemo()" id="start-btn">Start Demo</button>
-                    <button class="demo-btn" onclick="resetDemo()" id="reset-btn" disabled>Reset</button>
-                    <button class="demo-btn" onclick="skipToEnd()" id="skip-btn" disabled>Skip to Results</button>
+                    <div class="container">
+                        <div class="canvas-container">
+                            <canvas id="treeCanvas"></canvas>
+                            <div id="infoBox" class="infobox-container info-box">
+                                <span class="close-btn" id="closeBtn">×</span>
+                                <div id="nodeTitle" class="terminal-header">Node Info</div>
+                                <div style="height: 95%;">
+                                    <div class="terminal-content" style="height: 40%;">
+                                        <div id="nodeContent"></div>
+                                    </div>
+                                    <div class="code-section" style="height: 60%;">
+                                        <pre class="code-content" style="height: 100%;"><code id="nodeContentCode" class="language-python" style="height: 100%; overflow-y: auto;"></code></pre>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+        <!-- MCTS Section -->
+        <section class="demo" id="mcts">
+            
         </section>
     </main>
 
@@ -1769,7 +1830,7 @@
         // Demo data structure
         let demoRunning = false;
         let currentStep = 0;
-        let currentDemo = 'titanic';
+        let currentDemo = null;
         let demoData = {};
         let demoConfig = {};
         let isLoading = true;
@@ -1778,6 +1839,27 @@
         // Load demo data from external files
         // Load demo data from external files
                 // Load demo data from external files
+        
+        async function loadSingleDemoData(demoMetadata) {
+            console.log(`loading single demo data from ${demoMetadata.id}`);
+            try {
+                // Load demo data
+                const response = await fetch(`./data/demos_with_trajectory/${demoMetadata.file}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    demoData[demoMetadata.id] = data;
+                } 
+                else {
+                    console.warn(`Failed to load demo: ${demoMetadata.id}`);
+                }
+            } catch (error) {
+                console.error('Failed to load demo configuration:', error);
+                showLoadingError();
+                // Fallback to hardcoded data if external files fail
+                initializeFallbackData();
+            }
+            console.log(`loading single demo data from ${demoMetadata.id} COMPLETE`);
+        }
         async function loadDemoData() {
             try {
                 // Show initial loading state
@@ -1801,8 +1883,9 @@
                     try {
                         const response = await fetch(`./data/demos/${demo.file}`);
                         if (response.ok) {
-                            const data = await response.json();
-                            demoData[demo.id] = data;
+                            // const data = await response.json();
+                            // demoData[demo.id] = data;
+                            demoData[demo.id] = 'placeholder';
                         }
                         loadedCount++;
                         const progress = 30 + (loadedCount / totalDemos) * 60;
@@ -2014,8 +2097,8 @@
                 currentDemo = firstDemo.id;
                 
                 // Update selected text
-                document.getElementById('selected-text').textContent = `${firstDemo.icon} ${firstDemo.title}`;
-                document.getElementById('demo-title').textContent = `ML-Master: ${firstDemo.title}`;
+                document.getElementById('selected-text').textContent = `🔽 Select a Competition`;
+                // document.getElementById('demo-title').textContent = `ML-Master: ${firstDemo.title}`;
             }
         }
 
@@ -2032,7 +2115,14 @@
                 return;
             }
             
-            currentDemo = demoName;
+            currentDemo = null;
+            const demo = demoConfig.demos.find(d => d.id === demoName);
+            document.getElementById('start-btn').disabled = true;
+            loadSingleDemoData(demo).then((results) => {
+                currentDemo = demoName;
+                document.getElementById('start-btn').disabled = false;
+            });
+            
             
             // Update selected option
             document.querySelectorAll('.dropdown-option').forEach(option => {
@@ -2160,10 +2250,10 @@
 
         function showGeneratedCode() {
             const codeSection = document.getElementById('code-section');
-            const codeContent = document.getElementById('code-content');
+            // const codeContent = document.getElementById('code-content');
             
-            codeContent.innerHTML = demos[currentDemo].code;
-            codeSection.style.display = 'block';
+            // codeContent.innerHTML = demos[currentDemo].code;
+            // codeSection.style.display = 'block';
             
             // Scroll to code section
             setTimeout(() => {
@@ -2179,7 +2269,6 @@
             document.getElementById('start-btn').disabled = true;
             document.getElementById('reset-btn').disabled = false;
             document.getElementById('skip-btn').disabled = false;
-            document.getElementById('code-section').style.display = 'none';
             
             runDemoStep();
         }
@@ -2209,19 +2298,6 @@
             showGeneratedCode();
         }
     }
-
-        function showGeneratedCode() {
-            const codeSection = document.getElementById('code-section');
-            const codeContent = document.getElementById('code-content');
-            
-            codeContent.innerHTML = demoData[currentDemo].code;
-            codeSection.style.display = 'block';
-            
-            // Scroll to code section
-            setTimeout(() => {
-                codeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }, 500);
-        }
 
         function skipToEnd() {
             demoRunning = false;
@@ -2254,8 +2330,8 @@
             demoRunning = false;
             currentStep = 0;
             document.getElementById('terminal-output').innerHTML = '';
-            document.getElementById('code-section').style.display = 'none';
-            document.getElementById('start-btn').disabled = false;
+            // document.getElementById('code-section').style.display = 'none';
+            // document.getElementById('start-btn').disabled = false;
             document.getElementById('reset-btn').disabled = true;
             document.getElementById('skip-btn').disabled = true;
         }
@@ -2315,6 +2391,712 @@
         });
 
         
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+    <script>
+        /*  MCTS VISUALIZER  */
+        // Read data
+        const treeData = treeStructData = {"edges": [[0, 1], [1, 2], [2, 4], [2, 3], [4, 5], [5, 6], [6, 7]], "layout": [[0.5, 0.0], [0.5, 0.16666666666666663], [0.5, 0.33333333333333337], [0.0, 0.5], [1.0, 0.5], [1.0, 0.6666666666666667], [1.0, 0.8333333333333334], [1.0, 1.0]], "plan": ["Plan 0", "Plan 1", "Plan 2", "Plan 3", "Plan 4", "Plan 5", "Plan 6", "Plan 7"], "code": ["# code 0\nimport os\nimport numpy as np\nimport pandas as pd\nimport torch\nfrom torch import nn\nclass foo:\n  def __init__(self):\n    return\n\ndef a(x):\n  return x + 1\n\nif __name__ == '__main__':\n  for i in range(10):\n    y = a(i) + a(i + 1)\n    print(y)\n", "# code 1", "# code 2", "# code 3", "# code 4", "# code 5", "# code 6", "# code 7"], "term_out": ["<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>"], "exp_name": "whale-categorization-playground_4", "metrics": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]};
+
+        // Define animation constants
+        const NODE_POPOUT_INTERVAL = 1.0;
+        const LINE_POPOUT_INTERVAL = 0.2;
+        const DEFAULT_SCALE = 0.4;
+        const SCALE_MIN = 0.25;
+        const SCALE_MAX = 1.5;
+        const LINE_WIDTH_HIGHLIGHT = 5;
+        const LINE_WIDTH_STANDARD = 0;
+
+        // Canvas setup
+        const canvas = document.getElementById('treeCanvas');
+        const ctx = canvas.getContext('2d');
+        const infoBox = document.getElementById('infoBox');
+        const nodeTitle = document.getElementById('nodeTitle');
+        const nodeContent = document.getElementById('nodeContent');
+        const nodeContentCode = document.getElementById('nodeContentCode');
+        const closeBtn = document.getElementById('closeBtn');
+        const canvasContainer = document.querySelector('.canvas-container');
+
+        // Animation helper functions
+        const quadp = (x) => 1 - (1 - Math.min(x, 1.0)) ** 4;
+        const lerp = (x0, x1, r) => x1 * r + x0 * (1 - r);
+
+        // Set canvas size with device pixel ratio consideration
+        function setupCanvas() {
+            const dpr = window.devicePixelRatio || 1;
+            const rect = canvasContainer.getBoundingClientRect();
+            
+            // Set display size
+            canvas.style.width = rect.width + 'px';
+            canvas.style.height = rect.height + 'px';
+            
+            // Set actual size in memory (scaled for high DPI displays)
+            canvas.width = rect.width * dpr;
+            canvas.height = rect.height * dpr;
+            
+            // Scale the context to ensure correct drawing operations
+            ctx.scale(dpr, dpr);
+        }
+
+        // Initial setup
+        setupCanvas();
+        window.addEventListener('resize', setupCanvas);
+
+        // View state
+        let viewState = {
+            offsetX: canvas.width,
+            offsetY: 100,
+            stretchX: 1,
+            stretchY: 1,
+            scale: 1,
+            targetScale: 1,
+            scaleMouseX : 0,
+            scaleMouseY : 0,
+            scaleWorldX : 0,
+            scaleWorldY : 0,
+            isDragging: false,
+            lastX: 0,
+            lastY: 0,
+            animationTime: 0,
+            isAnimating: false,
+            detailMode: false,
+            detailNode: null,
+            hoveredNode: null,
+            isClick: false,
+            dpr: window.devicePixelRatio || 1
+        };
+
+        // Tree data
+        let nodes = [];
+        let edges = [];
+        let nodeMap = {};
+
+        // Node class
+        class TreeNode {
+            constructor(data, x, y, parent = null, level = 0, index = 0) {
+                this.id = data.id;
+                this.name = data.name;
+                this.metric = data.metric;
+                this.plan = data.plan;
+                this.code = data.code;
+                this.global_step = data.global_step;
+                this.analysis = data.analysis;
+                this.ucts = data.ucts;
+                this.is_bug = data.is_bug;
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.radius = 30;
+                this.parent = parent;
+                this.level = level;
+                this.index = index;
+                this.children = [];
+                this.appearTime = 0;
+                this.animationTimestamp = 0;
+                this.isVisible = false;
+                this.isHighlighted = false;
+                this.isHovered = false;
+            }
+
+            update(deltaTime, animationTime) {
+                // Update visibility based on animation time
+                this.isVisible = animationTime >= this.appearTime;
+                
+                // Smooth movement to target position
+                if (this.isVisible) {
+                    const speed = 0.1;
+                    this.x += (this.targetX - this.x) * speed;
+                    this.y += (this.targetY - this.y) * speed;
+                }
+            }
+
+            render(ctx, viewState) {
+                if (!this.isVisible) return;
+
+                const scale = viewState.scale;
+                const offsetX = viewState.offsetX;
+                const offsetY = viewState.offsetY;
+
+                // Calculate screen position
+                const screenX = this.x * scale + offsetX;
+                const screenY = this.y * scale + offsetY;
+                // const screenRadius = this.radius * scale;
+
+                //// Draw <NODE>
+                this.animationTimestamp = quadp((viewState.animationTime - this.appearTime) / NODE_POPOUT_INTERVAL,);
+                const screenRadius = this.radius * scale * (0.75 + 0.25 * (3 * this.animationTimestamp - 2 * this.animationTimestamp ** 2));
+
+                // Draw node with high-quality rendering
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(screenX, screenY, screenRadius, 0, Math.PI * 2);
+                
+                // Color based on value (green to red)
+                const valueColor = 330 - this.ucts * 35;
+                
+                // Determine fill color based on state
+                let fillColor;
+                if (this.isHighlighted) {
+                    fillColor = `hsl(${valueColor}, 80%, 70%)`;
+                } else if (this.isHovered) {
+                    fillColor = `hsl(${valueColor}, 90%, 65%)`;
+                } else {
+                    fillColor = `hsl(${valueColor}, 80%, 60%)`;
+                }
+                
+                ctx.fillStyle = fillColor;
+                ctx.fill();
+                
+                ctx.lineWidth = (this.isHovered || this.isHighlighted) ? LINE_WIDTH_HIGHLIGHT * scale : LINE_WIDTH_STANDARD * scale;
+                ctx.strokeStyle = (this.isHovered || this.isHighlighted) ? `hsl(${valueColor}, 80%, 90%)` : `hsl(${valueColor}, 80%, 50%)`;
+                ctx.stroke();
+                ctx.restore();
+
+                //// Draw <TEXT>
+                // Draw node text with high quality
+                ctx.save();
+                ctx.fillStyle = '#ffffffcc';
+                ctx.font = `bold ${Math.max(18 * scale, 18 * scale)}px sans-serif`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                if (typeof this.ucts === 'number' && !isNaN(this.ucts))
+                    ctx.fillText(this.ucts.toFixed(2), screenX, screenY);
+                else
+                    ctx.fillText("N/A", screenX, screenY);
+
+                // Draw visits count below node
+                // ctx.fillStyle = '#333';
+                // ctx.font = `${Math.max(10 * scale, 10 * scale)}px Arial`;
+                // ctx.fillText(`p=${this.animationTimestamp}`, screenX, screenY + screenRadius + 15 * scale);
+                ctx.restore();
+            }
+
+            containsPoint(x, y, viewState) {
+                if (!this.isVisible) return false;
+                
+                const scale = viewState.scale;
+                const offsetX = viewState.offsetX;
+                const offsetY = viewState.offsetY;
+
+                const screenX = this.x * scale + offsetX;
+                const screenY = this.y * scale + offsetY;
+                const screenRadius = this.radius * scale;
+
+                const dx = x - screenX;
+                const dy = y - screenY;
+                return dx * dx + dy * dy <= screenRadius * screenRadius;
+            }
+        }
+
+        // Edge class
+        class Edge {
+            constructor(fromNode, toNode, appearTime) {
+                this.fromNode = fromNode;
+                this.toNode = toNode;
+                this.appearTime = appearTime;
+                this.animationTimestamp = 0;
+                this.weight = 1;
+                this.isVisible = false;
+            }
+
+            update(deltaTime, animationTime) {
+                this.isVisible = animationTime >= this.appearTime;
+            }
+
+            render(ctx, viewState) {
+                if (!this.isVisible) return;
+
+                this.animationTimestamp = quadp((viewState.animationTime - this.appearTime) / LINE_POPOUT_INTERVAL,);
+
+                const scale = viewState.scale;
+                const offsetX = viewState.offsetX;
+                const offsetY = viewState.offsetY;
+
+                // Calculate screen position
+                const parentScreenX = this.fromNode.x * scale + offsetX;
+                const parentScreenY = (this.fromNode.y + this.fromNode.radius) * scale + offsetY;
+                const childScreenX = this.toNode.x * scale + offsetX;
+                const childScreenY = (this.toNode.y - this.toNode.radius) * scale + offsetY;
+                const targetX = (1 - this.animationTimestamp) * parentScreenX + this.animationTimestamp * childScreenX
+                const targetY = (1 - this.animationTimestamp) * parentScreenY + this.animationTimestamp * childScreenY
+
+                // Draw edge
+                ctx.beginPath();
+                ctx.moveTo(parentScreenX, parentScreenY);
+                ctx.bezierCurveTo(
+                    parentScreenX, 0.55 * parentScreenY + 0.45 * targetY, 
+                    targetX, 0.45 * parentScreenY + 0.55 * targetY,
+                    targetX, targetY
+                );
+                ctx.lineWidth = 2 * scale;
+                ctx.strokeStyle = `rgba(240, 240, 240, ${this.isVisible ? 0.9 : 0})`;
+                ctx.stroke();
+            }
+        }
+
+        function buildTreeFromJson(data) {
+            // enumerate nodes
+            for (i = 0; i < data.layout.length; i += 1) {
+                const nodePositionX = data.layout[i][0] * viewState.stretchX;
+                const nodePositionY = data.layout[i][1] * viewState.stretchY;
+                const nodeData = {
+                    id: data.node_id,
+                    name: 'Step ' + data.global_step[i] + ': ' + data.stages[i],
+                    metric: data.metrics[i],
+                    ucts: data.ucts[i],
+                    global_step: data.global_step[i],
+                    plan: data.plan[i],
+                    code: data.code[i],
+                    is_bug: data.is_bug[i],
+                    analysis: data.analysis[i]
+                };
+                const node = new TreeNode(nodeData, nodePositionX, nodePositionY, null, 0, index = i);
+                nodes.push(node);
+                nodeMap[node.id] = node;
+            }
+            // enumerate edges
+            data.edges.forEach((edgeData, idx) => {
+                const edge = new Edge(nodes[edgeData[0]], nodes[edgeData[1]], (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * idx + NODE_POPOUT_INTERVAL);
+                nodes[edgeData[1]].appearTime = (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * (idx + NODE_POPOUT_INTERVAL);
+                edges.push(edge);
+
+            });
+            return;
+        }
+
+        // Reset all nodes to invisible
+        function resetVisibility() {
+            nodes.forEach(node => {
+                node.isVisible = false;
+                node.isHighlighted = false;
+                node.isHovered = false;
+            });
+            edges.forEach(edge => {
+                edge.isVisible = false;
+            });
+            viewState.animationTime = 0;
+            viewState.isAnimating = false;
+            viewState.detailMode = false;
+            viewState.detailNode = null;
+            viewState.hoveredNode = null;
+            infoBox.style.display = 'none';
+        }
+
+        // Start animation
+        function startAnimation() {
+            // reset
+            nodes = [];
+            edges = [];
+            nodeMap = {};
+            datapoint = demoData[currentDemo].detail;
+            layoutInfo = buildLayout(datapoint.edges, datapoint.plan.length);
+            datapoint.layout = layoutInfo.layout;
+            viewState.stretchX = 80 * layoutInfo.width;
+            viewState.stretchY = 120 * layoutInfo.height;
+            buildTreeFromJson(datapoint);
+            resetView();
+            // start
+            resetVisibility();
+            viewState.isAnimating = true;
+            viewState.animationTime = 0;
+        }
+
+        // Reset view
+        function resetView() {
+            const rect = canvasContainer.getBoundingClientRect();
+            if (nodes.length > 0) {
+                viewState.offsetX = rect.width / viewState.dpr * 0.5 - DEFAULT_SCALE * nodes[0].x;
+                viewState.offsetY = rect.height / viewState.dpr * 0.1 - DEFAULT_SCALE * nodes[0].y;
+            }
+            viewState.scale = DEFAULT_SCALE;
+            viewState.targetScale = DEFAULT_SCALE;
+            resetVisibility();
+            render();
+        }
+
+        // Show node details
+        function showNodeDetails(node) {
+            viewState.detailMode = true;
+            viewState.detailNode = node;
+            
+            // Highlight this node
+            nodes.forEach(n => {
+                n.isHighlighted = false;
+                n.isHovered = false;
+            });
+            node.isHighlighted = true;
+            
+            // Update info box
+            nodeTitle.textContent = node.name;
+            const codeblocks = hljs.highlight(node.code, { language: "python" }).value;
+            nodeContentCode.innerHTML = codeblocks;
+            nodeContent.innerHTML = `
+                <p><strong style="color: #58a6ff">Validation Score:</strong> ${node.metric ? node.metric.toFixed(4) : 'N/A'}</p>
+                <p><strong style="color: #58a6ff">Plan:</strong> ${node.plan}</p>
+                <p><strong style="color: #58a6ff">Analysis:</strong> ${node.analysis}</p>
+            `;
+            
+            // Position and show info box
+            const rect = canvasContainer.getBoundingClientRect();
+            if (rect.width < 768) {
+                infoBox.style.left = 10 + 'px';
+                infoBox.style.right = 10 + 'px';
+                infoBox.style.top = (rect.height * 0.40) + 'px';
+                infoBox.style.bottom = '20px';
+            } else {
+                infoBox.style.left = (rect.width * 0.35) + 'px';
+                infoBox.style.right = (rect.width * 0.02) + 'px';
+                infoBox.style.top = '20px';
+                infoBox.style.bottom = '20px';
+            }
+            
+            // infoBox.style.height = (rect.height - 40) + 'px';
+            infoBox.style.display = 'block';
+            infoBox.style.animation = "fadeInUp 0.5s ease-out 0.0s both";
+        }
+
+        // Exit detail mode
+        function exitDetailMode() {
+            viewState.detailMode = false;
+            viewState.detailNode = null;
+            nodes.forEach(n => {
+                n.isHighlighted = false;
+                n.isHovered = false;
+            });
+            infoBox.style.display = 'none';
+            infoBox.style.animation = 'none';
+        }
+
+        // Check for node under mouse position
+        function checkNodeHover(mouseX, mouseY) {
+            // if (viewState.detailMode) return null;
+            
+            // Check nodes in reverse order (so top-most nodes get priority)
+            for (let i = nodes.length - 1; i >= 0; i--) {
+                const node = nodes[i];
+                if (node.containsPoint(mouseX, mouseY, viewState)) {
+                    return node;
+                }
+            }
+            return null;
+        }
+
+        // Update hover state for all nodes
+        function updateHoverState(mouseX, mouseY) {
+            const hoveredNode = checkNodeHover(mouseX, mouseY);
+            
+            // Update hover state for all nodes
+            nodes.forEach(node => {
+                node.isHovered = (node === hoveredNode);
+            });
+            
+            // Update cursor style
+            if (hoveredNode) {
+                canvas.style.cursor = 'pointer';
+            } else if (viewState.isDragging) {
+                canvas.style.cursor = 'grabbing';
+            } else {
+                canvas.style.cursor = 'auto';
+            }
+            
+            viewState.hoveredNode = hoveredNode;
+        }
+
+        // Build Layout
+        function buildLayout(edges, numNodes) {
+            // Step 1: Build the tree
+            const children = Array.from({ length: numNodes }, () => []);
+            const hasParent = Array(numNodes).fill(false);
+            for (const [parent, child] of edges) {
+                children[parent].push(child);
+                hasParent[child] = true;
+            }
+
+            const root = 0; // Required by prompt
+
+            // Step 2: DFS to assign depth and build levels
+            const levels = [];
+            const depth = Array(numNodes).fill(0);
+            function dfs(node, d) {
+                depth[node] = d;
+                if (!levels[d]) levels[d] = [];
+                levels[d].push(node);
+                for (const child of children[node]) {
+                    dfs(child, d + 1);
+                }
+            }
+            dfs(root, 0);
+
+            // Step 3: X positioning (recursive)
+            const layouts = Array.from({ length: numNodes }, () => [0, 0]);
+            const xPos = {};
+            let currentX = 0;
+            function assignX(node) {
+                if (children[node].length === 0) {
+                    xPos[node] = currentX++;
+                } else {
+                    for (const child of children[node]) {
+                        assignX(child);
+                    }
+                    const first = xPos[children[node][0]];
+                    const last = xPos[children[node][children[node].length - 1]];
+                    xPos[node] = (first + last) / 2;
+                }
+            }
+            assignX(root);
+
+            // Normalize X and Y
+            const allX = Object.values(xPos);
+            const minX = Math.min(...allX);
+            const maxX = Math.max(...allX);
+            const rangeX = maxX - minX || 1;
+
+            const maxDepth = levels.length - 1;
+            for (let i = 0; i < numNodes; i++) {
+                const x = (xPos[i] - minX) / rangeX;
+                const y = maxDepth === 0 ? 0 : depth[i] / maxDepth;
+                layouts[i] = [x, y];
+            }
+
+            // Center root at (0.5, 0)
+            const deltaX = 0.5 - layouts[root][0];
+            for (let i = 0; i < numNodes; i++) {
+                layouts[i][0] = Math.min(1, Math.max(0, layouts[i][0] + deltaX));
+            }
+            layouts[root] = [0.5, 0];
+
+            // Compute width (max number of nodes in a level) and height
+            const width = Math.max(...levels.map(level => level.length));
+            const height = levels.length;
+
+            return {
+                width: width,
+                height: height,
+                layout: layouts
+            };
+        }
+
+
+        // Get accurate mouse position accounting for canvas scaling
+        function getMousePos(canvas, evt) {
+            const rect = canvas.getBoundingClientRect();
+            const dpr = viewState.dpr;
+            
+            return {
+                x: (evt.clientX - rect.left) / dpr,
+                y: (evt.clientY - rect.top)  / dpr
+            };
+        }
+
+        // Main render function
+        function render() {
+            // Clear canvas with transparent background
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Apply DPR scaling
+            ctx.save();
+            ctx.scale(viewState.dpr, viewState.dpr);
+            
+            // Draw all edges first
+            edges.forEach(edge => edge.render(ctx, viewState));
+            
+            // Then draw all nodes
+            nodes.forEach(node => node.render(ctx, viewState));
+            
+            ctx.restore();
+        }
+
+        // Animation loop
+        function animate(timestamp) {
+            if (!lastTimestamp) lastTimestamp = timestamp;
+            const deltaTime = (timestamp - lastTimestamp) / 1000;
+            lastTimestamp = timestamp;
+
+            if (viewState.isAnimating) {
+                viewState.animationTime += deltaTime;
+                
+                // Update all nodes and edges
+                nodes.forEach(node => node.update(deltaTime, viewState.animationTime));
+                edges.forEach(edge => edge.update(deltaTime, viewState.animationTime));
+                
+                // Stop animation after all nodes are visible
+                const allAnimationFinished = nodes.every(node =>(node.animationTimestamp >= 1));
+                if (allAnimationFinished) {
+                    viewState.isAnimating = false;
+                }
+            }
+
+            // Smooth scaling
+            if (Math.abs(viewState.scale - viewState.targetScale) > 0.001) {
+                const oldScale = viewState.scale;
+                viewState.scale += (viewState.targetScale - viewState.scale) * 0.1;
+                // Adjust offset to zoom toward mouse position 
+                const altMouseX = viewState.scaleWorldX * oldScale + viewState.offsetX; // WorldPos * oldViewScale + currentOffset
+                const altMouseY = viewState.scaleWorldY * oldScale + viewState.offsetY;
+                viewState.offsetX = altMouseX - viewState.scaleWorldX * viewState.scale;
+                viewState.offsetY = altMouseY - viewState.scaleWorldY * viewState.scale;
+            } else {
+                const oldScale = viewState.scale;
+                viewState.scale = viewState.targetScale;
+                // Adjust offset to zoom toward mouse position 
+                const altMouseX = viewState.scaleWorldX * oldScale + viewState.offsetX; // WorldPos * oldViewScale + currentOffset
+                const altMouseY = viewState.scaleWorldY * oldScale + viewState.offsetY;
+                viewState.offsetX = altMouseX - viewState.scaleWorldX * viewState.scale;
+                viewState.offsetY = altMouseY - viewState.scaleWorldY * viewState.scale;
+            }
+
+            // Smooth camera for detailed mode & out of border
+            const rect = canvasContainer.getBoundingClientRect();
+            if (viewState.detailMode) {
+                if (rect.width < 768) {
+                    targetX = rect.width * 0.5 / viewState.dpr;
+                    targetY = rect.height * 0.1 / viewState.dpr;
+                }
+                else {
+                    targetX = rect.width * 0.175 / viewState.dpr;
+                    targetY = rect.height * 0.25 / viewState.dpr;
+                }
+                
+                
+                const targetOffsetX = targetX - viewState.detailNode.x * viewState.scale;
+                const targetOffsetY = targetY - viewState.detailNode.y * viewState.scale;
+
+                viewState.offsetX = lerp(viewState.offsetX, targetOffsetX, 0.2);
+                viewState.offsetY = lerp(viewState.offsetY, targetOffsetY, 0.2);
+                viewState.targetScale = 0.6;
+            } else {
+                if (viewState.offsetX < - viewState.stretchX * viewState.scale + rect.width * 0.05 / viewState.dpr) 
+                    viewState.offsetX = lerp(viewState.offsetX, - viewState.stretchX * viewState.scale + rect.width * 0.05 / viewState.dpr, 0.2);
+                if (viewState.offsetX > rect.width * 0.95 / viewState.dpr)
+                    viewState.offsetX = lerp(viewState.offsetX, rect.width * 0.95 / viewState.dpr, 0.2);
+                if (viewState.offsetY < - viewState.stretchY * viewState.scale + rect.height * 0.05 / viewState.dpr) 
+                    viewState.offsetY = lerp(viewState.offsetY, - viewState.stretchY * viewState.scale + rect.height * 0.05 / viewState.dpr, 0.2);
+                if (viewState.offsetY > rect.height * 0.95 / viewState.dpr)
+                    viewState.offsetY = lerp(viewState.offsetY, rect.height * 0.95 / viewState.dpr, 0.2);
+            }
+            
+            
+            /*!*/
+
+            render();
+            requestAnimationFrame(animate);
+        }
+
+        function skipAnimation() {
+            const animationEndTime = Math.max(...nodes.map(node => node.appearTime)) + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
+            viewState.animationTime = animationEndTime;
+        }
+
+        // Event listeners
+        canvas.addEventListener('mousedown', (e) => {
+            // if (viewState.detailMode) return;
+            
+            const mousePos = getMousePos(canvas, e);
+            
+            viewState.isDragging = true;
+            viewState.lastX = mousePos.x;
+            viewState.lastY = mousePos.y;
+            viewState.isClick = true;
+            
+            updateHoverState(mousePos.x, mousePos.y);
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mousePos = getMousePos(canvas, e);
+            
+            if (viewState.detailMode) {
+                updateHoverState(mousePos.x, mousePos.y);
+                return;
+            }
+            
+            if (viewState.isDragging) {
+                const dx = mousePos.x - viewState.lastX;
+                const dy = mousePos.y - viewState.lastY;
+                
+                if (Math.abs(dx) > 5 || Math.abs(dy) > 5) {
+                    viewState.isClick = false;
+                }
+                
+                viewState.offsetX += dx;
+                viewState.offsetY += dy;
+                
+                viewState.lastX = mousePos.x;
+                viewState.lastY = mousePos.y;
+            }
+            
+            updateHoverState(mousePos.x, mousePos.y);
+        });
+
+        canvas.addEventListener('mouseup', (e) => {
+            const mousePos = getMousePos(canvas, e);
+            
+            if (viewState.detailMode) {
+                viewState.isDragging = false;
+                const clickedNode = checkNodeHover(mousePos.x, mousePos.y);
+                if (clickedNode === null) {
+                    exitDetailMode();
+                }
+                // return;
+            }
+            
+            viewState.isDragging = false;
+            
+            if (viewState.isClick) {
+                const clickedNode = checkNodeHover(mousePos.x, mousePos.y);
+                if (clickedNode) {
+                    showNodeDetails(clickedNode);
+                }
+            }
+            
+            viewState.isClick = false;
+        });
+
+        canvas.addEventListener('mouseleave', () => {
+            viewState.isDragging = false;
+            viewState.isClick = false;
+            
+            nodes.forEach(node => node.isHovered = false);
+            viewState.hoveredNode = null;
+            canvas.style.cursor = 'grab';
+        });
+
+        canvas.addEventListener('wheel', (e) => {
+            if (viewState.detailMode) return;
+            if (viewState.animationTime == 0) return;
+            e.preventDefault();
+            
+            const mousePos = getMousePos(canvas, e);
+            
+            // Convert mouse position to world coordinates
+            viewState.scaleWorldX = (mousePos.x - viewState.offsetX) / viewState.scale;
+            viewState.scaleWorldY = (mousePos.y - viewState.offsetY) / viewState.scale;
+            viewState.scaleMouseX = mousePos.x;
+            viewState.scaleMouseY = mousePos.y;
+            viewState.scaleBaseOffsetX = viewState.offsetX;
+            viewState.scaleBaseOffsetY = viewState.offsetY;
+            
+            // Calculate zoom factor
+            const zoomFactor = e.deltaY < 0 ? 1.1 : 0.9;
+            viewState.targetScale *= zoomFactor;
+            viewState.targetScale = Math.max(SCALE_MIN, Math.min(SCALE_MAX, viewState.targetScale));
+            
+            updateHoverState(mousePos.x, mousePos.y);
+        });
+
+        document.getElementById('start-btn').addEventListener('click', startAnimation);
+        document.getElementById('reset-btn').addEventListener('click', resetView);
+        document.getElementById('skip-btn').addEventListener('click', skipAnimation);
+        closeBtn.addEventListener('click', exitDetailMode);
+
+        // Start animation loop
+        let lastTimestamp;
+        requestAnimationFrame(animate);
+
+        // Initialize
+        resetView();
     </script>
 </body>
 </html>
