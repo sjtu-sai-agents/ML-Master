@@ -347,6 +347,35 @@
             opacity: 1;
             transform: translateY(-1px);
         }
+        
+        /* Style for ranking highlight */
+        .ranking-highlight {
+            background: linear-gradient(135deg, #ffd700 0%, #ffb347 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            position: relative;
+            display: inline-block;
+            animation: rankingGlow 3s ease-in-out infinite;
+        }
+
+        .ranking-highlight::before {
+            content: '🏆';
+            margin-right: 0.3em;
+            /* filter: drop-shadow(0 0 4px rgba(255, 215, 0, 0.5)); */
+        }
+
+        /* @keyframes rankingGlow {
+            0%, 100% {
+                filter: brightness(1);
+                text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
+            }
+            50% {
+                filter: brightness(1.2);
+                text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+            }
+        } */
 
         /* Floating tech particles */
         .tech-particles {
@@ -1545,7 +1574,7 @@
                 <!-- ML-Master Introduction -->
                 <div class="ml-master-intro">
                     <p class="intro-text">
-                        <strong>ML-Master</strong> is an AI-for-AI agent that seamlessly integrates exploration and reasoning by an adaptive memory mechanism to automate machine learning development, achieving state-of-the-art performance on <a href="https://github.com/openai/mle-bench">MLE-Bench</a>.
+                        <strong>ML-Master</strong> is an AI-for-AI agent that seamlessly integrates exploration and reasoning by an adaptive memory mechanism to automate machine learning development, <span class="ranking-highlight">ranking #1</span> on <a href="https://github.com/openai/mle-bench">MLE-Bench</a>.
                     </p>
                 </div>
                 <div class="hero-stats">
