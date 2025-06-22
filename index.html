@@ -145,7 +145,7 @@
             letter-spacing: -0.03em;
             line-height: 1.1;
         } */
-    .hero h1 {
+        .hero h1 {
             font-size: clamp(3.5rem, 10vw, 7rem);
             font-weight: 900;
             margin-bottom: 1.5rem;
@@ -291,6 +291,62 @@
             opacity: 0.3;
             z-index: 1;
         }
+        
+        /* ML-Master Introduction */
+        .ml-master-intro {
+            max-width: 720px;
+            margin: 2rem auto 3rem auto;
+            padding: 1.5rem 2rem;
+            background: rgba(102, 126, 234, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 16px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            text-align: center;
+        }
+
+        .intro-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #e2e8f0;
+            margin: 0;
+        }
+
+        .intro-text strong {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-family: 'Orbitron', 'Exo 2', sans-serif;
+            font-weight: 600;
+        }
+
+        .intro-text a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            position: relative;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid rgba(102, 126, 234, 0.3);
+        }
+
+        .intro-text a:hover {
+            color: #8892f0;
+            border-bottom-color: #8892f0;
+            text-shadow: 0 0 8px rgba(102, 126, 234, 0.4);
+        }
+
+        .intro-text a::after {
+            content: '↗';
+            font-size: 0.8em;
+            margin-left: 0.2em;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        .intro-text a:hover::after {
+            opacity: 1;
+            transform: translateY(-1px);
+        }
 
         /* Floating tech particles */
         .tech-particles {
@@ -399,7 +455,7 @@
             border-radius: 16px;
             border: 1px solid rgba(102, 126, 234, 0.2);
             transition: all 0.3s ease;
-            min-width: 140px;
+            width: 240px;
         }
 
         .stat:hover {
@@ -450,6 +506,7 @@
             position: relative;
             overflow: hidden;
             font-family: 'Inter', sans-serif;
+            width: 200px;
         }
 
         .btn-primary {
@@ -1174,6 +1231,19 @@
                 gap: 1.5rem;
             }
 
+            .ml-master-intro {
+                margin: 1.5rem 1rem 2.5rem 1rem;
+                padding: 1.2rem 1.5rem;
+            }
+            
+            .intro-text {
+                font-size: 1rem;
+            }
+
+            .intro-text a::after {
+                font-size: 0.75em;
+            }
+
             .cta-buttons {
                 flex-direction: column;
                 align-items: center;
@@ -1472,6 +1542,12 @@
                 <p class="hero-subtitle">
                     Towards AI-for-AI via Integration of Exploration and Reasoning
                 </p>
+                <!-- ML-Master Introduction -->
+                <div class="ml-master-intro">
+                    <p class="intro-text">
+                        <strong>ML-Master</strong> is an AI-for-AI agent that seamlessly integrates exploration and reasoning by an adaptive memory mechanism to automate machine learning development, achieving state-of-the-art performance on <a href="https://github.com/openai/mle-bench">MLE-Bench</a>.
+                    </p>
+                </div>
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-number">29.3%</span>
@@ -1487,9 +1563,9 @@
                     </div>
                 </div>
                 <div class="cta-buttons">
-                    <a href="#demo" class="btn btn-primary">Try Demo</a>
                     <a href="https://github.com/sjtu-sai-agents/ML-Master/blob/main/assets/ML-Master_github.pdf" class="btn btn-secondary">Read Paper</a>
-                    <a href="https://github.com/sjtu-sai-agents/ML-Master" class="btn btn-secondary">Code</a>
+                    <a href="#demo" class="btn btn-primary">Try Demo</a>
+                    <a href="https://github.com/sjtu-sai-agents/ML-Master" class="btn btn-secondary">Get Code</a>
                 </div>
             </div>
         </section>
