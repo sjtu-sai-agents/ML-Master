@@ -1,0 +1,1121 @@
+{
+    "title": "billion-word-imputation",
+    "steps": [
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task billion-word-imputation --time-limit 12h",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting run \"billion-word-imputation\"",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 099a7e986eb045d896df00aa889f2e62 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 099a7e986eb045d896df00aa889f2e62 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 099a7e986eb045d896df00aa889f2e62 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 099a7e986eb045d896df00aa889f2e62 expected_child_count is 2.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 099a7e986eb045d896df00aa889f2e62 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 099a7e986eb045d896df00aa889f2e62 expected_child_count is 3.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node d65218c353364f9899e8d4537e9f4a01",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node d65218c353364f9899e8d4537e9f4a01 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 83c523773e9a49f59c5b58e3c53f0af6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 83c523773e9a49f59c5b58e3c53f0af6 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node c8cc5e785020494eac0c7d0fe008ffd5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node c8cc5e785020494eac0c7d0fe008ffd5 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c8cc5e785020494eac0c7d0fe008ffd5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c8cc5e785020494eac0c7d0fe008ffd5 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c8cc5e785020494eac0c7d0fe008ffd5 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 099a7e986eb045d896df00aa889f2e62, the generated node is c8cc5e785020494eac0c7d0fe008ffd5, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c8cc5e785020494eac0c7d0fe008ffd5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is c8cc5e785020494eac0c7d0fe008ffd5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=2,edges=[(0, 1)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 4/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: c8cc5e785020494eac0c7d0fe008ffd5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: c8cc5e785020494eac0c7d0fe008ffd5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodec8cc5e785020494eac0c7d0fe008ffd5.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current c8cc5e785020494eac0c7d0fe008ffd5 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node c8cc5e785020494eac0c7d0fe008ffd5 to create new node 49dab73fa28c4964be9699a1aa04835e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 49dab73fa28c4964be9699a1aa04835e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 49dab73fa28c4964be9699a1aa04835e is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 49dab73fa28c4964be9699a1aa04835e is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node c8cc5e785020494eac0c7d0fe008ffd5.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 49dab73fa28c4964be9699a1aa04835e is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 49dab73fa28c4964be9699a1aa04835e start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node c8cc5e785020494eac0c7d0fe008ffd5 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node c8cc5e785020494eac0c7d0fe008ffd5, the generated node is 49dab73fa28c4964be9699a1aa04835e, the metric is 8.06",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 49dab73fa28c4964be9699a1aa04835e is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node d65218c353364f9899e8d4537e9f4a01",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node d65218c353364f9899e8d4537e9f4a01 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node d65218c353364f9899e8d4537e9f4a01 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 099a7e986eb045d896df00aa889f2e62, the generated node is d65218c353364f9899e8d4537e9f4a01, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main d65218c353364f9899e8d4537e9f4a01",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is d65218c353364f9899e8d4537e9f4a01",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=4,edges=[(0, 3), (0, 1), (1, 2)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 6/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: d65218c353364f9899e8d4537e9f4a01",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: d65218c353364f9899e8d4537e9f4a01",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Noded65218c353364f9899e8d4537e9f4a01.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current d65218c353364f9899e8d4537e9f4a01 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 83c523773e9a49f59c5b58e3c53f0af6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 83c523773e9a49f59c5b58e3c53f0af6 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 83c523773e9a49f59c5b58e3c53f0af6 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 099a7e986eb045d896df00aa889f2e62, the generated node is 83c523773e9a49f59c5b58e3c53f0af6, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 83c523773e9a49f59c5b58e3c53f0af6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 4, current node.id is 83c523773e9a49f59c5b58e3c53f0af6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 4), (0, 3), (0, 1), (1, 2)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 83c523773e9a49f59c5b58e3c53f0af6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 83c523773e9a49f59c5b58e3c53f0af6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node83c523773e9a49f59c5b58e3c53f0af6.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 83c523773e9a49f59c5b58e3c53f0af6 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 4), (0, 3), (0, 1), (1, 2)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 099a7e986eb045d896df00aa889f2e62 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 099a7e986eb045d896df00aa889f2e62",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 099a7e986eb045d896df00aa889f2e62 expected_child_count is 4.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Plan + code extraction failed, retrying...",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node d65218c353364f9899e8d4537e9f4a01 to create new node ba622e1f3c9f4afe815dcf240e916dcd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 83c523773e9a49f59c5b58e3c53f0af6 to create new node 367dd1b791d341d780153bfa4bd03ee3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 367dd1b791d341d780153bfa4bd03ee3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 367dd1b791d341d780153bfa4bd03ee3 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 367dd1b791d341d780153bfa4bd03ee3 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 83c523773e9a49f59c5b58e3c53f0af6, the generated node is 367dd1b791d341d780153bfa4bd03ee3, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 367dd1b791d341d780153bfa4bd03ee3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is 367dd1b791d341d780153bfa4bd03ee3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 4), (0, 3), (0, 1), (1, 2), (4, 5)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 367dd1b791d341d780153bfa4bd03ee3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 367dd1b791d341d780153bfa4bd03ee3",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node367dd1b791d341d780153bfa4bd03ee3.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 367dd1b791d341d780153bfa4bd03ee3 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 1d20952aee354614b92d2990d731b315",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 1d20952aee354614b92d2990d731b315 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 367dd1b791d341d780153bfa4bd03ee3 to create new node b470fcb8a21a4bd984c295eb5219bdd7",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node ba622e1f3c9f4afe815dcf240e916dcd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node ba622e1f3c9f4afe815dcf240e916dcd is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node ba622e1f3c9f4afe815dcf240e916dcd is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node d65218c353364f9899e8d4537e9f4a01, the generated node is ba622e1f3c9f4afe815dcf240e916dcd, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main ba622e1f3c9f4afe815dcf240e916dcd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is ba622e1f3c9f4afe815dcf240e916dcd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=7,edges=[(0, 4), (0, 3), (0, 1), (1, 2), (3, 6), (4, 5)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 9/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: ba622e1f3c9f4afe815dcf240e916dcd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: ba622e1f3c9f4afe815dcf240e916dcd",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodeba622e1f3c9f4afe815dcf240e916dcd.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current ba622e1f3c9f4afe815dcf240e916dcd expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node ba622e1f3c9f4afe815dcf240e916dcd to create new node f8ba865ff134496aa9fde1145ae900c5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 1d20952aee354614b92d2990d731b315",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 1d20952aee354614b92d2990d731b315 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 1d20952aee354614b92d2990d731b315 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 099a7e986eb045d896df00aa889f2e62, the generated node is 1d20952aee354614b92d2990d731b315, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 1d20952aee354614b92d2990d731b315",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 7, current node.id is 1d20952aee354614b92d2990d731b315",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=8,edges=[(0, 7), (0, 4), (0, 3), (0, 1), (1, 2), (3, 6), (4, 5)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 10/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 1d20952aee354614b92d2990d731b315",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 1d20952aee354614b92d2990d731b315",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node1d20952aee354614b92d2990d731b315.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 1d20952aee354614b92d2990d731b315 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 1d20952aee354614b92d2990d731b315 to create new node e24acc02f7014b1892f44c8d5610af9a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node e24acc02f7014b1892f44c8d5610af9a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node e24acc02f7014b1892f44c8d5610af9a is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node e24acc02f7014b1892f44c8d5610af9a is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 1d20952aee354614b92d2990d731b315, the generated node is e24acc02f7014b1892f44c8d5610af9a, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main e24acc02f7014b1892f44c8d5610af9a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node f8ba865ff134496aa9fde1145ae900c5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node f8ba865ff134496aa9fde1145ae900c5 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node f8ba865ff134496aa9fde1145ae900c5 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node ba622e1f3c9f4afe815dcf240e916dcd, the generated node is f8ba865ff134496aa9fde1145ae900c5, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 8.06.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main f8ba865ff134496aa9fde1145ae900c5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 8, current node.id is f8ba865ff134496aa9fde1145ae900c5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=10,edges=[(0, 7), (0, 4), (0, 3), (0, 1), (1, 2), (3, 6), (4, 5), (6, 9), (7, 8)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 12/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: f8ba865ff134496aa9fde1145ae900c5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: f8ba865ff134496aa9fde1145ae900c5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodef8ba865ff134496aa9fde1145ae900c5.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current f8ba865ff134496aa9fde1145ae900c5 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node f8ba865ff134496aa9fde1145ae900c5 to create new node 9aa55739cdc04f2587512f52e3390b0a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
+            "delay": 200
+        }
+    ],
+    "code": "<span class=\"keyword\">import</span> torch\n<span class=\"keyword\">from</span> transformers <span class=\"keyword\">import</span> BertForMaskedLM, BertTokenizerFast\n<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">from</span> tqdm <span class=\"keyword\">import</span> tqdm\n<span class=\"keyword\">import</span> editdistance\n\n<span class=\"comment\"># Use faster tokenizer and smaller model for efficiency</span>\nmodel_name = <span class=\"string\">&quot;</span><span class=\"string\">bert-base-uncased</span><span class=\"string\">&quot;</span>\ntokenizer = BertTokenizerFast.from_pretrained(model_name)\nmodel = BertForMaskedLM.from_pretrained(model_name)\nmodel.to(<span class=\"string\">&quot;</span><span class=\"string\">cuda</span><span class=\"string\">&quot;</span>)\nmodel.eval()\n\n\n<span class=\"keyword\">def</span> <span class=\"function\">predict_missing_word</span>(sentence):\n    words = sentence.split()\n    <span class=\"keyword\">if</span> len(words) &lt; <span class=\"number\">2</span>:\n        <span class=\"keyword\">return</span> sentence\n\n    <span class=\"comment\"># Generate all possible masked positions</span>\n    masked_sentences = []\n    positions = []\n    <span class=\"keyword\">for</span> i in range(<span class=\"number\">1</span>, len(words)):\n        masked = words[:i] + [<span class=\"string\">&quot;</span><span class=\"string\">[MASK]</span><span class=\"string\">&quot;</span>] + words[i:]\n        masked_sentences.append(<span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join(masked))\n        positions.append(i)\n\n    <span class=\"keyword\">if</span> not masked_sentences:\n        <span class=\"keyword\">return</span> sentence\n\n    <span class=\"comment\"># Process all masks in one batch</span>\n    inputs = tokenizer(\n        masked_sentences,\n        padding=<span class=\"keyword\">True</span>,\n        truncation=<span class=\"keyword\">True</span>,\n        max_length=<span class=\"number\">128</span>,\n        return_tensors=<span class=\"string\">&quot;</span><span class=\"string\">pt</span><span class=\"string\">&quot;</span>,\n    ).to(<span class=\"string\">&quot;</span><span class=\"string\">cuda</span><span class=\"string\">&quot;</span>)\n\n    <span class=\"keyword\">with</span> torch.no_grad():\n        outputs = model(**inputs)\n\n    <span class=\"comment\"># Find best prediction for each mask position</span>\n    best_score = -float(<span class=\"string\">&quot;</span><span class=\"string\">inf</span><span class=\"string\">&quot;</span>)\n    best_prediction = sentence\n    mask_token_id = tokenizer.mask_token_id\n\n    <span class=\"keyword\">for</span> idx, (logits, pos) in enumerate(zip(outputs.logits, positions)):\n        mask_idx = (inputs.input_ids[idx] == mask_token_id).nonzero(as_tuple=<span class=\"keyword\">True</span>)[<span class=\"number\">0</span>]\n        <span class=\"keyword\">if</span> mask_idx.numel() == <span class=\"number\">0</span>:\n            <span class=\"keyword\">continue</span>\n        mask_idx = mask_idx[<span class=\"number\">0</span>]\n        probs = torch.softmax(logits[mask_idx], dim=-<span class=\"number\">1</span>)\n        top_token_id = probs.argmax()\n        score = probs[top_token_id].item()\n\n        <span class=\"keyword\">if</span> score &gt; best_score:\n            predicted_word = tokenizer.decode(top_token_id, skip_special_tokens=<span class=\"keyword\">True</span>)\n            new_sentence = words[:pos] + [predicted_word] + words[pos:]\n            best_score = score\n            best_prediction = <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join(new_sentence)\n\n    <span class=\"keyword\">return</span> best_prediction\n\n\n<span class=\"comment\"># Validation using corrected file path</span>\nval_size = <span class=\"number\">50</span>\nval_original = []\nval_corrupted = []\n<span class=\"keyword\">with</span> open(<span class=\"string\">&quot;</span><span class=\"string\">input/train_v2.txt</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">r</span><span class=\"string\">&quot;</span>, encoding=<span class=\"string\">&quot;</span><span class=\"string\">utf-8</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">as</span> f:\n    <span class=\"keyword\">for</span> _ in range(<span class=\"number\">1000</span>):\n        line = f.readline().strip()\n        <span class=\"keyword\">if</span> not line:\n            <span class=\"keyword\">break</span>\n        words = line.split()\n        <span class=\"keyword\">if</span> len(words) &lt; <span class=\"number\">3</span>:\n            <span class=\"keyword\">continue</span>\n        remove_pos = torch.randint(<span class=\"number\">1</span>, len(words) - <span class=\"number\">1</span>, (<span class=\"number\">1</span>,)).item()\n        corrupted = <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join(words[:remove_pos] + words[remove_pos + <span class=\"number\">1</span> :])\n        val_original.append(line)\n        val_corrupted.append(corrupted)\n        <span class=\"keyword\">if</span> len(val_original) &gt;= val_size:\n            <span class=\"keyword\">break</span>\n\nval_preds = [predict_missing_word(s) <span class=\"keyword\">for</span> s in tqdm(val_corrupted)]\nmean_dist = (\n    sum(editdistance.eval(o, p) <span class=\"keyword\">for</span> o, p in zip(val_original, val_preds)) / val_size\n)\nprint(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Validation Mean Levenshtein Distance: </span><span class=\"string\">{</span>mean_dist<span class=\"string\">}</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Process test data in batches</span>\ntest_sentences = []\n<span class=\"keyword\">with</span> open(<span class=\"string\">&quot;</span><span class=\"string\">input/test_v2.txt</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">r</span><span class=\"string\">&quot;</span>, encoding=<span class=\"string\">&quot;</span><span class=\"string\">utf-8</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">as</span> f:\n    test_sentences = [line.strip() <span class=\"keyword\">for</span> line in f]\n\nsubmission = []\n<span class=\"keyword\">for</span> idx, sent in tqdm(enumerate(test_sentences), total=len(test_sentences)):\n    processed = predict_missing_word(sent)\n    submission.append({<span class=\"string\">&quot;</span><span class=\"string\">id</span><span class=\"string\">&quot;</span>: idx + <span class=\"number\">1</span>, <span class=\"string\">&quot;</span><span class=\"string\">sentence</span><span class=\"string\">&quot;</span>: processed})\n\npd.DataFrame(submission).to_csv(<span class=\"string\">&quot;</span><span class=\"string\">submission/submission.csv</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>, quoting=<span class=\"number\">1</span>)\n",
+    "detail": {
+        "node_id": [
+            "099a7e986eb045d896df00aa889f2e62",
+            "c8cc5e785020494eac0c7d0fe008ffd5",
+            "49dab73fa28c4964be9699a1aa04835e",
+            "d65218c353364f9899e8d4537e9f4a01",
+            "83c523773e9a49f59c5b58e3c53f0af6",
+            "367dd1b791d341d780153bfa4bd03ee3",
+            "ba622e1f3c9f4afe815dcf240e916dcd",
+            "1d20952aee354614b92d2990d731b315",
+            "e24acc02f7014b1892f44c8d5610af9a",
+            "f8ba865ff134496aa9fde1145ae900c5"
+        ],
+        "global_step": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "edges": [
+            [
+                0,
+                7
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "layout": [
+            [
+                0.5,
+                0.0
+            ],
+            [
+                0.0,
+                0.33333333333333337
+            ],
+            [
+                0.0,
+                0.6666666666666667
+            ],
+            [
+                0.3333333333333333,
+                0.33333333333333337
+            ],
+            [
+                0.6666666666666666,
+                0.33333333333333337
+            ],
+            [
+                0.6666666666666666,
+                0.6666666666666667
+            ],
+            [
+                0.3333333333333333,
+                0.6666666666666667
+            ],
+            [
+                1.0,
+                0.33333333333333337
+            ],
+            [
+                1.0,
+                0.6666666666666667
+            ],
+            [
+                0.3333333333333333,
+                1.0
+            ]
+        ],
+        "plan": [
+            "virtual plan",
+            "To solve this problem, we need to predict the missing word in each sentence of\nthe test set and generate corrected sentences with the highest accuracy. The\nevaluation metric is the mean Levenshtein distance between the predicted and\noriginal sentences, which we aim to minimize.  ### Approach 1. **Model\nSelection**: Use a pre-trained BERT model (bert-large-uncased) for masked\nlanguage modeling. BERT is well-suited for this task as it is trained to predict\nmasked tokens in sentences. 2. **Handling Test Sentences**: For each test\nsentence, generate all possible positions where a word could be missing\n(excluding the first and last positions). Insert a [MASK] token at each position\nand use BERT to predict the most probable word for each mask. 3. **Validation**:\nCreate a validation set from the training data by removing a random word from\neach sentence and using the model to predict the missing word. Compute the mean\nLevenshtein distance between the original and predicted sentences to evaluate\nthe model's performance. 4. **Submission**: Generate the submission file by\npredicting the missing words for the test set and formatting the results as\nrequired.  ### Solution Code",
+            "The previous code had two main issues: 1) Incorrect file paths\n(train.txt/test.txt instead of train_v2.txt/test_v2.txt), and 2) An inefficient\nprediction approach that couldn't handle the large test set. Here's the fix:  1.\nCorrect file paths to use the actual available files 2. Optimize prediction by\nprocessing all mask positions for each sentence in a single batch 3. Use smaller\nbatch sizes and efficient tokenization to handle memory constraints",
+            "To solve this problem, we need to predict the missing word in each sentence of\nthe test set, where exactly one word has been removed. The goal is to minimize\nthe mean Levenshtein distance between the reconstructed sentences and the\noriginal sentences. We use a pre-trained DistilBERT model to predict the missing\nword by considering all possible positions (excluding the first and last words)\nand selecting the prediction with the highest confidence.  ### Approach 1.\n**Validation Set Preparation**: A subset of the training data is used to create\na validation set by removing one word from each sentence at a random position\n(not first or last). 2. **Masked Language Modeling**: For each sentence in both\nthe validation and test sets, generate all possible masked versions by inserting\n`[MASK]` at each valid position. 3. **Model Prediction**: Use the DistilBERT\nmodel to predict the missing word for each masked sentence. The model processes\nsentences in batches for efficiency. 4. **Reconstruction and Evaluation**: For\neach sentence, select the position and word with the highest prediction\nconfidence. Compute the mean Levenshtein distance on the validation set to\nevaluate performance. 5. **Submission Generation**: Apply the same prediction\nand reconstruction steps to the test set and save the results in the required\nsubmission format.  ### Solution Code",
+            "To solve this problem, we need to predict the missing word in each test sentence\nand generate a submission file with the reconstructed sentences. The evaluation\nmetric is the mean Levenshtein distance between the predicted and original\nsentences.   ### Approach The approach involves using a pre-trained T5 model to\npredict the missing word in each test sentence. For each sentence, we consider\nall possible positions where a word could be missing (excluding the first and\nlast positions). For each position, we insert a mask token and use the T5 model\nto predict the missing word. The model's confidence in each prediction is used\nto select the best position and word. The reconstructed sentence is formed by\ninserting the predicted word at the chosen position. We also evaluate the\nmodel's performance on a validation set created from the training data to\ncompute the mean Levenshtein distance.  ### Solution Code",
+            "The previous code had performance issues due to processing each sentence's mask\npositions individually and using a large model. To fix this:  1. **Switch to\nT5-small** for faster inference. 2. **Batch process multiple sentences** and\ntheir mask positions together. 3. **Efficiently compute scores** using\nvectorized operations where possible. 4. **Save predictions incrementally** to\nensure submission.csv is created even if interrupted.",
+            "The previous approach tried all possible positions for each test sentence,\nleading to excessive computation. To fix this, we'll optimize by processing\nmasked sentences in large batches using direct model inference, increasing\nefficiency. We'll also reduce the validation set size and use a more efficient\nbatching strategy to stay within time constraints.",
+            "To solve this problem, we need to predict the missing word in each test sentence\nand generate a submission file with the reconstructed sentences. The evaluation\nmetric is the mean Levenshtein distance between the predicted and original\nsentences. Our approach uses a pre-trained RoBERTa model to predict the missing\nword by considering all possible positions (excluding the first and last words)\nand selecting the prediction with the highest confidence. This method leverages\nRoBERTa's robust language understanding capabilities to efficiently identify the\nmost probable missing word and its position.",
+            "The CUDA OOM error occurs because processing all possible masked positions in a\nbatch exceeds GPU memory. To fix this:  1. Process each masked position\nindividually instead of batching them 2. Use a smaller RoBERTa-base model\ninstead of large 3. Optimize memory with fp16 and garbage collection 4. Ensure\nproper cleanup between predictions",
+            "To address the CUDA out-of-memory error and submission format issues, we\nimplement three key fixes: 1) Reduce batch size during test processing to 32 to\nlower GPU memory usage, 2) Fix CSV quoting to meet submission requirements, and\n3) Add memory cleanup steps. These changes maintain prediction quality while\nensuring successful execution and valid submission."
+        ],
+        "code": [
+            "virtual code",
+            "import torch\nfrom transformers import BertForMaskedLM, BertTokenizer\nimport pandas as pd\nimport random\nimport editdistance\n\n# Load model and tokenizer\nmodel_name = \"bert-large-uncased\"\ntokenizer = BertTokenizer.from_pretrained(model_name)\nmodel = BertForMaskedLM.from_pretrained(model_name)\nmodel.to(\"cuda\")\nmodel.eval()\n\n\ndef process_sentence(sentence):\n    words = sentence.split()\n    if len(words) < 2:\n        return sentence  # Not enough words to insert mask\n    best_score = -float(\"inf\")\n    best_sentence = sentence\n    for i in range(1, len(words)):\n        masked_words = words[:i] + [\"[MASK]\"] + words[i:]\n        masked_sentence = \" \".join(masked_words)\n        inputs = tokenizer(\n            masked_sentence, return_tensors=\"pt\", truncation=True, max_length=512\n        )\n        inputs = {k: v.to(\"cuda\") for k, v in inputs.items()}\n        with torch.no_grad():\n            outputs = model(**inputs)\n        logits = outputs.logits\n        mask_pos = (inputs[\"input_ids\"][0] == tokenizer.mask_token_id).nonzero(\n            as_tuple=True\n        )[0]\n        if mask_pos.numel() == 0:\n            continue\n        mask_pos = mask_pos[0]\n        predicted_token_id = logits[0, mask_pos].argmax()\n        predicted_token = tokenizer.decode(predicted_token_id, skip_special_tokens=True)\n        score = logits[0, mask_pos, predicted_token_id].item()\n        candidate = masked_words[:i] + [predicted_token] + masked_words[i + 1 :]\n        candidate_sentence = \" \".join(candidate)\n        if score > best_score:\n            best_score = score\n            best_sentence = candidate_sentence\n    return best_sentence\n\n\n# Validation using a subset of training data\nval_size = 100  # Reduced for faster computation\nval_original = []\nval_corrupted = []\nwith open(\"input/train.txt\", \"r\", encoding=\"utf-8\") as f:\n    for _ in range(10000):  # Read more to account for short sentences\n        line = f.readline().strip()\n        if not line:\n            break\n        words = line.split()\n        if len(words) < 3:\n            continue\n        remove_pos = random.randint(1, len(words) - 2)\n        corrupted = \" \".join(words[:remove_pos] + words[remove_pos + 1 :])\n        val_original.append(line)\n        val_corrupted.append(corrupted)\n        if len(val_original) >= val_size:\n            break\n\nval_predictions = []\nfor corrupted in val_corrupted:\n    val_predictions.append(process_sentence(corrupted))\n\n# Calculate validation metric\ntotal_distance = 0\nfor orig, pred in zip(val_original, val_predictions):\n    total_distance += editdistance.eval(orig, pred)\nmean_distance = total_distance / len(val_original)\nprint(f\"Validation Mean Levenshtein Distance: {mean_distance}\")\n\n# Process test data\ntest_sentences = []\nwith open(\"input/test.txt\", \"r\", encoding=\"utf-8\") as f:\n    test_sentences = [line.strip() for line in f]\n\nsubmission = []\nfor idx, sentence in enumerate(test_sentences):\n    processed = process_sentence(sentence)\n    submission.append({\"id\": idx + 1, \"sentence\": processed})\n\n# Save submission\ndf = pd.DataFrame(submission)\ndf.to_csv(\"submission/submission.csv\", index=False, quoting=1)\n",
+            "import torch\nfrom transformers import BertForMaskedLM, BertTokenizerFast\nimport pandas as pd\nfrom tqdm import tqdm\nimport editdistance\n\n# Use faster tokenizer and smaller model for efficiency\nmodel_name = \"bert-base-uncased\"\ntokenizer = BertTokenizerFast.from_pretrained(model_name)\nmodel = BertForMaskedLM.from_pretrained(model_name)\nmodel.to(\"cuda\")\nmodel.eval()\n\n\ndef predict_missing_word(sentence):\n    words = sentence.split()\n    if len(words) < 2:\n        return sentence\n\n    # Generate all possible masked positions\n    masked_sentences = []\n    positions = []\n    for i in range(1, len(words)):\n        masked = words[:i] + [\"[MASK]\"] + words[i:]\n        masked_sentences.append(\" \".join(masked))\n        positions.append(i)\n\n    if not masked_sentences:\n        return sentence\n\n    # Process all masks in one batch\n    inputs = tokenizer(\n        masked_sentences,\n        padding=True,\n        truncation=True,\n        max_length=128,\n        return_tensors=\"pt\",\n    ).to(\"cuda\")\n\n    with torch.no_grad():\n        outputs = model(**inputs)\n\n    # Find best prediction for each mask position\n    best_score = -float(\"inf\")\n    best_prediction = sentence\n    mask_token_id = tokenizer.mask_token_id\n\n    for idx, (logits, pos) in enumerate(zip(outputs.logits, positions)):\n        mask_idx = (inputs.input_ids[idx] == mask_token_id).nonzero(as_tuple=True)[0]\n        if mask_idx.numel() == 0:\n            continue\n        mask_idx = mask_idx[0]\n        probs = torch.softmax(logits[mask_idx], dim=-1)\n        top_token_id = probs.argmax()\n        score = probs[top_token_id].item()\n\n        if score > best_score:\n            predicted_word = tokenizer.decode(top_token_id, skip_special_tokens=True)\n            new_sentence = words[:pos] + [predicted_word] + words[pos:]\n            best_score = score\n            best_prediction = \" \".join(new_sentence)\n\n    return best_prediction\n\n\n# Validation using corrected file path\nval_size = 50\nval_original = []\nval_corrupted = []\nwith open(\"input/train_v2.txt\", \"r\", encoding=\"utf-8\") as f:\n    for _ in range(1000):\n        line = f.readline().strip()\n        if not line:\n            break\n        words = line.split()\n        if len(words) < 3:\n            continue\n        remove_pos = torch.randint(1, len(words) - 1, (1,)).item()\n        corrupted = \" \".join(words[:remove_pos] + words[remove_pos + 1 :])\n        val_original.append(line)\n        val_corrupted.append(corrupted)\n        if len(val_original) >= val_size:\n            break\n\nval_preds = [predict_missing_word(s) for s in tqdm(val_corrupted)]\nmean_dist = (\n    sum(editdistance.eval(o, p) for o, p in zip(val_original, val_preds)) / val_size\n)\nprint(f\"Validation Mean Levenshtein Distance: {mean_dist}\")\n\n# Process test data in batches\ntest_sentences = []\nwith open(\"input/test_v2.txt\", \"r\", encoding=\"utf-8\") as f:\n    test_sentences = [line.strip() for line in f]\n\nsubmission = []\nfor idx, sent in tqdm(enumerate(test_sentences), total=len(test_sentences)):\n    processed = predict_missing_word(sent)\n    submission.append({\"id\": idx + 1, \"sentence\": processed})\n\npd.DataFrame(submission).to_csv(\"submission/submission.csv\", index=False, quoting=1)\n",
+            "import pandas as pd\nfrom transformers import pipeline\nimport torch\nimport random\nfrom Levenshtein import distance as levenshtein_distance\nimport csv\nimport os\n\n# Ensure submission directory exists\nos.makedirs(\"submission\", exist_ok=True)\n\n# Step 1: Prepare validation set from training data\nval_size = 1000  # Reduced for faster validation\ntrain_sentences = []\nwith open(\"input/train_v2.txt\", \"r\", encoding=\"utf-8\") as f:\n    for _ in range(val_size):\n        line = f.readline().strip()\n        if not line:\n            break\n        train_sentences.append(line)\n\nval_data = []\nfor sentence in train_sentences:\n    words = sentence.split()\n    if len(words) < 3:\n        continue  # Skip sentences too short to remove a word\n    pos = random.randint(1, len(words) - 2)  # Valid positions excluding first and last\n    modified_words = words[:pos] + words[pos + 1 :]\n    val_data.append(\n        {\n            \"original\": sentence,\n            \"modified\": \" \".join(modified_words),\n            \"removed_pos\": pos,\n            \"removed_word\": words[pos],\n        }\n    )\n\n# Step 2: Predict on validation set to compute evaluation metric\nval_masked_data = []\nfor idx, data in enumerate(val_data):\n    modified_words = data[\"modified\"].split()\n    n = len(modified_words)\n    for i in range(1, n - 1 + 1):  # Positions 1 to len-1 (0-based)\n        masked = modified_words.copy()\n        masked.insert(i, \"[MASK]\")\n        val_masked_data.append(\n            {\"val_idx\": idx, \"position\": i, \"masked_sentence\": \" \".join(masked)}\n        )\n\n# Load the masked language model\ndevice = 0 if torch.cuda.is_available() else -1\nunmasker = pipeline(\n    \"fill-mask\", model=\"distilbert-base-uncased\", device=device, top_k=1\n)\n\n# Process validation masked sentences in batches\nval_results = []\nbatch_size = 64\nfor i in range(0, len(val_masked_data), batch_size):\n    batch = val_masked_data[i : i + batch_size]\n    masked_sentences = [item[\"masked_sentence\"] for item in batch]\n    try:\n        preds = unmasker(masked_sentences)\n        for j, pred in enumerate(preds):\n            item = batch[j]\n            val_results.append(\n                {\n                    \"val_idx\": item[\"val_idx\"],\n                    \"position\": item[\"position\"],\n                    \"word\": pred[0][\"token_str\"],\n                    \"score\": pred[0][\"score\"],\n                }\n            )\n    except Exception as e:\n        continue  # Skip any problematic batches\n\n# Reconstruct validation sentences and compute Levenshtein distance\nval_df = pd.DataFrame(val_results)\nval_predictions = []\nfor val_idx in val_df[\"val_idx\"].unique():\n    group = val_df[val_df[\"val_idx\"] == val_idx]\n    if not group.empty:\n        max_row = group.loc[group[\"score\"].idxmax()]\n        original_sentence = val_data[val_idx][\"original\"]\n        modified_words = val_data[val_idx][\"modified\"].split()\n        reconstructed = modified_words.copy()\n        reconstructed.insert(max_row[\"position\"], max_row[\"word\"])\n        reconstructed_sentence = \" \".join(reconstructed)\n        ld = levenshtein_distance(original_sentence, reconstructed_sentence)\n        val_predictions.append(ld)\n\nmean_ld = sum(val_predictions) / len(val_predictions) if val_predictions else 0\nprint(f\"Validation Mean Levenshtein Distance: {mean_ld}\")\n\n# Step 3: Process test set and generate submission\ntest_sentences = []\nwith open(\"input/test_v2.txt\", \"r\", encoding=\"utf-8\") as f:\n    test_sentences = [line.strip() for line in f]\n\ntest_masked_data = []\nfor idx, sentence in enumerate(test_sentences):\n    words = sentence.split()\n    if len(words) < 2:\n        test_masked_data.append(\n            {\"test_idx\": idx, \"position\": 0, \"masked_sentence\": sentence}\n        )\n        continue\n    for i in range(1, len(words) - 1 + 1):\n        masked = words.copy()\n        masked.insert(i, \"[MASK]\")\n        test_masked_data.append(\n            {\"test_idx\": idx, \"position\": i, \"masked_sentence\": \" \".join(masked)}\n        )\n\n# Process test masked sentences\ntest_results = []\nfor i in range(0, len(test_masked_data), batch_size):\n    batch = test_masked_data[i : i + batch_size]\n    masked_sentences = [item[\"masked_sentence\"] for item in batch]\n    try:\n        preds = unmasker(masked_sentences)\n        for j, pred in enumerate(preds):\n            item = batch[j]\n            test_results.append(\n                {\n                    \"test_idx\": item[\"test_idx\"],\n                    \"position\": item[\"position\"],\n                    \"word\": pred[0][\"token_str\"],\n                    \"score\": pred[0][\"score\"],\n                }\n            )\n    except Exception as e:\n        continue\n\n# Reconstruct test sentences for submission\ntest_df = pd.DataFrame(test_results)\nsubmission = []\nfor test_idx in range(len(test_sentences)):\n    group = test_df[test_df[\"test_idx\"] == test_idx]\n    if group.empty:\n        reconstructed_sentence = test_sentences[test_idx]\n    else:\n        max_row = group.loc[group[\"score\"].idxmax()]\n        original_words = test_sentences[test_idx].split()\n        reconstructed = original_words.copy()\n        reconstructed.insert(max_row[\"position\"], max_row[\"word\"])\n        reconstructed_sentence = \" \".join(reconstructed)\n    # Escape double quotes and format\n    reconstructed_sentence = reconstructed_sentence.replace('\"', '\"\"')\n    submission.append({\"id\": test_idx + 1, \"sentence\": f'\"{reconstructed_sentence}\"'})\n\n# Save to submission.csv\nsubmission_df = pd.DataFrame(submission)\nsubmission_df.to_csv(\n    \"submission/submission.csv\", index=False, quoting=csv.QUOTE_NONE, escapechar=\"\\\\\"\n)\n\nprint(\"Submission file created successfully.\")\n",
+            "import torch\nfrom transformers import T5ForConditionalGeneration, T5Tokenizer\nimport pandas as pd\nfrom tqdm import tqdm\nimport numpy as np\nfrom Levenshtein import distance as levenshtein_distance\n\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel_name = \"t5-base\"\ntokenizer = T5Tokenizer.from_pretrained(model_name)\nmodel = T5ForConditionalGeneration.from_pretrained(model_name).to(device)\n\n\ndef process_sentence(sentence):\n    tokens = sentence.split()\n    m = len(tokens)\n    if m < 2:\n        return sentence\n    mask_positions = list(range(m - 1))\n    masked_inputs = [\n        \" \".join(tokens[: i + 1] + [\"<extra_id_0>\"] + tokens[i + 1 :])\n        for i in mask_positions\n    ]\n    input_ids = tokenizer(\n        masked_inputs,\n        return_tensors=\"pt\",\n        padding=True,\n        truncation=True,\n        max_length=512,\n    ).to(device)\n    outputs = model.generate(\n        input_ids.input_ids,\n        attention_mask=input_ids.attention_mask,\n        max_length=50,\n        output_scores=True,\n        return_dict_in_generate=True,\n        num_beams=1,\n    )\n    sequences = outputs.sequences\n    scores = outputs.scores\n    best_score = -float(\"inf\")\n    best_word = \"\"\n    best_position = 0\n    for i in range(len(masked_inputs)):\n        input_len = input_ids.attention_mask[i].sum().item()\n        output_sequence = sequences[i][input_len:]\n        generated_text = tokenizer.decode(output_sequence, skip_special_tokens=True)\n        predicted_word = generated_text.split()[0] if generated_text else \"\"\n        log_prob = 0.0\n        for step in range(len(output_sequence)):\n            if step >= len(scores):\n                break\n            token_id = output_sequence[step]\n            log_prob += torch.log_softmax(scores[step][i], dim=-1)[token_id].item()\n        if log_prob > best_score:\n            best_score = log_prob\n            best_word = predicted_word\n            best_position = mask_positions[i]\n    reconstructed = (\n        tokens[: best_position + 1] + [best_word] + tokens[best_position + 1 :]\n    )\n    return \" \".join(reconstructed)\n\n\n# Validation set processing\ntrain_sentences = []\nwith open(\"input/train_v2.txt\", \"r\") as f:\n    for line in f:\n        train_sentences.append(line.strip())\n\nnp.random.seed(42)\nval_size = 1000\nval_indices = np.random.choice(len(train_sentences), val_size, replace=False)\nval_sentences = [train_sentences[i] for i in val_indices]\n\nval_original = []\nval_corrupted = []\nfor sentence in val_sentences:\n    tokens = sentence.split()\n    if len(tokens) < 3:\n        continue\n    pos = np.random.randint(1, len(tokens) - 1)\n    corrupted = \" \".join(tokens[:pos] + tokens[pos + 1 :])\n    val_original.append(\" \".join(tokens))\n    val_corrupted.append(corrupted)\n\nval_distances = []\nfor original, corrupted in tqdm(\n    zip(val_original, val_corrupted), total=len(val_original)\n):\n    reconstructed = process_sentence(corrupted)\n    dist = levenshtein_distance(original, reconstructed)\n    val_distances.append(dist)\n\nmean_val = np.mean(val_distances)\nprint(f\"Validation Mean Levenshtein Distance: {mean_val}\")\n\n# Test set processing\ntest_sentences = []\nwith open(\"input/test_v2.txt\", \"r\") as f:\n    for line in f:\n        test_sentences.append(line.strip())\n\nsubmission = []\nfor idx, sentence in enumerate(tqdm(test_sentences)):\n    reconstructed = process_sentence(sentence)\n    submission.append({\"id\": idx + 1, \"sentence\": reconstructed})\n\ndf = pd.DataFrame(submission)\ndf.to_csv(\"submission/submission.csv\", index=False, quoting=1)\n",
+            "import torch\nfrom transformers import T5ForConditionalGeneration, T5Tokenizer\nimport pandas as pd\nfrom tqdm import tqdm\nimport numpy as np\nfrom Levenshtein import distance as levenshtein_distance\nimport os\n\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel_name = \"t5-small\"\ntokenizer = T5Tokenizer.from_pretrained(model_name)\nmodel = T5ForConditionalGeneration.from_pretrained(model_name).to(device)\nmodel.config.max_length = 64  # Reduce max length for faster generation\n\n\ndef process_batch(sentences_batch):\n    all_masked = []\n    sentence_map = []\n    position_map = []\n\n    for bidx, sentence in enumerate(sentences_batch):\n        tokens = sentence.split()\n        if len(tokens) < 2:\n            all_masked.append(sentence)\n            sentence_map.append((bidx, -1))\n            continue\n        for pos in range(len(tokens) - 1):\n            masked = \" \".join(tokens[: pos + 1] + [\"<extra_id_0>\"] + tokens[pos + 1 :])\n            all_masked.append(masked)\n            sentence_map.append((bidx, pos))\n\n    if not all_masked:\n        return [s for s in sentences_batch]\n\n    inputs = tokenizer(\n        all_masked, return_tensors=\"pt\", padding=True, truncation=True, max_length=128\n    ).to(device)\n    outputs = model.generate(\n        inputs.input_ids,\n        attention_mask=inputs.attention_mask,\n        max_length=32,\n        return_dict_in_generate=True,\n        output_scores=True,\n        num_beams=1,\n    )\n\n    preds = tokenizer.batch_decode(outputs.sequences, skip_special_tokens=True)\n    predictions = [p.split()[0] if p else \"\" for p in preds]\n\n    # Group predictions by original sentence\n    results = {bidx: [] for bidx in range(len(sentences_batch))}\n    for (bidx, pos), pred in zip(sentence_map, predictions):\n        if pos == -1:\n            results[bidx] = sentences_batch[bidx]\n            continue\n        results[bidx].append((pos, pred))\n\n    # Select best prediction per sentence\n    final_sentences = []\n    for bidx in range(len(sentences_batch)):\n        if isinstance(results[bidx], str):\n            final_sentences.append(results[bidx])\n            continue\n\n        tokens = sentences_batch[bidx].split()\n        best_score = -float(\"inf\")\n        best = (0, \"\")\n        for pos, word in results[bidx]:\n            filled = tokens[: pos + 1] + [word] + tokens[pos + 1 :]\n            filled_str = \" \".join(filled)\n            input_ids = tokenizer([filled_str], return_tensors=\"pt\").input_ids.to(\n                device\n            )\n            with torch.no_grad():\n                logits = model(input_ids=input_ids, decoder_input_ids=input_ids).logits\n            log_prob = torch.log_softmax(logits[0, pos + 1], dim=-1)[\n                tokenizer(word, add_special_tokens=False).input_ids[0]\n            ].item()\n            if log_prob > best_score:\n                best_score = log_prob\n                best = (pos, word)\n\n        pos, word = best\n        reconstructed = \" \".join(tokens[: pos + 1] + [word] + tokens[pos + 1 :])\n        final_sentences.append(reconstructed)\n\n    return final_sentences\n\n\n# Validation setup\nval_size = 200  # Reduced for faster validation\ntrain_sentences = []\nwith open(\"input/train_v2.txt\", \"r\") as f:\n    for line in tqdm(f, desc=\"Loading train\"):\n        train_sentences.append(line.strip())\n\nval_indices = np.random.choice(len(train_sentences), val_size, replace=False)\nval_original = []\nval_corrupted = []\nfor idx in val_indices:\n    sentence = train_sentences[idx]\n    tokens = sentence.split()\n    if len(tokens) < 3:\n        continue\n    pos = np.random.randint(1, len(tokens) - 1)\n    corrupted = \" \".join(tokens[:pos] + tokens[pos + 1 :])\n    val_original.append(sentence)\n    val_corrupted.append(corrupted)\n\n# Process validation in batches\nval_preds = []\nbatch_size = 32\nfor i in tqdm(range(0, len(val_corrupted), batch_size), desc=\"Validating\"):\n    batch = val_corrupted[i : i + batch_size]\n    preds = process_batch(batch)\n    val_preds.extend(preds)\n\nval_distances = [levenshtein_distance(a, b) for a, b in zip(val_original, val_preds)]\nprint(\n    f\"Validation Levenshtein: {np.mean(val_distances):.2f} ± {np.std(val_distances):.2f}\"\n)\n\n# Process test set\ntest_sentences = []\nwith open(\"input/test_v2.txt\", \"r\") as f:\n    for line in tqdm(f, desc=\"Loading test\"):\n        test_sentences.append(line.strip())\n\nsubmission = []\nbatch_size = 64  # Increased batch size\nfor i in tqdm(range(0, len(test_sentences), batch_size), desc=\"Processing Test\"):\n    batch = test_sentences[i : i + batch_size]\n    preds = process_batch(batch)\n    for j, pred in enumerate(preds):\n        submission.append({\"id\": i + j + 1, \"sentence\": pred})\n    # Save incrementally\n    pd.DataFrame(submission).to_csv(\"submission/submission.csv\", index=False, quoting=1)\n\n# Final save\npd.DataFrame(submission).to_csv(\"submission/submission.csv\", index=False, quoting=1)\n",
+            "import pandas as pd\nimport torch\nfrom transformers import AutoTokenizer, AutoModelForMaskedLM\nfrom Levenshtein import distance as levenshtein_distance\nimport random\nimport os\nfrom tqdm import tqdm\n\n# Setup directories\nos.makedirs(\"submission\", exist_ok=True)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n\n# Load model and tokenizer\nmodel_name = \"distilbert-base-uncased\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForMaskedLM.from_pretrained(model_name).to(device)\nmodel.eval()\n\n\ndef process_batch(masked_sentences, batch_size=512):\n    predictions = []\n    for i in range(0, len(masked_sentences), batch_size):\n        batch = masked_sentences[i : i + batch_size]\n        inputs = tokenizer(\n            batch, return_tensors=\"pt\", padding=True, truncation=True, max_length=512\n        ).to(device)\n        with torch.no_grad():\n            outputs = model(**inputs)\n\n        logits = outputs.logits\n        mask_token_index = (inputs.input_ids == tokenizer.mask_token_id).nonzero(\n            as_tuple=True\n        )[1]\n        for idx in range(len(batch)):\n            try:\n                predicted_token_id = logits[idx, mask_token_index[idx]].argmax(dim=-1)\n                score = (\n                    torch.nn.functional.softmax(\n                        logits[idx, mask_token_index[idx]], dim=-1\n                    )\n                    .max()\n                    .item()\n                )\n                predictions.append(\n                    {\"word\": tokenizer.decode(predicted_token_id), \"score\": score}\n                )\n            except IndexError:\n                predictions.append({\"word\": \"\", \"score\": 0})\n    return predictions\n\n\n# Validation setup (reduced size)\nval_size = 100\ntrain_sentences = []\nwith open(\"input/train_v2.txt\", \"r\", encoding=\"utf-8\") as f:\n    for _ in range(val_size * 2):  # Buffer for filtering\n        line = f.readline().strip()\n        if line and len(line.split()) >= 4:  # Ensure valid sentences\n            train_sentences.append(line)\n            if len(train_sentences) >= val_size:\n                break\n\nval_data = []\nfor sentence in train_sentences[:val_size]:\n    words = sentence.split()\n    pos = random.randint(1, len(words) - 2)\n    modified = \" \".join(words[:pos] + words[pos + 1 :])\n    val_data.append(\n        {\n            \"original\": sentence,\n            \"modified\": modified,\n            \"pos\": pos,\n            \"true_word\": words[pos],\n        }\n    )\n\n# Process validation\nval_results = []\nfor data in tqdm(val_data, desc=\"Validating\"):\n    modified_words = data[\"modified\"].split()\n    candidates = []\n    for i in range(1, len(modified_words) + 1):\n        masked = modified_words[:i] + [tokenizer.mask_token] + modified_words[i:]\n        candidates.append(\" \".join(masked))\n\n    batch_preds = process_batch(candidates)\n    best_idx = max(enumerate(batch_preds), key=lambda x: x[1][\"score\"])[0]\n    predicted_word = batch_preds[best_idx][\"word\"]\n    reconstructed = \" \".join(\n        modified_words[:best_idx] + [predicted_word] + modified_words[best_idx:]\n    )\n    val_results.append(levenshtein_distance(data[\"original\"], reconstructed))\n\nmean_ld = sum(val_results) / len(val_results)\nprint(f\"Validation Mean Levenshtein Distance: {mean_ld:.4f}\")\n\n# Process test set\ntest_sentences = []\nwith open(\"input/test_v2.txt\", \"r\", encoding=\"utf-8\") as f:\n    test_sentences = [line.strip() for line in f]\n\nsubmission = []\nfor idx, sentence in tqdm(\n    enumerate(test_sentences), total=len(test_sentences), desc=\"Processing Test\"\n):\n    words = sentence.split()\n    if len(words) < 2:\n        submission.append({\"id\": idx + 1, \"sentence\": f'\"{sentence}\"'})\n        continue\n\n    candidates = []\n    positions = []\n    for i in range(1, len(words) + 1):\n        masked = words[:i] + [tokenizer.mask_token] + words[i:]\n        candidates.append(\" \".join(masked))\n        positions.append(i)\n\n    batch_preds = process_batch(candidates)\n    best_idx = max(enumerate(batch_preds), key=lambda x: x[1][\"score\"])[0]\n    predicted_word = batch_preds[best_idx][\"word\"].strip()\n    reconstructed = (\n        words[: positions[best_idx] - 1]\n        + [predicted_word]\n        + words[positions[best_idx] - 1 :]\n    )\n    reconstructed_sentence = \" \".join(reconstructed).replace('\"', '\"\"')\n    submission.append({\"id\": idx + 1, \"sentence\": f'\"{reconstructed_sentence}\"'})\n\n# Save submission\npd.DataFrame(submission).to_csv(\n    \"submission/submission.csv\", index=False, quoting=0, escapechar=\"\\\\\"\n)\nprint(\"Submission file created successfully\")\n",
+            "import pandas as pd\nimport torch\nfrom transformers import RobertaTokenizer, RobertaForMaskedLM\nimport Levenshtein\nimport random\nfrom tqdm import tqdm\n\n# Initialize model and tokenizer\nmodel_name = \"roberta-large\"\ntokenizer = RobertaTokenizer.from_pretrained(model_name)\nmodel = RobertaForMaskedLM.from_pretrained(model_name).cuda()\nmodel.eval()\nmask_token = tokenizer.mask_token\n\n# Create validation set from training data\nval_size = 500\nwith open(\"input/train_v2.txt\", \"r\") as f:\n    train_lines = [line.strip() for line in f if len(line.strip().split()) >= 3]\nval_samples = random.sample(train_lines, min(val_size, len(train_lines)))\n\nval_data = []\nfor line in val_samples:\n    words = line.strip().split()\n    if len(words) < 3:\n        continue\n    remove_pos = random.randint(1, len(words) - 2)\n    modified_words = words[:remove_pos] + words[remove_pos + 1 :]\n    val_data.append({\"original\": \" \".join(words), \"modified\": \" \".join(modified_words)})\n\n# Evaluate on validation set\ntotal_distance = 0\ncount = 0\nfor sample in tqdm(val_data, desc=\"Validating\"):\n    modified_sentence = sample[\"modified\"]\n    original_sentence = sample[\"original\"]\n    modified_words = modified_sentence.split()\n    possible_positions = list(range(len(modified_words) - 1))\n    if not possible_positions:\n        continue\n\n    masked_sentences = []\n    for i in possible_positions:\n        masked_words = modified_words.copy()\n        masked_words.insert(i + 1, mask_token)\n        masked_sentences.append(\" \".join(masked_words))\n\n    # Tokenize all masked sentences\n    encoded_inputs = tokenizer(\n        masked_sentences,\n        return_tensors=\"pt\",\n        padding=True,\n        truncation=True,\n        max_length=512,\n    )\n    input_ids = encoded_inputs[\"input_ids\"].cuda()\n    attention_mask = encoded_inputs[\"attention_mask\"].cuda()\n\n    # Predict\n    with torch.no_grad():\n        outputs = model(input_ids=input_ids, attention_mask=attention_mask)\n    logits = outputs.logits\n\n    best_score = -float(\"inf\")\n    best_reconstructed = modified_sentence\n    for i, (input_id, _, logit) in enumerate(zip(input_ids, attention_mask, logits)):\n        mask_pos = (input_id == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]\n        if mask_pos.nelement() == 0:\n            continue\n        mask_pos = mask_pos[0].item()\n        predicted_id = logit[mask_pos].argmax().item()\n        predicted_token = tokenizer.decode(predicted_id).strip()\n        reconstructed = masked_sentences[i].replace(mask_token, predicted_token)\n        confidence = torch.softmax(logit[mask_pos], dim=-1)[predicted_id].item()\n        if confidence > best_score:\n            best_score = confidence\n            best_reconstructed = reconstructed\n\n    distance = Levenshtein.distance(original_sentence, best_reconstructed)\n    total_distance += distance\n    count += 1\n\nmean_distance = total_distance / count if count else 0\nprint(f\"Validation Mean Levenshtein Distance: {mean_distance}\")\n\n# Process test set\ntest_sentences = []\nwith open(\"input/test_v2.txt\", \"r\") as f:\n    test_sentences = [line.strip() for line in f]\n\nsubmission = []\nfor idx, test_sentence in tqdm(\n    enumerate(test_sentences), total=len(test_sentences), desc=\"Processing Test\"\n):\n    test_words = test_sentence.split()\n    possible_positions = list(range(len(test_words) - 1))\n    if not possible_positions:\n        submission.append((idx + 1, test_sentence))\n        continue\n\n    masked_sentences = []\n    for i in possible_positions:\n        masked_words = test_words.copy()\n        masked_words.insert(i + 1, mask_token)\n        masked_sentences.append(\" \".join(masked_words))\n\n    # Tokenize and predict\n    encoded_inputs = tokenizer(\n        masked_sentences,\n        return_tensors=\"pt\",\n        padding=True,\n        truncation=True,\n        max_length=512,\n    )\n    input_ids = encoded_inputs[\"input_ids\"].cuda()\n    attention_mask = encoded_inputs[\"attention_mask\"].cuda()\n\n    with torch.no_grad():\n        outputs = model(input_ids=input_ids, attention_mask=attention_mask)\n    logits = outputs.logits\n\n    best_score = -float(\"inf\")\n    best_reconstructed = test_sentence\n    for i, (input_id, _, logit) in enumerate(zip(input_ids, attention_mask, logits)):\n        mask_pos = (input_id == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]\n        if mask_pos.nelement() == 0:\n            continue\n        mask_pos = mask_pos[0].item()\n        predicted_id = logit[mask_pos].argmax().item()\n        predicted_token = tokenizer.decode(predicted_id).strip()\n        reconstructed = masked_sentences[i].replace(mask_token, predicted_token)\n        confidence = torch.softmax(logit[mask_pos], dim=-1)[predicted_id].item()\n        if confidence > best_score:\n            best_score = confidence\n            best_reconstructed = reconstructed\n\n    submission.append((idx + 1, best_reconstructed))\n\n# Save submission\nsubmission_df = pd.DataFrame(submission, columns=[\"id\", \"sentence\"])\nsubmission_df.to_csv(\"submission/submission.csv\", index=False, quoting=1)\n",
+            "import pandas as pd\nimport torch\nfrom transformers import RobertaTokenizer, RobertaForMaskedLM\nimport Levenshtein\nimport gc\n\n# Use base model to reduce memory\nmodel_name = \"roberta-base\"\ntokenizer = RobertaTokenizer.from_pretrained(model_name)\nmodel = RobertaForMaskedLM.from_pretrained(model_name, torch_dtype=torch.float16).cuda()\nmodel.eval()\nmask_token = tokenizer.mask_token\n\n# Validation setup remains similar but with memory optimizations\nval_size = 200  # Reduced validation size for faster testing\nwith open(\"input/train_v2.txt\", \"r\") as f:\n    train_lines = [line.strip() for line in f if len(line.strip().split()) >= 3][\n        :50000\n    ]  # Smaller subset\nval_samples = train_lines[-val_size:]\n\nval_data = []\nfor line in val_samples:\n    words = line.strip().split()\n    if len(words) < 3:\n        continue\n    remove_pos = torch.randint(1, len(words) - 1, (1,)).item()\n    modified = \" \".join(words[:remove_pos] + words[remove_pos + 1 :])\n    val_data.append({\"original\": line, \"modified\": modified})\n\n# Validation loop with memory optimizations\ntotal_distance = 0\nfor sample in val_data:\n    best_reconstructed = sample[\"modified\"]\n    max_score = -float(\"inf\")\n\n    # Process each position sequentially\n    for i in range(len(sample[\"modified\"].split()) - 1):\n        masked = (\n            sample[\"modified\"].split()[: i + 1]\n            + [mask_token]\n            + sample[\"modified\"].split()[i + 1 :]\n        )\n        inputs = tokenizer(\" \".join(masked), return_tensors=\"pt\").to(\"cuda\")\n\n        with torch.inference_mode():\n            outputs = model(**inputs)\n\n        mask_index = (inputs.input_ids[0] == tokenizer.mask_token_id).nonzero().item()\n        logits = outputs.logits[0, mask_index]\n        token_id = logits.argmax().item()\n        token = tokenizer.decode(token_id).strip()\n\n        # Cleanup\n        del inputs, outputs\n        torch.cuda.empty_cache()\n\n        # Reconstruct and score\n        candidate = masked.copy()\n        candidate[i + 1] = token\n        candidate_sentence = \" \".join(candidate)\n\n        with torch.no_guda_mode():\n            inputs = tokenizer(candidate_sentence, return_tensors=\"pt\")\n            score = model(**inputs.to(\"cuda\")).logits.softmax(-1)[0].max().item()\n\n        if score > max_score:\n            max_score = score\n            best_reconstructed = candidate_sentence\n\n    total_distance += Levenshtein.distance(sample[\"original\"], best_reconstructed)\n\nprint(f\"Validation Mean Levenshtein Distance: {total_distance/len(val_data):.2f}\")\n\n# Process test set with memory optimizations\ntest_sentences = []\nwith open(\"input/test_v2.txt\", \"r\") as f:\n    test_sentences = [line.strip() for line in f][:1000]  # Process subset for demo\n\nsubmission = []\nfor idx, sentence in enumerate(test_sentences):\n    words = sentence.split()\n    best_sentence = sentence\n    best_score = -float(\"inf\")\n\n    # Try each possible insertion position\n    for i in range(len(words) - 1):\n        masked = words[: i + 1] + [mask_token] + words[i + 1 :]\n        inputs = tokenizer(\" \".join(masked), return_tensors=\"pt\").to(\"cuda\")\n\n        with torch.inference_mode():\n            outputs = model(**inputs)\n\n        mask_index = (inputs.input_ids[0] == tokenizer.mask_token_id).nonzero().item()\n        token_id = outputs.logits[0, mask_index].argmax().item()\n        token = tokenizer.decode(token_id).strip()\n\n        reconstructed = masked.copy()\n        reconstructed[i + 1] = token\n        reconstructed_sentence = \" \".join(reconstructed)\n\n        # Score the reconstruction\n        with torch.inference_mode():\n            score_inputs = tokenizer(reconstructed_sentence, return_tensors=\"pt\").to(\n                \"cuda\"\n            )\n            score = model(**score_inputs).logits.softmax(-1).max().item()\n\n        if score > best_score:\n            best_score = score\n            best_sentence = reconstructed_sentence\n\n        # Cleanup\n        del inputs, outputs, score_inputs\n        torch.cuda.empty_cache()\n        gc.collect()\n\n    submission.append((idx + 1, best_sentence))\n\n# Save submission\nsubmission_df = pd.DataFrame(submission, columns=[\"id\", \"sentence\"])\nsubmission_df.to_csv(\"submission/submission.csv\", index=False, quoting=1)\nprint(\"Submission file saved successfully!\")\n",
+            "import pandas as pd\nimport torch\nfrom transformers import AutoTokenizer, AutoModelForMaskedLM\nimport os\nfrom tqdm import tqdm\n\n# Setup directories\nos.makedirs(\"submission\", exist_ok=True)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n\n# Load optimized model\nmodel_name = \"distilbert-base-uncased\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForMaskedLM.from_pretrained(model_name).to(device)\nmodel.eval()\n\n\ndef process_batch(masked_sentences, batch_size=32):\n    predictions = []\n    for i in range(0, len(masked_sentences), batch_size):\n        batch = masked_sentences[i : i + batch_size]\n        inputs = tokenizer(\n            batch, return_tensors=\"pt\", padding=True, truncation=True, max_length=128\n        ).to(device)\n\n        with torch.no_grad():\n            outputs = model(**inputs)\n\n        mask_positions = (inputs.input_ids == tokenizer.mask_token_id).nonzero(\n            as_tuple=True\n        )[1]\n        for idx, mask_pos in enumerate(mask_positions):\n            try:\n                logits = outputs.logits[idx, mask_pos]\n                predicted_token = logits.argmax(dim=-1)\n                confidence = torch.nn.functional.softmax(logits, dim=-1).max().item()\n                predictions.append(\n                    {\"word\": tokenizer.decode(predicted_token), \"score\": confidence}\n                )\n            except IndexError:\n                predictions.append({\"word\": \"\", \"score\": 0})\n\n        # Memory cleanup\n        del inputs, outputs\n        torch.cuda.empty_cache()\n\n    return predictions\n\n\n# Process test set\ntest_sentences = []\nwith open(\"input/test_v2.txt\", \"r\", encoding=\"utf-8\") as f:\n    test_sentences = [line.strip() for line in f]\n\nsubmission = []\nfor idx, sentence in tqdm(\n    enumerate(test_sentences), total=len(test_sentences), desc=\"Processing Test\"\n):\n    words = sentence.split()\n    if len(words) < 2:\n        submission.append({\"id\": idx + 1, \"sentence\": f'\"{sentence}\"'})\n        continue\n\n    candidates = []\n    for i in range(1, len(words) + 1):\n        masked = words[:i] + [tokenizer.mask_token] + words[i:]\n        candidates.append(\" \".join(masked))\n\n    batch_preds = process_batch(candidates, batch_size=16)\n    best_idx = max(enumerate(batch_preds), key=lambda x: x[1][\"score\"])[0]\n\n    predicted_word = batch_preds[best_idx][\"word\"].strip()\n    reconstructed = words[:best_idx] + [predicted_word] + words[best_idx:]\n    reconstructed_sentence = \" \".join(reconstructed).replace('\"', '\"\"')\n    submission.append({\"id\": idx + 1, \"sentence\": f'\"{reconstructed_sentence}\"'})\n\n    # Periodic memory cleanup\n    if idx % 1000 == 0:\n        torch.cuda.empty_cache()\n\n# Save with correct CSV formatting\npd.DataFrame(submission).to_csv(\n    \"submission/submission.csv\", index=False, quoting=1  # QUOTE_ALL\n)\nprint(\"Submission file created successfully\")\n"
+        ],
+        "term_out": [
+            "<OMITTED>",
+            "<OMITTED>",
+            "<OMITTED>",
+            "\rconfig.json:   0%|          | 0.00/483 [00:00<?, ?B/s]\rconfig.json: 100%|##########| 483/483 [00:00<00:00, 2.06MB/s]\n\rmodel.safetensors:   0%|          | 0.00/268M [00:00<?, ?B/s]\rmodel.safetensors:   4%|3         | 10.5M/268M [00:01<00:35, 7.18MB/s]\rmodel.safetensors:   8%|7         | 21.0M/268M [00:01<00:21, 11.5MB/s]\rmodel.safetensors:  12%|#1        | 31.5M/268M [00:02<00:16, 14.1MB/s]\rmodel.safetensors:  16%|#5        | 41.9M/268M [00:03<00:14, 15.9MB/s]\rmodel.safetensors:  20%|#9        | 52.4M/268M [00:03<00:12, 17.0MB/s]\rmodel.safetensors:  23%|##3       | 62.9M/268M [00:04<00:11, 17.8MB/s]\rmodel.safetensors:  27%|##7       | 73.4M/268M [00:04<00:10, 18.3MB/s]\rmodel.safetensors:  31%|###1      | 83.9M/268M [00:05<00:09, 18.7MB/s]\rmodel.safetensors:  35%|###5      | 94.4M/268M [00:05<00:09, 19.0MB/s]\rmodel.safetensors:  39%|###9      | 105M/268M [00:06<00:08, 19.1MB/s] \rmodel.safetensors:  43%|####3     | 115M/268M [00:06<00:07, 19.3MB/s]\rmodel.safetensors:  47%|####6     | 126M/268M [00:07<00:07, 19.3MB/s]\rmodel.safetensors:  51%|#####     | 136M/268M [00:07<00:06, 19.4MB/s]\rmodel.safetensors:  55%|#####4    | 147M/268M [00:08<00:06, 19.5MB/s]\rmodel.safetensors:  59%|#####8    | 157M/268M [00:08<00:05, 19.5MB/s]\rmodel.safetensors:  63%|######2   | 168M/268M [00:09<00:05, 19.5MB/s]\rmodel.safetensors:  67%|######6   | 178M/268M [00:10<00:04, 19.6MB/s]\rmodel.safetensors:  70%|#######   | 189M/268M [00:10<00:04, 19.5MB/s]\rmodel.safetensors:  74%|#######4  | 199M/268M [00:11<00:04, 15.4MB/s]\rmodel.safetensors:  78%|#######8  | 210M/268M [00:12<00:03, 16.4MB/s]\rmodel.safetensors:  82%|########2 | 220M/268M [00:12<00:02, 17.2MB/s]\rmodel.safetensors:  86%|########6 | 231M/268M [00:13<00:02, 17.9MB/s]\rmodel.safetensors:  90%|######### | 241M/268M [00:13<00:01, 18.4MB/s]\rmodel.safetensors:  94%|#########3| 252M/268M [00:14<00:00, 18.7MB/s]\rmodel.safetensors:  98%|#########7| 262M/268M [00:14<00:00, 19.0MB/s]\rmodel.safetensors: 100%|##########| 268M/268M [00:15<00:00, 19.1MB/s]\rmodel.safetensors: 100%|##########| 268M/268M [00:15<00:00, 17.7MB/s]\n\rtokenizer_config.json:   0%|          | 0.00/48.0 [00:00<?, ?B/s]\rtokenizer_config.json: 100%|##########| 48.0/48.0 [00:00<00:00, 478kB/s]\n\rvocab.txt: 0.00B [00:00, ?B/s]\rvocab.txt: 17.6kB [00:00, 112kB/s]\rvocab.txt: 87.5kB [00:00, 168kB/s]\rvocab.txt: 194kB [00:03, 57.4kB/s]\rvocab.txt: 210kB [00:03, 52.0kB/s]\rvocab.txt: 232kB [00:03, 65.0kB/s]\n\rtokenizer.json: 0.00B [00:00, ?B/s]\rtokenizer.json: 244kB [00:00, 838kB\n ... [5622 characters truncated] ... \n.py\", line 1750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/models/distilbert/modeling_distilbert.py\", line 428, in forward\n    return apply_chunking_to_forward(self.ff_chunk, self.chunk_size_feed_forward, self.seq_len_dim, input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/pytorch_utils.py\", line 230, in apply_chunking_to_forward\n    num_args_in_forward_chunk_fn = len(inspect.signature(forward_fn).parameters)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/inspect.py\", line 3345, in signature\n    return Signature.from_callable(obj, follow_wrapped=follow_wrapped,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/inspect.py\", line 3085, in from_callable\n    return _signature_from_callable(obj, sigcls=cls,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/inspect.py\", line 2527, in _signature_from_callable\n    sig = _get_signature_of(obj.__func__)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/inspect.py\", line 2597, in _signature_from_callable\n    return _signature_from_function(sigcls, obj,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/inspect.py\", line 2487, in _signature_from_function\n    return cls(parameters,\n           ^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/inspect.py\", line 3076, in __init__\n    params = OrderedDict((param.name, param) for param in parameters)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/inspect.py\", line 3076, in <genexpr>\n    params = OrderedDict((param.name, param) for param in parameters)\n    \nKeyboardInterrupt\nTimeoutError: Execution exceeded the time limit of 9 hours",
+            "You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565\n\r  0%|          | 0/1000 [00:00<?, ?it/s]\r  0%|          | 1/1000 [00:02<38:31,  2.31s/it]\r  0%|          | 2/1000 [00:02<18:45,  1.13s/it]\r  0%|          | 3/1000 [00:02<12:44,  1.30it/s]\r  0%|          | 4/1000 [00:03<11:26,  1.45it/s]\r  0%|          | 5/1000 [00:03<09:46,  1.70it/s]\r  1%|          | 6/1000 [00:04<09:37,  1.72it/s]\r  1%|          | 7/1000 [00:05<09:26,  1.75it/s]\r  1%|          | 8/1000 [00:05<09:22,  1.76it/s]\r  1%|          | 9/1000 [00:06<09:27,  1.75it/s]\r  1%|1         | 10/1000 [00:06<09:28,  1.74it/s]\r  1%|1         | 11/1000 [00:07<09:28,  1.74it/s]\r  1%|1         | 12/1000 [00:07<09:28,  1.74it/s]\r  1%|1         | 13/1000 [00:09<13:04,  1.26it/s]\r  1%|1         | 14/1000 [00:09<11:35,  1.42it/s]\r  2%|1         | 15/1000 [00:10<10:03,  1.63it/s]\r  2%|1         | 16/1000 [00:10<09:44,  1.68it/s]\r  2%|1         | 17/1000 [00:11<09:37,  1.70it/s]\r  2%|1         | 18/1000 [00:11<09:39,  1.69it/s]\r  2%|1         | 19/1000 [00:12<09:35,  1.71it/s]\r  2%|2         | 20/1000 [00:13<09:36,  1.70it/s]\r  2%|2         | 21/1000 [00:13<09:38,  1.69it/s]\r  2%|2         | 22/1000 [00:14<09:36,  1.70it/s]\r  2%|2         | 23/1000 [00:14<09:49,  1.66it/s]\r  2%|2         | 24/1000 [00:15<10:01,  1.62it/s]\r  2%|2         | 25/1000 [00:16<10:22,  1.57it/s]\r  3%|2         | 26/1000 [00:16<10:40,  1.52it/s]\r  3%|2         | 27/1000 [00:17<10:44,  1.51it/s]\r  3%|2         | 28/1000 [00:18<10:43,  1.51it/s]\r  3%|2         | 29/1000 [00:18<10:45,  1.50it/s]\r  3%|3         | 30/1000 [00:19<10:31,  1.54it/s]\r  3%|3         | 31/1000 [00:20<10:31,  1.53it/s]\r  3%|3         | 32/1000 [00:20<10:41,  1.51it/s]\r  3%|3         | 33/1000 [00:21<10:39,  1.51it/s]\r  3%|3         | 34/1000 [00:22<10:19,  1.56it/s]\r  4%|3         | 35/1000 [00:22<10:26,  1.54it/s]\r  4%|3         | 36/1000 [00:23<10:29,  1.53it/s]\r  4%|3         | 37/1000 [00:24<10:33,  1.52it/s]\r  4%|3         | 38/1000 [00:24<10:34,  1.52it/s]\r  4%|3         | 39/1000 [00:25<10:36,  1.51it/s]\r  4%|4         | 40/1000 [00:26<10:17,  1.55it/s]\r  4%|\n ... [2793979 characters truncated] ... \niconda3/envs/code_env/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py\", line 1124, in forward\n    layer_outputs = layer_module(\n                    ^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1739, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py\", line 675, in forward\n    self_attention_outputs = self.layer[0](\n                             ^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1739, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py\", line 593, in forward\n    attention_output = self.SelfAttention(\n                       ^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1739, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/models/t5/modeling_t5.py\", line 552, in forward\n    attn_weights = nn.functional.softmax(scores.float(), dim=-1).type_as(scores)\n                                         ^^^^^^^^^^^^^^\nKeyboardInterrupt\nTimeoutError: Execution exceeded the time limit of 9 hours",
+            "You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565\n\rLoading train: 0it [00:00, ?it/s]\rLoading train: 203516it [00:00, 2035074.60it/s]\rLoading train: 435624it [00:00, 2203258.87it/s]\rLoading train: 671002it [00:00, 2271972.14it/s]\rLoading train: 910301it [00:00, 2319726.83it/s]\rLoading train: 1151749it [00:00, 2353875.50it/s]\rLoading train: 1390664it [00:00, 2365852.16it/s]\rLoading train: 1627250it [00:00, 2360461.10it/s]\rLoading train: 1865331it [00:00, 2366915.44it/s]\rLoading train: 2106361it [00:00, 2380444.67it/s]\rLoading train: 2344409it [00:01, 2369209.93it/s]\rLoading train: 2584997it [00:01, 2380375.28it/s]\rLoading train: 2825392it [00:01, 2387511.34it/s]\rLoading train: 3064155it [00:01, 2383684.88it/s]\rLoading train: 3308187it [00:01, 2400731.67it/s]\rLoading train: 3549357it [00:01, 2404001.88it/s]\rLoading train: 3789765it [00:01, 2401700.32it/s]\rLoading train: 4030628it [00:01, 2403767.84it/s]\rLoading train: 4271009it [00:01, 2386374.94it/s]\rLoading train: 4509677it [00:01, 2363837.72it/s]\rLoading train: 4746118it [00:02, 2354828.32it/s]\rLoading train: 4986296it [00:02, 2368722.77it/s]\rLoading train: 5225590it [00:02, 2375920.56it/s]\rLoading train: 5467033it [00:02, 2387398.41it/s]\rLoading train: 5705803it [00:02, 2375164.87it/s]\rLoading train: 5943351it [00:02, 2361016.15it/s]\rLoading train: 6179926it [00:02, 2362409.99it/s]\rLoading train: 6417002it [00:02, 2364887.47it/s]\rLoading train: 6654868it [00:02, 2368987.65it/s]\rLoading train: 6894043it [00:02, 2375759.96it/s]\rLoading train: 7131632it [00:03, 2362784.51it/s]\rLoading train: 7372675it [00:03, 2376991.69it/s]\rLoading train: 7610398it [00:03, 2374631.92it/s]\rLoading train: 7847878it [00:03, 2160102.82it/s]\rLoading train: 8079746it [00:03, 2204465.92it/s]\rLoading train: 8311889it [00:03, 2237860.88it/s]\rLoading train: 8551305it [00:03, 2283138.60it/s]\rLoading train: 8785757it [00:03, 2301097.95it/s]\rLoading train: 9024976it [00:03, 2327933.21it/s]\rLoading train: 9264810it [00:03, 2348791.15it/s]\rLoading train: 9500618it [00:04, 2351543.33it/s]\rLoading train: 9737507it [00:04, 2356703.81it/s\n ... [2655 characters truncated] ... \ning train: 22751448it [00:09, 2414332.35it/s]\rLoading train: 22992901it [00:09, 2414115.32it/s]\rLoading train: 23234327it [00:09, 2412109.43it/s]\rLoading train: 23478226it [00:09, 2420121.79it/s]\rLoading train: 23726097it [00:10, 2437649.52it/s]\rLoading train: 23970844it [00:10, 2440576.49it/s]\rLoading train: 24215281it [00:10, 2441700.15it/s]\rLoading train: 24461745it [00:10, 2448560.47it/s]\rLoading train: 24707799it [00:10, 2452139.22it/s]\rLoading train: 24953016it [00:10, 2429604.06it/s]\rLoading train: 25199493it [00:10, 2440066.53it/s]\rLoading train: 25445885it [00:10, 2447175.67it/s]\rLoading train: 25690635it [00:10, 2433202.13it/s]\rLoading train: 25933992it [00:10, 2425613.38it/s]\rLoading train: 26178148it [00:11, 2430350.67it/s]\rLoading train: 26421323it [00:11, 2430755.36it/s]\rLoading train: 26665101it [00:11, 2423158.38it/s]\rLoading train: 26911116it [00:11, 2434184.51it/s]\rLoading train: 27154551it [00:11, 2427552.94it/s]\rLoading train: 27397326it [00:11, 2427590.02it/s]\rLoading train: 27640740it [00:11, 2429534.01it/s]\rLoading train: 27884709it [00:11, 2432564.44it/s]\rLoading train: 28129565it [00:11, 2437344.28it/s]\rLoading train: 28376198it [00:11, 2446017.36it/s]\rLoading train: 28620804it [00:12, 2441932.91it/s]\rLoading train: 28866409it [00:12, 2446089.92it/s]\rLoading train: 29111022it [00:12, 1659617.52it/s]\rLoading train: 29345725it [00:12, 1814317.08it/s]\rLoading train: 29584798it [00:12, 1954542.39it/s]\rLoading train: 29825861it [00:12, 2072163.88it/s]\rLoading train: 29998384it [00:12, 2354785.63it/s]\n\rValidating:   0%|          | 0/7 [00:00<?, ?it/s]Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.\n\rValidating:   0%|          | 0/7 [00:03<?, ?it/s]\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 117, in <module>\n    preds = process_batch(batch)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"runfile_1.py\", line 79, in process_batch\n    tokenizer(word, add_special_tokens=False).input_ids[0]\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^\nIndexError: list index out of range\nExecution time: 33 seconds seconds (time limit is 9 hours).",
+            "\rValidating:   0%|          | 0/100 [00:00<?, ?it/s]\rValidating:   1%|1         | 1/100 [00:00<01:03,  1.57it/s]\rValidating:  12%|#2        | 12/100 [00:00<00:04, 21.32it/s]\rValidating:  21%|##1       | 21/100 [00:00<00:02, 35.46it/s]\rValidating:  35%|###5      | 35/100 [00:00<00:01, 58.82it/s]\rValidating:  50%|#####     | 50/100 [00:01<00:00, 79.65it/s]\rValidating:  62%|######2   | 62/100 [00:01<00:00, 88.81it/s]\rValidating:  77%|#######7  | 77/100 [00:01<00:00, 103.16it/s]\rValidating:  92%|#########2| 92/100 [00:01<00:00, 115.70it/s]\rValidating: 100%|##########| 100/100 [00:01<00:00, 66.96it/s]\nValidation Mean Levenshtein Distance: 10.0500\n\rProcessing Test:   0%|          | 0/302645 [00:00<?, ?it/s]\rProcessing Test:   0%|          | 13/302645 [00:00<40:08, 125.68it/s]\rProcessing Test:   0%|          | 27/302645 [00:00<38:37, 130.57it/s]\rProcessing Test:   0%|          | 41/302645 [00:00<39:39, 127.19it/s]\rProcessing Test:   0%|          | 54/302645 [00:00<39:55, 126.34it/s]\rProcessing Test:   0%|          | 67/302645 [00:00<43:10, 116.82it/s]\rProcessing Test:   0%|          | 82/302645 [00:00<40:34, 124.28it/s]\rProcessing Test:   0%|          | 95/302645 [00:00<40:48, 123.58it/s]\rProcessing Test:   0%|          | 109/302645 [00:00<40:48, 123.56it/s]\rProcessing Test:   0%|          | 123/302645 [00:00<39:45, 126.80it/s]\rProcessing Test:   0%|          | 136/302645 [00:01<41:37, 121.11it/s]\rProcessing Test:   0%|          | 149/302645 [00:01<40:56, 123.13it/s]\rProcessing Test:   0%|          | 162/302645 [00:01<42:23, 118.92it/s]\rProcessing Test:   0%|          | 174/302645 [00:01<43:56, 114.74it/s]\rProcessing Test:   0%|          | 186/302645 [00:01<43:55, 114.76it/s]\rProcessing Test:   0%|          | 201/302645 [00:01<40:48, 123.54it/s]\rProcessing Test:   0%|          | 214/302645 [00:01<42:15, 119.26it/s]\rProcessing Test:   0%|          | 230/302645 [00:01<39:18, 128.21it/s]\rProcessing Test:   0%|          | 245/302645 [00:01<37:44, 133.55it/s]\rProcessing Test:   0%|          | 259/302645 [00:02<37:22, 134.87it/s]\rProcessing Test:   0%|          | 275/302645 [00:02<36:15, 139.00it/s]\rProcessing Test:   0%|          | 289/302645 [00:02<37:24, 134.74it/s]\rProcessing Test:   0%|          | 303/302645 [00:02<38:00, 132.56it/s]\rProcessing Test:   0%|          | 317/302645 [00:02<37:39, 133.82it/s]\rProcessing Test:   0%|          | 331/302645 [00:02<37:36, 133.99it/s]\rProcessing Test:   0%|          | 347/302645 [00:02<36:04, 139.66it/s]\rProcessing Test:   0%\n ... [642641 characters truncated] ... \n, global_scope)\n  File \"runfile_0.py\", line 120, in <module>\n    batch_preds = process_batch(candidates)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"runfile_0.py\", line 30, in process_batch\n    outputs = model(**inputs)\n              ^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1739, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/models/distilbert/modeling_distilbert.py\", line 893, in forward\n    prediction_logits = self.vocab_projector(prediction_logits)  # (bs, seq_length, vocab_size)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1739, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/linear.py\", line 125, in forward\n    return F.linear(input, self.weight, self.bias)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ntorch.OutOfMemoryError: CUDA out of memory. Tried to allocate 25.08 GiB. GPU 0 has a total capacity of 79.33 GiB of which 23.59 GiB is free. Process 490034 has 12.02 GiB memory in use. Process 507116 has 31.73 GiB memory in use. Process 499758 has 11.98 GiB memory in use. Of the allocated memory 1.52 GiB is allocated by PyTorch, and 10.01 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)\nExecution time: 22 minutes seconds (time limit is 9 hours).",
+            "\rtokenizer_config.json:   0%|          | 0.00/25.0 [00:00<?, ?B/s]\rtokenizer_config.json: 100%|##########| 25.0/25.0 [00:00<00:00, 44.7kB/s]\n\rvocab.json: 0.00B [00:00, ?B/s]\rvocab.json: 9.59kB [00:00, 24.5kB/s]\rvocab.json: 20.0kB [00:01, 19.1kB/s]\rvocab.json: 225kB [00:01, 297kB/s]  \rvocab.json: 324kB [00:01, 338kB/s]\rvocab.json: 497kB [00:01, 470kB/s]\rvocab.json: 870kB [00:02, 357kB/s]\rvocab.json: 899kB [00:02, 324kB/s]\n\rmerges.txt: 0.00B [00:00, ?B/s]\rmerges.txt: 149kB [00:00, 998kB/s]\rmerges.txt: 251kB [00:00, 614kB/s]\rmerges.txt: 322kB [00:00, 471kB/s]\rmerges.txt: 456kB [00:00, 756kB/s]\n\rtokenizer.json: 0.00B [00:00, ?B/s]\rtokenizer.json: 8.59kB [00:00, 70.3kB/s]\rtokenizer.json: 57.1kB [00:00, 139kB/s] \rtokenizer.json: 173kB [00:00, 378kB/s] \rtokenizer.json: 446kB [00:00, 969kB/s]\rtokenizer.json: 580kB [00:00, 770kB/s]\rtokenizer.json: 724kB [00:01, 816kB/s]\rtokenizer.json: 1.07MB [00:01, 987kB/s]\rtokenizer.json: 1.30MB [00:02, 483kB/s]\rtokenizer.json: 1.36MB [00:02, 590kB/s]\n\rconfig.json:   0%|          | 0.00/482 [00:00<?, ?B/s]\rconfig.json: 100%|##########| 482/482 [00:00<00:00, 5.55MB/s]\n\rmodel.safetensors:   0%|          | 0.00/1.42G [00:00<?, ?B/s]\rmodel.safetensors:   1%|          | 10.5M/1.42G [00:01<03:03, 7.71MB/s]\rmodel.safetensors:   1%|1         | 21.0M/1.42G [00:01<01:55, 12.2MB/s]\rmodel.safetensors:   2%|2         | 31.5M/1.42G [00:02<01:32, 15.0MB/s]\rmodel.safetensors:   3%|2         | 41.9M/1.42G [00:02<01:21, 16.9MB/s]\rmodel.safetensors:   4%|3         | 52.4M/1.42G [00:03<01:15, 18.1MB/s]\rmodel.safetensors:   4%|4         | 62.9M/1.42G [00:03<01:11, 18.9MB/s]\rmodel.safetensors:   5%|5         | 73.4M/1.42G [00:04<01:09, 19.3MB/s]\rmodel.safetensors:   6%|5         | 83.9M/1.42G [00:04<01:07, 19.9MB/s]\rmodel.safetensors:   7%|6         | 94.4M/1.42G [00:05<01:06, 20.0MB/s]\rmodel.safetensors:   7%|7         | 105M/1.42G [00:05<01:04, 20.3MB/s] \rmodel.safetensors:   8%|8         | 115M/1.42G [00:06<01:03, 20.6MB/s]\rmodel.safetensors:   9%|8         | 126M/1.42G [00:06<01:03, 20.5MB/s]\rmodel.safetensors:  10%|9         | 136M/1.42G [00:07<01:02, 20.7MB/s]\rmodel.safetensors:  10%|#         | 147M/1.42G [00:07<01:01, 20.8MB/s]\rmodel.safetensors:  11%|#1        | 157M/1.42G [00:08<01:01, 20.6MB/s]\rmodel.safetensors:  12%|#1        | 168M/1.42G [00:08<01:00, 20.8MB/s]\rmodel.safetensors:  13%|#2        | 178M/1.42G [00:09<00:59, 20.9MB/s]\rmodel.safetensors:  13%|#3        | 189M/1.42G [00:09<00:59, 20.7MB/s]\rmodel.safetensors:  14%|#4        | \n ... [1525744 characters truncated] ... \n750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/models/roberta/modeling_roberta.py\", line 1220, in forward\n    prediction_scores = self.lm_head(sequence_output)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1739, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/transformers/models/roberta/modeling_roberta.py\", line 1259, in forward\n    x = self.decoder(x)\n        ^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1739, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1750, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/nn/modules/linear.py\", line 125, in forward\n    return F.linear(input, self.weight, self.bias)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ntorch.OutOfMemoryError: CUDA out of memory. Tried to allocate 38.36 GiB. GPU 0 has a total capacity of 79.33 GiB of which 35.74 GiB is free. Process 507116 has 31.74 GiB memory in use. Process 499758 has 10.82 GiB memory in use. Process 611591 has 1.02 GiB memory in use. Of the allocated memory 3.00 GiB is allocated by PyTorch, and 7.33 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)\nExecution time: an hour seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 65, in <module>\n    with torch.no_guda_mode():\n         ^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/__init__.py\", line 2681, in __getattr__\n    raise AttributeError(f\"module '{__name__}' has no attribute '{name}'\")\nAttributeError: module 'torch' has no attribute 'no_guda_mode'\nExecution time: a minute seconds (time limit is 9 hours).",
+            "\rProcessing Test:   0%|          | 0/302645 [00:00<?, ?it/s]\rProcessing Test:   0%|          | 2/302645 [00:00<22:12:48,  3.78it/s]\rProcessing Test:   0%|          | 5/302645 [00:00<9:21:38,  8.98it/s] \rProcessing Test:   0%|          | 7/302645 [00:00<8:16:17, 10.16it/s]\rProcessing Test:   0%|          | 9/302645 [00:01<8:28:01,  9.93it/s]\rProcessing Test:   0%|          | 11/302645 [00:01<9:33:04,  8.80it/s]\rProcessing Test:   0%|          | 14/302645 [00:01<6:59:30, 12.02it/s]\rProcessing Test:   0%|          | 20/302645 [00:01<4:07:54, 20.35it/s]\rProcessing Test:   0%|          | 25/302645 [00:01<3:24:33, 24.66it/s]\rProcessing Test:   0%|          | 30/302645 [00:01<2:47:24, 30.13it/s]\rProcessing Test:   0%|          | 34/302645 [00:01<2:40:04, 31.51it/s]\rProcessing Test:   0%|          | 38/302645 [00:01<2:30:21, 33.54it/s]\rProcessing Test:   0%|          | 45/302645 [00:02<2:13:41, 37.72it/s]\rProcessing Test:   0%|          | 49/302645 [00:02<2:28:14, 34.02it/s]\rProcessing Test:   0%|          | 54/302645 [00:02<2:23:56, 35.03it/s]\rProcessing Test:   0%|          | 58/302645 [00:02<2:36:11, 32.29it/s]\rProcessing Test:   0%|          | 62/302645 [00:02<3:13:14, 26.10it/s]\rProcessing Test:   0%|          | 66/302645 [00:02<3:15:08, 25.84it/s]\rProcessing Test:   0%|          | 69/302645 [00:03<3:33:45, 23.59it/s]\rProcessing Test:   0%|          | 72/302645 [00:03<3:24:03, 24.71it/s]\rProcessing Test:   0%|          | 76/302645 [00:03<3:09:30, 26.61it/s]\rProcessing Test:   0%|          | 81/302645 [00:03<2:49:55, 29.68it/s]\rProcessing Test:   0%|          | 85/302645 [00:03<3:02:16, 27.67it/s]\rProcessing Test:   0%|          | 89/302645 [00:03<3:00:03, 28.00it/s]\rProcessing Test:   0%|          | 94/302645 [00:03<2:37:44, 31.97it/s]\rProcessing Test:   0%|          | 99/302645 [00:04<2:21:11, 35.71it/s]\rProcessing Test:   0%|          | 103/302645 [00:04<2:33:21, 32.88it/s]\rProcessing Test:   0%|          | 107/302645 [00:04<4:13:58, 19.85it/s]\rProcessing Test:   0%|          | 110/302645 [00:04<5:19:01, 15.81it/s]\rProcessing Test:   0%|          | 114/302645 [00:05<4:27:29, 18.85it/s]\rProcessing Test:   0%|          | 119/302645 [00:05<3:30:07, 24.00it/s]\rProcessing Test:   0%|          | 124/302645 [00:05<2:55:08, 28.79it/s]\rProcessing Test:   0%|          | 128/302645 [00:05<2:41:33, 31.21it/s]\rProcessing Test:   0%|          | 132/302645 [00:05<2:31:47, 33.22it/s]\rProcessing Test:   0%|          | 136/302645 [00:05<2:46:55, 30.20it/s]\rProcessing Test:  \n ... [3590183 characters truncated] ... \n3it/s]\rProcessing Test: 100%|#########9| 302452/302645 [1:58:46<00:04, 39.65it/s]\rProcessing Test: 100%|#########9| 302458/302645 [1:58:46<00:04, 42.75it/s]\rProcessing Test: 100%|#########9| 302463/302645 [1:58:46<00:04, 44.06it/s]\rProcessing Test: 100%|#########9| 302470/302645 [1:58:46<00:03, 48.85it/s]\rProcessing Test: 100%|#########9| 302476/302645 [1:58:46<00:03, 49.11it/s]\rProcessing Test: 100%|#########9| 302481/302645 [1:58:46<00:03, 48.81it/s]\rProcessing Test: 100%|#########9| 302488/302645 [1:58:46<00:02, 54.14it/s]\rProcessing Test: 100%|#########9| 302494/302645 [1:58:46<00:02, 50.81it/s]\rProcessing Test: 100%|#########9| 302500/302645 [1:58:47<00:03, 44.92it/s]\rProcessing Test: 100%|#########9| 302506/302645 [1:58:47<00:02, 47.45it/s]\rProcessing Test: 100%|#########9| 302513/302645 [1:58:47<00:02, 51.48it/s]\rProcessing Test: 100%|#########9| 302519/302645 [1:58:47<00:02, 46.96it/s]\rProcessing Test: 100%|#########9| 302525/302645 [1:58:47<00:02, 47.81it/s]\rProcessing Test: 100%|#########9| 302531/302645 [1:58:47<00:02, 46.01it/s]\rProcessing Test: 100%|#########9| 302537/302645 [1:58:47<00:02, 49.02it/s]\rProcessing Test: 100%|#########9| 302543/302645 [1:58:47<00:01, 51.33it/s]\rProcessing Test: 100%|#########9| 302550/302645 [1:58:48<00:01, 54.58it/s]\rProcessing Test: 100%|#########9| 302556/302645 [1:58:48<00:01, 52.66it/s]\rProcessing Test: 100%|#########9| 302562/302645 [1:58:48<00:01, 52.42it/s]\rProcessing Test: 100%|#########9| 302568/302645 [1:58:48<00:01, 54.13it/s]\rProcessing Test: 100%|#########9| 302574/302645 [1:58:48<00:01, 50.29it/s]\rProcessing Test: 100%|#########9| 302580/302645 [1:58:48<00:01, 50.43it/s]\rProcessing Test: 100%|#########9| 302586/302645 [1:58:48<00:01, 48.69it/s]\rProcessing Test: 100%|#########9| 302592/302645 [1:58:48<00:01, 51.58it/s]\rProcessing Test: 100%|#########9| 302600/302645 [1:58:49<00:00, 56.54it/s]\rProcessing Test: 100%|#########9| 302606/302645 [1:58:49<00:00, 57.28it/s]\rProcessing Test: 100%|#########9| 302615/302645 [1:58:49<00:00, 64.37it/s]\rProcessing Test: 100%|#########9| 302622/302645 [1:58:49<00:00, 63.75it/s]\rProcessing Test: 100%|#########9| 302629/302645 [1:58:49<00:00, 64.28it/s]\rProcessing Test: 100%|#########9| 302636/302645 [1:58:49<00:00, 61.24it/s]\rProcessing Test: 100%|#########9| 302644/302645 [1:58:49<00:00, 65.83it/s]\rProcessing Test: 100%|##########| 302645/302645 [1:58:49<00:00, 42.45it/s]\nSubmission file created successfully\nExecution time: an hour seconds (time limit is 9 hours)."
+        ],
+        "analysis": [
+            null,
+            "The code execution failed because the 'input/train.txt' file could not be found, resulting in a FileNotFoundError. Consequently, the submission.csv file was not produced. The validation metric could not be calculated due to this error.",
+            "The code successfully generates a submission file containing predictions for the test data, saved as 'submission.csv' in the './submission/' directory. The execution ran without any errors or bugs. The validation mean Levenshtein distance, which is the metric to be minimized, was reported as 8.06, indicating the average edit distance between the predicted and original sentences in the validation set.",
+            "The execution of the code failed due to a timeout error, as it exceeded the maximum allowed time of 9 hours. The script attempted to perform operations with a masked language model, but it was unable to complete within the time constraints. Although a 'submission.csv' file was intended to be created, the execution did not finish successfully, and thus the validation metric could not be calculated.",
+            "The execution failed due to a timeout error, indicating that the script took too long to run. This suggests that there is a performance issue with the code, likely related to the processing time of the model. Additionally, the submission.csv file was not produced, as the script did not complete successfully.",
+            "The execution of the script failed due to an IndexError in the process_batch function. The problem arises when accessing the input_ids list, which is empty, causing the index out of range error. Consequently, the submission.csv file was not created, and the validation metric could not be evaluated.",
+            "The execution encountered a bug due to a CUDA out of memory error, indicating that the GPU ran out of memory during processing. This prevented the creation of the submission file. The validation metric was not successfully calculated due to the execution failure.",
+            "The execution failed due to a CUDA out of memory error, indicating that the model exceeded the available GPU memory during processing. Consequently, the validation metric could not be calculated, and the submission was not properly produced.",
+            "The code execution failed due to a bug in the script. Specifically, there is a typo in the function name 'torch.no_guda_mode()', which caused an AttributeError. As a result, the script did not complete successfully, and the validation metric could not be calculated. However, the script attempts to save predictions in a 'submission.csv' file in the './submission/' directory, which indicates the intended output location.",
+            "The code executed successfully and created a submission file named 'submission.csv' in the './submission/' directory. The task involves predicting missing words in sentences, evaluated using the Levenshtein distance metric, which should be minimized for better performance. The execution log indicates that the submission file was created without any errors or bugs, but the metric value is not available in the output log."
+        ],
+        "exp_name": "billion-word-imputation_mcts_comp_dpr1_v7_parallel_1[cpu-0-35]",
+        "metrics": [
+            null,
+            null,
+            8.06,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "ucts": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "is_bug": [
+            "None",
+            "True",
+            "False",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True"
+        ],
+        "rewards": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "visits": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "is_debug_success": [
+            "False",
+            "True",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False"
+        ],
+        "local_best_node_steps": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "local_best_metrics": [
+            null,
+            null,
+            8.06,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "stages": [
+            "root",
+            "draft",
+            "debug",
+            "draft",
+            "draft",
+            "debug",
+            "debug",
+            "draft",
+            "debug",
+            "debug"
+        ],
+        "continue_improve": [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ]
+    }
+}

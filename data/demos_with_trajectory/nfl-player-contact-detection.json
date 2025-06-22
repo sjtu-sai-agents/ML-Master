@@ -1,0 +1,2185 @@
+{
+    "title": "nfl-player-contact-detection",
+    "steps": [
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task nfl-player-contact-detection --time-limit 12h",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting run \"nfl-player-contact-detection\"",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node af1580ae98fe4a6591a3fe4a32a2dd98 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node af1580ae98fe4a6591a3fe4a32a2dd98 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node af1580ae98fe4a6591a3fe4a32a2dd98 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current af1580ae98fe4a6591a3fe4a32a2dd98 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current af1580ae98fe4a6591a3fe4a32a2dd98 expected_child_count is 2.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current af1580ae98fe4a6591a3fe4a32a2dd98 expected_child_count is 3.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node acfb187354fd4635838b5ffb5bc96a1c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node acfb187354fd4635838b5ffb5bc96a1c is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node acfb187354fd4635838b5ffb5bc96a1c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 5b56308d408e4954957827c4c7f84aec",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 5b56308d408e4954957827c4c7f84aec is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node acfb187354fd4635838b5ffb5bc96a1c is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node acfb187354fd4635838b5ffb5bc96a1c is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node af1580ae98fe4a6591a3fe4a32a2dd98, the generated node is acfb187354fd4635838b5ffb5bc96a1c, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main acfb187354fd4635838b5ffb5bc96a1c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is acfb187354fd4635838b5ffb5bc96a1c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=2,edges=[(0, 1)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 4/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: acfb187354fd4635838b5ffb5bc96a1c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: acfb187354fd4635838b5ffb5bc96a1c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodeacfb187354fd4635838b5ffb5bc96a1c.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current acfb187354fd4635838b5ffb5bc96a1c expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 5b56308d408e4954957827c4c7f84aec",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 5b56308d408e4954957827c4c7f84aec is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 5b56308d408e4954957827c4c7f84aec is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node af1580ae98fe4a6591a3fe4a32a2dd98, the generated node is 5b56308d408e4954957827c4c7f84aec, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 5b56308d408e4954957827c4c7f84aec",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is 5b56308d408e4954957827c4c7f84aec",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=3,edges=[(0, 2), (0, 1)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 5/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 5b56308d408e4954957827c4c7f84aec",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 5b56308d408e4954957827c4c7f84aec",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node5b56308d408e4954957827c4c7f84aec.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 5b56308d408e4954957827c4c7f84aec expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 5b56308d408e4954957827c4c7f84aec to create new node 4f59a1e5a25d4d8c9bd39cb40236c69f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node acfb187354fd4635838b5ffb5bc96a1c to create new node ea4d736084db48caba7052183d098c99",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 174d0af7ef594cd78215f22ce96c112f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 174d0af7ef594cd78215f22ce96c112f is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node ea4d736084db48caba7052183d098c99",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node ea4d736084db48caba7052183d098c99 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node ea4d736084db48caba7052183d098c99 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node acfb187354fd4635838b5ffb5bc96a1c, the generated node is ea4d736084db48caba7052183d098c99, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main ea4d736084db48caba7052183d098c99",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 174d0af7ef594cd78215f22ce96c112f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 174d0af7ef594cd78215f22ce96c112f is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 174d0af7ef594cd78215f22ce96c112f is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node af1580ae98fe4a6591a3fe4a32a2dd98, the generated node is 174d0af7ef594cd78215f22ce96c112f, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 174d0af7ef594cd78215f22ce96c112f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 3, current node.id is 174d0af7ef594cd78215f22ce96c112f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 2), (0, 1), (0, 4), (1, 3)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is ea4d736084db48caba7052183d098c99",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 174d0af7ef594cd78215f22ce96c112f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 174d0af7ef594cd78215f22ce96c112f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node174d0af7ef594cd78215f22ce96c112f.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 174d0af7ef594cd78215f22ce96c112f expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 2), (0, 1), (0, 4), (1, 3)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: ea4d736084db48caba7052183d098c99",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: ea4d736084db48caba7052183d098c99",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodeea4d736084db48caba7052183d098c99.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current ea4d736084db48caba7052183d098c99 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 4f59a1e5a25d4d8c9bd39cb40236c69f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 4f59a1e5a25d4d8c9bd39cb40236c69f is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 4f59a1e5a25d4d8c9bd39cb40236c69f is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 5b56308d408e4954957827c4c7f84aec, the generated node is 4f59a1e5a25d4d8c9bd39cb40236c69f, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 4f59a1e5a25d4d8c9bd39cb40236c69f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is 4f59a1e5a25d4d8c9bd39cb40236c69f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 5)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 4f59a1e5a25d4d8c9bd39cb40236c69f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4f59a1e5a25d4d8c9bd39cb40236c69f",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node4f59a1e5a25d4d8c9bd39cb40236c69f.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 4f59a1e5a25d4d8c9bd39cb40236c69f expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 174d0af7ef594cd78215f22ce96c112f to create new node 0d9d0c6488be4933b51314df44e73a1e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 4f59a1e5a25d4d8c9bd39cb40236c69f to create new node afd3d6e3f9e6413b8a671f9790974ec6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 0d9d0c6488be4933b51314df44e73a1e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 0d9d0c6488be4933b51314df44e73a1e is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 0d9d0c6488be4933b51314df44e73a1e is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 174d0af7ef594cd78215f22ce96c112f, the generated node is 0d9d0c6488be4933b51314df44e73a1e, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 0d9d0c6488be4933b51314df44e73a1e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 0d9d0c6488be4933b51314df44e73a1e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=7,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 5), (4, 6)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 9/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 0d9d0c6488be4933b51314df44e73a1e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 0d9d0c6488be4933b51314df44e73a1e",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node0d9d0c6488be4933b51314df44e73a1e.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 0d9d0c6488be4933b51314df44e73a1e expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node afd3d6e3f9e6413b8a671f9790974ec6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node ea4d736084db48caba7052183d098c99 to create new node d6e476bd2557422b93f3051fd9e7860a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node afd3d6e3f9e6413b8a671f9790974ec6 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node afd3d6e3f9e6413b8a671f9790974ec6 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 4f59a1e5a25d4d8c9bd39cb40236c69f, the generated node is afd3d6e3f9e6413b8a671f9790974ec6, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main afd3d6e3f9e6413b8a671f9790974ec6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 7, current node.id is afd3d6e3f9e6413b8a671f9790974ec6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=8,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 5), (4, 6), (5, 7)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 10/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: afd3d6e3f9e6413b8a671f9790974ec6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: afd3d6e3f9e6413b8a671f9790974ec6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodeafd3d6e3f9e6413b8a671f9790974ec6.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current afd3d6e3f9e6413b8a671f9790974ec6 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node afd3d6e3f9e6413b8a671f9790974ec6 to create new node 6f6e8ae7c88f4f7fb9f1f5e0e01064a5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node d6e476bd2557422b93f3051fd9e7860a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node d6e476bd2557422b93f3051fd9e7860a is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node d6e476bd2557422b93f3051fd9e7860a is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node ea4d736084db48caba7052183d098c99, the generated node is d6e476bd2557422b93f3051fd9e7860a, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main d6e476bd2557422b93f3051fd9e7860a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 8, current node.id is d6e476bd2557422b93f3051fd9e7860a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: d6e476bd2557422b93f3051fd9e7860a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: d6e476bd2557422b93f3051fd9e7860a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Noded6e476bd2557422b93f3051fd9e7860a.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current d6e476bd2557422b93f3051fd9e7860a expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 0d9d0c6488be4933b51314df44e73a1e to create new node 5042f1d634e74bb1b401e845caa836a6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 6f6e8ae7c88f4f7fb9f1f5e0e01064a5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 6f6e8ae7c88f4f7fb9f1f5e0e01064a5 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 6f6e8ae7c88f4f7fb9f1f5e0e01064a5 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 6f6e8ae7c88f4f7fb9f1f5e0e01064a5 start backpropagating with reward -1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 5b56308d408e4954957827c4c7f84aec is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node afd3d6e3f9e6413b8a671f9790974ec6, the generated node is 6f6e8ae7c88f4f7fb9f1f5e0e01064a5, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 5042f1d634e74bb1b401e845caa836a6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 5042f1d634e74bb1b401e845caa836a6 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 5042f1d634e74bb1b401e845caa836a6 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 0d9d0c6488be4933b51314df44e73a1e, the generated node is 5042f1d634e74bb1b401e845caa836a6, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 5042f1d634e74bb1b401e845caa836a6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is 5042f1d634e74bb1b401e845caa836a6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=11,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 13/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 11, current node.id is af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 5042f1d634e74bb1b401e845caa836a6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 5042f1d634e74bb1b401e845caa836a6",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node5042f1d634e74bb1b401e845caa836a6.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 5042f1d634e74bb1b401e845caa836a6 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=11,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 13/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node af1580ae98fe4a6591a3fe4a32a2dd98 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current af1580ae98fe4a6591a3fe4a32a2dd98 expected_child_count is 4.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node d6e476bd2557422b93f3051fd9e7860a to create new node 755d3c39d12045fe8ce9166b4fe28f75",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 5042f1d634e74bb1b401e845caa836a6 to create new node 8ff6489b422f48c18fc3986416020116",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 755d3c39d12045fe8ce9166b4fe28f75",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 755d3c39d12045fe8ce9166b4fe28f75 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 755d3c39d12045fe8ce9166b4fe28f75 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 755d3c39d12045fe8ce9166b4fe28f75 start backpropagating with reward -1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node acfb187354fd4635838b5ffb5bc96a1c is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node d6e476bd2557422b93f3051fd9e7860a, the generated node is 755d3c39d12045fe8ce9166b4fe28f75, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 11, current node.id is af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=12,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9), (8, 11)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 14/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node af1580ae98fe4a6591a3fe4a32a2dd98 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current af1580ae98fe4a6591a3fe4a32a2dd98 expected_child_count is 5.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 8ff6489b422f48c18fc3986416020116",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 8ff6489b422f48c18fc3986416020116 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 8ff6489b422f48c18fc3986416020116 is 0.3978.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 5042f1d634e74bb1b401e845caa836a6.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 8ff6489b422f48c18fc3986416020116 is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 8ff6489b422f48c18fc3986416020116 start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 174d0af7ef594cd78215f22ce96c112f is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 5042f1d634e74bb1b401e845caa836a6, the generated node is 8ff6489b422f48c18fc3986416020116, the metric is 0.3978",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 8ff6489b422f48c18fc3986416020116 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.3978.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 12, current node.id is af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=13,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9), (8, 11), (10, 12)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 15/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: For node af1580ae98fe4a6591a3fe4a32a2dd98, there are 0/3 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 5b56308d408e4954957827c4c7f84aec uct = -1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node acfb187354fd4635838b5ffb5bc96a1c uct = -1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 174d0af7ef594cd78215f22ce96c112f uct = 1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 174d0af7ef594cd78215f22ce96c112f is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 0d9d0c6488be4933b51314df44e73a1e uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 5042f1d634e74bb1b401e845caa836a6 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 8ff6489b422f48c18fc3986416020116 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 8ff6489b422f48c18fc3986416020116 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 8ff6489b422f48c18fc3986416020116",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 8ff6489b422f48c18fc3986416020116.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 8ff6489b422f48c18fc3986416020116 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 4ed0c58acedc467c957cfd39f78d6230",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 4ed0c58acedc467c957cfd39f78d6230 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 4ed0c58acedc467c957cfd39f78d6230",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 38b9dd33a42b49cebcfb8c644a15a9a4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 38b9dd33a42b49cebcfb8c644a15a9a4 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 4ed0c58acedc467c957cfd39f78d6230 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 4ed0c58acedc467c957cfd39f78d6230 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node af1580ae98fe4a6591a3fe4a32a2dd98, the generated node is 4ed0c58acedc467c957cfd39f78d6230, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.3978.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 4ed0c58acedc467c957cfd39f78d6230",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 13, current node.id is 4ed0c58acedc467c957cfd39f78d6230",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=14,edges=[(0, 13), (0, 2), (0, 4), (0, 1), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9), (8, 11), (10, 12)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 16/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 4ed0c58acedc467c957cfd39f78d6230",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4ed0c58acedc467c957cfd39f78d6230",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node4ed0c58acedc467c957cfd39f78d6230.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 4ed0c58acedc467c957cfd39f78d6230 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 38b9dd33a42b49cebcfb8c644a15a9a4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 38b9dd33a42b49cebcfb8c644a15a9a4 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 38b9dd33a42b49cebcfb8c644a15a9a4 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node af1580ae98fe4a6591a3fe4a32a2dd98, the generated node is 38b9dd33a42b49cebcfb8c644a15a9a4, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.3978.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 38b9dd33a42b49cebcfb8c644a15a9a4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 14, current node.id is 38b9dd33a42b49cebcfb8c644a15a9a4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=15,edges=[(0, 13), (0, 14), (0, 2), (0, 4), (0, 1), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9), (8, 11), (10, 12)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 17/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 38b9dd33a42b49cebcfb8c644a15a9a4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 38b9dd33a42b49cebcfb8c644a15a9a4",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node38b9dd33a42b49cebcfb8c644a15a9a4.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 38b9dd33a42b49cebcfb8c644a15a9a4 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 4ed0c58acedc467c957cfd39f78d6230 to create new node 47e8d3c86f4542eea9134f63bda1e91a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 8ff6489b422f48c18fc3986416020116 to create new node e12c46dab96b41cd8523d09abc404a7a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node e12c46dab96b41cd8523d09abc404a7a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node e12c46dab96b41cd8523d09abc404a7a is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node e12c46dab96b41cd8523d09abc404a7a is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 8ff6489b422f48c18fc3986416020116, the generated node is e12c46dab96b41cd8523d09abc404a7a, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.3978.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main e12c46dab96b41cd8523d09abc404a7a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 15, current node.id is e12c46dab96b41cd8523d09abc404a7a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=16,edges=[(0, 13), (0, 14), (0, 2), (0, 4), (0, 1), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9), (8, 11), (10, 12), (12, 15)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 18/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: e12c46dab96b41cd8523d09abc404a7a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: e12c46dab96b41cd8523d09abc404a7a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodee12c46dab96b41cd8523d09abc404a7a.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current e12c46dab96b41cd8523d09abc404a7a expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 38b9dd33a42b49cebcfb8c644a15a9a4 to create new node 83c459b2c4cf4652a5a9dd61a60009ba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node e12c46dab96b41cd8523d09abc404a7a to create new node c95bca47ba1f4f649498b0fc7f852990",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c95bca47ba1f4f649498b0fc7f852990",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c95bca47ba1f4f649498b0fc7f852990 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c95bca47ba1f4f649498b0fc7f852990 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node e12c46dab96b41cd8523d09abc404a7a, the generated node is c95bca47ba1f4f649498b0fc7f852990, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.3978.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c95bca47ba1f4f649498b0fc7f852990",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 16, current node.id is c95bca47ba1f4f649498b0fc7f852990",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=17,edges=[(0, 13), (0, 14), (0, 2), (0, 4), (0, 1), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9), (8, 11), (10, 12), (12, 15), (15, 16)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 19/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: c95bca47ba1f4f649498b0fc7f852990",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: c95bca47ba1f4f649498b0fc7f852990",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodec95bca47ba1f4f649498b0fc7f852990.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current c95bca47ba1f4f649498b0fc7f852990 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 47e8d3c86f4542eea9134f63bda1e91a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 47e8d3c86f4542eea9134f63bda1e91a is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 47e8d3c86f4542eea9134f63bda1e91a is 0.4016.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 4ed0c58acedc467c957cfd39f78d6230.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 47e8d3c86f4542eea9134f63bda1e91a is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 47e8d3c86f4542eea9134f63bda1e91a start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 4ed0c58acedc467c957cfd39f78d6230 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 4ed0c58acedc467c957cfd39f78d6230, the generated node is 47e8d3c86f4542eea9134f63bda1e91a, the metric is 0.4016",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 47e8d3c86f4542eea9134f63bda1e91a is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4016.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 17, current node.id is af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=18,edges=[(0, 13), (0, 14), (0, 2), (0, 4), (0, 1), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9), (8, 11), (10, 12), (12, 15), (13, 17), (15, 16)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 20/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: af1580ae98fe4a6591a3fe4a32a2dd98",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: For node af1580ae98fe4a6591a3fe4a32a2dd98, there are 2/5 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 4ed0c58acedc467c957cfd39f78d6230 uct = 1.0/1 + 1.414*(math.log(4) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 5b56308d408e4954957827c4c7f84aec uct = -1.0/1 + 1.414*(math.log(4) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node acfb187354fd4635838b5ffb5bc96a1c uct = -1.0/1 + 1.414*(math.log(4) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 4ed0c58acedc467c957cfd39f78d6230 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 47e8d3c86f4542eea9134f63bda1e91a uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 47e8d3c86f4542eea9134f63bda1e91a is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 47e8d3c86f4542eea9134f63bda1e91a",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 47e8d3c86f4542eea9134f63bda1e91a.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 47e8d3c86f4542eea9134f63bda1e91a expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 47e8d3c86f4542eea9134f63bda1e91a to create new node 31064cf90773453781a0bf12aca6a20b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 31064cf90773453781a0bf12aca6a20b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 31064cf90773453781a0bf12aca6a20b is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 31064cf90773453781a0bf12aca6a20b is 0.4817.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node 47e8d3c86f4542eea9134f63bda1e91a, Node 31064cf90773453781a0bf12aca6a20b metric improvement (0.0801) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 47e8d3c86f4542eea9134f63bda1e91a, the generated node is 31064cf90773453781a0bf12aca6a20b, the metric is 0.4817",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 31064cf90773453781a0bf12aca6a20b is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4817.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 31064cf90773453781a0bf12aca6a20b",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node c95bca47ba1f4f649498b0fc7f852990 to create new node d86b614b5570490fadf935c62594bd5d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node d86b614b5570490fadf935c62594bd5d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node d86b614b5570490fadf935c62594bd5d is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node d86b614b5570490fadf935c62594bd5d is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node c95bca47ba1f4f649498b0fc7f852990, the generated node is d86b614b5570490fadf935c62594bd5d, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4817.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main d86b614b5570490fadf935c62594bd5d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 83c459b2c4cf4652a5a9dd61a60009ba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 83c459b2c4cf4652a5a9dd61a60009ba is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 83c459b2c4cf4652a5a9dd61a60009ba is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 38b9dd33a42b49cebcfb8c644a15a9a4, the generated node is 83c459b2c4cf4652a5a9dd61a60009ba, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4817.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 83c459b2c4cf4652a5a9dd61a60009ba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 18, current node.id is 83c459b2c4cf4652a5a9dd61a60009ba",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=21,edges=[(0, 13), (0, 14), (0, 2), (0, 4), (0, 1), (1, 3), (2, 5), (3, 8), (4, 6), (5, 7), (6, 10), (7, 9), (8, 11), (10, 12), (12, 15), (13, 17), (14, 20), (15, 16), (16, 19), (17, 18)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
+            "delay": 200
+        }
+    ],
+    "code": "<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">import</span> numpy <span class=\"keyword\">as</span> np\n<span class=\"keyword\">from</span> sklearn.model_selection <span class=\"keyword\">import</span> GroupKFold\n<span class=\"keyword\">from</span> sklearn.metrics <span class=\"keyword\">import</span> matthews_corrcoef\n<span class=\"keyword\">import</span> xgboost <span class=\"keyword\">as</span> xgb\n\n<span class=\"comment\"># Load data</span>\ntrain_labels = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">input/train_labels.csv</span><span class=\"string\">&quot;</span>)\ntrain_tracking = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">input/train_player_tracking.csv</span><span class=\"string\">&quot;</span>)\ntest_tracking = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">input/test_player_tracking.csv</span><span class=\"string\">&quot;</span>)\nsample_sub = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">input/sample_submission.csv</span><span class=\"string\">&quot;</span>)\n\n\n<span class=\"comment\"># Process contact IDs with proper type conversion</span>\n<span class=\"keyword\">def</span> <span class=\"function\">process_contact_id</span>(df):\n    split = df[<span class=\"string\">&quot;</span><span class=\"string\">contact_id</span><span class=\"string\">&quot;</span>].str.split(<span class=\"string\">&quot;</span><span class=\"string\">_</span><span class=\"string\">&quot;</span>, n=<span class=\"number\">4</span>, expand=<span class=\"keyword\">True</span>)\n    df[<span class=\"string\">&quot;</span><span class=\"string\">game_play</span><span class=\"string\">&quot;</span>] = split[<span class=\"number\">0</span>] + <span class=\"string\">&quot;</span><span class=\"string\">_</span><span class=\"string\">&quot;</span> + split[<span class=\"number\">1</span>]\n    df[<span class=\"string\">&quot;</span><span class=\"string\">step</span><span class=\"string\">&quot;</span>] = split[<span class=\"number\">2</span>].astype(int)\n    df[<span class=\"string\">&quot;</span><span class=\"string\">player1</span><span class=\"string\">&quot;</span>] = split[<span class=\"number\">3</span>].astype(int)\n    df[<span class=\"string\">&quot;</span><span class=\"string\">player2</span><span class=\"string\">&quot;</span>] = split[<span class=\"number\">4</span>].apply(<span class=\"keyword\">lambda</span> x: int(x) <span class=\"keyword\">if</span> x != <span class=\"string\">&quot;</span><span class=\"string\">G</span><span class=\"string\">&quot;</span> <span class=\"keyword\">else</span> x)\n    <span class=\"keyword\">return</span> df\n\n\ntrain_labels = process_contact_id(train_labels)\ntrain_labels[<span class=\"string\">&quot;</span><span class=\"string\">is_ground</span><span class=\"string\">&quot;</span>] = (train_labels[<span class=\"string\">&quot;</span><span class=\"string\">player2</span><span class=\"string\">&quot;</span>] == <span class=\"string\">&quot;</span><span class=\"string\">G</span><span class=\"string\">&quot;</span>).astype(int)\n\n\n<span class=\"comment\"># Feature merging with fixed data types</span>\n<span class=\"keyword\">def</span> <span class=\"function\">merge_features</span>(labels_df, tracking_df):\n    <span class=\"comment\"># Player1 features</span>\n    merged = labels_df.merge(\n        tracking_df.add_suffix(<span class=\"string\">&quot;</span><span class=\"string\">_1</span><span class=\"string\">&quot;</span>),\n        how=<span class=\"string\">&quot;</span><span class=\"string\">left</span><span class=\"string\">&quot;</span>,\n        left_on=[<span class=\"string\">&quot;</span><span class=\"string\">game_play</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">step</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">player1</span><span class=\"string\">&quot;</span>],\n        right_on=[<span class=\"string\">&quot;</span><span class=\"string\">game_play_1</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">step_1</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">nfl_player_id_1</span><span class=\"string\">&quot;</span>],\n    )\n\n    <span class=\"comment\"># Player2 features for non-ground</span>\n    merged_pp = merged[merged[<span class=\"string\">&quot;</span><span class=\"string\">is_ground</span><span class=\"string\">&quot;</span>] == <span class=\"number\">0</span>].copy()\n    merged_pp = merged_pp.merge(\n        tracking_df.add_suffix(<span class=\"string\">&quot;</span><span class=\"string\">_2</span><span class=\"string\">&quot;</span>),\n        how=<span class=\"string\">&quot;</span><span class=\"string\">left</span><span class=\"string\">&quot;</span>,\n        left_on=[<span class=\"string\">&quot;</span><span class=\"string\">game_play</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">step</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">player2</span><span class=\"string\">&quot;</span>],\n        right_on=[<span class=\"string\">&quot;</span><span class=\"string\">game_play_2</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">step_2</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">nfl_player_id_2</span><span class=\"string\">&quot;</span>],\n    )\n\n    <span class=\"comment\"># Ground contact features</span>\n    merged_g = merged[merged[<span class=\"string\">&quot;</span><span class=\"string\">is_ground</span><span class=\"string\">&quot;</span>] == <span class=\"number\">1</span>].copy()\n\n    <span class=\"comment\"># Feature engineering</span>\n    merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">distance</span><span class=\"string\">&quot;</span>] = np.sqrt(\n        (merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">x_position_1</span><span class=\"string\">&quot;</span>] - merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">x_position_2</span><span class=\"string\">&quot;</span>]) ** <span class=\"number\">2</span>\n        + (merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">y_position_1</span><span class=\"string\">&quot;</span>] - merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">y_position_2</span><span class=\"string\">&quot;</span>]) ** <span class=\"number\">2</span>\n    )\n    merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">speed_diff</span><span class=\"string\">&quot;</span>] = merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">speed_1</span><span class=\"string\">&quot;</span>] - merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">speed_2</span><span class=\"string\">&quot;</span>]\n    merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">accel_diff</span><span class=\"string\">&quot;</span>] = merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">acceleration_1</span><span class=\"string\">&quot;</span>] - merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">acceleration_2</span><span class=\"string\">&quot;</span>]\n\n    merged_g[<span class=\"string\">&quot;</span><span class=\"string\">speed</span><span class=\"string\">&quot;</span>] = merged_g[<span class=\"string\">&quot;</span><span class=\"string\">speed_1</span><span class=\"string\">&quot;</span>]\n    merged_g[<span class=\"string\">&quot;</span><span class=\"string\">accel</span><span class=\"string\">&quot;</span>] = merged_g[<span class=\"string\">&quot;</span><span class=\"string\">acceleration_1</span><span class=\"string\">&quot;</span>]\n    merged_g[<span class=\"string\">&quot;</span><span class=\"string\">orientation</span><span class=\"string\">&quot;</span>] = merged_g[<span class=\"string\">&quot;</span><span class=\"string\">orientation_1</span><span class=\"string\">&quot;</span>]\n    features_g = merged_g[[<span class=\"string\">&quot;</span><span class=\"string\">speed</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">accel</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">orientation</span><span class=\"string\">&quot;</span>]]\n    features_g.columns = [<span class=\"string\">&quot;</span><span class=\"string\">distance</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">speed_diff</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">accel_diff</span><span class=\"string\">&quot;</span>]\n\n    <span class=\"keyword\">return</span> pd.concat(\n        [merged_pp[[<span class=\"string\">&quot;</span><span class=\"string\">distance</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">speed_diff</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">accel_diff</span><span class=\"string\">&quot;</span>]], features_g]\n    ), pd.concat([merged_pp[<span class=\"string\">&quot;</span><span class=\"string\">contact</span><span class=\"string\">&quot;</span>], merged_g[<span class=\"string\">&quot;</span><span class=\"string\">contact</span><span class=\"string\">&quot;</span>]])\n\n\nX, y = merge_features(train_labels, train_tracking)\n\n<span class=\"comment\"># Temporal validation</span>\ngames = train_labels[<span class=\"string\">&quot;</span><span class=\"string\">game_play</span><span class=\"string\">&quot;</span>].unique()\ntrain_games = games[: int(len(games) * <span class=\"number\">0.8</span>)]\nval_mask = train_labels[<span class=\"string\">&quot;</span><span class=\"string\">game_play</span><span class=\"string\">&quot;</span>].isin(train_games)\n\nX_train, X_val = X[val_mask], X[~val_mask]\ny_train, y_val = y[val_mask], y[~val_mask]\n\n<span class=\"comment\"># Model training</span>\nmodel = xgb.XGBClassifier(\n    objective=<span class=\"string\">&quot;</span><span class=\"string\">binary:logistic</span><span class=\"string\">&quot;</span>,\n    n_estimators=<span class=\"number\">1000</span>,\n    learning_rate=<span class=\"number\">0.1</span>,\n    max_depth=<span class=\"number\">7</span>,\n    subsample=<span class=\"number\">0.8</span>,\n    colsample_bytree=<span class=\"number\">0.8</span>,\n    eval_metric=<span class=\"string\">&quot;</span><span class=\"string\">logloss</span><span class=\"string\">&quot;</span>,\n)\nmodel.fit(\n    X_train, y_train, eval_set=[(X_val, y_val)], early_stopping_rounds=<span class=\"number\">20</span>, verbose=<span class=\"keyword\">False</span>\n)\n\n<span class=\"comment\"># Validation metric</span>\nval_pred = model.predict(X_val)\nprint(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Validation MCC: </span><span class=\"string\">{</span>matthews_corrcoef(y_val, val_pred)<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Generate submission</span>\ntest_df = process_contact_id(sample_sub)\ntest_df[<span class=\"string\">&quot;</span><span class=\"string\">is_ground</span><span class=\"string\">&quot;</span>] = (test_df[<span class=\"string\">&quot;</span><span class=\"string\">player2</span><span class=\"string\">&quot;</span>] == <span class=\"string\">&quot;</span><span class=\"string\">G</span><span class=\"string\">&quot;</span>).astype(int)\nX_test, _ = merge_features(test_df, test_tracking)\ntest_df[<span class=\"string\">&quot;</span><span class=\"string\">contact</span><span class=\"string\">&quot;</span>] = model.predict(X_test)\ntest_df[[<span class=\"string\">&quot;</span><span class=\"string\">contact_id</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">contact</span><span class=\"string\">&quot;</span>]].to_csv(<span class=\"string\">&quot;</span><span class=\"string\">submission/submission.csv</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>)\n",
+    "detail": {
+        "node_id": [
+            "af1580ae98fe4a6591a3fe4a32a2dd98",
+            "acfb187354fd4635838b5ffb5bc96a1c",
+            "5b56308d408e4954957827c4c7f84aec",
+            "ea4d736084db48caba7052183d098c99",
+            "174d0af7ef594cd78215f22ce96c112f",
+            "4f59a1e5a25d4d8c9bd39cb40236c69f",
+            "0d9d0c6488be4933b51314df44e73a1e",
+            "afd3d6e3f9e6413b8a671f9790974ec6",
+            "d6e476bd2557422b93f3051fd9e7860a",
+            "6f6e8ae7c88f4f7fb9f1f5e0e01064a5",
+            "5042f1d634e74bb1b401e845caa836a6",
+            "755d3c39d12045fe8ce9166b4fe28f75",
+            "8ff6489b422f48c18fc3986416020116",
+            "4ed0c58acedc467c957cfd39f78d6230",
+            "38b9dd33a42b49cebcfb8c644a15a9a4",
+            "e12c46dab96b41cd8523d09abc404a7a",
+            "c95bca47ba1f4f649498b0fc7f852990",
+            "47e8d3c86f4542eea9134f63bda1e91a"
+        ],
+        "global_step": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17"
+        ],
+        "edges": [
+            [
+                0,
+                13
+            ],
+            [
+                0,
+                14
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                6,
+                10
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                8,
+                11
+            ],
+            [
+                10,
+                12
+            ],
+            [
+                12,
+                15
+            ],
+            [
+                13,
+                17
+            ],
+            [
+                15,
+                16
+            ]
+        ],
+        "layout": [
+            [
+                0.5,
+                0.0
+            ],
+            [
+                0.0,
+                0.16666666666666663
+            ],
+            [
+                0.25,
+                0.16666666666666663
+            ],
+            [
+                0.0,
+                0.33333333333333337
+            ],
+            [
+                0.5,
+                0.16666666666666663
+            ],
+            [
+                0.25,
+                0.33333333333333337
+            ],
+            [
+                0.5,
+                0.33333333333333337
+            ],
+            [
+                0.25,
+                0.5
+            ],
+            [
+                0.0,
+                0.5
+            ],
+            [
+                0.25,
+                0.6666666666666667
+            ],
+            [
+                0.5,
+                0.5
+            ],
+            [
+                0.0,
+                0.6666666666666667
+            ],
+            [
+                0.5,
+                0.6666666666666667
+            ],
+            [
+                0.75,
+                0.16666666666666663
+            ],
+            [
+                1.0,
+                0.16666666666666663
+            ],
+            [
+                0.5,
+                0.8333333333333334
+            ],
+            [
+                0.5,
+                1.0
+            ],
+            [
+                0.75,
+                0.33333333333333337
+            ]
+        ],
+        "plan": [
+            "virtual plan",
+            "To address the NFL player contact detection challenge, we'll use tracking data\nto compute proximity and motion features for player pairs. For each contact\nevent, we calculate Euclidean distance between players and their\nspeed/acceleration differences. A LightGBM model will predict contact\nprobability, handling ground contacts via vertical position thresholds. The\nmodel is validated using time-based splits to ensure temporal consistency.",
+            "To tackle this NFL player contact detection challenge, we'll focus on leveraging\nplayer tracking data to compute pairwise features between players and the\nground. We'll extract positional, speed, and acceleration metrics, then train a\nLightGBM model optimized for the Matthews Correlation Coefficient. This approach\nefficiently handles large-scale data and captures interaction dynamics crucial\nfor detecting contact events.",
+            "The error occurs due to data type mismatch during merging of player IDs. The\ncode merges string-type player IDs from labels with integer-type IDs from\ntracking data. To fix this, convert tracking data's player IDs to strings before\nmerging. Also, ensure proper test data processing for submission.",
+            "To tackle this problem, we'll use player tracking data to compute proximity and\nmovement features for each player pair. We'll train a LightGBM classifier to\npredict contact events, leveraging distance between players, speed differences,\nand acceleration. For ground contacts, we'll use individual player dynamics and\na flag to distinguish them from player-player interactions.",
+            "The error occurs due to merging columns with mismatched data types (string vs\ninteger). We need to ensure player IDs are consistently treated as strings,\nincluding handling the ground ('G') case properly. Also, the test data\nprocessing needs to use the correct column names and handle missing tracking\ndata.",
+            "The error occurs due to type mismatch in merge columns between player IDs\n(string vs integer) and incorrect contact_id parsing. Fix by converting player\nIDs to strings in both datasets and properly handling 'G' ground identifiers\nduring test data processing.",
+            "The error occurs due to an incompatible LightGBM API usage. The scikit-learn API\n(LGBMClassifier) supports early stopping, not the functional API. We'll fix this\nby: 1. Using LGBMClassifier with proper early stopping syntax 2. Creating\nexplicit train/validation splits 3. Maintaining feature alignment between\ntrain/test",
+            "The error occurs due to data type mismatch in player IDs during dataframe\nmerges. The solution is to convert `nfl_player_id_1` and `nfl_player_id_2` in\nthe training labels to strings, ensuring consistent types with tracking data.\nAdditionally, we need to properly handle the submission processing by converting\nsplit components to appropriate types.",
+            "The error occurs because the `early_stopping_rounds` parameter is not supported\nin LightGBM's scikit-learn API. We need to use `early_stopping` instead and\nensure the validation set is properly wrapped in a list. Additionally, the code\nneeds to handle potential NaN values in test data and verify the submission file\npath.",
+            "The error occurs because `early_stopping_rounds` is not a valid parameter in\nLightGBM's fit method. We'll remove this parameter and adjust model training.\nAdditionally, we'll ensure proper test data processing by correctly handling\ncontact_id parsing and missing tracking data for ground contacts.",
+            "The error occurs because the `early_stopping_rounds` parameter is not properly\nused with LightGBM's scikit-learn API. We need to replace it with the callback\nmethod for early stopping. Additionally, ensure proper merging of tracking data\nwhen creating submission features.",
+            "The previous error occurred due to an incorrect parameter in LightGBM's fit\nmethod. The fix involves removing the invalid 'verbose' argument and ensuring\nproper handling of ground contact cases. Additionally, we'll include a\nvalidation metric printout and ensure submission file generation.",
+            "To address the NFL player contact detection challenge, we propose a solution\nleveraging player tracking data with enhanced feature engineering. For player-\nplayer interactions, we compute Euclidean distance, speed and acceleration\ndifferences, and orientation dynamics. Player-ground contacts are modeled using\nindividual player metrics like speed, acceleration, and orientation. We employ\nXGBoost with temporal validation splits to optimize for Matthews Correlation\nCoefficient, ensuring distinct handling of contact types to avoid previous\npitfalls.",
+            "To address the NFL player contact detection challenge, we'll use player tracking\ndata to compute proximity and motion features for player pairs. For player-\nplayer interactions, we calculate Euclidean distance, speed, and acceleration\ndifferences. For ground contacts, we focus on individual player dynamics like\nspeed and acceleration. An XGBoost model is trained to predict contact,\nleveraging these features to capture interaction patterns. Temporal validation\nsplits ensure model robustness, and predictions are generated for all test\npairs.",
+            "To improve the model, we'll incorporate helmet tracking data from the\nbaseline_helmets files by adding two new features: 1) minimum helmet distance\nbetween players in video frames for player-pair contacts, and 2) helmet\nproximity to ground for ground contacts. This leverages visual spatial\nrelationships not captured by tracking data alone.",
+            "The error occurs due to a type mismatch in the 'step' column during DataFrame\nmerging. The training labels have 'step' as integer, while the tracking data's\n'step' was read as float. The fix ensures both data sources use integer 'step'\nby explicitly specifying dtype during CSV loading and converting steps to\nintegers in the test labels.",
+            "The error arises due to data type mismatch during merging. The player IDs in the\nlabels (string) need conversion to integers to match tracking data types. Fix by\nconverting player1 to int and player2 to int where applicable in contact_id\nprocessing."
+        ],
+        "code": [
+            "virtual code",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import GroupShuffleSplit\nfrom sklearn.metrics import matthews_corrcoef\nimport lightgbm as lgb\nimport os\n\n# Load data\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntracking = pd.read_csv(\"input/train_player_tracking.csv\")\ntest_tracking = pd.read_csv(\"input/test_player_tracking.csv\")\nsample_sub = pd.read_csv(\"input/sample_submission.csv\")\n\n\n# Feature engineering function\ndef create_features(df, tracking_df):\n    # Player-player features\n    pp = df[df[\"nfl_player_id_2\"] != \"G\"].copy()\n    pp = pp.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    )\n    pp = pp.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        suffixes=(\"_1\", \"_2\"),\n        how=\"left\",\n    )\n    pp[\"distance\"] = np.sqrt(\n        (pp[\"x_position_1\"] - pp[\"x_position_2\"]) ** 2\n        + (pp[\"y_position_1\"] - pp[\"y_position_2\"]) ** 2\n    )\n    pp[\"speed_diff\"] = pp[\"speed_1\"] - pp[\"speed_2\"]\n\n    # Player-ground features\n    pg = df[df[\"nfl_player_id_2\"] == \"G\"].copy()\n    pg = pg.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    )\n    pg[\"ground_contact\"] = (pg[\"y_position\"] < 1).astype(int)\n\n    # Combine features\n    features = pd.concat(\n        [\n            pp[[\"distance\", \"speed_diff\", \"acceleration_1\", \"acceleration_2\"]],\n            pg[[\"y_position\", \"acceleration\", \"ground_contact\"]],\n        ],\n        axis=0,\n    )\n\n    features[\"is_ground\"] = df[\"nfl_player_id_2\"] == \"G\"\n    return features.fillna(0)\n\n\n# Prepare training data\nX = create_features(train_labels, tracking)\ny = train_labels[\"contact\"]\n\n# Temporal validation split\nsplitter = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)\ngame_plays = train_labels[\"game_play\"].str.split(\"_\").str[0]\ntrain_idx, val_idx = next(splitter.split(X, y, groups=game_plays))\nX_train, X_val = X.iloc[train_idx], X.iloc[val_idx]\ny_train, y_val = y.iloc[train_idx], y.iloc[val_idx]\n\n# Train model\nmodel = lgb.LGBMClassifier(\n    num_leaves=127,\n    learning_rate=0.05,\n    n_estimators=1000,\n    reg_alpha=0.1,\n    objective=\"binary\",\n    random_state=42,\n)\nmodel.fit(\n    X_train, y_train, eval_set=[(X_val, y_val)], early_stopping_rounds=50, verbose=50\n)\n\n# Validate\nval_pred = model.predict(X_val, num_iteration=model.best_iteration_)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n\n# Generate submission\ndef process_submission(sub_df, tracking_df):\n    split = sub_df[\"contact_id\"].str.split(\"_\", expand=True)\n    sub_df[\"game_play\"] = split[0] + \"_\" + split[1]\n    sub_df[\"step\"] = split[2].astype(int)\n    sub_df[\"nfl_player_id_1\"] = split[3]\n    sub_df[\"nfl_player_id_2\"] = split[4]\n    return create_features(sub_df, tracking_df)\n\n\nX_test = process_submission(sample_sub, test_tracking)\ntest_pred = model.predict(X_test, num_iteration=model.best_iteration_)\n\n# Save predictions\nos.makedirs(\"submission\", exist_ok=True)\nsample_sub[\"contact\"] = test_pred\nsample_sub.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport lightgbm as lgb\nfrom sklearn.metrics import matthews_corrcoef\nfrom pathlib import Path\n\n# Config paths\nDATA_PATH = Path(\"./input\")\nSUBMISSION_PATH = Path(\"./submission/submission.csv\")\nSUBMISSION_PATH.parent.mkdir(parents=True, exist_ok=True)\n\n# Load and preprocess training data\ntrain_labels = pd.read_csv(DATA_PATH / \"train_labels.csv\")\ntracking_train = pd.read_csv(DATA_PATH / \"train_player_tracking.csv\")\n\n# Split contact_id into components\nsplit = train_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntrain_labels[\"game_play\"] = split[0] + \"_\" + split[1]\ntrain_labels[\"step\"] = split[2].astype(int)\ntrain_labels[\"player1\"] = split[3]\ntrain_labels[\"player2\"] = split[4]\n\n# Prepare tracking data\ntracking_train = tracking_train.set_index([\"game_play\", \"step\", \"nfl_player_id\"])\nfeatures = [\n    \"x_position\",\n    \"y_position\",\n    \"speed\",\n    \"acceleration\",\n    \"sa\",\n    \"direction\",\n    \"orientation\",\n]\n\n\n# Create feature matrix\ndef create_features(df, tracking_data):\n    # Player1 features\n    df = df.merge(\n        tracking_data[features].reset_index(),\n        left_on=[\"game_play\", \"step\", \"player1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    ).rename(columns={f: f\"p1_{f}\" for f in features})\n\n    # Player2 features\n    df = df.merge(\n        tracking_data[features].reset_index(),\n        left_on=[\"game_play\", \"step\", \"player2\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n        suffixes=(\"\", \"_p2\"),\n    ).rename(columns={f: f\"p2_{f}\" for f in features})\n\n    # Handle ground contacts\n    ground_mask = df[\"player2\"] == \"G\"\n    for f in features:\n        df.loc[ground_mask, f\"p2_{f}\"] = 0\n\n    # Feature engineering\n    df[\"distance\"] = np.sqrt(\n        (df[\"p1_x_position\"] - df[\"p2_x_position\"]) ** 2\n        + (df[\"p1_y_position\"] - df[\"p2_y_position\"]) ** 2\n    )\n    df[\"speed_diff\"] = df[\"p1_speed\"] - df[\"p2_speed\"]\n    df[\"is_ground\"] = ground_mask.astype(int)\n    return df.fillna(0)\n\n\ntrain_data = create_features(train_labels, tracking_train)\n\n# Train-validation split\ngame_plays = train_data[\"game_play\"].unique()\nval_games = np.random.choice(game_plays, size=int(0.2 * len(game_plays)), replace=False)\ntrain_mask = ~train_data[\"game_play\"].isin(val_games)\n\nX_train = train_data[train_mask].drop(\n    columns=[\"contact_id\", \"game_play\", \"contact\", \"player1\", \"player2\"]\n)\ny_train = train_data[train_mask][\"contact\"]\nX_val = train_data[~train_mask].drop(\n    columns=[\"contact_id\", \"game_play\", \"contact\", \"player1\", \"player2\"]\n)\ny_val = train_data[~train_mask][\"contact\"]\n\n# Train LightGBM model\nparams = {\n    \"objective\": \"binary\",\n    \"metric\": \"binary_logloss\",\n    \"num_leaves\": 63,\n    \"learning_rate\": 0.1,\n    \"feature_fraction\": 0.8,\n    \"bagging_freq\": 5,\n    \"seed\": 42,\n}\n\nmodel = lgb.train(\n    params,\n    lgb.Dataset(X_train, y_train),\n    num_boost_round=1000,\n    valid_sets=[lgb.Dataset(X_val, y_val)],\n    early_stopping_rounds=50,\n    verbose_eval=False,\n)\n\n# Validation metrics\nval_pred = (model.predict(X_val) > 0.5).astype(int)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Process test data\nsubmission = pd.read_csv(DATA_PATH / \"sample_submission.csv\")\nsplit_test = submission[\"contact_id\"].str.split(\"_\", expand=True)\nsubmission[\"game_play\"] = split_test[0] + \"_\" + split_test[1]\nsubmission[\"step\"] = split_test[2].astype(int)\nsubmission[\"player1\"] = split_test[3]\nsubmission[\"player2\"] = split_test[4]\n\ntracking_test = pd.read_csv(DATA_PATH / \"test_player_tracking.csv\").set_index(\n    [\"game_play\", \"step\", \"nfl_player_id\"]\n)\ntest_data = create_features(submission, tracking_test)\n\n# Generate predictions\ntest_pred = (model.predict(test_data[X_train.columns]) > 0.5).astype(int)\nsubmission[\"contact\"] = test_pred\nsubmission[[\"contact_id\", \"contact\"]].to_csv(SUBMISSION_PATH, index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import GroupShuffleSplit\nfrom sklearn.metrics import matthews_corrcoef\nimport lightgbm as lgb\nimport os\n\n# Load data with dtype conversion\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntracking = pd.read_csv(\"input/train_player_tracking.csv\")\ntracking[\"nfl_player_id\"] = tracking[\"nfl_player_id\"].astype(str)  # Fix dtype\ntest_tracking = pd.read_csv(\"input/test_player_tracking.csv\")\ntest_tracking[\"nfl_player_id\"] = test_tracking[\"nfl_player_id\"].astype(str)  # Fix dtype\nsample_sub = pd.read_csv(\"input/sample_submission.csv\")\n\n\n# Feature engineering function with dtype handling\ndef create_features(df, tracking_df):\n    # Player-player features\n    pp = df[df[\"nfl_player_id_2\"] != \"G\"].copy()\n    pp = pp.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    )\n    pp = pp.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        suffixes=(\"_1\", \"_2\"),\n        how=\"left\",\n    )\n    pp[\"distance\"] = np.sqrt(\n        (pp[\"x_position_1\"] - pp[\"x_position_2\"]) ** 2\n        + (pp[\"y_position_1\"] - pp[\"y_position_2\"]) ** 2\n    )\n    pp[\"speed_diff\"] = pp[\"speed_1\"] - pp[\"speed_2\"]\n\n    # Player-ground features\n    pg = df[df[\"nfl_player_id_2\"] == \"G\"].copy()\n    pg = pg.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    )\n    pg[\"ground_contact\"] = (pg[\"y_position\"] < 1).astype(int)\n\n    # Combine features\n    features = pd.concat(\n        [\n            pp[[\"distance\", \"speed_diff\", \"acceleration_1\", \"acceleration_2\"]],\n            pg[[\"y_position\", \"acceleration\", \"ground_contact\"]],\n        ],\n        axis=0,\n    )\n\n    features[\"is_ground\"] = df[\"nfl_player_id_2\"] == \"G\"\n    return features.fillna(0)\n\n\n# Prepare training data\nX = create_features(train_labels, tracking)\ny = train_labels[\"contact\"]\n\n# Temporal validation split\nsplitter = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)\ngame_plays = train_labels[\"game_play\"].str.split(\"_\").str[0]\ntrain_idx, val_idx = next(splitter.split(X, y, groups=game_plays))\nX_train, X_val = X.iloc[train_idx], X.iloc[val_idx]\ny_train, y_val = y.iloc[train_idx], y.iloc[val_idx]\n\n# Train model with adjusted parameters\nmodel = lgb.LGBMClassifier(\n    num_leaves=63,\n    learning_rate=0.1,\n    n_estimators=500,\n    reg_alpha=0.2,\n    objective=\"binary\",\n    random_state=42,\n    n_jobs=-1,\n)\nmodel.fit(\n    X_train, y_train, eval_set=[(X_val, y_val)], early_stopping_rounds=20, verbose=50\n)\n\n# Validate\nval_pred = model.predict(X_val, num_iteration=model.best_iteration_)\nmcc = matthews_corrcoef(y_val, val_pred)\nprint(f\"Validation MCC: {mcc:.4f}\")\n\n\n# Generate submission with proper processing\ndef process_submission(sub_df, tracking_df):\n    split = sub_df[\"contact_id\"].str.split(\"_\", expand=True)\n    sub_df[\"game_play\"] = split[0] + \"_\" + split[1]\n    sub_df[\"step\"] = split[2].astype(int)\n    sub_df[\"nfl_player_id_1\"] = split[3]\n    sub_df[\"nfl_player_id_2\"] = split[4]\n    return create_features(sub_df, tracking_df)\n\n\nX_test = process_submission(sample_sub, test_tracking)\ntest_pred = model.predict(X_test, num_iteration=model.best_iteration_)\n\n# Save predictions\nos.makedirs(\"submission\", exist_ok=True)\nsample_sub[\"contact\"] = test_pred.astype(int)\nsample_sub.to_csv(\"submission/submission.csv\", index=False)\nprint(\"Submission file saved successfully!\")\n",
+            "import pandas as pd\nfrom lightgbm import LGBMClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\n\n# Load data\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\"input/train_player_tracking.csv\")\n\n\n# Prepare tracking features\ndef prepare_features(labels_df, tracking_df):\n    # Split player1/player2 features\n    p1 = tracking_df.add_prefix(\"p1_\").rename(\n        columns={\n            \"p1_game_play\": \"game_play\",\n            \"p1_step\": \"step\",\n            \"p1_nfl_player_id\": \"nfl_player_id_1\",\n        }\n    )\n    p2 = tracking_df.add_prefix(\"p2_\").rename(\n        columns={\n            \"p2_game_play\": \"game_play\",\n            \"p2_step\": \"step\",\n            \"p2_nfl_player_id\": \"nfl_player_id_2\",\n        }\n    )\n\n    # Merge features\n    merged = pd.merge(\n        labels_df, p1, on=[\"game_play\", \"step\", \"nfl_player_id_1\"], how=\"left\"\n    )\n    merged = pd.merge(\n        merged,\n        p2,\n        on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n        how=\"left\",\n        suffixes=(\"\", \"_y\"),\n    )\n\n    # Calculate distance and ground flag\n    merged[\"distance\"] = (\n        (merged[\"p1_x_position\"] - merged[\"p2_x_position\"]) ** 2\n        + (merged[\"p1_y_position\"] - merged[\"p2_y_position\"]) ** 2\n    ) ** 0.5\n    merged[\"is_ground\"] = (merged[\"nfl_player_id_2\"] == \"G\").astype(int)\n    merged.fillna(0, inplace=True)\n    return merged[\n        [\n            \"distance\",\n            \"is_ground\",\n            \"p1_speed\",\n            \"p1_acceleration\",\n            \"p2_speed\",\n            \"p2_acceleration\",\n            \"contact\",\n        ]\n    ]\n\n\n# Prepare training data\ntrain_data = prepare_features(train_labels, train_tracking)\nX = train_data.drop(\"contact\", axis=1)\ny = train_data[\"contact\"]\n\n# Train model\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\nmodel = LGBMClassifier()\nmodel.fit(X_train, y_train)\n\n# Validate\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Process test data\ntest_labels = pd.read_csv(\"input/sample_submission.csv\")\ntest_tracking = pd.read_csv(\"input/test_player_tracking.csv\")\n\n# Extract components from contact_id\ntest_labels[[\"game_key\", \"play_id\", \"step\", \"p1\", \"p2\"]] = test_labels[\n    \"contact_id\"\n].str.split(\"_\", expand=True)\ntest_labels[\"game_play\"] = test_labels[\"game_key\"] + \"_\" + test_labels[\"play_id\"]\ntest_labels[\"step\"] = test_labels[\"step\"].astype(int)\ntest_labels[\"nfl_player_id_1\"] = test_labels[\"p1\"]\ntest_labels[\"nfl_player_id_2\"] = test_labels[\"p2\"]\n\n# Generate features\ntest_data = prepare_features(test_labels, test_tracking)\npredictions = model.predict(test_data.drop(\"contact\", axis=1))\n\n# Create submission\ntest_labels[\"contact\"] = predictions\ntest_labels[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport lightgbm as lgb\nfrom sklearn.metrics import matthews_corrcoef\nfrom pathlib import Path\n\n# Config paths\nDATA_PATH = Path(\"./input\")\nSUBMISSION_PATH = Path(\"./submission/submission.csv\")\nSUBMISSION_PATH.parent.mkdir(parents=True, exist_ok=True)\n\n# Load and preprocess training data\ntrain_labels = pd.read_csv(DATA_PATH / \"train_labels.csv\")\ntracking_train = pd.read_csv(DATA_PATH / \"train_player_tracking.csv\")\n\n# Split contact_id into components with proper type conversion\nsplit = train_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntrain_labels[\"game_play\"] = split[0] + \"_\" + split[1]\ntrain_labels[\"step\"] = split[2].astype(int)\ntrain_labels[\"player1\"] = split[3].astype(str)  # Ensure string type\ntrain_labels[\"player2\"] = split[4].astype(str)  # Ensure string type\n\n# Prepare tracking data with string player IDs\ntracking_train[\"nfl_player_id\"] = tracking_train[\"nfl_player_id\"].astype(str)\ntracking_train = tracking_train.set_index([\"game_play\", \"step\", \"nfl_player_id\"])\nfeatures = [\n    \"x_position\",\n    \"y_position\",\n    \"speed\",\n    \"acceleration\",\n    \"sa\",\n    \"direction\",\n    \"orientation\",\n]\n\n\ndef create_features(df, tracking_data):\n    # Convert player IDs to strings\n    df[\"player1\"] = df[\"player1\"].astype(str)\n    df[\"player2\"] = df[\"player2\"].astype(str)\n\n    # Player1 features\n    df = df.merge(\n        tracking_data[features].reset_index(),\n        left_on=[\"game_play\", \"step\", \"player1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    ).rename(columns={f: f\"p1_{f}\" for f in features})\n\n    # Player2 features (handle ground contact)\n    tracking_temp = tracking_data[features].reset_index()\n    tracking_temp[\"nfl_player_id\"] = tracking_temp[\"nfl_player_id\"].astype(str)\n    df = df.merge(\n        tracking_temp,\n        left_on=[\"game_play\", \"step\", \"player2\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n        suffixes=(\"\", \"_p2\"),\n    ).rename(columns={f: f\"p2_{f}\" for f in features})\n\n    # Set ground contact features to 0\n    ground_mask = df[\"player2\"] == \"G\"\n    for f in features:\n        df[f\"p2_{f}\"] = df[f\"p2_{f}\"].fillna(0)\n        df.loc[ground_mask, f\"p2_{f}\"] = 0\n\n    # Feature engineering\n    df[\"distance\"] = np.sqrt(\n        (df[\"p1_x_position\"] - df[\"p2_x_position\"]) ** 2\n        + (df[\"p1_y_position\"] - df[\"p2_y_position\"]) ** 2\n    )\n    df[\"speed_diff\"] = df[\"p1_speed\"] - df[\"p2_speed\"]\n    df[\"is_ground\"] = ground_mask.astype(int)\n    return df.fillna(0)\n\n\ntrain_data = create_features(train_labels, tracking_train)\n\n# Train-validation split\ngame_plays = train_data[\"game_play\"].unique()\nval_games = np.random.choice(game_plays, size=int(0.2 * len(game_plays)), replace=False)\ntrain_mask = ~train_data[\"game_play\"].isin(val_games)\n\nX_train = train_data[train_mask].drop(\n    columns=[\"contact_id\", \"game_play\", \"contact\", \"player1\", \"player2\"]\n)\ny_train = train_data[train_mask][\"contact\"]\nX_val = train_data[~train_mask].drop(\n    columns=[\"contact_id\", \"game_play\", \"contact\", \"player1\", \"player2\"]\n)\ny_val = train_data[~train_mask][\"contact\"]\n\n# Train LightGBM model\nparams = {\n    \"objective\": \"binary\",\n    \"metric\": \"binary_logloss\",\n    \"num_leaves\": 63,\n    \"learning_rate\": 0.1,\n    \"feature_fraction\": 0.8,\n    \"bagging_freq\": 5,\n    \"seed\": 42,\n}\n\nmodel = lgb.train(\n    params,\n    lgb.Dataset(X_train, y_train),\n    num_boost_round=1000,\n    valid_sets=[lgb.Dataset(X_val, y_val)],\n    early_stopping_rounds=50,\n    verbose_eval=False,\n)\n\n# Validation metrics\nval_pred = (model.predict(X_val) > 0.5).astype(int)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Process test data\nsubmission = pd.read_csv(DATA_PATH / \"sample_submission.csv\")\nsplit_test = submission[\"contact_id\"].str.split(\"_\", expand=True)\nsubmission[\"game_play\"] = split_test[0] + \"_\" + split_test[1]\nsubmission[\"step\"] = split_test[2].astype(int)\nsubmission[\"player1\"] = split_test[3].astype(str)\nsubmission[\"player2\"] = split_test[4].astype(str)\n\ntracking_test = pd.read_csv(DATA_PATH / \"test_player_tracking.csv\")\ntracking_test[\"nfl_player_id\"] = tracking_test[\"nfl_player_id\"].astype(str)\ntracking_test = tracking_test.set_index([\"game_play\", \"step\", \"nfl_player_id\"])\n\ntest_data = create_features(submission, tracking_test)\n\n# Generate predictions\ntest_pred = (model.predict(test_data[X_train.columns]) > 0.5).astype(int)\nsubmission[\"contact\"] = test_pred\nsubmission[[\"contact_id\", \"contact\"]].to_csv(SUBMISSION_PATH, index=False)\n",
+            "import pandas as pd\nfrom lightgbm import LGBMClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\n\n# Load data with proper dtype conversion\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\n    \"input/train_player_tracking.csv\", dtype={\"nfl_player_id\": str}\n)\n\n\n# Prepare tracking features with type-safe merging\ndef prepare_features(labels_df, tracking_df):\n    # Convert player IDs to strings\n    tracking_df = tracking_df.astype({\"nfl_player_id\": str})\n\n    # Split player1/player2 features\n    p1 = tracking_df.add_prefix(\"p1_\").rename(\n        columns={\n            \"p1_game_play\": \"game_play\",\n            \"p1_step\": \"step\",\n            \"p1_nfl_player_id\": \"nfl_player_id_1\",\n        }\n    )\n    p2 = tracking_df.add_prefix(\"p2_\").rename(\n        columns={\n            \"p2_game_play\": \"game_play\",\n            \"p2_step\": \"step\",\n            \"p2_nfl_player_id\": \"nfl_player_id_2\",\n        }\n    )\n\n    # Merge with proper type conversion\n    labels_df = labels_df.astype({\"nfl_player_id_1\": str, \"nfl_player_id_2\": str})\n    merged = pd.merge(\n        labels_df, p1, on=[\"game_play\", \"step\", \"nfl_player_id_1\"], how=\"left\"\n    )\n    merged = pd.merge(\n        merged,\n        p2,\n        on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n        how=\"left\",\n        suffixes=(\"\", \"_y\"),\n    )\n\n    # Feature engineering\n    merged[\"distance\"] = (\n        (merged[\"p1_x_position\"] - merged[\"p2_x_position\"]) ** 2\n        + (merged[\"p1_y_position\"] - merged[\"p2_y_position\"]) ** 2\n    ) ** 0.5\n    merged[\"is_ground\"] = (merged[\"nfl_player_id_2\"] == \"G\").astype(int)\n    merged.fillna(0, inplace=True)\n    return merged[\n        [\n            \"distance\",\n            \"is_ground\",\n            \"p1_speed\",\n            \"p1_acceleration\",\n            \"p2_speed\",\n            \"p2_acceleration\",\n            \"contact\",\n        ]\n    ]\n\n\n# Prepare training data\ntrain_data = prepare_features(train_labels, train_tracking)\nX = train_data.drop(\"contact\", axis=1)\ny = train_data[\"contact\"]\n\n# Train model with class balance\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\nmodel = LGBMClassifier(class_weight=\"balanced\", n_estimators=1000)\nmodel.fit(\n    X_train, y_train, eval_set=[(X_val, y_val)], early_stopping_rounds=50, verbose=False\n)\n\n# Validate\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Process test data with proper contact_id parsing\ntest_labels = pd.read_csv(\"input/sample_submission.csv\")\ntest_tracking = pd.read_csv(\n    \"input/test_player_tracking.csv\", dtype={\"nfl_player_id\": str}\n)\n\n# Split contact_id with ground handling\nsplit = test_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntest_labels[\"game_play\"] = split[0] + \"_\" + split[1]\ntest_labels[\"step\"] = split[2].astype(int)\ntest_labels[\"nfl_player_id_1\"] = split[3]\ntest_labels[\"nfl_player_id_2\"] = split[4].where(split[4] != \"G\", \"G\")\n\n# Generate test features\ntest_data = prepare_features(test_labels, test_tracking)\npredictions = model.predict(test_data.drop(columns=\"contact\", errors=\"ignore\"))\n\n# Create submission\ntest_labels[\"contact\"] = predictions\ntest_labels[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom lightgbm import LGBMClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\nfrom pathlib import Path\n\nDATA_PATH = Path(\"./input\")\nSUBMISSION_PATH = Path(\"./submission/submission.csv\")\nSUBMISSION_PATH.parent.mkdir(parents=True, exist_ok=True)\n\n# Load and preprocess data\ntrain_labels = pd.read_csv(DATA_PATH / \"train_labels.csv\")\ntracking_train = pd.read_csv(DATA_PATH / \"train_player_tracking.csv\")\n\n# Split contact_id\nsplit = train_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntrain_labels[\"game_play\"] = split[0] + \"_\" + split[1]\ntrain_labels[\"step\"] = split[2].astype(int)\ntrain_labels[\"player1\"] = split[3].astype(str)\ntrain_labels[\"player2\"] = split[4].astype(str)\n\n# Process tracking data\ntracking_train[\"nfl_player_id\"] = tracking_train[\"nfl_player_id\"].astype(str)\ntracking_train = tracking_train.set_index([\"game_play\", \"step\", \"nfl_player_id\"])\n\n\ndef create_features(df, tracking_data):\n    features = [\n        \"x_position\",\n        \"y_position\",\n        \"speed\",\n        \"acceleration\",\n        \"sa\",\n        \"direction\",\n        \"orientation\",\n    ]\n\n    # Player1 features\n    df = df.merge(\n        tracking_data[features].reset_index(),\n        left_on=[\"game_play\", \"step\", \"player1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    ).rename(columns={f: f\"p1_{f}\" for f in features})\n\n    # Player2 features\n    tracking_temp = tracking_data[features].reset_index()\n    df = df.merge(\n        tracking_temp,\n        left_on=[\"game_play\", \"step\", \"player2\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n        suffixes=(\"\", \"_p2\"),\n    ).rename(columns={f: f\"p2_{f}\" for f in features})\n\n    # Feature engineering\n    df[\"distance\"] = np.sqrt(\n        (df[\"p1_x_position\"] - df[\"p2_x_position\"]) ** 2\n        + (df[\"p1_y_position\"] - df[\"p2_y_position\"]) ** 2\n    )\n    df[\"speed_diff\"] = df[\"p1_speed\"] - df[\"p2_speed\"]\n    df[\"is_ground\"] = (df[\"player2\"] == \"G\").astype(int)\n    return df.fillna(0)\n\n\n# Create features\nfull_data = create_features(train_labels, tracking_train)\nfeatures = [\n    c\n    for c in full_data.columns\n    if c.startswith((\"p1_\", \"p2_\", \"distance\", \"speed_diff\", \"is_ground\"))\n]\n\n# Split data\nX = full_data[features]\ny = full_data[\"contact\"]\nX_train, X_val, y_train, y_val = train_test_split(\n    X, y, test_size=0.2, stratify=y, random_state=42\n)\n\n# Train model\nmodel = LGBMClassifier(\n    n_estimators=1000,\n    learning_rate=0.1,\n    num_leaves=63,\n    subsample=0.8,\n    colsample_bytree=0.8,\n    random_state=42,\n)\nmodel.fit(\n    X_train,\n    y_train,\n    eval_set=[(X_val, y_val)],\n    eval_metric=\"logloss\",\n    early_stopping_rounds=50,\n    verbose=False,\n)\n\n# Validation score\nval_pred = model.predict(X_val, num_iteration=model.best_iteration_)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Process test data\nsubmission = pd.read_csv(DATA_PATH / \"sample_submission.csv\")\nsplit_test = submission[\"contact_id\"].str.split(\"_\", expand=True)\nsubmission[\"game_play\"] = split_test[0] + \"_\" + split_test[1]\nsubmission[\"step\"] = split_test[2].astype(int)\nsubmission[\"player1\"] = split_test[3].astype(str)\nsubmission[\"player2\"] = split_test[4].astype(str)\n\ntracking_test = pd.read_csv(DATA_PATH / \"test_player_tracking.csv\")\ntracking_test[\"nfl_player_id\"] = tracking_test[\"nfl_player_id\"].astype(str)\ntracking_test = tracking_test.set_index([\"game_play\", \"step\", \"nfl_player_id\"])\n\ntest_data = create_features(submission, tracking_test)\n\n# Generate predictions\ntest_pred = model.predict(test_data[features], num_iteration=model.best_iteration_)\nsubmission[\"contact\"] = test_pred\nsubmission[[\"contact_id\", \"contact\"]].to_csv(SUBMISSION_PATH, index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import GroupShuffleSplit\nfrom sklearn.metrics import matthews_corrcoef\nimport lightgbm as lgb\nimport os\n\n# Load data with dtype conversion\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_labels[\"nfl_player_id_1\"] = train_labels[\"nfl_player_id_1\"].astype(str)\ntrain_labels[\"nfl_player_id_2\"] = train_labels[\"nfl_player_id_2\"].astype(str)\n\ntracking = pd.read_csv(\"input/train_player_tracking.csv\")\ntracking[\"nfl_player_id\"] = tracking[\"nfl_player_id\"].astype(str)\ntest_tracking = pd.read_csv(\"input/test_player_tracking.csv\")\ntest_tracking[\"nfl_player_id\"] = test_tracking[\"nfl_player_id\"].astype(str)\nsample_sub = pd.read_csv(\"input/sample_submission.csv\")\n\n\ndef create_features(df, tracking_df):\n    # Player-player features\n    pp = df[df[\"nfl_player_id_2\"] != \"G\"].copy()\n    pp = pp.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    )\n    pp = pp.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        suffixes=(\"_1\", \"_2\"),\n        how=\"left\",\n    )\n    pp[\"distance\"] = np.sqrt(\n        (pp[\"x_position_1\"] - pp[\"x_position_2\"]) ** 2\n        + (pp[\"y_position_1\"] - pp[\"y_position_2\"]) ** 2\n    )\n    pp[\"speed_diff\"] = pp[\"speed_1\"] - pp[\"speed_2\"]\n\n    # Player-ground features\n    pg = df[df[\"nfl_player_id_2\"] == \"G\"].copy()\n    pg = pg.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    )\n    pg[\"ground_contact\"] = (pg[\"y_position\"] < 1).astype(int)\n\n    # Combine features\n    features = pd.concat(\n        [\n            pp[[\"distance\", \"speed_diff\", \"acceleration_1\", \"acceleration_2\"]],\n            pg[[\"y_position\", \"acceleration\", \"ground_contact\"]],\n        ],\n        axis=0,\n    )\n\n    features[\"is_ground\"] = df[\"nfl_player_id_2\"] == \"G\"\n    return features.fillna(0)\n\n\n# Prepare training data\nX = create_features(train_labels, tracking)\ny = train_labels[\"contact\"]\n\n# Temporal validation split\nsplitter = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)\ngame_plays = train_labels[\"game_play\"].str.split(\"_\").str[0]\ntrain_idx, val_idx = next(splitter.split(X, y, groups=game_plays))\nX_train, X_val = X.iloc[train_idx], X.iloc[val_idx]\ny_train, y_val = y.iloc[train_idx], y.iloc[val_idx]\n\n# Train model\nmodel = lgb.LGBMClassifier(\n    num_leaves=63,\n    learning_rate=0.1,\n    n_estimators=500,\n    reg_alpha=0.2,\n    objective=\"binary\",\n    random_state=42,\n    n_jobs=-1,\n)\nmodel.fit(\n    X_train, y_train, eval_set=[(X_val, y_val)], early_stopping_rounds=20, verbose=50\n)\n\n# Validate\nval_pred = model.predict(X_val, num_iteration=model.best_iteration_)\nmcc = matthews_corrcoef(y_val, val_pred)\nprint(f\"Validation MCC: {mcc:.4f}\")\n\n\n# Generate submission\ndef process_submission(sub_df, tracking_df):\n    split = sub_df[\"contact_id\"].str.split(\"_\", expand=True)\n    sub_df[\"game_play\"] = split[0] + \"_\" + split[1]\n    sub_df[\"step\"] = split[2].astype(int)\n    sub_df[\"nfl_player_id_1\"] = split[3]\n    sub_df[\"nfl_player_id_2\"] = split[4]\n    return create_features(sub_df, tracking_df)\n\n\nX_test = process_submission(sample_sub, test_tracking)\ntest_pred = model.predict(X_test, num_iteration=model.best_iteration_)\n\n# Save predictions\nos.makedirs(\"submission\", exist_ok=True)\nsample_sub[\"contact\"] = test_pred.astype(int)\nsample_sub.to_csv(\"submission/submission.csv\", index=False)\nprint(\"Submission saved successfully!\")\n",
+            "import pandas as pd\nimport numpy as np\nfrom lightgbm import LGBMClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\nfrom pathlib import Path\n\nDATA_PATH = Path(\"./input\")\nSUBMISSION_PATH = Path(\"./submission/submission.csv\")\nSUBMISSION_PATH.parent.mkdir(parents=True, exist_ok=True)\n\n# Load and preprocess data\ntrain_labels = pd.read_csv(DATA_PATH / \"train_labels.csv\")\ntracking_train = pd.read_csv(DATA_PATH / \"train_player_tracking.csv\")\n\n# Split contact_id\nsplit = train_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntrain_labels[\"game_play\"] = split[0] + \"_\" + split[1]\ntrain_labels[\"step\"] = split[2].astype(int)\ntrain_labels[\"player1\"] = split[3].astype(str)\ntrain_labels[\"player2\"] = split[4].astype(str)\n\n# Process tracking data\ntracking_train[\"nfl_player_id\"] = tracking_train[\"nfl_player_id\"].astype(str)\ntracking_train = tracking_train.set_index([\"game_play\", \"step\", \"nfl_player_id\"])\n\n\ndef create_features(df, tracking_data):\n    features = [\n        \"x_position\",\n        \"y_position\",\n        \"speed\",\n        \"acceleration\",\n        \"sa\",\n        \"direction\",\n        \"orientation\",\n    ]\n\n    # Player1 features\n    df = df.merge(\n        tracking_data[features].reset_index(),\n        left_on=[\"game_play\", \"step\", \"player1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    ).rename(columns={f: f\"p1_{f}\" for f in features})\n\n    # Player2 features\n    tracking_temp = tracking_data[features].reset_index()\n    df = df.merge(\n        tracking_temp,\n        left_on=[\"game_play\", \"step\", \"player2\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n        suffixes=(\"\", \"_p2\"),\n    ).rename(columns={f: f\"p2_{f}\" for f in features})\n\n    # Feature engineering\n    df[\"distance\"] = np.sqrt(\n        (df[\"p1_x_position\"] - df[\"p2_x_position\"]) ** 2\n        + (df[\"p1_y_position\"] - df[\"p2_y_position\"]) ** 2\n    )\n    df[\"speed_diff\"] = df[\"p1_speed\"] - df[\"p2_speed\"]\n    df[\"is_ground\"] = (df[\"player2\"] == \"G\").astype(int)\n    return df.fillna(0)\n\n\n# Create features\nfull_data = create_features(train_labels, tracking_train)\nfeatures = [\n    c\n    for c in full_data.columns\n    if c.startswith((\"p1_\", \"p2_\", \"distance\", \"speed_diff\", \"is_ground\"))\n]\n\n# Split data\nX = full_data[features]\ny = full_data[\"contact\"]\nX_train, X_val, y_train, y_val = train_test_split(\n    X, y, test_size=0.2, stratify=y, random_state=42\n)\n\n# Train model with corrected parameters\nmodel = LGBMClassifier(\n    n_estimators=1000,\n    learning_rate=0.1,\n    num_leaves=63,\n    subsample=0.8,\n    colsample_bytree=0.8,\n    random_state=42,\n)\n\nmodel.fit(\n    X_train,\n    y_train,\n    eval_set=[(X_val, y_val)],\n    eval_metric=\"logloss\",\n    early_stopping_rounds=50,\n    verbose=False,\n)\n\n# Validation score\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Process test data\nsubmission = pd.read_csv(DATA_PATH / \"sample_submission.csv\")\nsplit_test = submission[\"contact_id\"].str.split(\"_\", expand=True)\nsubmission[\"game_play\"] = split_test[0] + \"_\" + split_test[1]\nsubmission[\"step\"] = split_test[2].astype(int)\nsubmission[\"player1\"] = split_test[3].astype(str)\nsubmission[\"player2\"] = split_test[4].astype(str)\n\ntracking_test = pd.read_csv(DATA_PATH / \"test_player_tracking.csv\")\ntracking_test[\"nfl_player_id\"] = tracking_test[\"nfl_player_id\"].astype(str)\ntracking_test = tracking_test.set_index([\"game_play\", \"step\", \"nfl_player_id\"])\n\ntest_data = create_features(submission, tracking_test).fillna(0)\n\n# Generate predictions\ntest_pred = model.predict(test_data[features])\nsubmission[\"contact\"] = test_pred\nsubmission[[\"contact_id\", \"contact\"]].to_csv(SUBMISSION_PATH, index=False)\nprint(f\"Submission saved to {SUBMISSION_PATH}\")\n",
+            "import pandas as pd\nfrom lightgbm import LGBMClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\n\n# Load data with proper type conversion\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\n    \"input/train_player_tracking.csv\", dtype={\"nfl_player_id\": str}\n)\n\n\n# Feature preparation with enhanced ground contact handling\ndef prepare_features(labels_df, tracking_df):\n    tracking_df = tracking_df.astype({\"nfl_player_id\": str})\n\n    p1 = tracking_df.add_prefix(\"p1_\").rename(\n        columns={\n            \"p1_game_play\": \"game_play\",\n            \"p1_step\": \"step\",\n            \"p1_nfl_player_id\": \"nfl_player_id_1\",\n        }\n    )\n    p2 = tracking_df.add_prefix(\"p2_\").rename(\n        columns={\n            \"p2_game_play\": \"game_play\",\n            \"p2_step\": \"step\",\n            \"p2_nfl_player_id\": \"nfl_player_id_2\",\n        }\n    )\n\n    labels_df = labels_df.astype({\"nfl_player_id_1\": str, \"nfl_player_id_2\": str})\n    merged = pd.merge(\n        labels_df, p1, on=[\"game_play\", \"step\", \"nfl_player_id_1\"], how=\"left\"\n    )\n    merged = pd.merge(\n        merged, p2, on=[\"game_play\", \"step\", \"nfl_player_id_2\"], how=\"left\"\n    )\n\n    merged[\"distance\"] = (\n        (merged[\"p1_x_position\"] - merged[\"p2_x_position\"]) ** 2\n        + (merged[\"p1_y_position\"] - merged[\"p2_y_position\"]) ** 2\n    ) ** 0.5\n    merged[\"is_ground\"] = (merged[\"nfl_player_id_2\"] == \"G\").astype(int)\n    merged.fillna(0, inplace=True)\n    return merged[[\"distance\", \"is_ground\", \"p1_speed\", \"p1_acceleration\", \"contact\"]]\n\n\n# Prepare and split data\ntrain_data = prepare_features(train_labels, train_tracking)\nX = train_data.drop(\"contact\", axis=1)\ny = train_data[\"contact\"]\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train optimized model\nmodel = LGBMClassifier(class_weight=\"balanced\", n_estimators=500, learning_rate=0.05)\nmodel.fit(X_train, y_train, eval_set=[(X_val, y_val)], verbose=False)\n\n# Validate\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Process test data\ntest_labels = pd.read_csv(\"input/sample_submission.csv\")\nsplit_ids = test_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntest_labels[\"game_play\"] = split_ids[0] + \"_\" + split_ids[1]\ntest_labels[\"step\"] = split_ids[2].astype(int)\ntest_labels[\"nfl_player_id_1\"] = split_ids[3]\ntest_labels[\"nfl_player_id_2\"] = split_ids[4].replace(\n    {\"G\": \"G\"}\n)  # Explicit ground handling\n\n# Generate predictions\ntest_tracking = pd.read_csv(\n    \"input/test_player_tracking.csv\", dtype={\"nfl_player_id\": str}\n)\ntest_data = prepare_features(test_labels, test_tracking)\npredictions = model.predict(test_data.drop(columns=\"contact\", errors=\"ignore\"))\n\n# Create submission\ntest_labels[\"contact\"] = predictions\ntest_labels[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import GroupShuffleSplit\nfrom sklearn.metrics import matthews_corrcoef\nimport lightgbm as lgb\nimport os\n\n# Load data with dtype conversion\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_labels[\"nfl_player_id_1\"] = train_labels[\"nfl_player_id_1\"].astype(str)\ntrain_labels[\"nfl_player_id_2\"] = train_labels[\"nfl_player_id_2\"].astype(str)\n\ntracking = pd.read_csv(\"input/train_player_tracking.csv\")\ntracking[\"nfl_player_id\"] = tracking[\"nfl_player_id\"].astype(str)\ntest_tracking = pd.read_csv(\"input/test_player_tracking.csv\")\ntest_tracking[\"nfl_player_id\"] = test_tracking[\"nfl_player_id\"].astype(str)\nsample_sub = pd.read_csv(\"input/sample_submission.csv\")\n\n\ndef create_features(df, tracking_df):\n    # Player-player features\n    pp = df[df[\"nfl_player_id_2\"] != \"G\"].copy()\n    merged1 = pp.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    )\n    merged2 = merged1.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        suffixes=(\"_1\", \"_2\"),\n        how=\"left\",\n    )\n    merged2[\"distance\"] = np.sqrt(\n        (merged2[\"x_position_1\"] - merged2[\"x_position_2\"]) ** 2\n        + (merged2[\"y_position_1\"] - merged2[\"y_position_2\"]) ** 2\n    )\n    merged2[\"speed_diff\"] = merged2[\"speed_1\"] - merged2[\"speed_2\"]\n\n    # Player-ground features\n    pg = df[df[\"nfl_player_id_2\"] == \"G\"].copy()\n    pg_merged = pg.merge(\n        tracking_df,\n        left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n        how=\"left\",\n    )\n    pg_merged[\"ground_contact\"] = (pg_merged[\"y_position\"] < 1).astype(int)\n\n    # Combine features\n    features = pd.concat(\n        [\n            merged2[[\"distance\", \"speed_diff\", \"acceleration_1\", \"acceleration_2\"]],\n            pg_merged[[\"y_position\", \"acceleration\", \"ground_contact\"]],\n        ],\n        axis=0,\n    )\n\n    features[\"is_ground\"] = df[\"nfl_player_id_2\"] == \"G\"\n    return features.fillna(0)\n\n\n# Prepare training data\nX = create_features(train_labels, tracking)\ny = train_labels[\"contact\"]\n\n# Temporal validation split\nsplitter = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)\ngame_plays = train_labels[\"game_play\"].str.split(\"_\").str[0]\ntrain_idx, val_idx = next(splitter.split(X, y, groups=game_plays))\nX_train, X_val = X.iloc[train_idx], X.iloc[val_idx]\ny_train, y_val = y.iloc[train_idx], y.iloc[val_idx]\n\n# Train model with early stopping callback\nmodel = lgb.LGBMClassifier(\n    num_leaves=63,\n    learning_rate=0.1,\n    n_estimators=500,\n    reg_alpha=0.2,\n    objective=\"binary\",\n    random_state=42,\n    n_jobs=-1,\n)\n\nmodel.fit(\n    X_train,\n    y_train,\n    eval_set=[(X_val, y_val)],\n    eval_metric=\"binary_logloss\",\n    callbacks=[lgb.early_stopping(stopping_rounds=20)],\n    verbose=50,\n)\n\n# Validate\nval_pred = model.predict(X_val, num_iteration=model.best_iteration_)\nmcc = matthews_corrcoef(y_val, val_pred)\nprint(f\"Validation MCC: {mcc:.4f}\")\n\n\n# Generate submission\ndef process_submission(sub_df, tracking_df):\n    split = sub_df[\"contact_id\"].str.split(\"_\", expand=True)\n    sub_df[\"game_play\"] = split[0] + \"_\" + split[1]\n    sub_df[\"step\"] = split[2].astype(int)\n    sub_df[\"nfl_player_id_1\"] = split[3]\n    sub_df[\"nfl_player_id_2\"] = split[4]\n    return create_features(sub_df, tracking_df)\n\n\nX_test = process_submission(sample_sub, test_tracking)\ntest_pred = model.predict(X_test, num_iteration=model.best_iteration_)\n\n# Save predictions\nos.makedirs(\"submission\", exist_ok=True)\nsample_sub[\"contact\"] = test_pred.astype(int)\nsample_sub.to_csv(\"submission/submission.csv\", index=False)\nprint(\"Submission saved successfully!\")\n",
+            "import pandas as pd\nfrom lightgbm import LGBMClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\n\n# Load data with proper type conversion\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\n    \"input/train_player_tracking.csv\", dtype={\"nfl_player_id\": str}\n)\n\n\n# Feature preparation with enhanced ground contact handling\ndef prepare_features(labels_df, tracking_df):\n    tracking_df = tracking_df.astype({\"nfl_player_id\": str})\n\n    p1 = tracking_df.add_prefix(\"p1_\").rename(\n        columns={\n            \"p1_game_play\": \"game_play\",\n            \"p1_step\": \"step\",\n            \"p1_nfl_player_id\": \"nfl_player_id_1\",\n        }\n    )\n    p2 = tracking_df.add_prefix(\"p2_\").rename(\n        columns={\n            \"p2_game_play\": \"game_play\",\n            \"p2_step\": \"step\",\n            \"p2_nfl_player_id\": \"nfl_player_id_2\",\n        }\n    )\n\n    labels_df = labels_df.astype({\"nfl_player_id_1\": str, \"nfl_player_id_2\": str})\n    merged = pd.merge(\n        labels_df, p1, on=[\"game_play\", \"step\", \"nfl_player_id_1\"], how=\"left\"\n    )\n    merged = pd.merge(\n        merged, p2, on=[\"game_play\", \"step\", \"nfl_player_id_2\"], how=\"left\"\n    )\n\n    merged[\"distance\"] = (\n        (merged[\"p1_x_position\"] - merged[\"p2_x_position\"]) ** 2\n        + (merged[\"p1_y_position\"] - merged[\"p2_y_position\"]) ** 2\n    ) ** 0.5\n    merged[\"is_ground\"] = (merged[\"nfl_player_id_2\"] == \"G\").astype(int)\n    merged.fillna(0, inplace=True)\n    return merged[[\"distance\", \"is_ground\", \"p1_speed\", \"p1_acceleration\", \"contact\"]]\n\n\n# Prepare and split data\ntrain_data = prepare_features(train_labels, train_tracking)\nX = train_data.drop(\"contact\", axis=1)\ny = train_data[\"contact\"]\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train optimized model with correct parameters\nmodel = LGBMClassifier(\n    class_weight=\"balanced\", n_estimators=500, learning_rate=0.05, verbose=-1\n)\nmodel.fit(X_train, y_train, eval_set=[(X_val, y_val)])\n\n# Validate\nval_pred = model.predict(X_val)\nmcc = matthews_corrcoef(y_val, val_pred)\nprint(f\"Validation MCC: {mcc:.4f}\")\n\n# Process test data\ntest_labels = pd.read_csv(\"input/sample_submission.csv\")\nsplit_ids = test_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntest_labels[\"game_play\"] = split_ids[0] + \"_\" + split_ids[1]\ntest_labels[\"step\"] = split_ids[2].astype(int)\ntest_labels[\"nfl_player_id_1\"] = split_ids[3]\ntest_labels[\"nfl_player_id_2\"] = split_ids[4]\n\n# Generate predictions\ntest_tracking = pd.read_csv(\n    \"input/test_player_tracking.csv\", dtype={\"nfl_player_id\": str}\n)\ntest_data = prepare_features(test_labels, test_tracking)\npredictions = model.predict(test_data.drop(columns=\"contact\", errors=\"ignore\"))\n\n# Create submission\ntest_labels[\"contact\"] = predictions\ntest_labels[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import GroupKFold\nfrom sklearn.metrics import matthews_corrcoef\nimport xgboost as xgb\n\n# Load data\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\"input/train_player_tracking.csv\")\ntest_tracking = pd.read_csv(\"input/test_player_tracking.csv\")\nsample_sub = pd.read_csv(\"input/sample_submission.csv\")\n\n\n# Process training data\ndef process_contact_id(df):\n    split = df[\"contact_id\"].str.split(\"_\", n=4, expand=True)\n    df[\"game_play\"] = split[0] + \"_\" + split[1]\n    df[\"step\"] = split[2].astype(int)\n    df[\"player1\"] = split[3]\n    df[\"player2\"] = split[4]\n    return df\n\n\ntrain_labels = process_contact_id(train_labels)\ntrain_labels[\"is_ground\"] = (train_labels[\"player2\"] == \"G\").astype(int)\n\n\n# Merge tracking features\ndef merge_features(labels_df, tracking_df):\n    # Player1 features\n    merged = labels_df.merge(\n        tracking_df.add_suffix(\"_1\"),\n        how=\"left\",\n        left_on=[\"game_play\", \"step\", \"player1\"],\n        right_on=[\"game_play_1\", \"step_1\", \"nfl_player_id_1\"],\n    )\n\n    # Player2 features for non-ground contacts\n    merged_pp = merged[merged[\"is_ground\"] == 0].copy()\n    merged_pp = merged_pp.merge(\n        tracking_df.add_suffix(\"_2\"),\n        how=\"left\",\n        left_on=[\"game_play\", \"step\", \"player2\"],\n        right_on=[\"game_play_2\", \"step_2\", \"nfl_player_id_2\"],\n    )\n\n    # Ground contact features\n    merged_g = merged[merged[\"is_ground\"] == 1].copy()\n\n    # Feature engineering\n    # Player-player features\n    merged_pp[\"distance\"] = np.sqrt(\n        (merged_pp[\"x_position_1\"] - merged_pp[\"x_position_2\"]) ** 2\n        + (merged_pp[\"y_position_1\"] - merged_pp[\"y_position_2\"]) ** 2\n    )\n    merged_pp[\"speed_diff\"] = merged_pp[\"speed_1\"] - merged_pp[\"speed_2\"]\n    merged_pp[\"accel_diff\"] = merged_pp[\"acceleration_1\"] - merged_pp[\"acceleration_2\"]\n\n    # Player-ground features\n    merged_g[\"speed\"] = merged_g[\"speed_1\"]\n    merged_g[\"accel\"] = merged_g[\"acceleration_1\"]\n    merged_g[\"orientation\"] = merged_g[\"orientation_1\"]\n\n    # Combine features\n    features_pp = merged_pp[[\"distance\", \"speed_diff\", \"accel_diff\"]]\n    features_g = merged_g[[\"speed\", \"accel\", \"orientation\"]]\n    features_g.columns = [\"distance\", \"speed_diff\", \"accel_diff\"]  # Align columns\n\n    return pd.concat([features_pp, features_g]), pd.concat(\n        [merged_pp[\"contact\"], merged_g[\"contact\"]]\n    )\n\n\nX, y = merge_features(train_labels, train_tracking)\n\n# Temporal validation split\ngames = train_labels[\"game_play\"].unique()\ntrain_games = games[: int(len(games) * 0.8)]\nval_mask = train_labels[\"game_play\"].isin(train_games)\n\nX_train, X_val = X[val_mask], X[~val_mask]\ny_train, y_val = y[val_mask], y[~val_mask]\n\n# Train model\nmodel = xgb.XGBClassifier(\n    objective=\"binary:logistic\",\n    eval_metric=\"logloss\",\n    n_estimators=1000,\n    learning_rate=0.1,\n    max_depth=7,\n    subsample=0.8,\n    colsample_bytree=0.8,\n)\nmodel.fit(\n    X_train, y_train, eval_set=[(X_val, y_val)], early_stopping_rounds=20, verbose=False\n)\n\n# Validation evaluation\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Process test data\ntest_df = process_contact_id(sample_sub)\ntest_df[\"is_ground\"] = (test_df[\"player2\"] == \"G\").astype(int)\nX_test, _ = merge_features(test_df, test_tracking)\n\n# Predict and save\ntest_df[\"contact\"] = model.predict(X_test)\ntest_df[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\nimport xgboost as xgb\n\n# Load data\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\"input/train_player_tracking.csv\")\ntest_tracking = pd.read_csv(\"input/test_player_tracking.csv\")\nsample_sub = pd.read_csv(\"input/sample_submission.csv\")\n\n# Split labels into player pairs and ground contacts\nplayer_pairs = train_labels[train_labels[\"nfl_player_id_2\"] != \"G\"].copy()\nground_pairs = train_labels[train_labels[\"nfl_player_id_2\"] == \"G\"].copy()\n\n# Process player pairs features\nmerged = player_pairs.merge(\n    train_tracking.add_suffix(\"_1\"),\n    left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n    right_on=[\"game_play_1\", \"step_1\", \"nfl_player_id_1\"],\n    how=\"left\",\n).merge(\n    train_tracking.add_suffix(\"_2\"),\n    left_on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n    right_on=[\"game_play_2\", \"step_2\", \"nfl_player_id_2\"],\n    how=\"left\",\n)\n\nmerged[\"distance\"] = np.sqrt(\n    (merged[\"x_position_1\"] - merged[\"x_position_2\"]) ** 2\n    + (merged[\"y_position_1\"] - merged[\"y_position_2\"]) ** 2\n)\nmerged[\"speed_diff\"] = abs(merged[\"speed_1\"] - merged[\"speed_2\"])\nmerged[\"accel_diff\"] = abs(merged[\"acceleration_1\"] - merged[\"acceleration_2\"])\nplayer_features = merged[[\"distance\", \"speed_diff\", \"accel_diff\"]]\n\n# Process ground contact features\nground_merged = ground_pairs.merge(\n    train_tracking,\n    left_on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n    right_on=[\"game_play\", \"step\", \"nfl_player_id\"],\n    how=\"left\",\n)\nground_features = ground_merged[[\"speed\", \"acceleration\", \"distance\"]]\n\n# Combine features and labels\nX = pd.concat([player_features, ground_features], axis=0)\ny = pd.concat([merged[\"contact\"], ground_merged[\"contact\"]], axis=0)\n\n# Split data\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train model\nmodel = xgb.XGBClassifier(objective=\"binary:logistic\", tree_method=\"gpu_hist\")\nmodel.fit(X_train, y_train)\n\n# Validate\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred)}\")\n\n# Process test data\ntest_sub = sample_sub.copy()\ntest_sub[[\"game_play\", \"step\", \"p1\", \"p2\"]] = test_sub[\"contact_id\"].str.split(\n    \"_\", expand=True\n)\ntest_sub[\"step\"] = test_sub[\"step\"].astype(int)\n\n# Generate test features\ntest_features = []\nfor _, row in test_sub.iterrows():\n    game_play = row[\"game_play\"]\n    step = row[\"step\"]\n    p1 = row[\"p1\"]\n    p2 = row[\"p2\"]\n\n    if p2 == \"G\":\n        data = test_tracking[\n            (test_tracking[\"game_play\"] == game_play)\n            & (test_tracking[\"step\"] == step)\n            & (test_tracking[\"nfl_player_id\"] == p1)\n        ]\n        if not data.empty:\n            test_features.append(\n                [\n                    data[\"speed\"].values[0],\n                    data[\"acceleration\"].values[0],\n                    data[\"distance\"].values[0],\n                ]\n            )\n        else:\n            test_features.append([0, 0, 0])\n    else:\n        p1_data = test_tracking[\n            (test_tracking[\"game_play\"] == game_play)\n            & (test_tracking[\"step\"] == step)\n            & (test_tracking[\"nfl_player_id\"] == p1)\n        ]\n        p2_data = test_tracking[\n            (test_tracking[\"game_play\"] == game_play)\n            & (test_tracking[\"step\"] == step)\n            & (test_tracking[\"nfl_player_id\"] == p2)\n        ]\n        if not p1_data.empty and not p2_data.empty:\n            dist = np.sqrt(\n                (p1_data[\"x_position\"].values[0] - p2_data[\"x_position\"].values[0]) ** 2\n                + (p1_data[\"y_position\"].values[0] - p2_data[\"y_position\"].values[0])\n                ** 2\n            )\n            speed_diff = abs(p1_data[\"speed\"].values[0] - p2_data[\"speed\"].values[0])\n            accel_diff = abs(\n                p1_data[\"acceleration\"].values[0] - p2_data[\"acceleration\"].values[0]\n            )\n            test_features.append([dist, speed_diff, accel_diff])\n        else:\n            test_features.append([0, 0, 0])\n\n# Predict and save\ntest_sub[\"contact\"] = model.predict(pd.DataFrame(test_features, columns=X.columns))\ntest_sub[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nfrom lightgbm import LGBMClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\n\n\ndef process_helmets(baseline_path):\n    df = pd.read_csv(baseline_path)\n    df[\"step\"] = df[\"frame\"] // 6  # Map frames to 0.1s steps\n    df[\"center_x\"] = df[\"left\"] + df[\"width\"] / 2\n    df[\"center_y\"] = df[\"top\"] + df[\"height\"] / 2\n    df[\"bottom\"] = df[\"top\"] + df[\"height\"]\n    grouped = (\n        df.groupby([\"game_play\", \"step\", \"nfl_player_id\"])\n        .agg({\"center_x\": \"mean\", \"center_y\": \"mean\", \"bottom\": \"mean\"})\n        .reset_index()\n    )\n    return grouped\n\n\n# Load and process helmet data\ntrain_helmets = process_helmets(\"input/train_baseline_helmets.csv\")\ntest_helmets = process_helmets(\"input/test_baseline_helmets.csv\")\n\n\ndef prepare_features(labels_df, tracking_df, helmets_df):\n    tracking_df = tracking_df.astype({\"nfl_player_id\": str})\n\n    # Merge player tracking features\n    p1 = tracking_df.add_prefix(\"p1_\").rename(\n        columns={\n            \"p1_game_play\": \"game_play\",\n            \"p1_step\": \"step\",\n            \"p1_nfl_player_id\": \"nfl_player_id_1\",\n        }\n    )\n    p2 = tracking_df.add_prefix(\"p2_\").rename(\n        columns={\n            \"p2_game_play\": \"game_play\",\n            \"p2_step\": \"step\",\n            \"p2_nfl_player_id\": \"nfl_player_id_2\",\n        }\n    )\n\n    merged = pd.merge(\n        labels_df.astype({\"nfl_player_id_1\": str, \"nfl_player_id_2\": str}),\n        p1,\n        on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        how=\"left\",\n    )\n    merged = pd.merge(\n        merged, p2, on=[\"game_play\", \"step\", \"nfl_player_id_2\"], how=\"left\"\n    )\n\n    # Calculate tracking distance\n    merged[\"distance\"] = (\n        (merged[\"p1_x_position\"] - merged[\"p2_x_position\"]) ** 2\n        + (merged[\"p1_y_position\"] - merged[\"p2_y_position\"]) ** 2\n    ) ** 0.5\n    merged[\"is_ground\"] = (merged[\"nfl_player_id_2\"] == \"G\").astype(int)\n\n    # Add helmet features\n    merged = pd.merge(\n        merged,\n        helmets_df.rename(\n            columns={\n                \"nfl_player_id\": \"nfl_player_id_1\",\n                \"center_x\": \"p1_helmet_x\",\n                \"center_y\": \"p1_helmet_y\",\n                \"bottom\": \"p1_helmet_bottom\",\n            }\n        ),\n        on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        how=\"left\",\n    )\n\n    # Player-pair helmet distance\n    merged = pd.merge(\n        merged,\n        helmets_df.rename(\n            columns={\n                \"nfl_player_id\": \"nfl_player_id_2\",\n                \"center_x\": \"p2_helmet_x\",\n                \"center_y\": \"p2_helmet_y\",\n            }\n        ),\n        on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n        how=\"left\",\n    )\n    merged[\"helmet_distance\"] = (\n        (merged[\"p1_helmet_x\"] - merged[\"p2_helmet_x\"]) ** 2\n        + (merged[\"p1_helmet_y\"] - merged[\"p2_helmet_y\"]) ** 2\n    ) ** 0.5\n\n    # Fill missing values\n    merged[\"helmet_distance\"] = merged[\"helmet_distance\"].fillna(1000)\n    merged[\"p1_helmet_bottom\"] = merged[\"p1_helmet_bottom\"].fillna(0)\n    merged.fillna(0, inplace=True)\n\n    return merged[\n        [\n            \"distance\",\n            \"is_ground\",\n            \"p1_speed\",\n            \"p1_acceleration\",\n            \"helmet_distance\",\n            \"p1_helmet_bottom\",\n            \"contact\",\n        ]\n    ]\n\n\n# Prepare data\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\n    \"input/train_player_tracking.csv\", dtype={\"nfl_player_id\": str}\n)\ntrain_data = prepare_features(train_labels, train_tracking, train_helmets)\n\nX = train_data.drop(\"contact\", axis=1)\ny = train_data[\"contact\"]\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train model\nmodel = LGBMClassifier(\n    class_weight=\"balanced\", n_estimators=500, learning_rate=0.05, verbose=-1\n)\nmodel.fit(X_train, y_train, eval_set=[(X_val, y_val)])\n\n# Validate\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Generate submission\ntest_labels = pd.read_csv(\"input/sample_submission.csv\")\nsplit_ids = test_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntest_labels = test_labels.assign(\n    game_play=split_ids[0] + \"_\" + split_ids[1],\n    step=split_ids[2].astype(int),\n    nfl_player_id_1=split_ids[3],\n    nfl_player_id_2=split_ids[4],\n)\n\ntest_tracking = pd.read_csv(\n    \"input/test_player_tracking.csv\", dtype={\"nfl_player_id\": str}\n)\ntest_data = prepare_features(test_labels, test_tracking, test_helmets)\ntest_labels[\"contact\"] = model.predict(\n    test_data.drop(columns=\"contact\", errors=\"ignore\")\n)\ntest_labels[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nfrom lightgbm import LGBMClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import matthews_corrcoef\n\n\ndef process_helmets(baseline_path):\n    df = pd.read_csv(baseline_path)\n    df[\"step\"] = (df[\"frame\"] // 6).astype(int)\n    df[\"center_x\"] = df[\"left\"] + df[\"width\"] / 2\n    df[\"center_y\"] = df[\"top\"] + df[\"height\"] / 2\n    df[\"bottom\"] = df[\"top\"] + df[\"height\"]\n    grouped = (\n        df.groupby([\"game_play\", \"step\", \"nfl_player_id\"])\n        .agg({\"center_x\": \"mean\", \"center_y\": \"mean\", \"bottom\": \"mean\"})\n        .reset_index()\n    )\n    return grouped\n\n\ntrain_helmets = process_helmets(\"input/train_baseline_helmets.csv\")\ntest_helmets = process_helmets(\"input/test_baseline_helmets.csv\")\n\n\ndef prepare_features(labels_df, tracking_df, helmets_df):\n    tracking_df = tracking_df.astype({\"nfl_player_id\": str})\n\n    p1 = (\n        tracking_df.add_prefix(\"p1_\")\n        .rename(\n            columns={\n                \"p1_game_play\": \"game_play\",\n                \"p1_step\": \"step\",\n                \"p1_nfl_player_id\": \"nfl_player_id_1\",\n            }\n        )\n        .astype({\"step\": int})\n    )\n\n    p2 = (\n        tracking_df.add_prefix(\"p2_\")\n        .rename(\n            columns={\n                \"p2_game_play\": \"game_play\",\n                \"p2_step\": \"step\",\n                \"p2_nfl_player_id\": \"nfl_player_id_2\",\n            }\n        )\n        .astype({\"step\": int})\n    )\n\n    merged = pd.merge(\n        labels_df.astype({\"nfl_player_id_1\": str, \"nfl_player_id_2\": str}),\n        p1,\n        on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        how=\"left\",\n    )\n    merged = pd.merge(\n        merged, p2, on=[\"game_play\", \"step\", \"nfl_player_id_2\"], how=\"left\"\n    )\n\n    merged[\"distance\"] = (\n        (merged[\"p1_x_position\"] - merged[\"p2_x_position\"]) ** 2\n        + (merged[\"p1_y_position\"] - merged[\"p2_y_position\"]) ** 2\n    ) ** 0.5\n    merged[\"is_ground\"] = (merged[\"nfl_player_id_2\"] == \"G\").astype(int)\n\n    merged = pd.merge(\n        merged,\n        helmets_df.rename(\n            columns={\n                \"nfl_player_id\": \"nfl_player_id_1\",\n                \"center_x\": \"p1_helmet_x\",\n                \"center_y\": \"p1_helmet_y\",\n                \"bottom\": \"p1_helmet_bottom\",\n            }\n        ),\n        on=[\"game_play\", \"step\", \"nfl_player_id_1\"],\n        how=\"left\",\n    )\n    merged = pd.merge(\n        merged,\n        helmets_df.rename(\n            columns={\n                \"nfl_player_id\": \"nfl_player_id_2\",\n                \"center_x\": \"p2_helmet_x\",\n                \"center_y\": \"p2_helmet_y\",\n            }\n        ),\n        on=[\"game_play\", \"step\", \"nfl_player_id_2\"],\n        how=\"left\",\n    )\n    merged[\"helmet_distance\"] = (\n        (merged[\"p1_helmet_x\"] - merged[\"p2_helmet_x\"]) ** 2\n        + (merged[\"p1_helmet_y\"] - merged[\"p2_helmet_y\"]) ** 2\n    ) ** 0.5\n\n    merged[\"helmet_distance\"] = merged[\"helmet_distance\"].fillna(1000)\n    merged[\"p1_helmet_bottom\"] = merged[\"p1_helmet_bottom\"].fillna(0)\n    merged.fillna(0, inplace=True)\n\n    return merged[\n        [\n            \"distance\",\n            \"is_ground\",\n            \"p1_speed\",\n            \"p1_acceleration\",\n            \"helmet_distance\",\n            \"p1_helmet_bottom\",\n            \"contact\",\n        ]\n    ]\n\n\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\n    \"input/train_player_tracking.csv\", dtype={\"nfl_player_id\": str, \"step\": int}\n)\ntrain_data = prepare_features(train_labels, train_tracking, train_helmets)\n\nX = train_data.drop(\"contact\", axis=1)\ny = train_data[\"contact\"]\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\nmodel = LGBMClassifier(\n    class_weight=\"balanced\", n_estimators=500, learning_rate=0.05, verbose=-1\n)\nmodel.fit(X_train, y_train, eval_set=[(X_val, y_val)])\n\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\ntest_labels = pd.read_csv(\"input/sample_submission.csv\")\nsplit_ids = test_labels[\"contact_id\"].str.split(\"_\", expand=True)\ntest_labels = test_labels.assign(\n    game_play=split_ids[0] + \"_\" + split_ids[1],\n    step=split_ids[2].astype(int),\n    nfl_player_id_1=split_ids[3],\n    nfl_player_id_2=split_ids[4],\n)\n\ntest_tracking = pd.read_csv(\n    \"input/test_player_tracking.csv\", dtype={\"nfl_player_id\": str, \"step\": int}\n)\ntest_data = prepare_features(test_labels, test_tracking, test_helmets)\ntest_labels[\"contact\"] = model.predict(\n    test_data.drop(columns=\"contact\", errors=\"ignore\")\n)\ntest_labels[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import GroupKFold\nfrom sklearn.metrics import matthews_corrcoef\nimport xgboost as xgb\n\n# Load data\ntrain_labels = pd.read_csv(\"input/train_labels.csv\")\ntrain_tracking = pd.read_csv(\"input/train_player_tracking.csv\")\ntest_tracking = pd.read_csv(\"input/test_player_tracking.csv\")\nsample_sub = pd.read_csv(\"input/sample_submission.csv\")\n\n\n# Process contact IDs with proper type conversion\ndef process_contact_id(df):\n    split = df[\"contact_id\"].str.split(\"_\", n=4, expand=True)\n    df[\"game_play\"] = split[0] + \"_\" + split[1]\n    df[\"step\"] = split[2].astype(int)\n    df[\"player1\"] = split[3].astype(int)\n    df[\"player2\"] = split[4].apply(lambda x: int(x) if x != \"G\" else x)\n    return df\n\n\ntrain_labels = process_contact_id(train_labels)\ntrain_labels[\"is_ground\"] = (train_labels[\"player2\"] == \"G\").astype(int)\n\n\n# Feature merging with fixed data types\ndef merge_features(labels_df, tracking_df):\n    # Player1 features\n    merged = labels_df.merge(\n        tracking_df.add_suffix(\"_1\"),\n        how=\"left\",\n        left_on=[\"game_play\", \"step\", \"player1\"],\n        right_on=[\"game_play_1\", \"step_1\", \"nfl_player_id_1\"],\n    )\n\n    # Player2 features for non-ground\n    merged_pp = merged[merged[\"is_ground\"] == 0].copy()\n    merged_pp = merged_pp.merge(\n        tracking_df.add_suffix(\"_2\"),\n        how=\"left\",\n        left_on=[\"game_play\", \"step\", \"player2\"],\n        right_on=[\"game_play_2\", \"step_2\", \"nfl_player_id_2\"],\n    )\n\n    # Ground contact features\n    merged_g = merged[merged[\"is_ground\"] == 1].copy()\n\n    # Feature engineering\n    merged_pp[\"distance\"] = np.sqrt(\n        (merged_pp[\"x_position_1\"] - merged_pp[\"x_position_2\"]) ** 2\n        + (merged_pp[\"y_position_1\"] - merged_pp[\"y_position_2\"]) ** 2\n    )\n    merged_pp[\"speed_diff\"] = merged_pp[\"speed_1\"] - merged_pp[\"speed_2\"]\n    merged_pp[\"accel_diff\"] = merged_pp[\"acceleration_1\"] - merged_pp[\"acceleration_2\"]\n\n    merged_g[\"speed\"] = merged_g[\"speed_1\"]\n    merged_g[\"accel\"] = merged_g[\"acceleration_1\"]\n    merged_g[\"orientation\"] = merged_g[\"orientation_1\"]\n    features_g = merged_g[[\"speed\", \"accel\", \"orientation\"]]\n    features_g.columns = [\"distance\", \"speed_diff\", \"accel_diff\"]\n\n    return pd.concat(\n        [merged_pp[[\"distance\", \"speed_diff\", \"accel_diff\"]], features_g]\n    ), pd.concat([merged_pp[\"contact\"], merged_g[\"contact\"]])\n\n\nX, y = merge_features(train_labels, train_tracking)\n\n# Temporal validation\ngames = train_labels[\"game_play\"].unique()\ntrain_games = games[: int(len(games) * 0.8)]\nval_mask = train_labels[\"game_play\"].isin(train_games)\n\nX_train, X_val = X[val_mask], X[~val_mask]\ny_train, y_val = y[val_mask], y[~val_mask]\n\n# Model training\nmodel = xgb.XGBClassifier(\n    objective=\"binary:logistic\",\n    n_estimators=1000,\n    learning_rate=0.1,\n    max_depth=7,\n    subsample=0.8,\n    colsample_bytree=0.8,\n    eval_metric=\"logloss\",\n)\nmodel.fit(\n    X_train, y_train, eval_set=[(X_val, y_val)], early_stopping_rounds=20, verbose=False\n)\n\n# Validation metric\nval_pred = model.predict(X_val)\nprint(f\"Validation MCC: {matthews_corrcoef(y_val, val_pred):.4f}\")\n\n# Generate submission\ntest_df = process_contact_id(sample_sub)\ntest_df[\"is_ground\"] = (test_df[\"player2\"] == \"G\").astype(int)\nX_test, _ = merge_features(test_df, test_tracking)\ntest_df[\"contact\"] = model.predict(X_test)\ntest_df[[\"contact_id\", \"contact\"]].to_csv(\"submission/submission.csv\", index=False)\n"
+        ],
+        "term_out": [
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 64, in <module>\n    X = create_features(train_labels, tracking)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"runfile_0.py\", line 27, in create_features\n    pp = pp.merge(\n         ^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/frame.py\", line 10093, in merge\n    return merge(\n           ^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 110, in merge\n    op = _MergeOperation(\n         ^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 707, in __init__\n    self._maybe_coerce_merge_keys()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 1340, in _maybe_coerce_merge_keys\n    raise ValueError(msg)\nValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat\nExecution time: 10 seconds seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 72, in <module>\n    train_data = create_features(train_labels, tracking_train)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"runfile_0.py\", line 41, in create_features\n    df = df.merge(\n         ^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/frame.py\", line 10093, in merge\n    return merge(\n           ^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 110, in merge\n    op = _MergeOperation(\n         ^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 707, in __init__\n    self._maybe_coerce_merge_keys()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 1340, in _maybe_coerce_merge_keys\n    raise ValueError(msg)\nValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat\nExecution time: 13 seconds seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 66, in <module>\n    X = create_features(train_labels, tracking)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"runfile_1.py\", line 23, in create_features\n    pp = pp.merge(\n         ^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/frame.py\", line 10093, in merge\n    return merge(\n           ^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 110, in merge\n    op = _MergeOperation(\n         ^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 707, in __init__\n    self._maybe_coerce_merge_keys()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 1340, in _maybe_coerce_merge_keys\n    raise ValueError(msg)\nValueError: You are trying to merge on int64 and object columns. If you wish to proceed you should use pd.concat\nExecution time: 7 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 106, in <module>\n    model = lgb.train(\n            ^^^^^^^^^^\nTypeError: train() got an unexpected keyword argument 'early_stopping_rounds'\nExecution time: 33 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 93, in <module>\n    model.fit(\nTypeError: LGBMClassifier.fit() got an unexpected keyword argument 'early_stopping_rounds'\nExecution time: 30 seconds seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 88, in <module>\n    model.fit(\nTypeError: LGBMClassifier.fit() got an unexpected keyword argument 'early_stopping_rounds'\nExecution time: 25 seconds seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 94, in <module>\n    model.fit(\nTypeError: LGBMClassifier.fit() got an unexpected keyword argument 'early_stopping_rounds'\nExecution time: 33 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 89, in <module>\n    model.fit(\nTypeError: LGBMClassifier.fit() got an unexpected keyword argument 'verbose'\nExecution time: 32 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 25, in <module>\n    ).merge(\n      ^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/frame.py\", line 10093, in merge\n    return merge(\n           ^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 110, in merge\n    op = _MergeOperation(\n         ^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 707, in __init__\n    self._maybe_coerce_merge_keys()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 1340, in _maybe_coerce_merge_keys\n    raise ValueError(msg)\nValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat\nExecution time: 12 seconds seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 120, in <module>\n    train_data = prepare_features(train_labels, train_tracking, train_helmets)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"runfile_1.py\", line 65, in prepare_features\n    merged = pd.merge(\n             ^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 110, in merge\n    op = _MergeOperation(\n         ^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 707, in __init__\n    self._maybe_coerce_merge_keys()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 1340, in _maybe_coerce_merge_keys\n    raise ValueError(msg)\nValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat\nExecution time: 22 seconds seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_2.py\", line 121, in <module>\n    train_data = prepare_features(train_labels, train_tracking, train_helmets)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"runfile_2.py\", line 70, in prepare_features\n    merged = pd.merge(\n             ^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 110, in merge\n    op = _MergeOperation(\n         ^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 707, in __init__\n    self._maybe_coerce_merge_keys()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py\", line 1340, in _maybe_coerce_merge_keys\n    raise ValueError(msg)\nValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat\nExecution time: 17 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>"
+        ],
+        "analysis": [
+            null,
+            "The execution of the code failed due to a ValueError during the merging process in the feature engineering function. The error indicates a type mismatch between the columns being merged, specifically between object and int64 columns. This issue needs to be resolved for successful execution. The code does attempt to save a submission file in the correct location, but due to the execution failure, this file is not properly generated.",
+            "The execution of the code failed due to a ValueError encountered during the merge operation in the feature creation process. This error was caused by attempting to merge on columns with incompatible data types (object and int64). As a result, the submission.csv was not properly produced, and the validation metric could not be computed.",
+            "The code execution failed due to a ValueError during a merge operation in the `create_features` function. The error indicates a data type mismatch between the columns being merged, one being 'int64' and the other 'object'. This prevents the successful creation of the feature set needed for training the model. Consequently, the submission.csv file was not produced.",
+            "The execution of the code failed due to a ValueError during the merging process in the `prepare_features` function. The error indicates a type mismatch between columns used for merging, specifically between object and int64 types. As a result, the code did not run successfully, and no validation metric was obtained. However, the code does attempt to save a submission file at the specified location.",
+            "The execution failed due to a TypeError in the code. The error message indicates that the 'train' function from the LightGBM library received an unexpected keyword argument 'early_stopping_rounds'. This suggests a compatibility issue with the version of the library being used. Consequently, the validation metric could not be computed, and the submission file was not properly generated.",
+            "The code execution failed due to a TypeError caused by an unexpected keyword argument 'early_stopping_rounds' in the LGBMClassifier.fit() method. This indicates a bug in the code. Consequently, the validation metric could not be computed, and the submission.csv file was not properly produced.",
+            "The execution of the code failed due to a bug. The error occurred because the 'LGBMClassifier.fit()' method received an unexpected keyword argument 'early_stopping_rounds'. As a result, the model training process was not completed, and no validation metric could be obtained. However, the code does save the predictions in a 'submission.csv' file in the './submission/' directory, indicating that part of the functionality was implemented correctly.",
+            "The code execution failed due to a TypeError indicating that the 'early_stopping_rounds' argument is not recognized by the LGBMClassifier's fit method. This suggests a potential version mismatch or incorrect usage of the LightGBM library. Consequently, the submission.csv file was not produced successfully, and the validation metric could not be calculated.",
+            "The code execution failed due to a TypeError caused by an unexpected keyword argument 'early_stopping_rounds' in the LGBMClassifier's fit method. Consequently, the validation metric could not be evaluated. However, the code does attempt to save predictions in a 'submission.csv' file in the './submission/' directory, indicating that a submission file is intended to be produced.",
+            "The execution of the code failed due to a TypeError. The error occurred because the 'verbose' argument was passed to the LGBMClassifier's fit method, which does not accept this argument. Consequently, the model could not be trained, and no validation metric was produced. However, the code does attempt to save predictions to a 'submission.csv' file in the './submission/' directory, but due to the execution failure, this file may not contain valid predictions.",
+            "The code execution failed due to a TypeError caused by an unexpected keyword argument 'verbose' in the LGBMClassifier.fit() method. As a result, the model training did not complete successfully, and no validation metric could be obtained. However, the code does save the predictions to a 'submission.csv' file in the './submission/' directory, indicating an attempt to generate the submission file despite the error.",
+            "The code successfully executed and generated a submission file in the 'submission' directory. The model was trained using the LightGBM classifier and achieved a Matthews Correlation Coefficient (MCC) of 0.3978 on the validation set. The metric used, MCC, should be maximized, indicating that a higher value is better. The execution did not encounter any bugs or errors.",
+            "The code execution failed due to a ValueError caused by trying to merge on object and int64 columns. This indicates a data type mismatch during the merge operation in the function 'merge_features'. As a result, the submission.csv file was not produced successfully. The issue needs to be resolved to proceed with generating predictions and creating the submission file.",
+            "The execution of the code failed due to a ValueError during a merge operation. The error indicates a data type mismatch between object and int64 columns. As a result, the code was unable to proceed past this point, and no submission.csv file was generated in the ./submission/ directory. The metric could not be evaluated due to this failure.",
+            "The code execution failed due to a ValueError during the merging process in the 'prepare_features' function. The error indicates a type mismatch when attempting to merge on object and int64 columns. As a result, the submission.csv file was not produced.",
+            "The code execution failed due to a ValueError during the merging process in the 'prepare_features' function. The error indicates a type mismatch between object and int64 columns during the merge operation. As a result, the validation metric could not be calculated and no valid output was generated.",
+            "The code executed successfully, producing a submission file named 'submission.csv' in the './submission/' directory. The model was trained using an XGBoost classifier with features engineered from player tracking data. The validation process utilized temporal validation, achieving a Matthews Correlation Coefficient (MCC) of 0.4016. The MCC is a metric that should be maximized, indicating that a higher value is better. The code appears to function as intended without any bugs."
+        ],
+        "exp_name": "nfl-player-contact-detection_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]",
+        "metrics": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.3978,
+            null,
+            null,
+            null,
+            null,
+            0.4016
+        ],
+        "ucts": [
+            0.0,
+            0.4820799625910419,
+            0.4820799625910419,
+            0.0,
+            2.482079962591042,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "is_bug": [
+            "None",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "False",
+            "True",
+            "True",
+            "True",
+            "True",
+            "False"
+        ],
+        "rewards": [
+            0.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            1.0,
+            -1.0,
+            1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            1.0,
+            -1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "visits": [
+            4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "is_debug_success": [
+            "False",
+            "False",
+            "False",
+            "False",
+            "True",
+            "False",
+            "True",
+            "False",
+            "False",
+            "False",
+            "True",
+            "False",
+            "False",
+            "True",
+            "False",
+            "False",
+            "False",
+            "False"
+        ],
+        "local_best_node_steps": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            12,
+            12,
+            17
+        ],
+        "local_best_metrics": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.3978,
+            null,
+            null,
+            0.3978,
+            0.3978,
+            0.4016
+        ],
+        "stages": [
+            "root",
+            "draft",
+            "draft",
+            "debug",
+            "draft",
+            "debug",
+            "debug",
+            "debug",
+            "debug",
+            "debug",
+            "debug",
+            "debug",
+            "debug",
+            "draft",
+            "draft",
+            "improve",
+            "debug",
+            "debug"
+        ],
+        "continue_improve": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+        ]
+    }
+}

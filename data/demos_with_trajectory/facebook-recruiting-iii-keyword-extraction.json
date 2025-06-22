@@ -1,0 +1,2213 @@
+{
+    "title": "facebook-recruiting-iii-keyword-extraction",
+    "steps": [
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task facebook-recruiting-iii-keyword-extraction --time-limit 12h",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting run \"facebook-recruiting-iii-keyword-extraction\"",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 97a3b6fae14546ff8dcc86725565bdde is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 97a3b6fae14546ff8dcc86725565bdde expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 97a3b6fae14546ff8dcc86725565bdde is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 97a3b6fae14546ff8dcc86725565bdde expected_child_count is 2.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 97a3b6fae14546ff8dcc86725565bdde is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 97a3b6fae14546ff8dcc86725565bdde expected_child_count is 3.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 414d81c785184c14b8749bfb8e900d89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 414d81c785184c14b8749bfb8e900d89 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node c3d1f2e1d033453189ea8c2e581dddef",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node c3d1f2e1d033453189ea8c2e581dddef is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node e27ab0d8864a475fa5a82053e85e8789",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node e27ab0d8864a475fa5a82053e85e8789 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c3d1f2e1d033453189ea8c2e581dddef",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c3d1f2e1d033453189ea8c2e581dddef is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c3d1f2e1d033453189ea8c2e581dddef is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 97a3b6fae14546ff8dcc86725565bdde, the generated node is c3d1f2e1d033453189ea8c2e581dddef, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c3d1f2e1d033453189ea8c2e581dddef",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is c3d1f2e1d033453189ea8c2e581dddef",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=2,edges=[(0, 1)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 4/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: c3d1f2e1d033453189ea8c2e581dddef",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: c3d1f2e1d033453189ea8c2e581dddef",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodec3d1f2e1d033453189ea8c2e581dddef.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current c3d1f2e1d033453189ea8c2e581dddef expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node c3d1f2e1d033453189ea8c2e581dddef to create new node b8697192b2914ec7b3d4ba37270f2a72",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node e27ab0d8864a475fa5a82053e85e8789",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node e27ab0d8864a475fa5a82053e85e8789 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node e27ab0d8864a475fa5a82053e85e8789 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 97a3b6fae14546ff8dcc86725565bdde, the generated node is e27ab0d8864a475fa5a82053e85e8789, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main e27ab0d8864a475fa5a82053e85e8789",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is e27ab0d8864a475fa5a82053e85e8789",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=3,edges=[(0, 1), (0, 2)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 5/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: e27ab0d8864a475fa5a82053e85e8789",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: e27ab0d8864a475fa5a82053e85e8789",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodee27ab0d8864a475fa5a82053e85e8789.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current e27ab0d8864a475fa5a82053e85e8789 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node e27ab0d8864a475fa5a82053e85e8789 to create new node b914569190fb4d48bd8b9c988f82adad",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node b8697192b2914ec7b3d4ba37270f2a72",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node b8697192b2914ec7b3d4ba37270f2a72 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node b8697192b2914ec7b3d4ba37270f2a72 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node c3d1f2e1d033453189ea8c2e581dddef, the generated node is b8697192b2914ec7b3d4ba37270f2a72, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main b8697192b2914ec7b3d4ba37270f2a72",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 414d81c785184c14b8749bfb8e900d89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 414d81c785184c14b8749bfb8e900d89 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 414d81c785184c14b8749bfb8e900d89 is 0.123.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 414d81c785184c14b8749bfb8e900d89 is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 97a3b6fae14546ff8dcc86725565bdde, the generated node is 414d81c785184c14b8749bfb8e900d89, the metric is 0.123",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 414d81c785184c14b8749bfb8e900d89 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.123.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 414d81c785184c14b8749bfb8e900d89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 3, current node.id is 414d81c785184c14b8749bfb8e900d89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 1), (0, 4), (0, 2), (1, 3)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is b8697192b2914ec7b3d4ba37270f2a72",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 414d81c785184c14b8749bfb8e900d89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 414d81c785184c14b8749bfb8e900d89",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 414d81c785184c14b8749bfb8e900d89.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 414d81c785184c14b8749bfb8e900d89 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 1), (0, 4), (0, 2), (1, 3)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: b8697192b2914ec7b3d4ba37270f2a72",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: b8697192b2914ec7b3d4ba37270f2a72",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodeb8697192b2914ec7b3d4ba37270f2a72.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current b8697192b2914ec7b3d4ba37270f2a72 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node b8697192b2914ec7b3d4ba37270f2a72 to create new node d11159baec214ce6b03503b0333bed66",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 414d81c785184c14b8749bfb8e900d89 to create new node c0ddced81a6e4a7486c6d430e70ef059",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node d11159baec214ce6b03503b0333bed66",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node d11159baec214ce6b03503b0333bed66 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node d11159baec214ce6b03503b0333bed66 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node b8697192b2914ec7b3d4ba37270f2a72, the generated node is d11159baec214ce6b03503b0333bed66, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.123.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main d11159baec214ce6b03503b0333bed66",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c0ddced81a6e4a7486c6d430e70ef059",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c0ddced81a6e4a7486c6d430e70ef059 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c0ddced81a6e4a7486c6d430e70ef059 is 0.0989.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node 414d81c785184c14b8749bfb8e900d89, Node c0ddced81a6e4a7486c6d430e70ef059 metric improvement (-0.024099999999999996) below threshold (0.0001), try one more time(1/3)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 414d81c785184c14b8749bfb8e900d89, the generated node is c0ddced81a6e4a7486c6d430e70ef059, the metric is 0.0989",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node c0ddced81a6e4a7486c6d430e70ef059 is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 414d81c785184c14b8749bfb8e900d89 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.123.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c0ddced81a6e4a7486c6d430e70ef059",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is c0ddced81a6e4a7486c6d430e70ef059",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=7,edges=[(0, 1), (0, 4), (0, 2), (1, 3), (3, 5), (4, 6)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 9/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: c0ddced81a6e4a7486c6d430e70ef059",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: c0ddced81a6e4a7486c6d430e70ef059",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node c0ddced81a6e4a7486c6d430e70ef059.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current c0ddced81a6e4a7486c6d430e70ef059 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node c0ddced81a6e4a7486c6d430e70ef059 to create new node 97048db8ea9748c599fe5b633990d934",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 97048db8ea9748c599fe5b633990d934",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 97048db8ea9748c599fe5b633990d934 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 97048db8ea9748c599fe5b633990d934 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node c0ddced81a6e4a7486c6d430e70ef059, the generated node is 97048db8ea9748c599fe5b633990d934, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.123.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 97048db8ea9748c599fe5b633990d934",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node b914569190fb4d48bd8b9c988f82adad",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node b914569190fb4d48bd8b9c988f82adad is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node b914569190fb4d48bd8b9c988f82adad is 0.324.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node e27ab0d8864a475fa5a82053e85e8789.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node b914569190fb4d48bd8b9c988f82adad is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node b914569190fb4d48bd8b9c988f82adad start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node e27ab0d8864a475fa5a82053e85e8789 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node e27ab0d8864a475fa5a82053e85e8789, the generated node is b914569190fb4d48bd8b9c988f82adad, the metric is 0.324",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node b914569190fb4d48bd8b9c988f82adad is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.324.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 7, current node.id is 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 1), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (6, 7)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is d11159baec214ce6b03503b0333bed66",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 97a3b6fae14546ff8dcc86725565bdde is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 97a3b6fae14546ff8dcc86725565bdde expected_child_count is 4.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 1), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (6, 7)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is 97048db8ea9748c599fe5b633990d934",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: d11159baec214ce6b03503b0333bed66",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: d11159baec214ce6b03503b0333bed66",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Noded11159baec214ce6b03503b0333bed66.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current d11159baec214ce6b03503b0333bed66 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 1), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (6, 7)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 97048db8ea9748c599fe5b633990d934",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 97048db8ea9748c599fe5b633990d934",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node97048db8ea9748c599fe5b633990d934.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 97048db8ea9748c599fe5b633990d934 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node d11159baec214ce6b03503b0333bed66 to create new node bbf85722ccce4252bfddc681ab653c21",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 97048db8ea9748c599fe5b633990d934 to create new node 0d97c252571743e2b0d6fb6cab849925",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 9ce569bce33d4d2f8b5ad9e9958d00c0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 9ce569bce33d4d2f8b5ad9e9958d00c0 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 0d97c252571743e2b0d6fb6cab849925",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 0d97c252571743e2b0d6fb6cab849925 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 0d97c252571743e2b0d6fb6cab849925 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 97048db8ea9748c599fe5b633990d934, the generated node is 0d97c252571743e2b0d6fb6cab849925, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.324.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 0d97c252571743e2b0d6fb6cab849925",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 9ce569bce33d4d2f8b5ad9e9958d00c0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 9ce569bce33d4d2f8b5ad9e9958d00c0 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 9ce569bce33d4d2f8b5ad9e9958d00c0 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 97a3b6fae14546ff8dcc86725565bdde, the generated node is 9ce569bce33d4d2f8b5ad9e9958d00c0, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.324.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 9ce569bce33d4d2f8b5ad9e9958d00c0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is 9ce569bce33d4d2f8b5ad9e9958d00c0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=11,edges=[(0, 10), (0, 1), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (6, 7), (7, 9)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 13/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 11, current node.id is 0d97c252571743e2b0d6fb6cab849925",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 9ce569bce33d4d2f8b5ad9e9958d00c0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 9ce569bce33d4d2f8b5ad9e9958d00c0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node9ce569bce33d4d2f8b5ad9e9958d00c0.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 9ce569bce33d4d2f8b5ad9e9958d00c0 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=11,edges=[(0, 10), (0, 1), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (6, 7), (7, 9)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 13/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 0d97c252571743e2b0d6fb6cab849925",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 0d97c252571743e2b0d6fb6cab849925",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node0d97c252571743e2b0d6fb6cab849925.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 0d97c252571743e2b0d6fb6cab849925 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 0d97c252571743e2b0d6fb6cab849925 to create new node a7058c6071ca4c0ba6e92c6fdfc3939c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 9ce569bce33d4d2f8b5ad9e9958d00c0 to create new node 7c30853dde244f02959927deb9ddf8e0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node a7058c6071ca4c0ba6e92c6fdfc3939c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node a7058c6071ca4c0ba6e92c6fdfc3939c is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node a7058c6071ca4c0ba6e92c6fdfc3939c is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 0d97c252571743e2b0d6fb6cab849925, the generated node is a7058c6071ca4c0ba6e92c6fdfc3939c, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.324.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main a7058c6071ca4c0ba6e92c6fdfc3939c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node bbf85722ccce4252bfddc681ab653c21",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node bbf85722ccce4252bfddc681ab653c21 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node bbf85722ccce4252bfddc681ab653c21 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node bbf85722ccce4252bfddc681ab653c21 start backpropagating with reward -1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node c3d1f2e1d033453189ea8c2e581dddef is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node d11159baec214ce6b03503b0333bed66, the generated node is bbf85722ccce4252bfddc681ab653c21, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.324.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 11, current node.id is 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=13,edges=[(0, 10), (0, 1), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (5, 12), (6, 7), (7, 9), (9, 11)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 15/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 97a3b6fae14546ff8dcc86725565bdde is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 97a3b6fae14546ff8dcc86725565bdde expected_child_count is 5.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node cbb2c28e09674e97a1a7fa1e181f6f12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node cbb2c28e09674e97a1a7fa1e181f6f12 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node cbb2c28e09674e97a1a7fa1e181f6f12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node cbb2c28e09674e97a1a7fa1e181f6f12 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node cbb2c28e09674e97a1a7fa1e181f6f12 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 97a3b6fae14546ff8dcc86725565bdde, the generated node is cbb2c28e09674e97a1a7fa1e181f6f12, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.324.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main cbb2c28e09674e97a1a7fa1e181f6f12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 7c30853dde244f02959927deb9ddf8e0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 7c30853dde244f02959927deb9ddf8e0 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 7c30853dde244f02959927deb9ddf8e0 is 0.4302.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 9ce569bce33d4d2f8b5ad9e9958d00c0.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 7c30853dde244f02959927deb9ddf8e0 is assigned as the local best",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 7c30853dde244f02959927deb9ddf8e0 start backpropagating with reward 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 9ce569bce33d4d2f8b5ad9e9958d00c0 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 9ce569bce33d4d2f8b5ad9e9958d00c0, the generated node is 7c30853dde244f02959927deb9ddf8e0, the metric is 0.4302",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7c30853dde244f02959927deb9ddf8e0 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4302.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 13, current node.id is 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=15,edges=[(0, 1), (0, 13), (0, 10), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (5, 12), (6, 7), (7, 9), (9, 11), (10, 14)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 17/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 15, current node.id is a7058c6071ca4c0ba6e92c6fdfc3939c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: For node 97a3b6fae14546ff8dcc86725565bdde, there are 2/5 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node c3d1f2e1d033453189ea8c2e581dddef uct = -1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 9ce569bce33d4d2f8b5ad9e9958d00c0 uct = 1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node e27ab0d8864a475fa5a82053e85e8789 uct = 1.0/1 + 1.414*(math.log(3) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 9ce569bce33d4d2f8b5ad9e9958d00c0 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7c30853dde244f02959927deb9ddf8e0 uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7c30853dde244f02959927deb9ddf8e0 is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 7c30853dde244f02959927deb9ddf8e0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 7c30853dde244f02959927deb9ddf8e0.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 7c30853dde244f02959927deb9ddf8e0 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=15,edges=[(0, 1), (0, 13), (0, 10), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (5, 12), (6, 7), (7, 9), (9, 11), (10, 14)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 17/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 15, current node.id is cbb2c28e09674e97a1a7fa1e181f6f12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: a7058c6071ca4c0ba6e92c6fdfc3939c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: a7058c6071ca4c0ba6e92c6fdfc3939c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodea7058c6071ca4c0ba6e92c6fdfc3939c.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current a7058c6071ca4c0ba6e92c6fdfc3939c expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=15,edges=[(0, 1), (0, 13), (0, 10), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (5, 12), (6, 7), (7, 9), (9, 11), (10, 14)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 17/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: cbb2c28e09674e97a1a7fa1e181f6f12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: cbb2c28e09674e97a1a7fa1e181f6f12",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodecbb2c28e09674e97a1a7fa1e181f6f12.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current cbb2c28e09674e97a1a7fa1e181f6f12 expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node a7058c6071ca4c0ba6e92c6fdfc3939c to create new node 21e6a0d9845544f9af410321fd84dcd0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node cbb2c28e09674e97a1a7fa1e181f6f12 to create new node df221fa2c6304a8e9054140384a28a30",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 7c30853dde244f02959927deb9ddf8e0 to create new node 6528cd6fc4544692ad2523b9db98536c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 21e6a0d9845544f9af410321fd84dcd0",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 21e6a0d9845544f9af410321fd84dcd0 is buggy and/or did not produce a submission.csv",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 21e6a0d9845544f9af410321fd84dcd0 is None.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 21e6a0d9845544f9af410321fd84dcd0 start backpropagating with reward -1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 414d81c785184c14b8749bfb8e900d89 is unlocked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node a7058c6071ca4c0ba6e92c6fdfc3939c, the generated node is 21e6a0d9845544f9af410321fd84dcd0, the metric is None",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4302.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return root to main",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 6528cd6fc4544692ad2523b9db98536c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 6528cd6fc4544692ad2523b9db98536c is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 6528cd6fc4544692ad2523b9db98536c is 0.3939.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node 7c30853dde244f02959927deb9ddf8e0, Node 6528cd6fc4544692ad2523b9db98536c metric improvement (-0.036300000000000054) below threshold (0.0001), try one more time(1/3)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 7c30853dde244f02959927deb9ddf8e0, the generated node is 6528cd6fc4544692ad2523b9db98536c, the metric is 0.3939",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 6528cd6fc4544692ad2523b9db98536c is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7c30853dde244f02959927deb9ddf8e0 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4302.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 6528cd6fc4544692ad2523b9db98536c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 15, current node.id is 6528cd6fc4544692ad2523b9db98536c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=17,edges=[(0, 1), (0, 13), (0, 10), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (5, 12), (6, 7), (7, 9), (9, 11), (10, 14), (11, 15), (14, 16)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 19/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 17, current node.id is 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 6528cd6fc4544692ad2523b9db98536c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 6528cd6fc4544692ad2523b9db98536c",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node 6528cd6fc4544692ad2523b9db98536c.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 6528cd6fc4544692ad2523b9db98536c expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=17,edges=[(0, 1), (0, 13), (0, 10), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (5, 12), (6, 7), (7, 9), (9, 11), (10, 14), (11, 15), (14, 16)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 19/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 97a3b6fae14546ff8dcc86725565bdde",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: For node 97a3b6fae14546ff8dcc86725565bdde, there are 2/5 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node c3d1f2e1d033453189ea8c2e581dddef uct = -1.0/1 + 1.414*(math.log(4) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 414d81c785184c14b8749bfb8e900d89 uct = -1.0/1 + 1.414*(math.log(4) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node e27ab0d8864a475fa5a82053e85e8789 uct = 1.0/1 + 1.414*(math.log(4) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node e27ab0d8864a475fa5a82053e85e8789 is locked.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current decay type is piecewise.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node b914569190fb4d48bd8b9c988f82adad uct = 1.0/1 + 1.414*(math.log(1) / 1) ** 0.5",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node b914569190fb4d48bd8b9c988f82adad is not fully expanded, expanding",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: b914569190fb4d48bd8b9c988f82adad",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node b914569190fb4d48bd8b9c988f82adad.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current b914569190fb4d48bd8b9c988f82adad expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Plan + code extraction failed, retrying...",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node b914569190fb4d48bd8b9c988f82adad to create new node 7ead1c5ca99a479f9a422b3ed1c84b2d",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node 6528cd6fc4544692ad2523b9db98536c to create new node c26e216576f447d9ac0c4e250a492eff",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c26e216576f447d9ac0c4e250a492eff",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c26e216576f447d9ac0c4e250a492eff is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c26e216576f447d9ac0c4e250a492eff is 0.3927.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node 7c30853dde244f02959927deb9ddf8e0, Node c26e216576f447d9ac0c4e250a492eff metric improvement (-0.03750000000000003) below threshold (0.0001), try one more time(2/3)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 6528cd6fc4544692ad2523b9db98536c, the generated node is c26e216576f447d9ac0c4e250a492eff, the metric is 0.3927",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node c26e216576f447d9ac0c4e250a492eff is not the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 7c30853dde244f02959927deb9ddf8e0 is still the best node",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4302.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c26e216576f447d9ac0c4e250a492eff",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 17, current node.id is c26e216576f447d9ac0c4e250a492eff",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=18,edges=[(0, 1), (0, 13), (0, 10), (0, 4), (0, 2), (1, 3), (2, 8), (3, 5), (4, 6), (5, 12), (6, 7), (7, 9), (9, 11), (10, 14), (11, 15), (14, 16), (16, 17)]",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 20/500",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: c26e216576f447d9ac0c4e250a492eff",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: c26e216576f447d9ac0c4e250a492eff",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node c26e216576f447d9ac0c4e250a492eff.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current c26e216576f447d9ac0c4e250a492eff expected_child_count is 1.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node c26e216576f447d9ac0c4e250a492eff to create new node 559edad8d9694db19a6cc09816e05444",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 200
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 559edad8d9694db19a6cc09816e05444",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 559edad8d9694db19a6cc09816e05444 is not buggy",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 559edad8d9694db19a6cc09816e05444 is 0.4676.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Compared to Node 7c30853dde244f02959927deb9ddf8e0, Node 559edad8d9694db19a6cc09816e05444 metric improvement (0.03739999999999999) above threshold (0.0001), continue improving.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node c26e216576f447d9ac0c4e250a492eff, the generated node is 559edad8d9694db19a6cc09816e05444, the metric is 0.4676",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 559edad8d9694db19a6cc09816e05444 is the best node so far",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4676.",
+            "delay": 200
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 559edad8d9694db19a6cc09816e05444",
+            "delay": 200
+        },
+        {
+            "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
+            "delay": 200
+        }
+    ],
+    "code": "<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">import</span> re\n<span class=\"keyword\">import</span> html\n<span class=\"keyword\">from</span> sklearn.model_selection <span class=\"keyword\">import</span> train_test_split\n<span class=\"keyword\">from</span> sklearn.metrics <span class=\"keyword\">import</span> f1_score\n<span class=\"keyword\">from</span> sklearn.preprocessing <span class=\"keyword\">import</span> MultiLabelBinarizer\n<span class=\"keyword\">import</span> fasttext\n\n<span class=\"comment\"># Load and clean training data</span>\ntrain = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">./input/train.csv</span><span class=\"string\">&quot;</span>, usecols=[<span class=\"string\">&quot;</span><span class=\"string\">Title</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">Body</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>])\ntrain[<span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>] = train[<span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>].fillna(<span class=\"string\">&quot;</span><span class=\"string\">&quot;</span>)\ntrain[<span class=\"string\">&quot;</span><span class=\"string\">Title</span><span class=\"string\">&quot;</span>] = train[<span class=\"string\">&quot;</span><span class=\"string\">Title</span><span class=\"string\">&quot;</span>].fillna(<span class=\"string\">&quot;</span><span class=\"string\">&quot;</span>)\ntrain[<span class=\"string\">&quot;</span><span class=\"string\">Body</span><span class=\"string\">&quot;</span>] = train[<span class=\"string\">&quot;</span><span class=\"string\">Body</span><span class=\"string\">&quot;</span>].fillna(<span class=\"string\">&quot;</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Select top tags and filter invalid rows</span>\nall_tags = train[<span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>].str.split().explode()\ntop_tags = all_tags.value_counts().head(<span class=\"number\">500</span>).index.tolist()\n\n\n<span class=\"keyword\">def</span> <span class=\"function\">clean_text</span>(text):\n    text = html.unescape(text)\n    text = re.sub(<span class=\"string\">r</span><span class=\"string\">&quot;</span><span class=\"string\">&lt;.*?&gt;</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>, text)  <span class=\"comment\"># Fix regex with raw string</span>\n    text = re.sub(<span class=\"string\">r</span><span class=\"string\">&quot;</span><span class=\"string\">\\</span><span class=\"string\">s+</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>, text).strip().lower()\n    <span class=\"keyword\">return</span> <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join(text.split()[:<span class=\"number\">1000</span>])\n\n\ntrain[<span class=\"string\">&quot;</span><span class=\"string\">text</span><span class=\"string\">&quot;</span>] = (train[<span class=\"string\">&quot;</span><span class=\"string\">Title</span><span class=\"string\">&quot;</span>] + <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span> + train[<span class=\"string\">&quot;</span><span class=\"string\">Body</span><span class=\"string\">&quot;</span>]).apply(clean_text)\ntrain[<span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>] = train[<span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>].apply(\n    <span class=\"keyword\">lambda</span> x: <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join(tag <span class=\"keyword\">for</span> tag in x.split() <span class=\"keyword\">if</span> tag in top_tags)\n)\ntrain = train[train[<span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>] != <span class=\"string\">&quot;</span><span class=\"string\">&quot;</span>]  <span class=\"comment\"># Remove rows with no tags</span>\n\n<span class=\"comment\"># Format for FastText and split data</span>\ntrain_ft = train.apply(\n    <span class=\"keyword\">lambda</span> row: <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join([<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">__label__</span><span class=\"string\">{</span>tag<span class=\"string\">}</span><span class=\"string\">&quot;</span> <span class=\"keyword\">for</span> tag in row[<span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>].split()])\n    + <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>\n    + row[<span class=\"string\">&quot;</span><span class=\"string\">text</span><span class=\"string\">&quot;</span>],\n    axis=<span class=\"number\">1</span>,\n)\ntrain_data, valid_data = train_test_split(train_ft, test_size=<span class=\"number\">0.2</span>, random_state=<span class=\"number\">42</span>)\n\n<span class=\"comment\"># Save formatted data</span>\ntrain_data.to_csv(<span class=\"string\">&quot;</span><span class=\"string\">fasttext_train.txt</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>, header=<span class=\"keyword\">False</span>)\nvalid_data.to_csv(<span class=\"string\">&quot;</span><span class=\"string\">fasttext_valid.txt</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>, header=<span class=\"keyword\">False</span>)\n\n<span class=\"comment\"># Train model</span>\nmodel = fasttext.train_supervised(\n    input=<span class=\"string\">&quot;</span><span class=\"string\">fasttext_train.txt</span><span class=\"string\">&quot;</span>, lr=<span class=\"number\">0.2</span>, epoch=<span class=\"number\">30</span>, wordNgrams=<span class=\"number\">2</span>, thread=<span class=\"number\">16</span>, verbose=<span class=\"number\">2</span>\n)\n\n<span class=\"comment\"># Validate</span>\nvalid_texts = []\nvalid_true = []\n<span class=\"keyword\">for</span> line in valid_data:\n    parts = line.split()\n    labels = [p[len(<span class=\"string\">&quot;</span><span class=\"string\">__label__</span><span class=\"string\">&quot;</span>) :] <span class=\"keyword\">for</span> p in parts <span class=\"keyword\">if</span> p.startswith(<span class=\"string\">&quot;</span><span class=\"string\">__label__</span><span class=\"string\">&quot;</span>)]\n    valid_true.append(labels)\n    valid_texts.append(<span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join(parts[len(labels) :]))\n\npred_labels = [model.predict(text, k=<span class=\"number\">5</span>)[<span class=\"number\">0</span>] <span class=\"keyword\">for</span> text in valid_texts]\npred_labels = [[l.replace(<span class=\"string\">&quot;</span><span class=\"string\">__label__</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">for</span> l in lst] <span class=\"keyword\">for</span> lst in pred_labels]\n\nmlb = MultiLabelBinarizer(classes=top_tags)\ny_true = mlb.fit_transform(valid_true)\ny_pred = mlb.transform(pred_labels)\nf1 = f1_score(y_true, y_pred, average=<span class=\"string\">&quot;</span><span class=\"string\">samples</span><span class=\"string\">&quot;</span>)\nprint(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Validation F1-Score: </span><span class=\"string\">{</span>f1<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Predict test set</span>\ntest = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">./input/test.csv</span><span class=\"string\">&quot;</span>, usecols=[<span class=\"string\">&quot;</span><span class=\"string\">Id</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">Title</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">Body</span><span class=\"string\">&quot;</span>])\ntest[<span class=\"string\">&quot;</span><span class=\"string\">Title</span><span class=\"string\">&quot;</span>] = test[<span class=\"string\">&quot;</span><span class=\"string\">Title</span><span class=\"string\">&quot;</span>].fillna(<span class=\"string\">&quot;</span><span class=\"string\">&quot;</span>)\ntest[<span class=\"string\">&quot;</span><span class=\"string\">Body</span><span class=\"string\">&quot;</span>] = test[<span class=\"string\">&quot;</span><span class=\"string\">Body</span><span class=\"string\">&quot;</span>].fillna(<span class=\"string\">&quot;</span><span class=\"string\">&quot;</span>)\ntest[<span class=\"string\">&quot;</span><span class=\"string\">text</span><span class=\"string\">&quot;</span>] = (test[<span class=\"string\">&quot;</span><span class=\"string\">Title</span><span class=\"string\">&quot;</span>] + <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span> + test[<span class=\"string\">&quot;</span><span class=\"string\">Body</span><span class=\"string\">&quot;</span>]).apply(clean_text)\n\nfull_model = fasttext.train_supervised(\n    input=<span class=\"string\">&quot;</span><span class=\"string\">fasttext_train.txt</span><span class=\"string\">&quot;</span>, lr=<span class=\"number\">0.2</span>, epoch=<span class=\"number\">30</span>, wordNgrams=<span class=\"number\">2</span>, thread=<span class=\"number\">16</span>, verbose=<span class=\"number\">2</span>\n)\ntest_preds = [full_model.predict(txt, k=<span class=\"number\">5</span>)[<span class=\"number\">0</span>] <span class=\"keyword\">for</span> txt in test[<span class=\"string\">&quot;</span><span class=\"string\">text</span><span class=\"string\">&quot;</span>]]\ntest[<span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>] = [\n    <span class=\"string\">&quot;</span><span class=\"string\"> </span><span class=\"string\">&quot;</span>.join([l.replace(<span class=\"string\">&quot;</span><span class=\"string\">__label__</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">for</span> l in lst]) <span class=\"keyword\">for</span> lst in test_preds\n]\n\ntest[[<span class=\"string\">&quot;</span><span class=\"string\">Id</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">Tags</span><span class=\"string\">&quot;</span>]].to_csv(<span class=\"string\">&quot;</span><span class=\"string\">./submission/submission.csv</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>)\n",
+    "detail": {
+        "node_id": [
+            "97a3b6fae14546ff8dcc86725565bdde",
+            "c3d1f2e1d033453189ea8c2e581dddef",
+            "e27ab0d8864a475fa5a82053e85e8789",
+            "b8697192b2914ec7b3d4ba37270f2a72",
+            "414d81c785184c14b8749bfb8e900d89",
+            "d11159baec214ce6b03503b0333bed66",
+            "c0ddced81a6e4a7486c6d430e70ef059",
+            "97048db8ea9748c599fe5b633990d934",
+            "b914569190fb4d48bd8b9c988f82adad",
+            "0d97c252571743e2b0d6fb6cab849925",
+            "9ce569bce33d4d2f8b5ad9e9958d00c0",
+            "a7058c6071ca4c0ba6e92c6fdfc3939c",
+            "bbf85722ccce4252bfddc681ab653c21",
+            "cbb2c28e09674e97a1a7fa1e181f6f12",
+            "7c30853dde244f02959927deb9ddf8e0",
+            "21e6a0d9845544f9af410321fd84dcd0",
+            "6528cd6fc4544692ad2523b9db98536c",
+            "c26e216576f447d9ac0c4e250a492eff"
+        ],
+        "global_step": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17"
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                13
+            ],
+            [
+                0,
+                10
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                8
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                5,
+                12
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                9,
+                11
+            ],
+            [
+                10,
+                14
+            ],
+            [
+                11,
+                15
+            ],
+            [
+                14,
+                16
+            ],
+            [
+                16,
+                17
+            ]
+        ],
+        "layout": [
+            [
+                0.5,
+                0.0
+            ],
+            [
+                0.0,
+                0.16666666666666663
+            ],
+            [
+                0.25,
+                0.16666666666666663
+            ],
+            [
+                0.0,
+                0.33333333333333337
+            ],
+            [
+                0.5,
+                0.16666666666666663
+            ],
+            [
+                0.0,
+                0.5
+            ],
+            [
+                0.5,
+                0.33333333333333337
+            ],
+            [
+                0.5,
+                0.5
+            ],
+            [
+                0.25,
+                0.33333333333333337
+            ],
+            [
+                0.5,
+                0.6666666666666667
+            ],
+            [
+                0.75,
+                0.16666666666666663
+            ],
+            [
+                0.5,
+                0.8333333333333334
+            ],
+            [
+                0.0,
+                0.6666666666666667
+            ],
+            [
+                1.0,
+                0.16666666666666663
+            ],
+            [
+                0.75,
+                0.33333333333333337
+            ],
+            [
+                0.5,
+                1.0
+            ],
+            [
+                0.75,
+                0.5
+            ],
+            [
+                0.75,
+                0.6666666666666667
+            ]
+        ],
+        "plan": [
+            "virtual plan",
+            "To address this multi-label text classification problem, we propose a neural\nnetwork approach using pre-trained word embeddings. The model combines the title\nand body text, processes it with an embedding layer followed by global max\npooling, and uses a dense layer with sigmoid activation to predict the top 500\nmost frequent tags. We split the training data to compute the F1-score on a\nvalidation set and retrain on the full dataset for submission.",
+            "To solve this problem, we need to predict multiple tags for Stack Exchange\nquestions based on their title and body. The solution involves preprocessing the\ntext data, using TF-IDF for feature extraction, and training a multi-label\nclassifier with a linear model optimized for large datasets. We limit the tags\nto the top 500 most frequent ones to ensure computational feasibility while\nmaintaining performance.",
+            "The error occurs due to NaN values in the Tags column being treated as floats.\nWe need to convert all tags to strings and handle missing values before\nsplitting. Here's the fixed code:",
+            "To tackle this multi-label text classification problem, we'll use a scalable\napproach combining efficient text processing and linear models. We'll preprocess\nthe text by removing HTML tags and combining titles with bodies, then employ a\nHashingVectorizer for memory-efficient feature extraction. A One-vs-Rest\nclassifier with SGD will handle multi-label predictions on top 500 frequent tags\nto balance performance and computational constraints.",
+            "The error occurs due to TensorFlow's DNN library initialization failure, likely\nrelated to GPU configuration or memory issues. To fix this: 1) Explicitly\nconfigure GPU memory growth to prevent OOM errors, 2) Reduce batch size and\nmodel complexity for better memory management, 3) Ensure proper data pipeline\nsetup with correct tensor shapes.",
+            "To improve the model's ability to detect technical tags, we enhance text\npreprocessing by preserving code snippet indicators. Instead of stripping all\nHTML tags, we replace code blocks with `[CODE]` tokens and inline code with\n`[INLINE_CODE]` before removing other HTML elements. This allows the model to\nleverage code presence as a feature for predicting programming-related tags\nwhile maintaining computational efficiency.",
+            "To improve the F1 score, we'll enhance feature representation by combining TF-\nIDF with code-specific features and optimize the prediction threshold. First,\nwe'll replace HashingVectorizer with TfidfVectorizer using bigrams to capture\nmore context. Second, we'll add numerical features for code blocks and text\nlength. Third, we'll tune the classification threshold using validation\nprobabilities to maximize F1.",
+            "The error occurs due to NaN values in the 'Tags' column causing the split()\nmethod to fail. We need to:  1. Check for missing values in the Tags column and\nhandle them (drop or fill) 2. Fix regex patterns by using raw strings to prevent\nescape sequence warnings 3. Ensure proper data splitting by converting tags to\nlists before processing",
+            "To address the error, the code needs to correctly handle sparse matrices by\nusing `.shape[0]` instead of `len()` and ensure proper imports. Additionally,\nwe'll add safeguards for empty tag predictions and directory creation.",
+            "To address the multi-label text classification challenge, we propose a FastText-\nbased approach leveraging its efficient handling of large text data. We\npreprocess the text by combining titles and bodies, cleaning HTML tags, and\ntruncating to 1000 words. The top 500 frequent tags are selected, and the model\nis trained with bigrams and optimized parameters. Validation is performed by\npredicting the top K tags (based on average tag count) and computing the sample-\nwise F1-score. Finally, predictions on the test set are generated for\nsubmission.",
+            "The error occurs because COO sparse matrices don't support row slicing directly.\nTo fix this, we need to: 1. Convert COO matrices to CSR format before slicing 2.\nSplit indices properly before creating matrices 3. Use proper sparse matrix\nconcatenation",
+            "The error stems from TensorFlow GPU configuration issues and potential resource\nconstraints. To fix: 1) Remove manual GPU settings that may conflict with\nTensorFlow's automatic management 2) Reduce model complexity and batch size to\nprevent memory overflows 3) Add error handling for GPU availability 4) Ensure\nproper data preprocessing to handle null values.",
+            "To address the multi-label classification challenge, we'll use TF-IDF with\nn-grams and a Logistic Regression model. The text (title and body) is\npreprocessed by removing HTML tags and lowercasing. We extract the top 500 tags\nand vectorize the text using TF-IDF with word and character n-grams. A One-vs-\nRest Logistic Regression with balanced class weights is trained to predict tags.\nThe model's threshold is optimized to maximize the sample-wise F1-score on a\nvalidation set before generating test predictions.",
+            "The error occurs because some entries in the 'Tags' column are NaN (float type)\nwhich can't be split. We need to handle missing values properly by filling NaNs\nin Tags, Title, and Body columns with empty strings. Additionally, filter out\ntraining rows with no valid tags after processing and fix regex patterns.",
+            "The error occurs because COO sparse matrices can't be sliced directly. We need\nto convert to CSR format before splitting. Additionally, we should process data\nin chunks more carefully and ensure proper directory creation.",
+            "To improve the FastText-based solution, we enhance text preprocessing by\npreserving code blocks/URLs as special tokens and optimize hyperparameters via\nautotuning. We also expand tag coverage by including the top 1000 frequent tags.\nThese changes better capture technical content and leverage automated parameter\noptimization while addressing a broader set of relevant tags.",
+            "To improve the F1 score, modify the text preprocessing to better handle code\nblocks and URLs. Instead of replacing code with a generic \"CODE\" token, extract\nand process code content by splitting camelCase and snake_case identifiers into\nseparate words. For URLs, preserve domain names as features. This retains more\ndiscriminative keywords for tag prediction."
+        ],
+        "code": [
+            "virtual code",
+            "import pandas as pd\nimport numpy as np\nimport re\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import MultiLabelBinarizer\nfrom sklearn.metrics import f1_score\nfrom tensorflow.keras.preprocessing.text import Tokenizer\nfrom tensorflow.keras.preprocessing.sequence import pad_sequences\nfrom tensorflow.keras.models import Sequential\nfrom tensorflow.keras.layers import Embedding, GlobalMaxPooling1D, Dense, Dropout\nfrom tensorflow.keras.callbacks import Callback\n\n\n# Preprocessing function\ndef clean_text(text):\n    text = re.sub(r\"<[^>]+>\", \"\", str(text))\n    return text.lower()\n\n\n# Load and preprocess training data\ntrain_df = pd.read_csv(\"input/train.csv\")\ntrain_df[\"text\"] = train_df[\"Title\"] + \" \" + train_df[\"Body\"]\ntrain_df[\"text\"] = train_df[\"text\"].apply(clean_text)\n\n# Split into train and validation sets\ntrain_part, val_part = train_test_split(train_df, test_size=0.2, random_state=42)\n\n# Prepare tags for training partition\nmlb = MultiLabelBinarizer()\ntrain_tags = train_part[\"Tags\"].str.split().tolist()\ntrain_tag_matrix = mlb.fit_transform(train_tags)\ntop_tags = mlb.classes_[np.argsort(train_tag_matrix.sum(axis=0))[::-1][:500]]\nmlb_top = MultiLabelBinarizer(classes=top_tags)\ny_train = mlb_top.fit_transform(train_tags)\ny_val = mlb_top.transform(val_part[\"Tags\"].str.split().tolist())\n\n# Tokenize text\ntokenizer = Tokenizer(num_words=100000)\ntokenizer.fit_on_texts(train_part[\"text\"])\nX_train = pad_sequences(tokenizer.texts_to_sequences(train_part[\"text\"]), maxlen=200)\nX_val = pad_sequences(tokenizer.texts_to_sequences(val_part[\"text\"]), maxlen=200)\n\n# Build model\nmodel = Sequential(\n    [\n        Embedding(100000, 128, input_length=200),\n        GlobalMaxPooling1D(),\n        Dense(128, activation=\"relu\"),\n        Dropout(0.5),\n        Dense(500, activation=\"sigmoid\"),\n    ]\n)\nmodel.compile(optimizer=\"adam\", loss=\"binary_crossentropy\")\n\n\n# Custom F1 callback\nclass F1Callback(Callback):\n    def on_epoch_end(self, epoch, logs=None):\n        val_pred = (self.model.predict(X_val) > 0.5).astype(int)\n        f1 = f1_score(y_val, val_pred, average=\"samples\")\n        print(f\"\\nValidation F1: {f1:.4f}\")\n\n\n# Train initial model\nmodel.fit(\n    X_train,\n    y_train,\n    epochs=3,\n    batch_size=512,\n    validation_data=(X_val, y_val),\n    callbacks=[F1Callback()],\n    verbose=1,\n)\n\n# Retrain on full dataset with updated tokenizer\nfull_tokenizer = Tokenizer(num_words=100000)\nfull_tokenizer.fit_on_texts(train_df[\"text\"])\nX_full = pad_sequences(full_tokenizer.texts_to_sequences(train_df[\"text\"]), maxlen=200)\ny_full = mlb_top.fit_transform(train_df[\"Tags\"].str.split().tolist())\n\nfull_model = Sequential(\n    [\n        Embedding(100000, 128, input_length=200),\n        GlobalMaxPooling1D(),\n        Dense(128, activation=\"relu\"),\n        Dropout(0.5),\n        Dense(500, activation=\"sigmoid\"),\n    ]\n)\nfull_model.compile(optimizer=\"adam\", loss=\"binary_crossentropy\")\nfull_model.fit(X_full, y_full, epochs=3, batch_size=512, verbose=1)\n\n# Generate predictions\ntest_df = pd.read_csv(\"input/test.csv\")\ntest_df[\"text\"] = (test_df[\"Title\"] + \" \" + test_df[\"Body\"]).apply(clean_text)\nX_test = pad_sequences(full_tokenizer.texts_to_sequences(test_df[\"text\"]), maxlen=200)\ntest_preds = (full_model.predict(X_test) > 0.5).astype(int)\ntest_tags = [\n    \" \".join(mlb_top.inverse_transform(test_preds)[i]) for i in range(len(test_preds))\n]\n\n# Create submission\ntest_df[[\"Id\"]].assign(Tags=test_tags).to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport re\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.preprocessing import MultiLabelBinarizer\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.linear_model import SGDClassifier\nfrom sklearn.metrics import f1_score\nfrom collections import Counter\n\n# Load data\ntrain = pd.read_csv(\"input/train.csv\")\ntest = pd.read_csv(\"input/test.csv\")\n\n\n# Preprocess text\ndef preprocess(text):\n    text = text.lower()\n    text = re.sub(\"<.*?>\", \" \", text)\n    text = re.sub(\"[^a-z0-9\\s]\", \" \", text)\n    text = re.sub(\"\\s+\", \" \", text).strip()\n    return text\n\n\ntrain[\"text\"] = (train[\"Title\"] + \" \" + train[\"Body\"]).apply(preprocess)\ntest[\"text\"] = (test[\"Title\"] + \" \" + test[\"Body\"]).apply(preprocess)\n\n# Get top 500 tags\nall_tags = [tag for tags in train[\"Tags\"].str.split() for tag in tags]\ntag_counts = Counter(all_tags)\ntop_tags = [tag for tag, count in tag_counts.most_common(500)]\n\n# Filter tags to include only top 500\ntrain[\"Tags_filtered\"] = train[\"Tags\"].apply(\n    lambda x: [tag for tag in x.split() if tag in top_tags]\n)\n\n# Compute average number of tags after filtering\ntrain[\"num_tags\"] = train[\"Tags_filtered\"].apply(len)\navg_tags = train[\"num_tags\"].mean()\nk = int(round(avg_tags))\nprint(f\"Average tags per question: {avg_tags:.2f}, predicting top {k}\")\n\n# Split data\nX_train, X_val, y_train_tags, y_val_tags = train_test_split(\n    train[\"text\"], train[\"Tags_filtered\"], test_size=0.2, random_state=42\n)\n\n# Binarize tags\nmlb = MultiLabelBinarizer(classes=top_tags)\ny_train = mlb.fit_transform(y_train_tags)\ny_val = mlb.transform(y_val_tags)\n\n# Vectorize text\nvectorizer = TfidfVectorizer(\n    max_features=50000, ngram_range=(1, 2), stop_words=\"english\"\n)\nX_train_tfidf = vectorizer.fit_transform(X_train)\nX_val_tfidf = vectorizer.transform(X_val)\n\n# Train classifier\nclf = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\",\n        penalty=\"l2\",\n        alpha=1e-4,\n        max_iter=5,\n        random_state=42,\n        n_jobs=-1,\n    )\n)\nclf.fit(X_train_tfidf, y_train)\n\n# Validate\nprobs_val = clf.predict_proba(X_val_tfidf)\ntop_k = np.argpartition(probs_val, -k, axis=1)[:, -k:]\ny_val_pred = np.zeros_like(probs_val, dtype=int)\nfor i in range(probs_val.shape[0]):\n    y_val_pred[i, top_k[i]] = 1\n\nf1 = f1_score(y_val, y_val_pred, average=\"samples\")\nprint(f\"Validation F1 Score: {f1:.4f}\")\n\n# Retrain on full data\nX_full = vectorizer.fit_transform(train[\"text\"])\ny_full = mlb.fit_transform(train[\"Tags_filtered\"])\n\nclf_full = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\",\n        penalty=\"l2\",\n        alpha=1e-4,\n        max_iter=5,\n        random_state=42,\n        n_jobs=-1,\n    )\n)\nclf_full.fit(X_full, y_full)\n\n# Predict test\nX_test_tfidf = vectorizer.transform(test[\"text\"])\nprobs_test = clf_full.predict_proba(X_test_tfidf)\n\ntop_k_test = np.argpartition(probs_test, -k, axis=1)[:, -k:]\ny_test_pred = np.zeros_like(probs_test, dtype=int)\nfor i in range(probs_test.shape[0]):\n    y_test_pred[i, top_k_test[i]] = 1\n\ntest[\"Tags\"] = [\" \".join(tags) for tags in mlb.inverse_transform(y_test_pred)]\n\n# Save submission\ntest[[\"Id\", \"Tags\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport re\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import MultiLabelBinarizer\nfrom sklearn.metrics import f1_score\nfrom tensorflow.keras.preprocessing.text import Tokenizer\nfrom tensorflow.keras.preprocessing.sequence import pad_sequences\nfrom tensorflow.keras.models import Sequential\nfrom tensorflow.keras.layers import Embedding, GlobalMaxPooling1D, Dense, Dropout\nfrom tensorflow.keras.callbacks import Callback\n\n\ndef clean_text(text):\n    text = re.sub(r\"<[^>]+>\", \"\", str(text))\n    return text.lower()\n\n\n# Load data and handle missing tags\ntrain_df = pd.read_csv(\"input/train.csv\")\ntrain_df[\"text\"] = train_df[\"Title\"] + \" \" + train_df[\"Body\"]\ntrain_df[\"text\"] = train_df[\"text\"].apply(clean_text)\ntrain_df[\"Tags\"] = train_df[\"Tags\"].fillna(\"\").astype(str)  # Fix NaN handling\n\n# Split data\ntrain_part, val_part = train_test_split(train_df, test_size=0.2, random_state=42)\n\n# Process tags with proper string conversion\nmlb = MultiLabelBinarizer()\ntrain_tags = train_part[\"Tags\"].str.split().tolist()\ntrain_tag_matrix = mlb.fit_transform(train_tags)\ntop_tags = mlb.classes_[np.argsort(train_tag_matrix.sum(axis=0))[::-1][:500]]\nmlb_top = MultiLabelBinarizer(classes=top_tags)\ny_train = mlb_top.fit_transform(train_tags)\ny_val = mlb_top.transform(val_part[\"Tags\"].str.split().tolist())\n\n# Tokenization remains the same\ntokenizer = Tokenizer(num_words=100000)\ntokenizer.fit_on_texts(train_part[\"text\"])\nX_train = pad_sequences(tokenizer.texts_to_sequences(train_part[\"text\"]), maxlen=200)\nX_val = pad_sequences(tokenizer.texts_to_sequences(val_part[\"text\"]), maxlen=200)\n\nmodel = Sequential(\n    [\n        Embedding(100000, 128, input_length=200),\n        GlobalMaxPooling1D(),\n        Dense(128, activation=\"relu\"),\n        Dropout(0.5),\n        Dense(500, activation=\"sigmoid\"),\n    ]\n)\nmodel.compile(optimizer=\"adam\", loss=\"binary_crossentropy\")\n\n\nclass F1Callback(Callback):\n    def on_epoch_end(self, epoch, logs=None):\n        val_pred = (self.model.predict(X_val) > 0.5).astype(int)\n        f1 = f1_score(y_val, val_pred, average=\"samples\")\n        print(f\"\\nValidation F1: {f1:.4f}\")\n\n\nmodel.fit(\n    X_train,\n    y_train,\n    epochs=3,\n    batch_size=512,\n    validation_data=(X_val, y_val),\n    callbacks=[F1Callback()],\n)\n\n# Full training with corrected tag handling\nfull_tokenizer = Tokenizer(num_words=100000)\nfull_tokenizer.fit_on_texts(train_df[\"text\"])\nX_full = pad_sequences(full_tokenizer.texts_to_sequences(train_df[\"text\"]), maxlen=200)\ny_full = mlb_top.transform(\n    train_df[\"Tags\"].str.split().tolist()\n)  # Use transform instead of fit_transform\n\nfull_model = Sequential(\n    [\n        Embedding(100000, 128, input_length=200),\n        GlobalMaxPooling1D(),\n        Dense(128, activation=\"relu\"),\n        Dropout(0.5),\n        Dense(500, activation=\"sigmoid\"),\n    ]\n)\nfull_model.compile(optimizer=\"adam\", loss=\"binary_crossentropy\")\nfull_model.fit(X_full, y_full, epochs=3, batch_size=512)\n\n# Generate submission\ntest_df = pd.read_csv(\"input/test.csv\")\ntest_df[\"text\"] = (test_df[\"Title\"] + \" \" + test_df[\"Body\"]).apply(clean_text)\nX_test = pad_sequences(full_tokenizer.texts_to_sequences(test_df[\"text\"]), maxlen=200)\ntest_preds = (full_model.predict(X_test) > 0.2).astype(\n    int\n)  # Lower threshold for better recall\ntest_tags = [\n    \" \".join(mlb_top.inverse_transform(pred.reshape(1, -1))[0]) for pred in test_preds\n]\n\nsubmission = pd.DataFrame({\"Id\": test_df[\"Id\"], \"Tags\": test_tags})\nsubmission.to_csv(\"submission/submission.csv\", index=False)\nprint(\n    f\"Validation F1: {f1_score(y_val, (model.predict(X_val) > 0.2).astype(int), average='samples'):.4f}\"\n)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.feature_extraction.text import HashingVectorizer\nfrom sklearn.linear_model import SGDClassifier\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.metrics import f1_score\nfrom scipy.sparse import vstack\nimport re\n\n# Collect tag frequencies\ntag_counts = {}\nchunksize = 100000\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=chunksize, usecols=[\"Tags\"]):\n    for tags in chunk[\"Tags\"].apply(lambda x: x.split() if pd.notnull(x) else []):\n        for tag in tags:\n            tag_counts[tag] = tag_counts.get(tag, 0) + 1\n\n# Select top 500 tags\ntop_tags = sorted(tag_counts, key=lambda x: -tag_counts[x])[:500]\ntag_index = {tag: i for i, tag in enumerate(top_tags)}\n\n# Initialize vectorizer and model\nvectorizer = HashingVectorizer(n_features=2**20, alternate_sign=False, norm=\"l2\")\nmodel = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\", penalty=\"l2\", alpha=1e-4, max_iter=5, random_state=42\n    ),\n    n_jobs=-1,\n)\n\n# Process data in chunks\nX_train, y_train, X_val, y_val = [], [], [], []\n\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=chunksize):\n    # Preprocess text\n    chunk[\"text\"] = chunk[\"Title\"].fillna(\"\") + \" \" + chunk[\"Body\"].fillna(\"\")\n    chunk[\"text\"] = chunk[\"text\"].apply(lambda x: re.sub(r\"<[^>]+>\", \"\", x.lower()))\n\n    # Split to train/val\n    train_part = chunk.sample(frac=0.8, random_state=42)\n    val_part = chunk.drop(train_part.index)\n\n    # Vectorize\n    X_tr = vectorizer.transform(train_part[\"text\"])\n    X_va = vectorizer.transform(val_part[\"text\"])\n\n    # Create labels\n    y_tr = np.zeros((len(train_part), len(top_tags)), dtype=np.int8)\n    y_va = np.zeros((len(val_part), len(top_tags)), dtype=np.int8)\n\n    for i, (_, row) in enumerate(train_part.iterrows()):\n        for tag in row[\"Tags\"].split() if pd.notnull(row[\"Tags\"]) else []:\n            if tag in tag_index:\n                y_tr[i, tag_index[tag]] = 1\n\n    for i, (_, row) in enumerate(val_part.iterrows()):\n        for tag in row[\"Tags\"].split() if pd.notnull(row[\"Tags\"]) else []:\n            if tag in tag_index:\n                y_va[i, tag_index[tag]] = 1\n\n    X_train.append(X_tr)\n    y_train.append(y_tr)\n    X_val.append(X_va)\n    y_val.append(y_va)\n\n# Combine chunks\nX_train, y_train = vstack(X_train), np.vstack(y_train)\nX_val, y_val = vstack(X_val), np.vstack(y_val)\n\n# Train model\nmodel.fit(X_train, y_train)\n\n# Validate\nval_preds = model.predict(X_val)\nprint(f\"Validation F1: {f1_score(y_val, val_preds, average='micro'):.4f}\")\n\n# Generate submissions\ntest_df = pd.read_csv(\"input/test.csv\")\ntest_text = (test_df[\"Title\"].fillna(\"\") + \" \" + test_df[\"Body\"].fillna(\"\")).apply(\n    lambda x: re.sub(r\"<[^>]+>\", \"\", x.lower())\n)\nX_test = vectorizer.transform(test_text)\npreds = model.predict(X_test)\n\nsubmission = pd.DataFrame(\n    {\n        \"Id\": test_df[\"Id\"],\n        \"Tags\": [\n            \" \".join([top_tags[i] for i, val in enumerate(row) if val]) for row in preds\n        ],\n    }\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport re\nimport tensorflow as tf\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import MultiLabelBinarizer\nfrom sklearn.metrics import f1_score\nfrom tensorflow.keras.preprocessing.text import Tokenizer\nfrom tensorflow.keras.preprocessing.sequence import pad_sequences\n\n# Configure GPU settings\ngpus = tf.config.experimental.list_physical_devices(\"GPU\")\nif gpus:\n    try:\n        for gpu in gpus:\n            tf.config.experimental.set_memory_growth(gpu, True)\n    except RuntimeError as e:\n        print(e)\n\n\ndef clean_text(text):\n    text = re.sub(r\"<[^>]+>\", \"\", str(text))\n    return text.lower()\n\n\n# Load and preprocess data\ntrain_df = pd.read_csv(\"input/train.csv\", usecols=[\"Title\", \"Body\", \"Tags\"]).dropna()\ntrain_df[\"text\"] = train_df[\"Title\"] + \" \" + train_df[\"Body\"]\ntrain_df[\"text\"] = train_df[\"text\"].apply(clean_text)\n\n# Filter and prepare tags\nall_tags = [tags.split() for tags in train_df[\"Tags\"]]\ntag_counts = {}\nfor tags in all_tags:\n    for tag in tags:\n        tag_counts[tag] = tag_counts.get(tag, 0) + 1\ntop_tags = [tag for tag, count in sorted(tag_counts.items(), key=lambda x: -x[1])[:500]]\nmlb = MultiLabelBinarizer(classes=top_tags)\ny = mlb.fit_transform(all_tags)\n\n# Tokenization with reduced vocabulary\ntokenizer = Tokenizer(num_words=50000)\ntokenizer.fit_on_texts(train_df[\"text\"])\nX = pad_sequences(tokenizer.texts_to_sequences(train_df[\"text\"]), maxlen=150)\n\n# Create validation split\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.1, random_state=42)\n\n# Simplified model architecture\nmodel = tf.keras.Sequential(\n    [\n        tf.keras.layers.Embedding(50000, 64, input_length=150),\n        tf.keras.layers.GlobalAveragePooling1D(),\n        tf.keras.layers.Dense(128, activation=\"relu\"),\n        tf.keras.layers.Dropout(0.3),\n        tf.keras.layers.Dense(500, activation=\"sigmoid\"),\n    ]\n)\n\nmodel.compile(\n    optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),\n    loss=\"binary_crossentropy\",\n    metrics=[\n        tf.keras.metrics.Precision(name=\"precision\"),\n        tf.keras.metrics.Recall(name=\"recall\"),\n    ],\n)\n\n# Train with smaller batch size\nhistory = model.fit(\n    X_train,\n    y_train,\n    epochs=2,\n    batch_size=256,\n    validation_data=(X_val, y_val),\n    verbose=1,\n)\n\n# Generate predictions on validation set\nval_preds = (model.predict(X_val) > 0.25).astype(int)\nval_f1 = f1_score(y_val, val_preds, average=\"samples\")\nprint(f\"\\nValidation F1-Score: {val_f1:.4f}\")\n\n# Prepare test data and generate submission\ntest_df = pd.read_csv(\"input/test.csv\")\ntest_df[\"text\"] = (test_df[\"Title\"] + \" \" + test_df[\"Body\"]).apply(clean_text)\nX_test = pad_sequences(tokenizer.texts_to_sequences(test_df[\"text\"]), maxlen=150)\ntest_preds = (model.predict(X_test) > 0.25).astype(int)\n\npredicted_tags = mlb.inverse_transform(test_preds)\nsubmission = pd.DataFrame(\n    {\"Id\": test_df[\"Id\"], \"Tags\": [\" \".join(tags) for tags in predicted_tags]}\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.feature_extraction.text import HashingVectorizer\nfrom sklearn.linear_model import SGDClassifier\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.metrics import f1_score\nfrom scipy.sparse import vstack\nimport re\n\n\ndef preprocess_text(text):\n    # Replace code blocks with special token\n    text = re.sub(\n        r\"<code>(.*?)</code>\", \" [CODE] \", text, flags=re.DOTALL | re.IGNORECASE\n    )\n    # Replace inline code with special token\n    text = re.sub(r\"`([^`]+)`\", \" [INLINE_CODE] \", text)\n    # Remove remaining HTML tags\n    text = re.sub(r\"<[^>]+>\", \"\", text)\n    # Lowercase and clean whitespace\n    text = text.lower().strip()\n    text = re.sub(r\"\\s+\", \" \", text)\n    return text\n\n\n# Collect tag frequencies\ntag_counts = {}\nchunksize = 100000\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=chunksize, usecols=[\"Tags\"]):\n    for tags in chunk[\"Tags\"].apply(lambda x: x.split() if pd.notnull(x) else []):\n        for tag in tags:\n            tag_counts[tag] = tag_counts.get(tag, 0) + 1\n\n# Select top 500 tags\ntop_tags = sorted(tag_counts, key=lambda x: -tag_counts[x])[:500]\ntag_index = {tag: i for i, tag in enumerate(top_tags)}\n\n# Initialize vectorizer and model\nvectorizer = HashingVectorizer(n_features=2**20, alternate_sign=False, norm=\"l2\")\nmodel = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\", penalty=\"l2\", alpha=1e-4, max_iter=5, random_state=42\n    ),\n    n_jobs=-1,\n)\n\n# Process data in chunks\nX_train, y_train, X_val, y_val = [], [], [], []\n\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=chunksize):\n    # Preprocess text\n    chunk[\"text\"] = chunk[\"Title\"].fillna(\"\") + \" \" + chunk[\"Body\"].fillna(\"\")\n    chunk[\"text\"] = chunk[\"text\"].apply(preprocess_text)\n\n    # Split to train/val\n    train_part = chunk.sample(frac=0.8, random_state=42)\n    val_part = chunk.drop(train_part.index)\n\n    # Vectorize\n    X_tr = vectorizer.transform(train_part[\"text\"])\n    X_va = vectorizer.transform(val_part[\"text\"])\n\n    # Create labels\n    y_tr = np.zeros((len(train_part), len(top_tags)), dtype=np.int8)\n    y_va = np.zeros((len(val_part), len(top_tags)), dtype=np.int8)\n\n    for i, (_, row) in enumerate(train_part.iterrows()):\n        for tag in row[\"Tags\"].split() if pd.notnull(row[\"Tags\"]) else []:\n            if tag in tag_index:\n                y_tr[i, tag_index[tag]] = 1\n\n    for i, (_, row) in enumerate(val_part.iterrows()):\n        for tag in row[\"Tags\"].split() if pd.notnull(row[\"Tags\"]) else []:\n            if tag in tag_index:\n                y_va[i, tag_index[tag]] = 1\n\n    X_train.append(X_tr)\n    y_train.append(y_tr)\n    X_val.append(X_va)\n    y_val.append(y_va)\n\n# Combine chunks\nX_train, y_train = vstack(X_train), np.vstack(y_train)\nX_val, y_val = vstack(X_val), np.vstack(y_val)\n\n# Train model\nmodel.fit(X_train, y_train)\n\n# Validate\nval_preds = model.predict(X_val)\nprint(f\"Validation F1: {f1_score(y_val, val_preds, average='micro'):.4f}\")\n\n# Generate submissions\ntest_df = pd.read_csv(\"input/test.csv\")\ntest_text = (test_df[\"Title\"].fillna(\"\") + \" \" + test_df[\"Body\"].fillna(\"\")).apply(\n    preprocess_text\n)\nX_test = vectorizer.transform(test_text)\npreds = model.predict(X_test)\n\nsubmission = pd.DataFrame(\n    {\n        \"Id\": test_df[\"Id\"],\n        \"Tags\": [\n            \" \".join([top_tags[i] for i, val in enumerate(row) if val]) for row in preds\n        ],\n    }\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.linear_model import SGDClassifier\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.metrics import f1_score\nfrom scipy.sparse import hstack\nimport re\n\n\ndef preprocess(text):\n    code_blocks = len(re.findall(r\"<code>.*?</code>\", text, flags=re.DOTALL | re.I))\n    inline_code = len(re.findall(r\"`[^`]+`\", text))\n    text = re.sub(r\"<code>.*?</code>\", \" [CODE] \", text, flags=re.DOTALL | re.I)\n    text = re.sub(r\"`([^`]+)`\", \" [INLINE] \", text)\n    text = re.sub(r\"<[^>]+>\", \"\", text).lower().strip()\n    text = re.sub(r\"\\s+\", \" \", text)\n    length = len(text.split())\n    return text, code_blocks, inline_code, length\n\n\n# Get top tags\ntag_counts = {}\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5, usecols=[\"Tags\"]):\n    for tags in chunk.Tags.dropna().str.split():\n        for tag in tags:\n            tag_counts[tag] = tag_counts.get(tag, 0) + 1\ntop_tags = sorted(tag_counts, key=lambda x: -tag_counts[x])[:500]\ntag_idx = {t: i for i, t in enumerate(top_tags)}\n\n# Initialize model and vectorizer\nvectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=80000, sublinear_tf=True)\nmodel = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\",\n        alpha=3e-5,\n        max_iter=15,\n        class_weight=\"balanced\",\n        random_state=42,\n    )\n)\n\n# Fit vectorizer on sample\nsample_texts = []\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5, nrows=5):\n    chunk[\"text\"] = chunk.Title.fillna(\"\") + \" \" + chunk.Body.fillna(\"\")\n    sample_texts.extend(chunk.text.apply(lambda x: preprocess(x)[0]))\nvectorizer.fit(sample_texts)\n\n# Process data in chunks\nX_train, y_train, X_val, y_val = [], [], [], []\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5):\n    chunk[\"text\"] = chunk.Title.fillna(\"\") + \" \" + chunk.Body.fillna(\"\")\n    processed = chunk.text.apply(preprocess)\n\n    texts = [p[0] for p in processed]\n    cb = np.array([p[1] for p in processed])[:, None]\n    ic = np.array([p[2] for p in processed])[:, None]\n    ln = np.array([p[3] for p in processed])[:, None]\n\n    X = hstack([vectorizer.transform(texts), cb, ic, ln])\n    y = np.zeros((len(chunk), len(top_tags)), dtype=np.int8)\n    for i, tags in enumerate(chunk.Tags.fillna(\"\").str.split()):\n        for tag in tags:\n            if tag in tag_idx:\n                y[i, tag_idx[tag]] = 1\n\n    # Split 80/20\n    split = int(0.8 * len(X))\n    X_train.append(X[:split])\n    y_train.append(y[:split])\n    X_val.append(X[split:])\n    y_val.append(y[split:])\n\nX_train, y_train = vstack(X_train), np.vstack(y_train)\nX_val, y_val = vstack(X_val), np.vstack(y_val)\n\n# Train model\nmodel.fit(X_train, y_train)\n\n# Find optimal threshold\nprobs = model.predict_proba(X_val)\nthresholds = np.linspace(0.15, 0.35, 11)\nbest_f1 = best_th = 0\nfor th in thresholds:\n    preds = (probs >= th).astype(int)\n    f1 = f1_score(y_val, preds, average=\"micro\")\n    if f1 > best_f1:\n        best_f1, best_th = f1, th\nprint(f\"Validation F1: {best_f1:.4f} (threshold={best_th:.2f})\")\n\n# Generate predictions\ntest = pd.read_csv(\"input/test.csv\")\ntest[\"text\"] = test.Title.fillna(\"\") + \" \" + test.Body.fillna(\"\")\nprocessed = test.text.apply(preprocess)\ntexts = [p[0] for p in processed]\ncb = np.array([p[1] for p in processed])[:, None]\nic = np.array([p[2] for p in processed])[:, None]\nln = np.array([p[3] for p in processed])[:, None]\n\nX_test = hstack([vectorizer.transform(texts), cb, ic, ln])\ntest_probs = model.predict_proba(X_test)\ntest_preds = (test_probs >= best_th).astype(int)\n\nsubmission = pd.DataFrame(\n    {\n        \"Id\": test.Id,\n        \"Tags\": [\n            \" \".join(top_tags[i] for i, v in enumerate(row) if v) for row in test_preds\n        ],\n    }\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport re\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.preprocessing import MultiLabelBinarizer\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.linear_model import SGDClassifier\nfrom sklearn.metrics import f1_score\nfrom collections import Counter\n\n# Load data with proper NaN handling\ntrain = pd.read_csv(\"input/train.csv\").dropna(subset=[\"Tags\"])\ntest = pd.read_csv(\"input/test.csv\")\n\n\n# Preprocess text with raw string literals\ndef preprocess(text):\n    text = text.lower()\n    text = re.sub(r\"<.*?>\", \" \", text)\n    text = re.sub(r\"[^a-z0-9\\s]\", \" \", text)\n    text = re.sub(r\"\\s+\", \" \", text).strip()\n    return text\n\n\ntrain[\"text\"] = (train[\"Title\"] + \" \" + train[\"Body\"]).apply(preprocess)\ntest[\"text\"] = (test[\"Title\"] + \" \" + test[\"Body\"]).apply(preprocess)\n\n# Convert tags to lists after handling NaNs\ntrain[\"Tags\"] = train[\"Tags\"].str.split()\nall_tags = [tag for tags in train[\"Tags\"] for tag in tags]\ntag_counts = Counter(all_tags)\ntop_tags = [tag for tag, count in tag_counts.most_common(500)]\n\n# Filter tags to include only top 500\ntrain[\"Tags_filtered\"] = train[\"Tags\"].apply(\n    lambda x: [tag for tag in x if tag in top_tags]\n)\n\n# Split data with proper filtered tags\nX_train, X_val, y_train_tags, y_val_tags = train_test_split(\n    train[\"text\"], train[\"Tags_filtered\"], test_size=0.2, random_state=42\n)\n\n# Binarize tags\nmlb = MultiLabelBinarizer(classes=top_tags)\ny_train = mlb.fit_transform(y_train_tags)\ny_val = mlb.transform(y_val_tags)\n\n# Vectorize text\nvectorizer = TfidfVectorizer(\n    max_features=50000, ngram_range=(1, 2), stop_words=\"english\"\n)\nX_train_tfidf = vectorizer.fit_transform(X_train)\nX_val_tfidf = vectorizer.transform(X_val)\n\n# Train classifier\nclf = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\",\n        penalty=\"l2\",\n        alpha=1e-4,\n        max_iter=5,\n        random_state=42,\n        n_jobs=-1,\n    )\n)\nclf.fit(X_train_tfidf, y_train)\n\n# Validate\nprobs_val = clf.predict_proba(X_val_tfidf)\nk = int(round(train[\"Tags_filtered\"].apply(len).mean()))\ntop_k = np.argpartition(probs_val, -k, axis=1)[:, -k:]\ny_val_pred = np.zeros_like(probs_val, dtype=int)\nfor i in range(probs_val.shape[0]):\n    y_val_pred[i, top_k[i]] = 1\n\nf1 = f1_score(y_val, y_val_pred, average=\"samples\")\nprint(f\"Validation F1 Score: {f1:.4f}\")\n\n# Retrain on full data\nX_full = vectorizer.fit_transform(train[\"text\"])\ny_full = mlb.fit_transform(train[\"Tags_filtered\"])\n\nclf_full = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\",\n        penalty=\"l2\",\n        alpha=1e-4,\n        max_iter=5,\n        random_state=42,\n        n_jobs=-1,\n    )\n)\nclf_full.fit(X_full, y_full)\n\n# Predict test\nX_test_tfidf = vectorizer.transform(test[\"text\"])\nprobs_test = clf_full.predict_proba(X_test_tfidf)\n\ntop_k_test = np.argpartition(probs_test, -k, axis=1)[:, -k:]\ny_test_pred = np.zeros_like(probs_test, dtype=int)\nfor i in range(probs_test.shape[0]):\n    y_test_pred[i, top_k_test[i]] = 1\n\ntest[\"Tags\"] = [\" \".join(tags) for tags in mlb.inverse_transform(y_test_pred)]\n\n# Save submission\ntest[[\"Id\", \"Tags\"]].to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.linear_model import SGDClassifier\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.metrics import f1_score\nfrom scipy.sparse import hstack, vstack\nimport re\nimport os\n\n\ndef preprocess(text):\n    code_blocks = len(re.findall(r\"<code>.*?</code>\", text, flags=re.DOTALL | re.I))\n    inline_code = len(re.findall(r\"`[^`]+`\", text))\n    text = re.sub(r\"<code>.*?</code>\", \" [CODE] \", text, flags=re.DOTALL | re.I)\n    text = re.sub(r\"`([^`]+)`\", \" [INLINE] \", text)\n    text = re.sub(r\"<[^>]+>\", \"\", text).lower().strip()\n    text = re.sub(r\"\\s+\", \" \", text)\n    length = len(text.split())\n    return text, code_blocks, inline_code, length\n\n\n# Get top tags\ntag_counts = {}\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5, usecols=[\"Tags\"]):\n    for tags in chunk.Tags.dropna().str.split():\n        for tag in tags:\n            tag_counts[tag] = tag_counts.get(tag, 0) + 1\ntop_tags = sorted(tag_counts, key=lambda x: -tag_counts[x])[:500]\ntag_idx = {t: i for i, t in enumerate(top_tags)}\n\n# Initialize model and vectorizer\nvectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=80000, sublinear_tf=True)\nmodel = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\",\n        alpha=3e-5,\n        max_iter=15,\n        class_weight=\"balanced\",\n        random_state=42,\n    )\n)\n\n# Fit vectorizer on sample\nsample_texts = []\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5, nrows=5):\n    chunk[\"text\"] = chunk.Title.fillna(\"\") + \" \" + chunk.Body.fillna(\"\")\n    sample_texts.extend(chunk.text.apply(lambda x: preprocess(x)[0]))\nvectorizer.fit(sample_texts)\n\n# Process data in chunks\nX_train, y_train, X_val, y_val = [], [], [], []\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5):\n    chunk[\"text\"] = chunk.Title.fillna(\"\") + \" \" + chunk.Body.fillna(\"\")\n    processed = chunk.text.apply(preprocess)\n\n    texts = [p[0] for p in processed]\n    cb = np.array([p[1] for p in processed])[:, None]\n    ic = np.array([p[2] for p in processed])[:, None]\n    ln = np.array([p[3] for p in processed])[:, None]\n\n    X = hstack([vectorizer.transform(texts), cb, ic, ln])\n    y = np.zeros((len(chunk), len(top_tags)), dtype=np.int8)\n    for i, tags in enumerate(chunk.Tags.fillna(\"\").str.split()):\n        for tag in tags:\n            if tag in tag_idx:\n                y[i, tag_idx[tag]] = 1\n\n    # Fixed split calculation using shape[0]\n    split = int(0.8 * X.shape[0])\n    X_train.append(X[:split])\n    y_train.append(y[:split])\n    X_val.append(X[split:])\n    y_val.append(y[split:])\n\nX_train, y_train = vstack(X_train), np.vstack(y_train)\nX_val, y_val = vstack(X_val), np.vstack(y_val)\n\n# Train model\nmodel.fit(X_train, y_train)\n\n# Find optimal threshold\nprobs = model.predict_proba(X_val)\nthresholds = np.linspace(0.15, 0.35, 11)\nbest_f1 = best_th = 0\nfor th in thresholds:\n    preds = (probs >= th).astype(int)\n    f1 = f1_score(y_val, preds, average=\"micro\")\n    if f1 > best_f1:\n        best_f1, best_th = f1, th\nprint(f\"Validation F1: {best_f1:.4f} (threshold={best_th:.2f})\")\n\n# Generate predictions\ntest = pd.read_csv(\"input/test.csv\")\ntest[\"text\"] = test.Title.fillna(\"\") + \" \" + test.Body.fillna(\"\")\nprocessed = test.text.apply(preprocess)\ntexts = [p[0] for p in processed]\ncb = np.array([p[1] for p in processed])[:, None]\nic = np.array([p[2] for p in processed])[:, None]\nln = np.array([p[3] for p in processed])[:, None]\n\nX_test = hstack([vectorizer.transform(texts), cb, ic, ln])\ntest_probs = model.predict_proba(X_test)\ntest_preds = (test_probs >= best_th).astype(int)\n\n# Handle empty predictions\ntags_list = []\nfor row in test_preds:\n    tags = [top_tags[i] for i, v in enumerate(row) if v]\n    if not tags:  # Add most common tag if empty\n        tags = [top_tags[0]]\n    tags_list.append(\" \".join(tags))\n\n# Ensure submission directory exists\nos.makedirs(\"submission\", exist_ok=True)\npd.DataFrame({\"Id\": test.Id, \"Tags\": tags_list}).to_csv(\n    \"submission/submission.csv\", index=False\n)\n",
+            "import pandas as pd\nimport re\nimport html\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nfrom sklearn.preprocessing import MultiLabelBinarizer\nimport fasttext\n\n# Load training data and select top tags\ntrain = pd.read_csv(\"./input/train.csv\", usecols=[\"Title\", \"Body\", \"Tags\"])\nall_tags = train[\"Tags\"].str.split().explode()\ntop_tags = all_tags.value_counts().head(500).index.tolist()\n\n\n# Preprocess text and filter tags\ndef clean_text(text):\n    text = html.unescape(text)\n    text = re.sub(\"<.*?>\", \" \", text)\n    text = re.sub(\"\\s+\", \" \", text).strip().lower()\n    return \" \".join(text.split()[:1000])\n\n\ntrain[\"text\"] = (train[\"Title\"] + \" \" + train[\"Body\"]).apply(clean_text)\ntrain[\"Tags\"] = train[\"Tags\"].apply(\n    lambda x: \" \".join(tag for tag in x.split() if tag in top_tags)\n)\n\n# Format for FastText and split data\ntrain_ft = train.apply(\n    lambda row: \" \".join([f\"__label__{tag}\" for tag in row[\"Tags\"].split()])\n    + \" \"\n    + row[\"text\"],\n    axis=1,\n)\ntrain_data, valid_data = train_test_split(train_ft, test_size=0.2, random_state=42)\n\n# Save formatted data\ntrain_data.to_csv(\"fasttext_train.txt\", index=False, header=False)\nvalid_data.to_csv(\"fasttext_valid.txt\", index=False, header=False)\n\n# Train model\nmodel = fasttext.train_supervised(\n    input=\"fasttext_train.txt\", lr=0.2, epoch=30, wordNgrams=2, thread=16, verbose=2\n)\n\n# Prepare validation data\nvalid_texts = []\nvalid_true = []\nfor line in valid_data:\n    parts = line.split()\n    labels = [p[len(\"__label__\") :] for p in parts if p.startswith(\"__label__\")]\n    valid_true.append(labels)\n    valid_texts.append(\" \".join(parts[len(labels) :]))\n\n# Predict and evaluate\npred_labels = [model.predict(text, k=5)[0] for text in valid_texts]\npred_labels = [[l.replace(\"__label__\", \"\") for l in lst] for lst in pred_labels]\n\nmlb = MultiLabelBinarizer(classes=top_tags)\ny_true = mlb.fit_transform(valid_true)\ny_pred = mlb.transform(pred_labels)\nf1 = f1_score(y_true, y_pred, average=\"samples\")\nprint(f\"Validation F1-Score: {f1:.4f}\")\n\n# Retrain on full data and predict test set\nfull_model = fasttext.train_supervised(\n    input=\"fasttext_train.txt\", lr=0.2, epoch=30, wordNgrams=2, thread=16, verbose=2\n)\n\ntest = pd.read_csv(\"./input/test.csv\", usecols=[\"Id\", \"Title\", \"Body\"])\ntest[\"text\"] = (test[\"Title\"] + \" \" + test[\"Body\"]).apply(clean_text)\ntest_preds = [full_model.predict(txt, k=5)[0] for txt in test[\"text\"]]\ntest[\"Tags\"] = [\n    \" \".join([l.replace(\"__label__\", \"\") for l in lst]) for lst in test_preds\n]\n\ntest[[\"Id\", \"Tags\"]].to_csv(\"./submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.linear_model import SGDClassifier\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.metrics import f1_score\nfrom scipy.sparse import hstack, vstack, csr_matrix\nimport re\nimport os\n\n\ndef preprocess(text):\n    code_blocks = len(re.findall(r\"<code>.*?</code>\", text, flags=re.DOTALL | re.I))\n    inline_code = len(re.findall(r\"`[^`]+`\", text))\n    text = re.sub(r\"<code>.*?</code>\", \" [CODE] \", text, flags=re.DOTALL | re.I)\n    text = re.sub(r\"`([^`]+)`\", \" [INLINE] \", text)\n    text = re.sub(r\"<[^>]+>\", \"\", text).lower().strip()\n    text = re.sub(r\"\\s+\", \" \", text)\n    length = len(text.split())\n    return text, code_blocks, inline_code, length\n\n\n# Get top tags\ntag_counts = {}\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5, usecols=[\"Tags\"]):\n    for tags in chunk.Tags.dropna().str.split():\n        for tag in tags:\n            tag_counts[tag] = tag_counts.get(tag, 0) + 1\ntop_tags = sorted(tag_counts, key=lambda x: -tag_counts[x])[:500]\ntag_idx = {t: i for i, t in enumerate(top_tags)}\n\n# Initialize model and vectorizer\nvectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=80000, sublinear_tf=True)\nmodel = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\",\n        alpha=3e-5,\n        max_iter=15,\n        class_weight=\"balanced\",\n        random_state=42,\n    )\n)\n\n# Fit vectorizer\nsample_texts = []\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5, nrows=5):\n    chunk[\"text\"] = chunk.Title.fillna(\"\") + \" \" + chunk.Body.fillna(\"\")\n    sample_texts.extend(chunk.text.apply(lambda x: preprocess(x)[0]))\nvectorizer.fit(sample_texts)\n\n# Process data in chunks with proper splitting\nX_train, y_train, X_val, y_val = [], [], [], []\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5):\n    chunk[\"text\"] = chunk.Title.fillna(\"\") + \" \" + chunk.Body.fillna(\"\")\n    processed = chunk.text.apply(preprocess)\n\n    texts = [p[0] for p in processed]\n    cb = np.array([p[1] for p in processed])[:, None]\n    ic = np.array([p[2] for p in processed])[:, None]\n    ln = np.array([p[3] for p in processed])[:, None]\n\n    X = hstack([vectorizer.transform(texts).tocsr(), cb, ic, ln])\n    y = np.zeros((len(chunk), len(top_tags)), dtype=np.int8)\n    for i, tags in enumerate(chunk.Tags.fillna(\"\").str.split()):\n        for tag in tags:\n            if tag in tag_idx:\n                y[i, tag_idx[tag]] = 1\n\n    # Split before appending\n    split = int(0.8 * X.shape[0])\n    X_train.append(X[:split])\n    X_val.append(X[split:])\n    y_train.append(y[:split])\n    y_val.append(y[split:])\n\n# Combine chunks\nX_train, X_val = vstack(X_train), vstack(X_val)\ny_train, y_val = np.vstack(y_train), np.vstack(y_val)\n\n# Train model\nmodel.fit(X_train, y_train)\n\n# Threshold optimization\nprobs = model.predict_proba(X_val)\nthresholds = np.linspace(0.15, 0.35, 11)\nbest_f1 = best_th = 0\nfor th in thresholds:\n    preds = (probs >= th).astype(int)\n    f1 = f1_score(y_val, preds, average=\"micro\")\n    if f1 > best_f1:\n        best_f1, best_th = f1, th\nprint(f\"Validation F1: {best_f1:.4f} (threshold={best_th:.2f})\")\n\n# Generate submission\ntest = pd.read_csv(\"input/test.csv\")\ntest[\"text\"] = test.Title.fillna(\"\") + \" \" + test.Body.fillna(\"\")\nprocessed = test.text.apply(preprocess)\ntexts = [p[0] for p in processed]\ncb = np.array([p[1] for p in processed])[:, None]\nic = np.array([p[2] for p in processed])[:, None]\nln = np.array([p[3] for p in processed])[:, None]\n\nX_test = hstack([vectorizer.transform(texts).tocsr(), cb, ic, ln])\ntest_probs = model.predict_proba(X_test)\ntest_preds = (test_probs >= best_th).astype(int)\n\ntags_list = []\nfor row in test_preds:\n    tags = [top_tags[i] for i, v in enumerate(row) if v]\n    if not tags:\n        tags = [top_tags[0]]\n    tags_list.append(\" \".join(tags))\n\nos.makedirs(\"submission\", exist_ok=True)\npd.DataFrame({\"Id\": test.Id, \"Tags\": tags_list}).to_csv(\n    \"submission/submission.csv\", index=False\n)\n",
+            "import pandas as pd\nimport numpy as np\nimport re\nimport tensorflow as tf\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import MultiLabelBinarizer\nfrom sklearn.metrics import f1_score\nfrom tensorflow.keras.preprocessing.text import Tokenizer\nfrom tensorflow.keras.preprocessing.sequence import pad_sequences\n\n\ndef clean_text(text):\n    text = re.sub(r\"<[^>]+>\", \"\", str(text))\n    return text.lower()\n\n\n# Load data with proper null handling\ntrain_df = pd.read_csv(\"input/train.csv\", usecols=[\"Title\", \"Body\", \"Tags\"]).dropna()\ntrain_df[\"text\"] = train_df[\"Title\"] + \" \" + train_df[\"Body\"]\ntrain_df[\"text\"] = train_df[\"text\"].apply(clean_text)\n\n# Prepare tags with frequency filtering\nall_tags = [tags.split() for tags in train_df[\"Tags\"]]\ntag_counts = {}\nfor tags in all_tags:\n    for tag in tags:\n        tag_counts[tag] = tag_counts.get(tag, 0) + 1\ntop_tags = [tag for tag, count in sorted(tag_counts.items(), key=lambda x: -x[1])[:100]]\nmlb = MultiLabelBinarizer(classes=top_tags)\ny = mlb.fit_transform(all_tags)\n\n# Tokenization with reduced parameters\ntokenizer = Tokenizer(num_words=20000)\ntokenizer.fit_on_texts(train_df[\"text\"])\nX = pad_sequences(tokenizer.texts_to_sequences(train_df[\"text\"]), maxlen=100)\n\n# Create validation split\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.1, random_state=42)\n\n# Simplified model architecture\nmodel = tf.keras.Sequential(\n    [\n        tf.keras.layers.Embedding(20000, 32, input_length=100),\n        tf.keras.layers.GlobalAveragePooling1D(),\n        tf.keras.layers.Dense(64, activation=\"relu\"),\n        tf.keras.layers.Dropout(0.2),\n        tf.keras.layers.Dense(len(top_tags), activation=\"sigmoid\"),\n    ]\n)\n\nmodel.compile(\n    optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),\n    loss=\"binary_crossentropy\",\n    metrics=[\n        tf.keras.metrics.Precision(name=\"precision\"),\n        tf.keras.metrics.Recall(name=\"recall\"),\n    ],\n)\n\n# Train with smaller batch size\nhistory = model.fit(\n    X_train,\n    y_train,\n    epochs=2,\n    batch_size=128,\n    validation_data=(X_val, y_val),\n    verbose=1,\n)\n\n# Validation metrics\nval_preds = (model.predict(X_val) > 0.25).astype(int)\nval_f1 = f1_score(y_val, val_preds, average=\"samples\")\nprint(f\"\\nValidation F1-Score: {val_f1:.4f}\")\n\n# Generate submission\ntest_df = pd.read_csv(\"input/test.csv\")\ntest_df[\"text\"] = (test_df[\"Title\"] + \" \" + test_df[\"Body\"]).apply(clean_text)\nX_test = pad_sequences(tokenizer.texts_to_sequences(test_df[\"text\"]), maxlen=100)\ntest_preds = (model.predict(X_test) > 0.25).astype(int)\n\npredicted_tags = mlb.inverse_transform(test_preds)\nsubmission = pd.DataFrame(\n    {\n        \"Id\": test_df[\"Id\"],\n        \"Tags\": [\" \".join(tags) if tags else \"\" for tags in predicted_tags],\n    }\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.metrics import f1_score\nfrom sklearn.preprocessing import MultiLabelBinarizer\n\n# Load data\nprint(\"Loading data...\")\ntrain_df = pd.read_csv(\"./input/train.csv\")\ntest_df = pd.read_csv(\"./input/test.csv\")\n\n# Preprocess text\nprint(\"Preprocessing text...\")\ntrain_df[\"text\"] = (\n    (train_df[\"Title\"] + \" \" + train_df[\"Body\"])\n    .str.replace(r\"<[^>]+>\", \"\", regex=True)\n    .str.lower()\n)\ntest_df[\"text\"] = (\n    (test_df[\"Title\"] + \" \" + test_df[\"Body\"])\n    .str.replace(r\"<[^>]+>\", \"\", regex=True)\n    .str.lower()\n)\n\n# Extract top 500 tags\nprint(\"Extracting tags...\")\nall_tags = [tag for tags in train_df[\"Tags\"].str.split() for tag in tags]\ntop_tags = pd.Series(all_tags).value_counts().head(500).index.tolist()\n\n# Binarize labels\nmlb = MultiLabelBinarizer(classes=top_tags)\ny = mlb.fit_transform(train_df[\"Tags\"].str.split())\n\n# Split data\nX_train, X_val, y_train, y_val = train_test_split(\n    train_df[\"text\"], y, test_size=0.2, random_state=42\n)\n\n# Vectorize text\nprint(\"Vectorizing...\")\nvectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=50000, sublinear_tf=True)\nX_train_tfidf = vectorizer.fit_transform(X_train)\nX_val_tfidf = vectorizer.transform(X_val)\n\n# Train model\nprint(\"Training...\")\nmodel = OneVsRestClassifier(\n    LogisticRegression(solver=\"saga\", class_weight=\"balanced\", max_iter=1000, n_jobs=-1)\n)\nmodel.fit(X_train_tfidf, y_train)\n\n# Validate\nprint(\"Predicting validation...\")\ny_pred_proba = model.predict_proba(X_val_tfidf)\nval_pred = (y_pred_proba >= 0.25).astype(int)\nf1 = f1_score(y_val, val_pred, average=\"samples\")\nprint(f\"Validation F1-Score: {f1:.4f}\")\n\n# Predict test\nprint(\"Generating submission...\")\nX_test_tfidf = vectorizer.transform(test_df[\"text\"])\ntest_pred = (model.predict_proba(X_test_tfidf) >= 0.25).astype(int)\ntest_tags = [\" \".join(tags) for tags in mlb.inverse_transform(test_pred)]\n\n# Save\npd.DataFrame({\"Id\": test_df[\"Id\"], \"Tags\": test_tags}).to_csv(\n    \"./submission/submission.csv\", index=False\n)\nprint(\"Done!\")\n",
+            "import pandas as pd\nimport re\nimport html\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nfrom sklearn.preprocessing import MultiLabelBinarizer\nimport fasttext\n\n# Load and clean training data\ntrain = pd.read_csv(\"./input/train.csv\", usecols=[\"Title\", \"Body\", \"Tags\"])\ntrain[\"Tags\"] = train[\"Tags\"].fillna(\"\")\ntrain[\"Title\"] = train[\"Title\"].fillna(\"\")\ntrain[\"Body\"] = train[\"Body\"].fillna(\"\")\n\n# Select top tags and filter invalid rows\nall_tags = train[\"Tags\"].str.split().explode()\ntop_tags = all_tags.value_counts().head(500).index.tolist()\n\n\ndef clean_text(text):\n    text = html.unescape(text)\n    text = re.sub(r\"<.*?>\", \" \", text)  # Fix regex with raw string\n    text = re.sub(r\"\\s+\", \" \", text).strip().lower()\n    return \" \".join(text.split()[:1000])\n\n\ntrain[\"text\"] = (train[\"Title\"] + \" \" + train[\"Body\"]).apply(clean_text)\ntrain[\"Tags\"] = train[\"Tags\"].apply(\n    lambda x: \" \".join(tag for tag in x.split() if tag in top_tags)\n)\ntrain = train[train[\"Tags\"] != \"\"]  # Remove rows with no tags\n\n# Format for FastText and split data\ntrain_ft = train.apply(\n    lambda row: \" \".join([f\"__label__{tag}\" for tag in row[\"Tags\"].split()])\n    + \" \"\n    + row[\"text\"],\n    axis=1,\n)\ntrain_data, valid_data = train_test_split(train_ft, test_size=0.2, random_state=42)\n\n# Save formatted data\ntrain_data.to_csv(\"fasttext_train.txt\", index=False, header=False)\nvalid_data.to_csv(\"fasttext_valid.txt\", index=False, header=False)\n\n# Train model\nmodel = fasttext.train_supervised(\n    input=\"fasttext_train.txt\", lr=0.2, epoch=30, wordNgrams=2, thread=16, verbose=2\n)\n\n# Validate\nvalid_texts = []\nvalid_true = []\nfor line in valid_data:\n    parts = line.split()\n    labels = [p[len(\"__label__\") :] for p in parts if p.startswith(\"__label__\")]\n    valid_true.append(labels)\n    valid_texts.append(\" \".join(parts[len(labels) :]))\n\npred_labels = [model.predict(text, k=5)[0] for text in valid_texts]\npred_labels = [[l.replace(\"__label__\", \"\") for l in lst] for lst in pred_labels]\n\nmlb = MultiLabelBinarizer(classes=top_tags)\ny_true = mlb.fit_transform(valid_true)\ny_pred = mlb.transform(pred_labels)\nf1 = f1_score(y_true, y_pred, average=\"samples\")\nprint(f\"Validation F1-Score: {f1:.4f}\")\n\n# Predict test set\ntest = pd.read_csv(\"./input/test.csv\", usecols=[\"Id\", \"Title\", \"Body\"])\ntest[\"Title\"] = test[\"Title\"].fillna(\"\")\ntest[\"Body\"] = test[\"Body\"].fillna(\"\")\ntest[\"text\"] = (test[\"Title\"] + \" \" + test[\"Body\"]).apply(clean_text)\n\nfull_model = fasttext.train_supervised(\n    input=\"fasttext_train.txt\", lr=0.2, epoch=30, wordNgrams=2, thread=16, verbose=2\n)\ntest_preds = [full_model.predict(txt, k=5)[0] for txt in test[\"text\"]]\ntest[\"Tags\"] = [\n    \" \".join([l.replace(\"__label__\", \"\") for l in lst]) for lst in test_preds\n]\n\ntest[[\"Id\", \"Tags\"]].to_csv(\"./submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.linear_model import SGDClassifier\nfrom sklearn.multiclass import OneVsRestClassifier\nfrom sklearn.metrics import f1_score\nfrom scipy.sparse import hstack, csr_matrix\nimport re\nimport os\n\n\ndef preprocess(text):\n    text = str(text)\n    code_blocks = len(re.findall(r\"<code>.*?</code>\", text, flags=re.DOTALL))\n    inline_code = len(re.findall(r\"`[^`]+`\", text))\n    text = re.sub(r\"<code>.*?</code>\", \" [CODE] \", text, flags=re.DOTALL)\n    text = re.sub(r\"`([^`]+)`\", \" [INLINE] \", text)\n    text = re.sub(r\"<[^>]+>\", \"\", text).lower()\n    text = re.sub(r\"\\s+\", \" \", text).strip()\n    length = len(text.split())\n    return text, code_blocks, inline_code, length\n\n\n# Get top tags\ntag_counts = {}\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5, usecols=[\"Tags\"]):\n    for tags in chunk.Tags.dropna().str.split():\n        for tag in tags:\n            tag_counts[tag] = tag_counts.get(tag, 0) + 1\ntop_tags = sorted(tag_counts, key=lambda x: -tag_counts[x])[:500]\ntag_idx = {t: i for i, t in enumerate(top_tags)}\n\n# Initialize model and vectorizer\nvectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=80000, sublinear_tf=True)\nmodel = OneVsRestClassifier(\n    SGDClassifier(\n        loss=\"log_loss\",\n        alpha=3e-5,\n        max_iter=15,\n        class_weight=\"balanced\",\n        random_state=42,\n    )\n)\n\n# Fit vectorizer\nsample_texts = []\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5, nrows=5):\n    chunk[\"text\"] = chunk.Title.fillna(\"\") + \" \" + chunk.Body.fillna(\"\")\n    sample_texts.extend(chunk.text.apply(lambda x: preprocess(x)[0]))\nvectorizer.fit(sample_texts)\n\n# Process training data in chunks\nX_train, y_train, X_val, y_val = [], [], [], []\nfor chunk in pd.read_csv(\"input/train.csv\", chunksize=1e5):\n    chunk[\"text\"] = chunk.Title.fillna(\"\") + \" \" + chunk.Body.fillna(\"\")\n    processed = chunk.text.apply(preprocess)\n\n    texts = [p[0] for p in processed]\n    cb = np.array([p[1] for p in processed])[:, None]\n    ic = np.array([p[2] for p in processed])[:, None]\n    ln = np.array([p[3] for p in processed])[:, None]\n\n    X = hstack([vectorizer.transform(texts), cb, ic, ln]).tocsr()  # Convert to CSR\n    y = np.zeros((len(chunk), len(top_tags)), dtype=np.int8)\n    for i, tags in enumerate(chunk.Tags.fillna(\"\").str.split()):\n        for tag in tags:\n            if tag in tag_idx:\n                y[i, tag_idx[tag]] = 1\n\n    split = int(0.8 * X.shape[0])\n    X_train.append(X[:split])\n    X_val.append(X[split:])\n    y_train.append(y[:split])\n    y_val.append(y[split:])\n\n# Combine chunks\nX_train, X_val = csr_matrix(vstack(X_train)), csr_matrix(vstack(X_val))\ny_train, y_val = np.vstack(y_train), np.vstack(y_val)\n\n# Train model\nmodel.fit(X_train, y_train)\n\n# Threshold optimization\nprobs = model.predict_proba(X_val)\nthresholds = np.linspace(0.15, 0.35, 11)\nbest_f1 = best_th = 0\nfor th in thresholds:\n    preds = (probs >= th).astype(int)\n    f1 = f1_score(y_val, preds, average=\"micro\")\n    if f1 > best_f1:\n        best_f1, best_th = f1, th\nprint(f\"Validation F1: {best_f1:.4f} (threshold={best_th:.2f})\")\n\n# Generate submission\nos.makedirs(\"submission\", exist_ok=True)\ntest = pd.read_csv(\"input/test.csv\")\ntest[\"text\"] = test.Title.fillna(\"\") + \" \" + test.Body.fillna(\"\")\nprocessed = test.text.apply(preprocess)\n\ntexts = [p[0] for p in processed]\ncb = np.array([p[1] for p in processed])[:, None]\nic = np.array([p[2] for p in processed])[:, None]\nln = np.array([p[3] for p in processed])[:, None]\n\nX_test = hstack([vectorizer.transform(texts), cb, ic, ln]).tocsr()\ntest_probs = model.predict_proba(X_test)\ntest_preds = (test_probs >= best_th).astype(int)\n\ntags_list = []\nfor row in test_preds:\n    tags = [top_tags[i] for i, v in enumerate(row) if v]\n    tags_list.append(\" \".join(tags) if tags else top_tags[0])\n\npd.DataFrame({\"Id\": test.Id, \"Tags\": tags_list}).to_csv(\n    \"submission/submission.csv\", index=False\n)\n",
+            "import pandas as pd\nimport re\nimport html\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nfrom sklearn.preprocessing import MultiLabelBinarizer\nimport fasttext\n\n# Load and clean training data\ntrain = pd.read_csv(\"./input/train.csv\", usecols=[\"Title\", \"Body\", \"Tags\"])\ntrain[\"Tags\"] = train[\"Tags\"].fillna(\"\")\ntrain[\"Title\"] = train[\"Title\"].fillna(\"\")\ntrain[\"Body\"] = train[\"Body\"].fillna(\"\")\n\n# Select top 1000 tags and filter\nall_tags = train[\"Tags\"].str.split().explode()\ntop_tags = all_tags.value_counts().head(1000).index.tolist()\n\n\ndef clean_text(text):\n    text = html.unescape(text)\n    # Preserve code blocks and URLs\n    text = re.sub(r\"<code>.*?</code>\", \" CODE \", text, flags=re.DOTALL)\n    text = re.sub(r\"`.*?`\", \" CODE \", text)\n    text = re.sub(r\"http\\S+\", \" URL \", text)\n    text = re.sub(r\"<.*?>\", \" \", text)\n    text = re.sub(r\"\\s+\", \" \", text).strip().lower()\n    return \" \".join(text.split()[:1000])\n\n\ntrain[\"text\"] = (train[\"Title\"] + \" \" + train[\"Body\"]).apply(clean_text)\ntrain[\"Tags\"] = train[\"Tags\"].apply(\n    lambda x: \" \".join(tag for tag in x.split() if tag in top_tags)\n)\ntrain = train[train[\"Tags\"] != \"\"]\n\n# Format for FastText\ntrain_ft = train.apply(\n    lambda row: \" \".join(f\"__label__{tag}\" for tag in row[\"Tags\"].split())\n    + \" \"\n    + row[\"text\"],\n    axis=1,\n)\ntrain_data, valid_data = train_test_split(train_ft, test_size=0.2, random_state=42)\n\n# Save formatted data\ntrain_data.to_csv(\"fasttext_train.txt\", index=False, header=False)\nvalid_data.to_csv(\"fasttext_valid.txt\", index=False, header=False)\n\n# Train with autotune\nmodel = fasttext.train_supervised(\n    input=\"fasttext_train.txt\",\n    autotuneValidationFile=\"fasttext_valid.txt\",\n    autotuneDuration=600,  # 10 minutes autotuning\n    thread=16,\n    verbose=2,\n)\n\n# Validation\nvalid_true = []\nvalid_texts = []\nfor line in valid_data:\n    parts = line.split()\n    labels = [p[len(\"__label__\") :] for p in parts if p.startswith(\"__label__\")]\n    valid_true.append(labels)\n    valid_texts.append(\" \".join(parts[len(labels) :]))\n\npred_labels = [model.predict(text, k=5)[0] for text in valid_texts]\npred_labels = [[l.replace(\"__label__\", \"\") for l in lst] for lst in pred_labels]\n\nmlb = MultiLabelBinarizer(classes=top_tags)\ny_true = mlb.fit_transform(valid_true)\ny_pred = mlb.transform(pred_labels)\nf1 = f1_score(y_true, y_pred, average=\"samples\")\nprint(f\"Validation F1-Score: {f1:.4f}\")\n\n# Full training and test prediction\nfull_model = fasttext.train_supervised(\n    input=\"fasttext_train.txt\",\n    autotuneValidationFile=\"fasttext_valid.txt\",\n    autotuneDuration=600,\n    thread=16,\n    verbose=2,\n)\n\ntest = pd.read_csv(\"./input/test.csv\", usecols=[\"Id\", \"Title\", \"Body\"])\ntest[\"text\"] = (test[\"Title\"] + \" \" + test[\"Body\"]).apply(clean_text)\ntest_preds = [full_model.predict(txt, k=5)[0] for txt in test[\"text\"]]\ntest[\"Tags\"] = [\n    \" \".join([l.replace(\"__label__\", \"\") for l in lst]) for lst in test_preds\n]\n\ntest[[\"Id\", \"Tags\"]].to_csv(\"./submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport re\nimport html\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import f1_score\nfrom sklearn.preprocessing import MultiLabelBinarizer\nimport fasttext\n\n# Load and clean training data\ntrain = pd.read_csv(\"./input/train.csv\", usecols=[\"Title\", \"Body\", \"Tags\"])\ntrain[\"Tags\"] = train[\"Tags\"].fillna(\"\")\ntrain[\"Title\"] = train[\"Title\"].fillna(\"\")\ntrain[\"Body\"] = train[\"Body\"].fillna(\"\")\n\n# Select top 1000 tags and filter\nall_tags = train[\"Tags\"].str.split().explode()\ntop_tags = all_tags.value_counts().head(1000).index.tolist()\n\n\ndef clean_text(text):\n    text = html.unescape(text)\n\n    def process_code(code_content):\n        code = re.sub(r\"<.*?>\", \"\", code_content)\n        code = re.sub(r\"([a-z])([A-Z])\", r\"\\1 \\2\", code)  # Split camelCase\n        code = re.sub(r\"_\", \" \", code)  # Split snake_case\n        code = re.sub(r\"\\s+\", \" \", code).strip()\n        return code\n\n    # Process code blocks\n    text = re.sub(\n        r\"<code>(.*?)</code>\",\n        lambda m: \" \" + process_code(m.group(1)) + \" \",\n        text,\n        flags=re.DOTALL,\n    )\n    text = re.sub(r\"`(.*?)`\", lambda m: \" \" + process_code(m.group(1)) + \" \", text)\n\n    # Process URLs to extract domains\n    text = re.sub(\n        r\"http[s]?://([\\w\\-\\.]+)/?\\S*\",\n        lambda m: \" URL_\" + m.group(1).replace(\".\", \"_\") + \" \",\n        text,\n    )\n\n    # Remove remaining HTML tags\n    text = re.sub(r\"<.*?>\", \" \", text)\n    # Normalize whitespace\n    text = re.sub(r\"\\s+\", \" \", text).strip().lower()\n    # Truncate to first 1000 words\n    return \" \".join(text.split()[:1000])\n\n\ntrain[\"text\"] = (train[\"Title\"] + \" \" + train[\"Body\"]).apply(clean_text)\ntrain[\"Tags\"] = train[\"Tags\"].apply(\n    lambda x: \" \".join(tag for tag in x.split() if tag in top_tags)\n)\ntrain = train[train[\"Tags\"] != \"\"]\n\n# Format for FastText\ntrain_ft = train.apply(\n    lambda row: \" \".join(f\"__label__{tag}\" for tag in row[\"Tags\"].split())\n    + \" \"\n    + row[\"text\"],\n    axis=1,\n)\ntrain_data, valid_data = train_test_split(train_ft, test_size=0.2, random_state=42)\n\n# Save formatted data\ntrain_data.to_csv(\"fasttext_train.txt\", index=False, header=False)\nvalid_data.to_csv(\"fasttext_valid.txt\", index=False, header=False)\n\n# Train with extended autotune\nmodel = fasttext.train_supervised(\n    input=\"fasttext_train.txt\",\n    autotuneValidationFile=\"fasttext_valid.txt\",\n    autotuneDuration=1200,  # 20 minutes autotuning\n    thread=16,\n    verbose=2,\n)\n\n# Validation\nvalid_true = []\nvalid_texts = []\nfor line in valid_data:\n    parts = line.split()\n    labels = [p[len(\"__label__\") :] for p in parts if p.startswith(\"__label__\")]\n    valid_true.append(labels)\n    valid_texts.append(\" \".join(parts[len(labels) :]))\n\npred_labels = [model.predict(text, k=5)[0] for text in valid_texts]\npred_labels = [[l.replace(\"__label__\", \"\") for l in lst] for lst in pred_labels]\n\nmlb = MultiLabelBinarizer(classes=top_tags)\ny_true = mlb.fit_transform(valid_true)\ny_pred = mlb.transform(pred_labels)\nf1 = f1_score(y_true, y_pred, average=\"samples\")\nprint(f\"Validation F1-Score: {f1:.4f}\")\n\n# Full training and test prediction\nfull_model = fasttext.train_supervised(\n    input=\"fasttext_train.txt\",\n    autotuneValidationFile=\"fasttext_valid.txt\",\n    autotuneDuration=1200,\n    thread=16,\n    verbose=2,\n)\n\ntest = pd.read_csv(\"./input/test.csv\", usecols=[\"Id\", \"Title\", \"Body\"])\ntest[\"text\"] = (test[\"Title\"] + \" \" + test[\"Body\"]).apply(clean_text)\ntest_preds = [full_model.predict(txt, k=5)[0] for txt in test[\"text\"]]\ntest[\"Tags\"] = [\n    \" \".join([l.replace(\"__label__\", \"\") for l in lst]) for lst in test_preds\n]\n\ntest[[\"Id\", \"Tags\"]].to_csv(\"./submission/submission.csv\", index=False)\n"
+        ],
+        "term_out": [
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 33, in <module>\n    train_tag_matrix = mlb.fit_transform(train_tags)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/sklearn/preprocessing/_label.py\", line 828, in fit_transform\n    yt = self._transform(y, class_mapping)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/sklearn/preprocessing/_label.py\", line 901, in _transform\n    for label in labels:\n                 ^^^^^^\nTypeError: 'float' object is not iterable\nExecution time: a minute seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Epoch 1/3\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 64, in <module>\n    model.fit(\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py\", line 122, in error_handler\n    raise e.with_traceback(filtered_tb) from None\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/tensorflow/python/eager/execute.py\", line 59, in quick_execute\n    except TypeError as e:\ntensorflow.python.framework.errors_impl.FailedPreconditionError: Graph execution error:\n\nDetected at node StatefulPartitionedCall defined at (most recent call last):\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1032, in _bootstrap\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1075, in _bootstrap_inner\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1012, in run\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/thread.py\", line 93, in _worker\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/thread.py\", line 59, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 198, in step_task\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 704, in step\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 657, in _step_search\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 160, in exec_callback\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 295, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 224, in create_process\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 121, in start\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/context.py\", line 224, in _Popen\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/context.py\", line 282, in _Popen\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/popen_fork.py\", line 19, in __init__\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/popen_fork.py\", line 71, in _launch\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 314, in _bootstrap\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 108, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n\n  File \"runfile_1.py\", line 64, in <module>\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py\", line 117, in error_handler\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 371, in fit\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 219, in function\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 132, in multi_step_on_iterator\n\nDNN library initialization failed. Look at the errors above for more details.\n\t [[{{node StatefulPartitionedCall}}]] [Op:__inference_multi_step_on_iterator_1452]\nExecution time: 17 minutes seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Epoch 1/2\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 72, in <module>\n    history = model.fit(\n              ^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py\", line 122, in error_handler\n    raise e.with_traceback(filtered_tb) from None\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/tensorflow/python/eager/execute.py\", line 59, in quick_execute\n    except TypeError as e:\ntensorflow.python.framework.errors_impl.FailedPreconditionError: Graph execution error:\n\nDetected at node StatefulPartitionedCall defined at (most recent call last):\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1032, in _bootstrap\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1075, in _bootstrap_inner\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1012, in run\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/thread.py\", line 93, in _worker\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/thread.py\", line 59, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 198, in step_task\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 704, in step\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 657, in _step_search\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 160, in exec_callback\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 295, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 224, in create_process\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 121, in start\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/context.py\", line 224, in _Popen\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/context.py\", line 282, in _Popen\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/popen_fork.py\", line 19, in __init__\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/popen_fork.py\", line 71, in _launch\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 314, in _bootstrap\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 108, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n\n  File \"runfile_0.py\", line 72, in <module>\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py\", line 117, in error_handler\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 371, in fit\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 219, in function\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 132, in multi_step_on_iterator\n\nDNN library initialization failed. Look at the errors above for more details.\n\t [[{{node StatefulPartitionedCall}}]] [Op:__inference_multi_step_on_iterator_1992]\nExecution time: 15 minutes seconds (time limit is 9 hours).",
+            "Validation F1: 0.0989\nExecution time: 29 minutes seconds (time limit is 9 hours).",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 71, in <module>\n    split = int(0.8 * len(X))\n                      ^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/scipy/sparse/_base.py\", line 404, in __len__\n    raise TypeError(\"sparse array length is ambiguous; use getnnz()\"\nTypeError: sparse array length is ambiguous; use getnnz() or shape[0]\nExecution time: a minute seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 73, in <module>\n    X_train.append(X[:split])\n                   ~^^^^^^^^\nTypeError: 'coo_matrix' object is not subscriptable\nExecution time: 51 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 73, in <module>\n    X_train.append(X[:split])\n                   ~^^^^^^^^\nTypeError: 'coo_matrix' object is not subscriptable\nExecution time: 52 seconds seconds (time limit is 9 hours).",
+            "Epoch 1/2\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 63, in <module>\n    history = model.fit(\n              ^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py\", line 122, in error_handler\n    raise e.with_traceback(filtered_tb) from None\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/tensorflow/python/eager/execute.py\", line 59, in quick_execute\n    except TypeError as e:\ntensorflow.python.framework.errors_impl.FailedPreconditionError: Graph execution error:\n\nDetected at node StatefulPartitionedCall defined at (most recent call last):\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1032, in _bootstrap\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1075, in _bootstrap_inner\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/threading.py\", line 1012, in run\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/thread.py\", line 93, in _worker\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/concurrent/futures/thread.py\", line 59, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 198, in step_task\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 704, in step\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/agent/mcts_agent.py\", line 657, in _step_search\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/main_mcts.py\", line 160, in exec_callback\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 295, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 224, in create_process\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 121, in start\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/context.py\", line 224, in _Popen\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/context.py\", line 282, in _Popen\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/popen_fork.py\", line 19, in __init__\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/popen_fork.py\", line 71, in _launch\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 314, in _bootstrap\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/multiprocessing/process.py\", line 108, in run\n\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n\n  File \"runfile_0.py\", line 63, in <module>\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py\", line 117, in error_handler\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 371, in fit\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 219, in function\n\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py\", line 132, in multi_step_on_iterator\n\nDNN library initialization failed. Look at the errors above for more details.\n\t [[{{node StatefulPartitionedCall}}]] [Op:__inference_multi_step_on_iterator_1992]\nExecution time: 14 minutes seconds (time limit is 9 hours).",
+            "Loading data...\nPreprocessing text...\nExtracting tags...\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 32, in <module>\n    all_tags = [tag for tags in train_df[\"Tags\"].str.split() for tag in tags]\n                                                                        ^^^^\nTypeError: 'float' object is not iterable\nExecution time: a minute seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n  File \"runfile_0.py\", line 79, in <module>\n    X_train, X_val = csr_matrix(vstack(X_train)), csr_matrix(vstack(X_val))\n                                ^^^^^^\nNameError: name 'vstack' is not defined. Did you mean: 'hstack'?\nExecution time: 11 minutes seconds (time limit is 9 hours).",
+            "Validation F1-Score: 0.3939\nExecution time: 47 minutes seconds (time limit is 9 hours).",
+            "Validation F1-Score: 0.3927\nExecution time: an hour seconds (time limit is 9 hours)."
+        ],
+        "analysis": [
+            null,
+            "The code execution failed due to a TypeError, indicating that a 'float' object is not iterable. This error occurred during the transformation of the tags using the MultiLabelBinarizer, suggesting that there might be missing or malformed data in the 'Tags' column. As a result, the submission.csv file was not properly produced, and the validation metric could not be computed.",
+            "The execution of the code failed due to a TypeError. The error occurred because the code attempted to iterate over a float object when processing the 'Tags' column in the training data. This indicates that there are missing or NaN values in the 'Tags' column which were not handled. As a result, the submission.csv file was not produced, and the validation metric could not be calculated.",
+            "The execution of the training script failed due to a DNN library initialization error. As a result, the model could not be trained and the validation metric could not be computed. However, the script appears to correctly generate a 'submission.csv' file in the './submission/' directory, indicating that the submission file is produced, albeit without valid predictions.",
+            "The code successfully executed and generated a submission file named 'submission.csv' in the './submission/' directory. The model was trained on the provided dataset and evaluated using the Mean F1-Score metric. The validation F1-score achieved was 0.1230, indicating the model's performance on the validation set. The goal is to maximize this metric, and the execution completed without any bugs.",
+            "The code execution failed due to a bug related to DNN library initialization. The error message indicates a failure in graph execution during the training process, preventing the model from being trained and evaluated. Consequently, the validation metric could not be calculated, and the submission file was not properly generated.",
+            "The code successfully executed and produced a submission file named 'submission.csv' in the './submission/' directory. The validation F1 score achieved by the model is 0.0989, which suggests modest performance in predicting the tags for the given text data. The F1 score is a metric that should be maximized, indicating that the model's precision and recall need improvement to enhance predictive accuracy.",
+            "The provided code encountered a runtime error during execution. Specifically, there was a TypeError when trying to determine the length of a sparse matrix, which caused the script to fail. As a result, the validation metric could not be calculated, and the submission process was not completed successfully. The error suggests that the code needs modification to handle sparse matrices correctly.",
+            "The code successfully executed and produced a submission file in the required format. The validation F1 score achieved was 0.3240, indicating the model's performance on the validation set. The metric used, F1 score, is typically maximized, meaning a higher score is better. There were no errors or bugs in the execution process.",
+            "The execution of the script failed due to a TypeError: 'coo_matrix' object is not subscriptable. This error occurred when attempting to append slices of a sparse matrix to a list, which is not directly supported. As a result, the submission.csv file was not produced, and the validation metric could not be calculated.",
+            "The code execution failed due to a bug. Specifically, there was an AttributeError caused by attempting to split a float object in the 'Tags' column of the training data. This prevented the model from training and making predictions, resulting in no validation metric being calculated. However, the code does attempt to save predictions to 'submission.csv' in the './submission/' directory, but due to the error, this file would not have been properly populated with predictions.",
+            "The execution of the code failed due to a bug. Specifically, there was an error when trying to append a 'coo_matrix' object, which is not subscriptable. This indicates an issue with indexing the sparse matrix format used in the script. As a result, the submission.csv file could not be properly produced and the metric value could not be evaluated.",
+            "The code attempts to train a neural network model for the task of predicting tags from text data. However, the execution fails due to a 'DNN library initialization failed' error during the model fitting process. This indicates a possible issue with the TensorFlow setup or GPU configuration. The submission file 'submission.csv' is generated, but since the code execution failed, the predictions might not be valid.",
+            "The code execution failed due to a TypeError. The error occurred because the code attempted to iterate over a 'float' object while extracting tags from the training data. This indicates that there are missing or improperly formatted entries in the 'Tags' column of the training dataset. As a result, the submission.csv file was not generated. The validation metric could not be evaluated due to the execution failure.",
+            "The code successfully trains a FastText model to predict tags for Stack Exchange questions, achieving a validation F1-score of 0.4302. It processes the text data and selects the top 500 tags for training. The predictions are saved correctly in a 'submission.csv' file in the './submission/' directory, indicating that the code ran without any bugs.",
+            "The execution of the training script failed due to a bug. Specifically, there was a NameError because the 'vstack' function was not defined or imported, which is necessary for stacking sparse matrices. As a result, the script could not proceed to generate the submission.csv file, and the validation metric could not be computed.",
+            "The code successfully trains a FastText model to predict tags for questions based on their titles and bodies. The model was validated using a split of the training data, achieving a validation F1-score of 0.3939. The predictions for the test data were saved in the required 'submission.csv' file, indicating a successful execution without any bugs.",
+            "The code successfully executed and produced a submission file named 'submission.csv' in the './submission/' directory. The validation F1-Score achieved is 0.3927, which indicates the model's performance in predicting tags for the text data. The metric used is F1-Score, which should be maximized for better performance."
+        ],
+        "exp_name": "facebook-recruiting-iii-keyword-extraction_mcts_comp_dpr1_v7_parallel_1[cpu-72-107]",
+        "metrics": [
+            null,
+            null,
+            null,
+            null,
+            0.123,
+            null,
+            0.0989,
+            null,
+            0.324,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.4302,
+            null,
+            0.3939,
+            0.3927
+        ],
+        "ucts": [
+            0.0,
+            0.6648577718368811,
+            2.664857771836881,
+            0.0,
+            0.6648577718368811,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            2.482079962591042,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "is_bug": [
+            "None",
+            "True",
+            "True",
+            "True",
+            "False",
+            "True",
+            "False",
+            "True",
+            "False",
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "False",
+            "True",
+            "False",
+            "False"
+        ],
+        "rewards": [
+            0.0,
+            -1.0,
+            1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            1.0,
+            -1.0,
+            1.0,
+            -1.0,
+            -1.0,
+            0.0,
+            1.0,
+            -1.0,
+            0.0,
+            0.0
+        ],
+        "visits": [
+            4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+        ],
+        "is_debug_success": [
+            "False",
+            "False",
+            "True",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "True",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False"
+        ],
+        "local_best_node_steps": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            4,
+            4,
+            8,
+            4,
+            0,
+            4,
+            0,
+            0,
+            14,
+            4,
+            14,
+            14
+        ],
+        "local_best_metrics": [
+            null,
+            null,
+            null,
+            null,
+            0.123,
+            null,
+            0.123,
+            0.123,
+            0.324,
+            0.123,
+            null,
+            0.123,
+            null,
+            null,
+            0.4302,
+            0.123,
+            0.4302,
+            0.4302
+        ],
+        "stages": [
+            "root",
+            "draft",
+            "draft",
+            "debug",
+            "draft",
+            "debug",
+            "improve",
+            "improve",
+            "debug",
+            "debug",
+            "draft",
+            "debug",
+            "debug",
+            "draft",
+            "debug",
+            "debug",
+            "improve",
+            "improve"
+        ],
+        "continue_improve": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+        ]
+    }
+}
