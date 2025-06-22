@@ -2810,7 +2810,7 @@
             const codeblocks = hljs.highlight(node.code, { language: "python" }).value;
             nodeContentCode.innerHTML = codeblocks;
             nodeContent.innerHTML = `
-                <p><strong style="color: #58a6ff">Validation Score:</strong> ${node.metric ? node.metric.toFixed(4) : 'N/A'}</p>
+                <p><strong style="color: #58a6ff">Validation Score:</strong> ${node.metric ? node.metric.toFixed(4) : 'N/A'}${node.is_bug && node.analysis != null ? ' (has bugs)' : ''}</p>
                 <p><strong style="color: #58a6ff">Plan:</strong> ${node.plan}</p>
                 <p><strong style="color: #58a6ff">Analysis:</strong> ${node.analysis}</p>
             `;
