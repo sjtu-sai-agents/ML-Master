@@ -2557,6 +2557,7 @@
                 this.metric = data.metric;
                 this.plan = data.plan;
                 this.code = data.code;
+                this.stage = data.stage;
                 this.global_step = data.global_step;
                 this.analysis = data.analysis;
                 this.ucts = data.ucts;
@@ -2720,7 +2721,8 @@
                 const nodePositionY = data.layout[i][1] * viewState.stretchY;
                 const nodeData = {
                     id: data.node_id,
-                    name: 'Step ' + data.global_step[i] + ': ' + data.stages[i],
+                    name: 'Node',
+                    stage: data.stages[i],
                     metric: data.metrics[i],
                     ucts: data.ucts[i],
                     global_step: data.global_step[i],
@@ -2734,11 +2736,12 @@
                 nodeMap[node.id] = node;
             }
             // enumerate edges
+            if (data.edges.length > 0) nodes[data.edges[0][0]].name = 'Root node';
             data.edges.forEach((edgeData, idx) => {
                 const edge = new Edge(nodes[edgeData[0]], nodes[edgeData[1]], (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * idx + NODE_POPOUT_INTERVAL);
                 nodes[edgeData[1]].appearTime = (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * (idx + NODE_POPOUT_INTERVAL);
+                nodes[edgeData[1]].name = 'Node ' + idx + ': ' + nodes[edgeData[1]].stage,
                 edges.push(edge);
-
             });
             return;
         }
@@ -2810,7 +2813,7 @@
             const codeblocks = hljs.highlight(node.code, { language: "python" }).value;
             nodeContentCode.innerHTML = codeblocks;
             nodeContent.innerHTML = `
-                <p><strong style="color: #58a6ff">Validation Score:</strong> ${node.metric ? node.metric.toFixed(4) : 'N/A'}${node.is_bug && node.analysis != null ? ' (has bugs)' : ''}</p>
+                <p><strong style="color: #58a6ff">Validation Score:</strong> ${node.metric ? node.metric.toFixed(4) : 'N/A'}${node.is_bug == 'True' && (node.analysis != null) ? ' (has bugs)' : ''}</p>
                 <p><strong style="color: #58a6ff">Plan:</strong> ${node.plan}</p>
                 <p><strong style="color: #58a6ff">Analysis:</strong> ${node.analysis}</p>
             `;
