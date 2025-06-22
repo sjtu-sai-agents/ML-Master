@@ -676,16 +676,6 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        .grouped-chart {
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-end;
-            height: 200px;
-            margin: 3rem 0;
-            position: relative;
-            padding: 0 1rem;
-        }
-
 /*         .chart-group::before {
             content: '';
             position: absolute;
@@ -696,105 +686,6 @@
             background: rgba(255, 255, 255, 0.2);
             z-index: 1;
         } */
-
-        .chart-group {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            flex: 1;
-            max-width: 200px;
-            position: relative;
-            z-index: 2;
-        }
-
-        .group-bars {
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            gap: 4px;
-            height: 150px;
-            margin-bottom: 1rem;
-        }
-
-        .bar-group {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-end;
-            height: 100%;
-        }
-
-        .bar-item {
-            width: 20px;
-            border-radius: 3px 3px 0 0;
-            position: relative;
-            animation: growBar 2s ease-out;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            min-height: 2px;
-        }
-
-        .bar-item:hover {
-            transform: scaleY(1.05) scaleX(1.1);
-            filter: brightness(1.2);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-
-        .bar-item::after {
-            content: attr(data-value);
-            position: absolute;
-            top: -25px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: white;
-            font-weight: 600;
-            font-size: 0.7rem;
-            white-space: nowrap;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            background: rgba(0, 0, 0, 0.8);
-            padding: 2px 6px;
-            border-radius: 4px;
-            pointer-events: none;
-        }
-
-        .bar-item:hover::after {
-            opacity: 1;
-        }
-
-        .complexity-label {
-            color: #667eea;
-            font-weight: 600;
-            font-size: 1rem;
-            text-align: center;
-            padding: 0.5rem;
-            border-top: 2px solid rgba(102, 126, 234, 0.3);
-            width: 100%;
-        }
-
-        .chart-legend {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            flex-wrap: wrap;
-        }
-
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: #b8b8b8;
-            font-size: 0.9rem;
-        }
-
-        .legend-color {
-            width: 16px;
-            height: 16px;
-            border-radius: 3px;
-        }
 
         .chart-bars {
             display: flex;
@@ -1283,50 +1174,9 @@
                 display: none;
             }
 
-            .grouped-chart {
-                height: 160px;
-                padding: 0 0.5rem;
-                gap: 0.5rem;
-            }
-
-            .grouped-chart::before {
-                bottom: 40px;
-            }
-
-            .group-bars {
-                height: 120px;
-                gap: 2px;
-                margin-bottom: 0.8rem;
-            }
-
-            .bar-item {
-                width: 15px;
-            }
-
-            .bar-item::after {
-                font-size: 0.6rem;
-                top: -20px;
-                padding: 1px 4px;
-            }
-
             .complexity-label {
                 font-size: 0.85rem;
                 padding: 0.3rem;
-            }
-
-            .chart-legend {
-                gap: 1rem;
-                margin-top: 2rem;
-                justify-content: center;
-            }
-
-            .legend-item {
-                font-size: 0.8rem;
-            }
-
-            .legend-color {
-                width: 12px;
-                height: 12px;
             }
 
             .chart-bars {
@@ -1405,33 +1255,8 @@
         }
 
         @media (max-width: 480px) {
-            .grouped-chart {
-                height: auto;
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .chart-group {
-                max-width: none;
-                width: 100%;
-            }
-
-            .group-bars {
-                height: 80px;
-            }
-
-            .bar-item {
-                width: 12px;
-            }
-
             .complexity-label {
                 font-size: 0.8rem;
-            }
-
-            .chart-legend {
-                flex-direction: column;
-                align-items: center;
-                gap: 0.5rem;
             }
         }
             .dropdown-loading {
@@ -1546,6 +1371,512 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
     </style>
+    <style>
+
+        /* Content Layout */
+        .performance-layout {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .chart-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        /* Chart Container with Axes */
+        .chart-container {
+            position: relative;
+            padding: 40px 20px 100px 100px;
+            margin: 2rem 0;
+            height: 450px;
+        }
+
+        /* Y-Axis */
+        .y-axis {
+            position: absolute;
+            left: 20px;
+            top: 40px;
+            bottom: 100px;
+            width: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding-right: 15px;
+        }
+
+        .y-axis-label {
+            position: absolute;
+            left: -45px;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            font-size: 0.9rem;
+            color: #888;
+            white-space: nowrap;
+            font-weight: 500;
+        }
+
+        .y-tick {
+            font-size: 0.8rem;
+            color: #aaa;
+            position: relative;
+            height: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .y-tick::after {
+            content: '';
+            position: absolute;
+            right: -15px;
+            top: 0;
+            width: 8px;
+            height: 1px;
+            background: #555;
+        }
+
+        /* X-Axis */
+        .x-axis {
+            position: absolute;
+            bottom: 20px;
+            left: 100px;
+            right: 20px;
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding-top: 15px;
+        }
+
+        .x-axis-label {
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1rem;
+            color: #ccc;
+            font-weight: 600;
+        }
+
+        .x-tick {
+            font-size: 0.9rem;
+            color: #ddd;
+            text-align: center;
+            position: relative;
+            font-weight: 600;
+            flex: 1;
+            padding: 8px 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            margin: 0 4px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .x-tick:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: rgba(102, 126, 234, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .x-tick::before {
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 12px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+            border-radius: 1px;
+        }
+
+        /* Grid Lines */
+        .chart-grid {
+            position: absolute;
+            top: 40px;
+            left: 100px;
+            right: 20px;
+            bottom: 100px;
+            pointer-events: none;
+        }
+
+        .grid-line {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .grid-line:last-child {
+            background: rgba(255, 255, 255, 0.3);
+            height: 2px;
+        }
+
+        /* Main Chart Area */
+        .grouped-chart {
+            position: absolute;
+            top: 40px;
+            left: 100px;
+            right: 20px;
+            bottom: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            padding: 0 1rem;
+        }
+
+        .chart-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            max-width: 180px;
+            height: 100%;
+            position: relative;
+        }
+
+        .group-bars {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 10px;
+            height: 100%;
+            width: 100%;
+        }
+
+        .bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100%;
+            position: relative;
+            flex: 1;
+        }
+
+        .bar-item {
+            width: 100%;
+            max-width: 32px;
+            border-radius: 6px 6px 0 0;
+            position: relative;
+            animation: growBar 2s ease-out;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            min-height: 2px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .bar-item:hover {
+            transform: scaleY(1.05) scaleX(1.1);
+            filter: brightness(1.2);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 每个柱子上直接显示数值 */
+        .bar-item::before {
+            content: attr(data-value);
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: 700;
+            font-size: 0.8rem;
+            white-space: nowrap;
+            pointer-events: none;
+            z-index: 10;
+            opacity: 0.9;
+            text-shadow: 
+                1px 1px 3px rgba(0, 0, 0, 0.9),
+                -1px -1px 3px rgba(0, 0, 0, 0.9),
+                1px -1px 3px rgba(0, 0, 0, 0.9),
+                -1px 1px 3px rgba(0, 0, 0, 0.9);
+        }
+
+        .bar-item:hover::before {
+            opacity: 0;
+        }
+
+        /* 悬停时高亮显示数值标签 */
+        .bar-item::after {
+            content: attr(data-value);
+            position: absolute;
+            top: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #667eea;
+            font-weight: 700;
+            font-size: 1rem;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+            z-index: 11;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: 2px solid #667eea;
+            text-shadow: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .bar-item:hover::after {
+            opacity: 1;
+        }
+
+        .chart-legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #ddd;
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .legend-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Table Section */
+        .performance-table-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .table-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .performance-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.8rem;
+        }
+
+        .performance-table th,
+        .performance-table td {
+            padding: 0.8rem 0.5rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .performance-table th {
+            background: rgba(102, 126, 234, 0.2);
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .performance-table td {
+            color: #e2e8f0;
+            font-size: 0.75rem;
+        }
+
+        .performance-table tr:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .method-name {
+            text-align: left !important;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .method-name.ml-master {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .best-score {
+            font-weight: 700;
+            color: #4ade80;
+        }
+
+        .table-section-header {
+            background: rgba(118, 75, 162, 0.3) !important;
+            color: #f093fb !important;
+            font-weight: 700;
+        }
+
+        @keyframes growBar {
+            from {
+                height: 0;
+            }
+        }
+
+        /* Summary */
+        .performance-summary {
+            text-align: center;
+            margin-top: 2rem;
+            color: #888;
+        }
+
+        .performance-summary p {
+            margin: 0.5rem 0;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .performance-layout {
+                gap: 2rem;
+            }
+
+            .chart-container {
+                height: 350px;
+                padding: 30px 15px 80px 80px;
+            }
+
+            .y-axis {
+                left: 15px;
+                width: 60px;
+                padding-right: 10px;
+                bottom: 80px;
+            }
+
+            .y-axis-label {
+                left: -35px;
+            }
+
+            .x-axis, .chart-grid, .grouped-chart {
+                left: 80px;
+                bottom: 80px;
+            }
+
+            .x-axis {
+                height: 60px;
+            }
+
+            .bar-item {
+                max-width: 28px;
+            }
+
+            .group-bars {
+                gap: 8px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .chart-container {
+                height: 300px;
+                padding: 20px 10px 70px 60px;
+            }
+
+            .y-axis {
+                left: 10px;
+                width: 45px;
+                bottom: 70px;
+            }
+
+            .y-axis-label {
+                left: -25px;
+                font-size: 0.8rem;
+            }
+
+            .x-axis, .chart-grid, .grouped-chart {
+                left: 60px;
+                bottom: 70px;
+            }
+
+            .x-axis {
+                height: 50px;
+            }
+
+            .x-tick {
+                font-size: 0.75rem;
+                padding: 6px 8px;
+                margin: 0 2px;
+            }
+
+            .bar-item {
+                max-width: 24px;
+            }
+
+            .bar-item::before {
+                font-size: 0.7rem;
+                top: -20px;
+            }
+
+            .bar-item::after {
+                font-size: 0.8rem;
+                top: -30px;
+                padding: 4px 8px;
+            }
+
+            .chart-legend {
+                gap: 1rem;
+                font-size: 0.75rem;
+            }
+
+            .legend-item {
+                padding: 6px 12px;
+                gap: 0.5rem;
+            }
+
+            .legend-color {
+                width: 12px;
+                height: 12px;
+            }
+
+            .performance-table th,
+            .performance-table td {
+                padding: 0.6rem 0.3rem;
+                font-size: 0.7rem;
+            }
+        }
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
 </head>
 <body>
@@ -1638,128 +1969,261 @@
                 <p class="section-subtitle">
                     ML-Master achieves superior results across all difficulty levels on MLE-Bench
                 </p>
-                <div class="performance-chart">
-                    <h3 style="text-align: center; margin-bottom: 2rem;">Medal Rate Comparison Across Task Complexities (%)</h3>
-                    
-                    <!-- Main Chart -->
-                    <div class="grouped-chart">
-                        <!-- Low Complexity Group -->
-                        <div class="chart-group">
-                            <div class="group-bars">
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 23px; background: #e3f2fd;" data-value="11.5%"></div>
+    
+                <div class="performance-layout">
+                    <!-- Chart Section -->
+                    <div class="performance-chart">
+                        <h3 class="chart-title">Medal Rate Comparison Across Task Complexities (%)</h3>
+                        
+                        <div class="chart-container">
+                            <!-- Y-Axis -->
+                            <div class="y-axis">
+                                <div class="y-axis-label">Medal Rate (%)</div>
+                                <div class="y-tick">50</div>
+                                <div class="y-tick">40</div>
+                                <div class="y-tick">30</div>
+                                <div class="y-tick">20</div>
+                                <div class="y-tick">10</div>
+                                <div class="y-tick">0</div>
+                            </div>
+    
+                            <!-- Grid Lines -->
+                            <div class="chart-grid">
+                                <div class="grid-line" style="bottom: 100%;"></div>  <!-- 50% -->
+                                <div class="grid-line" style="bottom: 80%;"></div>   <!-- 40% -->
+                                <div class="grid-line" style="bottom: 60%;"></div>   <!-- 30% -->
+                                <div class="grid-line" style="bottom: 40%;"></div>   <!-- 20% -->
+                                <div class="grid-line" style="bottom: 20%;"></div>   <!-- 10% -->
+                                <div class="grid-line" style="bottom: 0%;"></div>    <!-- 0% -->
+                            </div>
+    
+                            <!-- Main Chart -->
+                            <div class="grouped-chart">
+                                <!-- Low Complexity Group -->
+                                <div class="chart-group">
+                                    <div class="group-bars">
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 23%; background: linear-gradient(to top, #e3f2fd, #bbdefb);" data-value="11.5"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 54.6%; background: linear-gradient(to top, #bbdefb, #90caf9);" data-value="27.3"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 68.6%; background: linear-gradient(to top, #90caf9, #64b5f6);" data-value="34.3"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 96.4%; background: linear-gradient(to top, #42a5f5, #2196f3);" data-value="48.2"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 97%; background: linear-gradient(to top, #667eea, #764ba2);" data-value="48.5"></div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 55px; background: #bbdefb;" data-value="27.3%"></div>
+    
+                                <!-- Medium Complexity Group -->
+                                <div class="chart-group">
+                                    <div class="group-bars">
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 4.4%; background: linear-gradient(to top, #e3f2fd, #bbdefb);" data-value="2.2"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 15.8%; background: linear-gradient(to top, #bbdefb, #90caf9);" data-value="7.9"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 17.6%; background: linear-gradient(to top, #90caf9, #64b5f6);" data-value="8.8"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 18%; background: linear-gradient(to top, #42a5f5, #2196f3);" data-value="9.0"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 40.4%; background: linear-gradient(to top, #667eea, #764ba2);" data-value="20.2"></div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 69px; background: #90caf9;" data-value="34.3%"></div>
+    
+                                <!-- High Complexity Group -->
+                                <div class="chart-group">
+                                    <div class="group-bars">
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 3.8%; background: linear-gradient(to top, #e3f2fd, #bbdefb);" data-value="1.9"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 26.6%; background: linear-gradient(to top, #bbdefb, #90caf9);" data-value="13.3"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 20%; background: linear-gradient(to top, #90caf9, #64b5f6);" data-value="10.0"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 37.4%; background: linear-gradient(to top, #42a5f5, #2196f3);" data-value="18.7"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 48.8%; background: linear-gradient(to top, #667eea, #764ba2);" data-value="24.4"></div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 96px; background: #42a5f5;" data-value="48.2%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 97px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="48.5%"></div>
+    
+                                <!-- Average Group -->
+                                <div class="chart-group">
+                                    <div class="group-bars">
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 10.2%; background: linear-gradient(to top, #e3f2fd, #bbdefb);" data-value="5.1"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 29.4%; background: linear-gradient(to top, #bbdefb, #90caf9);" data-value="14.7"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 33.8%; background: linear-gradient(to top, #90caf9, #64b5f6);" data-value="16.9"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 44.8%; background: linear-gradient(to top, #42a5f5, #2196f3);" data-value="22.4"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 58.6%; background: linear-gradient(to top, #667eea, #764ba2);" data-value="29.3"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="complexity-label">Low</div>
+    
+                            <!-- X-Axis -->
+                            <div class="x-axis">
+                                <div class="x-axis-label">Task Complexity Levels</div>
+                                <div class="x-tick">Low Complexity</div>
+                                <div class="x-tick">Medium Complexity</div>
+                                <div class="x-tick">High Complexity</div>
+                                <div class="x-tick">Overall Average</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Legend -->
+                        <div class="chart-legend">
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #e3f2fd, #bbdefb);"></div>
+                                <span>OpenHands</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #bbdefb, #90caf9);"></div>
+                                <span>AIDE-r1</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #90caf9, #64b5f6);"></div>
+                                <span>AIDE-o1-preview</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #42a5f5, #2196f3);"></div>
+                                <span>R&D-Agent</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #667eea, #764ba2);"></div>
+                                <span>ML-Master</span>
+                            </div>
                         </div>
 
-                        <!-- Medium Complexity Group -->
-                        <div class="chart-group">
-                            <div class="group-bars">
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 4px; background: #e3f2fd;" data-value="2.2%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 16px; background: #bbdefb;" data-value="7.9%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 18px; background: #90caf9;" data-value="8.8%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 18px; background: #42a5f5;" data-value="9.0%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 40px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="20.2%"></div>
-                                </div>
-                            </div>
-                            <div class="complexity-label">Medium</div>
-                        </div>
-
-                        <!-- High Complexity Group -->
-                        <div class="chart-group">
-                            <div class="group-bars">
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 4px; background: #e3f2fd;" data-value="1.9%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 27px; background: #bbdefb;" data-value="13.3%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 20px; background: #90caf9;" data-value="10.0%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 37px; background: #42a5f5;" data-value="18.7%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 49px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="24.4%"></div>
-                                </div>
-                            </div>
-                            <div class="complexity-label">High</div>
-                        </div>
-
-                        <!-- Average Group -->
-                        <div class="chart-group">
-                            <div class="group-bars">
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 10px; background: #e3f2fd;" data-value="5.1%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 29px; background: #bbdefb;" data-value="14.7%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 34px; background: #90caf9;" data-value="16.9%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 45px; background: #42a5f5;" data-value="22.4%"></div>
-                                </div>
-                                <div class="bar-group">
-                                    <div class="bar-item" style="height: 59px; background: linear-gradient(to top, #667eea, #764ba2);" data-value="29.3%"></div>
-                                </div>
-                            </div>
-                            <div class="complexity-label">Average</div>
+                        <div class="performance-summary">
+                            <p>✨ <strong>ML-Master excels across all complexity levels</strong></p>
+                            <p>🎯 Particularly strong in Medium (<span class="highlight">20.2</span>) and High (<span class="highlight">24.4</span>) complexity tasks</p>
+                            <p>⚡ More than doubles previous best results in medium-difficulty challenges</p>
                         </div>
                     </div>
-                    
-                    <!-- Legend -->
-                    <div class="chart-legend">
-                        <div class="legend-item">
-                            <div class="legend-color" style="background: #e3f2fd;"></div>
-                            <span>OpenHands</span>
+    
+                    <!-- Table Section -->
+                    <div class="performance-table-section">
+                        <h3 class="table-title">Detailed Results on MLE-Bench</h3>
+                        <table class="performance-table">
+                            <thead>
+                                <tr>
+                                    <th>Agent</th>
+                                    <th>Valid<br>Submission(%)</th>
+                                    <th>Above<br>Median(%)</th>
+                                    <th>Bronze<br>(%)</th>
+                                    <th>Silver<br>(%)</th>
+                                    <th>Gold<br>(%)</th>
+                                    <th>Any<br>Medal(%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">MLAB</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">gpt-4o-2024-08-06</td>
+                                    <td>44.3 ± 2.6</td>
+                                    <td>1.9 ± 0.7</td>
+                                    <td>0.0 ± 0.0</td>
+                                    <td>0.0 ± 0.0</td>
+                                    <td>0.8 ± 0.5</td>
+                                    <td>0.8 ± 0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">OpenHands</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">gpt-4o-2024-08-06</td>
+                                    <td>52.0 ± 3.3</td>
+                                    <td>7.1 ± 1.7</td>
+                                    <td>0.4 ± 0.4</td>
+                                    <td>1.3 ± 0.8</td>
+                                    <td>2.7 ± 1.1</td>
+                                    <td>4.4 ± 1.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">AIDE</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">gpt-4o-2024-08-06</td>
+                                    <td>54.9 ± 1.0</td>
+                                    <td>14.4 ± 0.7</td>
+                                    <td>1.6 ± 0.2</td>
+                                    <td>2.2 ± 0.3</td>
+                                    <td>5.0 ± 0.4</td>
+                                    <td>8.7 ± 0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">o1-preview</td>
+                                    <td>82.8 ± 1.1</td>
+                                    <td>29.4 ± 1.3</td>
+                                    <td>3.4 ± 0.5</td>
+                                    <td>4.1 ± 0.6</td>
+                                    <td>9.4 ± 0.8</td>
+                                    <td>16.9 ± 1.1</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">Deepseek-R1*</td>
+                                    <td>78.6 ± 0.0</td>
+                                    <td>34.6 ± 0.0</td>
+                                    <td>2.7 ± 0.0</td>
+                                    <td>4.0 ± 0.0</td>
+                                    <td>8.0 ± 0.0</td>
+                                    <td>14.7 ± 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">R&D-Agent</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">o1-preview</td>
+                                    <td>86.1 ± 1.1</td>
+                                    <td>32.8 ± 1.2</td>
+                                    <td>3.5 ± 0.5</td>
+                                    <td>4.5 ± 0.5</td>
+                                    <td>14.4 ± 0.5</td>
+                                    <td>22.4 ± 0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">ML-Master</td>
+                                </tr>
+                                <tr style="background: rgba(102, 126, 234, 0.1);">
+                                    <td class="method-name ml-master">Deepseek-R1</td>
+                                    <td class="best-score">93.3 ± 1.3</td>
+                                    <td class="best-score">44.9 ± 1.2</td>
+                                    <td class="best-score">4.4 ± 0.9</td>
+                                    <td class="best-score">7.6 ± 0.4</td>
+                                    <td class="best-score">17.3 ± 0.8</td>
+                                    <td class="best-score">29.3 ± 0.8</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.8rem;">
+                            <p>* Single run due to resource constraints</p>
                         </div>
-                        <div class="legend-item">
-                            <div class="legend-color" style="background: #bbdefb;"></div>
-                            <span>AIDE-r1</span>
-                        </div>
-                        <div class="legend-item">
-                            <div class="legend-color" style="background: #90caf9;"></div>
-                            <span>AIDE-o1-preview</span>
-                        </div>
-                        <div class="legend-item">
-                            <div class="legend-color" style="background: #42a5f5;"></div>
-                            <span>R&D-Agent</span>
-                        </div>
-                        <div class="legend-item">
-                            <div class="legend-color" style="background: linear-gradient(to right, #667eea, #764ba2);"></div>
-                            <span>ML-Master</span>
-                        </div>
-                    </div>
-
-                    <div style="text-align: center; margin-top: 2rem; color: #888;">
-                        <p>✨ <strong>ML-Master excels across all complexity levels</strong></p>
-                        <p>🎯 Particularly strong in Medium (20.2%) and High (24.4%) complexity tasks</p>
-                        <p>⚡ More than doubles previous best results in medium-difficulty challenges</p>
                     </div>
                 </div>
             </div>
