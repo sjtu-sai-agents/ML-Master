@@ -2194,9 +2194,11 @@
             currentDemo = null;
             const demo = demoConfig.demos.find(d => d.id === demoName);
             document.getElementById('start-btn').disabled = true;
+            document.getElementById('start-btn').innerHTML = `Loading Demo...`
             loadSingleDemoData(demo).then((results) => {
                 currentDemo = demoName;
                 document.getElementById('start-btn').disabled = false;
+                document.getElementById('start-btn').innerHTML = `Start Demo`
             });
             
             
@@ -2495,6 +2497,8 @@
         const closeBtn = document.getElementById('closeBtn');
         const canvasContainer = document.querySelector('.canvas-container');
 
+        let bestNode = null;
+
         // Animation helper functions
         const quadp = (x) => 1 - (1 - Math.min(x, 1.0)) ** 4;
         const lerp = (x0, x1, r) => x1 * r + x0 * (1 - r);
@@ -2555,6 +2559,7 @@
                 this.id = data.id;
                 this.name = data.name;
                 this.metric = data.metric;
+                this.hue = data.hue;
                 this.plan = data.plan;
                 this.code = data.code;
                 this.stage = data.stage;
@@ -2572,6 +2577,8 @@
                 this.index = index;
                 this.children = [];
                 this.appearTime = 0;
+                this.bestNodeSince = 0;
+                this.bestNodeUntil = -1;
                 this.animationTimestamp = 0;
                 this.isVisible = false;
                 this.isHighlighted = false;
@@ -2612,7 +2619,7 @@
                 ctx.arc(screenX, screenY, screenRadius, 0, Math.PI * 2);
                 
                 // Color based on value (green to red)
-                const valueColor = 330 - this.ucts * 35;
+                const valueColor = this.hue;
                 
                 // Determine fill color based on state
                 let fillColor;
@@ -2639,10 +2646,19 @@
                 ctx.font = `bold ${Math.max(18 * scale, 18 * scale)}px sans-serif`;
                 ctx.textAlign = 'center';
                 ctx.textBaseline = 'middle';
-                if (typeof this.ucts === 'number' && !isNaN(this.ucts))
-                    ctx.fillText(this.ucts.toFixed(2), screenX, screenY);
+
+                if (typeof this.metric === 'number' && !isNaN(this.metric)) {
+                    ctx.fillText(this.metric > 1000 ?  (this.metric / (10 ** Math.floor(Math.log10(this.metric)))).toFixed(2): this.metric.toFixed(2), screenX, screenY);
+                }     
                 else
                     ctx.fillText("N/A", screenX, screenY);
+
+                // Draw Best Node
+                if (this.bestNodeSince <= viewState.animationTime && viewState.animationTime < this.bestNodeUntil ) {
+                    ctx.fillStyle = '#fff';
+                    ctx.font = `${24 * scale}px Arial`;
+                    ctx.fillText(`⭐`, screenX - this.radius * scale * 0.9, screenY - this.radius * scale * 0.9);
+                }
 
                 // Draw visits count below node
                 // ctx.fillStyle = '#333';
@@ -2714,16 +2730,48 @@
             }
         }
 
+        function isSecondNodeBetter(node1, node2, optim) {
+            if (node1.metric == null && node2.metric == null) return false;
+            if (node1.metric == null) return true;
+            if (node2.metric == null) return false;
+            if (optim == 'high') {
+                if (node1.metric < node2.metric) return true;
+                return false;
+            }
+            else {
+                if (node1.metric > node2.metric) return true;
+                return false;
+            }
+        }
+
+        function calculateHue(metric, comp_info) {
+            if (metric == null) return 330;
+
+            let normalizedValue = 0;
+            if (comp_info.optim == 'high') {
+                if (comp_info.baseline.best <= 1 && comp_info.baseline.median >= 0)
+                    normalizedValue = metric;
+                else
+                    normalizedValue = (Math.tanh((metric - comp_info.baseline.median) / (comp_info.baseline.best - comp_info.baseline.median)) + 1) / 1.761;
+            } else {
+                normalizedValue = (Math.tanh((metric - comp_info.baseline.median) / (comp_info.baseline.best - comp_info.baseline.median)) + 1) / 1.761;
+            }
+
+            return 330 - 90 * normalizedValue;
+        }
+
         function buildTreeFromJson(data) {
             // enumerate nodes
             for (i = 0; i < data.layout.length; i += 1) {
                 const nodePositionX = data.layout[i][0] * viewState.stretchX;
                 const nodePositionY = data.layout[i][1] * viewState.stretchY;
+                const hue = calculateHue(data.metrics[i], data.comp_info);
                 const nodeData = {
                     id: data.node_id,
                     name: 'Node',
+                    hue: hue,
                     stage: data.stages[i],
-                    metric: data.metrics[i],
+                    metric: data.is_bug[i] == 'False' ? data.metrics[i] : null,
                     ucts: data.ucts[i],
                     global_step: data.global_step[i],
                     plan: data.plan[i],
@@ -2737,12 +2785,21 @@
             }
             // enumerate edges
             if (data.edges.length > 0) nodes[data.edges[0][0]].name = 'Root node';
+            bestNode = nodes[data.edges[0][0]];
+            bestNode.bestNodeSince = 0;
+
             data.edges.forEach((edgeData, idx) => {
                 const edge = new Edge(nodes[edgeData[0]], nodes[edgeData[1]], (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * idx + NODE_POPOUT_INTERVAL);
                 nodes[edgeData[1]].appearTime = (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * (idx + NODE_POPOUT_INTERVAL);
-                nodes[edgeData[1]].name = 'Node ' + idx + ': ' + nodes[edgeData[1]].stage,
+                nodes[edgeData[1]].name = 'Node ' + idx + ': ' + nodes[edgeData[1]].stage;
+                if (isSecondNodeBetter(bestNode, nodes[edgeData[1]], data.comp_info.optim)) {
+                    bestNode.bestNodeUntil = (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * (idx + NODE_POPOUT_INTERVAL);
+                    bestNode = nodes[edgeData[1]];
+                    bestNode.bestNodeSince = (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * (idx + NODE_POPOUT_INTERVAL);
+                }
                 edges.push(edge);
             });
+            if (bestNode != nodes[data.edges[0][0]]) bestNode.bestNodeUntil = 2 ** 15; // very large number
             return;
         }
 
@@ -2772,6 +2829,7 @@
             nodeMap = {};
             datapoint = demoData[currentDemo].detail;
             layoutInfo = buildLayout(datapoint.edges, datapoint.plan.length);
+            datapoint.comp_info = demoData[currentDemo].comp_info;
             datapoint.layout = layoutInfo.layout;
             viewState.stretchX = 80 * layoutInfo.width;
             viewState.stretchY = 120 * layoutInfo.height;
@@ -2813,9 +2871,9 @@
             const codeblocks = hljs.highlight(node.code, { language: "python" }).value;
             nodeContentCode.innerHTML = codeblocks;
             nodeContent.innerHTML = `
-                <p><strong style="color: #58a6ff">Validation Score:</strong> ${node.metric ? node.metric.toFixed(4) : 'N/A'}${node.is_bug == 'True' && (node.analysis != null) ? ' (has bugs)' : ''}</p>
+                <p><strong style="color: #58a6ff">Validation Score:</strong> ${typeof node.metric === 'number' ? node.metric.toFixed(4) : 'N/A'}${node.is_bug == 'True' && (node.analysis != null) ? ' (has bugs)' : ''}</p>
                 <p><strong style="color: #58a6ff">Plan:</strong> ${node.plan}</p>
-                <p><strong style="color: #58a6ff">Analysis:</strong> ${node.analysis}</p>
+                <p><strong style="color: #58a6ff">Insight:</strong> ${node.analysis}</p>
             `;
             
             // Position and show info box
@@ -3067,6 +3125,7 @@
         function skipAnimation() {
             const animationEndTime = Math.max(...nodes.map(node => node.appearTime)) + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
             viewState.animationTime = animationEndTime;
+            showNodeDetails(bestNode);
         }
 
         // Event listeners
