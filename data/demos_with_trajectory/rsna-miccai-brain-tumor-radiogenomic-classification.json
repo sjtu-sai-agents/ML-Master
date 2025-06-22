@@ -9713,5 +9713,15 @@
             false,
             true
         ]
+    },
+    "comp_info": {
+        "optim": "high",
+        "baseline": {
+            "best": 0.62174,
+            "gold": 0.60096,
+            "silver": 0.5815,
+            "bronze": 0.57449,
+            "median": 0.52553
+        }
     }
 }

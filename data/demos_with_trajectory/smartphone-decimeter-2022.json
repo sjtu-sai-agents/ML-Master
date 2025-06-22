@@ -1,10 +1,20 @@
 {
-  "title": "ML-Master: smartphone-decimeter-2022",
-  "steps": [
-    {
-      "text": "Coming Soon",
-      "delay": 100
+    "title": "ML-Master: smartphone-decimeter-2022",
+    "steps": [
+        {
+            "text": "Coming Soon",
+            "delay": 100
+        }
+    ],
+    "code": "Coming Soon",
+    "comp_info": {
+        "optim": "low",
+        "baseline": {
+            "best": 1.229,
+            "gold": 1.768,
+            "silver": 2.119,
+            "bronze": 3.068,
+            "median": 3.3280000000000003
+        }
     }
-  ],
-  "code": "Coming Soon"
 }

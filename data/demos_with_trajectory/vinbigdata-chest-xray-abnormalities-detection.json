@@ -2009,5 +2009,15 @@
             false,
             false
         ]
+    },
+    "comp_info": {
+        "optim": "high",
+        "baseline": {
+            "best": 0.314,
+            "gold": 0.289,
+            "silver": 0.257,
+            "bronze": 0.243,
+            "median": 0.223
+        }
     }
 }
