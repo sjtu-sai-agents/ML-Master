@@ -2516,6 +2516,7 @@
         const SCALE_MAX = 1.5;
         const LINE_WIDTH_HIGHLIGHT = 5;
         const LINE_WIDTH_STANDARD = 0;
+        const PLAYBACK_RATE = 1440;
 
         // Canvas setup
         const canvas = document.getElementById('treeCanvas');
@@ -2606,6 +2607,7 @@
                 this.level = level;
                 this.index = index;
                 this.children = [];
+                this.timestamp = data.timestamp;
                 this.appearTime = 0;
                 this.bestNodeSince = 0;
                 this.bestNodeUntil = -1;
@@ -2797,11 +2799,12 @@
                 const nodePositionY = data.layout[i][1] * viewState.stretchY;
                 const hue = calculateHue(data.metrics[i], data.comp_info);
                 const nodeData = {
-                    id: data.node_id,
+                    id: data.node_id[i],
                     name: 'Node',
                     hue: hue,
                     stage: data.stages[i],
                     metric: data.is_bug[i] == 'False' ? data.metrics[i] : null,
+                    timestamp: data.timestamps[i],
                     ucts: data.ucts[i],
                     global_step: data.global_step[i],
                     plan: data.plan[i],
@@ -2819,13 +2822,16 @@
             bestNode.bestNodeSince = 0;
 
             data.edges.forEach((edgeData, idx) => {
-                const edge = new Edge(nodes[edgeData[0]], nodes[edgeData[1]], (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * idx + NODE_POPOUT_INTERVAL);
-                nodes[edgeData[1]].appearTime = (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * (idx + NODE_POPOUT_INTERVAL);
+                const edge = new Edge(
+                    nodes[edgeData[0]], nodes[edgeData[1]], 
+                    nodes[edgeData[1]].timestamp / PLAYBACK_RATE + NODE_POPOUT_INTERVAL);
+                nodes[edgeData[1]].appearTime = nodes[edgeData[1]].timestamp / PLAYBACK_RATE + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
                 nodes[edgeData[1]].name = 'Node ' + idx + ': ' + nodes[edgeData[1]].stage;
+
                 if (isSecondNodeBetter(bestNode, nodes[edgeData[1]], data.comp_info.optim)) {
-                    bestNode.bestNodeUntil = (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * (idx + NODE_POPOUT_INTERVAL);
+                    bestNode.bestNodeUntil = nodes[edgeData[1]].appearTime;
                     bestNode = nodes[edgeData[1]];
-                    bestNode.bestNodeSince = (NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL) * (idx + NODE_POPOUT_INTERVAL);
+                    bestNode.bestNodeSince = nodes[edgeData[1]].appearTime;
                 }
                 edges.push(edge);
             });
@@ -2982,8 +2988,7 @@
                 hasParent[child] = true;
             }
 
-            const root = 0; // Required by prompt
-
+            const root = 0;
             // Step 2: DFS to assign depth and build levels
             const levels = [];
             const depth = Array(numNodes).fill(0);
@@ -3019,7 +3024,7 @@
             const allX = Object.values(xPos);
             const minX = Math.min(...allX);
             const maxX = Math.max(...allX);
-            const rangeX = maxX - minX || 1;
+            const rangeX = maxX - minX;
 
             const maxDepth = levels.length - 1;
             for (let i = 0; i < numNodes; i++) {
@@ -3027,13 +3032,6 @@
                 const y = maxDepth === 0 ? 0 : depth[i] / maxDepth;
                 layouts[i] = [x, y];
             }
-
-            // Center root at (0.5, 0)
-            const deltaX = 0.5 - layouts[root][0];
-            for (let i = 0; i < numNodes; i++) {
-                layouts[i][0] = Math.min(1, Math.max(0, layouts[i][0] + deltaX));
-            }
-            layouts[root] = [0.5, 0];
 
             // Compute width (max number of nodes in a level) and height
             const width = Math.max(...levels.map(level => level.length));
