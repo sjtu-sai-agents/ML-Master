@@ -55,13 +55,13 @@
             "file": "rossmann.json"
         },
         {
-            "id": "cats-dogs",
-            "icon": "🐱",
-            "title": "Dogs vs Cats Redux",
-            "description": "Image classification • 25K images",
-            "medal": "🥈",
-            "category": "computer-vision",
-            "file": "cats-dogs.json"
+            "id": "leaf-classification",
+            "icon": "🍃",
+            "title": "leaf-classification",
+            "description": "Multi-class classification",
+            "medal": "🔝",
+            "category": "classification",
+            "file": "leaf-classification.json"
         },
         {
             "id": "leaf-classification",
