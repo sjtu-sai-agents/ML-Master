@@ -5,7 +5,7 @@
             "icon": "🚗",
             "title": "3d-object-detection-for-autonomous-vehicles",
             "description": "3D Object Detection",
-            "medal": "✅",
+            "medal": "❌",
             "category": "computer-vision",
             "file": "3d-object-detection-for-autonomous-vehicles.json"
         },
@@ -41,7 +41,7 @@
             "icon": "👁️",
             "title": "aptos2019-blindness-detection",
             "description": "Multi-class classification",
-            "medal": "🔝",
+            "medal": "🥈",
             "category": "computer-vision",
             "file": "aptos2019-blindness-detection.json"
         },
@@ -68,7 +68,7 @@
             "icon": "🍃",
             "title": "cassava-leaf-disease-classification",
             "description": "Multi-class image classification",
-            "medal": "🔝",
+            "medal": "✅",
             "category": "computer-vision",
             "file": "cassava-leaf-disease-classification.json"
         },
@@ -185,7 +185,7 @@
             "icon": "🌿",
             "title": "herbarium-2020-fgvc7",
             "description": "Fine-grained image classification",
-            "medal": "🥉",
+            "medal": "❌",
             "category": "classification",
             "file": "herbarium-2020-fgvc7.json"
         },
@@ -203,7 +203,7 @@
             "icon": "🌿",
             "title": "herbarium-2022-fgvc9",
             "description": "Fine-grained image classification",
-            "medal": "🔝",
+            "medal": "🥉",
             "category": "computer-vision",
             "file": "herbarium-2022-fgvc9.json"
         },
@@ -329,7 +329,7 @@
             "icon": "⚔️",
             "title": "lmsys-chatbot-arena",
             "description": "Multi-class classification",
-            "medal": "✅",
+            "medal": "🔝",
             "category": "classification",
             "file": "lmsys-chatbot-arena.json"
         },
@@ -428,7 +428,7 @@
             "icon": "🍕",
             "title": "random-acts-of-pizza",
             "description": "Binary classification",
-            "medal": "✅",
+            "medal": "🔝",
             "category": "classification",
             "file": "random-acts-of-pizza.json"
         },
@@ -455,7 +455,7 @@
             "icon": "🧠",
             "title": "rsna-miccai-brain-tumor-radiogenomic-classification",
             "description": "Binary classification, Medical imaging",
-            "medal": "🥇",
+            "medal": "🔝",
             "category": "classification",
             "file": "rsna-miccai-brain-tumor-radiogenomic-classification.json"
         },
@@ -464,7 +464,7 @@
             "icon": "🛸  ",
             "title": "seti-breakthrough-listen",
             "description": "Binary classification",
-            "medal": "🔝",
+            "medal": "🥇",
             "category": "classification  ",
             "file": "seti-breakthrough-listen.json"
         },
@@ -491,7 +491,7 @@
             "icon": "👻",
             "title": "spooky-author-identification",
             "description": "Multi-class classification",
-            "medal": "🥈",
+            "medal": "🥉",
             "category": "classification",
             "file": "spooky-author-identification.json"
         },
@@ -554,7 +554,7 @@
             "icon": "🗣️",
             "title": "text-normalization-challenge-english-language",
             "description": "Text Normalization",
-            "medal": "🥈",
+            "medal": "🥉",
             "category": "nlp",
             "file": "text-normalization-challenge-english-language.json"
         },
@@ -581,7 +581,7 @@
             "icon": "🐳",
             "title": "the-icml-2013-whale-challenge-right-whale-redux",
             "description": "Binary classification",
-            "medal": "🥇",
+            "medal": "🥈",
             "category": "classification",
             "file": "the-icml-2013-whale-challenge-right-whale-redux.json"
         },
@@ -608,7 +608,7 @@
             "icon": "🩺",
             "title": "uw-madison-gi-tract-image-segmentation",
             "description": "Semantic segmentation for medical imaging",
-            "medal": "✅",
+            "medal": "❌",
             "category": "computer-vision",
             "file": "uw-madison-gi-tract-image-segmentation.json"
         },
@@ -653,7 +653,7 @@
             "icon": "🩺",
             "title": "rsna-breast-cancer-detection",
             "description": "Binary classification",
-            "medal": "",
+            "medal": "✅",
             "category": "classification",
             "file": "rsna-breast-cancer-detection.json"
         },
@@ -662,9 +662,18 @@
             "icon": "📍",
             "title": "smartphone-decimeter-2022",
             "description": "Geospatial Regression",
-            "medal": "",
+            "medal": "✅",
             "category": "regression",
             "file": "smartphone-decimeter-2022.json"
+        },
+        {
+            "id": "leaf-classification",
+            "icon": "🍃",
+            "title": "leaf-classification",
+            "description": "Multi-class classification",
+            "medal": "✅",
+            "category": "classification",
+            "file": "leaf-classification.json"
         }
     ],
     "categories": {

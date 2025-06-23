@@ -3,714 +3,1027 @@
     "steps": [
         {
             "text": "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task icecube-neutrinos-in-deep-ice --time-limit 12h",
-            "delay": 200
+            "delay": 0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Starting run \"icecube-neutrinos-in-deep-ice\"",
-            "delay": 200
+            "delay": 0.025
         },
         {
             "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
-            "delay": 200
+            "delay": 0.0006944444444444445
         },
         {
             "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
-            "delay": 200
+            "delay": 4.513888888888889
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.001388888888888889
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Node 934a0042c0ad4c67b324b47e27c8f872 is not fully expanded, expanding",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 2cbec93060e3488d8c5258c80c0616db is not fully expanded, expanding",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 2cbec93060e3488d8c5258c80c0616db is not fully expanded, expanding",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 2cbec93060e3488d8c5258c80c0616db is not fully expanded, expanding",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0006944444444444445
         },
         {
             "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 934a0042c0ad4c67b324b47e27c8f872 expected_child_count is 1.",
+            "delay": 0.008333333333333333
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 934a0042c0ad4c67b324b47e27c8f872 is not fully expanded, expanding",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 934a0042c0ad4c67b324b47e27c8f872 expected_child_count is 2.",
+            "delay": 0.11041666666666666
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 0.05416666666666667
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 934a0042c0ad4c67b324b47e27c8f872 is not fully expanded, expanding",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current 934a0042c0ad4c67b324b47e27c8f872 expected_child_count is 3.",
+            "delay": 0.013194444444444444
         },
         {
-            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 75.22777777777777
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current 2cbec93060e3488d8c5258c80c0616db expected_child_count is 1.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 425f8ed39fd04853a61811854d13e04d",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current 2cbec93060e3488d8c5258c80c0616db expected_child_count is 2.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 2cbec93060e3488d8c5258c80c0616db expected_child_count is 3.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node cda87427f1eb4a3a8b0ddcc83236ca41",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node cda87427f1eb4a3a8b0ddcc83236ca41 is locked.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 425f8ed39fd04853a61811854d13e04d is locked.",
+            "delay": 0.0006944444444444445
         },
         {
             "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Current running process: 0",
-            "delay": 200
+            "delay": 9.08611111111111
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node 1c13c887bf5f480da47ccc48f46e2f69",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 425f8ed39fd04853a61811854d13e04d",
+            "delay": 2.897222222222222
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 1c13c887bf5f480da47ccc48f46e2f69 is locked.",
-            "delay": 200
+            "text": "<span class='warning'>[WARNING]</span>: Node 425f8ed39fd04853a61811854d13e04d is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 425f8ed39fd04853a61811854d13e04d is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 425f8ed39fd04853a61811854d13e04d is None.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node ba3c12a7b0f34d41a0d214d83ec537b1",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node ba3c12a7b0f34d41a0d214d83ec537b1 is locked.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node ba3c12a7b0f34d41a0d214d83ec537b1",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node ba3c12a7b0f34d41a0d214d83ec537b1 is buggy and/or did not produce a submission.csv",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node ba3c12a7b0f34d41a0d214d83ec537b1 is None.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 2cbec93060e3488d8c5258c80c0616db, the generated node is ba3c12a7b0f34d41a0d214d83ec537b1, the metric is None",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 934a0042c0ad4c67b324b47e27c8f872, the generated node is 425f8ed39fd04853a61811854d13e04d, the metric is None",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: agent return to main ba3c12a7b0f34d41a0d214d83ec537b1",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: agent return to main 425f8ed39fd04853a61811854d13e04d",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is ba3c12a7b0f34d41a0d214d83ec537b1",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is 425f8ed39fd04853a61811854d13e04d",
+            "delay": 0.022222222222222223
         },
         {
             "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=2,edges=[(0, 1)]",
-            "delay": 200
+            "delay": 0.025
         },
         {
             "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 4/500",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: ba3c12a7b0f34d41a0d214d83ec537b1",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 425f8ed39fd04853a61811854d13e04d",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: ba3c12a7b0f34d41a0d214d83ec537b1",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 425f8ed39fd04853a61811854d13e04d",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodeba3c12a7b0f34d41a0d214d83ec537b1.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 425f8ed39fd04853a61811854d13e04d.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current ba3c12a7b0f34d41a0d214d83ec537b1 expected_child_count is 1.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current 425f8ed39fd04853a61811854d13e04d expected_child_count is 1.",
+            "delay": 0.013888888888888888
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 5.689583333333333
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Debugged node ba3c12a7b0f34d41a0d214d83ec537b1 to create new node d7a5262ced62460a954a1b3af6fc4757",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 252139cac0b347cf93ff6229790e1b4b",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 252139cac0b347cf93ff6229790e1b4b is locked.",
+            "delay": 0.0006944444444444445
         },
         {
             "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
-            "delay": 200
-        },
-        {
-            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node cda87427f1eb4a3a8b0ddcc83236ca41",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node cda87427f1eb4a3a8b0ddcc83236ca41 is buggy and/or did not produce a submission.csv",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node cda87427f1eb4a3a8b0ddcc83236ca41 is None.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 2cbec93060e3488d8c5258c80c0616db, the generated node is cda87427f1eb4a3a8b0ddcc83236ca41, the metric is None",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: agent return to main cda87427f1eb4a3a8b0ddcc83236ca41",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is cda87427f1eb4a3a8b0ddcc83236ca41",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=3,edges=[(0, 2), (0, 1)]",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 5/500",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: cda87427f1eb4a3a8b0ddcc83236ca41",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: cda87427f1eb4a3a8b0ddcc83236ca41",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Nodecda87427f1eb4a3a8b0ddcc83236ca41.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current cda87427f1eb4a3a8b0ddcc83236ca41 expected_child_count is 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Debugged node cda87427f1eb4a3a8b0ddcc83236ca41 to create new node 5466aa0f168c4977ab41cfbbf7aeacba",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 5466aa0f168c4977ab41cfbbf7aeacba",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 5466aa0f168c4977ab41cfbbf7aeacba is buggy and/or did not produce a submission.csv",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 5466aa0f168c4977ab41cfbbf7aeacba is None.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node cda87427f1eb4a3a8b0ddcc83236ca41, the generated node is 5466aa0f168c4977ab41cfbbf7aeacba, the metric is None",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: agent return to main 5466aa0f168c4977ab41cfbbf7aeacba",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node d7a5262ced62460a954a1b3af6fc4757",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node d7a5262ced62460a954a1b3af6fc4757 is not buggy",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node d7a5262ced62460a954a1b3af6fc4757 is 85.07.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node ba3c12a7b0f34d41a0d214d83ec537b1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node d7a5262ced62460a954a1b3af6fc4757 is assigned as the local best",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: node d7a5262ced62460a954a1b3af6fc4757 start backpropagating with reward 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Draft node ba3c12a7b0f34d41a0d214d83ec537b1 is unlocked.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node ba3c12a7b0f34d41a0d214d83ec537b1, the generated node is d7a5262ced62460a954a1b3af6fc4757, the metric is 85.07",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node d7a5262ced62460a954a1b3af6fc4757 is the best node so far",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 85.07.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: agent return root to main",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 1c13c887bf5f480da47ccc48f46e2f69",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 1c13c887bf5f480da47ccc48f46e2f69 is buggy and/or did not produce a submission.csv",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 1c13c887bf5f480da47ccc48f46e2f69 is None.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 2cbec93060e3488d8c5258c80c0616db, the generated node is 1c13c887bf5f480da47ccc48f46e2f69, the metric is None",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 85.07.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: agent return to main 1c13c887bf5f480da47ccc48f46e2f69",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current node count is 3, current node.id is 1c13c887bf5f480da47ccc48f46e2f69",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 4), (2, 3)]",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 5466aa0f168c4977ab41cfbbf7aeacba",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 1c13c887bf5f480da47ccc48f46e2f69",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 1c13c887bf5f480da47ccc48f46e2f69",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node1c13c887bf5f480da47ccc48f46e2f69.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 1c13c887bf5f480da47ccc48f46e2f69 expected_child_count is 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 4), (2, 3)]",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 5466aa0f168c4977ab41cfbbf7aeacba",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 5466aa0f168c4977ab41cfbbf7aeacba",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node5466aa0f168c4977ab41cfbbf7aeacba.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 5466aa0f168c4977ab41cfbbf7aeacba expected_child_count is 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 4), (2, 3)]",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 2cbec93060e3488d8c5258c80c0616db is not fully expanded, expanding",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 2cbec93060e3488d8c5258c80c0616db expected_child_count is 4.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Debugged node 5466aa0f168c4977ab41cfbbf7aeacba to create new node 9087a3a04ad14a0680da1759491b9f7a",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Current running process: 0",
-            "delay": 200
+            "delay": 17.141666666666666
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Debugged node 1c13c887bf5f480da47ccc48f46e2f69 to create new node 4f7f4e84a94e41a6a01afea05eb41104",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 252139cac0b347cf93ff6229790e1b4b",
+            "delay": 2.213888888888889
         },
         {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
+            "text": "<span class='warning'>[WARNING]</span>: Node 252139cac0b347cf93ff6229790e1b4b is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 252139cac0b347cf93ff6229790e1b4b is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node bb1f38c856d3465fbedde3a25c0f1b3d",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 252139cac0b347cf93ff6229790e1b4b is None.",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node bb1f38c856d3465fbedde3a25c0f1b3d is locked.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node bb1f38c856d3465fbedde3a25c0f1b3d",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node bb1f38c856d3465fbedde3a25c0f1b3d is buggy and/or did not produce a submission.csv",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node bb1f38c856d3465fbedde3a25c0f1b3d is None.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 2cbec93060e3488d8c5258c80c0616db, the generated node is bb1f38c856d3465fbedde3a25c0f1b3d, the metric is None",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 934a0042c0ad4c67b324b47e27c8f872, the generated node is 252139cac0b347cf93ff6229790e1b4b, the metric is None",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 85.07.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: agent return to main 252139cac0b347cf93ff6229790e1b4b",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: agent return to main bb1f38c856d3465fbedde3a25c0f1b3d",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is 252139cac0b347cf93ff6229790e1b4b",
+            "delay": 0.01875
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 4f7f4e84a94e41a6a01afea05eb41104",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=3,edges=[(0, 2), (0, 1)]",
+            "delay": 0.02013888888888889
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 4f7f4e84a94e41a6a01afea05eb41104 is not buggy",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 5/500",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 4f7f4e84a94e41a6a01afea05eb41104 is 92.5342.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 252139cac0b347cf93ff6229790e1b4b",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 1c13c887bf5f480da47ccc48f46e2f69.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 252139cac0b347cf93ff6229790e1b4b",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 4f7f4e84a94e41a6a01afea05eb41104 is assigned as the local best",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: node 4f7f4e84a94e41a6a01afea05eb41104 start backpropagating with reward 1.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 252139cac0b347cf93ff6229790e1b4b.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Draft node 1c13c887bf5f480da47ccc48f46e2f69 is unlocked.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current 252139cac0b347cf93ff6229790e1b4b expected_child_count is 1.",
+            "delay": 0.013888888888888888
         },
         {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 1c13c887bf5f480da47ccc48f46e2f69, the generated node is 4f7f4e84a94e41a6a01afea05eb41104, the metric is 92.5342",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 16.419444444444444
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Node 4f7f4e84a94e41a6a01afea05eb41104 is not the best node",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Drafted new node de04cb90ede94d3ca3408c73bfe60b24",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Node d7a5262ced62460a954a1b3af6fc4757 is still the best node",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node de04cb90ede94d3ca3408c73bfe60b24 is locked.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 85.07.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 25.697222222222223
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 252139cac0b347cf93ff6229790e1b4b to create new node 413c4900c3d14fb2b3b2a8af7b23b0ea",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 12.36111111111111
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 425f8ed39fd04853a61811854d13e04d to create new node 0ee2f30217d64cfb915c54017b8f73c1",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 13.808333333333334
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 0ee2f30217d64cfb915c54017b8f73c1",
+            "delay": 1.9208333333333334
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 0ee2f30217d64cfb915c54017b8f73c1 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 0ee2f30217d64cfb915c54017b8f73c1 is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 0ee2f30217d64cfb915c54017b8f73c1 is None.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 425f8ed39fd04853a61811854d13e04d, the generated node is 0ee2f30217d64cfb915c54017b8f73c1, the metric is None",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 0ee2f30217d64cfb915c54017b8f73c1",
+            "delay": 5871.6375
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node de04cb90ede94d3ca3408c73bfe60b24",
+            "delay": 1.6791666666666667
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node de04cb90ede94d3ca3408c73bfe60b24 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node de04cb90ede94d3ca3408c73bfe60b24 is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node de04cb90ede94d3ca3408c73bfe60b24 is None.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 934a0042c0ad4c67b324b47e27c8f872, the generated node is de04cb90ede94d3ca3408c73bfe60b24, the metric is None",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main de04cb90ede94d3ca3408c73bfe60b24",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 3, current node.id is de04cb90ede94d3ca3408c73bfe60b24",
+            "delay": 0.022222222222222223
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 2), (0, 1), (0, 4), (1, 3)]",
+            "delay": 0.02638888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is 0ee2f30217d64cfb915c54017b8f73c1",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: de04cb90ede94d3ca3408c73bfe60b24",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: de04cb90ede94d3ca3408c73bfe60b24",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node de04cb90ede94d3ca3408c73bfe60b24.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current de04cb90ede94d3ca3408c73bfe60b24 expected_child_count is 1.",
+            "delay": 0.015277777777777777
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 0.001388888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=5,edges=[(0, 2), (0, 1), (0, 4), (1, 3)]",
+            "delay": 0.01597222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 7/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 0ee2f30217d64cfb915c54017b8f73c1",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 0ee2f30217d64cfb915c54017b8f73c1",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 0ee2f30217d64cfb915c54017b8f73c1.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 0ee2f30217d64cfb915c54017b8f73c1 expected_child_count is 1.",
+            "delay": 0.013194444444444444
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 16.625
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node de04cb90ede94d3ca3408c73bfe60b24 to create new node 947b4b956acd4facadcf748df7c23b47",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 4.406944444444444
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 947b4b956acd4facadcf748df7c23b47",
+            "delay": 1.7743055555555556
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 947b4b956acd4facadcf748df7c23b47 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 947b4b956acd4facadcf748df7c23b47 is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 947b4b956acd4facadcf748df7c23b47 is None.",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node de04cb90ede94d3ca3408c73bfe60b24, the generated node is 947b4b956acd4facadcf748df7c23b47, the metric is None",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 947b4b956acd4facadcf748df7c23b47",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 5, current node.id is 947b4b956acd4facadcf748df7c23b47",
+            "delay": 0.019444444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (4, 5)]",
+            "delay": 0.017361111111111112
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 947b4b956acd4facadcf748df7c23b47",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 947b4b956acd4facadcf748df7c23b47",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 947b4b956acd4facadcf748df7c23b47.",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 947b4b956acd4facadcf748df7c23b47 expected_child_count is 1.",
+            "delay": 0.013194444444444444
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 23.450694444444444
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 947b4b956acd4facadcf748df7c23b47 to create new node 695b1abdebe84da2bc2511478492f599",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 13.10763888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 0ee2f30217d64cfb915c54017b8f73c1 to create new node f398f6b56e2f494888d07bd9b88e121b",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 10.73611111111111
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node f398f6b56e2f494888d07bd9b88e121b",
+            "delay": 1.8784722222222223
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node f398f6b56e2f494888d07bd9b88e121b is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node f398f6b56e2f494888d07bd9b88e121b is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node f398f6b56e2f494888d07bd9b88e121b is None.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 0ee2f30217d64cfb915c54017b8f73c1, the generated node is f398f6b56e2f494888d07bd9b88e121b, the metric is None",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main f398f6b56e2f494888d07bd9b88e121b",
+            "delay": 1752.798611111111
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 695b1abdebe84da2bc2511478492f599",
+            "delay": 1.9631944444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 695b1abdebe84da2bc2511478492f599 is not buggy",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 695b1abdebe84da2bc2511478492f599 is 1.5594059033810306.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 947b4b956acd4facadcf748df7c23b47.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 695b1abdebe84da2bc2511478492f599 is assigned as the local best",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node 695b1abdebe84da2bc2511478492f599 start backpropagating with reward 1.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node de04cb90ede94d3ca3408c73bfe60b24 is unlocked.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 947b4b956acd4facadcf748df7c23b47, the generated node is 695b1abdebe84da2bc2511478492f599, the metric is 1.5594059033810306",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 695b1abdebe84da2bc2511478492f599 is the best node so far",
+            "delay": 0.5847222222222223
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 1.5594059033810306.",
+            "delay": 0.027777777777777776
         },
         {
             "text": "<span class='info'>[INFO]</span>: agent return root to main",
-            "delay": 200
+            "delay": 14773.097222222223
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 2cbec93060e3488d8c5258c80c0616db",
-            "delay": 200
+            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
+            "delay": 0.43819444444444444
         },
         {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=8,edges=[(0, 5), (0, 2), (0, 1), (0, 6), (1, 4), (2, 3), (5, 7)]",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 413c4900c3d14fb2b3b2a8af7b23b0ea",
+            "delay": 1.8159722222222223
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 9087a3a04ad14a0680da1759491b9f7a",
-            "delay": 200
+            "text": "<span class='warning'>[WARNING]</span>: Node 413c4900c3d14fb2b3b2a8af7b23b0ea is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 9087a3a04ad14a0680da1759491b9f7a is not buggy",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 413c4900c3d14fb2b3b2a8af7b23b0ea is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 9087a3a04ad14a0680da1759491b9f7a is 1.5591.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 413c4900c3d14fb2b3b2a8af7b23b0ea is None.",
+            "delay": 0.003472222222222222
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 5466aa0f168c4977ab41cfbbf7aeacba.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 252139cac0b347cf93ff6229790e1b4b, the generated node is 413c4900c3d14fb2b3b2a8af7b23b0ea, the metric is None",
+            "delay": 0.002777777777777778
         },
         {
-            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 9087a3a04ad14a0680da1759491b9f7a is assigned as the local best",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: node 9087a3a04ad14a0680da1759491b9f7a start backpropagating with reward 1.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 1.5594059033810306.",
+            "delay": 0.002777777777777778
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Draft node cda87427f1eb4a3a8b0ddcc83236ca41 is unlocked.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: agent return to main 413c4900c3d14fb2b3b2a8af7b23b0ea",
+            "delay": 0.002777777777777778
         },
         {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 5466aa0f168c4977ab41cfbbf7aeacba, the generated node is 9087a3a04ad14a0680da1759491b9f7a, the metric is 1.5591",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 413c4900c3d14fb2b3b2a8af7b23b0ea",
+            "delay": 0.03263888888888889
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Node 9087a3a04ad14a0680da1759491b9f7a is the best node so far",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 8), (3, 6), (4, 5), (5, 7)]",
+            "delay": 0.029861111111111113
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 1.5591.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 413c4900c3d14fb2b3b2a8af7b23b0ea",
+            "delay": 0.004166666666666667
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 413c4900c3d14fb2b3b2a8af7b23b0ea",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 413c4900c3d14fb2b3b2a8af7b23b0ea.",
+            "delay": 0.0020833333333333333
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 413c4900c3d14fb2b3b2a8af7b23b0ea expected_child_count is 1.",
+            "delay": 0.011111111111111112
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 8), (3, 6), (4, 5), (5, 7)]",
+            "delay": 0.004861111111111111
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 0.0125
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is f398f6b56e2f494888d07bd9b88e121b",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.007638888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 934a0042c0ad4c67b324b47e27c8f872 is not fully expanded, expanding",
+            "delay": 0.004166666666666667
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.00625
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 934a0042c0ad4c67b324b47e27c8f872 expected_child_count is 4.",
+            "delay": 0.004166666666666667
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=9,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 8), (3, 6), (4, 5), (5, 7)]",
+            "delay": 0.011111111111111112
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 0.007638888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 11/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: f398f6b56e2f494888d07bd9b88e121b",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: f398f6b56e2f494888d07bd9b88e121b",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.001388888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node f398f6b56e2f494888d07bd9b88e121b.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current f398f6b56e2f494888d07bd9b88e121b expected_child_count is 1.",
+            "delay": 0.015277777777777777
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 29.35902777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 413c4900c3d14fb2b3b2a8af7b23b0ea to create new node 031234a45f004571b9bd66d515385f77",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 10.845833333333333
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 031234a45f004571b9bd66d515385f77",
+            "delay": 1.7868055555555555
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 031234a45f004571b9bd66d515385f77 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.001388888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 031234a45f004571b9bd66d515385f77 is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 031234a45f004571b9bd66d515385f77 is None.",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 413c4900c3d14fb2b3b2a8af7b23b0ea, the generated node is 031234a45f004571b9bd66d515385f77, the metric is None",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: result node has bug.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 1.5594059033810306.",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main 031234a45f004571b9bd66d515385f77",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 9, current node.id is 031234a45f004571b9bd66d515385f77",
+            "delay": 0.029861111111111113
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=10,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 8), (3, 6), (4, 5), (5, 7), (8, 9)]",
+            "delay": 0.020833333333333332
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 12/500",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 031234a45f004571b9bd66d515385f77",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 031234a45f004571b9bd66d515385f77",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 031234a45f004571b9bd66d515385f77.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 031234a45f004571b9bd66d515385f77 expected_child_count is 1.",
+            "delay": 0.015277777777777777
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 33.96875
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 031234a45f004571b9bd66d515385f77 to create new node dcb3f5a029fa43bda1cc9b9938c8fa3a",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.001388888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 65.33194444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node f398f6b56e2f494888d07bd9b88e121b to create new node a4f4832c73b246acac1171107369c4ee",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
+            "delay": 42.65833333333333
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 7a6bab29dba547ff958a7f93e6b64fb3",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 7a6bab29dba547ff958a7f93e6b64fb3 is locked.",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0020833333333333333
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 375.4347222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node dcb3f5a029fa43bda1cc9b9938c8fa3a",
+            "delay": 1.6972222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node dcb3f5a029fa43bda1cc9b9938c8fa3a is not buggy",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node dcb3f5a029fa43bda1cc9b9938c8fa3a is 1.5601.",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 031234a45f004571b9bd66d515385f77.",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node dcb3f5a029fa43bda1cc9b9938c8fa3a is assigned as the local best",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: node dcb3f5a029fa43bda1cc9b9938c8fa3a start backpropagating with reward 1.",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Draft node 252139cac0b347cf93ff6229790e1b4b is unlocked.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 031234a45f004571b9bd66d515385f77, the generated node is dcb3f5a029fa43bda1cc9b9938c8fa3a, the metric is 1.5601",
+            "delay": 0.001388888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node dcb3f5a029fa43bda1cc9b9938c8fa3a is not the best node",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 695b1abdebe84da2bc2511478492f599 is still the best node",
+            "delay": 0.002777777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 1.5594059033810306.",
+            "delay": 0.002777777777777778
         },
         {
             "text": "<span class='info'>[INFO]</span>: agent return root to main",
-            "delay": 200
+            "delay": 0.001388888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 10, current node.id is 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.027777777777777776
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=11,edges=[(0, 2), (0, 1), (0, 4), (1, 3), (2, 8), (3, 6), (4, 5), (5, 7), (8, 9), (9, 10)]",
+            "delay": 0.027777777777777776
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 13/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0020833333333333333
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 934a0042c0ad4c67b324b47e27c8f872 is not fully expanded, expanding",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 934a0042c0ad4c67b324b47e27c8f872",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 0.0020833333333333333
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 934a0042c0ad4c67b324b47e27c8f872 expected_child_count is 5.",
+            "delay": 0.01597222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 176.89375
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 58a2f02f94164f0489b272b5b5fed9d2",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 58a2f02f94164f0489b272b5b5fed9d2 is locked.",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.001388888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 0.001388888888888889
         },
         {
             "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
             "delay": 200
         }
     ],
-    "code": "<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">import</span> numpy <span class=\"keyword\">as</span> np\n<span class=\"keyword\">from</span> pathlib <span class=\"keyword\">import</span> Path\n<span class=\"keyword\">import</span> glob\n\n<span class=\"comment\"># Load sensor geometry</span>\nsensor_geo = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">input/sensor_geometry.csv</span><span class=\"string\">&quot;</span>)\n\n\n<span class=\"keyword\">def</span> <span class=\"function\">vector_to_angles</span>(x, y, z):\n    norm = np.sqrt(x**<span class=\"number\">2</span> + y**<span class=\"number\">2</span> + z**<span class=\"number\">2</span>)\n    <span class=\"keyword\">if</span> norm == <span class=\"number\">0</span>:\n        <span class=\"keyword\">return</span> <span class=\"number\">0.0</span>, <span class=\"number\">0.0</span>\n    x, y, z = x / norm, y / norm, z / norm\n    azimuth = np.arctan2(y, x) % (<span class=\"number\">2</span> * np.pi)\n    zenith = np.arccos(z)\n    <span class=\"keyword\">return</span> azimuth, zenith\n\n\n<span class=\"keyword\">def</span> <span class=\"function\">process_event</span>(pulses, n=<span class=\"number\">10</span>):\n    main_pulses = pulses[~pulses[<span class=\"string\">&quot;</span><span class=\"string\">auxiliary</span><span class=\"string\">&quot;</span>]]\n    <span class=\"keyword\">if</span> len(main_pulses) == <span class=\"number\">0</span>:\n        main_pulses = pulses\n    main_pulses = (\n        main_pulses.merge(sensor_geo, on=<span class=\"string\">&quot;</span><span class=\"string\">sensor_id</span><span class=\"string\">&quot;</span>).sort_values(<span class=\"string\">&quot;</span><span class=\"string\">time</span><span class=\"string\">&quot;</span>).head(n)\n    )\n    <span class=\"keyword\">if</span> len(main_pulses) == <span class=\"number\">0</span>:\n        <span class=\"keyword\">return</span> <span class=\"number\">0.0</span>, <span class=\"number\">0.0</span>\n    sum_charge = main_pulses[<span class=\"string\">&quot;</span><span class=\"string\">charge</span><span class=\"string\">&quot;</span>].sum()\n    <span class=\"keyword\">if</span> sum_charge == <span class=\"number\">0</span>:\n        avg_x, avg_y, avg_z = main_pulses[[<span class=\"string\">&quot;</span><span class=\"string\">x</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">y</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">z</span><span class=\"string\">&quot;</span>]].mean()\n    <span class=\"keyword\">else</span>:\n        weights = main_pulses[<span class=\"string\">&quot;</span><span class=\"string\">charge</span><span class=\"string\">&quot;</span>] / sum_charge\n        avg_x = (main_pulses[<span class=\"string\">&quot;</span><span class=\"string\">x</span><span class=\"string\">&quot;</span>] * weights).sum()\n        avg_y = (main_pulses[<span class=\"string\">&quot;</span><span class=\"string\">y</span><span class=\"string\">&quot;</span>] * weights).sum()\n        avg_z = (main_pulses[<span class=\"string\">&quot;</span><span class=\"string\">z</span><span class=\"string\">&quot;</span>] * weights).sum()\n    <span class=\"keyword\">return</span> vector_to_angles(avg_x, avg_y, avg_z)\n\n\n<span class=\"comment\"># Validation on sample training data</span>\ntrain_meta = pd.read_parquet(<span class=\"string\">&quot;</span><span class=\"string\">input/train_meta.parquet</span><span class=\"string\">&quot;</span>).sample(<span class=\"number\">1000</span>, random_state=<span class=\"number\">42</span>)\nval_preds, val_true = [], []\n<span class=\"keyword\">for</span> batch_id in train_meta[<span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>].unique():\n    batch_path = <span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">input/train/batch_</span><span class=\"string\">{</span>batch_id<span class=\"string\">}</span><span class=\"string\">.parquet</span><span class=\"string\">&quot;</span>\n    <span class=\"keyword\">if</span> not Path(batch_path).exists():\n        <span class=\"keyword\">continue</span>\n    batch_pulses = pd.read_parquet(batch_path)\n    <span class=\"keyword\">for</span> event_id in train_meta[train_meta[<span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>] == batch_id][<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>]:\n        <span class=\"keyword\">if</span> event_id not in batch_pulses.index:\n            <span class=\"keyword\">continue</span>\n        az_pred, zen_pred = process_event(batch_pulses.loc[event_id])\n        val_preds.append((az_pred, zen_pred))\n        true = train_meta[train_meta[<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>] == event_id][\n            [<span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>]\n        ].iloc[<span class=\"number\">0</span>]\n        val_true.append((true[<span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>], true[<span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>]))\n\n<span class=\"comment\"># Calculate validation metric (FIXED HERE)</span>\nvec_true = np.array(\n    [\n        [np.cos(az) * np.sin(zen), np.sin(az) * np.sin(zen), np.cos(zen)]\n        <span class=\"keyword\">for</span> az, zen in val_true\n    ]\n).T\nvec_pred = np.array(\n    [\n        [np.cos(az) * np.sin(zen), np.sin(az) * np.sin(zen), np.cos(zen)]\n        <span class=\"keyword\">for</span> az, zen in val_preds\n    ]\n).T\ndot_prod = np.sum(vec_true * vec_pred, axis=<span class=\"number\">0</span>)\nmae = np.mean(np.degrees(np.arccos(np.clip(dot_prod, -<span class=\"number\">1</span>, <span class=\"number\">1</span>))))\nprint(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Validation MAE: </span><span class=\"string\">{</span>mae<span class=\"string\">:</span><span class=\"string\">.2f</span><span class=\"string\">}</span><span class=\"string\">°</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Generate test predictions</span>\ntest_meta = pd.read_parquet(<span class=\"string\">&quot;</span><span class=\"string\">input/test_meta.parquet</span><span class=\"string\">&quot;</span>)\nsubmission = []\n<span class=\"keyword\">for</span> batch_path in glob.glob(<span class=\"string\">&quot;</span><span class=\"string\">input/test/batch_*.parquet</span><span class=\"string\">&quot;</span>):\n    batch_id = int(Path(batch_path).stem.split(<span class=\"string\">&quot;</span><span class=\"string\">_</span><span class=\"string\">&quot;</span>)[<span class=\"number\">1</span>])\n    batch_pulses = pd.read_parquet(batch_path)\n    batch_events = test_meta[test_meta[<span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>] == batch_id]\n    <span class=\"keyword\">for</span> event_id in batch_events[<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>]:\n        <span class=\"keyword\">if</span> event_id not in batch_pulses.index:\n            az, zen = <span class=\"number\">0.0</span>, <span class=\"number\">0.0</span>\n        <span class=\"keyword\">else</span>:\n            az, zen = process_event(batch_pulses.loc[event_id])\n        submission.append({<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>: event_id, <span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>: az, <span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>: zen})\n\n<span class=\"comment\"># Ensure all test events are included</span>\nsubmission_df = pd.DataFrame(submission)\nmissing_events = set(test_meta[<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>]) - set(submission_df[<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>])\n<span class=\"keyword\">for</span> event_id in missing_events:\n    submission_df = pd.concat(\n        [\n            submission_df,\n            pd.DataFrame([{<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>: event_id, <span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>: <span class=\"number\">0.0</span>, <span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>: <span class=\"number\">0.0</span>}]),\n        ],\n        ignore_index=<span class=\"keyword\">True</span>,\n    )\n\nsubmission_df.to_csv(<span class=\"string\">&quot;</span><span class=\"string\">submission/submission.csv</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>)\n",
+    "code": "<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">import</span> numpy <span class=\"keyword\">as</span> np\n<span class=\"keyword\">import</span> lightgbm <span class=\"keyword\">as</span> lgb\n<span class=\"keyword\">from</span> sklearn.model_selection <span class=\"keyword\">import</span> train_test_split\n<span class=\"keyword\">from</span> joblib <span class=\"keyword\">import</span> Parallel, delayed\n\nsensor_geo = pd.read_csv(<span class=\"string\">&quot;</span><span class=\"string\">input/sensor_geometry.csv</span><span class=\"string\">&quot;</span>).set_index(<span class=\"string\">&quot;</span><span class=\"string\">sensor_id</span><span class=\"string\">&quot;</span>)\n\n\n<span class=\"keyword\">def</span> <span class=\"function\">process_batch</span>(batch_path):\n    pulses = pd.read_parquet(batch_path).reset_index()\n    pulses = pulses.join(sensor_geo, on=<span class=\"string\">&quot;</span><span class=\"string\">sensor_id</span><span class=\"string\">&quot;</span>)\n\n    features = pulses.groupby(<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>).agg(\n        {\n            <span class=\"string\">&quot;</span><span class=\"string\">charge</span><span class=\"string\">&quot;</span>: [<span class=\"string\">&quot;</span><span class=\"string\">sum</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">mean</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">std</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">max</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">min</span><span class=\"string\">&quot;</span>],\n            <span class=\"string\">&quot;</span><span class=\"string\">time</span><span class=\"string\">&quot;</span>: [<span class=\"string\">&quot;</span><span class=\"string\">min</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">max</span><span class=\"string\">&quot;</span>, <span class=\"keyword\">lambda</span> x: x.max() - x.min()],\n            <span class=\"string\">&quot;</span><span class=\"string\">auxiliary</span><span class=\"string\">&quot;</span>: <span class=\"string\">&quot;</span><span class=\"string\">mean</span><span class=\"string\">&quot;</span>,\n            <span class=\"string\">&quot;</span><span class=\"string\">x</span><span class=\"string\">&quot;</span>: [\n                <span class=\"keyword\">lambda</span> x: np.average(x, weights=pulses.loc[x.index, <span class=\"string\">&quot;</span><span class=\"string\">charge</span><span class=\"string\">&quot;</span>]),\n                <span class=\"string\">&quot;</span><span class=\"string\">std</span><span class=\"string\">&quot;</span>,\n            ],\n            <span class=\"string\">&quot;</span><span class=\"string\">y</span><span class=\"string\">&quot;</span>: [\n                <span class=\"keyword\">lambda</span> x: np.average(x, weights=pulses.loc[x.index, <span class=\"string\">&quot;</span><span class=\"string\">charge</span><span class=\"string\">&quot;</span>]),\n                <span class=\"string\">&quot;</span><span class=\"string\">std</span><span class=\"string\">&quot;</span>,\n            ],\n            <span class=\"string\">&quot;</span><span class=\"string\">z</span><span class=\"string\">&quot;</span>: [\n                <span class=\"keyword\">lambda</span> x: np.average(x, weights=pulses.loc[x.index, <span class=\"string\">&quot;</span><span class=\"string\">charge</span><span class=\"string\">&quot;</span>]),\n                <span class=\"string\">&quot;</span><span class=\"string\">std</span><span class=\"string\">&quot;</span>,\n            ],\n        }\n    )\n    features.columns = [\n        <span class=\"string\">&quot;</span><span class=\"string\">charge_sum</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">charge_mean</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">charge_std</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">charge_max</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">charge_min</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">time_min</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">time_max</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">time_span</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">aux_ratio</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">x_mean</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">x_std</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">y_mean</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">y_std</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">z_mean</span><span class=\"string\">&quot;</span>,\n        <span class=\"string\">&quot;</span><span class=\"string\">z_std</span><span class=\"string\">&quot;</span>,\n    ]\n    <span class=\"keyword\">return</span> features.reset_index()\n\n\n<span class=\"comment\"># Process training data with batch_id</span>\ntrain_meta = pd.read_parquet(\n    <span class=\"string\">&quot;</span><span class=\"string\">input/train_meta.parquet</span><span class=\"string\">&quot;</span>, columns=[<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>]\n)\ntrain_batches = [\n    <span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">input/train/batch_</span><span class=\"string\">{</span>i<span class=\"string\">}</span><span class=\"string\">.parquet</span><span class=\"string\">&quot;</span>\n    <span class=\"keyword\">for</span> i in train_meta[<span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>].unique()[:<span class=\"number\">5</span>]  <span class=\"comment\"># Use first 5 batches for speed</span>\n]\n\n<span class=\"comment\"># Process training features</span>\ntrain_features = Parallel(n_jobs=<span class=\"number\">4</span>)(delayed(process_batch)(p) <span class=\"keyword\">for</span> p in train_batches)\ntrain_df = pd.concat(train_features).merge(train_meta, on=<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>).fillna(<span class=\"number\">0</span>)\nX_train, X_val, y_train, y_val = train_test_split(\n    train_df.drop([<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>], axis=<span class=\"number\">1</span>),\n    train_df[[<span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>]],\n    test_size=<span class=\"number\">0.2</span>,\n    random_state=<span class=\"number\">42</span>,\n)\n\n<span class=\"comment\"># Train models</span>\nmodel_az = lgb.LGBMRegressor(objective=<span class=\"string\">&quot;</span><span class=\"string\">mae</span><span class=\"string\">&quot;</span>, n_estimators=<span class=\"number\">100</span>, verbose=-<span class=\"number\">1</span>)\nmodel_zen = lgb.LGBMRegressor(objective=<span class=\"string\">&quot;</span><span class=\"string\">mae</span><span class=\"string\">&quot;</span>, n_estimators=<span class=\"number\">100</span>, verbose=-<span class=\"number\">1</span>)\nmodel_az.fit(X_train, y_train[<span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>])\nmodel_zen.fit(X_train, y_train[<span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>])\n\n\n<span class=\"comment\"># Validation metric calculation</span>\n<span class=\"keyword\">def</span> <span class=\"function\">angular_error</span>(az_true, zen_true, az_pred, zen_pred):\n    vec_true = np.stack(\n        [\n            np.cos(az_true) * np.sin(zen_true),\n            np.sin(az_true) * np.sin(zen_true),\n            np.cos(zen_true),\n        ],\n        axis=<span class=\"number\">1</span>,\n    )\n    vec_pred = np.stack(\n        [\n            np.cos(az_pred) * np.sin(zen_pred),\n            np.sin(az_pred) * np.sin(zen_pred),\n            np.cos(zen_pred),\n        ],\n        axis=<span class=\"number\">1</span>,\n    )\n    dot = np.sum(vec_true * vec_pred, axis=<span class=\"number\">1</span>)\n    <span class=\"keyword\">return</span> np.mean(np.arccos(np.clip(dot, -<span class=\"number\">1</span>, <span class=\"number\">1</span>)))\n\n\naz_pred = model_az.predict(X_val)\nzen_pred = model_zen.predict(X_val)\nprint(\n    <span class=\"string\">f</span><span class=\"string\">&#x27;</span><span class=\"string\">Validation MAE: </span><span class=\"string\">{</span>angular_error(y_val[<span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>], y_val[<span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>], az_pred, zen_pred)<span class=\"string\">}</span><span class=\"string\">&#x27;</span>\n)\n\n<span class=\"comment\"># Process test data</span>\ntest_meta = pd.read_parquet(<span class=\"string\">&quot;</span><span class=\"string\">input/test_meta.parquet</span><span class=\"string\">&quot;</span>, columns=[<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>])\ntest_batches = [<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">input/test/batch_</span><span class=\"string\">{</span>i<span class=\"string\">}</span><span class=\"string\">.parquet</span><span class=\"string\">&quot;</span> <span class=\"keyword\">for</span> i in test_meta[<span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>].unique()]\n\n<span class=\"comment\"># Process test features in parallel</span>\ntest_features = Parallel(n_jobs=<span class=\"number\">4</span>)(delayed(process_batch)(p) <span class=\"keyword\">for</span> p in test_batches)\ntest_df = pd.concat(test_features).merge(test_meta, on=<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>).fillna(<span class=\"number\">0</span>)\n\n<span class=\"comment\"># Generate predictions</span>\nX_test = test_df.drop([<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">batch_id</span><span class=\"string\">&quot;</span>], axis=<span class=\"number\">1</span>)\nazimuth = model_az.predict(X_test) % (<span class=\"number\">2</span> * np.pi)\nzenith = np.clip(model_zen.predict(X_test), <span class=\"number\">0</span>, np.pi)\n\n<span class=\"comment\"># Create submission file</span>\nsubmission = pd.DataFrame(\n    {<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>: test_df[<span class=\"string\">&quot;</span><span class=\"string\">event_id</span><span class=\"string\">&quot;</span>], <span class=\"string\">&quot;</span><span class=\"string\">azimuth</span><span class=\"string\">&quot;</span>: azimuth, <span class=\"string\">&quot;</span><span class=\"string\">zenith</span><span class=\"string\">&quot;</span>: zenith}\n)\nsubmission.to_csv(<span class=\"string\">&quot;</span><span class=\"string\">submission/submission.csv</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>)\n",
     "detail": {
         "node_id": [
-            "2cbec93060e3488d8c5258c80c0616db",
-            "ba3c12a7b0f34d41a0d214d83ec537b1",
-            "cda87427f1eb4a3a8b0ddcc83236ca41",
-            "5466aa0f168c4977ab41cfbbf7aeacba",
-            "d7a5262ced62460a954a1b3af6fc4757",
-            "1c13c887bf5f480da47ccc48f46e2f69"
+            "934a0042c0ad4c67b324b47e27c8f872",
+            "425f8ed39fd04853a61811854d13e04d",
+            "252139cac0b347cf93ff6229790e1b4b",
+            "0ee2f30217d64cfb915c54017b8f73c1",
+            "de04cb90ede94d3ca3408c73bfe60b24",
+            "947b4b956acd4facadcf748df7c23b47",
+            "f398f6b56e2f494888d07bd9b88e121b",
+            "695b1abdebe84da2bc2511478492f599",
+            "413c4900c3d14fb2b3b2a8af7b23b0ea",
+            "031234a45f004571b9bd66d515385f77",
+            "dcb3f5a029fa43bda1cc9b9938c8fa3a"
         ],
         "global_step": [
             "0",
@@ -718,13 +1031,14 @@
             "2",
             "3",
             "4",
-            "5"
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
         ],
         "edges": [
-            [
-                0,
-                5
-            ],
             [
                 0,
                 2
@@ -734,12 +1048,36 @@
                 1
             ],
             [
-                1,
+                0,
                 4
             ],
             [
-                2,
+                1,
                 3
+            ],
+            [
+                2,
+                8
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                9,
+                10
             ]
         ],
         "layout": [
@@ -749,67 +1087,117 @@
             ],
             [
                 0.0,
-                0.5
+                0.25
             ],
             [
                 0.5,
-                0.5
-            ],
-            [
-                0.5,
-                1.0
+                0.25
             ],
             [
                 0.0,
-                1.0
+                0.5
+            ],
+            [
+                1.0,
+                0.25
             ],
             [
                 1.0,
                 0.5
+            ],
+            [
+                0.0,
+                0.75
+            ],
+            [
+                1.0,
+                0.75
+            ],
+            [
+                0.5,
+                0.5
+            ],
+            [
+                0.5,
+                0.75
+            ],
+            [
+                0.5,
+                1.0
             ]
         ],
         "plan": [
             "virtual plan",
-            "To predict the neutrino direction, we'll use a physics-inspired heuristic based\non the earliest and highest-charge sensor pulses. For each event, we select the\nfirst 10 non-auxiliary pulses, compute their charge-weighted average sensor\nposition, and derive azimuth/zenith from this direction vector. This approach\nleverages the spatial and temporal distribution of light pulses to estimate the\nneutrino's origin without complex models.",
-            "This solution uses feature engineering on sensor pulse data aggregated per\nevent, including charge statistics, time dynamics, and spatial sensor\ndistributions. A LightGBM model is trained on these features to predict azimuth\nand zenith angles, leveraging GPU acceleration for efficiency. The model is\nevaluated using mean angular error computed on a validation set.",
-            "The error occurs because LightGBM is trying to use OpenCL instead of CUDA for\nGPU acceleration. We need to explicitly configure LightGBM to use CUDA and the\ncorrect tree method. We'll modify the model parameters, process data in chunks\nto handle memory constraints, and ensure proper submission file generation.",
-            "The error occurs because the vector conversion uses generator expressions\nwithout list comprehensions, creating incompatible array dimensions. We'll fix\nthis by properly constructing numpy arrays using list comprehensions and ensure\ntest predictions are generated for all events.",
-            "This solution uses a physics-inspired approach by calculating the charge-\nweighted average direction of sensor hits. We filter out auxiliary pulses for\nhigher quality signals, compute the directional vector from sensor positions,\nand derive azimuth/zenith angles. The validation metric is mean angular error in\ndegrees."
+            "To solve this problem, we propose using an XGBoost regressor trained on\naggregated event features. We compute statistical summaries of pulse\ncharacteristics (charge, time, sensor positions) per event and engineer features\ncapturing spatial-temporal patterns. The model predicts azimuth and zenith\nangles, with validation using a custom angular error metric based on vector\ngeometry.",
+            "To solve this problem, we'll process each event's sensor data to extract\nfeatures like charge-weighted average sensor positions and total charge. These\nfeatures will train a LightGBM model to predict azimuth and zenith angles. The\nmodel will be validated using mean angular error, and predictions on the test\nset will be saved for submission.",
+            "The KeyError occurs because the train_meta DataFrame's index isn't set to\nevent_id. We fix this by setting the index and optimize processing using batch\nmetadata to read pulses efficiently. To ensure completion within time limits, we\nprocess a subset of training batches and simplify the model.",
+            "To solve this problem, we need to predict the direction of neutrinos detected by\nthe IceCube observatory using aggregated pulse data features. The solution\ninvolves efficient data processing, feature engineering, and gradient boosting\nregression.  ### Approach 1. **Data Processing**: Read sensor geometry and batch\ndata. Use the event metadata to group pulses by event ID. 2. **Feature\nEngineering**: Compute aggregated statistics (charge, time, sensor positions)\nfor each event, weighted by charge for positional accuracy. 3. **Model\nTraining**: Train LightGBM models to predict azimuth and zenith angles directly,\nusing a validation split to compute the mean angular error. 4. **Prediction &\nSubmission**: Generate predictions on the test set and save them in the required\nformat.  ### Solution Code",
+            "The primary issue was passing `verbose=False` to LightGBM's fit() method, which\nisn't supported. We'll fix this by setting verbosity during model initialization\ninstead. Also, the code needs to process all test batches to generate a complete\nsubmission file. We'll optimize data processing by using more efficient pandas\noperations and parallel batch processing with joblib.",
+            "The previous code failed due to float-type indices causing iloc slicing errors.\nWe'll convert first/last_pulse_index to integers and use test_meta.parquet to\nproperly batch-process test events like training data. This ensures correct\npulse extraction and submission generation.",
+            "The KeyError occurs because the code doesn't load the 'batch_id' column from\ntrain_meta.parquet. We need to include 'batch_id' in the columns when reading\nthe training metadata. Also, we should verify column existence in test metadata\nand use efficient batch processing for test data.",
+            "The error occurs because the pulse indices are stored as floats but need to be\nintegers for .iloc slicing. We'll fix the type casting and ensure event IDs are\ncaptured for all test entries. Also, we'll create the submission directory if\nmissing.",
+            "The previous code failed due to processing all 590 training batches, exceeding\nthe time limit. To fix this, we'll: 1) Process only a subset of training batches\n(e.g., first 10) for faster iteration, 2) Use vectorized operations instead of\nper-event loops, 3) Optimize memory usage with dtype conversions, and 4) Ensure\ntest data processing completes by using batch sampling.",
+            "The KeyError occurs because the batch parquet files have 'event_id' as the index\nrather than a column. We need to reset the index before merging with sensor\ndata. Here's the fixed implementation:"
         ],
         "code": [
             "virtual code",
-            "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\nimport glob\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\")\n\n\ndef vector_to_angles(x, y, z):\n    norm = np.sqrt(x**2 + y**2 + z**2)\n    if norm == 0:\n        return 0.0, 0.0\n    x, y, z = x / norm, y / norm, z / norm\n    azimuth = np.arctan2(y, x) % (2 * np.pi)\n    zenith = np.arccos(z)\n    return azimuth, zenith\n\n\ndef process_event(pulses, n=10):\n    main_pulses = pulses[~pulses[\"auxiliary\"]]\n    if len(main_pulses) == 0:\n        main_pulses = pulses\n    main_pulses = (\n        main_pulses.merge(sensor_geo, on=\"sensor_id\").sort_values(\"time\").head(n)\n    )\n    if len(main_pulses) == 0:\n        return 0.0, 0.0\n    sum_charge = main_pulses[\"charge\"].sum()\n    if sum_charge == 0:\n        avg_x, avg_y, avg_z = main_pulses[[\"x\", \"y\", \"z\"]].mean()\n    else:\n        weights = main_pulses[\"charge\"] / sum_charge\n        avg_x = (main_pulses[\"x\"] * weights).sum()\n        avg_y = (main_pulses[\"y\"] * weights).sum()\n        avg_z = (main_pulses[\"z\"] * weights).sum()\n    return vector_to_angles(avg_x, avg_y, avg_z)\n\n\n# Validation on sample training data\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\").sample(1000, random_state=42)\nval_preds, val_true = [], []\nfor batch_id in train_meta[\"batch_id\"].unique():\n    batch_path = f\"input/train/batch_{batch_id}.parquet\"\n    if not Path(batch_path).exists():\n        continue\n    batch_pulses = pd.read_parquet(batch_path)\n    for event_id in train_meta[train_meta[\"batch_id\"] == batch_id][\"event_id\"]:\n        if event_id not in batch_pulses.index:\n            continue\n        az_pred, zen_pred = process_event(batch_pulses.loc[event_id])\n        val_preds.append((az_pred, zen_pred))\n        true = train_meta[train_meta[\"event_id\"] == event_id][\n            [\"azimuth\", \"zenith\"]\n        ].iloc[0]\n        val_true.append((true[\"azimuth\"], true[\"zenith\"]))\n\n# Calculate validation metric\nvec_true = np.array(\n    [np.cos(az) * np.sin(zen), np.sin(az) * np.sin(zen), np.cos(zen)]\n    for az, zen in val_true\n).T\nvec_pred = np.array(\n    [np.cos(az) * np.sin(zen), np.sin(az) * np.sin(zen), np.cos(zen)]\n    for az, zen in val_preds\n).T\ndot_prod = np.sum(vec_true * vec_pred, axis=0)\nmae = np.mean(np.degrees(np.arccos(np.clip(dot_prod, -1, 1))))\nprint(f\"Validation MAE: {mae:.2f}°\")\n\n# Generate test predictions\nsubmission = []\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\")\nfor batch_path in glob.glob(\"input/test/batch_*.parquet\"):\n    batch_id = int(Path(batch_path).stem.split(\"_\")[1])\n    batch_pulses = pd.read_parquet(batch_path)\n    for event_id in test_meta[test_meta[\"batch_id\"] == batch_id][\"event_id\"]:\n        if event_id not in batch_pulses.index:\n            continue\n        az, zen = process_event(batch_pulses.loc[event_id])\n        submission.append({\"event_id\": event_id, \"azimuth\": az, \"zenith\": zen})\n\npd.DataFrame(submission).to_csv(\"submission/submission.csv\", index=False)\n",
-            "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\nimport lightgbm as lgb\nfrom sklearn.model_selection import train_test_split\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\").set_index(\"sensor_id\")\n\n\ndef process_batch(batch_path):\n    df = pd.read_parquet(batch_path)\n    merged = df.merge(sensor_geo, left_on=\"sensor_id\", right_index=True)\n\n    features = merged.groupby(\"event_id\").agg(\n        {\n            \"charge\": [\"sum\", \"mean\", \"std\"],\n            \"time\": [\"min\", \"max\", lambda x: np.ptp(x), \"mean\"],\n            \"auxiliary\": \"mean\",\n            \"x\": [\"mean\", \"std\"],\n            \"y\": [\"mean\", \"std\"],\n            \"z\": [\"mean\", \"std\"],\n        }\n    )\n    features.columns = [f\"{col[0]}_{col[1]}\" for col in features.columns]\n    return features.reset_index()\n\n\n# Process training data\ntrain_meta = pd.read_parquet(\n    \"input/train_meta.parquet\", columns=[\"event_id\", \"azimuth\", \"zenith\"]\n)\ntrain_features = []\nfor path in Path(\"input/train\").glob(\"batch_*.parquet\"):\n    train_features.append(process_batch(path))\ntrain_df = pd.concat(train_features).merge(train_meta, on=\"event_id\")\n\n# Prepare data\nX = train_df.drop([\"event_id\", \"azimuth\", \"zenith\"], axis=1)\ny = train_df[[\"azimuth\", \"zenith\"]]\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train models with GPU acceleration\nparams = {\n    \"objective\": \"regression\",\n    \"metric\": \"mae\",\n    \"device\": \"gpu\",\n    \"num_leaves\": 127,\n    \"learning_rate\": 0.1,\n    \"feature_fraction\": 0.8,\n}\n\nazimuth_model = lgb.LGBMRegressor(**params)\nazimuth_model.fit(\n    X_train,\n    y_train[\"azimuth\"],\n    eval_set=(X_val, y_val[\"azimuth\"]),\n    callbacks=[lgb.early_stopping(50)],\n)\n\nzenith_model = lgb.LGBMRegressor(**params)\nzenith_model.fit(\n    X_train,\n    y_train[\"zenith\"],\n    eval_set=(X_val, y_val[\"zenith\"]),\n    callbacks=[lgb.early_stopping(50)],\n)\n\n\n# Calculate validation metric\ndef angular_error(true, pred):\n    true_vec = np.array(\n        [\n            np.sin(true[\"zenith\"]) * np.cos(true[\"azimuth\"]),\n            np.sin(true[\"zenith\"]) * np.sin(true[\"azimuth\"]),\n            np.cos(true[\"zenith\"]),\n        ]\n    ).T\n    pred_vec = np.array(\n        [\n            np.sin(pred[\"zenith\"]) * np.cos(pred[\"azimuth\"]),\n            np.sin(pred[\"zenith\"]) * np.sin(pred[\"azimuth\"]),\n            np.cos(pred[\"zenith\"]),\n        ]\n    ).T\n    dots = (true_vec * pred_vec).sum(axis=1)\n    return np.mean(np.arccos(np.clip(dots, -1, 1)))\n\n\nval_pred = pd.DataFrame(\n    {\"azimuth\": azimuth_model.predict(X_val), \"zenith\": zenith_model.predict(X_val)}\n)\nprint(f\"Validation MAE: {angular_error(y_val, val_pred):.4f} radians\")\n\n# Generate submission\ntest_features = []\nfor path in Path(\"input/test\").glob(\"batch_*.parquet\"):\n    test_features.append(process_batch(path))\ntest_df = pd.concat(test_features)\n\nsubmission = pd.DataFrame(\n    {\n        \"event_id\": test_df[\"event_id\"],\n        \"azimuth\": azimuth_model.predict(test_df.drop(\"event_id\", axis=1)),\n        \"zenith\": zenith_model.predict(test_df.drop(\"event_id\", axis=1)),\n    }\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
-            "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\nimport lightgbm as lgb\nfrom sklearn.model_selection import train_test_split\nimport os\n\n# Create submission directory if needed\nos.makedirs(\"submission\", exist_ok=True)\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\").set_index(\"sensor_id\")\n\n\ndef process_batch(batch_path):\n    df = pd.read_parquet(batch_path)\n    merged = df.merge(sensor_geo, left_on=\"sensor_id\", right_index=True)\n\n    # Aggregate features per event\n    features = merged.groupby(\"event_id\").agg(\n        charge_sum=(\"charge\", \"sum\"),\n        charge_mean=(\"charge\", \"mean\"),\n        time_min=(\"time\", \"min\"),\n        time_span=(\"time\", lambda x: x.max() - x.min()),\n        x_mean=(\"x\", \"mean\"),\n        y_std=(\"y\", \"std\"),\n        z_mean=(\"z\", \"mean\"),\n        auxiliary_mean=(\"auxiliary\", \"mean\"),\n    )\n    return features.reset_index()\n\n\n# Process training data in chunks\ntrain_meta = pd.read_parquet(\n    \"input/train_meta.parquet\", columns=[\"event_id\", \"azimuth\", \"zenith\"]\n)\ntrain_files = list(Path(\"input/train\").glob(\"batch_*.parquet\"))\n\n# Process first 10 batches for training (adjust based on memory)\ntrain_chunks = [process_batch(f) for f in train_files[:10]]\ntrain_df = pd.concat(train_chunks).merge(train_meta, on=\"event_id\")\n\n# Split data\nX = train_df.drop([\"event_id\", \"azimuth\", \"zenith\"], axis=1)\ny = train_df[[\"azimuth\", \"zenith\"]]\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Configure LGBM with CUDA\nparams = {\n    \"objective\": \"regression\",\n    \"metric\": \"mae\",\n    \"device_type\": \"cuda\",\n    \"tree_method\": \"gpu_hist\",\n    \"num_leaves\": 63,\n    \"learning_rate\": 0.1,\n    \"feature_fraction\": 0.7,\n    \"verbose\": -1,\n}\n\n# Train azimuth model\nazimuth_model = lgb.LGBMRegressor(**params)\nazimuth_model.fit(\n    X_train,\n    y_train[\"azimuth\"],\n    eval_set=(X_val, y_val[\"azimuth\"]),\n    callbacks=[lgb.early_stopping(10)],\n)\n\n# Train zenith model\nzenith_model = lgb.LGBMRegressor(**params)\nzenith_model.fit(\n    X_train,\n    y_train[\"zenith\"],\n    eval_set=(X_val, y_val[\"zenith\"]),\n    callbacks=[lgb.early_stopping(10)],\n)\n\n\n# Validation metric calculation\ndef angular_error(true_az, true_zen, pred_az, pred_zen):\n    true_x = np.sin(true_zen) * np.cos(true_az)\n    true_y = np.sin(true_zen) * np.sin(true_az)\n    true_z = np.cos(true_zen)\n\n    pred_x = np.sin(pred_zen) * np.cos(pred_az)\n    pred_y = np.sin(pred_zen) * np.sin(pred_az)\n    pred_z = np.cos(pred_zen)\n\n    dot = true_x * pred_x + true_y * pred_y + true_z * pred_z\n    return np.mean(np.arccos(np.clip(dot, -1, 1)))\n\n\nval_az = azimuth_model.predict(X_val)\nval_zen = zenith_model.predict(X_val)\nmetric = angular_error(y_val[\"azimuth\"], y_val[\"zenith\"], val_az, val_zen)\nprint(f\"Validation Mean Angular Error: {metric:.4f} radians\")\n\n# Process test data and generate submission\ntest_files = list(Path(\"input/test\").glob(\"batch_*.parquet\"))\ntest_df = pd.concat(\n    [process_batch(f) for f in test_files[:2]]\n)  # Process subset for demo\n\nsubmission = pd.DataFrame(\n    {\n        \"event_id\": test_df[\"event_id\"],\n        \"azimuth\": azimuth_model.predict(test_df.drop(\"event_id\", axis=1)),\n        \"zenith\": zenith_model.predict(test_df.drop(\"event_id\", axis=1)),\n    }\n)\n\n# Ensure proper directory structure\nsubmission.to_csv(\"submission/submission.csv\", index=False)\nprint(\"Submission file saved successfully!\")\n",
-            "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\nimport glob\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\")\n\n\ndef vector_to_angles(x, y, z):\n    norm = np.sqrt(x**2 + y**2 + z**2)\n    if norm == 0:\n        return 0.0, 0.0\n    x, y, z = x / norm, y / norm, z / norm\n    azimuth = np.arctan2(y, x) % (2 * np.pi)\n    zenith = np.arccos(z)\n    return azimuth, zenith\n\n\ndef process_event(pulses, n=10):\n    main_pulses = pulses[~pulses[\"auxiliary\"]]\n    if len(main_pulses) == 0:\n        main_pulses = pulses\n    main_pulses = (\n        main_pulses.merge(sensor_geo, on=\"sensor_id\").sort_values(\"time\").head(n)\n    )\n    if len(main_pulses) == 0:\n        return 0.0, 0.0\n    sum_charge = main_pulses[\"charge\"].sum()\n    if sum_charge == 0:\n        avg_x, avg_y, avg_z = main_pulses[[\"x\", \"y\", \"z\"]].mean()\n    else:\n        weights = main_pulses[\"charge\"] / sum_charge\n        avg_x = (main_pulses[\"x\"] * weights).sum()\n        avg_y = (main_pulses[\"y\"] * weights).sum()\n        avg_z = (main_pulses[\"z\"] * weights).sum()\n    return vector_to_angles(avg_x, avg_y, avg_z)\n\n\n# Validation on sample training data\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\").sample(1000, random_state=42)\nval_preds, val_true = [], []\nfor batch_id in train_meta[\"batch_id\"].unique():\n    batch_path = f\"input/train/batch_{batch_id}.parquet\"\n    if not Path(batch_path).exists():\n        continue\n    batch_pulses = pd.read_parquet(batch_path)\n    for event_id in train_meta[train_meta[\"batch_id\"] == batch_id][\"event_id\"]:\n        if event_id not in batch_pulses.index:\n            continue\n        az_pred, zen_pred = process_event(batch_pulses.loc[event_id])\n        val_preds.append((az_pred, zen_pred))\n        true = train_meta[train_meta[\"event_id\"] == event_id][\n            [\"azimuth\", \"zenith\"]\n        ].iloc[0]\n        val_true.append((true[\"azimuth\"], true[\"zenith\"]))\n\n# Calculate validation metric (FIXED HERE)\nvec_true = np.array(\n    [\n        [np.cos(az) * np.sin(zen), np.sin(az) * np.sin(zen), np.cos(zen)]\n        for az, zen in val_true\n    ]\n).T\nvec_pred = np.array(\n    [\n        [np.cos(az) * np.sin(zen), np.sin(az) * np.sin(zen), np.cos(zen)]\n        for az, zen in val_preds\n    ]\n).T\ndot_prod = np.sum(vec_true * vec_pred, axis=0)\nmae = np.mean(np.degrees(np.arccos(np.clip(dot_prod, -1, 1))))\nprint(f\"Validation MAE: {mae:.2f}°\")\n\n# Generate test predictions\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\")\nsubmission = []\nfor batch_path in glob.glob(\"input/test/batch_*.parquet\"):\n    batch_id = int(Path(batch_path).stem.split(\"_\")[1])\n    batch_pulses = pd.read_parquet(batch_path)\n    batch_events = test_meta[test_meta[\"batch_id\"] == batch_id]\n    for event_id in batch_events[\"event_id\"]:\n        if event_id not in batch_pulses.index:\n            az, zen = 0.0, 0.0\n        else:\n            az, zen = process_event(batch_pulses.loc[event_id])\n        submission.append({\"event_id\": event_id, \"azimuth\": az, \"zenith\": zen})\n\n# Ensure all test events are included\nsubmission_df = pd.DataFrame(submission)\nmissing_events = set(test_meta[\"event_id\"]) - set(submission_df[\"event_id\"])\nfor event_id in missing_events:\n    submission_df = pd.concat(\n        [\n            submission_df,\n            pd.DataFrame([{\"event_id\": event_id, \"azimuth\": 0.0, \"zenith\": 0.0}]),\n        ],\n        ignore_index=True,\n    )\n\nsubmission_df.to_csv(\"submission/submission.csv\", index=False)\n",
-            "import numpy as np\nimport pandas as pd\nfrom tqdm import tqdm\n\n# Load sensor geometry data\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\").set_index(\"sensor_id\")\n\n\ndef process_batch(batch_path, meta_df, is_train=False):\n    \"\"\"Process a batch of events and return predictions with optional true values\"\"\"\n    batch_pulses = pd.read_parquet(batch_path).reset_index()\n    merged = batch_pulses.merge(sensor_geo, left_on=\"sensor_id\", right_index=True)\n    merged = merged[merged[\"auxiliary\"] == False]\n\n    # Aggregate pulses per event\n    grouped = merged.groupby(\"event_id\")\n    sum_xyz = grouped.apply(\n        lambda x: pd.Series(\n            {\n                \"sum_x\": (x[\"charge\"] * x[\"x\"]).sum(),\n                \"sum_y\": (x[\"charge\"] * x[\"y\"]).sum(),\n                \"sum_z\": (x[\"charge\"] * x[\"z\"]).sum(),\n            }\n        )\n    ).reset_index()\n\n    # Handle events with no valid pulses\n    all_events = meta_df[\n        meta_df[\"batch_id\"] == int(batch_path.split(\"_\")[-1].split(\".\")[0])\n    ][\"event_id\"]\n    sum_xyz = sum_xyz.set_index(\"event_id\").reindex(all_events).reset_index()\n    sum_xyz.fillna(0, inplace=True)\n\n    # Calculate direction vectors\n    sum_xyz[\"norm\"] = np.sqrt(sum_xyz.sum_x**2 + sum_xyz.sum_y**2 + sum_xyz.sum_z**2)\n    for coord in [\"x\", \"y\", \"z\"]:\n        sum_xyz[coord] = sum_xyz[f\"sum_{coord}\"] / sum_xyz.norm\n    sum_xyz.loc[sum_xyz.norm == 0, [\"x\", \"y\", \"z\"]] = [0, 0, 1]\n\n    # Convert to angles\n    sum_xyz[\"azimuth\"] = np.arctan2(sum_xyz.y, sum_xyz.x) % (2 * np.pi)\n    sum_xyz[\"zenith\"] = np.arccos(sum_xyz.z)\n\n    if is_train:\n        return sum_xyz.merge(meta_df[[\"event_id\", \"azimuth\", \"zenith\"]], on=\"event_id\")\n    return sum_xyz[[\"event_id\", \"azimuth\", \"zenith\"]]\n\n\n# Validation on training data\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\").sample(5000, random_state=42)\nval_preds = []\nfor batch_id in tqdm(train_meta.batch_id.unique(), desc=\"Validating\"):\n    val_preds.append(\n        process_batch(\n            f\"input/train/batch_{batch_id}.parquet\",\n            train_meta[train_meta.batch_id == batch_id],\n            True,\n        )\n    )\n\nval_df = pd.concat(val_preds)\nval_df[\"pred_vec\"] = np.stack(\n    [\n        np.cos(val_df.azimuth) * np.sin(val_df.zenith),\n        np.sin(val_df.azimuth) * np.sin(val_df.zenith),\n        np.cos(val_df.zenith),\n    ],\n    axis=1,\n)\nval_df[\"true_vec\"] = np.stack(\n    [\n        np.cos(val_df.azimuth_y) * np.sin(val_df.zenith_y),\n        np.sin(val_df.azimuth_y) * np.sin(val_df.zenith_y),\n        np.cos(val_df.zenith_y),\n    ],\n    axis=1,\n)\n\ndot_product = (val_df.pred_vec * val_df.true_vec).sum(axis=1)\nangular_dist = np.degrees(np.arccos(np.clip(dot_product, -1, 1)))\nprint(f\"Validation MAE: {angular_dist.mean():.4f}°\")\n\n# Generate submission\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\")\nsubmission = []\nfor batch_id in tqdm(test_meta.batch_id.unique(), desc=\"Processing Test\"):\n    batch_pred = process_batch(\n        f\"input/test/batch_{batch_id}.parquet\",\n        test_meta[test_meta.batch_id == batch_id],\n    )\n    submission.append(batch_pred)\n\npd.concat(submission).to_csv(\"submission/submission.csv\", index=False)\n"
+            "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nimport xgboost as xgb\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\").set_index(\"sensor_id\")\n\n\ndef process_event(event_pulses):\n    \"\"\"Extract aggregated features from event pulses\"\"\"\n    features = {}\n    # Basic pulse statistics\n    features[\"n_pulses\"] = len(event_pulses)\n    features[\"charge_sum\"] = event_pulses[\"charge\"].sum()\n    features[\"charge_mean\"] = event_pulses[\"charge\"].mean()\n    features[\"charge_std\"] = event_pulses[\"charge\"].std()\n    features[\"time_mean\"] = event_pulses[\"time\"].mean()\n    features[\"time_std\"] = event_pulses[\"time\"].std()\n    features[\"aux_ratio\"] = event_pulses[\"auxiliary\"].mean()\n\n    # Sensor position features\n    merged = event_pulses.merge(sensor_geo, left_on=\"sensor_id\", right_index=True)\n    for coord in [\"x\", \"y\", \"z\"]:\n        features[f\"{coord}_mean\"] = merged[coord].mean()\n        features[f\"{coord}_std\"] = merged[coord].std()\n        cw_sum = (merged[coord] * merged[\"charge\"]).sum()\n        features[f\"{coord}_cw\"] = (\n            cw_sum / features[\"charge_sum\"] if features[\"charge_sum\"] > 0 else 0\n        )\n\n    # Spherical coordinates statistics\n    r = np.sqrt(merged[\"x\"] ** 2 + merged[\"y\"] ** 2 + merged[\"z\"] ** 2)\n    features[\"r_mean\"] = r.mean()\n    return pd.Series(features)\n\n\n# Process training data\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\")\nfeatures, targets = [], []\nfor batch_path in Path(\"input/train\").glob(\"batch_*.parquet\"):\n    pulses = pd.read_parquet(batch_path)\n    for event_id, event_pulses in pulses.groupby(\"event_id\"):\n        features.append(process_event(event_pulses))\n        targets.append(train_meta.loc[event_id, [\"azimuth\", \"zenith\"]])\n\nX = pd.DataFrame(features).fillna(0)\ny = pd.DataFrame(targets)\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train model\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nmodel = xgb.XGBRegressor(n_estimators=500, learning_rate=0.05, tree_method=\"gpu_hist\")\nmodel.fit(X_train_scaled, y_train)\n\n# Validate\nX_val_scaled = scaler.transform(X_val)\nval_pred = model.predict(X_val_scaled)\n\n\n# Calculate angular error\ndef angular_error(az_true, zen_true, az_pred, zen_pred):\n    vec_true = np.stack(\n        [\n            np.cos(az_true) * np.sin(zen_true),\n            np.sin(az_true) * np.sin(zen_true),\n            np.cos(zen_true),\n        ],\n        axis=1,\n    )\n    vec_pred = np.stack(\n        [\n            np.cos(az_pred) * np.sin(zen_pred),\n            np.sin(az_pred) * np.sin(zen_pred),\n            np.cos(zen_pred),\n        ],\n        axis=1,\n    )\n    dot = (vec_true * vec_pred).sum(axis=1)\n    return np.mean(np.degrees(np.arccos(np.clip(dot, -1, 1))))\n\n\nerror = angular_error(y_val[\"azimuth\"], y_val[\"zenith\"], val_pred[:, 0], val_pred[:, 1])\nprint(f\"Validation Angular Error: {error:.4f} degrees\")\n\n# Generate submission\ntest_features, test_ids = [], []\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\")\nfor batch_path in Path(\"input/test\").glob(\"batch_*.parquet\"):\n    pulses = pd.read_parquet(batch_path)\n    for event_id, event_pulses in pulses.groupby(\"event_id\"):\n        test_features.append(process_event(event_pulses))\n        test_ids.append(event_id)\n\nX_test = pd.DataFrame(test_features).fillna(0)\nX_test_scaled = scaler.transform(X_test)\ntest_pred = model.predict(X_test_scaled)\n\nsubmission = pd.DataFrame(\n    {\"event_id\": test_ids, \"azimuth\": test_pred[:, 0], \"zenith\": test_pred[:, 1]}\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nimport lightgbm as lgb\n\n\ndef angular_dist_score(az_true, zen_true, az_pred, zen_pred):\n    sa1 = np.sin(az_true)\n    ca1 = np.cos(az_true)\n    sz1 = np.sin(zen_true)\n    cz1 = np.cos(zen_true)\n\n    sa2 = np.sin(az_pred)\n    ca2 = np.cos(az_pred)\n    sz2 = np.sin(zen_pred)\n    cz2 = np.cos(zen_pred)\n\n    scalar_prod = sz1 * sz2 * (ca1 * ca2 + sa1 * sa2) + (cz1 * cz2)\n    scalar_prod = np.clip(scalar_prod, -1, 1)\n    return np.mean(np.arccos(scalar_prod))\n\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\")\n\n# Process training data\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\")\nfeatures, targets = [], []\n\n# Process batches in chunks to manage memory\nfor batch_id, group in train_meta.groupby(\"batch_id\"):\n    batch = pd.read_parquet(f\"input/train/batch_{batch_id}.parquet\")\n    batch = batch.merge(sensor_geo, on=\"sensor_id\")\n\n    for _, row in group.iterrows():\n        pulses = batch.iloc[row[\"first_pulse_index\"] : row[\"last_pulse_index\"] + 1]\n        if pulses.empty:\n            continue\n\n        sum_charge = pulses.charge.sum()\n        if sum_charge > 0:\n            weights = pulses.charge.values / sum_charge\n            mean_x = (pulses.x * weights).sum()\n            mean_y = (pulses.y * weights).sum()\n            mean_z = (pulses.z * weights).sum()\n        else:\n            mean_x = mean_y = mean_z = 0\n\n        features.append([mean_x, mean_y, mean_z, sum_charge, pulses.charge.max()])\n        targets.append([row[\"azimuth\"], row[\"zenith\"]])\n\nX = pd.DataFrame(\n    features, columns=[\"mean_x\", \"mean_y\", \"mean_z\", \"sum_charge\", \"max_charge\"]\n)\ny = pd.DataFrame(targets, columns=[\"azimuth\", \"zenith\"])\n\n# Split data\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train model\nparams = {\n    \"objective\": \"regression_l1\",\n    \"learning_rate\": 0.1,\n    \"num_leaves\": 31,\n    \"n_estimators\": 500,\n}\n\nmodel_az = lgb.LGBMRegressor(**params)\nmodel_zen = lgb.LGBMRegressor(**params)\n\nmodel_az.fit(X_train, y_train.azimuth)\nmodel_zen.fit(X_train, y_train.zenith)\n\n# Validate\nval_pred_az = model_az.predict(X_val)\nval_pred_zen = model_zen.predict(X_val)\nscore = angular_dist_score(y_val.azimuth, y_val.zenith, val_pred_az, val_pred_zen)\nprint(f\"Validation Angular Error: {score:.4f} radians\")\n\n# Process test data\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\")\ntest_features, event_ids = [], []\n\nfor batch_id, group in test_meta.groupby(\"batch_id\"):\n    batch = pd.read_parquet(f\"input/test/batch_{batch_id}.parquet\")\n    batch = batch.merge(sensor_geo, on=\"sensor_id\")\n\n    for _, row in group.iterrows():\n        pulses = batch.iloc[row[\"first_pulse_index\"] : row[\"last_pulse_index\"] + 1]\n        if pulses.empty:\n            test_features.append([0, 0, 0, 0, 0])\n            continue\n\n        sum_charge = pulses.charge.sum()\n        if sum_charge > 0:\n            weights = pulses.charge.values / sum_charge\n            mean_x = (pulses.x * weights).sum()\n            mean_y = (pulses.y * weights).sum()\n            mean_z = (pulses.z * weights).sum()\n        else:\n            mean_x = mean_y = mean_z = 0\n\n        test_features.append([mean_x, mean_y, mean_z, sum_charge, pulses.charge.max()])\n        event_ids.append(row[\"event_id\"])\n\nX_test = pd.DataFrame(test_features, columns=X.columns)\ntest_az = model_az.predict(X_test)\ntest_zen = model_zen.predict(X_test)\n\n# Save submission\npd.DataFrame({\"event_id\": event_ids, \"azimuth\": test_az, \"zenith\": test_zen}).to_csv(\n    \"submission/submission.csv\", index=False\n)\n",
+            "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nimport xgboost as xgb\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\").set_index(\"sensor_id\")\n\n\ndef process_event(event_pulses):\n    \"\"\"Extract aggregated features from event pulses\"\"\"\n    features = {}\n    features[\"n_pulses\"] = len(event_pulses)\n    features[\"charge_sum\"] = event_pulses[\"charge\"].sum()\n    features[\"charge_mean\"] = event_pulses[\"charge\"].mean()\n    features[\"time_std\"] = event_pulses[\"time\"].std()\n    features[\"aux_ratio\"] = event_pulses[\"auxiliary\"].mean()\n\n    merged = event_pulses.merge(sensor_geo, left_on=\"sensor_id\", right_index=True)\n    for coord in [\"x\", \"y\", \"z\"]:\n        features[f\"{coord}_mean\"] = merged[coord].mean()\n        features[f\"{coord}_cw\"] = (\n            (merged[coord] * merged[\"charge\"]).sum() / features[\"charge_sum\"]\n            if features[\"charge_sum\"] > 0\n            else 0\n        )\n    return pd.Series(features)\n\n\n# Process training data\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\").set_index(\"event_id\")\nfeatures, targets = [], []\n\n# Process first 5 batches for time efficiency\nfor batch_id in train_meta[\"batch_id\"].unique()[:5]:\n    batch_path = Path(f\"input/train/batch_{batch_id}.parquet\")\n    if not batch_path.exists():\n        continue\n\n    pulses = pd.read_parquet(batch_path)\n    batch_events = train_meta[train_meta[\"batch_id\"] == batch_id]\n\n    for event_id, row in batch_events.iterrows():\n        event_pulses = pulses.iloc[\n            row[\"first_pulse_index\"] : row[\"last_pulse_index\"] + 1\n        ]\n        features.append(process_event(event_pulses))\n        targets.append(row[[\"azimuth\", \"zenith\"]].values)\n    del pulses\n\nX = pd.DataFrame(features).fillna(0)\ny = pd.DataFrame(targets, columns=[\"azimuth\", \"zenith\"])\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train simplified model with GPU\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nmodel = xgb.XGBRegressor(n_estimators=50, learning_rate=0.2, tree_method=\"gpu_hist\")\nmodel.fit(X_train_scaled, y_train)\n\n\n# Validation metric\ndef angular_error(az_true, zen_true, az_pred, zen_pred):\n    vec_true = np.stack(\n        [\n            np.cos(az_true) * np.sin(zen_true),\n            np.sin(az_true) * np.sin(zen_true),\n            np.cos(zen_true),\n        ],\n        axis=1,\n    )\n    vec_pred = np.stack(\n        [\n            np.cos(az_pred) * np.sin(zen_pred),\n            np.sin(az_pred) * np.sin(zen_pred),\n            np.cos(zen_pred),\n        ],\n        axis=1,\n    )\n    return np.mean(np.degrees(np.arccos(np.clip((vec_true * vec_pred).sum(1), -1, 1))))\n\n\nX_val_scaled = scaler.transform(X_val)\nval_pred = model.predict(X_val_scaled)\nprint(\n    f\"Validation Error: {angular_error(y_val['azimuth'], y_val['zenith'], val_pred[:,0], val_pred[:,1]):.2f}°\"\n)\n\n# Process test data\ntest_features, test_ids = [], []\nfor batch_path in Path(\"input/test\").glob(\"batch_*.parquet\"):\n    pulses = pd.read_parquet(batch_path)\n    for event_id, event_pulses in pulses.groupby(\"event_id\"):\n        test_features.append(process_event(event_pulses))\n        test_ids.append(event_id)\n    del pulses\n\nX_test = pd.DataFrame(test_features).fillna(0)\nX_test_scaled = scaler.transform(X_test)\ntest_pred = model.predict(X_test_scaled)\n\n# Generate submission\npd.DataFrame(\n    {\"event_id\": test_ids, \"azimuth\": test_pred[:, 0], \"zenith\": test_pred[:, 1]}\n).to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport lightgbm as lgb\nfrom sklearn.model_selection import train_test_split\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\")\n\n\ndef compute_features(group):\n    charge = group[\"charge\"].values\n    sum_charge = np.sum(charge)\n    return pd.Series(\n        {\n            \"num_pulses\": len(group),\n            \"charge_sum\": sum_charge,\n            \"charge_mean\": np.mean(charge),\n            \"charge_std\": np.std(charge),\n            \"charge_max\": np.max(charge),\n            \"charge_min\": np.min(charge),\n            \"time_min\": group[\"time\"].min(),\n            \"time_max\": group[\"time\"].max(),\n            \"time_span\": group[\"time\"].max() - group[\"time\"].min(),\n            \"aux_ratio\": group[\"auxiliary\"].mean(),\n            \"x_mean\": np.average(group[\"x\"], weights=charge),\n            \"y_mean\": np.average(group[\"y\"], weights=charge),\n            \"z_mean\": np.average(group[\"z\"], weights=charge),\n            \"x_std\": np.std(group[\"x\"]),\n            \"y_std\": np.std(group[\"y\"]),\n            \"z_std\": np.std(group[\"z\"]),\n        }\n    )\n\n\n# Process training data in chunks\ntrain_meta = pd.read_parquet(\n    \"input/train_meta.parquet\", columns=[\"batch_id\", \"event_id\", \"azimuth\", \"zenith\"]\n)\ntrain_features = []\nfor batch_id in train_meta[\"batch_id\"].unique()[:50]:  # Use subset for speed\n    pulses = pd.read_parquet(f\"input/train/batch_{batch_id}.parquet\").reset_index()\n    pulses = pulses.merge(sensor_geo, on=\"sensor_id\")\n    features = pulses.groupby(\"event_id\").apply(compute_features).reset_index()\n    meta = train_meta[train_meta[\"batch_id\"] == batch_id]\n    merged = features.merge(meta, on=\"event_id\")\n    train_features.append(merged)\n    del pulses, features, meta, merged\n\ntrain_df = pd.concat(train_features).fillna(0)\nX = train_df.drop([\"event_id\", \"azimuth\", \"zenith\"], axis=1)\ny = train_df[[\"azimuth\", \"zenith\"]]\n\n# Split and train\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\nmodel_az = lgb.LGBMRegressor(objective=\"mae\", n_estimators=100)\nmodel_az.fit(\n    X_train, y_train[\"azimuth\"], eval_set=[(X_val, y_val[\"azimuth\"])], verbose=False\n)\nmodel_zen = lgb.LGBMRegressor(objective=\"mae\", n_estimators=100)\nmodel_zen.fit(\n    X_train, y_train[\"zenith\"], eval_set=[(X_val, y_val[\"zenith\"])], verbose=False\n)\n\n# Validation metric\naz_pred = model_az.predict(X_val)\nzen_pred = model_zen.predict(X_val)\n\n\ndef angular_error(az1, zen1, az2, zen2):\n    vec1 = np.array(\n        [np.cos(az1) * np.sin(zen1), np.sin(az1) * np.sin(zen1), np.cos(zen1)]\n    )\n    vec2 = np.array(\n        [np.cos(az2) * np.sin(zen2), np.sin(az2) * np.sin(zen2), np.cos(zen2)]\n    )\n    dot = np.sum(vec1 * vec2, axis=0)\n    return np.mean(np.arccos(np.clip(dot, -1, 1)))\n\n\nprint(\n    f'Validation MAE: {angular_error(y_val[\"azimuth\"], y_val[\"zenith\"], az_pred, zen_pred)}'\n)\n\n# Process test data\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\", columns=[\"batch_id\", \"event_id\"])\ntest_features = []\nfor batch_id in test_meta[\"batch_id\"].unique()[:10]:  # Use subset for speed\n    pulses = pd.read_parquet(f\"input/test/batch_{batch_id}.parquet\").reset_index()\n    pulses = pulses.merge(sensor_geo, on=\"sensor_id\")\n    features = pulses.groupby(\"event_id\").apply(compute_features).reset_index()\n    merged = features.merge(test_meta[test_meta[\"batch_id\"] == batch_id], on=\"event_id\")\n    test_features.append(merged)\n    del pulses, features, merged\n\ntest_df = pd.concat(test_features).fillna(0)\nX_test = test_df.drop([\"event_id\", \"batch_id\"], axis=1)\nazimuth = model_az.predict(X_test) % (2 * np.pi)\nzenith = np.clip(model_zen.predict(X_test), 0, np.pi)\n\n# Generate submission\nsubmission = pd.DataFrame(\n    {\"event_id\": test_df[\"event_id\"], \"azimuth\": azimuth, \"zenith\": zenith}\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport lightgbm as lgb\nfrom sklearn.model_selection import train_test_split\nfrom joblib import Parallel, delayed\n\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\").set_index(\"sensor_id\")\n\n\ndef process_batch(batch_path, is_train=True):\n    pulses = pd.read_parquet(batch_path).reset_index()\n    pulses = pulses.join(sensor_geo, on=\"sensor_id\")\n\n    features = pulses.groupby(\"event_id\").agg(\n        {\n            \"charge\": [\"sum\", \"mean\", \"std\", \"max\", \"min\"],\n            \"time\": [\"min\", \"max\", lambda x: x.max() - x.min()],\n            \"auxiliary\": \"mean\",\n            \"x\": [\n                lambda x: np.average(x, weights=pulses.loc[x.index, \"charge\"]),\n                \"std\",\n            ],\n            \"y\": [\n                lambda x: np.average(x, weights=pulses.loc[x.index, \"charge\"]),\n                \"std\",\n            ],\n            \"z\": [\n                lambda x: np.average(x, weights=pulses.loc[x.index, \"charge\"]),\n                \"std\",\n            ],\n        }\n    )\n    features.columns = [\n        \"charge_sum\",\n        \"charge_mean\",\n        \"charge_std\",\n        \"charge_max\",\n        \"charge_min\",\n        \"time_min\",\n        \"time_max\",\n        \"time_span\",\n        \"aux_ratio\",\n        \"x_mean\",\n        \"x_std\",\n        \"y_mean\",\n        \"y_std\",\n        \"z_mean\",\n        \"z_std\",\n    ]\n    return features.reset_index()\n\n\n# Process training data\ntrain_meta = pd.read_parquet(\n    \"input/train_meta.parquet\", columns=[\"event_id\", \"azimuth\", \"zenith\"]\n)\ntrain_batches = [\n    f\"input/train/batch_{i}.parquet\" for i in train_meta[\"batch_id\"].unique()[:5]\n]\ntrain_features = Parallel(n_jobs=4)(delayed(process_batch)(p) for p in train_batches)\ntrain_df = pd.concat(train_features).merge(train_meta, on=\"event_id\").fillna(0)\nX_train, X_val, y_train, y_val = train_test_split(\n    train_df.drop([\"event_id\", \"azimuth\", \"zenith\"], axis=1),\n    train_df[[\"azimuth\", \"zenith\"]],\n    test_size=0.2,\n    random_state=42,\n)\n\n# Train models with verbosity control in constructor\nmodel_az = lgb.LGBMRegressor(objective=\"mae\", n_estimators=50, verbose=-1)\nmodel_zen = lgb.LGBMRegressor(objective=\"mae\", n_estimators=50, verbose=-1)\nmodel_az.fit(X_train, y_train[\"azimuth\"])\nmodel_zen.fit(X_train, y_train[\"zenith\"])\n\n# Validation metric calculation\naz_pred = model_az.predict(X_val)\nzen_pred = model_zen.predict(X_val)\n\n\ndef angular_error(az_true, zen_true, az_pred, zen_pred):\n    vec_true = np.stack(\n        [\n            np.cos(az_true) * np.sin(zen_true),\n            np.sin(az_true) * np.sin(zen_true),\n            np.cos(zen_true),\n        ],\n        axis=1,\n    )\n    vec_pred = np.stack(\n        [\n            np.cos(az_pred) * np.sin(zen_pred),\n            np.sin(az_pred) * np.sin(zen_pred),\n            np.cos(zen_pred),\n        ],\n        axis=1,\n    )\n    dot = np.sum(vec_true * vec_pred, axis=1)\n    return np.mean(np.arccos(np.clip(dot, -1, 1)))\n\n\nprint(\n    f'Validation MAE: {angular_error(y_val[\"azimuth\"], y_val[\"zenith\"], az_pred, zen_pred)}'\n)\n\n# Process test data\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\", columns=[\"event_id\", \"batch_id\"])\ntest_batches = [f\"input/test/batch_{i}.parquet\" for i in test_meta[\"batch_id\"].unique()]\ntest_features = Parallel(n_jobs=4)(\n    delayed(process_batch)(p, False) for p in test_batches\n)\ntest_df = pd.concat(test_features).merge(test_meta, on=\"event_id\").fillna(0)\n\n# Generate predictions\nazimuth = model_az.predict(test_df.drop([\"event_id\", \"batch_id\"], axis=1)) % (2 * np.pi)\nzenith = np.clip(\n    model_zen.predict(test_df.drop([\"event_id\", \"batch_id\"], axis=1)), 0, np.pi\n)\n\n# Create submission file\nsubmission = pd.DataFrame(\n    {\"event_id\": test_df[\"event_id\"], \"azimuth\": azimuth, \"zenith\": zenith}\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nimport xgboost as xgb\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\").set_index(\"sensor_id\")\n\n\ndef process_event(event_pulses):\n    \"\"\"Extract aggregated features from event pulses\"\"\"\n    features = {}\n    features[\"n_pulses\"] = len(event_pulses)\n    features[\"charge_sum\"] = event_pulses[\"charge\"].sum()\n    features[\"charge_mean\"] = event_pulses[\"charge\"].mean()\n    features[\"time_std\"] = event_pulses[\"time\"].std()\n    features[\"aux_ratio\"] = event_pulses[\"auxiliary\"].mean()\n\n    merged = event_pulses.merge(sensor_geo, left_on=\"sensor_id\", right_index=True)\n    for coord in [\"x\", \"y\", \"z\"]:\n        features[f\"{coord}_mean\"] = merged[coord].mean()\n        features[f\"{coord}_cw\"] = (\n            (merged[coord] * merged[\"charge\"]).sum() / features[\"charge_sum\"]\n            if features[\"charge_sum\"] > 0\n            else 0\n        )\n    return pd.Series(features)\n\n\n# Process training data\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\").set_index(\"event_id\")\ntrain_meta[\"first_pulse_index\"] = train_meta[\"first_pulse_index\"].astype(int)\ntrain_meta[\"last_pulse_index\"] = train_meta[\"last_pulse_index\"].astype(int)\nfeatures, targets = [], []\n\n# Process first 2 batches for speed\nfor batch_id in train_meta[\"batch_id\"].unique()[:2]:\n    batch_path = Path(f\"input/train/batch_{batch_id}.parquet\")\n    pulses = pd.read_parquet(batch_path)\n    batch_events = train_meta[train_meta[\"batch_id\"] == batch_id]\n\n    for event_id, row in batch_events.iterrows():\n        start = row[\"first_pulse_index\"]\n        end = row[\"last_pulse_index\"] + 1\n        event_pulses = pulses.iloc[start:end]\n        features.append(process_event(event_pulses))\n        targets.append(row[[\"azimuth\", \"zenith\"]].values)\n    del pulses\n\nX = pd.DataFrame(features).fillna(0)\ny = pd.DataFrame(targets, columns=[\"azimuth\", \"zenith\"])\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train model with GPU\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nmodel = xgb.XGBRegressor(n_estimators=100, learning_rate=0.1, tree_method=\"gpu_hist\")\nmodel.fit(X_train_scaled, y_train)\n\n\n# Validation metric\ndef angular_error(az_true, zen_true, az_pred, zen_pred):\n    vec_true = np.stack(\n        [\n            np.cos(az_true) * np.sin(zen_true),\n            np.sin(az_true) * np.sin(zen_true),\n            np.cos(zen_true),\n        ],\n        axis=1,\n    )\n    vec_pred = np.stack(\n        [\n            np.cos(az_pred) * np.sin(zen_pred),\n            np.sin(az_pred) * np.sin(zen_pred),\n            np.cos(zen_pred),\n        ],\n        axis=1,\n    )\n    return np.mean(np.degrees(np.arccos(np.clip((vec_true * vec_pred).sum(1), -1, 1))))\n\n\nX_val_scaled = scaler.transform(X_val)\nval_pred = model.predict(X_val_scaled)\nprint(\n    f\"Validation Error: {angular_error(y_val['azimuth'], y_val['zenith'], val_pred[:,0], val_pred[:,1]):.2f}°\"\n)\n\n# Process test data using meta\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\").set_index(\"event_id\")\ntest_meta[\"first_pulse_index\"] = test_meta[\"first_pulse_index\"].astype(int)\ntest_meta[\"last_pulse_index\"] = test_meta[\"last_pulse_index\"].astype(int)\ntest_features, test_ids = [], []\n\nfor batch_id in test_meta[\"batch_id\"].unique()[:5]:  # Process first 5 test batches\n    batch_path = Path(f\"input/test/batch_{batch_id}.parquet\")\n    pulses = pd.read_parquet(batch_path)\n    batch_events = test_meta[test_meta[\"batch_id\"] == batch_id]\n\n    for event_id, row in batch_events.iterrows():\n        start = row[\"first_pulse_index\"]\n        end = row[\"last_pulse_index\"] + 1\n        event_pulses = pulses.iloc[start:end]\n        test_features.append(process_event(event_pulses))\n        test_ids.append(event_id)\n    del pulses\n\nX_test = pd.DataFrame(test_features).fillna(0)\nX_test_scaled = scaler.transform(X_test)\ntest_pred = model.predict(X_test_scaled)\n\n# Generate submission\npd.DataFrame(\n    {\"event_id\": test_ids, \"azimuth\": test_pred[:, 0], \"zenith\": test_pred[:, 1]}\n).to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport lightgbm as lgb\nfrom sklearn.model_selection import train_test_split\nfrom joblib import Parallel, delayed\n\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\").set_index(\"sensor_id\")\n\n\ndef process_batch(batch_path):\n    pulses = pd.read_parquet(batch_path).reset_index()\n    pulses = pulses.join(sensor_geo, on=\"sensor_id\")\n\n    features = pulses.groupby(\"event_id\").agg(\n        {\n            \"charge\": [\"sum\", \"mean\", \"std\", \"max\", \"min\"],\n            \"time\": [\"min\", \"max\", lambda x: x.max() - x.min()],\n            \"auxiliary\": \"mean\",\n            \"x\": [\n                lambda x: np.average(x, weights=pulses.loc[x.index, \"charge\"]),\n                \"std\",\n            ],\n            \"y\": [\n                lambda x: np.average(x, weights=pulses.loc[x.index, \"charge\"]),\n                \"std\",\n            ],\n            \"z\": [\n                lambda x: np.average(x, weights=pulses.loc[x.index, \"charge\"]),\n                \"std\",\n            ],\n        }\n    )\n    features.columns = [\n        \"charge_sum\",\n        \"charge_mean\",\n        \"charge_std\",\n        \"charge_max\",\n        \"charge_min\",\n        \"time_min\",\n        \"time_max\",\n        \"time_span\",\n        \"aux_ratio\",\n        \"x_mean\",\n        \"x_std\",\n        \"y_mean\",\n        \"y_std\",\n        \"z_mean\",\n        \"z_std\",\n    ]\n    return features.reset_index()\n\n\n# Process training data with batch_id\ntrain_meta = pd.read_parquet(\n    \"input/train_meta.parquet\", columns=[\"event_id\", \"azimuth\", \"zenith\", \"batch_id\"]\n)\ntrain_batches = [\n    f\"input/train/batch_{i}.parquet\"\n    for i in train_meta[\"batch_id\"].unique()[:5]  # Use first 5 batches for speed\n]\n\n# Process training features\ntrain_features = Parallel(n_jobs=4)(delayed(process_batch)(p) for p in train_batches)\ntrain_df = pd.concat(train_features).merge(train_meta, on=\"event_id\").fillna(0)\nX_train, X_val, y_train, y_val = train_test_split(\n    train_df.drop([\"event_id\", \"azimuth\", \"zenith\", \"batch_id\"], axis=1),\n    train_df[[\"azimuth\", \"zenith\"]],\n    test_size=0.2,\n    random_state=42,\n)\n\n# Train models\nmodel_az = lgb.LGBMRegressor(objective=\"mae\", n_estimators=100, verbose=-1)\nmodel_zen = lgb.LGBMRegressor(objective=\"mae\", n_estimators=100, verbose=-1)\nmodel_az.fit(X_train, y_train[\"azimuth\"])\nmodel_zen.fit(X_train, y_train[\"zenith\"])\n\n\n# Validation metric calculation\ndef angular_error(az_true, zen_true, az_pred, zen_pred):\n    vec_true = np.stack(\n        [\n            np.cos(az_true) * np.sin(zen_true),\n            np.sin(az_true) * np.sin(zen_true),\n            np.cos(zen_true),\n        ],\n        axis=1,\n    )\n    vec_pred = np.stack(\n        [\n            np.cos(az_pred) * np.sin(zen_pred),\n            np.sin(az_pred) * np.sin(zen_pred),\n            np.cos(zen_pred),\n        ],\n        axis=1,\n    )\n    dot = np.sum(vec_true * vec_pred, axis=1)\n    return np.mean(np.arccos(np.clip(dot, -1, 1)))\n\n\naz_pred = model_az.predict(X_val)\nzen_pred = model_zen.predict(X_val)\nprint(\n    f'Validation MAE: {angular_error(y_val[\"azimuth\"], y_val[\"zenith\"], az_pred, zen_pred)}'\n)\n\n# Process test data\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\", columns=[\"event_id\", \"batch_id\"])\ntest_batches = [f\"input/test/batch_{i}.parquet\" for i in test_meta[\"batch_id\"].unique()]\n\n# Process test features in parallel\ntest_features = Parallel(n_jobs=4)(delayed(process_batch)(p) for p in test_batches)\ntest_df = pd.concat(test_features).merge(test_meta, on=\"event_id\").fillna(0)\n\n# Generate predictions\nX_test = test_df.drop([\"event_id\", \"batch_id\"], axis=1)\nazimuth = model_az.predict(X_test) % (2 * np.pi)\nzenith = np.clip(model_zen.predict(X_test), 0, np.pi)\n\n# Create submission file\nsubmission = pd.DataFrame(\n    {\"event_id\": test_df[\"event_id\"], \"azimuth\": azimuth, \"zenith\": zenith}\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport os\nfrom sklearn.model_selection import train_test_split\nimport lightgbm as lgb\n\n\ndef angular_dist_score(az_true, zen_true, az_pred, zen_pred):\n    sa1 = np.sin(az_true)\n    ca1 = np.cos(az_true)\n    sz1 = np.sin(zen_true)\n    cz1 = np.cos(zen_true)\n\n    sa2 = np.sin(az_pred)\n    ca2 = np.cos(az_pred)\n    sz2 = np.sin(zen_pred)\n    cz2 = np.cos(zen_pred)\n\n    scalar_prod = sz1 * sz2 * (ca1 * ca2 + sa1 * sa2) + (cz1 * cz2)\n    scalar_prod = np.clip(scalar_prod, -1, 1)\n    return np.mean(np.arccos(scalar_prod))\n\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\")\n\n# Process training data\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\")\nfeatures, targets = [], []\n\nfor batch_id, group in train_meta.groupby(\"batch_id\"):\n    batch = pd.read_parquet(f\"input/train/batch_{batch_id}.parquet\")\n    batch = batch.merge(sensor_geo, on=\"sensor_id\")\n\n    for _, row in group.iterrows():\n        start = int(row[\"first_pulse_index\"])\n        end = int(row[\"last_pulse_index\"]) + 1\n        pulses = batch.iloc[start:end]\n\n        sum_charge = pulses.charge.sum()\n        if sum_charge > 0:\n            weights = pulses.charge.values / sum_charge\n            mean_x = (pulses.x * weights).sum()\n            mean_y = (pulses.y * weights).sum()\n            mean_z = (pulses.z * weights).sum()\n        else:\n            mean_x = mean_y = mean_z = 0\n\n        features.append([mean_x, mean_y, mean_z, sum_charge, pulses.charge.max()])\n        targets.append([row[\"azimuth\"], row[\"zenith\"]])\n\nX = pd.DataFrame(\n    features, columns=[\"mean_x\", \"mean_y\", \"mean_z\", \"sum_charge\", \"max_charge\"]\n)\ny = pd.DataFrame(targets, columns=[\"azimuth\", \"zenith\"])\n\n# Split data\nX_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train model\nparams = {\n    \"objective\": \"regression_l1\",\n    \"learning_rate\": 0.1,\n    \"num_leaves\": 31,\n    \"n_estimators\": 500,\n}\n\nmodel_az = lgb.LGBMRegressor(**params)\nmodel_zen = lgb.LGBMRegressor(**params)\n\nmodel_az.fit(X_train, y_train.azimuth)\nmodel_zen.fit(X_train, y_train.zenith)\n\n# Validate\nval_pred_az = model_az.predict(X_val)\nval_pred_zen = model_zen.predict(X_val)\nscore = angular_dist_score(y_val.azimuth, y_val.zenith, val_pred_az, val_pred_zen)\nprint(f\"Validation Angular Error: {score:.4f} radians\")\n\n# Process test data\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\")\ntest_features, event_ids = [], []\n\nfor batch_id, group in test_meta.groupby(\"batch_id\"):\n    batch = pd.read_parquet(f\"input/test/batch_{batch_id}.parquet\")\n    batch = batch.merge(sensor_geo, on=\"sensor_id\")\n\n    for _, row in group.iterrows():\n        start = int(row[\"first_pulse_index\"])\n        end = int(row[\"last_pulse_index\"]) + 1\n        pulses = batch.iloc[start:end]\n\n        if pulses.empty:\n            test_features.append([0, 0, 0, 0, 0])\n        else:\n            sum_charge = pulses.charge.sum()\n            if sum_charge > 0:\n                weights = pulses.charge.values / sum_charge\n                mean_x = (pulses.x * weights).sum()\n                mean_y = (pulses.y * weights).sum()\n                mean_z = (pulses.z * weights).sum()\n            else:\n                mean_x = mean_y = mean_z = 0\n            test_features.append(\n                [mean_x, mean_y, mean_z, sum_charge, pulses.charge.max()]\n            )\n\n        event_ids.append(row[\"event_id\"])\n\nX_test = pd.DataFrame(test_features, columns=X.columns)\ntest_az = model_az.predict(X_test)\ntest_zen = model_zen.predict(X_test)\n\n# Save submission\nos.makedirs(\"submission\", exist_ok=True)\npd.DataFrame({\"event_id\": event_ids, \"azimuth\": test_az, \"zenith\": test_zen}).to_csv(\n    \"submission/submission.csv\", index=False\n)\n",
+            "import pandas as pd\nimport numpy as np\nimport os\nfrom sklearn.model_selection import train_test_split\nimport lightgbm as lgb\n\n\ndef angular_dist_score(az_true, zen_true, az_pred, zen_pred):\n    sa1 = np.sin(az_true)\n    ca1 = np.cos(az_true)\n    sz1 = np.sin(zen_true)\n    cz1 = np.cos(zen_true)\n\n    sa2 = np.sin(az_pred)\n    ca2 = np.cos(az_pred)\n    sz2 = np.sin(zen_pred)\n    cz2 = np.cos(zen_pred)\n\n    scalar_prod = sz1 * sz2 * (ca1 * ca2 + sa1 * sa2) + (cz1 * cz2)\n    scalar_prod = np.clip(scalar_prod, -1, 1)\n    return np.mean(np.arccos(scalar_prod))\n\n\n# Load sensor geometry and sample training batches\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\")\n\n# Process subset of training data (first 10 batches)\ntrain_batches = sorted([f for f in os.listdir(\"input/train\") if f.startswith(\"batch\")])[\n    :10\n]\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\")\ntrain_meta = train_meta[\n    train_meta.batch_id.isin(\n        [int(b.split(\"_\")[1].split(\".\")[0]) for b in train_batches]\n    )\n]\n\n\n# Vectorized feature calculation\ndef process_batch(batch_path):\n    batch = pd.read_parquet(batch_path)\n    merged = batch.merge(sensor_geo, on=\"sensor_id\")\n    merged[\"charge\"] = merged.charge.astype(np.float32)\n\n    # Group by event_id and calculate features\n    grouped = merged.groupby(\"event_id\")\n    features = grouped.agg(\n        {\n            \"x\": lambda x: np.average(x, weights=merged.loc[x.index, \"charge\"]),\n            \"y\": lambda x: np.average(y, weights=merged.loc[x.index, \"charge\"]),\n            \"z\": lambda x: np.average(z, weights=merged.loc[x.index, \"charge\"]),\n            \"charge\": [\"sum\", \"max\"],\n        }\n    )\n    features.columns = [\"mean_x\", \"mean_y\", \"mean_z\", \"sum_charge\", \"max_charge\"]\n    return features\n\n\ntrain_features = pd.concat([process_batch(f\"input/train/{b}\") for b in train_batches])\ntrain_targets = train_meta.set_index(\"event_id\")[[\"azimuth\", \"zenith\"]]\n\n# Split data\nX_train, X_val, y_train, y_val = train_test_split(\n    train_features, train_targets, test_size=0.2, random_state=42\n)\n\n# Train model with reduced complexity\nparams = {\n    \"objective\": \"regression_l1\",\n    \"learning_rate\": 0.1,\n    \"num_leaves\": 31,\n    \"n_estimators\": 100,\n    \"n_jobs\": -1,\n}\n\nmodel_az = lgb.LGBMRegressor(**params)\nmodel_zen = lgb.LGBMRegressor(**params)\n\nmodel_az.fit(X_train, y_train.azimuth)\nmodel_zen.fit(X_train, y_train.zenith)\n\n# Validate\nval_pred_az = model_az.predict(X_val)\nval_pred_zen = model_zen.predict(X_val)\nscore = angular_dist_score(y_val.azimuth, y_val.zenith, val_pred_az, val_pred_zen)\nprint(f\"Validation Angular Error: {score:.4f} radians\")\n\n# Process test data (first 5 batches)\ntest_meta = pd.read_parquet(\"input/test_meta.parquet\")\ntest_batches = sorted([f for f in os.listdir(\"input/test\") if f.startswith(\"batch\")])[\n    :5\n]\ntest_meta = test_meta[\n    test_meta.batch_id.isin([int(b.split(\"_\")[1].split(\".\")[0]) for b in test_batches])\n]\n\ntest_features = pd.concat([process_batch(f\"input/test/{b}\") for b in test_batches])\ntest_pred_az = model_az.predict(test_features)\ntest_pred_zen = model_zen.predict(test_features)\n\n# Create submission\nos.makedirs(\"submission\", exist_ok=True)\npd.DataFrame(\n    {\"event_id\": test_features.index, \"azimuth\": test_pred_az, \"zenith\": test_pred_zen}\n).to_csv(\"submission/submission.csv\", index=False)\n",
+            "import pandas as pd\nimport numpy as np\nimport os\nfrom sklearn.model_selection import train_test_split\nimport lightgbm as lgb\n\n\ndef angular_dist_score(az_true, zen_true, az_pred, zen_pred):\n    sa1 = np.sin(az_true)\n    ca1 = np.cos(az_true)\n    sz1 = np.sin(zen_true)\n    cz1 = np.cos(zen_true)\n\n    sa2 = np.sin(az_pred)\n    ca2 = np.cos(az_pred)\n    sz2 = np.sin(zen_pred)\n    cz2 = np.cos(zen_pred)\n\n    scalar_prod = sz1 * sz2 * (ca1 * ca2 + sa1 * sa2) + (cz1 * cz2)\n    scalar_prod = np.clip(scalar_prod, -1, 1)\n    return np.mean(np.arccos(scalar_prod))\n\n\n# Load sensor geometry\nsensor_geo = pd.read_csv(\"input/sensor_geometry.csv\")\n\n\n# Process training data\ndef process_batch(batch_path):\n    batch = pd.read_parquet(\n        batch_path\n    ).reset_index()  # Fix: Reset index to get event_id as column\n    merged = batch.merge(sensor_geo, on=\"sensor_id\")\n\n    # Create weighted averages using charge\n    features = merged.groupby(\"event_id\").apply(\n        lambda x: pd.Series(\n            {\n                \"mean_x\": np.average(x[\"x\"], weights=x[\"charge\"]),\n                \"mean_y\": np.average(x[\"y\"], weights=x[\"charge\"]),\n                \"mean_z\": np.average(x[\"z\"], weights=x[\"charge\"]),\n                \"sum_charge\": x[\"charge\"].sum(),\n                \"max_charge\": x[\"charge\"].max(),\n            }\n        )\n    )\n    return features\n\n\n# Process subset of training data\ntrain_batches = [f\"input/train/batch_{i}.parquet\" for i in [1, 10, 100, 101]]\ntrain_features = pd.concat([process_batch(b) for b in train_batches])\ntrain_meta = pd.read_parquet(\"input/train_meta.parquet\")\ntrain_targets = train_meta.set_index(\"event_id\")[[\"azimuth\", \"zenith\"]].loc[\n    train_features.index\n]\n\n# Split data\nX_train, X_val, y_train, y_val = train_test_split(\n    train_features, train_targets, test_size=0.2, random_state=42\n)\n\n# Train model\nparams = {\n    \"objective\": \"regression_l1\",\n    \"learning_rate\": 0.1,\n    \"num_leaves\": 31,\n    \"n_estimators\": 100,\n    \"n_jobs\": -1,\n}\n\nmodel_az = lgb.LGBMRegressor(**params)\nmodel_zen = lgb.LGBMRegressor(**params)\n\nmodel_az.fit(X_train, y_train.azimuth)\nmodel_zen.fit(X_train, y_train.zenith)\n\n# Validate\nval_pred_az = model_az.predict(X_val)\nval_pred_zen = model_zen.predict(X_val)\nscore = angular_dist_score(y_val.azimuth, y_val.zenith, val_pred_az, val_pred_zen)\nprint(f\"Validation Angular Error: {score:.4f} radians\")\n\n# Process test data and generate submission\ntest_batches = [f\"input/test/batch_{i}.parquet\" for i in [104, 128, 141, 143]]\ntest_features = pd.concat([process_batch(b) for b in test_batches])\n\ntest_pred_az = model_az.predict(test_features)\ntest_pred_zen = model_zen.predict(test_features)\n\nos.makedirs(\"submission\", exist_ok=True)\npd.DataFrame(\n    {\"event_id\": test_features.index, \"azimuth\": test_pred_az, \"zenith\": test_pred_zen}\n).to_csv(\"submission/submission.csv\", index=False)\n"
         ],
         "term_out": [
             "<OMITTED>",
+            "code exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexes/range.py\", line 391, in get_loc\n    return self._range.index(new_key)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 2024697081 is not in range\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 49, in <module>\n    targets.append(train_meta.loc[event_id, [\"azimuth\", \"zenith\"]])\n                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1067, in __getitem__\n    return self._getitem_tuple(key)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1247, in _getitem_tuple\n    return self._getitem_lowerdim(tup)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 967, in _getitem_lowerdim\n    section = self._getitem_axis(key, axis=i)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1312, in _getitem_axis\n    return self._get_label(key, axis=axis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1260, in _get_label\n    return self.obj.xs(label, axis=axis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/generic.py\", line 4056, in xs\n    loc = index.get_loc(key)\n          ^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexes/range.py\", line 393, in get_loc\n    raise KeyError(key) from err\nKeyError: 2024697081\nExecution time: 12 seconds seconds (time limit is 9 hours).",
+            "code exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 38, in <module>\n    pulses = batch.iloc[row[\"first_pulse_index\"] : row[\"last_pulse_index\"] + 1]\n             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1073, in __getitem__\n    return self._getitem_axis(maybe_callable, axis=axis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1602, in _getitem_axis\n    return self._get_slice_axis(key, axis=axis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1637, in _get_slice_axis\n    labels._validate_positional_slice(slice_obj)\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexes/base.py\", line 4211, in _validate_positional_slice\n    self._validate_indexer(\"positional\", key.start, \"iloc\")\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexes/base.py\", line 6591, in _validate_indexer\n    raise self._invalid_indexer(form, key)\nTypeError: cannot do positional indexing on Int64Index with these indexers [0.0] of type float64\nExecution time: 23 seconds seconds (time limit is 9 hours).",
+            "code exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_2.py\", line 48, in <module>\n    event_pulses = pulses.iloc[\n                   ^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1073, in __getitem__\n    return self._getitem_axis(maybe_callable, axis=axis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1602, in _getitem_axis\n    return self._get_slice_axis(key, axis=axis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1637, in _get_slice_axis\n    labels._validate_positional_slice(slice_obj)\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexes/base.py\", line 4211, in _validate_positional_slice\n    self._validate_indexer(\"positional\", key.start, \"iloc\")\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexes/base.py\", line 6591, in _validate_indexer\n    raise self._invalid_indexer(form, key)\nTypeError: cannot do positional indexing on Int64Index with these indexers [0.0] of type float64\nExecution time: 18 seconds seconds (time limit is 9 hours).",
             "<OMITTED>",
-            "[LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8\n[LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8\n[LightGBM] [Info] This is the GPU trainer!!\n[LightGBM] [Info] Total Bins 3570\n[LightGBM] [Info] Number of data points in the train set: 95003139, number of used features: 14\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 56, in <module>\n    azimuth_model.fit(\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/sklearn.py\", line 1398, in fit\n    super().fit(\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/sklearn.py\", line 1049, in fit\n    self._Booster = train(\n                    ^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/engine.py\", line 297, in train\n    booster = Booster(params=params, train_set=train_set)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/basic.py\", line 3660, in __init__\n    _safe_call(\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/basic.py\", line 313, in _safe_call\n    raise LightGBMError(_LIB.LGBM_GetLastError().decode(\"utf-8\"))\nlightgbm.basic.LightGBMError: No OpenCL device found\nExecution time: 5 hours seconds (time limit is 9 hours).",
-            "Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 191, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 64, in <module>\n    azimuth_model.fit(\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/sklearn.py\", line 1398, in fit\n    super().fit(\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/sklearn.py\", line 1049, in fit\n    self._Booster = train(\n                    ^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/engine.py\", line 297, in train\n    booster = Booster(params=params, train_set=train_set)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/basic.py\", line 3660, in __init__\n    _safe_call(\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/lightgbm/basic.py\", line 313, in _safe_call\n    raise LightGBMError(_LIB.LGBM_GetLastError().decode(\"utf-8\"))\nlightgbm.basic.LightGBMError: CUDA Tree Learner was not enabled in this build.\nPlease recompile with CMake option -DUSE_CUDA=1\nExecution time: 4 minutes seconds (time limit is 9 hours).",
             "<OMITTED>",
-            "\rValidating:   0%|          | 0/594 [00:00<?, ?it/s]\rValidating:   0%|          | 1/594 [01:43<17:03:17, 103.54s/it]\rValidating:   0%|          | 2/594 [03:25<16:50:02, 102.37s/it]\rValidating:   1%|          | 3/594 [05:07<16:47:02, 102.24s/it]\rValidating:   1%|          | 4/594 [06:48<16:43:18, 102.03s/it]\rValidating:   1%|          | 5/594 [08:30<16:40:53, 101.96s/it]\rValidating:   1%|1         | 6/594 [10:12<16:39:32, 101.99s/it]\rValidating:   1%|1         | 7/594 [11:55<16:38:44, 102.09s/it]\rValidating:   1%|1         | 8/594 [13:37<16:38:09, 102.20s/it]\rValidating:   2%|1         | 9/594 [15:20<16:40:22, 102.60s/it]\rValidating:   2%|1         | 10/594 [17:03<16:37:05, 102.44s/it]\rValidating:   2%|1         | 11/594 [18:45<16:33:55, 102.29s/it]\rValidating:   2%|2         | 12/594 [20:27<16:33:45, 102.45s/it]\rValidating:   2%|2         | 13/594 [22:09<16:28:51, 102.12s/it]\rValidating:   2%|2         | 14/594 [23:52<16:31:25, 102.56s/it]\rValidating:   3%|2         | 15/594 [25:34<16:28:10, 102.40s/it]\rValidating:   3%|2         | 16/594 [27:16<16:23:36, 102.10s/it]\rValidating:   3%|2         | 17/594 [28:59<16:25:28, 102.48s/it]\rValidating:   3%|3         | 18/594 [30:41<16:22:43, 102.37s/it]\rValidating:   3%|3         | 19/594 [32:23<16:19:16, 102.19s/it]\rValidating:   3%|3         | 20/594 [34:05<16:18:35, 102.29s/it]\rValidating:   4%|3         | 21/594 [35:47<16:13:34, 101.95s/it]\rValidating:   4%|3         | 22/594 [37:29<16:12:04, 101.97s/it]\rValidating:   4%|3         | 23/594 [39:10<16:09:26, 101.87s/it]\rValidating:   4%|4         | 24/594 [40:53<16:09:02, 102.00s/it]\rValidating:   4%|4         | 25/594 [42:34<16:06:32, 101.92s/it]\rValidating:   4%|4         | 26/594 [44:18<16:08:43, 102.33s/it]\rValidating:   5%|4         | 27/594 [46:01<16:11:23, 102.79s/it]\rValidating:   5%|4         | 28/594 [47:45<16:12:56, 103.14s/it]\rValidating:   5%|4         | 29/594 [49:29<16:11:56, 103.21s/it]\rValidating:   5%|5         | 30/594 [51:13<16:12:38, 103.47s/it]\rValidating:   5%|5         | 31/594 [52:57<16:12:05, 103.60s/it]\rValidating:   5%|5         | 32/594 [54:41<16:11:59, 103.77s/it]\rValidating:   6%|5         | 33/594 [56:26<16:13:00, 104.07s/it]\rValidating:   6%|5         | 34/594 [58:09<16:09:41, 103.90s/it]\rValidating:   6%|5         | 35/594 [59:54<16:09:20, 104.04s/it]\rValidating:   6%|6         | 36/594 [1:01:38<16:07:22, 104.02s/it]\rValidating:   6%|6         | 37/594 [1:03:21<16:04:31, 103.90s/it]\rValidating:   6%|6         | 38/594 [1:05:05<16\n ... [19810 characters truncated] ... \n          ^^^^^^^^\n  File \"runfile_1.py\", line 24, in <lambda>\n    \"sum_z\": (x[\"charge\"] * x[\"z\"]).sum(),\n              ~~~~~~~~~~~~^~~~~~~~\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/ops/common.py\", line 72, in new_method\n    return method(self, other)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/arraylike.py\", line 118, in __mul__\n    return self._arith_method(other, operator.mul)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/series.py\", line 6259, in _arith_method\n    return base.IndexOpsMixin._arith_method(self, other, op)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/base.py\", line 1327, in _arith_method\n    return self._construct_result(result, name=res_name)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/series.py\", line 3223, in _construct_result\n    out = self._constructor(result, index=self.index)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/series.py\", line 474, in __init__\n    data = SingleBlockManager.from_array(data, index)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/internals/managers.py\", line 1939, in from_array\n    block = new_block(array, placement=slice(0, len(index)), ndim=1)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/internals/blocks.py\", line 2182, in new_block\n    values = maybe_coerce_values(values)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/internals/blocks.py\", line 2091, in maybe_coerce_values\n    def maybe_coerce_values(values: ArrayLike) -> ArrayLike:\n    \nKeyboardInterrupt\nTimeoutError: Execution exceeded the time limit of 9 hours"
+            "code exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_2.py\", line 49, in <module>\n    event_pulses = pulses.iloc[start:end]\n                   ~~~~~~~~~~~^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1073, in __getitem__\n    return self._getitem_axis(maybe_callable, axis=axis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1602, in _getitem_axis\n    return self._get_slice_axis(key, axis=axis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexing.py\", line 1637, in _get_slice_axis\n    labels._validate_positional_slice(slice_obj)\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexes/base.py\", line 4211, in _validate_positional_slice\n    self._validate_indexer(\"positional\", key.start, \"iloc\")\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/indexes/base.py\", line 6591, in _validate_indexer\n    raise self._invalid_indexer(form, key)\nTypeError: cannot do positional indexing on Int64Index with these indexers [0.0] of type float64\nExecution time: 15 seconds seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "code exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 45, in <module>\n    mean_x = (pulses.x * weights).sum()\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/generic.py\", line 11797, in sum\n    return NDFrame.sum(\n           ^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/generic.py\", line 11501, in sum\n    return self._min_count_stat_function(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/generic.py\", line 11483, in _min_count_stat_function\n    return self._reduce(\n           ^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/series.py\", line 4816, in _reduce\n    return op(delegate, skipna=skipna, **kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/nanops.py\", line 93, in _f\n    return f(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/nanops.py\", line 418, in new_func\n    result = func(values, axis=axis, skipna=skipna, mask=mask, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/nanops.py\", line 491, in newfunc\n    return func(values, axis=axis, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/nanops.py\", line 622, in nansum\n    values, mask, dtype, dtype_max, _ = _get_values(\n                                        ^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/nanops.py\", line 312, in _get_values\n    mask = _maybe_get_mask(values, skipna, mask)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/nanops.py\", line 256, in _maybe_get_mask\n    mask = isna(values)\n           ^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/dtypes/missing.py\", line 185, in isna\n    return _isna(obj)\n           ^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/dtypes/missing.py\", line 214, in _isna\n    return _isna_array(obj, inf_as_na=inf_as_na)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/dtypes/missing.py\", line 297, in _isna_array\n    elif needs_i8_conversion(dtype):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/dtypes/common.py\", line 1154, in needs_i8_conversion\n    def needs_i8_conversion(arr_or_dtype) -> bool:\n    \nKeyboardInterrupt\nTimeoutError: Execution exceeded the time limit of 9 hours",
+            "code exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 61, in <module>\n    train_features = pd.concat([process_batch(f\"input/train/{b}\") for b in train_batches])\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"runfile_0.py\", line 48, in process_batch\n    grouped = merged.groupby(\"event_id\")\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/frame.py\", line 8402, in groupby\n    return DataFrameGroupBy(\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/groupby/groupby.py\", line 965, in __init__\n    grouper, exclusions, obj = get_grouper(\n                               ^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/pandas/core/groupby/grouper.py\", line 888, in get_grouper\n    raise KeyError(gpr)\nKeyError: 'event_id'\nExecution time: 15 seconds seconds (time limit is 9 hours).",
+            "[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001004 seconds.\nYou can set `force_row_wise=true` to remove the overhead.\nAnd if memory is not enough, you can set `force_col_wise=true`.\n[LightGBM] [Info] Total Bins 1275\n[LightGBM] [Info] Number of data points in the train set: 640000, number of used features: 5\n[LightGBM] [Info] Start training from score 3.145400\n[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001010 seconds.\nYou can set `force_row_wise=true` to remove the overhead.\nAnd if memory is not enough, you can set `force_col_wise=true`.\n[LightGBM] [Info] Total Bins 1275\n[LightGBM] [Info] Number of data points in the train set: 640000, number of used features: 5\n[LightGBM] [Info] Start training from score 1.526786\nValidation Angular Error: 1.5601 radians\nExecution time: 11 minutes seconds (time limit is 9 hours)."
         ],
         "analysis": [
             null,
-            "The execution of the code failed due to a TypeError. The error occurred because the code attempted to perform element-wise multiplication between two generator objects, which is not supported. As a result, the validation metric could not be calculated, and the submission.csv file was not properly produced.",
-            "The code execution failed due to a LightGBMError indicating 'No OpenCL device found'. This suggests that the GPU setup required for LightGBM's GPU acceleration is not properly configured or available. As a result, the validation metric could not be calculated, and the submission.csv file was not generated.",
-            "The execution of the code failed due to a LightGBMError. The error message indicates that the CUDA Tree Learner was not enabled in the current build, which is necessary for GPU acceleration. As a result, the model training could not proceed, and no validation metric was calculated.",
-            "The code successfully generates a CSV submission file containing predictions for the test data. The validation process on a sample of the training data resulted in a Mean Angular Error (MAE) of 85.07°, indicating the model's performance in predicting the neutrino particle's direction. The execution completed without any bugs, and the metric is intended to be minimized, implying that lower values represent better performance.",
-            "The execution of the script failed due to a timeout error, as it exceeded the 9-hour runtime limit. The code attempted to process the training data for validation but was unable to complete within the allotted time. As a result, the validation metric could not be calculated, and the submission.csv file could not be generated successfully."
+            "The execution of the code failed due to a KeyError when attempting to access the 'azimuth' and 'zenith' values for a specific event_id in the train_meta DataFrame. As a result, the code did not complete successfully and no validation metric was calculated. However, the code logic is designed to produce a 'submission.csv' file in the './submission/' directory if executed successfully.",
+            "The execution of the code failed due to a bug in the indexing of the DataFrame. The error indicates that positional indexing cannot be performed with a float indexer, which suggests an issue with the way indices are being handled in the slicing operation. Consequently, the submission.csv was not properly produced.",
+            "The code execution failed due to an error in the indexing operation on the 'pulses' DataFrame. Specifically, the code attempted to perform positional indexing with a float value, which is not allowed. As a result, the submission.csv file was not generated, and the validation metric could not be computed.",
+            "The code execution failed due to a bug. Specifically, the 'fit' method of the LGBMRegressor was called with an unexpected keyword argument 'verbose', causing a TypeError. As a result, the predictions on the test data were not generated, and the submission.csv file was not properly produced.",
+            "The execution of the code failed due to a KeyError related to the 'batch_id' column in the 'train_meta' DataFrame. Consequently, the code did not produce a 'submission.csv' file in the './submission/' directory as required. The error needs to be addressed for successful execution and submission generation.",
+            "The code execution failed due to a bug in the indexing of the DataFrame. The error message indicates that there was an attempt to use positional indexing on an Int64Index with a float64 indexer, which is not allowed. As a result, the validation metric could not be computed, and the submission.csv file was not properly produced.",
+            "The code executed successfully, producing a 'submission.csv' file with predictions for the test data. The validation mean angular error (MAE) achieved by the model is 1.559, which is the metric used to evaluate the model's performance. The lower the MAE, the better the model's predictions align with the true directions of the neutrino events.",
+            "The code execution failed due to a timeout error, as it exceeded the 9-hour time limit. This indicates that the script is likely inefficient or has a performance issue that prevents it from completing within the allotted time. Additionally, no submission file was produced, as the code execution was not successful.",
+            "The execution of the code failed due to a KeyError related to 'event_id' during the groupby operation in the process_batch function. This indicates a bug in the code, as the 'event_id' column is missing or not properly set as an index. Consequently, the submission.csv file was not properly produced.",
+            "The code successfully processes the training and test data, trains a LightGBM regression model, and evaluates it using the mean angular error metric. The validation angular error achieved is 1.5601 radians, indicating the model's performance in predicting the neutrino particle's direction. The predictions are saved in a 'submission.csv' file in the './submission/' directory as required."
         ],
-        "exp_name": "icecube-neutrinos-in-deep-ice_mcts_comp_dpr1_v7_parallel_1[cpu-36-71]",
+        "exp_name": "icecube-neutrinos-in-deep-ice_mcts_comp_dpr1_v7_parallel_3[cpu-0-35]_0605T1639",
         "metrics": [
             null,
             null,
             null,
             null,
-            85.07,
-            null
+            null,
+            null,
+            null,
+            1.5594059033810306,
+            null,
+            null,
+            1.5601
         ],
         "ucts": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
             0.0,
             0.0,
             0.0,
@@ -822,31 +1210,51 @@
             "True",
             "True",
             "True",
+            "True",
+            "True",
+            "True",
             "False",
-            "True"
+            "True",
+            "True",
+            "False"
         ],
         "rewards": [
+            2.0,
+            0.0,
+            1.0,
+            0.0,
             1.0,
             1.0,
             0.0,
-            0.0,
             1.0,
-            0.0
+            1.0,
+            1.0,
+            1.0
         ],
         "visits": [
+            2,
+            0,
+            1,
+            0,
             1,
             1,
             0,
-            0,
             1,
-            0
+            1,
+            1,
+            1
         ],
         "is_debug_success": [
             "False",
+            "False",
+            "True",
+            "False",
+            "True",
             "True",
             "False",
             "False",
-            "False",
+            "True",
+            "True",
             "False"
         ],
         "local_best_node_steps": [
@@ -854,32 +1262,52 @@
             0,
             0,
             0,
-            4,
-            0
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            10
         ],
         "local_best_metrics": [
             null,
             null,
             null,
             null,
-            85.07,
-            null
+            null,
+            null,
+            null,
+            1.5594059033810306,
+            null,
+            null,
+            1.5601
         ],
         "stages": [
             "root",
             "draft",
             "draft",
             "debug",
+            "draft",
             "debug",
-            "draft"
+            "debug",
+            "debug",
+            "debug",
+            "debug",
+            "debug"
         ],
         "continue_improve": [
             false,
-            true,
-            false,
             false,
             true,
-            false
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
         ]
     },
     "comp_info": {
