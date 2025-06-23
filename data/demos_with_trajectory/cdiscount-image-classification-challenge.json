@@ -3,836 +3,654 @@
     "steps": [
         {
             "text": "<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task cdiscount-image-classification-challenge --time-limit 12h",
-            "delay": 200
+            "delay": 0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Starting run \"cdiscount-image-classification-challenge\"",
-            "delay": 200
+            "delay": 0.027777777777777776
         },
         {
             "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
-            "delay": 200
+            "delay": 0.0006944444444444445
         },
         {
             "text": "<span class='info'>[INFO]</span>: [step_task] Processing virtual root node.",
-            "delay": 200
+            "delay": 0.22013888888888888
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Node 4b8241ff572b4ed59bb0ab73a226ff28 is not fully expanded, expanding",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Node 187438eaf3964c76b32fc0d81d8fa9eb is not fully expanded, expanding",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 4b8241ff572b4ed59bb0ab73a226ff28 expected_child_count is 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 4b8241ff572b4ed59bb0ab73a226ff28 is not fully expanded, expanding",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 4b8241ff572b4ed59bb0ab73a226ff28 is not fully expanded, expanding",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 187438eaf3964c76b32fc0d81d8fa9eb expected_child_count is 1.",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 187438eaf3964c76b32fc0d81d8fa9eb is not fully expanded, expanding",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 187438eaf3964c76b32fc0d81d8fa9eb expected_child_count is 2.",
+            "delay": 0.021527777777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 187438eaf3964c76b32fc0d81d8fa9eb is not fully expanded, expanding",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 4b8241ff572b4ed59bb0ab73a226ff28 expected_child_count is 2.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 4b8241ff572b4ed59bb0ab73a226ff28 expected_child_count is 3.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current 187438eaf3964c76b32fc0d81d8fa9eb expected_child_count is 3.",
+            "delay": 0.03611111111111111
         },
         {
             "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
+            "delay": 0.001388888888888889
         },
         {
             "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
+            "delay": 200.35
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node 9b98ab03542149449fb0eb8bd2b24ad9",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Drafted new node fe41bb54eac548d8a594dea8cafb9ab8",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 9b98ab03542149449fb0eb8bd2b24ad9 is locked.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node fe41bb54eac548d8a594dea8cafb9ab8 is locked.",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Current running process: 0",
-            "delay": 200
+            "delay": 10.875694444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node 15a5c6e8b53b470787f40cd3aec5a042",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 970a37f1bc4f49cda214b8c72ea6fb70",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 15a5c6e8b53b470787f40cd3aec5a042 is locked.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 970a37f1bc4f49cda214b8c72ea6fb70 is locked.",
+            "delay": 0.0006944444444444445
         },
         {
             "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Current running process: 1",
-            "delay": 200
+            "delay": 46.88472222222222
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 15a5c6e8b53b470787f40cd3aec5a042",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 06a0a89df4a34d8897b388d01a151eab",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='warning'>[WARNING]</span>: Node 15a5c6e8b53b470787f40cd3aec5a042 is marked as buggy because the response['is_bug'] is True.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 06a0a89df4a34d8897b388d01a151eab is locked.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 15a5c6e8b53b470787f40cd3aec5a042 is buggy and/or did not produce a submission.csv",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 15a5c6e8b53b470787f40cd3aec5a042 is None.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 88.31388888888888
         },
         {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 4b8241ff572b4ed59bb0ab73a226ff28, the generated node is 15a5c6e8b53b470787f40cd3aec5a042, the metric is None",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 06a0a89df4a34d8897b388d01a151eab",
+            "delay": 1.5791666666666666
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Node 06a0a89df4a34d8897b388d01a151eab is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 06a0a89df4a34d8897b388d01a151eab is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 06a0a89df4a34d8897b388d01a151eab is None.",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 187438eaf3964c76b32fc0d81d8fa9eb, the generated node is 06a0a89df4a34d8897b388d01a151eab, the metric is None",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: agent return to main 15a5c6e8b53b470787f40cd3aec5a042",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: agent return to main 06a0a89df4a34d8897b388d01a151eab",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is 15a5c6e8b53b470787f40cd3aec5a042",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current node count is 0, current node.id is 06a0a89df4a34d8897b388d01a151eab",
+            "delay": 0.02361111111111111
         },
         {
             "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=2,edges=[(0, 1)]",
-            "delay": 200
+            "delay": 0.022222222222222223
         },
         {
             "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 4/500",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 15a5c6e8b53b470787f40cd3aec5a042",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 06a0a89df4a34d8897b388d01a151eab",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 15a5c6e8b53b470787f40cd3aec5a042",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 06a0a89df4a34d8897b388d01a151eab",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 15a5c6e8b53b470787f40cd3aec5a042.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 06a0a89df4a34d8897b388d01a151eab.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current 15a5c6e8b53b470787f40cd3aec5a042 expected_child_count is 1.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current 06a0a89df4a34d8897b388d01a151eab expected_child_count is 1.",
+            "delay": 0.013888888888888888
         },
         {
             "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
+            "delay": 87.00833333333334
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 9b98ab03542149449fb0eb8bd2b24ad9",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Debugged node 06a0a89df4a34d8897b388d01a151eab to create new node 16fcd8859e044bf09d860b8bc7a22d4a",
+            "delay": 0.0
         },
         {
-            "text": "<span class='warning'>[WARNING]</span>: Node 9b98ab03542149449fb0eb8bd2b24ad9 is marked as buggy because the response['is_bug'] is True.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 9b98ab03542149449fb0eb8bd2b24ad9 is buggy and/or did not produce a submission.csv",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 788.9402777777777
         },
         {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 9b98ab03542149449fb0eb8bd2b24ad9 is None.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node fe41bb54eac548d8a594dea8cafb9ab8",
+            "delay": 2.591666666666667
         },
         {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 4b8241ff572b4ed59bb0ab73a226ff28, the generated node is 9b98ab03542149449fb0eb8bd2b24ad9, the metric is None",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node fe41bb54eac548d8a594dea8cafb9ab8 is not buggy",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: The metric value of node fe41bb54eac548d8a594dea8cafb9ab8 is 0.4525.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: agent return to main 9b98ab03542149449fb0eb8bd2b24ad9",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node fe41bb54eac548d8a594dea8cafb9ab8 is assigned as the local best",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is 9b98ab03542149449fb0eb8bd2b24ad9",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 187438eaf3964c76b32fc0d81d8fa9eb, the generated node is fe41bb54eac548d8a594dea8cafb9ab8, the metric is 0.4525",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node fe41bb54eac548d8a594dea8cafb9ab8 is the best node so far",
+            "delay": 0.03611111111111111
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4525.",
+            "delay": 0.001388888888888889
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main fe41bb54eac548d8a594dea8cafb9ab8",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 2, current node.id is fe41bb54eac548d8a594dea8cafb9ab8",
+            "delay": 0.027083333333333334
         },
         {
             "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=3,edges=[(0, 2), (0, 1)]",
-            "delay": 200
+            "delay": 0.024305555555555556
         },
         {
             "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 5/500",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 9b98ab03542149449fb0eb8bd2b24ad9",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: fe41bb54eac548d8a594dea8cafb9ab8",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 9b98ab03542149449fb0eb8bd2b24ad9",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 9b98ab03542149449fb0eb8bd2b24ad9.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 9b98ab03542149449fb0eb8bd2b24ad9 expected_child_count is 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node 74cdc85ada3342fbbe957e75f43d9cfa",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 74cdc85ada3342fbbe957e75f43d9cfa is locked.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Debugged node 15a5c6e8b53b470787f40cd3aec5a042 to create new node 84787598234f4c1297bd7abdce4aeab5",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Debugged node 9b98ab03542149449fb0eb8bd2b24ad9 to create new node 2b4d9252cf214534bf722a11a220d558",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 84787598234f4c1297bd7abdce4aeab5",
-            "delay": 200
-        },
-        {
-            "text": "<span class='warning'>[WARNING]</span>: Node 84787598234f4c1297bd7abdce4aeab5 is marked as buggy because the response['is_bug'] is True.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 84787598234f4c1297bd7abdce4aeab5 is buggy and/or did not produce a submission.csv",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 84787598234f4c1297bd7abdce4aeab5 is None.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 15a5c6e8b53b470787f40cd3aec5a042, the generated node is 84787598234f4c1297bd7abdce4aeab5, the metric is None",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: agent return to main 84787598234f4c1297bd7abdce4aeab5",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 2b4d9252cf214534bf722a11a220d558",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 2b4d9252cf214534bf722a11a220d558 is not buggy",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 2b4d9252cf214534bf722a11a220d558 is 0.553.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 9b98ab03542149449fb0eb8bd2b24ad9.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 2b4d9252cf214534bf722a11a220d558 is assigned as the local best",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: node 2b4d9252cf214534bf722a11a220d558 start backpropagating with reward 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Draft node 9b98ab03542149449fb0eb8bd2b24ad9 is unlocked.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 9b98ab03542149449fb0eb8bd2b24ad9, the generated node is 2b4d9252cf214534bf722a11a220d558, the metric is 0.553",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 2b4d9252cf214534bf722a11a220d558 is the best node so far",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.553.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: agent return root to main",
-            "delay": 200
-        },
-        {
-            "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 74cdc85ada3342fbbe957e75f43d9cfa",
-            "delay": 200
-        },
-        {
-            "text": "<span class='warning'>[WARNING]</span>: Node 74cdc85ada3342fbbe957e75f43d9cfa is marked as buggy because the response['is_bug'] is True.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 74cdc85ada3342fbbe957e75f43d9cfa is buggy and/or did not produce a submission.csv",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 74cdc85ada3342fbbe957e75f43d9cfa is None.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 4b8241ff572b4ed59bb0ab73a226ff28, the generated node is 74cdc85ada3342fbbe957e75f43d9cfa, the metric is None",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.553.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: agent return to main 74cdc85ada3342fbbe957e75f43d9cfa",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current node count is 3, current node.id is 74cdc85ada3342fbbe957e75f43d9cfa",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 2), (0, 5), (0, 1), (1, 3), (2, 4)]",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 74cdc85ada3342fbbe957e75f43d9cfa",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 74cdc85ada3342fbbe957e75f43d9cfa",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: fe41bb54eac548d8a594dea8cafb9ab8",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 74cdc85ada3342fbbe957e75f43d9cfa.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 74cdc85ada3342fbbe957e75f43d9cfa expected_child_count is 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 2), (0, 5), (0, 1), (1, 3), (2, 4)]",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 84787598234f4c1297bd7abdce4aeab5",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 4b8241ff572b4ed59bb0ab73a226ff28 is not fully expanded, expanding",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node fe41bb54eac548d8a594dea8cafb9ab8.",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current 4b8241ff572b4ed59bb0ab73a226ff28 expected_child_count is 4.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 2), (0, 5), (0, 1), (1, 3), (2, 4)]",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 84787598234f4c1297bd7abdce4aeab5",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 84787598234f4c1297bd7abdce4aeab5",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 84787598234f4c1297bd7abdce4aeab5.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 84787598234f4c1297bd7abdce4aeab5 expected_child_count is 1.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current fe41bb54eac548d8a594dea8cafb9ab8 expected_child_count is 1.",
+            "delay": 0.013888888888888888
         },
         {
             "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
+            "delay": 79.89166666666667
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Debugged node 84787598234f4c1297bd7abdce4aeab5 to create new node 2184e5c2ee6e4cb0abcc8ed185d6d91b",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Debugged node 74cdc85ada3342fbbe957e75f43d9cfa to create new node 768f819fbad14eb89e19fef6679f56db",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Improved node fe41bb54eac548d8a594dea8cafb9ab8 to create new node e41ba60d188242bcb1238e30b0b9190d",
+            "delay": 0.0006944444444444445
         },
         {
             "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node e5706eb0a9f340b6b00ca16d4ee7521f",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node e5706eb0a9f340b6b00ca16d4ee7521f is locked.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Current running process: 2",
-            "delay": 200
+            "delay": 4640.007638888889
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 2184e5c2ee6e4cb0abcc8ed185d6d91b",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node e41ba60d188242bcb1238e30b0b9190d",
+            "delay": 2.238888888888889
         },
         {
-            "text": "<span class='warning'>[WARNING]</span>: Node 2184e5c2ee6e4cb0abcc8ed185d6d91b is marked as buggy because the response['is_bug'] is True.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node e41ba60d188242bcb1238e30b0b9190d is not buggy",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 2184e5c2ee6e4cb0abcc8ed185d6d91b is buggy and/or did not produce a submission.csv",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: The metric value of node e41ba60d188242bcb1238e30b0b9190d is 0.4784.",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 2184e5c2ee6e4cb0abcc8ed185d6d91b is None.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Compared to Node fe41bb54eac548d8a594dea8cafb9ab8, Node e41ba60d188242bcb1238e30b0b9190d metric improvement (0.02589999999999998) above threshold (0.0001), continue improving.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 84787598234f4c1297bd7abdce4aeab5, the generated node is 2184e5c2ee6e4cb0abcc8ed185d6d91b, the metric is None",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: In the search step from node fe41bb54eac548d8a594dea8cafb9ab8, the generated node is e41ba60d188242bcb1238e30b0b9190d, the metric is 0.4784",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Node e41ba60d188242bcb1238e30b0b9190d is the best node so far",
+            "delay": 0.04097222222222222
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.553.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.4784.",
+            "delay": 0.003472222222222222
         },
         {
-            "text": "<span class='info'>[INFO]</span>: agent return to main 2184e5c2ee6e4cb0abcc8ed185d6d91b",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: agent return to main e41ba60d188242bcb1238e30b0b9190d",
+            "delay": 13691.944444444445
         },
         {
             "text": "<span class='warning'>[WARNING]</span>: Child process failed to terminate gracefully, killing it..",
-            "delay": 200
+            "delay": 0.825
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 768f819fbad14eb89e19fef6679f56db",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 16fcd8859e044bf09d860b8bc7a22d4a",
+            "delay": 3.0868055555555554
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 768f819fbad14eb89e19fef6679f56db is not buggy",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 16fcd8859e044bf09d860b8bc7a22d4a is not buggy",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 768f819fbad14eb89e19fef6679f56db is 0.5713.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 16fcd8859e044bf09d860b8bc7a22d4a is 0.6686.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 74cdc85ada3342fbbe957e75f43d9cfa.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Successfully Debug the error in node 06a0a89df4a34d8897b388d01a151eab.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 768f819fbad14eb89e19fef6679f56db is assigned as the local best",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: No local best node was found among the previous nodes; the current node 16fcd8859e044bf09d860b8bc7a22d4a is assigned as the local best",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: node 768f819fbad14eb89e19fef6679f56db start backpropagating with reward 1.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: node 16fcd8859e044bf09d860b8bc7a22d4a start backpropagating with reward 1.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Draft node 74cdc85ada3342fbbe957e75f43d9cfa is unlocked.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Draft node 06a0a89df4a34d8897b388d01a151eab is unlocked.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 74cdc85ada3342fbbe957e75f43d9cfa, the generated node is 768f819fbad14eb89e19fef6679f56db, the metric is 0.5713",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 06a0a89df4a34d8897b388d01a151eab, the generated node is 16fcd8859e044bf09d860b8bc7a22d4a, the metric is 0.6686",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Node 768f819fbad14eb89e19fef6679f56db is the best node so far",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Node 16fcd8859e044bf09d860b8bc7a22d4a is the best node so far",
+            "delay": 0.05277777777777778
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.5713.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.6686.",
+            "delay": 0.003472222222222222
         },
         {
             "text": "<span class='info'>[INFO]</span>: agent return root to main",
-            "delay": 200
+            "delay": 3068.0916666666667
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 970a37f1bc4f49cda214b8c72ea6fb70",
+            "delay": 1.7958333333333334
         },
         {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=8,edges=[(0, 2), (0, 5), (0, 1), (1, 3), (2, 4), (3, 6), (5, 7)]",
-            "delay": 200
+            "text": "<span class='warning'>[WARNING]</span>: Node 970a37f1bc4f49cda214b8c72ea6fb70 is marked as buggy because the response['is_bug'] is True.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 10/500",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 970a37f1bc4f49cda214b8c72ea6fb70 is buggy and/or did not produce a submission.csv",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: current node count is 8, current node.id is 2184e5c2ee6e4cb0abcc8ed185d6d91b",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: The metric value of node 970a37f1bc4f49cda214b8c72ea6fb70 is None.",
+            "delay": 0.0006944444444444445
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Node 4b8241ff572b4ed59bb0ab73a226ff28 is not fully expanded, expanding",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 4b8241ff572b4ed59bb0ab73a226ff28",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 4b8241ff572b4ed59bb0ab73a226ff28 expected_child_count is 5.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=8,edges=[(0, 2), (0, 5), (0, 1), (1, 3), (2, 4), (3, 6), (5, 7)]",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 10/500",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 2184e5c2ee6e4cb0abcc8ed185d6d91b",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 2184e5c2ee6e4cb0abcc8ed185d6d91b",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 2184e5c2ee6e4cb0abcc8ed185d6d91b.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: current 2184e5c2ee6e4cb0abcc8ed185d6d91b expected_child_count is 1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Debugged node 2184e5c2ee6e4cb0abcc8ed185d6d91b to create new node 3899d5e01bab446d8875163c9e4de9d3",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Current running process: 1",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node 3899d5e01bab446d8875163c9e4de9d3",
-            "delay": 200
-        },
-        {
-            "text": "<span class='warning'>[WARNING]</span>: Node 3899d5e01bab446d8875163c9e4de9d3 is marked as buggy because the response['is_bug'] is True.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Parsed results: Node 3899d5e01bab446d8875163c9e4de9d3 is buggy and/or did not produce a submission.csv",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: The metric value of node 3899d5e01bab446d8875163c9e4de9d3 is None.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: node 3899d5e01bab446d8875163c9e4de9d3 start backpropagating with reward -1.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: Draft node 15a5c6e8b53b470787f40cd3aec5a042 is unlocked.",
-            "delay": 200
-        },
-        {
-            "text": "<span class='info'>[INFO]</span>: In the search step from node 2184e5c2ee6e4cb0abcc8ed185d6d91b, the generated node is 3899d5e01bab446d8875163c9e4de9d3, the metric is None",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: In the search step from node 187438eaf3964c76b32fc0d81d8fa9eb, the generated node is 970a37f1bc4f49cda214b8c72ea6fb70, the metric is None",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: result node has bug.",
-            "delay": 200
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.5713.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.6686.",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: agent return root to main",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: agent return to main 970a37f1bc4f49cda214b8c72ea6fb70",
+            "delay": 0.0
         },
         {
-            "text": "<span class='info'>[INFO]</span>: Drafted new node 46c24ff593d84ba584f19d8b0351bfbf",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: current node count is 3, current node.id is 970a37f1bc4f49cda214b8c72ea6fb70",
+            "delay": 0.4527777777777778
         },
         {
-            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 46c24ff593d84ba584f19d8b0351bfbf is locked.",
-            "delay": 200
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 4), (2, 3)]",
+            "delay": 0.0375
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 970a37f1bc4f49cda214b8c72ea6fb70",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 970a37f1bc4f49cda214b8c72ea6fb70",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Debugging Node 970a37f1bc4f49cda214b8c72ea6fb70.",
+            "delay": 0.010416666666666666
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 970a37f1bc4f49cda214b8c72ea6fb70 expected_child_count is 1.",
+            "delay": 0.02847222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 0.41388888888888886
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 4), (2, 3)]",
+            "delay": 0.027777777777777776
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current node count is 6, current node.id is e41ba60d188242bcb1238e30b0b9190d",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [select] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 187438eaf3964c76b32fc0d81d8fa9eb is not fully expanded, expanding",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: 187438eaf3964c76b32fc0d81d8fa9eb",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.003472222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Drafting a new Node.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current 187438eaf3964c76b32fc0d81d8fa9eb expected_child_count is 4.",
+            "delay": 0.020833333333333332
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 0.4215277777777778
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: generating layer = Graph, paramaters: n_nodes=6,edges=[(0, 5), (0, 2), (0, 1), (1, 4), (2, 3)]",
+            "delay": 0.02361111111111111
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Adding new step. Current steps is 8/500",
+            "delay": 0.0006944444444444445
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [step_task] Processing node: e41ba60d188242bcb1238e30b0b9190d",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search] Processing node: e41ba60d188242bcb1238e30b0b9190d",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is generating code, parent node type: <class 'search.mcts_node.MCTSNode'>",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Starting Improving Node e41ba60d188242bcb1238e30b0b9190d.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: fetch_child_memory",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: current e41ba60d188242bcb1238e30b0b9190d expected_child_count is 1.",
+            "delay": 0.01875
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: using deepseek-r1 to generate code.",
+            "delay": 70.99722222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Debugged node 970a37f1bc4f49cda214b8c72ea6fb70 to create new node 660eadaf3c7c4d3aa65bec35fa9b18b8",
+            "delay": 0.0006944444444444445
         },
         {
             "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
-            "delay": 200
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 0",
+            "delay": 24.8125
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Improved node e41ba60d188242bcb1238e30b0b9190d to create new node c98ec409e07f42f5a62167a56fb622cd",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
         },
         {
             "text": "<span class='info'>[INFO]</span>: Current running process: 1",
-            "delay": 200
+            "delay": 2.2263888888888888
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Drafted new node 26fed51216d047f4a4f355cb5dc09140",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: [_step_search]Draft node 26fed51216d047f4a4f355cb5dc09140 is locked.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: REPL is executing code (reset_session=True)",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Current running process: 2",
+            "delay": 3864.6875
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Agent is parsing execution results for node c98ec409e07f42f5a62167a56fb622cd",
+            "delay": 1.3722222222222222
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Parsed results: Node c98ec409e07f42f5a62167a56fb622cd is not buggy",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: The metric value of node c98ec409e07f42f5a62167a56fb622cd is 0.4446.",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='warning'>[WARNING]</span>: Compared to Node e41ba60d188242bcb1238e30b0b9190d, Node c98ec409e07f42f5a62167a56fb622cd metric improvement (-0.0338) below threshold (0.0001), try one more time(1/3)",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: In the search step from node e41ba60d188242bcb1238e30b0b9190d, the generated node is c98ec409e07f42f5a62167a56fb622cd, the metric is 0.4446",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node c98ec409e07f42f5a62167a56fb622cd is not the best node",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Node 16fcd8859e044bf09d860b8bc7a22d4a is still the best node",
+            "delay": 0.0
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: Best Node metric value is 0.6686.",
+            "delay": 0.0020833333333333333
+        },
+        {
+            "text": "<span class='info'>[INFO]</span>: agent return to main c98ec409e07f42f5a62167a56fb622cd",
+            "delay": 0.0020833333333333333
         },
         {
             "text": "<span class='prompt'>ml-master@ai4ai:~$</span> ",
             "delay": 200
         }
     ],
-    "code": "<span class=\"keyword\">import</span> os\n<span class=\"keyword\">import</span> bson\n<span class=\"keyword\">import</span> io\n<span class=\"keyword\">import</span> torch\n<span class=\"keyword\">import</span> numpy <span class=\"keyword\">as</span> np\n<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">from</span> PIL <span class=\"keyword\">import</span> Image\n<span class=\"keyword\">from</span> torchvision <span class=\"keyword\">import</span> transforms\n<span class=\"keyword\">from</span> torch.utils.data <span class=\"keyword\">import</span> Dataset, DataLoader\n<span class=\"keyword\">import</span> torch.nn <span class=\"keyword\">as</span> nn\n<span class=\"keyword\">import</span> torch.optim <span class=\"keyword\">as</span> optim\n<span class=\"keyword\">from</span> torchvision.models <span class=\"keyword\">import</span> resnet50\n\n<span class=\"comment\"># Configuration</span>\nBATCH_SIZE = <span class=\"number\">256</span>\nFEATURE_DIM = <span class=\"number\">2048</span>\nDEVICE = <span class=\"string\">&quot;</span><span class=\"string\">cuda</span><span class=\"string\">&quot;</span> <span class=\"keyword\">if</span> torch.cuda.is_available() <span class=\"keyword\">else</span> <span class=\"string\">&quot;</span><span class=\"string\">cpu</span><span class=\"string\">&quot;</span>\n\n<span class=\"comment\"># Feature extraction model</span>\nfeature_extractor = resnet50(pretrained=<span class=\"keyword\">True</span>)\nfeature_extractor = nn.Sequential(*list(feature_extractor.children())[:-<span class=\"number\">1</span>])\nfeature_extractor.eval().to(DEVICE)\n\n<span class=\"comment\"># Image preprocessing</span>\ntransform = transforms.Compose(\n    [\n        transforms.Resize((<span class=\"number\">224</span>, <span class=\"number\">224</span>)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[<span class=\"number\">0.485</span>, <span class=\"number\">0.456</span>, <span class=\"number\">0.406</span>], std=[<span class=\"number\">0.229</span>, <span class=\"number\">0.224</span>, <span class=\"number\">0.225</span>]),\n    ]\n)\n\n\n<span class=\"keyword\">def</span> <span class=\"function\">process_bson</span>(bson_path, is_train=<span class=\"keyword\">True</span>):\n    features, labels, ids = [], [], []\n    <span class=\"keyword\">with</span> open(bson_path, <span class=\"string\">&quot;</span><span class=\"string\">rb</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">as</span> f:\n        data = bson.decode_file_iter(f)\n        batch_images, batch_info = [], []\n\n        <span class=\"keyword\">for</span> idx, item in enumerate(data):\n            img = Image.open(io.BytesIO(item[<span class=\"string\">&quot;</span><span class=\"string\">imgs</span><span class=\"string\">&quot;</span>][<span class=\"number\">0</span>][<span class=\"string\">&quot;</span><span class=\"string\">picture</span><span class=\"string\">&quot;</span>]))\n            img = transform(img).unsqueeze(<span class=\"number\">0</span>)\n            batch_images.append(img)\n\n            <span class=\"keyword\">if</span> is_train:\n                batch_info.append(item[<span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>])\n            <span class=\"keyword\">else</span>:\n                batch_info.append(item[<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>])\n\n            <span class=\"keyword\">if</span> len(batch_images) == BATCH_SIZE or (idx + <span class=\"number\">1</span>) % <span class=\"number\">100000</span> == <span class=\"number\">0</span>:\n                <span class=\"keyword\">with</span> torch.no_grad():\n                    features_batch = (\n                        feature_extractor(torch.cat(batch_images).to(DEVICE))\n                        .squeeze()\n                        .cpu()\n                        .numpy()\n                    )\n\n                <span class=\"comment\"># Ensure 2D shape</span>\n                features_batch = features_batch.reshape(-<span class=\"number\">1</span>, FEATURE_DIM)\n                features.append(features_batch)\n                batch_images = []\n\n                <span class=\"keyword\">if</span> is_train:\n                    labels.extend(batch_info)\n                <span class=\"keyword\">else</span>:\n                    ids.extend(batch_info)\n                batch_info = []\n\n        <span class=\"keyword\">if</span> batch_images:\n            <span class=\"keyword\">with</span> torch.no_grad():\n                features_batch = (\n                    feature_extractor(torch.cat(batch_images).to(DEVICE))\n                    .squeeze()\n                    .cpu()\n                    .numpy()\n                )\n\n            features_batch = features_batch.reshape(-<span class=\"number\">1</span>, FEATURE_DIM)\n            features.append(features_batch)\n            <span class=\"keyword\">if</span> is_train:\n                labels.extend(batch_info)\n            <span class=\"keyword\">else</span>:\n                ids.extend(batch_info)\n\n    <span class=\"keyword\">return</span> (np.concatenate(features), np.array(labels) <span class=\"keyword\">if</span> is_train <span class=\"keyword\">else</span> np.array(ids))\n\n\n<span class=\"comment\"># Process training data</span>\nprint(<span class=\"string\">&quot;</span><span class=\"string\">Processing training data...</span><span class=\"string\">&quot;</span>)\ntrain_features, train_labels = process_bson(<span class=\"string\">&quot;</span><span class=\"string\">input/train.bson</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Create label mapping</span>\nunique_categories = np.unique(train_labels)\nNUM_CLASSES = len(unique_categories)\nlabel_to_idx = {cat: idx <span class=\"keyword\">for</span> idx, cat in enumerate(unique_categories)}\ntrain_labels_indices = np.array([label_to_idx[cat] <span class=\"keyword\">for</span> cat in train_labels])\n\n<span class=\"comment\"># Split validation set</span>\nval_size = int(<span class=\"number\">0.1</span> * len(train_labels_indices))\nrand_idx = np.random.permutation(len(train_labels_indices))\nval_features = train_features[rand_idx[:val_size]]\nval_labels = train_labels_indices[rand_idx[:val_size]]\ntrain_features_split = train_features[rand_idx[val_size:]]\ntrain_labels_split = train_labels_indices[rand_idx[val_size:]]\n\n<span class=\"comment\"># Define classifier</span>\nclassifier = nn.Linear(FEATURE_DIM, NUM_CLASSES).to(DEVICE)\noptimizer = optim.Adam(classifier.parameters(), lr=<span class=\"number\">0.001</span>)\ncriterion = nn.CrossEntropyLoss()\n\n<span class=\"comment\"># Create data loaders</span>\ntrain_loader = DataLoader(\n    list(\n        zip(\n            torch.FloatTensor(train_features_split),\n            torch.LongTensor(train_labels_split),\n        )\n    ),\n    batch_size=<span class=\"number\">1024</span>,\n    shuffle=<span class=\"keyword\">True</span>,\n    num_workers=<span class=\"number\">4</span>,\n)\nval_loader = DataLoader(\n    list(zip(torch.FloatTensor(val_features), torch.LongTensor(val_labels))),\n    batch_size=<span class=\"number\">1024</span>,\n    num_workers=<span class=\"number\">4</span>,\n)\n\n<span class=\"comment\"># Train classifier</span>\nprint(<span class=\"string\">&quot;</span><span class=\"string\">Training classifier...</span><span class=\"string\">&quot;</span>)\nbest_acc = <span class=\"number\">0.0</span>\n<span class=\"keyword\">for</span> epoch in range(<span class=\"number\">5</span>):\n    classifier.train()\n    <span class=\"keyword\">for</span> X, y in train_loader:\n        X, y = X.to(DEVICE), y.to(DEVICE)\n        optimizer.zero_grad()\n        loss = criterion(classifier(X), y)\n        loss.backward()\n        optimizer.step()\n\n    <span class=\"comment\"># Validate</span>\n    classifier.eval()\n    correct, total = <span class=\"number\">0</span>, <span class=\"number\">0</span>\n    <span class=\"keyword\">with</span> torch.no_grad():\n        <span class=\"keyword\">for</span> X, y in val_loader:\n            X, y = X.to(DEVICE), y.to(DEVICE)\n            outputs = classifier(X)\n            _, predicted = torch.max(outputs, <span class=\"number\">1</span>)\n            correct += (predicted == y).sum().item()\n            total += y.size(<span class=\"number\">0</span>)\n    val_acc = correct / total\n    print(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Epoch </span><span class=\"string\">{</span>epoch+<span class=\"number\">1</span><span class=\"string\">}</span><span class=\"string\">: Val Acc = </span><span class=\"string\">{</span>val_acc<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\n    <span class=\"keyword\">if</span> val_acc &gt; best_acc:\n        best_acc = val_acc\n        torch.save(classifier.state_dict(), <span class=\"string\">&quot;</span><span class=\"string\">working/best_model.pth</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Load best model</span>\nclassifier.load_state_dict(torch.load(<span class=\"string\">&quot;</span><span class=\"string\">working/best_model.pth</span><span class=\"string\">&quot;</span>))\n\n<span class=\"comment\"># Process test data</span>\nprint(<span class=\"string\">&quot;</span><span class=\"string\">Processing test data...</span><span class=\"string\">&quot;</span>)\ntest_features, test_ids = process_bson(<span class=\"string\">&quot;</span><span class=\"string\">input/test.bson</span><span class=\"string\">&quot;</span>, is_train=<span class=\"keyword\">False</span>)\n\n<span class=\"comment\"># Generate predictions</span>\nclassifier.eval()\ntest_tensor = torch.FloatTensor(test_features).to(DEVICE)\n<span class=\"keyword\">with</span> torch.no_grad():\n    test_preds = classifier(test_tensor).argmax(dim=<span class=\"number\">1</span>).cpu().numpy()\n\n<span class=\"comment\"># Map predictions to original category IDs</span>\nidx_to_label = {v: k <span class=\"keyword\">for</span> k, v in label_to_idx.items()}\ntest_preds_labels = [idx_to_label[idx] <span class=\"keyword\">for</span> idx in test_preds]\n\n<span class=\"comment\"># Create submission</span>\nsubmission = pd.DataFrame({<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>: test_ids, <span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>: test_preds_labels})\nos.makedirs(<span class=\"string\">&quot;</span><span class=\"string\">submission</span><span class=\"string\">&quot;</span>, exist_ok=<span class=\"keyword\">True</span>)\nsubmission.to_csv(<span class=\"string\">&quot;</span><span class=\"string\">submission/submission.csv</span><span class=\"string\">&quot;</span>, index=<span class=\"keyword\">False</span>)\nprint(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Best Validation Accuracy: </span><span class=\"string\">{</span>best_acc<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\nprint(<span class=\"string\">&quot;</span><span class=\"string\">Submission file created successfully!</span><span class=\"string\">&quot;</span>)\n",
+    "code": "<span class=\"keyword\">import</span> bson\n<span class=\"keyword\">import</span> pandas <span class=\"keyword\">as</span> pd\n<span class=\"keyword\">import</span> torch\n<span class=\"keyword\">from</span> torch.utils.data <span class=\"keyword\">import</span> Dataset, DataLoader\n<span class=\"keyword\">from</span> torchvision <span class=\"keyword\">import</span> transforms\n<span class=\"keyword\">from</span> PIL <span class=\"keyword\">import</span> Image\n<span class=\"keyword\">import</span> io\n<span class=\"keyword\">import</span> timm\n<span class=\"keyword\">import</span> torch.nn <span class=\"keyword\">as</span> nn\n<span class=\"keyword\">from</span> sklearn.model_selection <span class=\"keyword\">import</span> train_test_split\n<span class=\"keyword\">import</span> csv\n\n<span class=\"comment\"># Collect product IDs and categories</span>\nproduct_data = []\n<span class=\"keyword\">with</span> open(<span class=\"string\">&quot;</span><span class=\"string\">input/train.bson</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">rb</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">as</span> f:\n    data = bson.decode_file_iter(f)\n    <span class=\"keyword\">for</span> idx, d in enumerate(data):\n        product_data.append({<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>: d[<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>], <span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>: d[<span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>]})\n        <span class=\"keyword\">if</span> idx % <span class=\"number\">100000</span> == <span class=\"number\">0</span>:\n            print(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Collected </span><span class=\"string\">{</span>idx<span class=\"string\">}</span><span class=\"string\"> products</span><span class=\"string\">&quot;</span>)\ndf = pd.DataFrame(product_data)\nunique_categories = df[<span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>].unique()\ncategory_to_idx = {cat: i <span class=\"keyword\">for</span> i, cat in enumerate(unique_categories)}\nidx_to_category = {i: cat <span class=\"keyword\">for</span> i, cat in enumerate(unique_categories)}\n\n<span class=\"comment\"># Split product IDs into train and validation</span>\ntrain_pids, val_pids = train_test_split(\n    df[<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>], test_size=<span class=\"number\">0.1</span>, stratify=df[<span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>], random_state=<span class=\"number\">42</span>\n)\ntrain_pids = set(train_pids.tolist())\nval_pids = set(val_pids.tolist())\n\n\n<span class=\"comment\"># Dataset classes with proper validation transforms</span>\n<span class=\"keyword\">class</span> <span class=\"class\">TrainDataset</span>(Dataset):\n    <span class=\"keyword\">def</span> <span class=\"function\">__init__</span>(self, bson_path, product_ids, category_map):\n        self.product_ids = product_ids\n        self.category_map = category_map\n        self.transform = transforms.Compose(\n            [\n                transforms.Resize(<span class=\"number\">256</span>),\n                transforms.RandomCrop(<span class=\"number\">224</span>),\n                transforms.RandomHorizontalFlip(),\n                transforms.ToTensor(),\n                transforms.Normalize([<span class=\"number\">0.485</span>, <span class=\"number\">0.456</span>, <span class=\"number\">0.406</span>], [<span class=\"number\">0.229</span>, <span class=\"number\">0.224</span>, <span class=\"number\">0.225</span>]),\n            ]\n        )\n        self.products = []\n        <span class=\"keyword\">with</span> open(bson_path, <span class=\"string\">&quot;</span><span class=\"string\">rb</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">as</span> f:\n            data = bson.decode_file_iter(f)\n            <span class=\"keyword\">for</span> d in data:\n                <span class=\"keyword\">if</span> d[<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>] in self.product_ids and d[<span class=\"string\">&quot;</span><span class=\"string\">imgs</span><span class=\"string\">&quot;</span>]:\n                    img_data = d[<span class=\"string\">&quot;</span><span class=\"string\">imgs</span><span class=\"string\">&quot;</span>][<span class=\"number\">0</span>][<span class=\"string\">&quot;</span><span class=\"string\">picture</span><span class=\"string\">&quot;</span>]\n                    self.products.append((d[<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>], img_data))\n\n    <span class=\"keyword\">def</span> <span class=\"function\">__len__</span>(self):\n        <span class=\"keyword\">return</span> len(self.products)\n\n    <span class=\"keyword\">def</span> <span class=\"function\">__getitem__</span>(self, idx):\n        pid, img_data = self.products[idx]\n        img = Image.open(io.BytesIO(img_data)).convert(<span class=\"string\">&quot;</span><span class=\"string\">RGB</span><span class=\"string\">&quot;</span>)\n        img = self.transform(img)\n        <span class=\"keyword\">return</span> img, category_to_idx[self.category_map[pid]]\n\n\n<span class=\"keyword\">class</span> <span class=\"class\">ValDataset</span>(Dataset):\n    <span class=\"keyword\">def</span> <span class=\"function\">__init__</span>(self, bson_path, product_ids, category_map):\n        self.product_ids = product_ids\n        self.category_map = category_map\n        self.transform = transforms.Compose(\n            [\n                transforms.Resize(<span class=\"number\">256</span>),\n                transforms.CenterCrop(<span class=\"number\">224</span>),\n                transforms.ToTensor(),\n                transforms.Normalize([<span class=\"number\">0.485</span>, <span class=\"number\">0.456</span>, <span class=\"number\">0.406</span>], [<span class=\"number\">0.229</span>, <span class=\"number\">0.224</span>, <span class=\"number\">0.225</span>]),\n            ]\n        )\n        self.products = []\n        <span class=\"keyword\">with</span> open(bson_path, <span class=\"string\">&quot;</span><span class=\"string\">rb</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">as</span> f:\n            data = bson.decode_file_iter(f)\n            <span class=\"keyword\">for</span> d in data:\n                <span class=\"keyword\">if</span> d[<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>] in self.product_ids and d[<span class=\"string\">&quot;</span><span class=\"string\">imgs</span><span class=\"string\">&quot;</span>]:\n                    img_data = d[<span class=\"string\">&quot;</span><span class=\"string\">imgs</span><span class=\"string\">&quot;</span>][<span class=\"number\">0</span>][<span class=\"string\">&quot;</span><span class=\"string\">picture</span><span class=\"string\">&quot;</span>]\n                    self.products.append((d[<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>], img_data))\n\n    <span class=\"keyword\">def</span> <span class=\"function\">__len__</span>(self):\n        <span class=\"keyword\">return</span> len(self.products)\n\n    <span class=\"keyword\">def</span> <span class=\"function\">__getitem__</span>(self, idx):\n        pid, img_data = self.products[idx]\n        img = Image.open(io.BytesIO(img_data)).convert(<span class=\"string\">&quot;</span><span class=\"string\">RGB</span><span class=\"string\">&quot;</span>)\n        img = self.transform(img)\n        <span class=\"keyword\">return</span> img, category_to_idx[self.category_map[pid]]\n\n\n<span class=\"keyword\">class</span> <span class=\"class\">TestDataset</span>(Dataset):\n    <span class=\"keyword\">def</span> <span class=\"function\">__init__</span>(self, bson_path):\n        self.transform = transforms.Compose(\n            [\n                transforms.Resize(<span class=\"number\">256</span>),\n                transforms.CenterCrop(<span class=\"number\">224</span>),\n                transforms.ToTensor(),\n                transforms.Normalize([<span class=\"number\">0.485</span>, <span class=\"number\">0.456</span>, <span class=\"number\">0.406</span>], [<span class=\"number\">0.229</span>, <span class=\"number\">0.224</span>, <span class=\"number\">0.225</span>]),\n            ]\n        )\n        self.products = []\n        <span class=\"keyword\">with</span> open(bson_path, <span class=\"string\">&quot;</span><span class=\"string\">rb</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">as</span> f:\n            <span class=\"keyword\">for</span> d in bson.decode_file_iter(f):\n                imgs = [img[<span class=\"string\">&quot;</span><span class=\"string\">picture</span><span class=\"string\">&quot;</span>] <span class=\"keyword\">for</span> img in d[<span class=\"string\">&quot;</span><span class=\"string\">imgs</span><span class=\"string\">&quot;</span>]]\n                self.products.append((d[<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>], imgs))\n\n    <span class=\"keyword\">def</span> <span class=\"function\">__len__</span>(self):\n        <span class=\"keyword\">return</span> len(self.products)\n\n    <span class=\"keyword\">def</span> <span class=\"function\">__getitem__</span>(self, idx):\n        pid, imgs = self.products[idx]\n        img_tensors = []\n        <span class=\"keyword\">for</span> img_data in imgs:\n            img = Image.open(io.BytesIO(img_data)).convert(<span class=\"string\">&quot;</span><span class=\"string\">RGB</span><span class=\"string\">&quot;</span>)\n            img_tensors.append(self.transform(img))\n        <span class=\"keyword\">return</span> pid, torch.stack(img_tensors)\n\n\n<span class=\"comment\"># Model</span>\n<span class=\"keyword\">class</span> <span class=\"class\">ProductClassifier</span>(nn.Module):\n    <span class=\"keyword\">def</span> <span class=\"function\">__init__</span>(self):\n        super().<span class=\"function\">__init__</span>()\n        self.base = timm.create_model(\n            <span class=\"string\">&quot;</span><span class=\"string\">efficientnet_b0</span><span class=\"string\">&quot;</span>, pretrained=<span class=\"keyword\">True</span>, num_classes=<span class=\"number\">5270</span>\n        )\n\n    <span class=\"keyword\">def</span> <span class=\"function\">forward</span>(self, x):\n        <span class=\"keyword\">return</span> self.base(x)\n\n\ndevice = torch.device(<span class=\"string\">&quot;</span><span class=\"string\">cuda</span><span class=\"string\">&quot;</span> <span class=\"keyword\">if</span> torch.cuda.is_available() <span class=\"keyword\">else</span> <span class=\"string\">&quot;</span><span class=\"string\">cpu</span><span class=\"string\">&quot;</span>)\nmodel = ProductClassifier().to(device)\ncriterion = nn.CrossEntropyLoss()\noptimizer = torch.optim.AdamW(model.parameters(), lr=<span class=\"number\">3e-4</span>)\nscaler = torch.cuda.amp.GradScaler()\n\n<span class=\"comment\"># Training</span>\ntrain_dataset = TrainDataset(\n    <span class=\"string\">&quot;</span><span class=\"string\">input/train.bson</span><span class=\"string\">&quot;</span>, train_pids, df.set_index(<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>)[<span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>].to_dict()\n)\ntrain_loader = DataLoader(\n    train_dataset, batch_size=<span class=\"number\">512</span>, shuffle=<span class=\"keyword\">True</span>, num_workers=<span class=\"number\">8</span>, pin_memory=<span class=\"keyword\">True</span>\n)\n\n<span class=\"keyword\">for</span> epoch in range(<span class=\"number\">3</span>):\n    model.train()\n    <span class=\"keyword\">for</span> i, (inputs, labels) in enumerate(train_loader):\n        inputs, labels = inputs.to(device), labels.to(device)\n        optimizer.zero_grad()\n        <span class=\"keyword\">with</span> torch.cuda.amp.autocast():\n            outputs = model(inputs)\n            loss = criterion(outputs, labels)\n        scaler.scale(loss).backward()\n        scaler.step(optimizer)\n        scaler.update()\n        <span class=\"keyword\">if</span> i % <span class=\"number\">100</span> == <span class=\"number\">0</span>:\n            print(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Epoch </span><span class=\"string\">{</span>epoch<span class=\"string\">}</span><span class=\"string\">, Batch </span><span class=\"string\">{</span>i<span class=\"string\">}</span><span class=\"string\">, Loss: </span><span class=\"string\">{</span>loss.item()<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Validation</span>\nval_dataset = ValDataset(\n    <span class=\"string\">&quot;</span><span class=\"string\">input/train.bson</span><span class=\"string\">&quot;</span>, val_pids, df.set_index(<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>)[<span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>].to_dict()\n)\nval_loader = DataLoader(val_dataset, batch_size=<span class=\"number\">512</span>, num_workers=<span class=\"number\">8</span>)\nmodel.eval()\ncorrect = <span class=\"number\">0</span>\ntotal = <span class=\"number\">0</span>\n<span class=\"keyword\">with</span> torch.no_grad():\n    <span class=\"keyword\">for</span> inputs, labels in val_loader:\n        inputs, labels = inputs.to(device), labels.to(device)\n        outputs = model(inputs)\n        _, preds = torch.max(outputs, <span class=\"number\">1</span>)\n        correct += (preds == labels).sum().item()\n        total += labels.size(<span class=\"number\">0</span>)\nval_acc = correct / total\nprint(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Validation Accuracy: </span><span class=\"string\">{</span>val_acc<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\n\n<span class=\"comment\"># Test Prediction</span>\ntest_dataset = TestDataset(<span class=\"string\">&quot;</span><span class=\"string\">input/test.bson</span><span class=\"string\">&quot;</span>)\ntest_loader = DataLoader(test_dataset, batch_size=<span class=\"number\">1</span>, num_workers=<span class=\"number\">8</span>)\npredictions = []\nmodel.eval()\n<span class=\"keyword\">with</span> torch.no_grad():\n    <span class=\"keyword\">for</span> pids, imgs in test_loader:\n        imgs = imgs.squeeze(<span class=\"number\">0</span>).to(device)\n        outputs = torch.zeros(<span class=\"number\">1</span>, <span class=\"number\">5270</span>).to(device)\n        <span class=\"keyword\">for</span> img in imgs:\n            <span class=\"keyword\">with</span> torch.cuda.amp.autocast():\n                output = model(img.unsqueeze(<span class=\"number\">0</span>))\n            outputs += output\n        _, pred = torch.max(outputs, <span class=\"number\">1</span>)\n        predictions.append((pids[<span class=\"number\">0</span>].item(), idx_to_category[pred.item()]))\n\n<span class=\"comment\"># Save submission</span>\n<span class=\"keyword\">with</span> open(<span class=\"string\">&quot;</span><span class=\"string\">submission/submission.csv</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">w</span><span class=\"string\">&quot;</span>) <span class=\"keyword\">as</span> f:\n    writer = csv.writer(f)\n    writer.writerow([<span class=\"string\">&quot;</span><span class=\"string\">_id</span><span class=\"string\">&quot;</span>, <span class=\"string\">&quot;</span><span class=\"string\">category_id</span><span class=\"string\">&quot;</span>])\n    <span class=\"keyword\">for</span> pid, cat in predictions:\n        writer.writerow([pid, cat])\n\nprint(<span class=\"string\">f</span><span class=\"string\">&quot;</span><span class=\"string\">Final Validation Accuracy: </span><span class=\"string\">{</span>val_acc<span class=\"string\">:</span><span class=\"string\">.4f</span><span class=\"string\">}</span><span class=\"string\">&quot;</span>)\n",
     "detail": {
         "node_id": [
-            "4b8241ff572b4ed59bb0ab73a226ff28",
-            "15a5c6e8b53b470787f40cd3aec5a042",
-            "9b98ab03542149449fb0eb8bd2b24ad9",
-            "84787598234f4c1297bd7abdce4aeab5",
-            "2b4d9252cf214534bf722a11a220d558",
-            "74cdc85ada3342fbbe957e75f43d9cfa",
-            "2184e5c2ee6e4cb0abcc8ed185d6d91b",
-            "768f819fbad14eb89e19fef6679f56db"
+            "187438eaf3964c76b32fc0d81d8fa9eb",
+            "06a0a89df4a34d8897b388d01a151eab",
+            "fe41bb54eac548d8a594dea8cafb9ab8",
+            "e41ba60d188242bcb1238e30b0b9190d",
+            "16fcd8859e044bf09d860b8bc7a22d4a",
+            "970a37f1bc4f49cda214b8c72ea6fb70"
         ],
         "global_step": [
             "0",
@@ -840,18 +658,16 @@
             "2",
             "3",
             "4",
-            "5",
-            "6",
-            "7"
+            "5"
         ],
         "edges": [
             [
                 0,
-                2
+                5
             ],
             [
                 0,
-                5
+                2
             ],
             [
                 0,
@@ -859,19 +675,11 @@
             ],
             [
                 1,
-                3
-            ],
-            [
-                2,
                 4
             ],
             [
-                3,
-                6
-            ],
-            [
-                5,
-                7
+                2,
+                3
             ]
         ],
         "layout": [
@@ -881,23 +689,15 @@
             ],
             [
                 0.0,
-                0.33333333333333337
+                0.5
             ],
             [
                 0.5,
-                0.33333333333333337
-            ],
-            [
-                0.0,
-                0.6666666666666667
+                0.5
             ],
             [
                 0.5,
-                0.6666666666666667
-            ],
-            [
-                1.0,
-                0.33333333333333337
+                1.0
             ],
             [
                 0.0,
@@ -905,63 +705,51 @@
             ],
             [
                 1.0,
-                0.6666666666666667
+                0.5
             ]
         ],
         "plan": [
             "virtual plan",
-            "To tackle this multi-class image classification task, we'll use a pretrained\nResNet-50 model fine-tuned on the provided dataset. Each product's images are\nprocessed individually during training, and predictions for test products are\naggregated by averaging logits across all images. We split the training data\ninto train/validation sets by product to avoid leakage and evaluate accuracy on\nthe validation set.",
-            "To address the Cdiscount image classification challenge, we'll use a pre-trained\nEfficientNet-B0 model, fine-tuned on the first image of each product. The model\nwill be trained with data augmentation and validated on a 20% hold-out set.\nPredictions on the test set will use the first image of each product.",
-            "The previous code had two critical issues: incorrect BSON decoding by not\nincluding the length bytes, and submission file column name mismatch. To fix\nthis:  1. Correct BSON parsing by reading full document bytes (length + data) 2.\nUse correct '_id' column name in submission 3. Create submission directory if\nmissing",
-            "The BSON decoding error occurs because the dataset class incorrectly reads\ndocument lengths during item retrieval. To fix this, we need to store the exact\ndocument lengths during initialization and use them to read the correct byte\nranges. Additionally, we should use pre-stored product IDs from initialization\ninstead of re-decoding in test mode.",
-            "To address the image classification challenge with multiple images per product,\nwe'll use a pre-trained ResNet50 to extract features from the first image of\neach product. These features are then used to train a linear classifier. This\napproach efficiently handles large data by processing images in batches and\nleveraging GPU acceleration for feature extraction and model training.",
-            "The KeyError occurs because the offset index wasn't built correctly when reading\nBSON entries. We need to fix the offset tracking by properly reading each\ndocument's position and product ID. Additionally, we should ensure the test data\nprocessing handles multiple images per product and saves predictions in the\ncorrect format.",
-            "The error occurs because the feature extraction batches have inconsistent\ndimensions when batch size is 1. We fix this by reshaping features to maintain\n2D arrays. Additionally, we map category IDs to class indices for proper cross-\nentropy training and ensure the submission uses original category IDs."
+            "To solve this problem, we need to predict the category of a product based on its\nimages using a deep learning model. The dataset is large, with each product\nhaving up to four images, and the goal is to achieve high classification\naccuracy. Here's the approach:  1. **Data Handling**: Use the first image of\neach product for training and validation to manage computational load. For\ntesting, aggregate predictions from all images of each product to improve\naccuracy. 2. **Model Architecture**: Utilize a pre-trained EfficientNet-B0 model\nfor transfer learning, replacing the final layer to accommodate the 5270\nclasses. 3. **Training**: Train the model using mixed precision and large batch\nsizes to expedite the process. Validate using a hold-out set to monitor\nperformance. 4. **Inference**: For each test product, average predictions across\nall images to determine the final category.",
+            "To tackle this image classification task, I propose using a pre-trained ResNet50\nmodel with transfer learning. We'll process only the first image of each product\nto manage computational constraints. The model will be fine-tuned on a subset of\nthe training data and evaluated on a validation set. Predictions on the test set\nwill be made by processing images in batches for efficiency.",
+            "To improve the model's performance, we'll leverage all available images per\nproduct during both training and inference. The current solution processes only\nthe first image, missing valuable visual information. By aggregating predictions\nfrom multiple images using averaged logits, we can capture more comprehensive\nfeatures. Additionally, we'll increase training data usage and add data\naugmentation.",
+            "The error occurs due to a typo in PyTorch's AMP context manager and improper\nvalidation transforms. Fix by replacing `autocache_mode` with `autocast` and\ncreate separate validation transforms using CenterCrop. Also ensure proper test\nprediction aggregation across multiple images.",
+            "To tackle this image classification task, we'll use a two-stage approach. First,\nextract features from product images using a pre-trained ResNet18 model. Then,\ntrain a neural network classifier on aggregated image features. We'll average\nfeatures from multiple images per product and use a simple MLP for\nclassification, ensuring efficient handling of the large dataset."
         ],
         "code": [
             "virtual code",
-            "import torch\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms, models\nimport pandas as pd\nimport bson\nimport io\nfrom PIL import Image\nimport numpy as np\nimport os\nfrom tqdm import tqdm\n\n# Prepare category mapping\ncategories = pd.read_csv(\"input/category_names.csv\")\ncategory_to_idx = {row.category_id: idx for idx, row in categories.iterrows()}\nidx_to_category = {v: k for k, v in category_to_idx.items()}\n\n# Image transformations\ntransform = transforms.Compose(\n    [\n        transforms.Resize((224, 224)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\n# Process training data\ntrain_entries = []\nwith open(\"input/train.bson\", \"rb\") as f:\n    offset = 0\n    while True:\n        length_bytes = f.read(4)\n        if not length_bytes:\n            break\n        length = int.from_bytes(length_bytes, \"little\")\n        product_data = f.read(length - 4)\n        product = bson.decode(product_data)\n        product_id = product[\"_id\"]\n        category_id = product[\"category_id\"]\n        for img_idx in range(len(product[\"imgs\"])):\n            train_entries.append((offset, product_id, category_id, img_idx))\n        offset += length\n\n# Split train/val by product\nproduct_ids = list(set([e[1] for e in train_entries]))\nnp.random.seed(42)\nval_size = int(0.1 * len(product_ids))\nval_products = set(np.random.choice(product_ids, val_size, replace=False))\n\ntrain_data, val_data = [], []\nfor entry in train_entries:\n    if entry[1] in val_products:\n        val_data.append(entry)\n    else:\n        train_data.append(entry)\n\n\n# Dataset class\nclass ProductDataset(Dataset):\n    def __init__(self, entries, transform=None):\n        self.entries = entries\n        self.transform = transform\n\n    def __len__(self):\n        return len(self.entries)\n\n    def __getitem__(self, idx):\n        offset, _, category_id, img_idx = self.entries[idx]\n        with open(\"input/train.bson\", \"rb\") as f:\n            f.seek(offset)\n            f.read(4)  # Skip length\n            product = bson.decode(f.read(int.from_bytes(f.read(4), \"little\") - 4))\n            img = Image.open(io.BytesIO(product[\"imgs\"][img_idx][\"picture\"])).convert(\n                \"RGB\"\n            )\n            if self.transform:\n                img = self.transform(img)\n            return img, category_to_idx[category_id]\n\n\n# Data loaders\ntrain_loader = DataLoader(\n    ProductDataset(train_data, transform), batch_size=256, shuffle=True, num_workers=8\n)\nval_loader = DataLoader(\n    ProductDataset(val_data, transform), batch_size=256, num_workers=8\n)\n\n# Model setup\nmodel = models.resnet50(pretrained=True)\nmodel.fc = nn.Linear(model.fc.in_features, len(category_to_idx))\nmodel = model.cuda()\nopt = optim.Adam(model.parameters(), lr=3e-4)\ncriterion = nn.CrossEntropyLoss()\n\n# Training loop\nfor epoch in range(2):\n    model.train()\n    for imgs, labels in tqdm(train_loader):\n        opt.zero_grad()\n        outputs = model(imgs.cuda())\n        loss = criterion(outputs, labels.cuda())\n        loss.backward()\n        opt.step()\n\n# Validation\nmodel.eval()\ncorrect = total = 0\nwith torch.no_grad():\n    for imgs, labels in val_loader:\n        outputs = model(imgs.cuda())\n        preds = outputs.argmax(dim=1)\n        correct += (preds.cpu() == labels).sum().item()\n        total += labels.size(0)\nval_acc = correct / total\nprint(f\"Validation Accuracy: {val_acc:.4f}\")\n\n# Generate test predictions\ntest_products = []\nwith open(\"input/test.bson\", \"rb\") as f:\n    offset = 0\n    while True:\n        length_bytes = f.read(4)\n        if not length_bytes:\n            break\n        length = int.from_bytes(length_bytes, \"little\")\n        product = bson.decode(f.read(length - 4))\n        test_products.append((offset, product[\"_id\"], len(product[\"imgs\"])))\n        offset += length\n\n# Predict and aggregate\nsubmission = []\nmodel.eval()\nwith torch.no_grad():\n    for offset, pid, num_imgs in tqdm(test_products):\n        with open(\"input/test.bson\", \"rb\") as f:\n            f.seek(offset)\n            f.read(4)\n            product = bson.decode(f.read(int.from_bytes(f.read(4), \"little\") - 4))\n            logits = []\n            for img in product[\"imgs\"]:\n                img = transform(Image.open(io.BytesIO(img[\"picture\"])).convert(\"RGB\"))\n                logits.append(model(img.unsqueeze(0).cuda()))\n            avg_logits = torch.mean(torch.cat(logits), dim=0)\n            pred = idx_to_category[avg_logits.argmax().item()]\n            submission.append({\"id\": pid, \"category_id\": pred})\n\npd.DataFrame(submission).to_csv(\"submission/submission.csv\", index=False)\n",
-            "import torch\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader, Subset\nfrom torchvision import transforms, models\nfrom PIL import Image\nimport bson\nimport io\nimport struct\nimport pandas as pd\nimport numpy as np\n\n# Data transforms with augmentation\ntrain_transform = transforms.Compose(\n    [\n        transforms.Resize(256),\n        transforms.RandomCrop(224),\n        transforms.RandomHorizontalFlip(),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\nval_transform = transforms.Compose(\n    [\n        transforms.Resize(256),\n        transforms.CenterCrop(224),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\n# Load category mappings\ndf = pd.read_csv(\"input/category_names.csv\")\ncategory_to_idx = {row.category_id: idx for idx, row in df.iterrows()}\nidx_to_category = {idx: row.category_id for idx, row in df.iterrows()}\nnum_classes = len(df)\n\n\n# BSON dataset implementation\nclass ProductDataset(Dataset):\n    def __init__(self, bson_path, transform=None, mode=\"train\"):\n        self.bson_path = bson_path\n        self.transform = transform\n        self.mode = mode\n        self.offsets = []\n        self.labels = []\n        self.product_ids = []\n\n        with open(bson_path, \"rb\") as f:\n            pos = 0\n            while True:\n                length_data = f.read(4)\n                if not length_data:\n                    break\n                length = struct.unpack(\"<i\", length_data)[0]\n                f.seek(pos)\n                item_data = f.read(length)\n                item = bson.BSON.decode(item_data)\n                self.offsets.append(pos)\n                if mode == \"train\":\n                    self.labels.append(category_to_idx[item[\"category_id\"]])\n                else:\n                    self.product_ids.append(item[\"_id\"])\n                pos += length\n                f.seek(pos)\n\n    def __len__(self):\n        return len(self.offsets)\n\n    def __getitem__(self, idx):\n        with open(self.bson_path, \"rb\") as f:\n            f.seek(self.offsets[idx])\n            item_data = f.read(struct.unpack(\"<i\", f.read(4))[0])\n            item = bson.BSON.decode(item_data)\n            img = Image.open(io.BytesIO(item[\"imgs\"][0][\"picture\"])).convert(\"RGB\")\n            if self.transform:\n                img = self.transform(img)\n            return (\n                (img, self.labels[idx]) if self.mode == \"train\" else (img, item[\"_id\"])\n            )\n\n\n# Create datasets\ntrain_dataset = ProductDataset(\n    \"input/train.bson\", transform=train_transform, mode=\"train\"\n)\nindices = np.random.permutation(len(train_dataset))\ntrain_size = int(0.8 * len(indices))\ntrain_subset = Subset(train_dataset, indices[:train_size])\nval_subset = Subset(train_dataset, indices[train_size:])\n\n# Data loaders\ntrain_loader = DataLoader(\n    train_subset, batch_size=256, shuffle=True, num_workers=4, pin_memory=True\n)\nval_loader = DataLoader(\n    val_subset, batch_size=256, shuffle=False, num_workers=4, pin_memory=True\n)\n\n# Model setup\nmodel = models.efficientnet_b0(pretrained=True)\nmodel.classifier[1] = nn.Linear(model.classifier[1].in_features, num_classes)\nmodel = model.cuda()\n\n# Training config\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.AdamW(model.parameters(), lr=1e-3)\nbest_acc = 0\n\n# Training loop\nfor epoch in range(2):\n    # Train phase\n    model.train()\n    for inputs, labels in train_loader:\n        inputs, labels = inputs.cuda(), labels.cuda()\n        optimizer.zero_grad()\n        with torch.cuda.amp.autocast():\n            outputs = model(inputs)\n            loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n    # Validation phase\n    model.eval()\n    correct = 0\n    total = 0\n    with torch.no_grad():\n        for inputs, labels in val_loader:\n            inputs, labels = inputs.cuda(), labels.cuda()\n            outputs = model(inputs)\n            _, predicted = torch.max(outputs, 1)\n            total += labels.size(0)\n            correct += (predicted == labels).sum().item()\n\n    val_acc = correct / total\n    print(f\"Epoch {epoch+1}, Val Acc: {val_acc:.4f}\")\n\n# Test prediction\ntest_dataset = ProductDataset(\"input/test.bson\", transform=val_transform, mode=\"test\")\ntest_loader = DataLoader(test_dataset, batch_size=256, shuffle=False, num_workers=4)\n\npreds, ids = [], []\nmodel.eval()\nwith torch.no_grad():\n    for inputs, batch_ids in test_loader:\n        inputs = inputs.cuda()\n        outputs = model(inputs)\n        preds.extend(torch.argmax(outputs, 1).cpu().numpy())\n        ids.extend(batch_ids)\n\n# Create submission\nsubmission = pd.DataFrame(\n    {\"_id\": ids, \"category_id\": [idx_to_category[p] for p in preds]}\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n\nprint(f\"Final Validation Accuracy: {val_acc:.4f}\")\n",
-            "import torch\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms, models\nimport pandas as pd\nimport bson\nimport io\nfrom PIL import Image\nimport numpy as np\nimport os\nfrom tqdm import tqdm\n\n# Prepare category mapping\ncategories = pd.read_csv(\"input/category_names.csv\")\ncategory_to_idx = {row.category_id: idx for idx, row in categories.iterrows()}\nidx_to_category = {v: k for k, v in category_to_idx.items()}\n\n# Image transformations\ntransform = transforms.Compose(\n    [\n        transforms.Resize((224, 224)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\n\ndef read_bson_entry(f):\n    length_bytes = f.read(4)\n    if not length_bytes:\n        return None\n    length = int.from_bytes(length_bytes, \"little\")\n    product_data = f.read(length - 4)\n    full_doc = length_bytes + product_data\n    return bson.decode(full_doc)\n\n\n# Process training data\ntrain_entries = []\nwith open(\"input/train.bson\", \"rb\") as f:\n    while True:\n        product = read_bson_entry(f)\n        if not product:\n            break\n        product_id = product[\"_id\"]\n        category_id = product[\"category_id\"]\n        for img_idx in range(len(product[\"imgs\"])):\n            train_entries.append((product_id, category_id, img_idx))\n\n# Split train/val by product\nproduct_ids = list(set([e[0] for e in train_entries]))\nnp.random.seed(42)\nval_size = int(0.1 * len(product_ids))\nval_products = set(np.random.choice(product_ids, val_size, replace=False))\n\ntrain_data = [e for e in train_entries if e[0] not in val_products]\nval_data = [e for e in train_entries if e[0] in val_products]\n\n\nclass ProductDataset(Dataset):\n    def __init__(self, entries, transform=None):\n        self.entries = entries\n        self.transform = transform\n        self.offsets = self._build_offset_index()\n\n    def _build_offset_index(self):\n        offsets = {}\n        with open(\"input/train.bson\", \"rb\") as f:\n            offset = 0\n            while True:\n                pos = f.tell()\n                length_bytes = f.read(4)\n                if not length_bytes:\n                    break\n                length = int.from_bytes(length_bytes, \"little\")\n                f.seek(pos + length)\n                product = read_bson_entry(f)\n                offsets[product[\"_id\"]] = pos\n        return offsets\n\n    def __len__(self):\n        return len(self.entries)\n\n    def __getitem__(self, idx):\n        product_id, category_id, img_idx = self.entries[idx]\n        with open(\"input/train.bson\", \"rb\") as f:\n            f.seek(self.offsets[product_id])\n            product = read_bson_entry(f)\n            img = Image.open(io.BytesIO(product[\"imgs\"][img_idx][\"picture\"])).convert(\n                \"RGB\"\n            )\n            if self.transform:\n                img = self.transform(img)\n            return img, category_to_idx[category_id]\n\n\n# Data loaders\ntrain_loader = DataLoader(\n    ProductDataset(train_data, transform), batch_size=256, shuffle=True, num_workers=8\n)\nval_loader = DataLoader(\n    ProductDataset(val_data, transform), batch_size=256, num_workers=8\n)\n\n# Model setup\nmodel = models.resnet50(pretrained=True)\nmodel.fc = nn.Linear(model.fc.in_features, len(category_to_idx))\nmodel = model.cuda()\nopt = optim.Adam(model.parameters(), lr=3e-4)\ncriterion = nn.CrossEntropyLoss()\n\n# Training loop\nfor epoch in range(2):\n    model.train()\n    for imgs, labels in tqdm(train_loader):\n        opt.zero_grad()\n        outputs = model(imgs.cuda())\n        loss = criterion(outputs, labels.cuda())\n        loss.backward()\n        opt.step()\n\n# Validation\nmodel.eval()\ncorrect = total = 0\nwith torch.no_grad():\n    for imgs, labels in val_loader:\n        outputs = model(imgs.cuda())\n        preds = outputs.argmax(dim=1)\n        correct += (preds.cpu() == labels).sum().item()\n        total += labels.size(0)\nval_acc = correct / total\nprint(f\"Validation Accuracy: {val_acc:.4f}\")\n\n# Generate test predictions\nsubmission = []\nmodel.eval()\nwith torch.no_grad(), open(\"input/test.bson\", \"rb\") as f:\n    while True:\n        pos = f.tell()\n        product = read_bson_entry(f)\n        if not product:\n            break\n        logits = []\n        for img in product[\"imgs\"]:\n            img = transform(Image.open(io.BytesIO(img[\"picture\"])).convert(\"RGB\"))\n            logits.append(model(img.unsqueeze(0).cuda()))\n        avg_logits = torch.mean(torch.cat(logits), dim=0)\n        pred = idx_to_category[avg_logits.argmax().item()]\n        submission.append({\"_id\": product[\"_id\"], \"category_id\": pred})\n\nos.makedirs(\"submission\", exist_ok=True)\npd.DataFrame(submission).to_csv(\"submission/submission.csv\", index=False)\n",
-            "import torch\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader, Subset\nfrom torchvision import transforms, models\nfrom PIL import Image\nimport bson\nimport io\nimport struct\nimport pandas as pd\nimport numpy as np\n\n# Data transforms with augmentation\ntrain_transform = transforms.Compose(\n    [\n        transforms.Resize(256),\n        transforms.RandomCrop(224),\n        transforms.RandomHorizontalFlip(),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\nval_transform = transforms.Compose(\n    [\n        transforms.Resize(256),\n        transforms.CenterCrop(224),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\n# Load category mappings\ndf = pd.read_csv(\"input/category_names.csv\")\ncategory_to_idx = {row.category_id: idx for idx, row in df.iterrows()}\nidx_to_category = {idx: row.category_id for idx, row in df.iterrows()}\nnum_classes = len(df)\n\n\n# BSON dataset implementation\nclass ProductDataset(Dataset):\n    def __init__(self, bson_path, transform=None, mode=\"train\"):\n        self.bson_path = bson_path\n        self.transform = transform\n        self.mode = mode\n        self.offsets = []\n        self.lengths = []\n        self.labels = []\n        self.product_ids = []\n\n        with open(bson_path, \"rb\") as f:\n            pos = 0\n            while True:\n                length_data = f.read(4)\n                if not length_data:\n                    break\n                length = struct.unpack(\"<i\", length_data)[0]\n                f.seek(pos)\n                item_data = f.read(length)\n                item = bson.BSON.decode(item_data)\n                self.offsets.append(pos)\n                self.lengths.append(length)\n                if mode == \"train\":\n                    self.labels.append(category_to_idx[item[\"category_id\"]])\n                else:\n                    self.product_ids.append(item[\"_id\"])\n                pos += length\n                f.seek(pos)\n\n    def __len__(self):\n        return len(self.offsets)\n\n    def __getitem__(self, idx):\n        with open(self.bson_path, \"rb\") as f:\n            f.seek(self.offsets[idx])\n            item_data = f.read(self.lengths[idx])\n            item = bson.BSON.decode(item_data)\n            img = Image.open(io.BytesIO(item[\"imgs\"][0][\"picture\"])).convert(\"RGB\")\n            if self.transform:\n                img = self.transform(img)\n            return (\n                (img, self.labels[idx])\n                if self.mode == \"train\"\n                else (img, self.product_ids[idx])\n            )\n\n\n# Create datasets\ntrain_dataset = ProductDataset(\n    \"input/train.bson\", transform=train_transform, mode=\"train\"\n)\nindices = np.random.permutation(len(train_dataset))\ntrain_size = int(0.8 * len(indices))\ntrain_subset = Subset(train_dataset, indices[:train_size])\nval_subset = Subset(train_dataset, indices[train_size:])\n\n# Data loaders\ntrain_loader = DataLoader(\n    train_subset, batch_size=256, shuffle=True, num_workers=8, pin_memory=True\n)\nval_loader = DataLoader(\n    val_subset, batch_size=256, shuffle=False, num_workers=8, pin_memory=True\n)\n\n# Model setup\nmodel = models.efficientnet_b0(pretrained=True)\nmodel.classifier[1] = nn.Linear(model.classifier[1].in_features, num_classes)\nmodel = model.cuda()\n\n# Training config\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.AdamW(model.parameters(), lr=1e-3)\nbest_acc = 0\n\n# Training loop\nfor epoch in range(2):\n    # Train phase\n    model.train()\n    for inputs, labels in train_loader:\n        inputs, labels = inputs.cuda(), labels.cuda()\n        optimizer.zero_grad()\n        with torch.cuda.amp.autocast():\n            outputs = model(inputs)\n            loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n    # Validation phase\n    model.eval()\n    correct = 0\n    total = 0\n    with torch.no_grad():\n        for inputs, labels in val_loader:\n            inputs, labels = inputs.cuda(), labels.cuda()\n            outputs = model(inputs)\n            _, predicted = torch.max(outputs, 1)\n            total += labels.size(0)\n            correct += (predicted == labels).sum().item()\n\n    val_acc = correct / total\n    print(f\"Epoch {epoch+1}, Val Acc: {val_acc:.4f}\")\n\n# Test prediction\ntest_dataset = ProductDataset(\"input/test.bson\", transform=val_transform, mode=\"test\")\ntest_loader = DataLoader(test_dataset, batch_size=256, shuffle=False, num_workers=8)\n\npreds, ids = [], []\nmodel.eval()\nwith torch.no_grad():\n    for inputs, batch_ids in test_loader:\n        inputs = inputs.cuda()\n        outputs = model(inputs)\n        preds.extend(torch.argmax(outputs, 1).cpu().numpy())\n        ids.extend(batch_ids)\n\n# Create submission\nsubmission = pd.DataFrame(\n    {\"_id\": ids, \"category_id\": [idx_to_category[p] for p in preds]}\n)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\n\nprint(f\"Final Validation Accuracy: {val_acc:.4f}\")\n",
-            "import os\nimport bson\nimport io\nimport torch\nimport numpy as np\nimport pandas as pd\nfrom PIL import Image\nfrom torchvision import transforms\nfrom torch.utils.data import Dataset, DataLoader\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torchvision.models import resnet50\n\n# Configuration\nBATCH_SIZE = 256\nFEATURE_DIM = 2048  # ResNet50 features before final layer\nNUM_CLASSES = 5270\nDEVICE = \"cuda\" if torch.cuda.is_available() else \"cpu\"\n\n# Feature extraction model\nfeature_extractor = resnet50(pretrained=True)\nfeature_extractor = nn.Sequential(*list(feature_extractor.children())[:-1])\nfeature_extractor.eval().to(DEVICE)\n\n# Image preprocessing\ntransform = transforms.Compose(\n    [\n        transforms.Resize((224, 224)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\n\ndef process_bson(bson_path, is_train=True):\n    features, labels, ids = [], [], []\n    with open(bson_path, \"rb\") as f:\n        data = bson.decode_file_iter(f)\n        batch_images, batch_info = [], []\n\n        for idx, item in enumerate(data):\n            img = Image.open(io.BytesIO(item[\"imgs\"][0][\"picture\"]))\n            img = transform(img).unsqueeze(0)\n            batch_images.append(img)\n\n            if is_train:\n                batch_info.append(item[\"category_id\"])\n            else:\n                batch_info.append(item[\"_id\"])\n\n            if len(batch_images) == BATCH_SIZE or idx % 100000 == 0:\n                # Process batch\n                with torch.no_grad():\n                    features_batch = (\n                        feature_extractor(torch.cat(batch_images).to(DEVICE))\n                        .squeeze()\n                        .cpu()\n                        .numpy()\n                    )\n\n                features.append(features_batch)\n                batch_images = []\n\n                # Store labels/ids\n                if is_train:\n                    labels.extend(batch_info)\n                else:\n                    ids.extend(batch_info)\n                batch_info = []\n\n        # Process final batch\n        if batch_images:\n            with torch.no_grad():\n                features_batch = (\n                    feature_extractor(torch.cat(batch_images).to(DEVICE))\n                    .squeeze()\n                    .cpu()\n                    .numpy()\n                )\n            features.append(features_batch)\n            if is_train:\n                labels.extend(batch_info)\n            else:\n                ids.extend(batch_info)\n\n    return (np.concatenate(features), np.array(labels) if is_train else np.array(ids))\n\n\n# Process training data\nprint(\"Processing training data...\")\ntrain_features, train_labels = process_bson(\"input/train.bson\")\n\n# Split validation set\nval_size = int(0.1 * len(train_labels))\nrand_idx = np.random.permutation(len(train_labels))\nval_features = train_features[rand_idx[:val_size]]\nval_labels = train_labels[rand_idx[:val_size]]\ntrain_features = train_features[rand_idx[val_size:]]\ntrain_labels = train_labels[rand_idx[val_size:]]\n\n# Define classifier\nclassifier = nn.Linear(FEATURE_DIM, NUM_CLASSES).to(DEVICE)\noptimizer = optim.Adam(classifier.parameters(), lr=0.001)\ncriterion = nn.CrossEntropyLoss()\n\n# Create data loaders\ntrain_loader = DataLoader(\n    list(zip(torch.FloatTensor(train_features), torch.LongTensor(train_labels))),\n    batch_size=1024,\n    shuffle=True,\n)\nval_loader = DataLoader(\n    list(zip(torch.FloatTensor(val_features), torch.LongTensor(val_labels))),\n    batch_size=1024,\n)\n\n# Train classifier\nprint(\"Training classifier...\")\nfor epoch in range(5):\n    classifier.train()\n    for X, y in train_loader:\n        X, y = X.to(DEVICE), y.to(DEVICE)\n        optimizer.zero_grad()\n        loss = criterion(classifier(X), y)\n        loss.backward()\n        optimizer.step()\n\n    # Validate\n    classifier.eval()\n    correct, total = 0, 0\n    with torch.no_grad():\n        for X, y in val_loader:\n            X, y = X.to(DEVICE), y.to(DEVICE)\n            outputs = classifier(X)\n            _, predicted = torch.max(outputs, 1)\n            correct += (predicted == y).sum().item()\n            total += y.size(0)\n    val_acc = correct / total\n    print(f\"Epoch {epoch+1}: Val Acc = {val_acc:.4f}\")\n\n# Process test data\nprint(\"Processing test data...\")\ntest_features, test_ids = process_bson(\"input/test.bson\", is_train=False)\n\n# Generate predictions\nclassifier.eval()\ntest_tensor = torch.FloatTensor(test_features).to(DEVICE)\nwith torch.no_grad():\n    test_preds = classifier(test_tensor).argmax(dim=1).cpu().numpy()\n\n# Create submission\nsubmission = pd.DataFrame({\"_id\": test_ids, \"category_id\": test_preds})\nos.makedirs(\"submission\", exist_ok=True)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\nprint(f\"Validation Accuracy: {val_acc:.4f}\")\nprint(\"Submission file created successfully!\")\n",
-            "import torch\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms, models\nimport pandas as pd\nimport bson\nimport io\nfrom PIL import Image\nimport numpy as np\nimport os\nfrom tqdm import tqdm\n\n# Prepare category mapping\ncategories = pd.read_csv(\"input/category_names.csv\")\ncategory_to_idx = {row.category_id: idx for idx, row in categories.iterrows()}\nidx_to_category = {v: k for k, v in category_to_idx.items()}\n\n# Image transformations\ntransform = transforms.Compose(\n    [\n        transforms.Resize((224, 224)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\n\nclass ProductDataset(Dataset):\n    def __init__(self, entries, transform=None, train=True):\n        self.entries = entries\n        self.transform = transform\n        self.train = train\n        self.offsets = self._build_offset_index()\n\n    def _build_offset_index(self):\n        offsets = {}\n        path = \"input/train.bson\" if self.train else \"input/test.bson\"\n        with open(path, \"rb\") as f:\n            while True:\n                pos = f.tell()\n                length_bytes = f.read(4)\n                if not length_bytes:\n                    break\n                length = int.from_bytes(length_bytes, \"little\")\n                f.seek(pos)\n                full_doc = f.read(length)\n                product = bson.decode(full_doc)\n                offsets[product[\"_id\"]] = pos\n                f.seek(pos + length)\n        return offsets\n\n    def __len__(self):\n        return len(self.entries)\n\n    def __getitem__(self, idx):\n        product_id, category_id, img_idx = self.entries[idx]\n        path = \"input/train.bson\" if self.train else \"input/test.bson\"\n        with open(path, \"rb\") as f:\n            f.seek(self.offsets[product_id])\n            length_bytes = f.read(4)\n            length = int.from_bytes(length_bytes, \"little\")\n            product = bson.decode(f.read(length - 4))\n            img = Image.open(io.BytesIO(product[\"imgs\"][img_idx][\"picture\"])).convert(\n                \"RGB\"\n            )\n            if self.transform:\n                img = self.transform(img)\n            return img, category_to_idx[category_id]\n\n\n# Generate training entries and split\ntrain_entries = []\nwith open(\"input/train.bson\", \"rb\") as f:\n    while True:\n        pos = f.tell()\n        length_bytes = f.read(4)\n        if not length_bytes:\n            break\n        length = int.from_bytes(length_bytes, \"little\")\n        f.seek(pos)\n        product = bson.decode(f.read(length))\n        for img_idx in range(len(product[\"imgs\"])):\n            train_entries.append((product[\"_id\"], product[\"category_id\"], img_idx))\n\nproduct_ids = list({e[0] for e in train_entries})\nval_products = set(\n    np.random.choice(product_ids, int(0.1 * len(product_ids)), replace=False)\n)\ntrain_data = [e for e in train_entries if e[0] not in val_products]\nval_data = [e for e in train_entries if e[0] in val_products]\n\n# Data loaders\ntrain_loader = DataLoader(\n    ProductDataset(train_data, transform),\n    batch_size=256,\n    shuffle=True,\n    num_workers=8,\n    pin_memory=True,\n)\nval_loader = DataLoader(\n    ProductDataset(val_data, transform), batch_size=256, num_workers=8, pin_memory=True\n)\n\n# Model setup\nmodel = models.resnet50(pretrained=True)\nmodel.fc = nn.Linear(model.fc.in_features, len(category_to_idx))\nmodel = model.cuda()\nopt = optim.Adam(model.parameters(), lr=3e-4)\ncriterion = nn.CrossEntropyLoss()\n\n# Training loop\nfor epoch in range(2):\n    model.train()\n    for imgs, labels in tqdm(train_loader, desc=f\"Epoch {epoch+1}\"):\n        opt.zero_grad()\n        outputs = model(imgs.cuda())\n        loss = criterion(outputs, labels.cuda())\n        loss.backward()\n        opt.step()\n\n# Validation\nmodel.eval()\ncorrect = total = 0\nwith torch.no_grad():\n    for imgs, labels in val_loader:\n        outputs = model(imgs.cuda())\n        preds = outputs.argmax(dim=1)\n        correct += (preds.cpu() == labels).sum().item()\n        total += labels.size(0)\nval_acc = correct / total\nprint(f\"Validation Accuracy: {val_acc:.4f}\")\n\n# Generate test predictions\nsubmission = []\ntest_entries = []\nwith open(\"input/test.bson\", \"rb\") as f:\n    while True:\n        pos = f.tell()\n        length_bytes = f.read(4)\n        if not length_bytes:\n            break\n        length = int.from_bytes(length_bytes, \"little\")\n        f.seek(pos)\n        product = bson.decode(f.read(length))\n        test_entries.append(product)\n\nmodel.eval()\nwith torch.no_grad():\n    for product in tqdm(test_entries):\n        logits = []\n        for img in product[\"imgs\"]:\n            img = Image.open(io.BytesIO(img[\"picture\"])).convert(\"RGB\")\n            img = transform(img).unsqueeze(0).cuda()\n            logits.append(model(img))\n        avg_logits = torch.mean(torch.cat(logits), dim=0)\n        pred = idx_to_category[avg_logits.argmax().item()]\n        submission.append({\"_id\": product[\"_id\"], \"category_id\": pred})\n\nos.makedirs(\"submission\", exist_ok=True)\npd.DataFrame(submission).to_csv(\"submission/submission.csv\", index=False)\n",
-            "import os\nimport bson\nimport io\nimport torch\nimport numpy as np\nimport pandas as pd\nfrom PIL import Image\nfrom torchvision import transforms\nfrom torch.utils.data import Dataset, DataLoader\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torchvision.models import resnet50\n\n# Configuration\nBATCH_SIZE = 256\nFEATURE_DIM = 2048\nDEVICE = \"cuda\" if torch.cuda.is_available() else \"cpu\"\n\n# Feature extraction model\nfeature_extractor = resnet50(pretrained=True)\nfeature_extractor = nn.Sequential(*list(feature_extractor.children())[:-1])\nfeature_extractor.eval().to(DEVICE)\n\n# Image preprocessing\ntransform = transforms.Compose(\n    [\n        transforms.Resize((224, 224)),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),\n    ]\n)\n\n\ndef process_bson(bson_path, is_train=True):\n    features, labels, ids = [], [], []\n    with open(bson_path, \"rb\") as f:\n        data = bson.decode_file_iter(f)\n        batch_images, batch_info = [], []\n\n        for idx, item in enumerate(data):\n            img = Image.open(io.BytesIO(item[\"imgs\"][0][\"picture\"]))\n            img = transform(img).unsqueeze(0)\n            batch_images.append(img)\n\n            if is_train:\n                batch_info.append(item[\"category_id\"])\n            else:\n                batch_info.append(item[\"_id\"])\n\n            if len(batch_images) == BATCH_SIZE or (idx + 1) % 100000 == 0:\n                with torch.no_grad():\n                    features_batch = (\n                        feature_extractor(torch.cat(batch_images).to(DEVICE))\n                        .squeeze()\n                        .cpu()\n                        .numpy()\n                    )\n\n                # Ensure 2D shape\n                features_batch = features_batch.reshape(-1, FEATURE_DIM)\n                features.append(features_batch)\n                batch_images = []\n\n                if is_train:\n                    labels.extend(batch_info)\n                else:\n                    ids.extend(batch_info)\n                batch_info = []\n\n        if batch_images:\n            with torch.no_grad():\n                features_batch = (\n                    feature_extractor(torch.cat(batch_images).to(DEVICE))\n                    .squeeze()\n                    .cpu()\n                    .numpy()\n                )\n\n            features_batch = features_batch.reshape(-1, FEATURE_DIM)\n            features.append(features_batch)\n            if is_train:\n                labels.extend(batch_info)\n            else:\n                ids.extend(batch_info)\n\n    return (np.concatenate(features), np.array(labels) if is_train else np.array(ids))\n\n\n# Process training data\nprint(\"Processing training data...\")\ntrain_features, train_labels = process_bson(\"input/train.bson\")\n\n# Create label mapping\nunique_categories = np.unique(train_labels)\nNUM_CLASSES = len(unique_categories)\nlabel_to_idx = {cat: idx for idx, cat in enumerate(unique_categories)}\ntrain_labels_indices = np.array([label_to_idx[cat] for cat in train_labels])\n\n# Split validation set\nval_size = int(0.1 * len(train_labels_indices))\nrand_idx = np.random.permutation(len(train_labels_indices))\nval_features = train_features[rand_idx[:val_size]]\nval_labels = train_labels_indices[rand_idx[:val_size]]\ntrain_features_split = train_features[rand_idx[val_size:]]\ntrain_labels_split = train_labels_indices[rand_idx[val_size:]]\n\n# Define classifier\nclassifier = nn.Linear(FEATURE_DIM, NUM_CLASSES).to(DEVICE)\noptimizer = optim.Adam(classifier.parameters(), lr=0.001)\ncriterion = nn.CrossEntropyLoss()\n\n# Create data loaders\ntrain_loader = DataLoader(\n    list(\n        zip(\n            torch.FloatTensor(train_features_split),\n            torch.LongTensor(train_labels_split),\n        )\n    ),\n    batch_size=1024,\n    shuffle=True,\n    num_workers=4,\n)\nval_loader = DataLoader(\n    list(zip(torch.FloatTensor(val_features), torch.LongTensor(val_labels))),\n    batch_size=1024,\n    num_workers=4,\n)\n\n# Train classifier\nprint(\"Training classifier...\")\nbest_acc = 0.0\nfor epoch in range(5):\n    classifier.train()\n    for X, y in train_loader:\n        X, y = X.to(DEVICE), y.to(DEVICE)\n        optimizer.zero_grad()\n        loss = criterion(classifier(X), y)\n        loss.backward()\n        optimizer.step()\n\n    # Validate\n    classifier.eval()\n    correct, total = 0, 0\n    with torch.no_grad():\n        for X, y in val_loader:\n            X, y = X.to(DEVICE), y.to(DEVICE)\n            outputs = classifier(X)\n            _, predicted = torch.max(outputs, 1)\n            correct += (predicted == y).sum().item()\n            total += y.size(0)\n    val_acc = correct / total\n    print(f\"Epoch {epoch+1}: Val Acc = {val_acc:.4f}\")\n    if val_acc > best_acc:\n        best_acc = val_acc\n        torch.save(classifier.state_dict(), \"working/best_model.pth\")\n\n# Load best model\nclassifier.load_state_dict(torch.load(\"working/best_model.pth\"))\n\n# Process test data\nprint(\"Processing test data...\")\ntest_features, test_ids = process_bson(\"input/test.bson\", is_train=False)\n\n# Generate predictions\nclassifier.eval()\ntest_tensor = torch.FloatTensor(test_features).to(DEVICE)\nwith torch.no_grad():\n    test_preds = classifier(test_tensor).argmax(dim=1).cpu().numpy()\n\n# Map predictions to original category IDs\nidx_to_label = {v: k for k, v in label_to_idx.items()}\ntest_preds_labels = [idx_to_label[idx] for idx in test_preds]\n\n# Create submission\nsubmission = pd.DataFrame({\"_id\": test_ids, \"category_id\": test_preds_labels})\nos.makedirs(\"submission\", exist_ok=True)\nsubmission.to_csv(\"submission/submission.csv\", index=False)\nprint(f\"Best Validation Accuracy: {best_acc:.4f}\")\nprint(\"Submission file created successfully!\")\n"
+            "import bson\nimport pandas as pd\nimport torch\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nfrom PIL import Image\nimport io\nimport timm\nimport torch.nn as nn\nfrom sklearn.model_selection import train_test_split\nimport csv\n\n# Collect product IDs and categories\nproduct_data = []\nwith open(\"input/train.bson\", \"rb\") as f:\n    data = bson.decode_file_iter(f)\n    for idx, d in enumerate(data):\n        product_data.append({\"_id\": d[\"_id\"], \"category_id\": d[\"category_id\"]})\n        if idx % 100000 == 0:\n            print(f\"Collected {idx} products\")\ndf = pd.DataFrame(product_data)\nunique_categories = df[\"category_id\"].unique()\ncategory_to_idx = {cat: i for i, cat in enumerate(unique_categories)}\nidx_to_category = {i: cat for i, cat in enumerate(unique_categories)}\n\n# Split product IDs into train and validation\ntrain_pids, val_pids = train_test_split(\n    df[\"_id\"], test_size=0.1, stratify=df[\"category_id\"], random_state=42\n)\ntrain_pids = set(train_pids.tolist())\nval_pids = set(val_pids.tolist())\n\n\n# Dataset classes\nclass TrainDataset(Dataset):\n    def __init__(self, bson_path, product_ids, category_map):\n        self.product_ids = product_ids\n        self.category_map = category_map\n        self.transform = transforms.Compose(\n            [\n                transforms.Resize(256),\n                transforms.RandomCrop(224),\n                transforms.RandomHorizontalFlip(),\n                transforms.ToTensor(),\n                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n            ]\n        )\n        self.products = []\n        with open(bson_path, \"rb\") as f:\n            data = bson.decode_file_iter(f)\n            for d in data:\n                if d[\"_id\"] in self.product_ids and d[\"imgs\"]:\n                    img_data = d[\"imgs\"][0][\"picture\"]\n                    self.products.append((d[\"_id\"], img_data))\n\n    def __len__(self):\n        return len(self.products)\n\n    def __getitem__(self, idx):\n        pid, img_data = self.products[idx]\n        img = Image.open(io.BytesIO(img_data)).convert(\"RGB\")\n        img = self.transform(img)\n        label = self.category_map[pid]\n        return img, category_to_idx[label]\n\n\nclass TestDataset(Dataset):\n    def __init__(self, bson_path):\n        self.transform = transforms.Compose(\n            [\n                transforms.Resize(256),\n                transforms.CenterCrop(224),\n                transforms.ToTensor(),\n                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n            ]\n        )\n        self.products = []\n        with open(bson_path, \"rb\") as f:\n            for d in bson.decode_file_iter(f):\n                imgs = [img[\"picture\"] for img in d[\"imgs\"]]\n                self.products.append((d[\"_id\"], imgs))\n\n    def __len__(self):\n        return len(self.products)\n\n    def __getitem__(self, idx):\n        pid, imgs = self.products[idx]\n        img_tensors = []\n        for img_data in imgs:\n            img = Image.open(io.BytesIO(img_data)).convert(\"RGB\")\n            img_tensors.append(self.transform(img))\n        return pid, torch.stack(img_tensors)\n\n\n# Model\nclass ProductClassifier(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.base = timm.create_model(\n            \"efficientnet_b0\", pretrained=True, num_classes=5270\n        )\n\n    def forward(self, x):\n        return self.base(x)\n\n\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = ProductClassifier().to(device)\ncriterion = nn.CrossEntropyLoss()\noptimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)\nscaler = torch.cuda.amp.GradScaler()\n\n# Training\ntrain_dataset = TrainDataset(\n    \"input/train.bson\", train_pids, df.set_index(\"_id\")[\"category_id\"].to_dict()\n)\ntrain_loader = DataLoader(\n    train_dataset, batch_size=512, shuffle=True, num_workers=8, pin_memory=True\n)\n\nfor epoch in range(3):\n    model.train()\n    for i, (inputs, labels) in enumerate(train_loader):\n        inputs, labels = inputs.to(device), labels.to(device)\n        optimizer.zero_grad()\n        with torch.cuda.amp.autocache_mode():\n            outputs = model(inputs)\n            loss = criterion(outputs, labels)\n        scaler.scale(loss).backward()\n        scaler.step(optimizer)\n        scaler.update()\n        if i % 100 == 0:\n            print(f\"Epoch {epoch}, Batch {i}, Loss: {loss.item():.4f}\")\n\n# Validation\nval_dataset = TrainDataset(\n    \"input/train.bson\", val_pids, df.set_index(\"_id\")[\"category_id\"].to_dict()\n)\nval_loader = DataLoader(val_dataset, batch_size=512, num_workers=4)\nmodel.eval()\ncorrect = 0\ntotal = 0\nwith torch.no_grad():\n    for inputs, labels in val_loader:\n        inputs, labels = inputs.to(device), labels.to(device)\n        outputs = model(inputs)\n        _, preds = torch.max(outputs, 1)\n        correct += (preds == labels).sum().item()\n        total += labels.size(0)\nprint(f\"Validation Accuracy: {correct / total:.4f}\")\n\n# Test Prediction\ntest_dataset = TestDataset(\"input/test.bson\")\ntest_loader = DataLoader(test_dataset, batch_size=1, num_workers=4)\npredictions = []\nmodel.eval()\nwith torch.no_grad():\n    for pids, imgs in test_loader:\n        imgs = imgs.squeeze(0).to(device)\n        outputs = torch.zeros(1, 5270).to(device)\n        for img in imgs:\n            output = model(img.unsqueeze(0))\n            outputs += output\n        _, pred = torch.max(outputs, 1)\n        predictions.append((pids[0].item(), idx_to_category[pred.item()]))\n\n# Save submission\nwith open(\"submission/submission.csv\", \"w\") as f:\n    writer = csv.writer(f)\n    writer.writerow([\"_id\", \"category_id\"])\n    for pid, cat in predictions:\n        writer.writerow([pid, cat])\n",
+            "import os\nimport bson\nimport io\nimport pandas as pd\nfrom PIL import Image\nimport torch\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms, models\n\n# Load category mappings\ncategories = pd.read_csv(\"input/category_names.csv\")\ncategory_to_idx = {row[\"category_id\"]: idx for idx, row in categories.iterrows()}\nidx_to_category = {idx: row[\"category_id\"] for idx, row in categories.iterrows()}\nnum_classes = len(categories)\n\n\n# Training dataset with first image per product\nclass TrainDataset(Dataset):\n    def __init__(self, bson_path, max_samples=100000):\n        self.data = []\n        with open(bson_path, \"rb\") as f:\n            for i, item in enumerate(bson.decode_file_iter(f)):\n                if i >= max_samples:\n                    break\n                try:\n                    img_data = item[\"imgs\"][0][\"picture\"]\n                    label = category_to_idx[item[\"category_id\"]]\n                    self.data.append((img_data, label))\n                except:\n                    continue\n\n    def __len__(self):\n        return len(self.data)\n\n    def __getitem__(self, idx):\n        img_data, label = self.data[idx]\n        image = Image.open(io.BytesIO(img_data))\n        transform = transforms.Compose(\n            [\n                transforms.Resize((224, 224)),\n                transforms.ToTensor(),\n                transforms.Normalize(\n                    mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]\n                ),\n            ]\n        )\n        return transform(image), label\n\n\n# Initialize model\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = models.resnet50(pretrained=True)\nmodel.fc = nn.Linear(model.fc.in_features, num_classes)\nmodel = model.to(device)\n\n# Split dataset\nfull_dataset = TrainDataset(\"input/train.bson\")\ntrain_size = int(0.9 * len(full_dataset))\nval_size = len(full_dataset) - train_size\ntrain_set, val_set = torch.utils.data.random_split(full_dataset, [train_size, val_size])\n\n# Data loaders\ntrain_loader = DataLoader(train_set, batch_size=64, shuffle=True, num_workers=4)\nval_loader = DataLoader(val_set, batch_size=64, shuffle=False, num_workers=4)\n\n# Training setup\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.Adam(model.parameters(), lr=0.001)\n\n# Training loop\nfor epoch in range(1):\n    model.train()\n    for inputs, labels in train_loader:\n        inputs, labels = inputs.to(device), labels.to(device)\n        optimizer.zero_grad()\n        outputs = model(inputs)\n        loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n# Validation\nmodel.eval()\ncorrect = 0\ntotal = 0\nwith torch.no_grad():\n    for inputs, labels in val_loader:\n        inputs, labels = inputs.to(device), labels.to(device)\n        outputs = model(inputs)\n        _, preds = torch.max(outputs, 1)\n        correct += (preds == labels).sum().item()\n        total += labels.size(0)\nval_acc = correct / total\nprint(f\"Validation Accuracy: {val_acc:.4f}\")\n\n# Test predictions\nsubmission = []\nbatch_size = 64\ncurrent_batch = []\nids = []\n\nwith open(\"input/test.bson\", \"rb\") as f, torch.no_grad():\n    model.eval()\n    for item in bson.decode_file_iter(f):\n        ids.append(item[\"_id\"])\n        img = Image.open(io.BytesIO(item[\"imgs\"][0][\"picture\"]))\n        transform = transforms.Compose(\n            [\n                transforms.Resize((224, 224)),\n                transforms.ToTensor(),\n                transforms.Normalize(\n                    mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]\n                ),\n            ]\n        )\n        current_batch.append(transform(img))\n\n        if len(current_batch) == batch_size:\n            batch = torch.stack(current_batch).to(device)\n            outputs = model(batch)\n            _, preds = torch.max(outputs, 1)\n            for _id, pred in zip(ids, preds.cpu().numpy()):\n                submission.append([_id, idx_to_category[pred]])\n            current_batch = []\n            ids = []\n\n    # Final batch\n    if current_batch:\n        batch = torch.stack(current_batch).to(device)\n        outputs = model(batch)\n        _, preds = torch.max(outputs, 1)\n        for _id, pred in zip(ids, preds.cpu().numpy()):\n            submission.append([_id, idx_to_category[pred]])\n\n# Save submission\npd.DataFrame(submission, columns=[\"_id\", \"category_id\"]).to_csv(\n    \"submission/submission.csv\", index=False\n)\n",
+            "import os\nimport bson\nimport io\nimport pandas as pd\nfrom PIL import Image\nimport torch\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms, models\n\n# Load category mappings\ncategories = pd.read_csv(\"input/category_names.csv\")\ncategory_to_idx = {row[\"category_id\"]: idx for idx, row in categories.iterrows()}\nidx_to_category = {idx: row[\"category_id\"] for idx, row in categories.iterrows()}\nnum_classes = len(categories)\n\n\n# Base dataset storing all images per product\nclass BaseDataset(Dataset):\n    def __init__(self, bson_path, max_products=50000):\n        self.data = []\n        with open(bson_path, \"rb\") as f:\n            for i, item in enumerate(bson.decode_file_iter(f)):\n                if i >= max_products:\n                    break\n                try:\n                    category_id = item[\"category_id\"]\n                    label = category_to_idx[category_id]\n                    for img_dict in item[\"imgs\"]:\n                        self.data.append((img_dict[\"picture\"], label))\n                except:\n                    continue\n\n    def __len__(self):\n        return len(self.data)\n\n    def __getitem__(self, idx):\n        return self.data[idx]\n\n\n# Transformed dataset applying different augmentations\nclass TransformedDataset(Dataset):\n    def __init__(self, base_dataset, indices, transform):\n        self.base_dataset = base_dataset\n        self.indices = indices\n        self.transform = transform\n\n    def __len__(self):\n        return len(self.indices)\n\n    def __getitem__(self, idx):\n        img_data, label = self.base_dataset[self.indices[idx]]\n        image = Image.open(io.BytesIO(img_data))\n        return self.transform(image), label\n\n\n# Data transforms\ntrain_transform = transforms.Compose(\n    [\n        transforms.Resize(256),\n        transforms.RandomResizedCrop(224),\n        transforms.RandomHorizontalFlip(),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\nval_transform = transforms.Compose(\n    [\n        transforms.Resize(224),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\n# Initialize datasets\nbase_dataset = BaseDataset(\"input/train.bson\", max_products=50000)\ntrain_size = int(0.9 * len(base_dataset))\nval_size = len(base_dataset) - train_size\ntrain_indices, val_indices = torch.utils.data.random_split(\n    range(len(base_dataset)), [train_size, val_size]\n)\n\ntrain_set = TransformedDataset(base_dataset, train_indices.indices, train_transform)\nval_set = TransformedDataset(base_dataset, val_indices.indices, val_transform)\n\n# Initialize model\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = models.resnet50(pretrained=True)\nmodel.fc = nn.Linear(model.fc.in_features, num_classes)\nmodel = model.to(device)\n\n# Data loaders\ntrain_loader = DataLoader(\n    train_set, batch_size=128, shuffle=True, num_workers=8, pin_memory=True\n)\nval_loader = DataLoader(\n    val_set, batch_size=256, shuffle=False, num_workers=8, pin_memory=True\n)\n\n# Training setup\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.Adam(model.parameters(), lr=0.001)\n\n# Training loop\nfor epoch in range(3):\n    model.train()\n    for inputs, labels in train_loader:\n        inputs, labels = inputs.to(device), labels.to(device)\n        optimizer.zero_grad()\n        outputs = model(inputs)\n        loss = criterion(outputs, labels)\n        loss.backward()\n        optimizer.step()\n\n# Validation\nmodel.eval()\ncorrect = 0\ntotal = 0\nwith torch.no_grad():\n    for inputs, labels in val_loader:\n        inputs, labels = inputs.to(device), labels.to(device)\n        outputs = model(inputs)\n        _, preds = torch.max(outputs, 1)\n        correct += (preds == labels).sum().item()\n        total += labels.size(0)\nval_acc = correct / total\nprint(f\"Validation Accuracy: {val_acc:.4f}\")\n\n# Test predictions\nsubmission = []\ntest_transform = val_transform  # Use validation transform for test\n\nwith open(\"input/test.bson\", \"rb\") as f, torch.no_grad():\n    model.eval()\n    for item in bson.decode_file_iter(f):\n        product_id = item[\"_id\"]\n        images = []\n        for img_dict in item[\"imgs\"]:\n            try:\n                img = Image.open(io.BytesIO(img_dict[\"picture\"]))\n                images.append(test_transform(img))\n            except:\n                continue\n\n        if not images:\n            # Fallback to first category if no valid images\n            submission.append([product_id, categories.iloc[0][\"category_id\"]])\n            continue\n\n        # Batch process all images for current product\n        batch = torch.stack(images).to(device)\n        outputs = model(batch)\n        avg_logits = outputs.mean(dim=0, keepdim=True)\n        _, pred = torch.max(avg_logits, 1)\n        submission.append([product_id, idx_to_category[pred.item()]])\n\n# Save submission\npd.DataFrame(submission, columns=[\"_id\", \"category_id\"]).to_csv(\n    \"submission/submission.csv\", index=False\n)\n",
+            "import bson\nimport pandas as pd\nimport torch\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nfrom PIL import Image\nimport io\nimport timm\nimport torch.nn as nn\nfrom sklearn.model_selection import train_test_split\nimport csv\n\n# Collect product IDs and categories\nproduct_data = []\nwith open(\"input/train.bson\", \"rb\") as f:\n    data = bson.decode_file_iter(f)\n    for idx, d in enumerate(data):\n        product_data.append({\"_id\": d[\"_id\"], \"category_id\": d[\"category_id\"]})\n        if idx % 100000 == 0:\n            print(f\"Collected {idx} products\")\ndf = pd.DataFrame(product_data)\nunique_categories = df[\"category_id\"].unique()\ncategory_to_idx = {cat: i for i, cat in enumerate(unique_categories)}\nidx_to_category = {i: cat for i, cat in enumerate(unique_categories)}\n\n# Split product IDs into train and validation\ntrain_pids, val_pids = train_test_split(\n    df[\"_id\"], test_size=0.1, stratify=df[\"category_id\"], random_state=42\n)\ntrain_pids = set(train_pids.tolist())\nval_pids = set(val_pids.tolist())\n\n\n# Dataset classes with proper validation transforms\nclass TrainDataset(Dataset):\n    def __init__(self, bson_path, product_ids, category_map):\n        self.product_ids = product_ids\n        self.category_map = category_map\n        self.transform = transforms.Compose(\n            [\n                transforms.Resize(256),\n                transforms.RandomCrop(224),\n                transforms.RandomHorizontalFlip(),\n                transforms.ToTensor(),\n                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n            ]\n        )\n        self.products = []\n        with open(bson_path, \"rb\") as f:\n            data = bson.decode_file_iter(f)\n            for d in data:\n                if d[\"_id\"] in self.product_ids and d[\"imgs\"]:\n                    img_data = d[\"imgs\"][0][\"picture\"]\n                    self.products.append((d[\"_id\"], img_data))\n\n    def __len__(self):\n        return len(self.products)\n\n    def __getitem__(self, idx):\n        pid, img_data = self.products[idx]\n        img = Image.open(io.BytesIO(img_data)).convert(\"RGB\")\n        img = self.transform(img)\n        return img, category_to_idx[self.category_map[pid]]\n\n\nclass ValDataset(Dataset):\n    def __init__(self, bson_path, product_ids, category_map):\n        self.product_ids = product_ids\n        self.category_map = category_map\n        self.transform = transforms.Compose(\n            [\n                transforms.Resize(256),\n                transforms.CenterCrop(224),\n                transforms.ToTensor(),\n                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n            ]\n        )\n        self.products = []\n        with open(bson_path, \"rb\") as f:\n            data = bson.decode_file_iter(f)\n            for d in data:\n                if d[\"_id\"] in self.product_ids and d[\"imgs\"]:\n                    img_data = d[\"imgs\"][0][\"picture\"]\n                    self.products.append((d[\"_id\"], img_data))\n\n    def __len__(self):\n        return len(self.products)\n\n    def __getitem__(self, idx):\n        pid, img_data = self.products[idx]\n        img = Image.open(io.BytesIO(img_data)).convert(\"RGB\")\n        img = self.transform(img)\n        return img, category_to_idx[self.category_map[pid]]\n\n\nclass TestDataset(Dataset):\n    def __init__(self, bson_path):\n        self.transform = transforms.Compose(\n            [\n                transforms.Resize(256),\n                transforms.CenterCrop(224),\n                transforms.ToTensor(),\n                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n            ]\n        )\n        self.products = []\n        with open(bson_path, \"rb\") as f:\n            for d in bson.decode_file_iter(f):\n                imgs = [img[\"picture\"] for img in d[\"imgs\"]]\n                self.products.append((d[\"_id\"], imgs))\n\n    def __len__(self):\n        return len(self.products)\n\n    def __getitem__(self, idx):\n        pid, imgs = self.products[idx]\n        img_tensors = []\n        for img_data in imgs:\n            img = Image.open(io.BytesIO(img_data)).convert(\"RGB\")\n            img_tensors.append(self.transform(img))\n        return pid, torch.stack(img_tensors)\n\n\n# Model\nclass ProductClassifier(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.base = timm.create_model(\n            \"efficientnet_b0\", pretrained=True, num_classes=5270\n        )\n\n    def forward(self, x):\n        return self.base(x)\n\n\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel = ProductClassifier().to(device)\ncriterion = nn.CrossEntropyLoss()\noptimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)\nscaler = torch.cuda.amp.GradScaler()\n\n# Training\ntrain_dataset = TrainDataset(\n    \"input/train.bson\", train_pids, df.set_index(\"_id\")[\"category_id\"].to_dict()\n)\ntrain_loader = DataLoader(\n    train_dataset, batch_size=512, shuffle=True, num_workers=8, pin_memory=True\n)\n\nfor epoch in range(3):\n    model.train()\n    for i, (inputs, labels) in enumerate(train_loader):\n        inputs, labels = inputs.to(device), labels.to(device)\n        optimizer.zero_grad()\n        with torch.cuda.amp.autocast():\n            outputs = model(inputs)\n            loss = criterion(outputs, labels)\n        scaler.scale(loss).backward()\n        scaler.step(optimizer)\n        scaler.update()\n        if i % 100 == 0:\n            print(f\"Epoch {epoch}, Batch {i}, Loss: {loss.item():.4f}\")\n\n# Validation\nval_dataset = ValDataset(\n    \"input/train.bson\", val_pids, df.set_index(\"_id\")[\"category_id\"].to_dict()\n)\nval_loader = DataLoader(val_dataset, batch_size=512, num_workers=8)\nmodel.eval()\ncorrect = 0\ntotal = 0\nwith torch.no_grad():\n    for inputs, labels in val_loader:\n        inputs, labels = inputs.to(device), labels.to(device)\n        outputs = model(inputs)\n        _, preds = torch.max(outputs, 1)\n        correct += (preds == labels).sum().item()\n        total += labels.size(0)\nval_acc = correct / total\nprint(f\"Validation Accuracy: {val_acc:.4f}\")\n\n# Test Prediction\ntest_dataset = TestDataset(\"input/test.bson\")\ntest_loader = DataLoader(test_dataset, batch_size=1, num_workers=8)\npredictions = []\nmodel.eval()\nwith torch.no_grad():\n    for pids, imgs in test_loader:\n        imgs = imgs.squeeze(0).to(device)\n        outputs = torch.zeros(1, 5270).to(device)\n        for img in imgs:\n            with torch.cuda.amp.autocast():\n                output = model(img.unsqueeze(0))\n            outputs += output\n        _, pred = torch.max(outputs, 1)\n        predictions.append((pids[0].item(), idx_to_category[pred.item()]))\n\n# Save submission\nwith open(\"submission/submission.csv\", \"w\") as f:\n    writer = csv.writer(f)\n    writer.writerow([\"_id\", \"category_id\"])\n    for pid, cat in predictions:\n        writer.writerow([pid, cat])\n\nprint(f\"Final Validation Accuracy: {val_acc:.4f}\")\n",
+            "import torch\nimport torch.nn as nn\nimport torch.optim as optim\nfrom torch.utils.data import Dataset, DataLoader\nimport torchvision.models as models\nimport torchvision.transforms as transforms\nfrom PIL import Image\nimport bson\nimport io\nimport numpy as np\nimport pandas as pd\nimport h5py\nfrom tqdm import tqdm\nimport os\n\n# Configuration\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nBATCH_SIZE = 512\nIMG_SIZE = 224\nNUM_WORKERS = 4\n\n# Feature Extractor\nmodel = models.resnet18(pretrained=True)\nmodel = nn.Sequential(*list(model.children())[:-1]).to(device).eval()\npreprocess = transforms.Compose(\n    [\n        transforms.Resize(IMG_SIZE),\n        transforms.CenterCrop(IMG_SIZE),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ]\n)\n\n# Label mapping\ncategory_df = pd.read_csv(\"input/category_names.csv\")\ncat2idx = {row.category_id: i for i, row in category_df.iterrows()}\nidx2cat = {i: row.category_id for i, row in category_df.iterrows()}\n\n\ndef process_bson(path, is_train=True):\n    with h5py.File(f'working/{\"train\" if is_train else \"test\"}_features.h5', \"w\") as hf:\n        features = hf.create_dataset(\n            \"features\", (0, 512), maxshape=(None, 512), dtype=\"float32\"\n        )\n        ids = hf.create_dataset(\"ids\", (0,), maxshape=(None,), dtype=\"int64\")\n        if is_train:\n            labels = hf.create_dataset(\"labels\", (0,), maxshape=(None,), dtype=\"int64\")\n\n        with open(path, \"rb\") as f:\n            for i, entry in enumerate(\n                tqdm(bson.decode_file_iter(f), desc=\"Processing\")\n            ):\n                img_batch = []\n                for img in entry[\"imgs\"]:\n                    img = Image.open(io.BytesIO(img[\"picture\"])).convert(\"RGB\")\n                    img_batch.append(preprocess(img))\n                if not img_batch:\n                    continue\n\n                with torch.no_grad():\n                    feats = (\n                        model(torch.stack(img_batch).to(device)).squeeze().cpu().numpy()\n                    )\n                avg_feat = feats.mean(axis=0)\n\n                features.resize(features.shape[0] + 1, axis=0)\n                ids.resize(ids.shape[0] + 1, axis=0)\n                features[-1] = avg_feat\n                ids[-1] = entry[\"_id\"]\n                if is_train:\n                    labels.resize(labels.shape[0] + 1, axis=0)\n                    labels[-1] = cat2idx[entry[\"category_id\"]]\n\n\n# Process data\nprocess_bson(\"input/train.bson\")\nprocess_bson(\"input/test.bson\", is_train=False)\n\n\n# Dataset Class\nclass H5Dataset(Dataset):\n    def __init__(self, path, train=True):\n        self.path = path\n        self.train = train\n        with h5py.File(path, \"r\") as hf:\n            self.len = hf[\"features\"].shape[0]\n\n    def __len__(self):\n        return self.len\n\n    def __getitem__(self, idx):\n        with h5py.File(self.path, \"r\") as hf:\n            feat = torch.tensor(hf[\"features\"][idx], dtype=torch.float32)\n            if self.train:\n                return feat, hf[\"labels\"][idx]\n            return feat, hf[\"ids\"][idx]\n\n\n# Split train/val\ntrain_ds = H5Dataset(\"working/train_features.h5\")\ntrain_size = int(0.8 * len(train_ds))\nval_size = len(train_ds) - train_size\ntrain_ds, val_ds = torch.utils.data.random_split(train_ds, [train_size, val_size])\n\n# DataLoaders\ntrain_loader = DataLoader(\n    train_ds, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS\n)\nval_loader = DataLoader(val_ds, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS)\n\n\n# Classifier Model\nclass Classifier(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.layers = nn.Sequential(\n            nn.Linear(512, 1024),\n            nn.ReLU(),\n            nn.Dropout(0.2),\n            nn.Linear(1024, len(category_df)),\n        )\n\n    def forward(self, x):\n        return self.layers(x)\n\n\nmodel = Classifier().to(device)\noptimizer = optim.Adam(model.parameters(), lr=1e-3)\ncriterion = nn.CrossEntropyLoss()\n\n# Training\nbest_acc = 0\nfor epoch in range(5):\n    model.train()\n    for feats, labels in tqdm(train_loader, desc=f\"Epoch {epoch+1}\"):\n        feats, labels = feats.to(device), labels.to(device)\n        optimizer.zero_grad()\n        loss = criterion(model(feats), labels)\n        loss.backward()\n        optimizer.step()\n\n    # Validation\n    model.eval()\n    correct = total = 0\n    with torch.no_grad():\n        for feats, labels in val_loader:\n            feats, labels = feats.to(device), labels.to(device)\n            outputs = model(feats)\n            _, preds = torch.max(outputs, 1)\n            correct += (preds == labels).sum().item()\n            total += labels.size(0)\n    acc = correct / total\n    print(f\"Val Acc: {acc:.4f}\")\n    if acc > best_acc:\n        best_acc = acc\n        torch.save(model.state_dict(), \"working/best_model.pth\")\n\n# Inference\nmodel.load_state_dict(torch.load(\"working/best_model.pth\"))\ntest_ds = H5Dataset(\"working/test_features.h5\", train=False)\ntest_loader = DataLoader(test_ds, batch_size=BATCH_SIZE * 2, num_workers=NUM_WORKERS)\n\npreds, ids = [], []\nmodel.eval()\nwith torch.no_grad():\n    for feats, batch_ids in test_loader:\n        outputs = model(feats.to(device))\n        preds.extend(torch.argmax(outputs, 1).cpu().numpy())\n        ids.extend(batch_ids.numpy())\n\n# Create submission\nsubmission = pd.DataFrame(\n    {\"_id\": ids, \"category_id\": [idx2cat[p] for p in preds]}\n).sort_values(\"_id\")\nsubmission.to_csv(\"submission/submission.csv\", index=False)\nprint(f\"Validation Accuracy: {best_acc:.4f}\")\n"
         ],
         "term_out": [
             "<OMITTED>",
-            "code exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 40, in <module>\n    product = bson.decode(product_data)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/bson/__init__.py\", line 1097, in decode\n    return cast(\"Union[dict[str, Any], _DocumentType]\", _bson_to_dict(data, opts))\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^\nbson.errors.InvalidBSON: objsize too large\nExecution time: 17 seconds seconds (time limit is 9 hours).",
-            "<OMITTED>",
-            "\r  0%|          | 0/39140 [00:00<?, ?it/s]\r  0%|          | 0/39140 [00:00<?, ?it/s]\ncode exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 118, in <module>\n    for imgs, labels in tqdm(train_loader):\n                        ^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/tqdm/std.py\", line 1181, in __iter__\n    for obj in iterable:\n               ^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 708, in __next__\n    data = self._next_data()\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 1480, in _next_data\n    return self._process_data(data)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 1505, in _process_data\n    data.reraise()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/_utils.py\", line 733, in reraise\n    raise exception\nKeyError: Caught KeyError in DataLoader worker process 0.\nOriginal Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/_utils/worker.py\", line 349, in _worker_loop\n    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py\", line 52, in fetch\n    data = [self.dataset[idx] for idx in possibly_batched_index]\n            ~~~~~~~~~~~~^^^^^\n  File \"runfile_1.py\", line 90, in __getitem__\n    f.seek(self.offsets[product_id])\n           ~~~~~~~~~~~~^^^^^^^^^^^^\nKeyError: 18912632\n\nExecution time: a minute seconds (time limit is 9 hours).",
             "<OMITTED>",
             "<OMITTED>",
-            "\rEpoch 1:   0%|          | 0/39139 [00:00<?, ?it/s]\rEpoch 1:   0%|          | 0/39139 [00:00<?, ?it/s]\ncode exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_0.py\", line 117, in <module>\n    for imgs, labels in tqdm(train_loader, desc=f\"Epoch {epoch+1}\"):\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/tqdm/std.py\", line 1181, in __iter__\n    for obj in iterable:\n               ^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 708, in __next__\n    data = self._next_data()\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 1480, in _next_data\n    return self._process_data(data)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py\", line 1505, in _process_data\n    data.reraise()\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/_utils.py\", line 733, in reraise\n    raise exception\nbson.errors.InvalidBSON: Caught InvalidBSON in DataLoader worker process 0.\nOriginal Traceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/_utils/worker.py\", line 349, in _worker_loop\n    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py\", line 52, in fetch\n    data = [self.dataset[idx] for idx in possibly_batched_index]\n            ~~~~~~~~~~~~^^^^^\n  File \"runfile_0.py\", line 65, in __getitem__\n    product = bson.decode(f.read(length - 4))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ma-user/modelarts/work/zexiliu/miniconda3/envs/code_env/lib/python3.12/site-packages/bson/__init__.py\", line 1097, in decode\n    return cast(\"Union[dict[str, Any], _DocumentType]\", _bson_to_dict(data, opts))\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^\nbson.errors.InvalidBSON: objsize too large\n\nExecution time: a minute seconds (time limit is 9 hours).",
-            "<OMITTED>"
+            "Validation Accuracy: 0.4784\nExecution time: an hour seconds (time limit is 9 hours).",
+            "<OMITTED>",
+            "\rProcessing: 0it [00:00, ?it/s]\rProcessing: 1it [00:00,  5.54it/s]\rProcessing: 15it [00:00, 61.46it/s]\rProcessing: 23it [00:00, 43.86it/s]\rProcessing: 42it [00:00, 80.05it/s]\rProcessing: 61it [00:00, 108.73it/s]\rProcessing: 84it [00:00, 141.76it/s]\rProcessing: 106it [00:00, 162.72it/s]\rProcessing: 128it [00:01, 176.65it/s]\rProcessing: 152it [00:01, 192.57it/s]\rProcessing: 173it [00:01, 190.02it/s]\rProcessing: 195it [00:01, 195.30it/s]\rProcessing: 216it [00:01, 198.76it/s]\rProcessing: 238it [00:01, 203.87it/s]\rProcessing: 260it [00:01, 207.62it/s]\rProcessing: 281it [00:01, 201.91it/s]\rProcessing: 302it [00:01, 202.58it/s]\rProcessing: 323it [00:02, 204.04it/s]\rProcessing: 346it [00:02, 208.58it/s]\rProcessing: 368it [00:02, 210.23it/s]\rProcessing: 392it [00:02, 217.02it/s]\rProcessing: 414it [00:02, 216.37it/s]\rProcessing: 436it [00:02, 212.79it/s]\rProcessing: 462it [00:02, 223.68it/s]\rProcessing: 485it [00:02, 221.05it/s]\rProcessing: 508it [00:02, 219.19it/s]\rProcessing: 530it [00:02, 214.65it/s]\rProcessing: 552it [00:03, 212.98it/s]\rProcessing: 574it [00:03, 210.07it/s]\rProcessing: 596it [00:03, 209.78it/s]\rProcessing: 617it [00:03, 208.60it/s]\rProcessing: 638it [00:03, 208.32it/s]\rProcessing: 659it [00:03, 205.91it/s]\rProcessing: 684it [00:03, 217.08it/s]\rProcessing: 706it [00:03, 215.59it/s]\rProcessing: 728it [00:03, 214.70it/s]\rProcessing: 750it [00:04, 204.27it/s]\rProcessing: 774it [00:04, 213.31it/s]\rProcessing: 801it [00:04, 224.80it/s]\rProcessing: 825it [00:04, 227.05it/s]\rProcessing: 848it [00:04, 224.12it/s]\rProcessing: 872it [00:04, 228.31it/s]\rProcessing: 895it [00:04, 227.55it/s]\rProcessing: 919it [00:04, 230.39it/s]\rProcessing: 943it [00:04, 223.93it/s]\rProcessing: 966it [00:04, 221.25it/s]\rProcessing: 989it [00:05, 217.54it/s]\rProcessing: 1011it [00:05, 211.83it/s]\rProcessing: 1033it [00:05, 208.16it/s]\rProcessing: 1057it [00:05, 216.29it/s]\rProcessing: 1082it [00:05, 221.77it/s]\rProcessing: 1108it [00:05, 232.39it/s]\rProcessing: 1133it [00:05, 234.64it/s]\rProcessing: 1157it [00:05, 216.09it/s]\rProcessing: 1180it [00:05, 218.78it/s]\rProcessing: 1203it [00:06, 219.67it/s]\rProcessing: 1227it [00:06, 224.59it/s]\rProcessing: 1251it [00:06, 227.96it/s]\rProcessing: 1274it [00:06, 220.27it/s]\rProcessing: 1297it [00:06, 214.92it/s]\rProcessing: 1323it [00:06, 225.19it/s]\rProcessing: 1346it [00:06, 223.67it/s]\rProcessing: 1369it [00:06, 225.04it/s]\rProcessing: 1396it [00:06, 235.67it/s]\rProcessing: 1420it [00:06, 232.88it/s]\rProcessing: 1444it [00:07, 23\n ... [13312492 characters truncated] ... \n97566it [06:23, 262.03it/s]\rProcessing: 97593it [06:23, 263.75it/s]\rProcessing: 97620it [06:23, 261.59it/s]\rProcessing: 97648it [06:23, 265.05it/s]\rProcessing: 97675it [06:23, 257.19it/s]\rProcessing: 97703it [06:23, 262.06it/s]\rProcessing: 97730it [06:23, 259.39it/s]\rProcessing: 97756it [06:24, 259.25it/s]\rProcessing: 97782it [06:24, 246.73it/s]\rProcessing: 97807it [06:24, 247.16it/s]\rProcessing: 97833it [06:24, 249.04it/s]\rProcessing: 97859it [06:24, 250.99it/s]\rProcessing: 97885it [06:24, 249.92it/s]\rProcessing: 97911it [06:24, 245.11it/s]\rProcessing: 97939it [06:24, 252.99it/s]\rProcessing: 97969it [06:24, 264.79it/s]\rProcessing: 97996it [06:25, 266.15it/s]\rProcessing: 98023it [06:25, 264.24it/s]\rProcessing: 98050it [06:25, 261.50it/s]\rProcessing: 98077it [06:25, 260.67it/s]\rProcessing: 98104it [06:25, 261.77it/s]\rProcessing: 98131it [06:25, 250.07it/s]\rProcessing: 98159it [06:25, 257.51it/s]\rProcessing: 98186it [06:25, 259.89it/s]\rProcessing: 98215it [06:25, 267.78it/s]\rProcessing: 98242it [06:25, 264.31it/s]\rProcessing: 98269it [06:26, 261.55it/s]\rProcessing: 98296it [06:26, 257.59it/s]\rProcessing: 98322it [06:26, 255.51it/s]\rProcessing: 98350it [06:26, 258.49it/s]\rProcessing: 98378it [06:26, 264.30it/s]\rProcessing: 98405it [06:26, 263.54it/s]\rProcessing: 98432it [06:26, 260.23it/s]\rProcessing: 98459it [06:26, 253.18it/s]\rProcessing: 98485it [06:26, 254.18it/s]\rProcessing: 98511it [06:27, 252.32it/s]\rProcessing: 98539it [06:27, 257.96it/s]\rProcessing: 98567it [06:27, 262.80it/s]\rProcessing: 98595it [06:27, 266.90it/s]\rProcessing: 98622it [06:27, 255.02it/s]\rProcessing: 98648it [06:27, 255.34it/s]\rProcessing: 98675it [06:27, 259.45it/s]\rProcessing: 98703it [06:27, 263.19it/s]\rProcessing: 98732it [06:27, 267.39it/s]\rProcessing: 98761it [06:27, 270.77it/s]\rProcessing: 98791it [06:28, 276.32it/s]\rProcessing: 98819it [06:28, 269.03it/s]\rProcessing: 98820it [06:28, 254.59it/s]\ncode exe failed\nTraceback (most recent call last):\n  File \"/home/ma-user/modelarts/work/yujiezheng/ai-developer_R1/interpreter/interpreter_parallel.py\", line 231, in _run_session\n    exec(compile(code, self.agent_file_name[process_id], \"exec\"), global_scope)\n  File \"runfile_1.py\", line 79, in <module>\n    process_bson(\"input/test.bson\", is_train=False)\n  File \"runfile_1.py\", line 64, in process_bson\n    model(torch.stack(img_batch).to(device)).squeeze().cpu().numpy()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyboardInterrupt\nTimeoutError: Execution exceeded the time limit of 9 hours"
         ],
         "analysis": [
             null,
-            "The execution of the training script failed due to an error when decoding BSON data, specifically an 'objsize too large' error. This indicates that the BSON data being processed is larger than expected, leading to a failure in decoding. As a result, the script did not produce a submission.csv file in the required directory, and no validation metric could be calculated.",
-            "The code execution failed due to a BSON decoding error, indicating that the BSON file might be corrupted or improperly read. The error 'objsize too large' suggests that the file might not be processed correctly. As a result, the submission.csv file was not properly produced, and the model's validation accuracy could not be evaluated.",
-            "The code execution failed due to a KeyError in the DataLoader worker process. This error occurred because a product_id was not found in the offsets dictionary, which is used to seek to the correct position in the BSON file. As a result, the validation metric could not be calculated. However, the code does attempt to produce a submission file in the correct directory.",
-            "The code successfully trains an image classification model using a subset of the Cdiscount dataset. It achieves a final validation accuracy of 55.3% after two epochs, indicating moderate performance. The predictions are saved in a 'submission.csv' file in the './submission/' directory, as required.",
-            "The execution of the code failed due to a ValueError. The error occurred because the arrays being concatenated have different dimensions, which indicates a mismatch in the expected shape of the feature arrays. Additionally, the submission.csv file was not created, as the execution did not complete successfully.",
-            "The code execution failed due to an error with the BSON file processing. Specifically, an 'InvalidBSON' error was encountered during data loading, indicating a problem with reading the BSON files. As a result, the training process could not proceed, and no validation metric could be calculated. However, the code does attempt to produce a 'submission.csv' file in the './submission/' directory, but due to the failure, its correctness is uncertain.",
-            "The code successfully processes the BSON files for both training and testing data, extracts features using a pre-trained ResNet50 model, and trains a linear classifier on the extracted features. The best validation accuracy achieved during training is 57.13%. The predictions on the test data are saved in a 'submission.csv' file in the './submission/' directory, indicating that the code executed without any bugs or failures."
+            "The code execution failed due to an AttributeError in the training script. The error occurred because the code attempted to use 'autocache_mode' from torch.cuda.amp, which does not exist. The correct attribute might be 'autocast_mode'. Despite the error, the script was designed to save predictions in a 'submission.csv' file in the './submission/' directory, but due to the failure, the metric value could not be evaluated.",
+            "The code successfully trains a ResNet-50 model on a subset of the Cdiscount image classification dataset, achieving a validation accuracy of 45.25%. The execution log indicates that the process completed without any errors or bugs. The predictions on the test set are saved in the required 'submission.csv' file within the './submission/' directory, making it a valid submission. The metric used, accuracy, should be maximized.",
+            "The code successfully trains a ResNet-50 model on a subset of the Cdiscount dataset for image classification. The validation accuracy achieved is approximately 47.84%, indicating moderate performance given the complexity of the task and the limited training data used. The predictions are saved in a 'submission.csv' file in the './submission/' directory, making it suitable for submission.",
+            "The script successfully processes the training and test data, trains an EfficientNet model, and evaluates it on the validation set. It achieves a validation accuracy of 66.86%, indicating a reasonable performance given the complexity of the task. The predictions are saved in a 'submission.csv' file within the 'submission' directory, ensuring compliance with the submission requirements.",
+            "The code execution failed due to a timeout error, indicating that the process took longer than the allowed limit of 9 hours. As a result, the submission.csv file was not produced. The task involves a complex image classification problem with a large dataset, which likely contributed to the extended processing time. No validation metric is available due to the execution failure."
         ],
-        "exp_name": "cdiscount-image-classification-challenge_mcts_comp_dpr1_v7_parallel_2[cpu-36-71]_0605T0318",
+        "exp_name": "cdiscount-image-classification-challenge_mcts_comp_dpr1_v7_parallel_4[cpu-72-107]_0606T1703",
         "metrics": [
             null,
             null,
-            null,
-            null,
-            0.553,
-            null,
-            null,
-            0.5713
+            0.4525,
+            0.4784,
+            0.6686,
+            null
         ],
         "ucts": [
-            0.0,
-            0.0,
             0.0,
             0.0,
             0.0,
@@ -972,82 +760,66 @@
         "is_bug": [
             "None",
             "True",
-            "True",
-            "True",
             "False",
-            "True",
-            "True",
-            "False"
+            "False",
+            "False",
+            "True"
         ],
         "rewards": [
-            2.0,
-            0.0,
-            1.0,
-            0.0,
             1.0,
             1.0,
             0.0,
-            1.0
+            0.0,
+            1.0,
+            0.0
         ],
         "visits": [
-            2,
-            0,
-            1,
-            0,
             1,
             1,
             0,
-            1
+            0,
+            1,
+            0
         ],
         "is_debug_success": [
             "False",
-            "False",
             "True",
             "False",
             "False",
-            "True",
             "False",
             "False"
         ],
         "local_best_node_steps": [
             0,
             0,
-            0,
-            0,
+            2,
+            3,
             4,
-            0,
-            0,
-            7
+            0
         ],
         "local_best_metrics": [
             null,
             null,
-            null,
-            null,
-            0.553,
-            null,
-            null,
-            0.5713
+            0.4525,
+            0.4784,
+            0.6686,
+            null
         ],
         "stages": [
             "root",
             "draft",
             "draft",
+            "improve",
             "debug",
-            "debug",
-            "draft",
-            "debug",
-            "debug"
+            "draft"
         ],
         "continue_improve": [
             false,
-            false,
-            true,
-            false,
             true,
             true,
-            false,
-            true
+            true,
+            true,
+            false
         ]
     },
     "comp_info": {
