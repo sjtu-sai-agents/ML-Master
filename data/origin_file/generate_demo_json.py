@@ -18,6 +18,24 @@ PY_KEYWORDS = set(keyword.kwlist)
 from pygments.token import Token
 import html
 
+
+from datetime import datetime
+
+def timestamp_diff_ms(ts1: str, ts2: str) -> int:
+    # 定义时间格式
+    fmt = "%Y-%m-%d %H:%M:%S,%f"
+    
+    # 解析时间字符串为 datetime 对象
+    dt1 = datetime.strptime(ts1, fmt)
+    dt2 = datetime.strptime(ts2, fmt)
+    
+    # 计算时间差
+    delta = dt2 - dt1
+    
+    # 返回毫秒数
+    return int(delta.total_seconds() * 1000)
+
+
 # 你的自定义 token->class 对应关系
 TOKEN_CLASS_MAP = {
     Token.Comment: 'comment',
@@ -47,7 +65,7 @@ class CustomHtmlFormatter(Formatter):
                 outfile.write(value)
 
 
-json_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/ML-Master/data/origin_file/task75_log_for_run0_25-06-12T16:48:19.json"
+json_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/ML-Master/data/origin_file/task75_log_for_run2-new_25-06-22T16:09:31.json"
 demo_data_save_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/ML-Master/data/demos"
 demo_config_save_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/ML-Master/data/demo-config.json"
 raw_log_path = "/mnt/sfs_turbo/xinyuzhu/ai-developer-draw/data/mcts_log_new/final"
@@ -67,10 +85,9 @@ for task_name in json_data:
     steps = [
             {
       "text": f"<span class='prompt'>ml-master@ai4ai:~$</span> python ml_master.py --task {task_name} --time-limit 12h",
-      "delay": 200
+      "delay": 0
     },
     ]
-
     try:
         with open(log_path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
@@ -79,7 +96,8 @@ for task_name in json_data:
             if len(lines) > 2000:
                 trimmed_lines = (
                     lines[:1000]
-                    + ['[2025-05-27 09:53:59,762] INFO: ... (omitted middle part for brevity) ...\n']
+                    + [ lines[-1000].split("] ")[0] + '] INFO: ... (omitted middle part for brevity) ...\n']
+                    # + ['[2025-05-27 09:53:59,762] INFO: ... (omitted middle part for brevity) ...\n']
                     + lines[-1000:]
                 )
                 print(f"任务{task_name}日志过长，触发省略")
@@ -88,15 +106,20 @@ for task_name in json_data:
             for idx,line in enumerate(trimmed_lines):
 
                 if idx == 0:
+                    start_time = line.split("] ")[0].replace("[","")
                     line = f"<span class='info'>[INFO]</span>: Starting run \"{task_name}\""
                     log_str = log_str+line
-                    steps.append({"text":line,"delay":200})
+                    steps.append({"text":line,"delay":0})
                 else:
                     line = line.strip()  # 去除每行前后的空白符
                     if "已分配" in line or "已设置" in line or "调用失败" in line or "完整报错" in line or "Traceback (most recent call last)" in line or "ConnectionError" in line:
                         continue
                     match = pattern.match(line)
                     if match:
+                        current_time = line.split("] ")[0].replace("[","")
+                        current_delay = timestamp_diff_ms(start_time,current_time) / 1440 #缩放到30秒
+                        start_time = current_time
+
                         level, message = match.groups()
                         line = f"{level}: {message}"
                         line = f"<span class='{level.lower()}'>[{level}]</span>: {message}"
@@ -104,15 +127,25 @@ for task_name in json_data:
                         if "已分配" in line or "已设置" in line or "调用失败" in line or "完整报错" in line or "Traceback (most recent call last)" in line or "ConnectionError" in line:
                             continue
                         else:
-                            print(line)
-                            print(f"去除时间戳失败，原始报错{traceback.format_exc()}")
+                            # print(line)
+                            # print(f"去除时间戳失败，原始报错{traceback.format_exc()}")
+                            continue
 
                     log_str = log_str+line
-                    steps.append({"text":line,"delay":200})
+                    steps.append({"text":line,"delay":current_delay})
 
     except:
         print(f"处理日志{log_path}失败，原始保错:{traceback.format_exc()}")
         continue
+
+    # 把delay整体往前移一个顺位
+    for idx in range(len(steps)):
+        if idx != len(steps) -1 :
+            steps[idx]["delay"] = steps[idx+1]["delay"]
+        else:
+            pass
+
+        
 
     try:
         with open(code_path, 'r', encoding='utf-8') as f:
@@ -179,37 +212,37 @@ for task_name in json_data:
     with open(os.path.join(trajectory_data_save_path,f"{task_name}.json"),"w",encoding='utf-8') as f:
         json.dump(demo_data_with_trajectory, f, ensure_ascii=False, indent=4)
 
-    # with open(demo_config_save_path,"r",encoding='utf-8') as f:
-    #     config_data = json.load(f)
+    with open(demo_config_save_path,"r",encoding='utf-8') as f:
+        config_data = json.load(f)
     
-    # task_already_in_demo = False
-    # for idx,task_dict in enumerate(config_data["demos"]):
-    #     if task_dict["id"] == task_name:
-    #         task_already_in_demo = True
-    #         config_data["demos"][idx]["id"] = task_name
-    #         config_data["demos"][idx]["icon"] = config_data["demos"][idx]["icon"]
-    #         config_data["demos"][idx]["title"] = task_name
-    #         config_data["demos"][idx]["medal"] = medal
-    #         config_data["demos"][idx]["description"] = config_data["demos"][idx]["description"]
-    #         config_data["demos"][idx]["category"] = config_data["demos"][idx]["category"]
-    #         config_data["demos"][idx]["file"] = f"{task_name}.json"
-    #         break
+    task_already_in_demo = False
+    for idx,task_dict in enumerate(config_data["demos"]):
+        if task_dict["id"] == task_name:
+            task_already_in_demo = True
+            config_data["demos"][idx]["id"] = task_name
+            config_data["demos"][idx]["icon"] = config_data["demos"][idx]["icon"]
+            config_data["demos"][idx]["title"] = task_name
+            config_data["demos"][idx]["medal"] = medal
+            config_data["demos"][idx]["description"] = config_data["demos"][idx]["description"]
+            config_data["demos"][idx]["category"] = config_data["demos"][idx]["category"]
+            config_data["demos"][idx]["file"] = f"{task_name}.json"
+            break
 
-    # if task_already_in_demo == False:
-    #     raise ValueError(f"{task_name} not found in config")
-    #     config_data["demos"].append(
-    #         {
-    #             "id": f"{task_name}",
-    #             "icon": "",
-    #             "title": f"{task_name}",
-    #             "description": "",
-    #             "medal": medal,
-    #             "category": "others",
-    #             "file": f"{task_name}.json"
-    #         }
-    #     )
-    # with open(demo_config_save_path,"w",encoding='utf-8') as f:
-    #     json.dump(config_data, f, ensure_ascii=False, indent=4)
+    if task_already_in_demo == False:
+        raise ValueError(f"{task_name} not found in config")
+        config_data["demos"].append(
+            {
+                "id": f"{task_name}",
+                "icon": "",
+                "title": f"{task_name}",
+                "description": "",
+                "medal": medal,
+                "category": "others",
+                "file": f"{task_name}.json"
+            }
+        )
+    with open(demo_config_save_path,"w",encoding='utf-8') as f:
+        json.dump(config_data, f, ensure_ascii=False, indent=4)
 
     
 
