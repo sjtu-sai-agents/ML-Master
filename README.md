@@ -1,6 +1,7 @@
 # ML-Master: Towards AI-for-AI via Intergration of Exploration and Reasoning
 
 [![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master/)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.16975-b31b1b.svg)](https://arxiv.org/abs/2506.16499)
 
 > **Status**: 🔬 Manuscript | ⌛ Code Coming Soon
 
@@ -11,6 +12,7 @@
 ![ML-Master](./assets/ML-Master_figure.png)
 
 ## 📰 What's New
+- [2025/06/19] Release the preprint version! See the [ArXiv](https://arxiv.org/abs/2506.16499).
 - [2025/06/17] Release the initial version! See the initial manuscript [here](./assets/ML-Master_github.pdf).
 
 ## 📊 Performance Highlights
@@ -30,7 +32,7 @@ ML-Master outperforms prior baselines on the **[MLE-Bench](https://github.com/op
 
 ## 📆 Coming Soon
 - [x] Grading report release
-- [ ] Paper release of ML-Master
+- [x] Paper release of ML-Master
 - [ ] Code release of ML-Master
 
 
