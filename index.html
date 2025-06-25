@@ -3071,6 +3071,7 @@
                 this.level = level;
                 this.index = index;
                 this.children = [];
+                this.time_start = data.time_start;
                 this.timestamp = data.timestamp;
                 this.appearTime = 0;
                 this.bestNodeSince = 0;
@@ -3114,36 +3115,50 @@
                 ctx.beginPath();
                 ctx.arc(screenX, screenY, screenRadius, 0, Math.PI * 2);
                 
-                // Color based on value (green to red)
+                // Color based on value
                 const valueColor = this.hue;
                 
                 // Determine fill color based on state
                 let fillColor;
+                let valueSaturation;
                 if (this.isHighlighted) {
-                    fillColor = `hsl(${valueColor}, 80%, 70%)`;
+                    valueSaturation = viewState.animationTime < this.finishTime ? "10%" : "80%";
+                    fillColor = `hsl(${valueColor}, ${valueSaturation}, 70%)`;
                 } else if (this.isHovered) {
-                    fillColor = `hsl(${valueColor}, 90%, 65%)`;
+                    valueSaturation = viewState.animationTime < this.finishTime ? "20%" : "90%";
+                    fillColor = `hsl(${valueColor}, ${valueSaturation}, 65%)`;
                 } else {
-                    fillColor = `hsl(${valueColor}, 80%, 60%)`;
+                    valueSaturation = viewState.animationTime < this.finishTime ? "10%" : "80%";
+                    fillColor = `hsl(${valueColor}, ${valueSaturation}, 60%)`;
                 }
                 
                 ctx.fillStyle = fillColor;
                 ctx.fill();
                 
+                if (viewState.animationTime < this.finishTime) {
+                    ctx.setLineDash([20 * scale, 12 * scale]);
+                    ctx.lineDashOffset = - viewState.animationTime * 20 * scale;
+                }
                 ctx.lineWidth = (this.isHovered || this.isHighlighted) ? LINE_WIDTH_HIGHLIGHT * scale : LINE_WIDTH_STANDARD * scale;
-                ctx.strokeStyle = (this.isHovered || this.isHighlighted) ? `hsl(${valueColor}, 80%, 90%)` : `hsl(${valueColor}, 80%, 50%)`;
+                if (viewState.animationTime < this.finishTime)
+                    ctx.strokeStyle = `hsl(100%, 100%, 100%)`;
+                else
+                    ctx.strokeStyle = (this.isHovered || this.isHighlighted) ? `hsl(${valueColor}, ${valueSaturation}, 90%)` : `hsl(${valueColor}, ${valueSaturation}, 50%)`;
                 ctx.stroke();
                 ctx.restore();
+                ctx.setLineDash([]);
 
                 //// Draw <TEXT>
-                // Draw node text with high quality
                 ctx.save();
                 ctx.fillStyle = '#ffffffcc';
                 ctx.font = `bold ${Math.max(18 * scale, 18 * scale)}px sans-serif`;
                 ctx.textAlign = 'center';
                 ctx.textBaseline = 'middle';
-
-                if (typeof this.metric === 'number' && !isNaN(this.metric)) {
+                    
+                if (viewState.animationTime < this.finishTime) {
+                    ctx.fillText(`⌛️`, screenX, screenY);
+                }
+                else if (typeof this.metric === 'number' && !isNaN(this.metric)) {
                     ctx.fillText(this.metric > 1000 ?  (this.metric / (10 ** Math.floor(Math.log10(this.metric)))).toFixed(2): this.metric.toFixed(2), screenX, screenY);
                 }     
                 else
@@ -3155,11 +3170,6 @@
                     ctx.font = `${24 * scale}px Arial`;
                     ctx.fillText(`⭐`, screenX - this.radius * scale * 0.9, screenY - this.radius * scale * 0.9);
                 }
-
-                // Draw visits count below node
-                // ctx.fillStyle = '#333';
-                // ctx.font = `${Math.max(10 * scale, 10 * scale)}px Arial`;
-                // ctx.fillText(`p=${this.animationTimestamp}`, screenX, screenY + screenRadius + 15 * scale);
                 ctx.restore();
             }
 
@@ -3182,10 +3192,11 @@
 
         // Edge class
         class Edge {
-            constructor(fromNode, toNode, appearTime) {
+            constructor(fromNode, toNode, appearTime, finishTime) {
                 this.fromNode = fromNode;
                 this.toNode = toNode;
                 this.appearTime = appearTime;
+                this.finishTime = finishTime;
                 this.animationTimestamp = 0;
                 this.weight = 1;
                 this.isVisible = false;
@@ -3221,8 +3232,13 @@
                     targetX, targetY
                 );
                 ctx.lineWidth = 2 * scale;
-                ctx.strokeStyle = `rgba(240, 240, 240, ${this.isVisible ? 0.9 : 0})`;
+                if (viewState.animationTime < this.finishTime) {
+                    ctx.setLineDash([20 * scale, 12 * scale]);
+                    ctx.lineDashOffset = - viewState.animationTime * 20 * scale;
+                }
+                ctx.strokeStyle = `rgba(240, 240, 240, ${this.isVisible ? 0.9 : 0})`;   
                 ctx.stroke();
+                ctx.setLineDash([]);
             }
         }
 
@@ -3269,6 +3285,7 @@
                     stage: data.stages[i],
                     metric: data.is_bug[i] == 'False' ? data.metrics[i] : null,
                     timestamp: data.timestamps[i],
+                    time_start: data.timestamps_start[i],
                     ucts: data.ucts[i],
                     global_step: data.global_step[i],
                     plan: data.plan[i],
@@ -3288,14 +3305,16 @@
             data.edges.forEach((edgeData, idx) => {
                 const edge = new Edge(
                     nodes[edgeData[0]], nodes[edgeData[1]], 
-                    nodes[edgeData[1]].timestamp / PLAYBACK_RATE + NODE_POPOUT_INTERVAL);
-                nodes[edgeData[1]].appearTime = nodes[edgeData[1]].timestamp / PLAYBACK_RATE + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
+                    nodes[edgeData[1]].time_start / PLAYBACK_RATE + NODE_POPOUT_INTERVAL,
+                    nodes[edgeData[1]].timestamp / PLAYBACK_RATE + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL);
+                nodes[edgeData[1]].appearTime = nodes[edgeData[1]].time_start / PLAYBACK_RATE + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
+                nodes[edgeData[1]].finishTime = nodes[edgeData[1]].timestamp / PLAYBACK_RATE + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
                 nodes[edgeData[1]].name = 'Node ' + idx + ': ' + nodes[edgeData[1]].stage;
 
                 if (isSecondNodeBetter(bestNode, nodes[edgeData[1]], data.comp_info.optim)) {
-                    bestNode.bestNodeUntil = nodes[edgeData[1]].appearTime;
+                    bestNode.bestNodeUntil = nodes[edgeData[1]].finishTime;
                     bestNode = nodes[edgeData[1]];
-                    bestNode.bestNodeSince = nodes[edgeData[1]].appearTime;
+                    bestNode.bestNodeSince = nodes[edgeData[1]].finishTime;
                 }
                 edges.push(edge);
             });
@@ -3552,7 +3571,7 @@
                 edges.forEach(edge => edge.update(deltaTime, viewState.animationTime));
                 
                 // Stop animation after all nodes are visible
-                const allAnimationFinished = nodes.every(node =>(node.animationTimestamp >= 1));
+                const allAnimationFinished = nodes.every(node =>(node.finishTime < viewState.animationTime));
                 if (allAnimationFinished) {
                     viewState.isAnimating = false;
                 }
