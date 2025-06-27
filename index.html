@@ -3074,6 +3074,7 @@
                 this.time_start = data.time_start;
                 this.timestamp = data.timestamp;
                 this.appearTime = 0;
+                this.finishTime = 0;
                 this.bestNodeSince = 0;
                 this.bestNodeUntil = -1;
                 this.animationTimestamp = 0;
@@ -3269,7 +3270,7 @@
                 normalizedValue = (Math.tanh((metric - comp_info.baseline.median) / (comp_info.baseline.best - comp_info.baseline.median)) + 1) / 1.761;
             }
 
-            return 330 - 90 * normalizedValue;
+            return 300 - 60 * normalizedValue;
         }
 
         function buildTreeFromJson(data) {
@@ -3574,6 +3575,7 @@
                 const allAnimationFinished = nodes.every(node =>(node.finishTime < viewState.animationTime));
                 if (allAnimationFinished) {
                     viewState.isAnimating = false;
+                    showNodeDetails(bestNode);
                 }
             }
 
@@ -3634,9 +3636,9 @@
         }
 
         function skipAnimation() {
-            const animationEndTime = Math.max(...nodes.map(node => node.appearTime)) + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
+            const animationEndTime = Math.max(...nodes.map(node => node.finishTime)) + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
             viewState.animationTime = animationEndTime;
-            showNodeDetails(bestNode);
+            // showNodeDetails(bestNode);
         }
 
         // Event listeners
