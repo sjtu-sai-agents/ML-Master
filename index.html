@@ -127,8 +127,11 @@
 
         .hero-content {
             max-width: 1200px;
-            z-index: 1;
-            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 2rem;
+            transform: translateZ(0);
+            will-change: transform;
         }
 
         /* .hero h1 {
@@ -156,7 +159,7 @@
             line-height: 1;
             display: inline-block;
             perspective: 1200px;
-            animation: letterSpacing 20s ease-in-out infinite; /* Letter spacing animation */
+            animation: letterSpacing 20s ease-in-out infinite;  /*Letter spacing animation */
         }
 
         .hero h1 .title-text {
@@ -828,10 +831,11 @@
             border-radius: 12px;
             margin-top: 0.5rem;
             max-height: 0;
-            overflow: hidden; /* 移除 overflow-y: auto */
+            overflow: hidden !important;; 
             transition: all 0.3s ease;
             z-index: 1000;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            padding: 0
         }
 
         .dropdown-menu.show {
@@ -871,6 +875,7 @@
         .dropdown-options {
             max-height: 600px;
             overflow-y: auto; /* 只在这里保留滚动 */
+            overflow-x: hidden;
         }
 
 
