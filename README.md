@@ -36,12 +36,18 @@ ML-Master outperforms prior baselines on the **[MLE-Bench](https://github.com/op
 - [ ] Code release of ML-Master
 
 
-<!-- ![ML-Master](./assets/table2.png)
-![ML-Master](./assets/table3.png)
+## ✍️ Citation
 
-<table>
-  <tr>
-    <td><img src="./assets/radar.png" width="70%"></td>
-    <td><img src="./assets/scaling.png" width="100%"></td>
-  </tr>
-</table> -->
+If you find our work helpful, please use the following citations.
+
+```bibtex
+@misc{liu2025mlmasteraiforaiintegrationexploration,
+      title={ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning}, 
+      author={Zexi Liu and Yuzhu Cai and Xinyu Zhu and Yujie Zheng and Runkun Chen and Ying Wen and Yanfeng Wang and Weinan E and Siheng Chen},
+      year={2025},
+      eprint={2506.16499},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2506.16499}, 
+}
+```
