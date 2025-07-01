@@ -1,7 +1,7 @@
 # ML-Master: Towards AI-for-AI via Intergration of Exploration and Reasoning
 
 [![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master/)
-[![arXiv](https://img.shields.io/badge/arXiv-2505.16975-b31b1b.svg)](https://arxiv.org/abs/2506.16499)
+[![arXiv](https://img.shields.io/badge/arXiv-2506.16499-b31b1b.svg)](https://arxiv.org/abs/2506.16499)
 
 > **Status**: 🔬 Manuscript | ⌛ Code Coming Soon
 
