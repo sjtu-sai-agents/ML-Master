@@ -2,6 +2,7 @@
 
 [![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master/)
 [![arXiv](https://img.shields.io/badge/arXiv-2506.16499-b31b1b.svg)](https://arxiv.org/abs/2506.16499)
+[![WeChat](https://img.shields.io/badge/WeChat-新智元-lightgreen)](https://mp.weixin.qq.com/s/8Dn7Hvpmp59-0xDD28nQkw)
 
 > **Status**: ⌛ Code Coming Soon (expected early August)
 
