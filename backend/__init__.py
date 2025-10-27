@@ -1,5 +1,5 @@
 import logging
-from . import  backend_openai   
+from . import  backend_openai , backend_qwen 
 from .backend_utils import FunctionSpec, OutputType, PromptType, compile_prompt_to_md
 from backend.call import r1_query, gpt_query
 from utils.config_mcts import Config
@@ -9,12 +9,15 @@ logger = logging.getLogger("ml-master")
 def determine_provider(model: str) -> str:
     if model.startswith("gpt-"):
         return "openai"
+    elif "qwen" in model or "Qwen" in model or "deepseek" in model:
+        return "qwen"
     else:
         raise ValueError("please use a gpt model as a feedback model")
 
 
 provider_to_query_func = {
     "openai": backend_openai.query,
+    "qwen": backend_qwen.query
 }
 
 

@@ -20,7 +20,10 @@ def r1_query(
     )
     logger.info(f"using {llm.model_name} to generate code.")
     logger.info("---Querying model---", extra={"verbose": True})
-    logger.info(f"prompt: {prompt}", extra={"verbose": True})
+    if type(prompt) == str:
+        logger.info(f"prompt: {prompt}", extra={"verbose": True})
+    else:
+        logger.info(f"prompt: {prompt[0]["content"]}\n{prompt[1]["content"]}", extra={"verbose": True})
     model_kwargs = model_kwargs | {
         "temperature": temperature,
         "max_tokens": max_tokens
@@ -62,7 +65,10 @@ def gpt_query(
     )
     logger.info(f"using {llm.model_name} to generate code.")
     logger.info("---Querying model---", extra={"verbose": True})
-    logger.info(f"prompt: {prompt}", extra={"verbose": True})
+    if type(prompt) == str:
+        logger.info(f"prompt: {prompt}", extra={"verbose": True})
+    else:
+        logger.info(f"prompt: {prompt[0]["content"]}\n{prompt[1]["content"]}", extra={"verbose": True})
     model_kwargs = model_kwargs | {
         "temperature": temperature,
         "max_tokens": max_tokens

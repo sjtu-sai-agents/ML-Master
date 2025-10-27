@@ -29,7 +29,7 @@ def get_file_len_size(f: Path) -> tuple[int, str]:
         return s, humanize.naturalsize(s)
 
 
-def file_tree(path: Path, depth=0) -> str:
+def file_tree(path: Path, depth=0,max_dirs=20) -> str:
     """Generate a tree structure of files in a directory"""
     result = []
     files = [p for p in Path(path).iterdir() if not p.is_dir()]
@@ -40,9 +40,12 @@ def file_tree(path: Path, depth=0) -> str:
     if len(files) > max_n:
         result.append(f"{' '*depth*4}... and {len(files)-max_n} other files")
 
-    for p in sorted(dirs):
-        result.append(f"{' '*depth*4}{p.name}/")
-        result.append(file_tree(p, depth + 1))
+    for p in sorted(dirs)[:max_dirs]:
+        result.append(f"{' ' * depth * 4}{p.name}/")
+        result.append(file_tree(p, depth + 1, max_dirs))
+
+    if len(dirs) > max_dirs:
+        result.append(f"{' ' * depth * 4}... and {len(dirs) - max_dirs} other subfolders")
 
     return "\n".join(result)
 
@@ -176,3 +179,6 @@ def generate(base_path, include_file_details=True, simple=False):
         return result[:6_000] + "\n... (truncated)"
 
     return result
+
+if __name__ == "__main__":
+    print(generate("/data/xinyu/code/ML-Master/workspaces/run/nomad2018-predict-transparent-conductors_mcts_comp_validcheck_[cpu-0-71]/input"))

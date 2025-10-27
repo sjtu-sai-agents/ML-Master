@@ -85,6 +85,10 @@ class LLM:
             "temperature": temp,
             "max_tokens": tokens,
             "stream": stream,
+            "extra_body": {
+    "chat_template_kwargs": {"thinking": True},
+    "separate_reasoning": True
+},
             **kwargs
         }
         
@@ -152,6 +156,10 @@ class LLM:
             "temperature": temp,
             "max_tokens": tokens,
             "stream": stream,
+            "extra_body": {
+    "chat_template_kwargs": {"thinking": True},
+    "separate_reasoning": True
+},
             **kwargs
         }
         

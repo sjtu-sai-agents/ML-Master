@@ -121,7 +121,7 @@ class MCTSNode(Node):
                         summary_part += f"Validation Metric: {n.metric.value}\n"
                 summary.append(summary_part)
         if len(summary) == 0:
-            summary.append("The is no previous memory")
+            summary.append("There is no previous memory")
         return "\n-------------------------------\n".join(summary)
 
     def fetch_parent_memory(self, include_code=False):

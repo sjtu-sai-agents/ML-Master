@@ -13,6 +13,7 @@ run_scripts/*.json
 eval/grade/*/private/*
 evaluate/*
 grading_server.output
+run_test.sh
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
