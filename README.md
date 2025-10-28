@@ -3,6 +3,7 @@
 [![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master/)
 [![arXiv](https://img.shields.io/badge/arXiv-2506.16499-b31b1b.svg)](https://arxiv.org/abs/2506.16499)
 [![WeChat](https://img.shields.io/badge/WeChat-新智元-lightgreen)](https://mp.weixin.qq.com/s/8Dn7Hvpmp59-0xDD28nQkw)
+[![DockerHub](https://img.shields.io/badge/DockerHub-repository-blue.svg)](https://hub.docker.com/r/sjtuagents/ml-master)
 
 > **Status**: ⌛ Initial code release is now available!
 
@@ -13,6 +14,7 @@
 ![ML-Master](./assets/ML-Master_figure.png)
 
 ## 📰 What's New
+- [2025/10/29] We now provide a Docker image for environment setup! Check it out [here](https://hub.docker.com/r/sjtuagents/ml-master).
 - [2025/10/27] Add support for gpt-5.
 - [2025/08/08] Initial code release is now available on GitHub!
 - [2025/06/19] Release the preprint version! See the [ArXiv](https://arxiv.org/abs/2506.16499).
@@ -43,6 +45,25 @@ ML-Master outperforms prior baselines on the **[MLE-Bench](https://github.com/op
 
 ### 🛠️ Environment Setup
 
+#### Pull and Start Docker Container
+Please execute the following commands to pull the latest image and start an interactive container:
+
+```bash
+# Pull the latest image
+docker pull sjtuagents/ml-master:latest
+
+# Start the container
+docker run --rm --gpus all --ipc=host --shm-size=64g \
+  --runtime=nvidia --ulimit memlock=-1 --ulimit stack=67108864 \
+  -it sjtuagents/ml-master:latest /bin/bash
+
+# Clone the repository
+git clone https://github.com/sjtu-sai-agents/ML-Master.git
+cd ML-Master
+conda activate ml-master
+```
+
+#### Install ml-master
 To get started, make sure to first install the environment of **[MLE-Bench](https://github.com/openai/mle-bench)**. After that, install additional packages based on `requirements.txt`.
 
 ```bash
