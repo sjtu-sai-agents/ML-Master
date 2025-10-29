@@ -59,8 +59,6 @@ The memory of previous solutions used to solve task is provided below:
 {instructions}
 """
         if "qwen3" in self.acfg.code.model and self.acfg.steerable_reasoning== True:
-            # user_prompt = f"\n# Task description\n{prompt['Task description']}\n\n# Memory\nThe memory of previous solutions used to solve task is provided below:\n {prompt['Memory']}\n\n{instructions}"
-            # prompt_complete = f"<|im_start|>system\n{introduction}<|im_end|>\n<|im_start|>user{user_prompt}<|im_end|><|im_start|>assistant\n<think>Okay! Now, I will focus my efforts on successfully completing this current task.\nBefore completing this task, first of all, I need to analyze and understand the relevant dataset. The information of the dataset is as follows: \n{self.data_preview}"
             prompt_complete = f"""<|im_start|>system
 {introduction}<|im_end|>
 <|im_start|>user
@@ -71,8 +69,6 @@ Before completing this task, first of all, I need to analyze and understand the 
 {self.data_preview} 
 """        
         elif "deepseek" in self.acfg.code.model and self.acfg.steerable_reasoning== True:
-            # user_prompt = f"\n# Task description\n{prompt['Task description']}\n\n# Memory\nThe memory of previous solutions used to solve task is provided below:\n{prompt['Memory']}\n\n{instructions}"
-            # prompt_complete = f"<｜begin▁of▁sentence｜>\n{introduction}\n<｜User｜>{user_prompt}<｜Assistant｜><think>\nOkay! Now, I will focus my efforts on successfully completing this current task.\nBefore completing this task, first of all, I need to analyze and understand the relevant dataset. The information of the dataset is as follows: \n{self.data_preview}"
             prompt_complete = f"""<｜begin▁of▁sentence｜>
 {introduction}
 <｜User｜>{user_prompt}<｜Assistant｜><think>

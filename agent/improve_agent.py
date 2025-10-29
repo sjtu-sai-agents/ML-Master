@@ -61,8 +61,6 @@ The memory of previous solutions used to improve performance is provided below:
 {instructions}
 """
         if "qwen3" in self.acfg.code.model and self.acfg.steerable_reasoning== True:
-            # user_prompt = f"\n# Task description\n{prompt['Task description']}\n# Memory\nThe memory of previous solutions used to improve performance is provided below:\n {prompt['Memory']}\n{instructions}"
-            # prompt_complete = f"<|im_start|>system\n{introduction}<|im_end|>\n<|im_start|>user{user_prompt}<|im_end|><|im_start|>assistant\n<think>Okay! Now, I will focus my efforts on successfully completing this current task.\nBefore completing this task, first of all, I need to analyze and understand the relevant dataset. The information of the dataset is as follows: \n{self.data_preview}\nRegarding this task, I previously made attempts with the following code:\n{prompt['Previous solution']['Code']}\nThe execution of this code yielded the following results:\n{output}\nI believe that there is likely still room for optimization based on this code, and perhaps some aspects could be further refined and improved to enhance its performance."
             prompt_complete = f"""<|im_start|>system
 {introduction}<|im_end|>
 <|im_start|>user
@@ -78,8 +76,6 @@ The execution of this code yielded the following results:
 I believe that there is likely still room for optimization based on this code, and perhaps some aspects could be further refined and improved to enhance its performance.
 """
         elif "deepseek" in self.acfg.code.model and self.acfg.steerable_reasoning== True:
-            # user_prompt = f"\n# Task description\n{prompt['Task description']}\n\n# Memory\nThe memory of previous solutions used to improve performance is provided below:\n {prompt['Memory']}\n\n{instructions}"
-            # prompt_complete = f"<｜begin▁of▁sentence｜>{introduction}<｜User｜>{user_prompt}<｜Assistant｜><think>\nOkay! Now, I will focus my efforts on successfully completing this current task.\nBefore completing this task, first of all, I need to analyze and understand the relevant dataset. The information of the dataset is as follows: \n{self.data_preview}\nRegarding this task, I previously made attempts with the following code:\n{prompt['Previous solution']['Code']}\nThe execution of this code yielded the following results:\n{output}\nI believe that there is likely still room for optimization based on this code, and perhaps some aspects could be further refined and improved to enhance its performance."
             prompt_complete = f"""<｜begin▁of▁sentence｜>{introduction}
 <｜User｜>{user_prompt}<｜Assistant｜><think>
 Okay! Now, I will focus my efforts on successfully completing this current task.
@@ -92,7 +88,6 @@ The execution of this code yielded the following results:
 I believe that there is likely still room for optimization based on this code, and perhaps some aspects could be further refined and improved to enhance its performance. 
 """
         elif "gpt-5" in self.acfg.code.model or self.acfg.steerable_reasoning == False:
-            # user_prompt = f"\n# Task description\n{prompt['Task description']}\n\n# Memory\nThe memory of previous solutions used to improve performance is provided below:\n {prompt['Memory']}\n\n{instructions}"
             user_prompt = f"""
 # Task description
 {prompt['Task description']}

@@ -56,8 +56,6 @@ class DebugAgent:
 {instructions}
 """
         if "qwen3" in self.acfg.code.model and self.acfg.steerable_reasoning== True:
-            # user_prompt = f"\n# Task description\n{prompt['Task description']}\n{instructions}"
-            # prompt_complete = f"<|im_start|>system\n{introduction}<|im_end|>\n<|im_start|>user{user_prompt}<|im_end|><|im_start|>assistant\n<think>Okay! Now, I will focus my efforts on successfully completing this current task.\nBefore completing this task, first of all, I need to analyze and understand the relevant dataset. The information of the dataset is as follows: \n{self.data_preview}\nRegarding this task, I previously made an attempt with the following code:\n{prompt['Previous (buggy) implementation']}\nHowever, there are the following issues with this code:\n{prompt['Execution output']}\nI hold the view that the underlying reasons giving rise to the emergence of this issue are:\n{parent_node.analysis}\nThe previous solution had a bug and/or did not produce a submission.csv. I will try to fix the bug."
             prompt_complete = f"""<|im_start|>system
 {introduction}<|im_end|>
 <|im_start|>user
@@ -75,8 +73,6 @@ I hold the view that the underlying reasons giving rise to the emergence of this
 The previous solution had a bug and/or did not produce a submission.csv. I will try to fix the bug.
 """
         elif "deepseek" in self.acfg.code.model and self.acfg.steerable_reasoning== True:
-            # user_prompt = f"\n# Task description\n{prompt['Task description']}\n{instructions}"
-            # prompt_complete = f"<｜begin▁of▁sentence｜>{prompt['Introduction']}<｜User｜>{user_prompt}<｜Assistant｜><think>\nOkay! Now, I will focus my efforts on successfully completing this current task.\nBefore completing this task, first of all, I need to analyze and understand the relevant dataset. The information of the dataset is as follows: \n{self.data_preview}\nRegarding this task, I previously made an attempt with the following code:\n{prompt['Previous (buggy) implementation']}\nHowever, there are the following issues with this code:\n{prompt['Execution output']}\nI hold the view that the underlying reasons giving rise to the emergence of this issue are:\n{parent_node.analysis}\nThe previous solution had a bug and/or did not produce a submission.csv, or the generated submission.csv was in an incorrect format.I will try to fix the bug."
             prompt_complete = f"""<｜begin▁of▁sentence｜>
 {prompt['Introduction']}
 <｜User｜>{user_prompt}<｜Assistant｜><think>
@@ -91,7 +87,6 @@ I hold the view that the underlying reasons giving rise to the emergence of this
 The previous solution had a bug and/or did not produce a submission.csv, or the generated submission.csv was in an incorrect format.I will try to fix the bug.
 """
         elif "gpt-5" in self.acfg.code.model or self.acfg.steerable_reasoning == False:
-            # user_prompt = f"\n# Task description\n{prompt['Task description']}\n{instructions}"
             user_prompt = f"""
 # Task description
 {prompt['Task description']}

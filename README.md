@@ -6,6 +6,8 @@
 
 > **Status**: ⌛ Initial code release is now available!
 
+This branch is designed for the development and application of ML-Master. Please refer to `Development and Application` section for more details. 
+
 ## 🚀 Overview
 
 **ML-Master** is a novel AI4AI (AI-for-AI) agent that integrates exploration and reasoning into a coherent iterative methodology, facilitated by an adaptive memory mechanism that selectively captures and summarizes relevant insights and outcomes, ensuring each component mutually reinforces the other without compromising either. 
@@ -13,6 +15,8 @@
 ![ML-Master](./assets/ML-Master_figure.png)
 
 ## 📰 What's New
+- [2025/10/30] We upload a new branch `feature-dev` with improved readability and maintainability. If you need to continue developing on ML-Master or apply ML-Master to downstream tasks, please switch the branch to `feature-dev`. 
+- [2025/10/29] We now provide a Docker image for environment setup! Check it out [here](https://hub.docker.com/r/sjtuagents/ml-master).
 - [2025/10/27] Add support for gpt-5.
 - [2025/08/08] Initial code release is now available on GitHub!
 - [2025/06/19] Release the preprint version! See the [ArXiv](https://arxiv.org/abs/2506.16499).
@@ -37,7 +41,7 @@ ML-Master outperforms prior baselines on the **[MLE-Bench](https://github.com/op
 - [x] Grading report release
 - [x] Paper release of ML-Master
 - [x] Initial code release of ML-Master (expected early August)
-- [ ] Code refactoring for improved readability and maintainability
+- [x] Code refactoring for improved readability and maintainability
 
 ## 🚀 Quick Start
 
@@ -150,6 +154,27 @@ bash run.sh
 
 For evaluation details, please refer to the official **[MLE-Bench evaluation guide](https://github.com/openai/mle-bench)**.
 
+## 🛠️ Development and Application
+
+### 🧠 Coding Agents
+
+All agents are defined in the `agent` directory (e.g., `draft_agent.py`).
+You can add new agents or modify existing ones to meet your development or application requirements.
+
+### 💬 Feedback Agent
+
+The feedback agent is designed to extract information from terminal output and verify `submission.csv` files for Kaggle tasks.
+You can customize the feedback logic in `feedback_agent.py` according to your specific needs.
+
+### 🌳 MCTS Search
+
+Our implementation of `MCTSAgent` and the corresponding search policy can be found in `mcts_agent.py`.
+You may extend or modify the search strategy to suit your experimental setup.
+
+### 🧩 Interpreter
+
+For tasks involving Python code execution, we provide an interpreter that runs Python scripts and collects terminal outputs in `interpreter_parallel.py`.
+If your task requires executing code in other languages or environments, you can define a custom interpreter accordingly.
 
 ## 🙏 Acknowledgements
 
