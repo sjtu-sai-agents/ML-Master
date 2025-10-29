@@ -14,6 +14,7 @@
 ![ML-Master](./assets/ML-Master_figure.png)
 
 ## 📰 What's New
+- [2025/10/30] We upload a new branch `feature-dev` with improved readability and maintainability. If you need to continue developing on ML-Master or apply ML-Master to downstream tasks, please switch the branch to `feature-dev`. 
 - [2025/10/29] We now provide a Docker image for environment setup! Check it out [here](https://hub.docker.com/r/sjtuagents/ml-master).
 - [2025/10/27] Add support for gpt-5.
 - [2025/08/08] Initial code release is now available on GitHub!
@@ -39,7 +40,7 @@ ML-Master outperforms prior baselines on the **[MLE-Bench](https://github.com/op
 - [x] Grading report release
 - [x] Paper release of ML-Master
 - [x] Initial code release of ML-Master (expected early August)
-- [ ] Code refactoring for improved readability and maintainability
+- [x] Code refactoring for improved readability and maintainability
 
 ## 🚀 Quick Start
 
