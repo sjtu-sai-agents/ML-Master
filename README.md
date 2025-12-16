@@ -15,6 +15,7 @@
 - [2025/06/17] Release the initial version! See the initial manuscript [here](./assets/ML-Master_github.pdf).
 
 # ML-Master 2.0: Next-Generation AI-for-AI Agent
+[![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master)
 
 **ML-Master 2.0** is a next-generation AI-for-AI agent achieving breakthrough performance through deep integration of exploration and reasoning.
 
@@ -57,7 +58,7 @@
 
 # ML-Master: Towards AI-for-AI via Intergration of Exploration and Reasoning
 
-[![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master/)
+[![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master/1.0.html)
 [![arXiv](https://img.shields.io/badge/arXiv-2506.16499-b31b1b.svg)](https://arxiv.org/abs/2506.16499)
 [![WeChat](https://img.shields.io/badge/WeChat-新智元-lightgreen)](https://mp.weixin.qq.com/s/8Dn7Hvpmp59-0xDD28nQkw)
 [![DockerHub](https://img.shields.io/badge/DockerHub-repository-blue.svg)](https://hub.docker.com/r/sjtuagents/ml-master)
@@ -243,4 +244,3 @@ If you find our work helpful, please use the following citations.
       url={https://arxiv.org/abs/2506.16499}, 
 }
 ```
-
