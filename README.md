@@ -1,3 +1,52 @@
+<div align="center">
+
+![ML-Master Logo](./assets/logo.gif)
+
+</div>
+
+## 📰 What's New
+
+- [2025/12/16] 🎉 **ML-Master 2.0 reaches new heights!**  Achieving #1 on MLE-Bench Leaderboard with 56.44% overall performance (92.7% improvement over 1.0).
+- [2025/10/30] We upload a new branch `feature-dev` with improved readability and maintainability. If you need to continue developing on ML-Master or apply ML-Master to downstream tasks, please switch the branch to `feature-dev`. 
+- [2025/10/29] We now provide a Docker image for environment setup! Check it out [here](https://hub.docker.com/r/sjtuagents/ml-master).
+- [2025/10/27] Add support for gpt-5.
+- [2025/08/08] Initial code release is now available on GitHub!
+- [2025/06/19] Release the preprint version! See the [ArXiv](https://arxiv.org/abs/2506.16499).
+- [2025/06/17] Release the initial version! See the initial manuscript [here](./assets/ML-Master_github.pdf).
+
+# ML-Master 2.0: Next-Generation AI-for-AI Agent
+
+**ML-Master 2.0** is a next-generation AI-for-AI agent achieving breakthrough performance through deep integration of exploration and reasoning.
+
+
+## 📊 Performance Highlights
+
+![ML-Master 2.0 Score](./assets/ML-Master2.0_score.png)
+
+**ML-Master 2.0** achieves **#1 on [MLE-Bench](https://github.com/openai/mle-bench) Leaderboard** with massive performance gains:
+
+| Metric (%)                  | ML-Master 1.0 | ML-Master 2.0 | Relative Improvement |
+|----------------------------|---------------|---------------|---------------------|
+| 🥇 Overall (All)           | 29.33         | **56.44**     | **+92.7% ↑**       |
+| 🟢 Low Complexity          | 48.48         | **75.76**     | **+56.2% ↑**       |
+| 🟡 Medium Complexity       | 20.18         | **50.88**     | **+152.2% ↑**      |
+| 🔴 High Complexity         | 24.44         | **42.22**     | **+72.8% ↑**       |
+
+## 🙏 Acknowledgements
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://sai.sjtu.edu.cn/">
+        <img src="./assets/sai_logo.png" height="80" alt="SJTU SAI">
+      </a>
+      <br>
+      <a href="https://sai.sjtu.edu.cn/">SJTU SAI</a>
+    </td>
+  </tr>
+</table>
+
+---
+
 # ML-Master: Towards AI-for-AI via Intergration of Exploration and Reasoning
 
 [![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master/)
@@ -13,14 +62,6 @@
 
 ![ML-Master](./assets/ML-Master_figure.png)
 
-## 📰 What's New
-- [2025/10/30] We upload a new branch `feature-dev` with improved readability and maintainability. If you need to continue developing on ML-Master or apply ML-Master to downstream tasks, please switch the branch to `feature-dev`. 
-- [2025/10/29] We now provide a Docker image for environment setup! Check it out [here](https://hub.docker.com/r/sjtuagents/ml-master).
-- [2025/10/27] Add support for gpt-5.
-- [2025/08/08] Initial code release is now available on GitHub!
-- [2025/06/19] Release the preprint version! See the [ArXiv](https://arxiv.org/abs/2506.16499).
-- [2025/06/17] Release the initial version! See the initial manuscript [here](./assets/ML-Master_github.pdf).
-
 ## 📊 Performance Highlights
 
 ML-Master outperforms prior baselines on the **[MLE-Bench](https://github.com/openai/mle-bench)**:
@@ -33,10 +74,8 @@ ML-Master outperforms prior baselines on the **[MLE-Bench](https://github.com/op
 
 ![ML-Master](./assets/ML-Master_score.png)
 
-
-
-
 ## 📆 Coming Soon
+
 - [x] Grading report release
 - [x] Paper release of ML-Master
 - [x] Initial code release of ML-Master (expected early August)
