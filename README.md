@@ -6,7 +6,7 @@
 
 ## 📰 What's New
 
-- [2025/12/16] 🎉 **ML-Master 2.0 reaches new heights!**  Achieving #1 on MLE-Bench Leaderboard with 56.44% overall performance (92.7% improvement over 1.0).
+- [2025/12/16] 🎉 **ML-Master 2.0 reaches new heights!**  Achieving #1 on [MLE-Bench](https://github.com/openai/mle-bench) Leaderboard with 56.44% overall performance (92.7% improvement over 1.0).
 - [2025/10/30] We upload a new branch `feature-dev` with improved readability and maintainability. If you need to continue developing on ML-Master or apply ML-Master to downstream tasks, please switch the branch to `feature-dev`. 
 - [2025/10/29] We now provide a Docker image for environment setup! Check it out [here](https://hub.docker.com/r/sjtuagents/ml-master).
 - [2025/10/27] Add support for gpt-5.
