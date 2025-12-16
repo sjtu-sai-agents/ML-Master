@@ -1,0 +1,3923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* Background Animation */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 25%, #0a0a0a 50%, #0f1419 75%, #0a0a0a 100%);
+            animation: bgShift 15s ease-in-out infinite;
+        }
+
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(1px 1px at 20px 30px, rgba(102, 126, 234, 0.4), transparent),
+                radial-gradient(1px 1px at 40px 70px, rgba(118, 75, 162, 0.3), transparent),
+                radial-gradient(1px 1px at 90px 40px, rgba(240, 147, 251, 0.2), transparent);
+            background-repeat: repeat;
+            background-size: 150px 150px;
+            animation: stars 60s linear infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes bgShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        @keyframes stars {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-150px); }
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1rem 2rem;
+            background: rgba(10, 10, 10, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            /* font-family: 'Inter', sans-serif; */
+            font-family: 'Orbitron', 'Exo 2', sans-serif;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #667eea;
+        }
+
+        /* Main Content */
+        .main {
+            margin-top: 80px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 2rem;
+            transform: translateZ(0);
+            will-change: transform;
+        }
+
+        /* .hero h1 {
+            font-size: clamp(3rem, 8vw, 5.5rem);
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% 200%;
+            animation: gradientFlow 6s ease-in-out infinite;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+        } */
+        .hero h1 {
+            font-size: clamp(3.5rem, 10vw, 7rem);
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            font-family: 'Orbitron', 'Exo 2', sans-serif;
+            position: relative;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            line-height: 1;
+            display: inline-block;
+            perspective: 1200px;
+            animation: letterSpacing 20s ease-in-out infinite;  /*Letter spacing animation */
+        }
+
+        .hero h1 .title-text {
+            position: relative;
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #667eea 75%, #764ba2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero h1::before {
+            content: 'ML-Master';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #667eea 75%, #764ba2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400% 400%;
+            animation: gradientFlow 4s ease-in-out infinite, glitch 8s infinite;
+            z-index: 1;
+        }
+
+        .hero h1::after {
+            content: 'ML-Master';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            color: transparent;
+            background: linear-gradient(135deg, #00ffff 0%, #ff00ff 50%, #00ffff 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 0;
+            animation: glitchPulse 6s infinite;
+            transform: translateZ(20px);
+        }
+
+        .hero-title-container {
+            position: relative;
+            display: inline-block;
+            padding: 2rem 0;
+        }
+
+        .hero-title-container::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: -10%;
+            right: -10%;
+            height: 100%;
+            background: radial-gradient(ellipse at center, rgba(102, 126, 234, 0.3) 0%, transparent 70%);
+            filter: blur(40px);
+            transform: translateY(-50%);
+            animation: glow 4s ease-in-out infinite;
+            z-index: -1;
+        }
+
+        /* Glitch animation */
+        @keyframes glitch {
+            0%, 90%, 100% {
+                text-shadow: none;
+                transform: translate(0);
+            }
+            92% {
+                text-shadow: 
+                    -2px 0 #ff00ff,
+                    2px 0 #00ffff;
+                transform: translate(2px, -1px);
+            }
+            94% {
+                text-shadow: 
+                    2px 0 #ff00ff,
+                    -2px 0 #00ffff;
+                transform: translate(-2px, 1px);
+            }
+            96% {
+                text-shadow: 
+                    -1px 0 #ff00ff,
+                    1px 0 #00ffff;
+                transform: translate(1px, -1px);
+            }
+            98% {
+                text-shadow: none;
+                transform: translate(0);
+            }
+        }
+
+        /* Glitch pulse effect */
+        @keyframes glitchPulse {
+            0%, 85%, 100% {
+                opacity: 0;
+                transform: translateZ(20px) scale(1);
+            }
+            87%, 93% {
+                opacity: 1;
+                transform: translateZ(20px) scale(1.05);
+            }
+        }
+
+        /* Glow effect */
+        @keyframes glow {
+            0%, 100% {
+                opacity: 0.5;
+                transform: translateY(-50%) scale(1);
+            }
+            50% {
+                opacity: 0.8;
+                transform: translateY(-50%) scale(1.1);
+            }
+        }
+
+        /* Scanline effect */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(
+                transparent 50%,
+                rgba(102, 126, 234, 0.03) 50%
+            );
+            background-size: 100% 4px;
+            pointer-events: none;
+            animation: scanline 8s linear infinite;
+            opacity: 0.3;
+            z-index: 1;
+        }
+        
+        /* ML-Master Introduction */
+        .ml-master-intro {
+            max-width: 720px;
+            margin: 2rem auto 3rem auto;
+            padding: 1.5rem 2rem;
+            background: rgba(102, 126, 234, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 16px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            text-align: center;
+        }
+
+        .intro-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #e2e8f0;
+            margin: 0;
+        }
+
+        .intro-text strong {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-family: 'Orbitron', 'Exo 2', sans-serif;
+            font-weight: 600;
+        }
+
+        .intro-text a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            position: relative;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid rgba(102, 126, 234, 0.3);
+        }
+
+        .intro-text a:hover {
+            color: #8892f0;
+            border-bottom-color: #8892f0;
+            text-shadow: 0 0 8px rgba(102, 126, 234, 0.4);
+        }
+
+        .intro-text a::after {
+            content: '↗';
+            font-size: 0.8em;
+            margin-left: 0.2em;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        .intro-text a:hover::after {
+            opacity: 1;
+            transform: translateY(-1px);
+        }
+        
+        /* Style for ranking highlight */
+        .ranking-highlight {
+            background: linear-gradient(135deg, #ffd700 0%, #ffb347 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            position: relative;
+            display: inline-block;
+            /* animation: rankingGlow 3s ease-in-out infinite; */
+        }
+
+        .ranking-highlight::before {
+            content: '🏆';
+            margin-right: 0.3em;
+            /* filter: drop-shadow(0 0 4px rgba(255, 215, 0, 0.5)); */
+        }
+
+        /* @keyframes rankingGlow {
+            0%, 100% {
+                filter: brightness(1);
+                text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
+            }
+            50% {
+                filter: brightness(1.2);
+                text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+            }
+        } */
+
+        /* Floating tech particles */
+        .tech-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .particle {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #667eea;
+            border-radius: 50%;
+            opacity: 0;
+            animation: floatParticle 10s infinite;
+        }
+
+        @keyframes floatParticle {
+            0% {
+                transform: translateY(100vh) translateX(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) translateX(100px);
+                opacity: 0;
+            }
+        }
+
+        /* Letter spacing animation for hero title */
+        @keyframes letterSpacing {
+            0%, 100% {
+                letter-spacing: 0.1em;
+            }
+            50% {
+                letter-spacing: 0.2em;
+            }
+        }
+
+        /* Gradient orb behind title */
+        .gradient-orb {
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle at center, 
+                rgba(102, 126, 234, 0.1) 0%, 
+                rgba(118, 75, 162, 0.05) 25%, 
+                rgba(240, 147, 251, 0.02) 50%, 
+                transparent 70%);
+            filter: blur(60px);
+            animation: orbFloat 15s ease-in-out infinite;
+            z-index: -1;
+        }
+
+        @keyframes orbFloat {
+            0%, 100% {
+                transform: translate(-50%, -50%) scale(1) rotate(0deg);
+            }
+            33% {
+                transform: translate(-45%, -55%) scale(1.1) rotate(120deg);
+            }
+            66% {
+                transform: translate(-55%, -45%) scale(0.9) rotate(240deg);
+            }
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            /* font-size: 1.4em; */
+            color: #ffffff;
+            margin-bottom: 3rem;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            animation: fadeInUp 1s ease-out 0.3s both;
+            line-height: 1.5;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-bottom: 3rem;
+            animation: fadeInUp 1s ease-out 0.5s both;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+            position: relative;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 16px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            transition: all 0.3s ease;
+            width: 240px;
+        }
+
+        .stat:hover {
+            transform: translateY(-5px);
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.4);
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2);
+        }
+
+        .stat-number {
+            font-size: clamp(2.2rem, 4vw, 3rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+            margin-bottom: 0.5rem;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.02em;
+        }
+
+        .stat-label {
+            color: #a8b5d1;
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            animation: fadeInUp 1s ease-out 0.7s both;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 1.2rem 2.5rem;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 1rem;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+            width: 200px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+        }
+
+        .btn-secondary {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            border: 2px solid rgba(102, 126, 234, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+            color: #8892f0;
+            transform: translateY(-2px);
+        }
+
+        @keyframes gradientFlow {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes growBar {
+            from {
+                height: 0;
+            }
+        }
+
+        /* Features Section */
+        .features {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: clamp(2rem, 5vw, 2.8rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 4rem;
+            font-size: 1.1rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .feature-description {
+            color: #b8b8b8;
+            line-height: 1.6;
+        }
+
+        /* Performance Section */
+        .performance {
+            padding: 6rem 2rem;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .performance-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .performance-chart {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+/*         .chart-group::before {
+            content: '';
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            z-index: 1;
+        } */
+
+        .chart-bars {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            height: 300px;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .chart-bars::before {
+            content: '';
+            position: absolute;
+            bottom: 60px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            z-index: 1;
+        }
+
+        .chart-bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .bar {
+            width: 40px;
+            background: linear-gradient(to top, #667eea, #764ba2);
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            animation: growBar 2s ease-out;
+            margin-bottom: 0;
+        }
+
+        .bar::after {
+            content: attr(data-value);
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .chart-label {
+            font-size: 0.8rem;
+            color: #888;
+            text-align: center;
+            margin-top: 1rem;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Demo Section */
+        .demo {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .demo-selector {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .demo-selector h3 {
+            margin-bottom: 1rem;
+            color: #b8b8b8;
+            font-size: 1.1rem;
+        }
+
+        .demo-dropdown-container {
+            display: flex;
+            justify-content: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .demo-dropdown {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .dropdown-selected {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+        .dropdown-selected:hover {
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.3);
+        }
+
+        .dropdown-selected.active {
+            border-color: #667eea;
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .selected-text {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .dropdown-arrow {
+            color: #888;
+            transition: transform 0.3s ease;
+            font-size: 0.8rem;
+        }
+
+        .dropdown-selected.active .dropdown-arrow {
+            transform: rotate(180deg);
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #1a1a1a;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            margin-top: 0.5rem;
+            max-height: 0;
+            overflow: hidden !important;; 
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            padding: 0
+        }
+
+        .dropdown-menu.show {
+            max-height: 700px;
+            overflow: hidden; /* 保持 hidden，让内部元素处理滚动 */
+        }
+
+        .dropdown-search {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: 0;
+            background: #1a1a1a;
+            z-index: 1;
+        }
+
+        .dropdown-search input {
+            width: 100%;
+            padding: 0.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .dropdown-search input:focus {
+            border-color: #667eea;
+        }
+
+        .dropdown-search input::placeholder {
+            color: #888;
+        }
+
+        .dropdown-options {
+            max-height: 600px;
+            overflow-y: auto; /* 只在这里保留滚动 */
+            overflow-x: hidden;
+        }
+
+
+        .option-group {
+            padding: 0.5rem 0;
+        }
+
+        .group-label {
+            padding: 0.5rem 1rem;
+            color: #667eea;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            background: rgba(102, 126, 234, 0.1);
+            margin: 0.5rem 0;
+            border-left: 3px solid #667eea;
+        }
+
+        .dropdown-option {
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .dropdown-option:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-left-color: #667eea;
+        }
+
+        .dropdown-option.active {
+            background: rgba(102, 126, 234, 0.2);
+            border-left-color: #667eea;
+        }
+
+        .option-icon {
+            font-size: 1.2rem;
+            width: 24px;
+            text-align: center;
+        }
+
+        .option-content {
+            flex: 1;
+            text-align: left;
+        }
+
+        .option-title {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .option-desc {
+            color: #888;
+            font-size: 0.8rem;
+        }
+
+        .option-medal {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        .load-more {
+            padding: 1rem;
+            text-align: center;
+            color: #888;
+            font-size: 0.85rem;
+            font-style: italic;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        /* Custom scrollbar for dropdown */
+        .dropdown-options::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .dropdown-options::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .dropdown-options::-webkit-scrollbar-thumb {
+            background: rgba(102, 126, 234, 0.5);
+            border-radius: 3px;
+        }
+
+        .dropdown-options::-webkit-scrollbar-thumb:hover {
+            background: rgba(102, 126, 234, 0.7);
+        }
+
+        .demo-container {
+            /* background: #1a1a1a; */
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 3rem;
+        }
+
+        .terminal-header {
+            background: #2d2d2d;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .terminal-button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .btn-red { background: #ff5f57; }
+        .btn-yellow { background: #ffbd2e; }
+        .btn-green { background: #28ca42; }
+
+        .terminal-title {
+            margin-left: 1rem;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .terminal-content {
+            padding: 2rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            height: 500px;
+            overflow-y: auto;
+            background: #1a1a1a;
+        }
+
+        .terminal-line {
+            margin-bottom: 0.5rem;
+            opacity: 0;
+            animation: typeWriter 0.5s ease-out forwards;
+        }
+
+        .prompt {
+            color: #667eea;
+        }
+
+        .success {
+            color: #28ca42;
+        }
+
+        .warning {
+            color: #ffbd2e;
+        }
+
+        .error {
+            color: #ff5f57;
+        }
+
+        .info {
+            color: #64b5f6;
+        }
+
+        .code-section {
+            /* background: #0d1117; */
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .code-header {
+            background: #21262d;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .code-header h4 {
+            color: #58a6ff;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .copy-btn {
+            background: #238636;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: background 0.3s ease;
+        }
+
+        .copy-btn:hover {
+            background: #2ea043;
+        }
+
+        .copy-btn.copied {
+            background: #1f6feb;
+        }
+
+        .code-content {
+            padding: 2rem;
+            margin: 0;
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: #e6edf3;
+            background: #0d1117;
+            overflow-x: auto;
+            max-height: 1000px;
+            overflow-y: auto;
+        }
+
+        /* Code Syntax Highlighting */
+        .code-content .comment { color: #6e7681; }
+        .code-content .keyword { color: #ff7b72; }
+        .code-content .string { color: #a5d6ff; }
+        .code-content .number { color: #79c0ff; }
+        .code-content .function { color: #d2a8ff; }
+        .code-content .class { color: #ffa657; }
+
+        .demo-controls {
+            padding: 1rem 2rem;
+            background: #21262d;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .demo-btn {
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+
+        .demo-btn:hover {
+            background: #5a67d8;
+        }
+
+        .demo-btn:disabled {
+            background: #555;
+            cursor: not-allowed;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes growBar {
+            from {
+                height: 0;
+            }
+        }
+
+        @keyframes typeWriter {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-stats {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .ml-master-intro {
+                margin: 1.5rem 1rem 2.5rem 1rem;
+                padding: 1.2rem 1.5rem;
+            }
+            
+            .intro-text {
+                font-size: 1rem;
+            }
+
+            .intro-text a::after {
+                font-size: 0.75em;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .complexity-label {
+                font-size: 0.85rem;
+                padding: 0.3rem;
+            }
+
+            .chart-bars {
+                height: 200px;
+            }
+
+            .chart-label {
+                font-size: 0.7rem;
+            }
+
+            .demo-dropdown-container {
+                padding: 0 1rem;
+            }
+
+            .dropdown-selected {
+                padding: 0.8rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            .dropdown-menu {
+                margin-top: 0.3rem;
+            }
+
+            .dropdown-menu.show {
+                max-height: 400px;
+            }
+
+
+            .dropdown-option {
+                padding: 0.8rem 1rem;
+                gap: 0.8rem;
+            }
+
+            .option-title {
+                font-size: 0.9rem;
+            }
+
+            .option-desc {
+                font-size: 0.75rem;
+            }
+
+            .group-label {
+                padding: 0.4rem 1rem;
+                font-size: 0.8rem;
+            }
+
+            .code-header {
+                padding: 1rem;
+                flex-direction: column;
+                gap: 1rem;
+                align-items: flex-start;
+            }
+
+            .terminal-content {
+                height: 400px;
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+
+            .code-content {
+                padding: 1rem;
+                font-size: 0.75rem;
+                max-height: 500px;
+            }
+
+            .demo-controls {
+                padding: 1rem;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            .demo-btn {
+                flex: 1;
+                min-width: 100px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .complexity-label {
+                font-size: 0.8rem;
+            }
+        }
+            .dropdown-loading {
+            padding: 2rem;
+            text-align: center;
+            color: #888;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+            .loading-spinner {
+            width: 24px;
+            height: 24px;
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 0.9rem;
+            color: #b8b8b8;
+        }
+
+        .loading-progress {
+            width: 200px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+
+        .loading-progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 2px;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .dropdown-selected.loading {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+
+        .dropdown-selected.loading .dropdown-arrow {
+            display: none;
+        }
+
+        .dropdown-selected.loading::after {
+            content: '';
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 0.5rem;
+        }
+    </style>
+    <!-- Node demo -->
+    <style>
+        .controls {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .canvas-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+            /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+            background: rgba(255, 255, 255, 0.05);
+            /* border-radius: 16px; */
+            /* padding: 2rem;
+            margin: 3rem 0; */
+            /* border: 1px solid rgba(255, 255, 255, 0.1); */
+        }
+        #treeCanvas {
+            display: block;
+        }
+        .info-box {
+            position: absolute;
+            background-color: #0a0a0a;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            /* max-width: 400px; */
+            display: none;
+            z-index: 10;
+        }
+        .close-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            cursor: pointer;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .infobox-container {
+            background: #1a1a1a;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+    <style>
+
+        /* Content Layout */
+        .performance-layout {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .chart-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        /* Chart Container with Axes */
+        .chart-container {
+            position: relative;
+            padding: 40px 20px 100px 100px;
+            margin: 2rem 0;
+            height: 450px;
+        }
+
+        /* Y-Axis */
+        .y-axis {
+            position: absolute;
+            left: 20px;
+            top: 40px;
+            bottom: 100px;
+            width: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding-right: 15px;
+        }
+
+        .y-axis-label {
+            position: absolute;
+            left: -45px;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            font-size: 0.9rem;
+            color: #888;
+            white-space: nowrap;
+            font-weight: 500;
+        }
+
+        .y-tick {
+            font-size: 0.8rem;
+            color: #aaa;
+            position: relative;
+            height: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .y-tick::after {
+            content: '';
+            position: absolute;
+            right: -15px;
+            top: 0;
+            width: 8px;
+            height: 1px;
+            background: #555;
+        }
+
+        /* X-Axis */
+        .x-axis {
+            position: absolute;
+            bottom: 20px;
+            left: 100px;
+            right: 20px;
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding-top: 15px;
+        }
+
+        .x-axis-label {
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1rem;
+            color: #ccc;
+            font-weight: 600;
+        }
+
+        .x-tick {
+            font-size: 0.9rem;
+            color: #ddd;
+            text-align: center;
+            position: relative;
+            font-weight: 600;
+            flex: 1;
+            padding: 8px 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            margin: 0 4px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .x-tick:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: rgba(102, 126, 234, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .x-tick::before {
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 12px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+            border-radius: 1px;
+        }
+
+        /* Grid Lines */
+        .chart-grid {
+            position: absolute;
+            top: 40px;
+            left: 100px;
+            right: 20px;
+            bottom: 100px;
+            pointer-events: none;
+        }
+
+        .grid-line {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .grid-line:last-child {
+            background: rgba(255, 255, 255, 0.3);
+            height: 2px;
+        }
+
+        /* Main Chart Area */
+        .grouped-chart {
+            position: absolute;
+            top: 40px;
+            left: 100px;
+            right: 20px;
+            bottom: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            padding: 0 1rem;
+        }
+
+        .chart-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            max-width: 180px;
+            height: 100%;
+            position: relative;
+        }
+
+        .group-bars {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 10px;
+            height: 100%;
+            width: 100%;
+        }
+
+        .bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100%;
+            position: relative;
+            flex: 1;
+        }
+
+        .bar-item {
+            width: 100%;
+            max-width: 32px;
+            border-radius: 6px 6px 0 0;
+            position: relative;
+            animation: growBar 2s ease-out;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            min-height: 2px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .bar-item:hover {
+            transform: scaleY(1.05) scaleX(1.1);
+            filter: brightness(1.2);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 每个柱子上直接显示数值 */
+        .bar-item::before {
+            content: attr(data-value);
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: 700;
+            font-size: 0.8rem;
+            white-space: nowrap;
+            pointer-events: none;
+            z-index: 10;
+            opacity: 0.9;
+            text-shadow: 
+                1px 1px 3px rgba(0, 0, 0, 0.9),
+                -1px -1px 3px rgba(0, 0, 0, 0.9),
+                1px -1px 3px rgba(0, 0, 0, 0.9),
+                -1px 1px 3px rgba(0, 0, 0, 0.9);
+        }
+
+        .bar-item:hover::before {
+            opacity: 0;
+        }
+
+        /* 悬停时高亮显示数值标签 */
+        .bar-item::after {
+            content: attr(data-value);
+            position: absolute;
+            top: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #667eea;
+            font-weight: 700;
+            font-size: 1rem;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+            z-index: 11;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: 2px solid #667eea;
+            text-shadow: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .bar-item:hover::after {
+            opacity: 1;
+        }
+
+        .chart-legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #ddd;
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .legend-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Table Section */
+        .performance-table-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .table-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .performance-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.8rem;
+        }
+
+        .performance-table th,
+        .performance-table td {
+            padding: 0.8rem 0.5rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .performance-table th {
+            background: rgba(102, 126, 234, 0.2);
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .performance-table td {
+            color: #e2e8f0;
+            font-size: 0.75rem;
+        }
+
+        .performance-table tr:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .method-name {
+            text-align: left !important;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .method-name.ml-master {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .best-score {
+            font-weight: 700;
+            color: #4ade80;
+        }
+
+        .table-section-header {
+            background: rgba(118, 75, 162, 0.3) !important;
+            color: #f093fb !important;
+            font-weight: 700;
+        }
+
+        @keyframes growBar {
+            from {
+                height: 0;
+            }
+        }
+
+        /* Summary */
+        .performance-summary {
+            text-align: center;
+            margin-top: 2rem;
+            color: #888;
+        }
+
+        .performance-summary p {
+            margin: 0.5rem 0;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .performance-layout {
+                gap: 2rem;
+            }
+
+            .chart-container {
+                height: 350px;
+                padding: 30px 15px 80px 80px;
+            }
+
+            .y-axis {
+                left: 15px;
+                width: 60px;
+                padding-right: 10px;
+                bottom: 80px;
+            }
+
+            .y-axis-label {
+                left: -35px;
+            }
+
+            .x-axis, .chart-grid, .grouped-chart {
+                left: 80px;
+                bottom: 80px;
+            }
+
+            .x-axis {
+                height: 60px;
+            }
+
+            .bar-item {
+                max-width: 28px;
+            }
+
+            .group-bars {
+                gap: 8px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .chart-container {
+                height: 300px;
+                padding: 20px 10px 70px 60px;
+            }
+
+            .y-axis {
+                left: 10px;
+                width: 45px;
+                bottom: 70px;
+            }
+
+            .y-axis-label {
+                left: -25px;
+                font-size: 0.8rem;
+            }
+
+            .x-axis, .chart-grid, .grouped-chart {
+                left: 60px;
+                bottom: 70px;
+            }
+
+            .x-axis {
+                height: 50px;
+            }
+
+            .x-tick {
+                font-size: 0.75rem;
+                padding: 6px 8px;
+                margin: 0 2px;
+            }
+
+            .bar-item {
+                max-width: 24px;
+            }
+
+            .bar-item::before {
+                font-size: 0.7rem;
+                top: -20px;
+            }
+
+            .bar-item::after {
+                font-size: 0.8rem;
+                top: -30px;
+                padding: 4px 8px;
+            }
+
+            .chart-legend {
+                gap: 1rem;
+                font-size: 0.75rem;
+            }
+
+            .legend-item {
+                padding: 6px 12px;
+                gap: 0.5rem;
+            }
+
+            .legend-color {
+                width: 12px;
+                height: 12px;
+            }
+
+            .performance-table th,
+            .performance-table td {
+                padding: 0.6rem 0.3rem;
+                font-size: 0.7rem;
+            }
+        }
+    </style>
+    <!-- Footer -->
+    <style>
+        /* Main Content */
+        .main {
+            margin-top: 80px;
+            padding-bottom: 80px; /* Add space for fixed footer */
+        }
+
+        /* Footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 2rem;
+            z-index: 1000;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .footer-left {
+            text-align: left;
+        }
+
+        .footer-left .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-family: 'Orbitron', 'Exo 2', sans-serif;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.2rem;
+        }
+
+        .footer-tagline {
+            color: #888;
+            font-size: 0.8rem;
+            margin: 0;
+        }
+
+        .footer-center {
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #b8b8b8;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            padding: 0.5rem 0;
+        }
+
+        .footer-links a:hover {
+            color: #667eea;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .footer-contact {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.3rem;
+        }
+
+        .contact-label {
+            color: #888;
+            font-size: 0.8rem;
+        }
+
+        .footer-email {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .footer-email:hover {
+            color: #8892f0;
+            text-shadow: 0 0 8px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .footer-left,
+            .footer-right {
+                text-align: center;
+            }
+
+            .footer-links {
+                gap: 1rem;
+            }
+
+            .footer-links a {
+                font-size: 0.8rem;
+            }
+
+            .footer-contact {
+                align-items: center;
+            }
+
+            .footer-email {
+                font-size: 0.8rem;
+            }
+
+            .main {
+                padding-bottom: 120px; /* More space for mobile footer */
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">ML-Master</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#performance">Performance</a></li>
+                <li><a href="https://arxiv.org/abs/2506.16499">Paper</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="https://github.com/sjtu-sai-agents/ML-Master/">Code</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>ML-Master</h1>
+                <p class="hero-subtitle">
+                    Towards AI-for-AI via Integration of Exploration and Reasoning
+                </p>
+                <!-- ML-Master Introduction -->
+                <div class="ml-master-intro">
+                    <p class="intro-text">
+                        <strong>ML-Master</strong> is an AI-for-AI agent that seamlessly integrates exploration and reasoning by an adaptive memory mechanism to automate machine learning development, <span class="ranking-highlight">ranking #1</span> on <a href="https://github.com/openai/mle-bench">MLE-bench</a>.
+                    </p>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">29.3%</span>
+                        <span class="stat-label">Medal Rate</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2x</span>
+                        <span class="stat-label">Faster</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">93.3%</span>
+                        <span class="stat-label">Valid Submissions</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="https://arxiv.org/abs/2506.16499" class="btn btn-secondary">Read Paper</a>
+                    <a href="#demo" class="btn btn-primary">Try Demo</a>
+                    <a href="https://github.com/sjtu-sai-agents/ML-Master" class="btn btn-secondary">Get Code</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <h2 class="section-title">Revolutionary AI4AI Agent</h2>
+            <p class="section-subtitle">
+                ML-Master seamlessly integrates exploration and reasoning through adaptive memory mechanisms
+            </p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">Multi-trajectory Exploration</h3>
+                    <p class="feature-description">
+                        MCTS-inspired parallel exploration that efficiently navigates solution spaces while maintaining optimal balance between exploitation and exploration.
+                    </p>
+                </div>
+                <div class="feature-card">
+                  <div class="feature-icon">🧠</div>
+                  <h3 class="feature-title">Steerable Reasoning</h3>
+                  <p class="feature-description">
+                      Enhanced reasoning capabilities with adaptive memory integration, reducing hallucinations and improving reliability through contextual grounding.
+                  </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Adaptive Memory</h3>
+                    <p class="feature-description">
+                        Selectively captures and summarizes insights from exploration trajectories, enabling continuous learning without overwhelming the reasoning process.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Performance Section -->
+        <section class="performance" id="performance">
+            <div class="performance-content">
+                <h2 class="section-title">State-of-the-Art Performance</h2>
+                <p class="section-subtitle">
+                    ML-Master achieves superior results across all difficulty levels on MLE-bench
+                </p>
+    
+                <div class="performance-layout">
+                    <!-- Chart Section -->
+                    <div class="performance-chart">
+                        <h3 class="chart-title">Medal Rate Comparison Across Task Complexities (%)</h3>
+                        
+                        <div class="chart-container">
+                            <!-- Y-Axis -->
+                            <div class="y-axis">
+                                <div class="y-axis-label">Medal Rate (%)</div>
+                                <div class="y-tick">50</div>
+                                <div class="y-tick">40</div>
+                                <div class="y-tick">30</div>
+                                <div class="y-tick">20</div>
+                                <div class="y-tick">10</div>
+                                <div class="y-tick">0</div>
+                            </div>
+    
+                            <!-- Grid Lines -->
+                            <div class="chart-grid">
+                                <div class="grid-line" style="bottom: 100%;"></div>  <!-- 50% -->
+                                <div class="grid-line" style="bottom: 80%;"></div>   <!-- 40% -->
+                                <div class="grid-line" style="bottom: 60%;"></div>   <!-- 30% -->
+                                <div class="grid-line" style="bottom: 40%;"></div>   <!-- 20% -->
+                                <div class="grid-line" style="bottom: 20%;"></div>   <!-- 10% -->
+                                <div class="grid-line" style="bottom: 0%;"></div>    <!-- 0% -->
+                            </div>
+    
+                            <!-- Main Chart -->
+                            <div class="grouped-chart">
+                                <!-- Low Complexity Group -->
+                                <div class="chart-group">
+                                    <div class="group-bars">
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 23%; background: linear-gradient(to top, #e3f2fd, #bbdefb);" data-value="11.5"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 54.6%; background: linear-gradient(to top, #bbdefb, #90caf9);" data-value="27.3"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 68.6%; background: linear-gradient(to top, #90caf9, #64b5f6);" data-value="34.3"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 96.4%; background: linear-gradient(to top, #42a5f5, #2196f3);" data-value="48.2"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 97%; background: linear-gradient(to top, #667eea, #764ba2);" data-value="48.5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Medium Complexity Group -->
+                                <div class="chart-group">
+                                    <div class="group-bars">
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 4.4%; background: linear-gradient(to top, #e3f2fd, #bbdefb);" data-value="2.2"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 15.8%; background: linear-gradient(to top, #bbdefb, #90caf9);" data-value="7.9"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 17.6%; background: linear-gradient(to top, #90caf9, #64b5f6);" data-value="8.8"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 18%; background: linear-gradient(to top, #42a5f5, #2196f3);" data-value="9.0"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 40.4%; background: linear-gradient(to top, #667eea, #764ba2);" data-value="20.2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- High Complexity Group -->
+                                <div class="chart-group">
+                                    <div class="group-bars">
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 3.8%; background: linear-gradient(to top, #e3f2fd, #bbdefb);" data-value="1.9"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 26.6%; background: linear-gradient(to top, #bbdefb, #90caf9);" data-value="13.3"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 20%; background: linear-gradient(to top, #90caf9, #64b5f6);" data-value="10.0"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 37.4%; background: linear-gradient(to top, #42a5f5, #2196f3);" data-value="18.7"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 48.8%; background: linear-gradient(to top, #667eea, #764ba2);" data-value="24.4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Average Group -->
+                                <div class="chart-group">
+                                    <div class="group-bars">
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 10.2%; background: linear-gradient(to top, #e3f2fd, #bbdefb);" data-value="5.1"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 29.4%; background: linear-gradient(to top, #bbdefb, #90caf9);" data-value="14.7"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 33.8%; background: linear-gradient(to top, #90caf9, #64b5f6);" data-value="16.9"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 44.8%; background: linear-gradient(to top, #42a5f5, #2196f3);" data-value="22.4"></div>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar-item" style="height: 58.6%; background: linear-gradient(to top, #667eea, #764ba2);" data-value="29.3"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- X-Axis -->
+                            <div class="x-axis">
+                                <div class="x-axis-label">Task Complexity Levels</div>
+                                <div class="x-tick">Low</div>
+                                <div class="x-tick">Medium</div>
+                                <div class="x-tick">High</div>
+                                <div class="x-tick">Average</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Legend -->
+                        <div class="chart-legend">
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #e3f2fd, #bbdefb);"></div>
+                                <span>OpenHands</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #bbdefb, #90caf9);"></div>
+                                <span>AIDE-r1</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #90caf9, #64b5f6);"></div>
+                                <span>AIDE-o1-preview</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #42a5f5, #2196f3);"></div>
+                                <span>R&D-Agent</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: linear-gradient(to right, #667eea, #764ba2);"></div>
+                                <span>ML-Master</span>
+                            </div>
+                        </div>
+
+                        <div class="performance-summary">
+                            <p>✨ <strong>ML-Master excels across all complexity levels</strong></p>
+                            <p>🎯 Particularly strong in Medium (<span class="highlight">20.2</span>) and High (<span class="highlight">24.4</span>) complexity tasks</p>
+                            <p>⚡ More than doubles previous best results in medium-difficulty challenges</p>
+                        </div>
+                    </div>
+    
+                    <!-- Table Section -->
+                    <div class="performance-table-section">
+                        <h3 class="table-title">Detailed Results on MLE-Bench</h3>
+                        <table class="performance-table">
+                            <thead>
+                                <tr>
+                                    <th>Agent</th>
+                                    <th>Valid<br>Submission(%)</th>
+                                    <th>Above<br>Median(%)</th>
+                                    <th>Bronze<br>(%)</th>
+                                    <th>Silver<br>(%)</th>
+                                    <th>Gold<br>(%)</th>
+                                    <th>Any<br>Medal(%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">MLAB</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">gpt-4o-2024-08-06</td>
+                                    <td>44.3 ± 2.6</td>
+                                    <td>1.9 ± 0.7</td>
+                                    <td>0.0 ± 0.0</td>
+                                    <td>0.0 ± 0.0</td>
+                                    <td>0.8 ± 0.5</td>
+                                    <td>0.8 ± 0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">OpenHands</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">gpt-4o-2024-08-06</td>
+                                    <td>52.0 ± 3.3</td>
+                                    <td>7.1 ± 1.7</td>
+                                    <td>0.4 ± 0.4</td>
+                                    <td>1.3 ± 0.8</td>
+                                    <td>2.7 ± 1.1</td>
+                                    <td>4.4 ± 1.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">AIDE</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">gpt-4o-2024-08-06</td>
+                                    <td>54.9 ± 1.0</td>
+                                    <td>14.4 ± 0.7</td>
+                                    <td>1.6 ± 0.2</td>
+                                    <td>2.2 ± 0.3</td>
+                                    <td>5.0 ± 0.4</td>
+                                    <td>8.7 ± 0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">o1-preview</td>
+                                    <td>82.8 ± 1.1</td>
+                                    <td>29.4 ± 1.3</td>
+                                    <td>3.4 ± 0.5</td>
+                                    <td>4.1 ± 0.6</td>
+                                    <td>9.4 ± 0.8</td>
+                                    <td>16.9 ± 1.1</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">Deepseek-R1*</td>
+                                    <td>78.6 ± 0.0</td>
+                                    <td>34.6 ± 0.0</td>
+                                    <td>2.7 ± 0.0</td>
+                                    <td>4.0 ± 0.0</td>
+                                    <td>8.0 ± 0.0</td>
+                                    <td>14.7 ± 0.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">R&D-Agent</td>
+                                </tr>
+                                <tr>
+                                    <td class="method-name">o1-preview</td>
+                                    <td>86.1 ± 1.1</td>
+                                    <td>32.8 ± 1.2</td>
+                                    <td>3.5 ± 0.5</td>
+                                    <td>4.5 ± 0.5</td>
+                                    <td>14.4 ± 0.5</td>
+                                    <td>22.4 ± 0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-section-header" colspan="7">ML-Master</td>
+                                </tr>
+                                <tr style="background: rgba(102, 126, 234, 0.1);">
+                                    <td class="method-name ml-master">Deepseek-R1</td>
+                                    <td class="best-score">93.3 ± 1.3</td>
+                                    <td class="best-score">44.9 ± 1.2</td>
+                                    <td class="best-score">4.4 ± 0.9</td>
+                                    <td class="best-score">7.6 ± 0.4</td>
+                                    <td class="best-score">17.3 ± 0.8</td>
+                                    <td class="best-score">29.3 ± 0.8</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.8rem;">
+                            <p>* Single run due to resource constraints</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demo Section -->
+        <section class="demo" id="demo">
+            <h2 class="section-title">Live Demo</h2>
+            <p class="section-subtitle">
+                Watch ML-Master solve Kaggle competitions in real-time
+            </p>
+            
+            <!-- Demo Selector -->
+            <div class="demo-selector">
+                <h3>Choose a Competition:</h3>
+                <div class="demo-dropdown-container">
+                    <div class="demo-dropdown" id="demo-dropdown">
+                        <div class="dropdown-selected" onclick="toggleDropdown()">
+                            <span class="selected-text" id="selected-text">⬇️ Select a Competition</span>
+                            <span class="dropdown-arrow">▼</span>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown-menu">
+                            <div class="dropdown-options" id="dropdown-options">
+                                <div class="option-group">
+                                    <div class="group-label">🎯 Classification</div>
+                                    <div class="dropdown-option active" data-value="titanic">
+                                        <span class="option-icon">🚢</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Titanic Survival Prediction</div>
+                                            <div class="option-desc">Binary classification • 891 samples</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="digit-recognizer">
+                                        <span class="option-icon">🔢</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Digit Recognizer</div>
+                                            <div class="option-desc">Multi-class classification • 42K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="porto-seguro">
+                                        <span class="option-icon">🚗</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Porto Seguro Safe Driver</div>
+                                            <div class="option-desc">Binary classification • 595K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">📈 Regression</div>
+                                    <div class="dropdown-option" data-value="house-prices">
+                                        <span class="option-icon">🏠</span>
+                                        <div class="option-content">
+                                            <div class="option-title">House Prices Advanced Regression</div>
+                                            <div class="option-desc">Regression • 1460 samples • 79 features</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="bike-sharing">
+                                        <span class="option-icon">🚲</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Bike Sharing Demand</div>
+                                            <div class="option-desc">Time series regression • 10K samples</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="rossmann">
+                                        <span class="option-icon">🏪</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Rossmann Store Sales</div>
+                                            <div class="option-desc">Sales forecasting • 1M samples</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">🖼️ Computer Vision</div>
+                                    <div class="dropdown-option" data-value="cats-dogs">
+                                        <span class="option-icon">🐱</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Dogs vs Cats Redux</div>
+                                            <div class="option-desc">Image classification • 25K images</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="leaf-classification">
+                                        <span class="option-icon">🍃</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Leaf Classification</div>
+                                            <div class="option-desc">Multi-class • 990 leaf images</div>
+                                        </div>
+                                        <span class="option-medal">🥉</span>
+                                    </div>
+                                </div>
+                                <div class="option-group">
+                                    <div class="group-label">🔤 Natural Language</div>
+                                    <div class="dropdown-option" data-value="sentiment-analysis">
+                                        <span class="option-icon">😊</span>
+                                        <div class="option-content">
+                                            <div class="option-title">Twitter Sentiment Analysis</div>
+                                            <div class="option-desc">Text classification • 1.6M tweets</div>
+                                        </div>
+                                        <span class="option-medal">🥈</span>
+                                    </div>
+                                    <div class="dropdown-option" data-value="spam-detection">
+                                        <span class="option-icon">📧</span>
+                                        <div class="option-content">
+                                            <div class="option-title">SMS Spam Detection</div>
+                                            <div class="option-desc">Binary text classification • 5.5K messages</div>
+                                        </div>
+                                        <span class="option-medal">🥇</span>
+                                    </div>
+                                </div>
+                                <div class="load-more">
+                                    <span>+ 65 more competitions available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-container">
+                <div class="terminal-header">
+                    <div class="terminal-button btn-red"></div>
+                    <div class="terminal-button btn-yellow"></div>
+                    <div class="terminal-button btn-green"></div>
+                    <div class="terminal-title" id="demo-title">ML-Master: Titanic Survival Prediction</div>
+                </div>
+                
+                <!-- Terminal Output -->
+                <div class="terminal-content" id="terminal-output">
+                    <!-- Terminal output will be populated by JavaScript -->
+                </div>
+                
+                <!-- Generated Code Section -->
+                <div class="code-section" id="code-section">
+                    <div class="demo-controls">
+                        <button class="demo-btn" onclick="startDemo()" id="start-btn" disabled>Start Demo</button>
+                        <button class="demo-btn" onclick="resetDemo()" id="reset-btn" disabled>Reset</button>
+                        <button class="demo-btn" onclick="skipToEnd()" id="skip-btn" disabled>Skip to Results</button>
+                    </div>
+                    <div class="container">
+                        <div class="canvas-container">
+                            <canvas id="treeCanvas"></canvas>
+                            <div id="infoBox" class="infobox-container info-box">
+                                <span class="close-btn" id="closeBtn">×</span>
+                                <div id="nodeTitle" class="terminal-header">Node Info</div>
+                                <div style="height: 95%;">
+                                    <div class="terminal-content" style="height: 40%;">
+                                        <div id="nodeContent"></div>
+                                    </div>
+                                    <div class="code-section" style="height: 60%;">
+                                        <pre class="code-content" style="height: 100%;"><code id="nodeContentCode" class="language-python" style="height: 100%; overflow-y: auto;"></code></pre>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MCTS Section -->
+        <section class="demo" id="mcts">
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo">ML-Master</div>
+                <p class="footer-tagline">Advancing AI-for-AI Research</p>
+            </div>
+            <div class="footer-center">
+                <div class="footer-links">
+                    <a href="https://arxiv.org/abs/2506.16499">Paper</a>
+                    <a href="#demo">Demo</a>
+                    <a href="https://github.com/sjtu-sai-agents/ML-Master">Code</a>
+                    <a href="https://github.com/openai/mle-bench">MLE-Bench</a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-contact">
+                    <span class="contact-label">Contact:</span>
+                    <a href="mailto:sjtu.sai.agents@gmail.com" class="footer-email">
+                        sjtu.sai.agents@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        
+        // Demo data structure
+        let demoRunning = false;
+        let currentStep = 0;
+        let currentDemo = null;
+        let demoData = {};
+        let demoConfig = {};
+        let isLoading = true;
+        let loadingProgress = 0;
+        
+        // Load demo data from external files
+        // Load demo data from external files
+                // Load demo data from external files
+        
+        async function loadSingleDemoData(demoMetadata) {
+            console.log(`loading single demo data from ${demoMetadata.id}`);
+            try {
+                // Load demo data
+                const response = await fetch(`./data/demos_with_trajectory/${demoMetadata.file}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    demoData[demoMetadata.id] = data;
+                } 
+                else {
+                    console.warn(`Failed to load demo: ${demoMetadata.id}`);
+                }
+            } catch (error) {
+                console.error('Failed to load demo configuration:', error);
+                showLoadingError();
+                // Fallback to hardcoded data if external files fail
+                initializeFallbackData();
+            }
+            console.log(`loading single demo data from ${demoMetadata.id} COMPLETE`);
+        }
+        async function loadDemoData() {
+            try {
+                // Show initial loading state
+                showLoadingState();
+                
+                // Load demo configuration
+                updateLoadingProgress(10, 'Loading configuration...');
+                const configResponse = await fetch('./data/demo-config.json');
+                demoConfig = await configResponse.json();
+                
+                updateLoadingProgress(30, 'Configuration loaded');
+                
+                // Initialize dropdown with loading placeholder
+                initializeLoadingDropdown();
+                
+                // Load demo data for available demos
+                const totalDemos = demoConfig.demos.length;
+                let loadedCount = 0;
+                
+                const demoPromises = demoConfig.demos.map(async (demo, index) => {
+                    try {
+                        const response = await fetch(`./data/demos/${demo.file}`);
+                        if (response.ok) {
+                            // const data = await response.json();
+                            // demoData[demo.id] = data;
+                            demoData[demo.id] = 'placeholder';
+                        }
+                        loadedCount++;
+                        const progress = 30 + (loadedCount / totalDemos) * 60;
+                        updateLoadingProgress(progress, `Loading demos... (${loadedCount}/${totalDemos})`);
+                    } catch (error) {
+                        console.warn(`Failed to load demo data for ${demo.id}:`, error);
+                        loadedCount++;
+                        const progress = 30 + (loadedCount / totalDemos) * 60;
+                        updateLoadingProgress(progress, `Loading demos... (${loadedCount}/${totalDemos})`);
+                    }
+                });
+                
+                await Promise.all(demoPromises);
+                
+                // Finalize loading
+                updateLoadingProgress(95, 'Finalizing...');
+                await new Promise(resolve => setTimeout(resolve, 300)); // Small delay for smooth UX
+                
+                // Initialize dropdown with loaded data
+                initializeDropdown();
+                
+                updateLoadingProgress(100, 'Ready!');
+                await new Promise(resolve => setTimeout(resolve, 500));
+                
+                hideLoadingState();
+                
+            } catch (error) {
+                console.error('Failed to load demo configuration:', error);
+                showLoadingError();
+                // Fallback to hardcoded data if external files fail
+                initializeFallbackData();
+            }
+        }
+
+        function showLoadingState() {
+            isLoading = true;
+            const dropdownSelected = document.querySelector('.dropdown-selected');
+            dropdownSelected.classList.add('loading');
+            
+            // Update selected text to show loading
+            document.getElementById('selected-text').textContent = 'Loading competitions...';
+        }
+
+        function hideLoadingState() {
+            isLoading = false;
+            const dropdownSelected = document.querySelector('.dropdown-selected');
+            dropdownSelected.classList.remove('loading');
+        }
+
+        function updateLoadingProgress(progress, message) {
+            loadingProgress = progress;
+            
+            // Update progress bar if dropdown is open
+            const progressBar = document.querySelector('.loading-progress-bar');
+            const loadingText = document.querySelector('.loading-text');
+            
+            if (progressBar) {
+                progressBar.style.width = `${progress}%`;
+            }
+            if (loadingText) {
+                loadingText.textContent = message;
+            }
+        }
+
+        function showLoadingError() {
+            const dropdownOptions = document.getElementById('dropdown-options');
+            dropdownOptions.innerHTML = `
+                <div class="dropdown-loading">
+                    <div style="color: #ff5f57; font-size: 1.2rem;">⚠️</div>
+                    <div class="loading-text" style="color: #ff5f57;">Failed to load competitions</div>
+                    <div class="loading-text" style="font-size: 0.8rem;">Please check your connection and try again</div>
+                    <button onclick="location.reload()" style="
+                        margin-top: 1rem;
+                        padding: 0.5rem 1rem;
+                        background: #667eea;
+                        color: white;
+                        border: none;
+                        border-radius: 6px;
+                        cursor: pointer;
+                    ">Retry</button>
+                </div>
+            `;
+            hideLoadingState();
+        }
+
+        function initializeLoadingDropdown() {
+            const dropdownOptions = document.getElementById('dropdown-options');
+            
+            // Show loading state in dropdown
+            dropdownOptions.innerHTML = `
+                <div class="dropdown-search">
+                    <input type="text" placeholder="Loading..." id="search-input" disabled>
+                </div>
+                <div class="dropdown-loading">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">Loading competitions...</div>
+                    <div class="loading-progress">
+                        <div class="loading-progress-bar"></div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // NEW: Initialize dropdown with data from config file
+                // Initialize dropdown with data from config file
+        function initializeDropdown() {
+            if (!demoConfig.demos || !demoConfig.categories) {
+                console.warn('Demo config not loaded properly');
+                showLoadingError();
+                return;
+            }
+
+            const dropdownOptions = document.getElementById('dropdown-options');
+            
+            // Create dropdown with search
+            const searchDiv = document.createElement('div');
+            searchDiv.className = 'dropdown-search';
+            searchDiv.innerHTML = '<input type="text" placeholder="Search competitions..." id="search-input" onkeyup="filterOptions()">';
+
+            // Group demos by category
+            const groupedDemos = {};
+            demoConfig.demos.forEach(demo => {
+                if (!groupedDemos[demo.category]) {
+                    groupedDemos[demo.category] = [];
+                }
+                groupedDemos[demo.category].push(demo);
+            });
+
+            // Sort categories by order
+            const sortedCategories = Object.keys(groupedDemos).sort((a, b) => {
+                const orderA = demoConfig.categories[a]?.order || 999;
+                const orderB = demoConfig.categories[b]?.order || 999;
+                return orderA - orderB;
+            });
+
+            // Create options container
+            const optionsContainer = document.createElement('div');
+            optionsContainer.className = 'dropdown-options';
+            optionsContainer.id = 'dropdown-options-inner';
+
+            sortedCategories.forEach(categoryKey => {
+                const category = demoConfig.categories[categoryKey];
+                const demos = groupedDemos[categoryKey];
+                
+                if (!category || demos.length === 0) return;
+
+                // Create option group
+                const optionGroup = document.createElement('div');
+                optionGroup.className = 'option-group';
+
+                // Group label
+                const groupLabel = document.createElement('div');
+                groupLabel.className = 'group-label';
+                groupLabel.textContent = category.name;
+                optionGroup.appendChild(groupLabel);
+
+                // Add demos to group
+                demos.forEach(demo => {
+                    const option = document.createElement('div');
+                    option.className = 'dropdown-option';
+                    option.setAttribute('data-value', demo.id);
+                    
+                    // Set first demo as active if none selected
+                    if (currentDemo === demo.id) {
+                        option.classList.add('active');
+                    }
+                    
+                    option.innerHTML = `
+                        <span class="option-icon">${demo.icon}</span>
+                        <div class="option-content">
+                            <div class="option-title">${demo.title}</div>
+                            <div class="option-desc">${demo.description}</div>
+                        </div>
+                        <span class="option-medal">${demo.medal}</span>
+                    `;
+                    
+                    // Add click handler
+                    option.addEventListener('click', function() {
+                        selectDemo(demo.id);
+                    });
+                    
+                    optionGroup.appendChild(option);
+                });
+
+                optionsContainer.appendChild(optionGroup);
+            });
+
+            // Add "load more" if there are additional demos
+            const totalDemos = demoConfig.demos.length;
+            const loadedDemos = Object.keys(demoData).length;
+            if (totalDemos > loadedDemos) {
+                const loadMore = document.createElement('div');
+                loadMore.className = 'load-more';
+                loadMore.innerHTML = `<span>+ ${totalDemos - loadedDemos} more competitions available</span>`;
+                optionsContainer.appendChild(loadMore);
+            }
+
+            // Replace the dropdown options
+            dropdownOptions.innerHTML = '';
+            dropdownOptions.appendChild(searchDiv);
+            dropdownOptions.appendChild(optionsContainer);
+
+            // Update the options container ID for filtering
+            optionsContainer.id = 'dropdown-options';
+
+            // Set initial demo and update UI
+            if (demoConfig.demos.length > 0) {
+                const firstDemo = demoConfig.demos[0];
+                currentDemo = firstDemo.id;
+                
+                // Update selected text
+                document.getElementById('selected-text').textContent = `🔽 Select a Competition`;
+                // document.getElementById('demo-title').textContent = `ML-Master: ${firstDemo.title}`;
+            }
+        }
+
+        function selectDemo(demoName) {
+            if (demoRunning || !demoData[demoName]) {
+                // If demo data is not loaded, show message
+                if (!demoData[demoName]) {
+                    const demo = demoConfig.demos.find(d => d.id === demoName);
+                    if (demo) {
+                        alert(`Demo "${demo.title}" is coming soon!`);
+                    }
+                    closeDropdown();
+                }
+                return;
+            }
+            
+            currentDemo = null;
+            const demo = demoConfig.demos.find(d => d.id === demoName);
+            document.getElementById('start-btn').disabled = true;
+            document.getElementById('start-btn').innerHTML = `Loading Demo...`
+            loadSingleDemoData(demo).then((results) => {
+                currentDemo = demoName;
+                document.getElementById('start-btn').disabled = false;
+                document.getElementById('start-btn').innerHTML = `Start Demo`
+            });
+            
+            
+            // Update selected option
+            document.querySelectorAll('.dropdown-option').forEach(option => {
+                option.classList.remove('active');
+            });
+            
+            const selectedOption = document.querySelector(`[data-value="${demoName}"]`);
+            if (selectedOption) {
+                selectedOption.classList.add('active');
+                
+                // Update selected text
+                const icon = selectedOption.querySelector('.option-icon').textContent;
+                const title = selectedOption.querySelector('.option-title').textContent;
+                document.getElementById('selected-text').textContent = `${icon} ${title}`;
+                
+                // Update demo title
+                document.getElementById('demo-title').textContent = `ML-Master: ${title}`;
+            }
+            
+            // Close dropdown
+            closeDropdown();
+            
+            // Reset demo
+            resetDemo();
+        }
+
+        function initializeFallbackData() {
+            // Use fallback data when external files are not available
+            console.warn('Using fallback mode - external config failed to load');
+            demoData = { ...fallbackDemos };
+            console.log('Using fallback demo data');
+        }
+
+        function toggleDropdown() {
+            const dropdown = document.getElementById('dropdown-menu');
+            const selected = document.querySelector('.dropdown-selected');
+            
+            // Prevent opening if still loading
+            if (isLoading) {
+                return;
+            }
+            
+            if (dropdown.classList.contains('show')) {
+                closeDropdown();
+            } else {
+                dropdown.classList.add('show');
+                selected.classList.add('active');
+                // Focus search input only if not disabled
+                setTimeout(() => {
+                    const searchInput = document.getElementById('search-input');
+                    if (searchInput && !searchInput.disabled) {
+                        searchInput.focus();
+                    }
+                }, 100);
+            }
+        }
+
+        function closeDropdown() {
+            const dropdown = document.getElementById('dropdown-menu');
+            const selected = document.querySelector('.dropdown-selected');
+            dropdown.classList.remove('show');
+            selected.classList.remove('active');
+            
+            // Clear search
+            document.getElementById('search-input').value = '';
+            filterOptions();
+        }
+
+        function filterOptions() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const options = document.querySelectorAll('.dropdown-option');
+            const groups = document.querySelectorAll('.option-group');
+            
+            options.forEach(option => {
+                const title = option.querySelector('.option-title').textContent.toLowerCase();
+                const desc = option.querySelector('.option-desc').textContent.toLowerCase();
+                const matches = title.includes(searchTerm) || desc.includes(searchTerm);
+                
+                option.style.display = matches ? 'flex' : 'none';
+            });
+            
+            // Hide groups that have no visible options
+            groups.forEach(group => {
+                const visibleOptions = group.querySelectorAll('.dropdown-option[style="display: flex"], .dropdown-option:not([style*="none"])');
+                group.style.display = visibleOptions.length > 0 ? 'block' : 'none';
+            });
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('demo-dropdown');
+            if (!dropdown.contains(event.target)) {
+                closeDropdown();
+            }
+        });
+
+        // Add click handlers for dropdown options
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.dropdown-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    const demoName = this.getAttribute('data-value');
+                    if (demoData[demoName]) {
+                        selectDemo(demoName);
+                    } else {
+                        // For demos we haven't implemented yet
+                        alert(`Demo "${this.querySelector('.option-title').textContent}" is coming soon!`);
+                        closeDropdown();
+                    }
+                });
+            });
+        });
+
+        function addTerminalLine(text, isLast = false) {
+            const terminal = document.getElementById('terminal-output');
+            const line = document.createElement('div');
+            line.className = 'terminal-line';
+            line.innerHTML = text;
+            line.style.animationDelay = '0s';
+            terminal.appendChild(line);
+            
+            if (!isLast) {
+                terminal.scrollTop = terminal.scrollHeight;
+            }
+        }
+
+        function showGeneratedCode() {
+            const codeSection = document.getElementById('code-section');
+            // const codeContent = document.getElementById('code-content');
+            
+            // codeContent.innerHTML = demos[currentDemo].code;
+            // codeSection.style.display = 'block';
+            
+            // Scroll to code section
+            setTimeout(() => {
+                codeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 500);
+        }
+
+        function startDemo() {
+            if (demoRunning) return;
+            
+            demoRunning = true;
+            currentStep = 0;
+            document.getElementById('start-btn').disabled = true;
+            document.getElementById('reset-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = false;
+            
+            runDemoStep();
+        }
+
+        function runDemoStep() {
+        const steps = demoData[currentDemo].steps;
+        
+        if (currentStep >= steps.length) {
+            demoRunning = false;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            showGeneratedCode();
+            return;
+        }
+
+        const step = steps[currentStep];
+        addTerminalLine(step.text, currentStep === steps.length - 1);
+        
+        currentStep++;
+        
+        if (demoRunning && currentStep < steps.length) {
+            setTimeout(runDemoStep, step.delay);
+        } else if (currentStep >= steps.length) {
+            demoRunning = false;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            showGeneratedCode();
+        }
+    }
+
+        function skipToEnd() {
+            demoRunning = false;
+            const terminal = document.getElementById('terminal-output');
+            const steps = demoData[currentDemo].steps;
+            
+            // 清空终端内容，避免重复添加
+            terminal.innerHTML = '';
+            
+            // 添加所有步骤，但不重复当前已有的步骤
+            steps.forEach((step, index) => {
+                const line = document.createElement('div');
+                line.className = 'terminal-line';
+                line.innerHTML = step.text;
+                line.style.opacity = '1';
+                terminal.appendChild(line);
+            });
+            
+            // 设置当前步骤为最后一步，避免后续重复添加
+            currentStep = steps.length;
+            
+            terminal.scrollTop = terminal.scrollHeight;
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('skip-btn').disabled = true;
+            
+            showGeneratedCode();
+        }
+
+        function resetDemo() {
+            demoRunning = false;
+            currentStep = 0;
+            document.getElementById('terminal-output').innerHTML = '';
+            // document.getElementById('code-section').style.display = 'none';
+            // document.getElementById('start-btn').disabled = false;
+            document.getElementById('reset-btn').disabled = true;
+            document.getElementById('skip-btn').disabled = true;
+        }
+
+
+        function copyCode() {
+            const codeContent = document.getElementById('code-content');
+            const textContent = codeContent.textContent;
+            
+            navigator.clipboard.writeText(textContent).then(() => {
+                const copyBtn = document.getElementById('copy-btn');
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = '✅ Copied!';
+                copyBtn.classList.add('copied');
+                
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                    copyBtn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 1s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.addEventListener('DOMContentLoaded', () => {
+            loadDemoData();
+            document.querySelectorAll('.feature-card, .performance-chart').forEach(el => {
+                observer.observe(el);
+            });
+        });
+
+        
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+    <script>
+        /*  MCTS VISUALIZER  */
+        // Read data
+        const treeData = treeStructData = {"edges": [[0, 1], [1, 2], [2, 4], [2, 3], [4, 5], [5, 6], [6, 7]], "layout": [[0.5, 0.0], [0.5, 0.16666666666666663], [0.5, 0.33333333333333337], [0.0, 0.5], [1.0, 0.5], [1.0, 0.6666666666666667], [1.0, 0.8333333333333334], [1.0, 1.0]], "plan": ["Plan 0", "Plan 1", "Plan 2", "Plan 3", "Plan 4", "Plan 5", "Plan 6", "Plan 7"], "code": ["# code 0\nimport os\nimport numpy as np\nimport pandas as pd\nimport torch\nfrom torch import nn\nclass foo:\n  def __init__(self):\n    return\n\ndef a(x):\n  return x + 1\n\nif __name__ == '__main__':\n  for i in range(10):\n    y = a(i) + a(i + 1)\n    print(y)\n", "# code 1", "# code 2", "# code 3", "# code 4", "# code 5", "# code 6", "# code 7"], "term_out": ["<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>", "<OMITTED>"], "exp_name": "whale-categorization-playground_4", "metrics": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]};
+
+        // Define animation constants
+        const NODE_POPOUT_INTERVAL = 1.0;
+        const LINE_POPOUT_INTERVAL = 0.2;
+        const DEFAULT_SCALE = 0.4;
+        const SCALE_MIN = 0.25;
+        const SCALE_MAX = 1.5;
+        const LINE_WIDTH_HIGHLIGHT = 5;
+        const LINE_WIDTH_STANDARD = 0;
+        const PLAYBACK_RATE = 1440;
+
+        // Canvas setup
+        const canvas = document.getElementById('treeCanvas');
+        const ctx = canvas.getContext('2d');
+        const infoBox = document.getElementById('infoBox');
+        const nodeTitle = document.getElementById('nodeTitle');
+        const nodeContent = document.getElementById('nodeContent');
+        const nodeContentCode = document.getElementById('nodeContentCode');
+        const closeBtn = document.getElementById('closeBtn');
+        const canvasContainer = document.querySelector('.canvas-container');
+
+        let bestNode = null;
+
+        // Animation helper functions
+        const quadp = (x) => 1 - (1 - Math.min(x, 1.0)) ** 4;
+        const lerp = (x0, x1, r) => x1 * r + x0 * (1 - r);
+
+        // Set canvas size with device pixel ratio consideration
+        function setupCanvas() {
+            const dpr = window.devicePixelRatio || 1;
+            const rect = canvasContainer.getBoundingClientRect();
+            
+            // Set display size
+            canvas.style.width = rect.width + 'px';
+            canvas.style.height = rect.height + 'px';
+            
+            // Set actual size in memory (scaled for high DPI displays)
+            canvas.width = rect.width * dpr;
+            canvas.height = rect.height * dpr;
+            
+            // Scale the context to ensure correct drawing operations
+            ctx.scale(dpr, dpr);
+        }
+
+        // Initial setup
+        setupCanvas();
+        window.addEventListener('resize', setupCanvas);
+
+        // View state
+        let viewState = {
+            offsetX: canvas.width,
+            offsetY: 100,
+            stretchX: 1,
+            stretchY: 1,
+            scale: 1,
+            targetScale: 1,
+            scaleMouseX : 0,
+            scaleMouseY : 0,
+            scaleWorldX : 0,
+            scaleWorldY : 0,
+            isDragging: false,
+            lastX: 0,
+            lastY: 0,
+            animationTime: 0,
+            isAnimating: false,
+            detailMode: false,
+            detailNode: null,
+            hoveredNode: null,
+            isClick: false,
+            dpr: window.devicePixelRatio || 1
+        };
+
+        // Tree data
+        let nodes = [];
+        let edges = [];
+        let nodeMap = {};
+
+        // Node class
+        class TreeNode {
+            constructor(data, x, y, parent = null, level = 0, index = 0) {
+                this.id = data.id;
+                this.name = data.name;
+                this.metric = data.metric;
+                this.hue = data.hue;
+                this.plan = data.plan;
+                this.code = data.code;
+                this.stage = data.stage;
+                this.global_step = data.global_step;
+                this.analysis = data.analysis;
+                this.ucts = data.ucts;
+                this.is_bug = data.is_bug;
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.radius = 30;
+                this.parent = parent;
+                this.level = level;
+                this.index = index;
+                this.children = [];
+                this.time_start = data.time_start;
+                this.timestamp = data.timestamp;
+                this.appearTime = 0;
+                this.finishTime = 0;
+                this.bestNodeSince = 0;
+                this.bestNodeUntil = -1;
+                this.animationTimestamp = 0;
+                this.isVisible = false;
+                this.isHighlighted = false;
+                this.isHovered = false;
+            }
+
+            update(deltaTime, animationTime) {
+                // Update visibility based on animation time
+                this.isVisible = animationTime >= this.appearTime;
+                
+                // Smooth movement to target position
+                if (this.isVisible) {
+                    const speed = 0.1;
+                    this.x += (this.targetX - this.x) * speed;
+                    this.y += (this.targetY - this.y) * speed;
+                }
+            }
+
+            render(ctx, viewState) {
+                if (!this.isVisible) return;
+
+                const scale = viewState.scale;
+                const offsetX = viewState.offsetX;
+                const offsetY = viewState.offsetY;
+
+                // Calculate screen position
+                const screenX = this.x * scale + offsetX;
+                const screenY = this.y * scale + offsetY;
+                // const screenRadius = this.radius * scale;
+
+                //// Draw <NODE>
+                this.animationTimestamp = quadp((viewState.animationTime - this.appearTime) / NODE_POPOUT_INTERVAL,);
+                const screenRadius = this.radius * scale * (0.75 + 0.25 * (3 * this.animationTimestamp - 2 * this.animationTimestamp ** 2));
+
+                // Draw node with high-quality rendering
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(screenX, screenY, screenRadius, 0, Math.PI * 2);
+                
+                // Color based on value
+                const valueColor = this.hue;
+                
+                // Determine fill color based on state
+                let fillColor;
+                let valueSaturation;
+                if (this.isHighlighted) {
+                    valueSaturation = viewState.animationTime < this.finishTime ? "10%" : "80%";
+                    fillColor = `hsl(${valueColor}, ${valueSaturation}, 70%)`;
+                } else if (this.isHovered) {
+                    valueSaturation = viewState.animationTime < this.finishTime ? "20%" : "90%";
+                    fillColor = `hsl(${valueColor}, ${valueSaturation}, 65%)`;
+                } else {
+                    valueSaturation = viewState.animationTime < this.finishTime ? "10%" : "80%";
+                    fillColor = `hsl(${valueColor}, ${valueSaturation}, 60%)`;
+                }
+                
+                ctx.fillStyle = fillColor;
+                ctx.fill();
+                
+                if (viewState.animationTime < this.finishTime) {
+                    ctx.setLineDash([20 * scale, 12 * scale]);
+                    ctx.lineDashOffset = - viewState.animationTime * 20 * scale;
+                }
+                ctx.lineWidth = (this.isHovered || this.isHighlighted) ? LINE_WIDTH_HIGHLIGHT * scale : LINE_WIDTH_STANDARD * scale;
+                if (viewState.animationTime < this.finishTime)
+                    ctx.strokeStyle = `hsl(100%, 100%, 100%)`;
+                else
+                    ctx.strokeStyle = (this.isHovered || this.isHighlighted) ? `hsl(${valueColor}, ${valueSaturation}, 90%)` : `hsl(${valueColor}, ${valueSaturation}, 50%)`;
+                ctx.stroke();
+                ctx.restore();
+                ctx.setLineDash([]);
+
+                //// Draw <TEXT>
+                ctx.save();
+                ctx.fillStyle = '#ffffffcc';
+                ctx.font = `bold ${Math.max(18 * scale, 18 * scale)}px sans-serif`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                    
+                if (viewState.animationTime < this.finishTime) {
+                    ctx.fillText(`⌛️`, screenX, screenY);
+                }
+                else if (typeof this.metric === 'number' && !isNaN(this.metric)) {
+                    ctx.fillText(this.metric > 1000 ?  (this.metric / (10 ** Math.floor(Math.log10(this.metric)))).toFixed(2): this.metric.toFixed(2), screenX, screenY);
+                }     
+                else
+                    ctx.fillText("N/A", screenX, screenY);
+
+                // Draw Best Node
+                if (this.bestNodeSince <= viewState.animationTime && viewState.animationTime < this.bestNodeUntil ) {
+                    ctx.fillStyle = '#fff';
+                    ctx.font = `${24 * scale}px Arial`;
+                    ctx.fillText(`⭐`, screenX - this.radius * scale * 0.9, screenY - this.radius * scale * 0.9);
+                }
+                ctx.restore();
+            }
+
+            containsPoint(x, y, viewState) {
+                if (!this.isVisible) return false;
+                
+                const scale = viewState.scale;
+                const offsetX = viewState.offsetX;
+                const offsetY = viewState.offsetY;
+
+                const screenX = this.x * scale + offsetX;
+                const screenY = this.y * scale + offsetY;
+                const screenRadius = this.radius * scale;
+
+                const dx = x - screenX;
+                const dy = y - screenY;
+                return dx * dx + dy * dy <= screenRadius * screenRadius;
+            }
+        }
+
+        // Edge class
+        class Edge {
+            constructor(fromNode, toNode, appearTime, finishTime) {
+                this.fromNode = fromNode;
+                this.toNode = toNode;
+                this.appearTime = appearTime;
+                this.finishTime = finishTime;
+                this.animationTimestamp = 0;
+                this.weight = 1;
+                this.isVisible = false;
+            }
+
+            update(deltaTime, animationTime) {
+                this.isVisible = animationTime >= this.appearTime;
+            }
+
+            render(ctx, viewState) {
+                if (!this.isVisible) return;
+
+                this.animationTimestamp = quadp((viewState.animationTime - this.appearTime) / LINE_POPOUT_INTERVAL,);
+
+                const scale = viewState.scale;
+                const offsetX = viewState.offsetX;
+                const offsetY = viewState.offsetY;
+
+                // Calculate screen position
+                const parentScreenX = this.fromNode.x * scale + offsetX;
+                const parentScreenY = (this.fromNode.y + this.fromNode.radius) * scale + offsetY;
+                const childScreenX = this.toNode.x * scale + offsetX;
+                const childScreenY = (this.toNode.y - this.toNode.radius) * scale + offsetY;
+                const targetX = (1 - this.animationTimestamp) * parentScreenX + this.animationTimestamp * childScreenX
+                const targetY = (1 - this.animationTimestamp) * parentScreenY + this.animationTimestamp * childScreenY
+
+                // Draw edge
+                ctx.beginPath();
+                ctx.moveTo(parentScreenX, parentScreenY);
+                ctx.bezierCurveTo(
+                    parentScreenX, 0.55 * parentScreenY + 0.45 * targetY, 
+                    targetX, 0.45 * parentScreenY + 0.55 * targetY,
+                    targetX, targetY
+                );
+                ctx.lineWidth = 2 * scale;
+                if (viewState.animationTime < this.finishTime) {
+                    ctx.setLineDash([20 * scale, 12 * scale]);
+                    ctx.lineDashOffset = - viewState.animationTime * 20 * scale;
+                }
+                ctx.strokeStyle = `rgba(240, 240, 240, ${this.isVisible ? 0.9 : 0})`;   
+                ctx.stroke();
+                ctx.setLineDash([]);
+            }
+        }
+
+        function isSecondNodeBetter(node1, node2, optim) {
+            if (node1.metric == null && node2.metric == null) return false;
+            if (node1.metric == null) return true;
+            if (node2.metric == null) return false;
+            if (optim == 'high') {
+                if (node1.metric < node2.metric) return true;
+                return false;
+            }
+            else {
+                if (node1.metric > node2.metric) return true;
+                return false;
+            }
+        }
+
+        function calculateHue(metric, comp_info) {
+            if (metric == null) return 330;
+
+            let normalizedValue = 0;
+            if (comp_info.optim == 'high') {
+                if (comp_info.baseline.best <= 1 && comp_info.baseline.median >= 0)
+                    normalizedValue = metric;
+                else
+                    normalizedValue = (Math.tanh((metric - comp_info.baseline.median) / (comp_info.baseline.best - comp_info.baseline.median)) + 1) / 1.761;
+            } else {
+                normalizedValue = (Math.tanh((metric - comp_info.baseline.median) / (comp_info.baseline.best - comp_info.baseline.median)) + 1) / 1.761;
+            }
+
+            return 300 - 60 * normalizedValue;
+        }
+
+        function buildTreeFromJson(data) {
+            // enumerate nodes
+            for (i = 0; i < data.layout.length; i += 1) {
+                const nodePositionX = data.layout[i][0] * viewState.stretchX;
+                const nodePositionY = data.layout[i][1] * viewState.stretchY;
+                const hue = calculateHue(data.metrics[i], data.comp_info);
+                const nodeData = {
+                    id: data.node_id[i],
+                    name: 'Node',
+                    hue: hue,
+                    stage: data.stages[i],
+                    metric: data.is_bug[i] == 'False' ? data.metrics[i] : null,
+                    timestamp: data.timestamps[i],
+                    time_start: data.timestamps_start[i],
+                    ucts: data.ucts[i],
+                    global_step: data.global_step[i],
+                    plan: data.plan[i],
+                    code: data.code[i],
+                    is_bug: data.is_bug[i],
+                    analysis: data.analysis[i]
+                };
+                const node = new TreeNode(nodeData, nodePositionX, nodePositionY, null, 0, index = i);
+                nodes.push(node);
+                nodeMap[node.id] = node;
+            }
+            // enumerate edges
+            if (data.edges.length > 0) nodes[data.edges[0][0]].name = 'Root node';
+            bestNode = nodes[data.edges[0][0]];
+            bestNode.bestNodeSince = 0;
+
+            data.edges.forEach((edgeData, idx) => {
+                const edge = new Edge(
+                    nodes[edgeData[0]], nodes[edgeData[1]], 
+                    nodes[edgeData[1]].time_start / PLAYBACK_RATE + NODE_POPOUT_INTERVAL,
+                    nodes[edgeData[1]].timestamp / PLAYBACK_RATE + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL);
+                nodes[edgeData[1]].appearTime = nodes[edgeData[1]].time_start / PLAYBACK_RATE + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
+                nodes[edgeData[1]].finishTime = nodes[edgeData[1]].timestamp / PLAYBACK_RATE + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
+                nodes[edgeData[1]].name = 'Node ' + idx + ': ' + nodes[edgeData[1]].stage;
+
+                if (isSecondNodeBetter(bestNode, nodes[edgeData[1]], data.comp_info.optim)) {
+                    bestNode.bestNodeUntil = nodes[edgeData[1]].finishTime;
+                    bestNode = nodes[edgeData[1]];
+                    bestNode.bestNodeSince = nodes[edgeData[1]].finishTime;
+                }
+                edges.push(edge);
+            });
+            if (bestNode != nodes[data.edges[0][0]]) bestNode.bestNodeUntil = 2 ** 15; // very large number
+            return;
+        }
+
+        // Reset all nodes to invisible
+        function resetVisibility() {
+            nodes.forEach(node => {
+                node.isVisible = false;
+                node.isHighlighted = false;
+                node.isHovered = false;
+            });
+            edges.forEach(edge => {
+                edge.isVisible = false;
+            });
+            viewState.animationTime = 0;
+            viewState.isAnimating = false;
+            viewState.detailMode = false;
+            viewState.detailNode = null;
+            viewState.hoveredNode = null;
+            infoBox.style.display = 'none';
+        }
+
+        // Start animation
+        function startAnimation() {
+            // reset
+            nodes = [];
+            edges = [];
+            nodeMap = {};
+            datapoint = demoData[currentDemo].detail;
+            layoutInfo = buildLayout(datapoint.edges, datapoint.plan.length);
+            datapoint.comp_info = demoData[currentDemo].comp_info;
+            datapoint.layout = layoutInfo.layout;
+            viewState.stretchX = 80 * layoutInfo.width;
+            viewState.stretchY = 120 * layoutInfo.height;
+            buildTreeFromJson(datapoint);
+            resetView();
+            // start
+            resetVisibility();
+            viewState.isAnimating = true;
+            viewState.animationTime = 0;
+        }
+
+        // Reset view
+        function resetView() {
+            const rect = canvasContainer.getBoundingClientRect();
+            if (nodes.length > 0) {
+                viewState.offsetX = rect.width / viewState.dpr * 0.5 - DEFAULT_SCALE * nodes[0].x;
+                viewState.offsetY = rect.height / viewState.dpr * 0.1 - DEFAULT_SCALE * nodes[0].y;
+            }
+            viewState.scale = DEFAULT_SCALE;
+            viewState.targetScale = DEFAULT_SCALE;
+            resetVisibility();
+            render();
+        }
+
+        // Show node details
+        function showNodeDetails(node) {
+            viewState.detailMode = true;
+            viewState.detailNode = node;
+            
+            // Highlight this node
+            nodes.forEach(n => {
+                n.isHighlighted = false;
+                n.isHovered = false;
+            });
+            node.isHighlighted = true;
+            
+            // Update info box
+            nodeTitle.textContent = node.name;
+            const codeblocks = hljs.highlight(node.code, { language: "python" }).value;
+            nodeContentCode.innerHTML = codeblocks;
+            nodeContent.innerHTML = `
+                <p><strong style="color: #58a6ff">Validation Score:</strong> ${typeof node.metric === 'number' ? node.metric.toFixed(4) : 'N/A'}${node.is_bug == 'True' && (node.analysis != null) ? ' (has bugs)' : ''}</p>
+                <p><strong style="color: #58a6ff">Plan:</strong> ${node.plan}</p>
+                <p><strong style="color: #58a6ff">Insight:</strong> ${node.analysis}</p>
+            `;
+            
+            // Position and show info box
+            const rect = canvasContainer.getBoundingClientRect();
+            if (rect.width < 768) {
+                infoBox.style.left = 10 + 'px';
+                infoBox.style.right = 10 + 'px';
+                infoBox.style.top = (rect.height * 0.40) + 'px';
+                infoBox.style.bottom = '20px';
+            } else {
+                infoBox.style.left = (rect.width * 0.35) + 'px';
+                infoBox.style.right = (rect.width * 0.02) + 'px';
+                infoBox.style.top = '20px';
+                infoBox.style.bottom = '20px';
+            }
+            
+            // infoBox.style.height = (rect.height - 40) + 'px';
+            infoBox.style.display = 'block';
+            infoBox.style.animation = "fadeInUp 0.5s ease-out 0.0s both";
+        }
+
+        // Exit detail mode
+        function exitDetailMode() {
+            viewState.detailMode = false;
+            viewState.detailNode = null;
+            nodes.forEach(n => {
+                n.isHighlighted = false;
+                n.isHovered = false;
+            });
+            infoBox.style.display = 'none';
+            infoBox.style.animation = 'none';
+        }
+
+        // Check for node under mouse position
+        function checkNodeHover(mouseX, mouseY) {
+            // if (viewState.detailMode) return null;
+            
+            // Check nodes in reverse order (so top-most nodes get priority)
+            for (let i = nodes.length - 1; i >= 0; i--) {
+                const node = nodes[i];
+                if (node.containsPoint(mouseX, mouseY, viewState)) {
+                    return node;
+                }
+            }
+            return null;
+        }
+
+        // Update hover state for all nodes
+        function updateHoverState(mouseX, mouseY) {
+            const hoveredNode = checkNodeHover(mouseX, mouseY);
+            
+            // Update hover state for all nodes
+            nodes.forEach(node => {
+                node.isHovered = (node === hoveredNode);
+            });
+            
+            // Update cursor style
+            if (hoveredNode) {
+                canvas.style.cursor = 'pointer';
+            } else if (viewState.isDragging) {
+                canvas.style.cursor = 'grabbing';
+            } else {
+                canvas.style.cursor = 'auto';
+            }
+            
+            viewState.hoveredNode = hoveredNode;
+        }
+
+        // Build Layout
+        function buildLayout(edges, numNodes) {
+            // Step 1: Build the tree
+            const children = Array.from({ length: numNodes }, () => []);
+            const hasParent = Array(numNodes).fill(false);
+            for (const [parent, child] of edges) {
+                children[parent].push(child);
+                hasParent[child] = true;
+            }
+
+            const root = 0;
+            // Step 2: DFS to assign depth and build levels
+            const levels = [];
+            const depth = Array(numNodes).fill(0);
+            function dfs(node, d) {
+                depth[node] = d;
+                if (!levels[d]) levels[d] = [];
+                levels[d].push(node);
+                for (const child of children[node]) {
+                    dfs(child, d + 1);
+                }
+            }
+            dfs(root, 0);
+
+            // Step 3: X positioning (recursive)
+            const layouts = Array.from({ length: numNodes }, () => [0, 0]);
+            const xPos = {};
+            let currentX = 0;
+            function assignX(node) {
+                if (children[node].length === 0) {
+                    xPos[node] = currentX++;
+                } else {
+                    for (const child of children[node]) {
+                        assignX(child);
+                    }
+                    const first = xPos[children[node][0]];
+                    const last = xPos[children[node][children[node].length - 1]];
+                    xPos[node] = (first + last) / 2;
+                }
+            }
+            assignX(root);
+
+            // Normalize X and Y
+            const allX = Object.values(xPos);
+            const minX = Math.min(...allX);
+            const maxX = Math.max(...allX);
+            const rangeX = maxX - minX;
+
+            const maxDepth = levels.length - 1;
+            for (let i = 0; i < numNodes; i++) {
+                const x = (xPos[i] - minX) / rangeX;
+                const y = maxDepth === 0 ? 0 : depth[i] / maxDepth;
+                layouts[i] = [x, y];
+            }
+
+            // Compute width (max number of nodes in a level) and height
+            const width = Math.max(...levels.map(level => level.length));
+            const height = levels.length;
+
+            return {
+                width: width,
+                height: height,
+                layout: layouts
+            };
+        }
+
+
+        // Get accurate mouse position accounting for canvas scaling
+        function getMousePos(canvas, evt) {
+            const rect = canvas.getBoundingClientRect();
+            const dpr = viewState.dpr;
+            
+            return {
+                x: (evt.clientX - rect.left) / dpr,
+                y: (evt.clientY - rect.top)  / dpr
+            };
+        }
+
+        // Main render function
+        function render() {
+            // Clear canvas with transparent background
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Apply DPR scaling
+            ctx.save();
+            ctx.scale(viewState.dpr, viewState.dpr);
+            
+            // Draw all edges first
+            edges.forEach(edge => edge.render(ctx, viewState));
+            
+            // Then draw all nodes
+            nodes.forEach(node => node.render(ctx, viewState));
+            
+            ctx.restore();
+        }
+
+        // Animation loop
+        function animate(timestamp) {
+            if (!lastTimestamp) lastTimestamp = timestamp;
+            const deltaTime = (timestamp - lastTimestamp) / 1000;
+            lastTimestamp = timestamp;
+
+            if (viewState.isAnimating) {
+                viewState.animationTime += deltaTime;
+                
+                // Update all nodes and edges
+                nodes.forEach(node => node.update(deltaTime, viewState.animationTime));
+                edges.forEach(edge => edge.update(deltaTime, viewState.animationTime));
+                
+                // Stop animation after all nodes are visible
+                const allAnimationFinished = nodes.every(node =>(node.finishTime < viewState.animationTime));
+                if (allAnimationFinished) {
+                    viewState.isAnimating = false;
+                    showNodeDetails(bestNode);
+                }
+            }
+
+            // Smooth scaling
+            if (Math.abs(viewState.scale - viewState.targetScale) > 0.001) {
+                const oldScale = viewState.scale;
+                viewState.scale += (viewState.targetScale - viewState.scale) * 0.1;
+                // Adjust offset to zoom toward mouse position 
+                const altMouseX = viewState.scaleWorldX * oldScale + viewState.offsetX; // WorldPos * oldViewScale + currentOffset
+                const altMouseY = viewState.scaleWorldY * oldScale + viewState.offsetY;
+                viewState.offsetX = altMouseX - viewState.scaleWorldX * viewState.scale;
+                viewState.offsetY = altMouseY - viewState.scaleWorldY * viewState.scale;
+            } else {
+                const oldScale = viewState.scale;
+                viewState.scale = viewState.targetScale;
+                // Adjust offset to zoom toward mouse position 
+                const altMouseX = viewState.scaleWorldX * oldScale + viewState.offsetX; // WorldPos * oldViewScale + currentOffset
+                const altMouseY = viewState.scaleWorldY * oldScale + viewState.offsetY;
+                viewState.offsetX = altMouseX - viewState.scaleWorldX * viewState.scale;
+                viewState.offsetY = altMouseY - viewState.scaleWorldY * viewState.scale;
+            }
+
+            // Smooth camera for detailed mode & out of border
+            const rect = canvasContainer.getBoundingClientRect();
+            if (viewState.detailMode) {
+                if (rect.width < 768) {
+                    targetX = rect.width * 0.5 / viewState.dpr;
+                    targetY = rect.height * 0.1 / viewState.dpr;
+                }
+                else {
+                    targetX = rect.width * 0.175 / viewState.dpr;
+                    targetY = rect.height * 0.25 / viewState.dpr;
+                }
+                
+                
+                const targetOffsetX = targetX - viewState.detailNode.x * viewState.scale;
+                const targetOffsetY = targetY - viewState.detailNode.y * viewState.scale;
+
+                viewState.offsetX = lerp(viewState.offsetX, targetOffsetX, 0.2);
+                viewState.offsetY = lerp(viewState.offsetY, targetOffsetY, 0.2);
+                viewState.targetScale = 0.6;
+            } else {
+                if (viewState.offsetX < - viewState.stretchX * viewState.scale + rect.width * 0.05 / viewState.dpr) 
+                    viewState.offsetX = lerp(viewState.offsetX, - viewState.stretchX * viewState.scale + rect.width * 0.05 / viewState.dpr, 0.2);
+                if (viewState.offsetX > rect.width * 0.95 / viewState.dpr)
+                    viewState.offsetX = lerp(viewState.offsetX, rect.width * 0.95 / viewState.dpr, 0.2);
+                if (viewState.offsetY < - viewState.stretchY * viewState.scale + rect.height * 0.05 / viewState.dpr) 
+                    viewState.offsetY = lerp(viewState.offsetY, - viewState.stretchY * viewState.scale + rect.height * 0.05 / viewState.dpr, 0.2);
+                if (viewState.offsetY > rect.height * 0.95 / viewState.dpr)
+                    viewState.offsetY = lerp(viewState.offsetY, rect.height * 0.95 / viewState.dpr, 0.2);
+            }
+            
+            
+            /*!*/
+
+            render();
+            requestAnimationFrame(animate);
+        }
+
+        function skipAnimation() {
+            const animationEndTime = Math.max(...nodes.map(node => node.finishTime)) + NODE_POPOUT_INTERVAL + LINE_POPOUT_INTERVAL;
+            viewState.animationTime = animationEndTime;
+            // showNodeDetails(bestNode);
+        }
+
+        // Event listeners
+        canvas.addEventListener('mousedown', (e) => {
+            // if (viewState.detailMode) return;
+            
+            const mousePos = getMousePos(canvas, e);
+            
+            viewState.isDragging = true;
+            viewState.lastX = mousePos.x;
+            viewState.lastY = mousePos.y;
+            viewState.isClick = true;
+            
+            updateHoverState(mousePos.x, mousePos.y);
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mousePos = getMousePos(canvas, e);
+            
+            if (viewState.detailMode) {
+                updateHoverState(mousePos.x, mousePos.y);
+                return;
+            }
+            
+            if (viewState.isDragging) {
+                const dx = mousePos.x - viewState.lastX;
+                const dy = mousePos.y - viewState.lastY;
+                
+                if (Math.abs(dx) > 5 || Math.abs(dy) > 5) {
+                    viewState.isClick = false;
+                }
+                
+                viewState.offsetX += dx;
+                viewState.offsetY += dy;
+                
+                viewState.lastX = mousePos.x;
+                viewState.lastY = mousePos.y;
+            }
+            
+            updateHoverState(mousePos.x, mousePos.y);
+        });
+
+        canvas.addEventListener('mouseup', (e) => {
+            const mousePos = getMousePos(canvas, e);
+            
+            if (viewState.detailMode) {
+                viewState.isDragging = false;
+                const clickedNode = checkNodeHover(mousePos.x, mousePos.y);
+                if (clickedNode === null) {
+                    exitDetailMode();
+                }
+                // return;
+            }
+            
+            viewState.isDragging = false;
+            
+            if (viewState.isClick) {
+                const clickedNode = checkNodeHover(mousePos.x, mousePos.y);
+                if (clickedNode) {
+                    showNodeDetails(clickedNode);
+                }
+            }
+            
+            viewState.isClick = false;
+        });
+
+        canvas.addEventListener('mouseleave', () => {
+            viewState.isDragging = false;
+            viewState.isClick = false;
+            
+            nodes.forEach(node => node.isHovered = false);
+            viewState.hoveredNode = null;
+            canvas.style.cursor = 'grab';
+        });
+
+        canvas.addEventListener('wheel', (e) => {
+            if (viewState.detailMode) return;
+            if (viewState.animationTime == 0) return;
+            e.preventDefault();
+            
+            const mousePos = getMousePos(canvas, e);
+            
+            // Convert mouse position to world coordinates
+            viewState.scaleWorldX = (mousePos.x - viewState.offsetX) / viewState.scale;
+            viewState.scaleWorldY = (mousePos.y - viewState.offsetY) / viewState.scale;
+            viewState.scaleMouseX = mousePos.x;
+            viewState.scaleMouseY = mousePos.y;
+            viewState.scaleBaseOffsetX = viewState.offsetX;
+            viewState.scaleBaseOffsetY = viewState.offsetY;
+            
+            // Calculate zoom factor
+            const zoomFactor = e.deltaY < 0 ? 1.1 : 0.9;
+            viewState.targetScale *= zoomFactor;
+            viewState.targetScale = Math.max(SCALE_MIN, Math.min(SCALE_MAX, viewState.targetScale));
+            
+            updateHoverState(mousePos.x, mousePos.y);
+        });
+
+        document.getElementById('start-btn').addEventListener('click', startAnimation);
+        document.getElementById('reset-btn').addEventListener('click', resetView);
+        document.getElementById('skip-btn').addEventListener('click', skipAnimation);
+        closeBtn.addEventListener('click', exitDetailMode);
+
+        // Start animation loop
+        let lastTimestamp;
+        requestAnimationFrame(animate);
+
+        // Initialize
+        resetView();
+    </script>
+</body>
+</html>
