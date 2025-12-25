@@ -16,6 +16,7 @@
 
 # ML-Master 2.0: Next-Generation AI-for-AI Agent
 [![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master)
+[![WeChat](https://img.shields.io/badge/WeChat-新智元-lightgreen)](https://mp.weixin.qq.com/s/dv1MD5S2vr3MB-skV4Thrw)
 
 **ML-Master 2.0** is a next-generation AI-for-AI agent achieving breakthrough performance through deep integration of exploration and reasoning.
 
