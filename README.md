@@ -227,7 +227,7 @@ We welcome discussions, questions, and feedback! Join our WeChat group:
 
 <div align="center">
 
-<img src="./assets/Wechat_Group.png" alt="WeChat Group" height="300">
+<img src="./assets/Wechat_Group.png" alt="WeChat Group" height="400">
 
 </div>
 
