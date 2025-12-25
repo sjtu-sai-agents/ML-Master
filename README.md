@@ -221,6 +221,16 @@ We would like to express our sincere thanks to the following open-source project
 * 🌲 **[AIDE](https://github.com/WecoAI/aideml)** — for offering a powerful tree-search-based AutoML code framework that inspired parts of our implementation.
 
 
+## 💬 Contact Us
+
+We welcome discussions, questions, and feedback! Join our WeChat group:
+
+<div align="center">
+
+<img src="./assets/Wechat_Group.png" alt="WeChat Group" height="300">
+
+</div>
+
 ## ✍️ Citation
 
 If you find our work helpful, please use the following citations.
