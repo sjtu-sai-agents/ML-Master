@@ -5,7 +5,7 @@
 </div>
 
 ## 📰 What's New
-
+- [2026/01/16] Release the preprint version of ML-Master 2.0! See the [ArXiv](https://arxiv.org/abs/2601.10402).
 - [2025/12/16] 🎉 **ML-Master 2.0 reaches new heights!**  Achieving #1 on [MLE-Bench](https://github.com/openai/mle-bench) Leaderboard with 56.44% overall performance (92.7% improvement over 1.0).
 - [2025/10/30] We upload a new branch `feature-dev` with improved readability and maintainability. If you need to continue developing on ML-Master or apply ML-Master to downstream tasks, please switch the branch to `feature-dev`. 
 - [2025/10/29] We now provide a Docker image for environment setup! Check it out [here](https://hub.docker.com/r/sjtuagents/ml-master).
@@ -14,12 +14,17 @@
 - [2025/06/19] Release the preprint version! See the [ArXiv](https://arxiv.org/abs/2506.16499).
 - [2025/06/17] Release the initial version! See the initial manuscript [here](./assets/ML-Master_github.pdf).
 
-# ML-Master 2.0: Next-Generation AI-for-AI Agent
+# ML-Master 2.0: Cognitive Accumulation for Ultra-Long-Horizon Agentic Science in Machine Learning Engineering
 [![project](https://img.shields.io/badge/project-Page-blue)](https://sjtu-sai-agents.github.io/ML-Master)
+[![arXiv](https://img.shields.io/badge/arXiv-2601.10402-b31b1b.svg)](https://arxiv.org/abs/2601.10402)
 [![WeChat](https://img.shields.io/badge/WeChat-新智元-lightgreen)](https://mp.weixin.qq.com/s/dv1MD5S2vr3MB-skV4Thrw)
 
-**ML-Master 2.0** is a next-generation AI-for-AI agent achieving breakthrough performance through deep integration of exploration and reasoning.
 
+## 🚀 Overview
+
+**ML-Master 2.0** is a pioneering agentic science framework that tackles the challenge of ultra-long-horizon autonomy through cognitive accumulation, facilitated by a Hierarchical Cognitive Caching (HCC) architecture that dynamically distills transient execution traces into stable long-term knowledge, ensuring that tactical execution and strategic planning remain decoupled yet co-evolve throughout complex, long-horizon scientific explorations. 
+
+![ML-Master 2.0](./assets/ML-Master2.0-figure.png)
 
 ## 📊 Performance Highlights
 
@@ -34,6 +39,12 @@
 | 🟡 Medium Complexity       | 20.18         | **50.88**     | **+152.2% ↑**      |
 | 🔴 High Complexity         | 24.44         | **42.22**     | **+72.8% ↑**       |
 
+## 📆 Coming Soon
+
+- [x] Grading report release
+- [x] Paper release of ML-Master 2.0
+- [ ] Initial code release of ML-Master 2.0
+
 ## 🙏 Acknowledgements
 <table align="center">
   <tr>
@@ -46,6 +57,34 @@
     </td>
   </tr>
 </table>
+
+## ✍️ Citation
+
+If you find our work helpful, please use the following citations.
+
+```bibtex
+@misc{zhu2026ultralonghorizonagenticsciencecognitive,
+      title={Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering}, 
+      author={Xinyu Zhu and Yuzhu Cai and Zexi Liu and Bingyang Zheng and Cheng Wang and Rui Ye and Jiaao Chen and Hanrui Wang and Wei-Chen Wang and Yuzhi Zhang and Linfeng Zhang and Weinan E and Di Jin and Siheng Chen},
+      year={2026},
+      eprint={2601.10402},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2601.10402}, 
+}
+```
+
+```bibtex
+@misc{liu2025mlmasteraiforaiintegrationexploration,
+      title={ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning}, 
+      author={Zexi Liu and Yuzhu Cai and Xinyu Zhu and Yujie Zheng and Runkun Chen and Ying Wen and Yanfeng Wang and Weinan E and Siheng Chen},
+      year={2025},
+      eprint={2506.16499},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2506.16499}, 
+}
+```
 
 ---
 
