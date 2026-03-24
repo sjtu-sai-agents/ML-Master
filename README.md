@@ -5,6 +5,7 @@
 </div>
 
 ## 📰 What's New
+- [2026/03/24] We have expanded ML-Master 2.0 into a self-evolving scientific agent framework, **[EvoMaster](https://github.com/sjtu-sai-agents/EvoMaster)**, and officially open-sourced it! Furthermore, we have implemented the 2025 SciMaster series agents (including ML-Master 1.0/2.0, [X-Master](https://github.com/sjtu-sai-agents/X-Master), and [Browse-Master](https://github.com/sjtu-sai-agents/Browse-Master)) based on **[EvoMaster](https://github.com/sjtu-sai-agents/EvoMaster)**. Please stay tuned for more updates on **[EvoMaster](https://github.com/sjtu-sai-agents/EvoMaster)**! Rest assured, we will continue to actively maintain this repository as well.
 - [2026/01/16] Release the preprint version of ML-Master 2.0! See the [ArXiv](https://arxiv.org/abs/2601.10402).
 - [2025/12/16] 🎉 **ML-Master 2.0 reaches new heights!**  Achieving #1 on [MLE-Bench](https://github.com/openai/mle-bench) Leaderboard with 56.44% overall performance (92.7% improvement over 1.0). Thanks to [EigenAI](https://www.eigenai.com/) for their high-performance AI infrastructure support.
 - [2025/10/30] We upload a new branch `feature-dev` with improved readability and maintainability. If you need to continue developing on ML-Master or apply ML-Master to downstream tasks, please switch the branch to `feature-dev`. 
@@ -43,7 +44,7 @@
 
 - [x] Grading report release
 - [x] Paper release of ML-Master 2.0
-- [ ] Initial code release of ML-Master 2.0
+- [x] Initial code release of ML-Master 2.0
 
 ## 🙏 Acknowledgements
 <table align="center">
